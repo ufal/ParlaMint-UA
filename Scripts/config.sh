@@ -5,6 +5,9 @@ checksum_file=download-checksum.txt
 seen_file=download-seen.txt
 
 
+url_source_html(){
+  echo "https://data.rada.gov.ua/ogd/zal/stenogram/skl$1/$2"
+}
 
 url_meta() {
   echo "https://data.rada.gov.ua/ogd/zal/stenogram/skl$1/meta.xml"
