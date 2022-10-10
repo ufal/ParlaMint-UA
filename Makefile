@@ -17,8 +17,8 @@ download-NN = $(addprefix download-, $(TERMS))
 ## download ## downloads new data from all terms defined in variable TERM
 download: $(download-NN)
 ## download-NN ## Downloads new data from term NN
-$(download-NN): download-%: %
-	./Scripts/download.sh -t $< -d $(DATE) -O $(DATADIR) -c Scripts/config.sh || echo "$@: NO NEW DATA"
+$(download-NN): download-%:
+	./Scripts/download.sh -t $* -d $(DATE) -O $(DATADIR) -c Scripts/config.sh || echo "$@: NO NEW DATA"
 
 
 
@@ -31,8 +31,6 @@ $(download-NN): download-%: %
 
 
 ######---------------
-.PHONY: $(TERMS)
-$(TERMS):
 
 _help-intro:
 	@echo "\n "
