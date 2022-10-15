@@ -22,6 +22,27 @@ $(download-NN): download-%:
 
 
 
+DOWNLOAD_DATA_ALL := $(shell ls $(DATADIR)/download)
+DOWNLOAD_DATA_LAST := $(shell ls $(DATADIR)/download | sort -r | head -n1)
+
+PROCESS_SUBSET := --process-subset "20220224"
+
+.PHONY: $(html2tei-text-RUN) html2tei-text
+html2tei-text-RUN-ALL = $(addprefix html2tei-text-, $(DOWNLOAD_DATA_ALL))
+html2tei-text-RUN-LAST = $(addprefix html2tei-text-, $(DOWNLOAD_DATA_LAST))
+## html2tei-text ## html2tei-texts
+html2tei-text: html2tei-text-last
+html2tei-text-last: $(html2tei-text-RUN-LAST)
+html2tei-text-all: $(html2tei-text-RUN-ALL)
+
+## html2tei-text-RUN ##
+$(html2tei-text-RUN-ALL): html2tei-text-%:
+	echo "TODO $*"
+	./Scripts/html2tei-text.pl --id $* \
+	                           --data-dir "$(DATADIR)" \
+	                           --config Scripts/config.sh \
+	                           --file-id "ParlaMint-UA" \
+	                           $(PROCESS_SUBSET)
 
 
 
