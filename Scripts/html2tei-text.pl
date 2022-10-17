@@ -11,6 +11,9 @@ use XML::LibXML::PrettyPrint;
 use Encode;
 use HTML::Entities;
 
+use File::Basename;
+use File::Path;
+
 my ($data_dir, $run_id, $config_path, $process_subset,$file_id);
 
 
@@ -64,11 +67,13 @@ for my $fileIn (@file_list){
   $div->setAttribute('type','debateSection');
   my ($chair,$sitting_date,$doc_proc_state);
 
-  my @p = $htm->findnodes('/html/body/*');
+  my @p = $htm->findnodes('/html/body/text() | /html/body/p | /html/body/div/p ');
+  print STDERR "number of paragraphs:",scalar @p,"\n";
   # processing text header
   # date
   add_note($div,(shift @p)->textContent);
   # title
+=x
   while(@p && $p[0] && $p[0]->hasAttribute('align')){
     my $content = (shift @p)->textContent;
     if($content =~ m/.* Верховної Ради України ([^\s]+\s+.\..\.)\s*$/){
@@ -77,29 +82,51 @@ for my $fileIn (@file_list){
     }
     add_note($div,$content);
   }
+=cut
   my $utterance;
+  my $chair_is_next;
   while(my $p = shift @p){
     next unless $p->hasChildNodes();
     my $seg;
     my $is_first = 1;
-    if($p->hasAttribute('align')){
-      if($p->textContent =~ m/.* Верховної Ради України ([^\s]+\s+.\..\.)\s*$/){
+    my ($p_category, $p_data) = get_p_category($p);
+    # print STDERR "P CATEGORY: $p_category\n";
+    next if $p_category eq 'empty';
+    if($p_category eq 'process_note' || $p_category eq 'change_chair'){
+      # print STDERR $p;
+      if($p_category eq 'change_chair'){
+        $chair = $p_data;
+        print STDERR "CHAIR: $chair\n";
+      } elsif ($p->textContent =~ m/.* Верховної Ради України/){
+        $chair_is_next = 1;
+        # print STDERR "chair is in next paragraph\n";
+      } elsif ($chair_is_next && $p->textContent =~ m/([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*)/){
         $chair = $1;
         print STDERR "CHAIR: $chair\n";
       }
+      undef $chair_is_next if $chair;
       add_note($div,$p->textContent);
-      undef $utterance;
+      #undef $utterance;
       next;
     }
-
-
+    if($p_category eq 'time_note'){
+      # print STDERR $p;
+      add_time_note($seg // $utterance // $div,$p->textContent);
+      next;
+    }
+    print STDERR "ERROR: missing chair\n" unless $chair;
     for my $pchild ($p->nonBlankChildNodes()){
       if(ref $pchild eq 'XML::LibXML::Text'){
         my $content = $pchild->data;
-        my ($is_chair) = $content =~ s/^\s*ГОЛОВУЮЧ(?:ИЙ|А)./$chair/;
-        if($content =~ m/^\d\d:\d\d:\d\d$/){ # time
-          add_time_note($seg // $utterance // $div,$content);
-        } elsif($is_first && (my ($speaker,$speech) = $content =~ m/^\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*\.)\s*(.*)/)) {
+        my ($is_chair) = $content =~ m/^\s*ГОЛОВУЮЧ(?:ИЙ|А).?/;
+        if($is_chair){
+          if($chair){
+            $content =~ s/^\s*ГОЛОВУЮЧ(?:ИЙ|А)\.?/$chair\./;
+          } else {
+            print STDERR "ERROR: missing chair person name\n";
+          }
+        }
+        if($is_first && (my ($speaker,$speech) = $content =~ m/^\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*\.)\.*\s*(.*)/)) {
           while($utterance && (my $last_child = ($utterance->childNodes())[-1])){ # moving non seg nodes after utterance
             unless($last_child->nodeName eq 'seg'){
               $last_child->unbindNode;
@@ -108,7 +135,7 @@ for my $fileIn (@file_list){
               last;
             }
           }
-          print "NEW UTTERANCE: '\n\t$1\n\t$2\n";
+          # print "NEW UTTERANCE: '\n\t$1\n\t$2\n";
           add_note($div,$speaker)->setAttribute('type','speaker');
           $utterance = $div->addNewChild(undef,'u');
           $utterance->setAttribute('who',$speaker);
@@ -116,30 +143,121 @@ for my $fileIn (@file_list){
           if($speech){
             $seg = $utterance->appendTextChild('seg',$speech);
           }
-        } else {
+        } elsif($content !~ m/^\s*$/) {
+          unless($utterance){
+            #print_xml($tei);
+            print  "NO ACTIVE UTTERANCE!!! appeared in: $fileIn\n";
+            print STDERR "Trying to add '$pchild'\n";
+          }
           $seg = $utterance->addNewChild(undef,'seg') unless $seg;
-          $seg->appendText($pchild)
+          $seg->appendText($pchild);
         }
         undef $is_first;
       } else {
-        print STDERR $pchild;
         if($pchild->nodeName eq 'i'){
           add_note($seg // $utterance // $div,$pchild->textContent);
         } else {
-          print STDERR "=======?? ",$pchild,"\n";
+          print STDERR "WARN: unknown node:",$pchild," ($fileIn)\n";
         }
 
       }
     }
+    while($seg && (my $last_child = ($seg->childNodes())[-1])){ # moving non seg nodes after utterance
+      unless(ref $last_child eq 'XML::LibXML::Text'){
+        $last_child->unbindNode;
+        print STDERR "moving node after seg: '",$last_child,"'\n";
+        $utterance->insertAfter($last_child,$seg);
+      } else {
+        $last_child->replaceDataRegEx('\s*$','');
+        last;
+      }
+    }
     undef $seg;
-    print STDERR $p;
   }
-  print_xml($tei);
 
+  while($utterance && (my $last_child = ($utterance->childNodes())[-1])){ # moving non seg nodes after utterance
+    unless($last_child->nodeName eq 'seg'){
+      $last_child->unbindNode;
+        $div->insertAfter($last_child,$utterance);
+    } else {
+      last;
+    }
+  }
+  save_xml($tei,$fileOut);
+
+}
+
+print STDERR (scalar @file_list)," files processed\n";
+
+
+
+
+
+sub add_note {
+  my ($context,$text) = @_;
+  $text =~ s/^\s*|\s*$//g;
+  return unless $text;
+  #print STDERR "adding note '$text'\n";
+  my $note = $context->addNewChild(undef,'note');
+  $note->appendText($text);
+  return $note;
+}
+
+
+sub add_time_note {
+  my ($context,$text) = @_;
+  #print STDERR "adding time note '$text'\n";
+  return add_note($context, "($text)")->setAttribute('type','time');
+}
+
+
+sub get_p_category {
+  my $node = shift;
+  return 'empty' unless $node;
+  return 'process_note' if ref $node eq 'XML::LibXML::Text';
+  my @childnodes = $node->childNodes();
+  my $content = $node->textContent;
+  my $not_spaced_content = $content;
+  $not_spaced_content =~ s/(\d+\s+)/$1 /g;
+  $not_spaced_content =~ s/(\s+\d+)/ $1/g;
+  $not_spaced_content =~ s/\b\s\b//g;
+  $not_spaced_content =~ s/\s+/ /g;
+  $not_spaced_content =~ s/^\s*|\s*$//g;
+
+  $content =~ s/\s+/ /g;
+
+  return 'empty' if $not_spaced_content eq '';
+  return 'time_note' if $not_spaced_content =~  m/^\(?\s*\d+ година\.\s*\)?$/;
+  return 'time_note' if $not_spaced_content =~  m/^\d\d:\d\d:\d\d$/;
+  return 'time_note' if $not_spaced_content =~  m/^\s*\d+ \w+ \d\d\d\d року, \d+(?:[:\.]\s*\d\d)? година\s*$/;
+
+  return @{['change_chair',$1]} if $content =~ m/.* Верховної Ради України \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*)\s*$/;
+  return @{['change_chair',$1]} if $content =~ m/^\s*Веде засідання Голова [Пп]ідготовчої депутатської групи \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*)\s*$/;
+  return @{['change_chair',$1]} if $content =~ m/^\s*Веде засідання \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*)\s*$/;
+
+  # return 'speech' if @childnodes > 1; # not working - other content appears even in notes
+
+  return 'process_note' if $content =~ m/^\s*(?:|ПОЗАЧЕРГОВЕ|УРОЧИСТЕ)?\s*ЗАСІДАННЯ/;
+  return 'process_note' if $content =~ m/^\s*ЗАСІДАННЯ /;
+  return 'process_note' if $content =~ m/^\s*(?:Сесійна зала|Сесійний зал) Верховної Ради України\s*$/;
+
+  return 'process_note' if $content =~ m/^\s*Веде засідання (?:заступник )?Голов[аи] Верховної Ради України\s*$/;
+  return 'process_note' if $content =~ m/\d+\s+\w+\s+\d+\s+року,\s+\d+\s+година/;
+  return 'process_note' if $content =~  m/.* Верховної Ради України ([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*)\s*$/;
+  return 'process_note' if $not_spaced_content =~  m/Сесійний зал Верховної Ради$/;
+  return 'process_note' if $not_spaced_content =~  m/^України\. \d+ \w+ \d\d\d\d року\.$/;
+  return 'process_note' if $content =~  m/(?: .){5}/ && $content !~  m/\w{5}/; # spaced text detection (contains spaced word len>5 and donesnt contain nonspaced)
+
+  return 'process_note' if $node->hasAttribute('align') && $node->getAttribute('align') eq 'center';
+  return 'unknown';
 }
 
 
 
+
+
+
+################################################
 sub open_html {
   my $file = shift;
   my $params = shift // {};
@@ -157,7 +275,6 @@ sub open_html {
   } else {
     my $parser = XML::LibXML->new(load_ext_dtd => 0, clean_namespaces => 1, recover => 2);
     $doc = "";
-    print STDERR "convert to UTF-8 !!!";
     eval { $doc = $parser->parse_html_string($rawxml); };
     if ( !$doc ) {
       print " -- invalid XML in $file\n";
@@ -169,26 +286,6 @@ sub open_html {
   }
   return $doc
 }
-
-
-
-sub add_note {
-  my ($context,$text) = @_;
-  $text =~ s/^\s*|\s*$//g;
-  return unless $text;
-  print STDERR "adding note '$text'\n";
-  my $note = $context->addNewChild(undef,'note');
-  $note->appendText($text);
-  return $note;
-}
-
-
-sub add_time_note {
-  my ($context,$text) = @_;
-  print STDERR "adding time note '$text'\n";
-  return $context->appendTextChild('note',"($text)");
-}
-
 
 sub to_string {
   my $doc = shift;
@@ -210,4 +307,15 @@ sub print_xml {
   my $doc = shift;
   binmode STDOUT;
   print to_string($doc);
+}
+
+sub save_xml {
+  my ($doc,$filename) = @_;
+  my $dir = dirname($filename);
+  File::Path::mkpath($dir) unless -d $dir;
+  open FILE, ">$filename";
+  binmode FILE;
+  my $raw = to_string($doc);
+  print FILE $raw;
+  close FILE;
 }
