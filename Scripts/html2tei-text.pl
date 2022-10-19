@@ -89,22 +89,23 @@ for my $fileIn (@file_list){
     next unless $p->hasChildNodes();
     my $seg;
     my $is_first = 1;
-    my ($p_category, $p_data) = get_p_category($p);
-    # print STDERR "P CATEGORY: $p_category\n";
+    my ($p_category, $p_data) = get_p_category($p,$chair_is_next);
+    # print STDERR "P CATEGORY: $p_category $p\n";
     next if $p_category eq 'empty';
-    if($p_category eq 'process_note' || $p_category eq 'change_chair'){
-      # print STDERR $p;
-      if($p_category eq 'change_chair'){
+    if($p_category eq 'process_note' || $p_category eq 'change_chair' || $p_category eq 'change_chair_next'){
+      if($p_category eq 'change_chair' && $p_data){
         $chair = $p_data;
         print STDERR "CHAIR: $chair\n";
-      } elsif ($p->textContent =~ m/.* Верховної Ради України/){
+      } elsif ($p_category eq 'change_chair_next'){
+        print STDERR "chair is next: $p\n";
+        # undef $chair; <- there is sometime no chair change, even if the prevous line slightly suggest it
+        if($p_data){
+          print STDERR "adding temporary chairman role: $p_data\n";
+          $chair = $p_data;
+        }
         $chair_is_next = 1;
-        # print STDERR "chair is in next paragraph\n";
-      } elsif ($chair_is_next && $p->textContent =~ m/([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*)/){
-        $chair = $1;
-        print STDERR "CHAIR: $chair\n";
       }
-      undef $chair_is_next if $chair;
+      undef $chair_is_next if $chair && !($p_category eq 'change_chair_next');
       add_note($div,$p->textContent);
       #undef $utterance;
       next;
@@ -120,7 +121,7 @@ for my $fileIn (@file_list){
         my $content = $pchild->data;
         my ($is_chair) = $content =~ m/^\s*ГОЛОВУЮЧ(?:ИЙ|А).?/;
         if($is_chair && ! $chair){
-          print STDERR "ERROR: missing chair person name\n";
+          print STDERR "ERROR: missing chair person name\n";die;
         }
         if($is_first && (my ($speaker,$speech) = $content =~ m/^\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*\.|ГОЛОВУЮЧ(?:ИЙ|А).?)\.*\s*(.*)/)) {
           while($utterance && (my $last_child = ($utterance->childNodes())[-1])){ # moving non seg nodes after utterance
@@ -161,7 +162,6 @@ for my $fileIn (@file_list){
     while($seg && (my $last_child = ($seg->childNodes())[-1])){ # moving non seg nodes after utterance
       unless(ref $last_child eq 'XML::LibXML::Text'){
         $last_child->unbindNode;
-        print STDERR "moving node after seg: '",$last_child,"'\n";
         $utterance->insertAfter($last_child,$seg);
       } else {
         $last_child->replaceDataRegEx('\s*$','');
@@ -209,6 +209,7 @@ sub add_time_note {
 
 sub get_p_category {
   my $node = shift;
+  my $chair_is_next = shift;
   return 'empty' unless $node;
   return 'process_note' if ref $node eq 'XML::LibXML::Text';
   my @childnodes = $node->childNodes();
@@ -227,9 +228,12 @@ sub get_p_category {
   return 'time_note' if $not_spaced_content =~  m/^\d\d:\d\d:\d\d$/;
   return 'time_note' if $not_spaced_content =~  m/^\s*\d+ \w+ \d\d\d\d року, \d+(?:[:\.]\s*\d\d)? година\s*$/;
 
-  return @{['change_chair',$1]} if $content =~ m/.* Верховної Ради України \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*)\s*$/;
-  return @{['change_chair',$1]} if $content =~ m/^\s*Веде засідання Голова [Пп]ідготовчої депутатської групи \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*)\s*$/;
-  return @{['change_chair',$1]} if $content =~ m/^\s*Веде засідання \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*)\s*$/;
+  return @{['change_chair',$1]} if $content =~ m/.* Верховної Ради України \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
+  return @{['change_chair',$1]} if $content =~ m/^\s*Веде засідання [Гг]олов[аи] [Пп]ідготовчої депутатської групи \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
+  return @{['change_chair',$1]} if $content =~ m/^\s*Веде засідання \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
+  return @{['change_chair',$1]} if $content =~ m/^\s*Засідання веде (?:\w+ ){0,6}\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
+  return @{['change_chair',$1]} if $chair_is_next && $content =~ m/^\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
+  return @{['change_chair',$1]} if $chair_is_next && $content =~ m/^\s*Верховної Ради України ([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
 
   # return 'speech' if @childnodes > 1; # not working - other content appears even in notes
 
@@ -237,9 +241,10 @@ sub get_p_category {
   return 'process_note' if $content =~ m/^\s*ЗАСІДАННЯ /;
   return 'process_note' if $content =~ m/^\s*(?:Сесійна зала|Сесійний зал) Верховної Ради України\s*$/;
 
-  return 'process_note' if $content =~ m/^\s*Веде засідання (?:заступник )?Голов[аи] Верховної Ради України\s*$/;
+  return @{['change_chair_next',$1]} if $content =~ m/^\s*Веде засідання ((?:\w+ ){0,3}[Гг]олов[аи]) Верховної Ради України\s*$/;
+  return @{['change_chair_next',$1]} if $content =~ m/^\s*Веде засідання ((?:\w+ ){0,3}[Гг]олов[аи])\s*$/;
   return 'process_note' if $content =~ m/\d+\s+\w+\s+\d+\s+року,\s+\d+\s+година/;
-  return 'process_note' if $content =~  m/.* Верховної Ради України ([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*)\s*$/;
+
   return 'process_note' if $not_spaced_content =~  m/Сесійний зал Верховної Ради$/;
   return 'process_note' if $not_spaced_content =~  m/^України\. \d+ \w+ \d\d\d\d року\.$/;
   return 'process_note' if $content =~  m/(?: .){5}/ && $content !~  m/\w{5}/; # spaced text detection (contains spaced word len>5 and donesnt contain nonspaced)
