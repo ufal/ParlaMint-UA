@@ -119,14 +119,10 @@ for my $fileIn (@file_list){
       if(ref $pchild eq 'XML::LibXML::Text'){
         my $content = $pchild->data;
         my ($is_chair) = $content =~ m/^\s*ГОЛОВУЮЧ(?:ИЙ|А).?/;
-        if($is_chair){
-          if($chair){
-            $content =~ s/^\s*ГОЛОВУЮЧ(?:ИЙ|А)\.?/$chair\./;
-          } else {
-            print STDERR "ERROR: missing chair person name\n";
-          }
+        if($is_chair && ! $chair){
+          print STDERR "ERROR: missing chair person name\n";
         }
-        if($is_first && (my ($speaker,$speech) = $content =~ m/^\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*\.)\.*\s*(.*)/)) {
+        if($is_first && (my ($speaker,$speech) = $content =~ m/^\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*\.|ГОЛОВУЮЧ(?:ИЙ|А).?)\.*\s*(.*)/)) {
           while($utterance && (my $last_child = ($utterance->childNodes())[-1])){ # moving non seg nodes after utterance
             unless($last_child->nodeName eq 'seg'){
               $last_child->unbindNode;
@@ -138,7 +134,7 @@ for my $fileIn (@file_list){
           # print "NEW UTTERANCE: '\n\t$1\n\t$2\n";
           add_note($div,$speaker)->setAttribute('type','speaker');
           $utterance = $div->addNewChild(undef,'u');
-          $utterance->setAttribute('who',$speaker);
+          $utterance->setAttribute('who',$is_chair ? $chair : $speaker);
           $utterance->setAttribute('ana',$is_chair ? '#chair':'#regular');
           if($speech){
             $seg = $utterance->appendTextChild('seg',$speech);
