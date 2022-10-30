@@ -192,6 +192,8 @@ print STDERR (scalar @file_list)," files processed\n";
 sub add_note {
   my ($context,$text) = @_;
   $text =~ s/^\s*|\s*$//g;
+  $text =~ s/\s\s+/ /g;
+
   return unless $text;
   #print STDERR "adding note '$text'\n";
   my $note = $context->addNewChild(undef,'note');
