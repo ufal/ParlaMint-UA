@@ -123,7 +123,10 @@ for my $fileIn (@file_list){
         if($is_chair && ! $chair){
           print STDERR "ERROR: missing chair person name\n";die;
         }
-        if($is_first && (my ($speaker,$speech) = $content =~ m/^\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*\.|ГОЛОВУЮЧ(?:ИЙ|А).?)\.*\s*(.*)/)) {
+        if($is_first
+          && $content !~ m/^\s*[ЄЯ]\.\.*\s*/
+          && (my ($speaker,$speech) = $content =~ m/^\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]{2,}\.|ГОЛОВУЮЧ(?:ИЙ|А).?)\.*\s*(.*)/)
+          ) {
           while($utterance && (my $last_child = ($utterance->childNodes())[-1])){ # moving non seg nodes after utterance
             unless($last_child->nodeName eq 'seg'){
               $last_child->unbindNode;
@@ -132,7 +135,7 @@ for my $fileIn (@file_list){
               last;
             }
           }
-          # print "NEW UTTERANCE: '\n\t$1\n\t$2\n";
+          print STDERR "NEW UTTERANCE:\t$speaker\t$fileIn\n";
           add_note($div,$speaker)->setAttribute('type','speaker');
           $utterance = $div->addNewChild(undef,'u');
           $utterance->setAttribute('who',$is_chair ? $chair : $speaker);
@@ -193,6 +196,10 @@ sub add_note {
   my ($context,$text) = @_;
   $text =~ s/^\s*|\s*$//g;
   $text =~ s/\s\s+/ /g;
+  if($text =~ m/^[^\w\d]*$/ or $text =~ m/^[^\w\d]*\w[^\w\d]*$/){
+    $context->appendText($text);
+    return;
+  }
 
   return unless $text;
   #print STDERR "adding note '$text'\n";
