@@ -127,15 +127,6 @@ for my $fileIn (@file_list){
           && $content !~ m/^\s*[ЄЯ]\.\.*\s*/
           && (my ($speaker,$speech) = $content =~ m/^\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]{2,}\.|ГОЛОВУЮЧ(?:ИЙ|А).?)\.*\s*(.*)/)
           ) {
-          while($utterance && (my $last_child = ($utterance->childNodes())[-1])){ # moving non seg nodes after utterance
-            unless($last_child->nodeName eq 'seg'){
-              $last_child->unbindNode;
-              $div->insertAfter($last_child,$utterance);
-            } else {
-              last;
-            }
-          }
-          print STDERR "NEW UTTERANCE:\t$speaker\t$fileIn\n";
           add_note($div,$speaker)->setAttribute('type','speaker');
           $utterance = $div->addNewChild(undef,'u');
           $utterance->setAttribute('who',$is_chair ? $chair : $speaker);
@@ -162,26 +153,9 @@ for my $fileIn (@file_list){
 
       }
     }
-    while($seg && (my $last_child = ($seg->childNodes())[-1])){ # moving non seg nodes after utterance
-      unless(ref $last_child eq 'XML::LibXML::Text'){
-        $last_child->unbindNode;
-        $utterance->insertAfter($last_child,$seg);
-      } else {
-        $last_child->replaceDataRegEx('\s*$','');
-        last;
-      }
-    }
     undef $seg;
   }
 
-  while($utterance && (my $last_child = ($utterance->childNodes())[-1])){ # moving non seg nodes after utterance
-    unless($last_child->nodeName eq 'seg'){
-      $last_child->unbindNode;
-        $div->insertAfter($last_child,$utterance);
-    } else {
-      last;
-    }
-  }
   normalize_elements_and_spaces($tei->documentElement());
   save_xml($tei,$fileOut);
 }
@@ -308,7 +282,6 @@ sub open_html {
 
 sub normalize_elements_and_spaces {
   my $node = shift;
-  print STDERR "PROCESSING: ",$node->nodeName(),"\n";
   my %process_order = (
     TEI => [qw/u/],
     u => [qw/seg note/],
@@ -326,7 +299,6 @@ sub normalize_elements_and_spaces {
   while(defined $move_note_out{$node->nodeName()} && (my $last_child = ($node->childNodes())[-1])){ # moving non seg nodes after utterance
     if(ref $last_child ne 'XML::LibXML::Text' && $last_child->nodeName() eq 'note'){
       $last_child->unbindNode;
-      print STDERR "moving note outside ",to_string($last_child),"\n";
       $node->parentNode()->insertAfter($last_child,$node);
     } elsif(ref $last_child eq 'XML::LibXML::Text' && $last_child->textContent() =~ m/^\s*$/) {
       $last_child->unbindNode;
@@ -335,12 +307,11 @@ sub normalize_elements_and_spaces {
     }
   }
   if(defined $normalize_spaces{$node->nodeName()}){ # moving non seg nodes after utterance
-    print STDERR to_string($node),"\n";
     my @chNodes = $node->childNodes();
     for my $ch (0..$#chNodes){
       if(ref $chNodes[$ch] eq 'XML::LibXML::Text'){
         $chNodes[$ch]->replaceDataRegEx('^\s*','') if $ch == 0;
-        $chNodes[$ch]->replaceDataRegEx('\s$','') if $ch == $#chNodes;
+        $chNodes[$ch]->replaceDataRegEx('\s*$','') if $ch == $#chNodes;
         $chNodes[$ch]->replaceDataRegEx('\s\s*',' ', 'sg');
       }
     }
