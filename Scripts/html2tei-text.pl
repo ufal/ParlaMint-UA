@@ -312,8 +312,6 @@ sub normalize_elements_and_spaces {
       next if $chN->hasAttribute('type');
       next if $chN->textContent =~ m/\)[^\(]*$/;
       next if $chN->textContent =~ m/^[^\(]*$/;
-      print STDERR "PROCESSING: ",to_string($node),"\n";
-      print STDERR "\t",to_string($chN),"\n";
       if($chN->textContent =~ m/\([^\)]*$/){
         my @toAppend = ();
         while(my $nextChN = shift @chNodes){
@@ -332,14 +330,23 @@ sub normalize_elements_and_spaces {
             @toAppend=();
           } elsif ( $nextChN->nodeName eq 'note' && !$nextChN->hasAttribute('type')){
             if($nextChN->textContent =~ m/^[^\(]*\)/ ){
+              push @toAppend,$nextChN;
+              print STDERR "INFO: note to be merged: '",to_string($chN),"'";
               for my $chA (@toAppend){
+                print STDERR "+'",(
+                                    ref $nextChN eq 'XML::LibXML::Text'
+                                    ? $nextChN->textContent
+                                    : to_string($chN)
+                                  ),"'";
                 $chN->appendText($chA->textContent);
                 $chA->unbindNode;
               }
+              print STDERR "\nINFO: merged note: '",to_string($chN),"\n";
               unshift @chNodes, $chN;
               @toAppend=();
+              last;
             } else {
-              push @toAppend;
+              push @toAppend,$nextChN;
             }
           } else {
             last;
