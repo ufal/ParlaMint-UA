@@ -288,12 +288,14 @@ sub open_html {
 sub normalize_elements_and_spaces {
   my $node = shift;
   my %process_order = (
-    TEI => [qw/u/],
+    TEI => [qw/div/],
+    div => [qw/u/],
     u => [qw/seg note/],
     seg => [qw/note/]
     );
   my %normalize_spaces = map {$_ => 1} qw/seg note/;
   my %move_note_out = map {$_ => 1} qw/u seg/;
+  my %merge_notes = map {$_ => 1} qw/div u seg/;
   my @skip_nested;
   for my $elName (@{$process_order{$node->nodeName()}}){
     for my $elem ($node->findnodes('.//*[local-name() = "'.$elName.'" and not(ancestor::*[contains(" '.join(' ',@skip_nested).' ", local-name())])]')){
@@ -301,6 +303,52 @@ sub normalize_elements_and_spaces {
     }
     push @skip_nested, $elName;
   }
+
+  if(defined $merge_notes{$node->nodeName()}){ # merging notes with open ( with following note of the same type (no type!)
+    my @chNodes = $node->childNodes();
+    while(my $chN = shift @chNodes){
+      next if ref $chN eq 'XML::LibXML::Text';
+      next unless $chN->nodeName eq 'note';
+      next if $chN->hasAttribute('type');
+      next if $chN->textContent =~ m/\)[^\(]*$/;
+      next if $chN->textContent =~ m/^[^\(]*$/;
+      print STDERR "PROCESSING: ",to_string($node),"\n";
+      print STDERR "\t",to_string($chN),"\n";
+      if($chN->textContent =~ m/\([^\)]*$/){
+        my @toAppend = ();
+        while(my $nextChN = shift @chNodes){
+          if(ref $nextChN eq 'XML::LibXML::Text' && $nextChN->textContent =~ m/^\s*$/){
+            push @toAppend,$nextChN;
+          } elsif(ref $nextChN eq 'XML::LibXML::Text' && $nextChN->textContent =~ m/^\w*\)/){ # ending ) is in the same word
+            print STDERR "INFO: appending part of following text into note: '",to_string($chN),$nextChN->textContent,"' --> '";
+            for my $chA (@toAppend){
+              $chN->appendText($chA->textContent);
+              $chA->unbindNode;
+            }
+            my ($closing_note) = $nextChN->textContent() =~ m/^(\w*\))/;
+            $chN->appendText($closing_note);
+            $nextChN->replaceDataRegEx('^\w*\)','');
+            print STDERR to_string($chN),$nextChN->textContent,"'\n";
+            @toAppend=();
+          } elsif ( $nextChN->nodeName eq 'note' && !$nextChN->hasAttribute('type')){
+            if($nextChN->textContent =~ m/^[^\(]*\)/ ){
+              for my $chA (@toAppend){
+                $chN->appendText($chA->textContent);
+                $chA->unbindNode;
+              }
+              unshift @chNodes, $chN;
+              @toAppend=();
+            } else {
+              push @toAppend;
+            }
+          } else {
+            last;
+          }
+        }
+      }
+    }
+  }
+
   while(defined $move_note_out{$node->nodeName()} && (my $last_child = ($node->childNodes())[-1])){ # moving non seg nodes after utterance
     if(ref $last_child ne 'XML::LibXML::Text' && $last_child->nodeName() eq 'note'){
       $last_child->unbindNode;
@@ -311,7 +359,8 @@ sub normalize_elements_and_spaces {
       last;
     }
   }
-  if(defined $normalize_spaces{$node->nodeName()}){ # moving non seg nodes after utterance
+
+  if(defined $normalize_spaces{$node->nodeName()}){ # normalize spaces
     my @chNodes = $node->childNodes();
     for my $ch (0..$#chNodes){
       if(ref $chNodes[$ch] eq 'XML::LibXML::Text'){
