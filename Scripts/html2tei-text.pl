@@ -182,8 +182,8 @@ for my $fileIn (@file_list){
       last;
     }
   }
+  normalize_elements_and_spaces($tei->documentElement());
   save_xml($tei,$fileOut);
-
 }
 
 print STDERR (scalar @file_list)," files processed\n";
@@ -194,10 +194,18 @@ print STDERR (scalar @file_list)," files processed\n";
 
 sub add_note {
   my ($context,$text) = @_;
-  $text =~ s/^\s*|\s*$//g;
+  $text =~ s/^(\s*[\.,]*\s*)//;
+  my $before = $1;
+  $text =~ s/(\s*)$//;
+  my $after = $1;
+  if($context->nodeName() ne 'seg' and ($before or $after) and "$before$after" !~ m/^\s*$/){
+    print STDERR "ERROR:context is not <seg> but <",$context->nodeName(),"> '$before'--NOTE--'$after'\n"
+  }
+  $context->appendText($before) if $before and $context->nodeName() eq 'seg';
   $text =~ s/\s\s+/ /g;
-  if($text =~ m/^[^\w\d]*$/ or $text =~ m/^[^\w\d]*\w[^\w\d]*$/){
+  if($context->nodeName() eq 'seg' and ($text =~ m/^[^\w\d]*$/ or $text =~ m/^[^\w\d]*\w[^\w\d]*$/)){
     $context->appendText($text);
+    $context->appendText($after) if $after;
     return;
   }
 
@@ -205,6 +213,7 @@ sub add_note {
   #print STDERR "adding note '$text'\n";
   my $note = $context->addNewChild(undef,'note');
   $note->appendText($text);
+  $context->appendText($after) if $after and $context->nodeName() eq 'seg';
   return $note;
 }
 
@@ -295,6 +304,47 @@ sub open_html {
     }
   }
   return $doc
+}
+
+sub normalize_elements_and_spaces {
+  my $node = shift;
+  print STDERR "PROCESSING: ",$node->nodeName(),"\n";
+  my %process_order = (
+    TEI => [qw/u/],
+    u => [qw/seg note/],
+    seg => [qw/note/]
+    );
+  my %normalize_spaces = map {$_ => 1} qw/seg note/;
+  my %move_note_out = map {$_ => 1} qw/u seg/;
+  my @skip_nested;
+  for my $elName (@{$process_order{$node->nodeName()}}){
+    for my $elem ($node->findnodes('.//*[local-name() = "'.$elName.'" and not(ancestor::*[contains(" '.join(' ',@skip_nested).' ", local-name())])]')){
+      normalize_elements_and_spaces($elem);
+    }
+    push @skip_nested, $elName;
+  }
+  while(defined $move_note_out{$node->nodeName()} && (my $last_child = ($node->childNodes())[-1])){ # moving non seg nodes after utterance
+    if(ref $last_child ne 'XML::LibXML::Text' && $last_child->nodeName() eq 'note'){
+      $last_child->unbindNode;
+      print STDERR "moving note outside ",to_string($last_child),"\n";
+      $node->parentNode()->insertAfter($last_child,$node);
+    } elsif(ref $last_child eq 'XML::LibXML::Text' && $last_child->textContent() =~ m/^\s*$/) {
+      $last_child->unbindNode;
+    } else {
+      last;
+    }
+  }
+  if(defined $normalize_spaces{$node->nodeName()}){ # moving non seg nodes after utterance
+    print STDERR to_string($node),"\n";
+    my @chNodes = $node->childNodes();
+    for my $ch (0..$#chNodes){
+      if(ref $chNodes[$ch] eq 'XML::LibXML::Text'){
+        $chNodes[$ch]->replaceDataRegEx('^\s*','') if $ch == 0;
+        $chNodes[$ch]->replaceDataRegEx('\s$','') if $ch == $#chNodes;
+        $chNodes[$ch]->replaceDataRegEx('\s\s*',' ', 'sg');
+      }
+    }
+  }
 }
 
 sub to_string {
