@@ -116,7 +116,7 @@ for my $fileIn (@file_list){
       next;
     }
     print STDERR "ERROR: missing chair\n" unless $chair;
-    for my $pchild ($p->nonBlankChildNodes()){
+    for my $pchild ($p->childNodes()){
       if(ref $pchild eq 'XML::LibXML::Text'){
         my $content = $pchild->data;
         my ($is_chair) = $content =~ m/^\s*ГОЛОВУЮЧ(?:ИЙ|А).?/;
@@ -147,8 +147,13 @@ for my $fileIn (@file_list){
       } else {
         if($pchild->nodeName eq 'i'){
           add_note($seg // $utterance // $div,$pchild->textContent);
+        } elsif($seg // $utterance){
+          if($pchild->textContent !~ m/^\s*$/){
+            $seg = $utterance->addNewChild(undef,'seg') unless $seg;
+            $seg->appendText($pchild->textContent);
+          }
         } else {
-          print STDERR "WARN: unknown node:",$pchild," ($fileIn)\n";
+          print STDERR "WARN: unknown node outside paragraph:",$pchild," ($fileIn)\n";
         }
 
       }
