@@ -223,7 +223,9 @@ sub get_p_category {
   return 'empty' if $not_spaced_content eq '';
   return 'time_note' if $not_spaced_content =~  m/^\(?\s*\d+ година\.\s*\)?$/;
   return 'time_note' if $not_spaced_content =~  m/^\d\d:\d\d:\d\d$/;
-  return 'time_note' if $not_spaced_content =~  m/^\s*\d+ \w+ \d\d\d\d року, \d+(?:[:\.]\s*\d\d)? година\s*$/;
+  return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ \w+ \d\d\d\d року\s*$/;
+  return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ \w+(?: \d\d\d\d року)?,? \d+(?:[:\.]\s*\d\d)?(?:\s*година)?\s*$/;
+  return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ \w+(?: \d\d\d\d року)?,? \d\d? година? \d\d? хвилин[аи]?\s*$/;
 
   return @{['change_chair',$1]} if $content =~ m/.* Верховної Ради України \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',$1]} if $content =~ m/^\s*Веде засідання [Гг]олов[аи] [Пп]ідготовчої депутатської групи \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
