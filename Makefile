@@ -11,6 +11,7 @@ DATADIR = Data
 
 DATE := $(shell sh -c 'date +"%Y%m%dT%H%M%S"')
 
+###### steno:
 
 .PHONY: $(download-NN) download
 download-NN = $(addprefix download-, $(TERMS))
@@ -27,8 +28,10 @@ DOWNLOAD_DATA_LAST := $(shell ls $(DATADIR)/download | sort -r | head -n1)
 TEI-TEXT_DATA_ALL := $(shell ls $(DATADIR)/tei-text)
 TEI-TEXT_DATA_LAST := $(shell ls $(DATADIR)/tei-text | sort -r | head -n1)
 
-#PROCESS_SUBSET := --process-subset "20[012].022[34]"
+# PROCESS_SUBSET := --process-subset "20[12][912]...."
 # PROCESS_SUBSET := --process-subset "20[12].....-?.?"
+#PROCESS_SUBSET := --process-subset "20[12].02.."
+#PROCESS_SUBSET := --process-subset "20220223"
 
 .PHONY: $(html2tei-text-RUN) html2tei-text
 html2tei-text-RUN-ALL = $(addprefix html2tei-text-, $(DOWNLOAD_DATA_ALL))
@@ -40,7 +43,6 @@ html2tei-text-all: $(html2tei-text-RUN-ALL)
 
 ## html2tei-text-RUN ##
 $(html2tei-text-RUN-ALL): html2tei-text-%:
-	echo "TODO $*"
 	./Scripts/html2tei-text.pl --id $* \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh \
@@ -51,6 +53,54 @@ $(html2tei-text-RUN-ALL): html2tei-text-%:
 
 
 
+
+
+
+###### metadata:
+.PHONY: $(download-meta-NN) download-meta
+download-meta-NN = $(addprefix download-meta-, $(TERMS))
+## download-meta ## metadata from all terms defined in variable TERM
+download-meta: $(download-meta-NN)
+## download-meta-NN ## Downloads all metadata from term NN
+$(download-meta-NN): download-meta-%:
+	mkdir -p $(DATADIR)/download-meta/$(DATE)
+	wget https://data.rada.gov.ua/ogd/mps/skl$*/mps-data.xml -O $(DATADIR)/download-meta/$(DATE)/ogd_mps_skl$*_mps-data.xml
+
+DOWNLOAD_META_DATA_LAST := $(shell ls $(DATADIR)/download-meta | sort -r | head -n1)
+tei-particDesc-RUN-LAST = $(addprefix tei-particDesc-, $(DOWNLOAD_META_DATA_LAST))
+tei-particDesc: $(tei-particDesc-RUN-LAST)
+$(tei-particDesc-RUN-LAST): tei-particDesc-%: tei-particDesc-preprocess-%
+	@echo "TODO: PROCESS META $*"
+
+tei-particDesc-preprocess-RUN-LAST = $(addprefix tei-particDesc-preprocess-, $(DOWNLOAD_META_DATA_LAST))
+tei-particDesc-preprocess: $(tei-particDesc-preprocess-RUN-LAST)
+$(tei-particDesc-preprocess-RUN-LAST): tei-particDesc-preprocess-%:
+	mkdir -p $(DATADIR)/tei-particDesc-preprocess/$*
+	for FILE in `ls $(DATADIR)/download-meta/$* | grep '.xml$$'`; do \
+	  xmllint --format $(DATADIR)/download-meta/$*/$${FILE} \
+	    | perl -Mopen=locale -pe 's/&#x([\da-f]+);/chr hex $$1/gie' \
+	    > $(DATADIR)/tei-particDesc-preprocess/$*/$${FILE}; \
+	done
+	mkdir -p $(DATADIR)/tei-particDesc-working/$*
+	mkdir -p $(DATADIR)/tei-particDesc/$*
+
+
+tei-particDesc-preprocess_LAST := $(shell ls $(DATADIR)/tei-particDesc-preprocess | sort -r | head -n1)
+tei-particDesc-preprocess_LAST-TERMS := $(shell ls $(DATADIR)/tei-particDesc-preprocess/$(tei-particDesc-preprocess_LAST) | sed 's/^.*skl//;s/_mps-data.xml$$//' | sort|uniq)
+tei-particDesc-RUN-LAST = $(addprefix tei-particDesc-, $(tei-particDesc-preprocess_LAST))
+tei-particDesc: $(tei-particDesc-RUN-LAST)
+$(tei-particDesc-RUN-LAST): tei-particDesc-%:
+	echo "TODO: process each term $(particDesc)"
+	echo "      merge term info"
+
+
+
+
+
+
+
+
+###### other:
 create-february-sample:
 	rm -rf SampleData/*
 	mkdir -p SampleData/01-htm
@@ -58,6 +108,19 @@ create-february-sample:
 	ls $(DATADIR)/download/$(TEI-TEXT_DATA_LAST)/20??02??*.htm | xargs -I {} cp {} SampleData/01-htm/
 	ls $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ParlaMint-UA_20??-02-??*.xml | xargs -I {} cp {} SampleData/02-tei-text/
 
+create-all-stats:
+	rm -rf DataStats/*
+	mkdir -p DataStats
+	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
+	   grep -o '<note>[^<]*</note>'|sort|uniq -c|sort -nr > DataStats/note_cnt.log
+	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
+	   grep -o '<note type="speaker">[^<]*</note>'|sed "s/^[^>]*>//;s/<.*$$//"|sort|uniq -c|sort -r > DataStats/note_speaker_cnt.log
+	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
+	   grep -o '<u [^>]*>'|sed 's/^.*who="//;s/".*$$//'|sort|uniq -c|sort -nr > DataStats/u_who_cnt.log
+	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
+	   grep -o '<u [^>]*>'|sed 's/^.*who="//;s/" .*ana="/\t/;s/".*$$//'|sort|uniq -c|sort -nr > DataStats/u_who_ana_cnt.log
+	find $(DATADIR)/tei-text/$*/ -type f |xargs cat|\
+	   grep -o '<seg>[^<]*</seg>'|sort|uniq -c|grep -v "^ *1 <seg" |sort -nr > DataStats/seg_non_uniq.log
 
 
 
