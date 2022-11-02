@@ -24,9 +24,9 @@ $(download-NN): download-%:
 
 
 DOWNLOAD_DATA_ALL := $(shell ls $(DATADIR)/download)
-DOWNLOAD_DATA_LAST := $(shell ls $(DATADIR)/download | sort -r | head -n1)
+DOWNLOAD_DATA_LAST := $(shell ls $(DATADIR)/download | grep -v '_' | sort -r | head -n1)
 TEI-TEXT_DATA_ALL := $(shell ls $(DATADIR)/tei-text)
-TEI-TEXT_DATA_LAST := $(shell ls $(DATADIR)/tei-text | sort -r | head -n1)
+TEI-TEXT_DATA_LAST := $(shell ls $(DATADIR)/tei-text | grep -v '_' | sort -r | head -n1)
 
 # PROCESS_SUBSET := --process-subset "20[12][912]...."
 # PROCESS_SUBSET := --process-subset "20[12].....-?.?"
@@ -66,7 +66,7 @@ $(download-meta-NN): download-meta-%:
 	mkdir -p $(DATADIR)/download-meta/$(DATE)
 	wget https://data.rada.gov.ua/ogd/mps/skl$*/mps-data.xml -O $(DATADIR)/download-meta/$(DATE)/ogd_mps_skl$*_mps-data.xml
 
-DOWNLOAD_META_DATA_LAST := $(shell ls $(DATADIR)/download-meta | sort -r | head -n1)
+DOWNLOAD_META_DATA_LAST := $(shell ls $(DATADIR)/download-meta | grep -v '_' | sort -r | head -n1)
 tei-particDesc-RUN-LAST = $(addprefix tei-particDesc-, $(DOWNLOAD_META_DATA_LAST))
 tei-particDesc: $(tei-particDesc-RUN-LAST)
 $(tei-particDesc-RUN-LAST): tei-particDesc-%: tei-particDesc-preprocess-%
@@ -85,7 +85,7 @@ $(tei-particDesc-preprocess-RUN-LAST): tei-particDesc-preprocess-%:
 	mkdir -p $(DATADIR)/tei-particDesc/$*
 
 
-tei-particDesc-preprocess_LAST := $(shell ls $(DATADIR)/tei-particDesc-preprocess | sort -r | head -n1)
+tei-particDesc-preprocess_LAST := $(shell ls $(DATADIR)/tei-particDesc-preprocess | grep -v '_' | sort -r | head -n1)
 tei-particDesc-preprocess_LAST-TERMS := $(shell ls $(DATADIR)/tei-particDesc-preprocess/$(tei-particDesc-preprocess_LAST) | sed 's/^.*skl//;s/_mps-data.xml$$//' | sort|uniq)
 tei-particDesc-RUN-LAST = $(addprefix tei-particDesc-, $(tei-particDesc-preprocess_LAST))
 tei-particDesc: $(tei-particDesc-RUN-LAST)
