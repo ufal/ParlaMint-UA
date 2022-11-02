@@ -313,6 +313,8 @@ sub normalize_elements_and_spaces {
         $chNodes[$ch]->replaceDataRegEx('^\s*','') if $ch == 0;
         $chNodes[$ch]->replaceDataRegEx('\s*$','') if $ch == $#chNodes;
         $chNodes[$ch]->replaceDataRegEx('\s\s*',' ', 'sg');
+        $chNodes[$ch]->replaceDataRegEx('\(\s\s*','(', 'sg');
+        $chNodes[$ch]->replaceDataRegEx('\s*\s\)',')', 'sg');
       }
     }
   }
