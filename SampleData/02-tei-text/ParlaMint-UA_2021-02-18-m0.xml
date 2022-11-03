@@ -1817,10 +1817,10 @@
                <note type="time">(14:59:39)</note>
                <seg>За-322</seg>
                <seg>Рішення прийнято.</seg>
-               <vocal type="interruption">
-                  <desc>ГОЛОС ІЗ ЗАЛУ. Давайте в цілому.</desc>
-               </vocal>
             </u>
+            <vocal type="interruption">
+               <desc>ГОЛОС ІЗ ЗАЛУ. Давайте в цілому.</desc>
+            </vocal>
             <note type="time">(14:59:52)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair">

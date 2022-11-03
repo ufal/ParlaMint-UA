@@ -1731,10 +1731,10 @@
                <seg>Ви наполягаєте на голосуванні? Добре.</seg>
                <seg>Отже, 86-а.</seg>
                <seg>Яка? 79-а, але вона є врахована.</seg>
-               <vocal type="interruption">
-                  <desc>ГОЛОС ІЗ ЗАЛУ.</desc>
-               </vocal>
             </u>
+            <vocal type="interruption">
+               <desc>ГОЛОС ІЗ ЗАЛУ.</desc>
+            </vocal>
             <note>(Не чути)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">

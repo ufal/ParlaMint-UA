@@ -23,10 +23,10 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">
                <seg>Слава Україні!</seg>
-               <vocal type="interruption">
-                  <desc>ГОЛОСИ ІЗ ЗАЛУ. Героям слава!</desc>
-               </vocal>
             </u>
+            <vocal type="interruption">
+               <desc>ГОЛОСИ ІЗ ЗАЛУ. Героям слава!</desc>
+            </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">
                <seg>Ранкове пленарне засідання Верховної Ради України оголошую відкритим.</seg>

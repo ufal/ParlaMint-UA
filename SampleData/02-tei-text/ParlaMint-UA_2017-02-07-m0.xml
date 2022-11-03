@@ -26,10 +26,10 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">
                <seg>Слава Україні!</seg>
-               <vocal type="interruption">
-                  <desc>ГОЛОС ІЗ ЗАЛУ. Героям слава!</desc>
-               </vocal>
             </u>
+            <vocal type="interruption">
+               <desc>ГОЛОС ІЗ ЗАЛУ. Героям слава!</desc>
+            </vocal>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular">
                <seg>Шановні колеги! До слова запрошується Голова Верховної Ради України Андрій Парубій. Просимо, пане Андрію.</seg>

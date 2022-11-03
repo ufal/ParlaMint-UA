@@ -74,17 +74,17 @@
                <note type="time">(16:16:11)</note>
                <seg>За-181</seg>
                <seg>Колеги, я прошу далі заходити, закликати депутатів в зал. І з вашого дозволу, колеги, ми обговоримо наступний, а потім проголосуємо і цей, і наступний, якщо нема заперечень, бо частина наших...</seg>
-               <vocal type="interruption">
-                  <desc>ГОЛОСИ ІЗ ЗАЛУ. Ні!</desc>
-               </vocal>
             </u>
+            <vocal type="interruption">
+               <desc>ГОЛОСИ ІЗ ЗАЛУ. Ні!</desc>
+            </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">
                <seg>Хто каже "ні"?</seg>
-               <vocal type="interruption">
-                  <desc>ГОЛОСИ ІЗ ЗАЛУ.</desc>
-               </vocal>
             </u>
+            <vocal type="interruption">
+               <desc>ГОЛОСИ ІЗ ЗАЛУ.</desc>
+            </vocal>
             <note>(Не чути)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">

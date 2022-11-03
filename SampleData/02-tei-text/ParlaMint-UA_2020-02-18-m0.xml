@@ -439,10 +439,10 @@
             <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
             <u who="КОРОЛЕВСЬКА Н.Ю." ana="#regular">
                <seg>Шановні колеги, минулий тиждень...</seg>
-               <vocal type="interruption">
-                  <desc>ГОЛОС ІЗ ЗАЛУ.</desc>
-               </vocal>
             </u>
+            <vocal type="interruption">
+               <desc>ГОЛОС ІЗ ЗАЛУ.</desc>
+            </vocal>
             <note>(Не чути)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair">
