@@ -121,6 +121,10 @@ create-all-stats:
 	   grep -o '<u [^>]*>'|sed 's/^.*who="//;s/" .*ana="/\t/;s/".*$$//'|sort|uniq -c|sort -nr > DataStats/u_who_ana_cnt.log
 	find $(DATADIR)/tei-text/$*/ -type f |xargs cat|\
 	   grep -o '<seg>[^<]*</seg>'|sort|uniq -c|grep -v "^ *1 <seg" |sort -nr > DataStats/seg_non_uniq.log
+	find $(DATADIR)/tei-text/$*/ -type f |xargs cat|\
+	   tr "\n" " "|sed "s/\(<[^<]*>[^>]*<desc[^>]*>[^<]*\)/\n\1\n\n\n/g"|\
+	   grep '<desc'|sed 's/^<\([^ ]*\).*type="\([^"]*\)".*<desc[^>]*>/\1\t\2\t/'|\
+	   sort|uniq -c|sort -nr > DataStats/incident_ana_cnt.log
 
 
 

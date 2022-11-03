@@ -1817,10 +1817,9 @@
                <note type="time">(14:59:39)</note>
                <seg>За-322</seg>
                <seg>Рішення прийнято.</seg>
-            </u>
-            <note type="speaker">ГОЛОС ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОС ІЗ ЗАЛУ." ana="#regular">
-               <seg>Давайте в цілому.</seg>
+               <vocal type="interruption">
+                  <desc>ГОЛОС ІЗ ЗАЛУ. Давайте в цілому.</desc>
+               </vocal>
             </u>
             <note type="time">(14:59:52)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>

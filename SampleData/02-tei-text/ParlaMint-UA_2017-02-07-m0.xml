@@ -26,10 +26,9 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">
                <seg>Слава Україні!</seg>
-            </u>
-            <note type="speaker">ГОЛОС ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОС ІЗ ЗАЛУ." ana="#regular">
-               <seg>Героям слава!</seg>
+               <vocal type="interruption">
+                  <desc>ГОЛОС ІЗ ЗАЛУ. Героям слава!</desc>
+               </vocal>
             </u>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular">

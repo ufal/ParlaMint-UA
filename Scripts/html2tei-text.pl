@@ -123,16 +123,23 @@ for my $fileIn (@file_list){
         if($is_chair && ! $chair){
           print STDERR "ERROR: missing chair person name\n";die;
         }
+        my ($speaker,$speech);
         if($is_first
           && $content !~ m/^\s*[ЄЯ]\.\.*\s*/
-          && (my ($speaker,$speech) = $content =~ m/^\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]{2,}\.|ГОЛОВУЮЧ(?:ИЙ|А).?)\.*\s*(.*)/)
+          && (($speaker,$speech) = $content =~ m/^\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]{2,}\.|ГОЛОВУЮЧ(?:ИЙ|А).?)\.*\s*(.*)/)
+          && (my $speaker_status = speaker_status($speaker))
           ) {
-          add_note($div,$speaker)->setAttribute('type','speaker');
-          $utterance = $div->addNewChild(undef,'u');
-          $utterance->setAttribute('who',$is_chair ? $chair : $speaker);
-          $utterance->setAttribute('ana',$is_chair ? '#chair':'#regular');
-          if($speech){
-            $seg = $utterance->appendTextChild('seg',$speech);
+          if($speaker_status eq 'interrupting'){
+print STDERR "$content:\n\t$speaker\t$speech\n";
+            add_interruption($utterance//$div,'vocal','interruption',$content);
+          } else {
+            add_note($div,$speaker)->setAttribute('type','speaker');
+            $utterance = $div->addNewChild(undef,'u');
+            $utterance->setAttribute('who',$is_chair ? $chair : $speaker);
+            $utterance->setAttribute('ana',$is_chair ? '#chair':'#regular');
+            if($speech){
+              $seg = $utterance->appendTextChild('seg',$speech);
+            }
           }
         } elsif($content !~ m/^\s*$/) {
           unless($utterance){
@@ -170,6 +177,14 @@ print STDERR (scalar @file_list)," files processed\n";
 
 
 
+sub speaker_status {
+  my $text = shift;
+  return unless $text;
+  my %not_speaker = map {$_=>1} qw/COVID./;
+  return if $not_speaker{$text};
+  return 'interrupting' if $text =~ m/(?:ЗАЛУ)/;
+  return 'MP';
+}
 
 sub add_note {
   my ($context,$text) = @_;
@@ -203,6 +218,13 @@ sub add_time_note {
   return add_note($context, "($text)")->setAttribute('type','time');
 }
 
+sub add_interruption {
+  my ($context,$elemName,$type,$text) = @_;
+  my $node = $context->addNewChild(undef,$elemName);
+  $node->setAttribute('type',$type) if $type;
+  $node->appendTextChild('desc',$text);
+  return $node;
+}
 
 sub get_p_category {
   my $node = shift;
@@ -224,12 +246,13 @@ sub get_p_category {
   return 'time_note' if $not_spaced_content =~  m/^\(?\s*\d+ година\.\s*\)?$/;
   return 'time_note' if $not_spaced_content =~  m/^\d\d:\d\d:\d\d$/;
   return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ \w+ \d\d\d\d року\s*$/;
-  return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ \w+(?: \d\d\d\d року)?,? \d+(?:[:\.]\s*\d\d)?(?:\s*година)?\s*$/;
-  return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ \w+(?: \d\d\d\d року)?,? \d\d? година? \d\d? хвилин[аи]?\s*$/;
+  return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ ?\w+(?: \d\d\d\d року)?,? \d+(?:[:\.]\s*\d\d)?(?:\s*година)?\s*$/;
+  return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ ?\w+(?: \d\d\d\d року)?,? \d\d? година? \d\d? хвилин[аи]?\s*$/;
 
   return @{['change_chair',$1]} if $content =~ m/.* Верховної Ради України \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',$1]} if $content =~ m/^\s*Веде засідання [Гг]олов[аи] [Пп]ідготовчої депутатської групи \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',$1]} if $content =~ m/^\s*Веде засідання \s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
+  return @{['change_chair',$1]} if $content =~ m/^\s*Засідання веде\s+([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',$1]} if $content =~ m/^\s*Засідання веде (?:\w+ ){0,6}\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',$1]} if $chair_is_next && $content =~ m/^\s*([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',$1]} if $chair_is_next && $content =~ m/^\s*Верховної Ради України ([\p{Lu}\p{Lt}]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
@@ -292,11 +315,13 @@ sub normalize_elements_and_spaces {
   my %process_order = (
     TEI => [qw/div/],
     div => [qw/u/],
-    u => [qw/seg note/],
-    seg => [qw/note/]
+    u => [qw/seg note vocal/],
+    seg => [qw/note vocal/],
+    vocal => [qw/desc/]
     );
-  my %normalize_spaces = map {$_ => 1} qw/seg note/;
+  my %normalize_spaces = map {$_ => 1} qw/seg note desc/;
   my %move_note_out = map {$_ => 1} qw/u seg/;
+  my %to_be_moved_out = map {$_ => 1} qw/note vocal/;
   my %merge_notes = map {$_ => 1} qw/div u seg/;
   my @skip_nested;
   for my $elName (@{$process_order{$node->nodeName()}}){
@@ -358,8 +383,8 @@ sub normalize_elements_and_spaces {
     }
   }
 
-  while(defined $move_note_out{$node->nodeName()} && (my $last_child = ($node->childNodes())[-1])){ # moving non seg nodes after utterance
-    if(ref $last_child ne 'XML::LibXML::Text' && $last_child->nodeName() eq 'note'){
+  while(defined $move_note_out{$node->nodeName()} && (my $last_child = ($node->childNodes())[-1])){ # moving non text/seg nodes after seg/utterance
+    if(ref $last_child ne 'XML::LibXML::Text' && $to_be_moved_out{$last_child->nodeName()}){
       $last_child->unbindNode;
       $node->parentNode()->insertAfter($last_child,$node);
     } elsif(ref $last_child eq 'XML::LibXML::Text' && $last_child->textContent() =~ m/^\s*$/) {

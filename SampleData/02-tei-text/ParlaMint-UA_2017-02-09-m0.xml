@@ -1227,10 +1227,9 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">
                <seg>Колеги, давайте не робити політики, де її немає, колеги.</seg>
-            </u>
-            <note type="speaker">ГОЛОС ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОС ІЗ ЗАЛУ." ana="#regular">
-               <seg>Дайте слово!</seg>
+               <vocal type="interruption">
+                  <desc>ГОЛОС ІЗ ЗАЛУ. Дайте слово!</desc>
+               </vocal>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">

@@ -464,10 +464,9 @@
             <note type="speaker">ПАРАСКІВ О.Д.</note>
             <u who="ПАРАСКІВ О.Д." ana="#regular">
                <seg>Параскив, фракция Партии регионов.</seg>
-            </u>
-            <note type="speaker">ГОЛОСИ ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОСИ ІЗ ЗАЛУ." ana="#regular">
-               <seg>Українська! Українська! Українська!</seg>
+               <vocal type="interruption">
+                  <desc>ГОЛОСИ ІЗ ЗАЛУ. Українська! Українська! Українська!</desc>
+               </vocal>
             </u>
             <note type="speaker">ПАРАСКІВ О.Д.</note>
             <u who="ПАРАСКІВ О.Д." ana="#regular">
@@ -851,11 +850,10 @@
                <seg>За-239</seg>
                <seg>Рішення прийнято.</seg>
                <seg>Шановне товариство, є потреба обговорювати?</seg>
-            </u>
-            <note>(Шум у залі)</note>
-            <note type="speaker">ГОЛОС ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОС ІЗ ЗАЛУ." ana="#regular">
-               <seg>Голосуємо!</seg>
+               <note>(Шум у залі)</note>
+               <vocal type="interruption">
+                  <desc>ГОЛОС ІЗ ЗАЛУ. Голосуємо!</desc>
+               </vocal>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="Р.В.КОШУЛИНСЬКИЙ" ana="#chair">

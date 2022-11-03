@@ -625,10 +625,9 @@
                <seg>84-а, Продан, не наполягає.</seg>
                <seg>87-а, Луценко, не наполягає.</seg>
                <seg>97-а, Купрієнко, не наполягає.</seg>
-            </u>
-            <note type="speaker">ГОЛОСИ ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОСИ ІЗ ЗАЛУ." ana="#regular">
-               <seg>Наполягає!</seg>
+               <vocal type="interruption">
+                  <desc>ГОЛОСИ ІЗ ЗАЛУ. Наполягає!</desc>
+               </vocal>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">

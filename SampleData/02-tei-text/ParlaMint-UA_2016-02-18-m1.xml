@@ -115,10 +115,9 @@
             <u who="ГРОЙСМАН В.Б." ana="#chair">
                <seg>Дякую.</seg>
                <seg>Шановні колеги народні депутати… <note>(Шум у залі)</note> В Регламенті покажіть мені, де. Я зараз… Давайте, я чекаю. Я почекаю. Я чекаю. Дайте мені Регламент. Де? Стаття яка?</seg>
-            </u>
-            <note type="speaker">ГОЛОС ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОС ІЗ ЗАЛУ." ana="#regular">
-               <seg>Що ви робите?</seg>
+               <vocal type="interruption">
+                  <desc>ГОЛОС ІЗ ЗАЛУ. Що ви робите?</desc>
+               </vocal>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair">
@@ -1052,16 +1051,18 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair">
                <seg>Я бачу, я бачу просто, що не всі ще знаходяться в залі, можливо, перед тим, ми врахуємо...</seg>
+               <vocal type="interruption">
+                  <desc>ГОЛОС ІЗ ЗАЛУ.</desc>
+               </vocal>
             </u>
-            <note type="speaker">ГОЛОС ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОС ІЗ ЗАЛУ." ana="#regular"/>
             <note>(Не чути)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair">
                <seg>Відхилена.</seg>
+               <vocal type="interruption">
+                  <desc>ГОЛОСУ ІЗ ЗАЛУ.</desc>
+               </vocal>
             </u>
-            <note type="speaker">ГОЛОСУ ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОСУ ІЗ ЗАЛУ." ana="#regular"/>
             <note>(Не чути)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair">
@@ -1332,9 +1333,10 @@
                <seg>122-а, не наполягає.</seg>
                <seg>123-я, не наполягає.</seg>
                <seg>124-а...</seg>
+               <vocal type="interruption">
+                  <desc>ГОЛОС ІЗ ЗАЛУ.</desc>
+               </vocal>
             </u>
-            <note type="speaker">ГОЛОС ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОС ІЗ ЗАЛУ." ana="#regular"/>
             <note>(Не чути)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair">
@@ -1500,9 +1502,10 @@
                <seg>Дякую.</seg>
                <seg>Обговорення завершено. І я ставлю на голосування. Прошу приготуватися.</seg>
                <seg>Ставиться на голосування проект Постанови про скасування рішення Верховної Ради України від 16 лютого 2016 року...</seg>
+               <vocal type="interruption">
+                  <desc>ГОЛОС ІЗ ЗАЛУ.</desc>
+               </vocal>
             </u>
-            <note type="speaker">ГОЛОС ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОС ІЗ ЗАЛУ." ana="#regular"/>
             <note>(Не чути)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">
@@ -1514,16 +1517,18 @@
                <seg>Рішення не прийняте.</seg>
                <seg>Тепер 3700-П, ідентична постанова, ми вже її обговорили, але я дам автору слово для виступу.</seg>
                <seg>Прошу підтримати за скорочену процедуру. Колеги, скорочена... Прошу…</seg>
+               <vocal type="interruption">
+                  <desc>ГОЛОС ІЗ ЗАЛУ.</desc>
+               </vocal>
             </u>
-            <note type="speaker">ГОЛОС ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОС ІЗ ЗАЛУ." ana="#regular"/>
             <note>(Не чути)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">
                <seg>Давайте ми пройдемо все правильно по Регламенту.</seg>
+               <vocal type="interruption">
+                  <desc>ГОЛОС ІЗ ЗАЛУ.</desc>
+               </vocal>
             </u>
-            <note type="speaker">ГОЛОС ІЗ ЗАЛУ.</note>
-            <u who="ГОЛОС ІЗ ЗАЛУ." ana="#regular"/>
             <note>(Не чути)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">
