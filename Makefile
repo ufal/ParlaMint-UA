@@ -143,6 +143,15 @@ $(DEV-tei-text-stats-RUN-LAST): tei-text-stats-%:
 	   grep -o '<seg>[^<]*</seg>'|sort|uniq -c|grep -v "^ *1 <seg" |sort -n|nl > $(DATADIR)/tei-text-stats/$*/seg_non_uniq.log
 
 
+TEI-TEXT_DATA_LAST-CHANGE := $(shell stat $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST) | grep 'Modify'|sed 's/^Modify: //;s/\..*$$//'|tr " " "T"|sed "s/[-:]//g")
+TEI-TEXT_DATA_LAST-BACKUP := $(shell ls DevDataBackup/tei-text/$(TEI-TEXT_DATA_LAST) | grep -v '_' | sort -r | head -n1)
+DEV-backup-last-tei-text:
+	echo "$(TEI-TEXT_DATA_LAST-CHANGE)"
+	mkdir -p DevDataBackup/tei-text/$(TEI-TEXT_DATA_LAST)/$(TEI-TEXT_DATA_LAST-CHANGE)/
+	cp $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/* DevDataBackup/tei-text/$(TEI-TEXT_DATA_LAST)/$(TEI-TEXT_DATA_LAST-CHANGE)/
+DEV-recent-changes-tei-text:
+	meld DevDataBackup/tei-text/$(TEI-TEXT_DATA_LAST)/$(TEI-TEXT_DATA_LAST-BACKUP)/ $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/
+
 
 
 ######---------------
