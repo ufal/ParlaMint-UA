@@ -68,9 +68,24 @@ $(download-meta-NN): download-meta-%:
 
 DOWNLOAD_META_DATA_LAST := $(shell ls $(DATADIR)/download-meta | grep -v '_' | sort -r | head -n1)
 tei-particDesc-RUN-LAST = $(addprefix tei-particDesc-, $(DOWNLOAD_META_DATA_LAST))
+DOWNLOAD_META_DATA_LAST_TERMS = $(shell ls $(DATADIR)/download-meta/$(DOWNLOAD_META_DATA_LAST)/ogd_mps_skl*_mps-data.xml|sed "s/^.*skl\([0-9]*\)_.*$$/\1/"|tr "\n" " "|sed "s/ *$$//")
+
 tei-particDesc: $(tei-particDesc-RUN-LAST)
 $(tei-particDesc-RUN-LAST): tei-particDesc-%: tei-particDesc-preprocess-%
+	mkdir -p $(DATADIR)/tei-particDesc-working/$*
+	mkdir -p $(DATADIR)/tei-particDesc/$*
 	@echo "TODO: PROCESS META $*"
+	@echo "input files:"
+	@find $(DATADIR)/tei-particDesc-preprocess/$* -type f|sed 's/^/\t/'
+	echo "<?xml version=\"1.0\" ?>\n<root/>" | \
+	  $s -s:- -xsl:Scripts/metadata-preprocess.xsl \
+	      terms="$(DOWNLOAD_META_DATA_LAST_TERMS)" \
+	      in-dir=../Data/tei-particDesc-preprocess/$*/ \
+	      out-dir=Data/tei-particDesc-preprocess/$*/
+
+
+
+
 
 tei-particDesc-preprocess-RUN-LAST = $(addprefix tei-particDesc-preprocess-, $(DOWNLOAD_META_DATA_LAST))
 tei-particDesc-preprocess: $(tei-particDesc-preprocess-RUN-LAST)
@@ -81,18 +96,6 @@ $(tei-particDesc-preprocess-RUN-LAST): tei-particDesc-preprocess-%:
 	    | perl -Mopen=locale -pe 's/&#x([\da-f]+);/chr hex $$1/gie' \
 	    > $(DATADIR)/tei-particDesc-preprocess/$*/$${FILE}; \
 	done
-	mkdir -p $(DATADIR)/tei-particDesc-working/$*
-	mkdir -p $(DATADIR)/tei-particDesc/$*
-
-
-tei-particDesc-preprocess_LAST := $(shell ls $(DATADIR)/tei-particDesc-preprocess | grep -v '_' | sort -r | head -n1)
-tei-particDesc-preprocess_LAST-TERMS := $(shell ls $(DATADIR)/tei-particDesc-preprocess/$(tei-particDesc-preprocess_LAST) | sed 's/^.*skl//;s/_mps-data.xml$$//' | sort|uniq)
-tei-particDesc-RUN-LAST = $(addprefix tei-particDesc-, $(tei-particDesc-preprocess_LAST))
-tei-particDesc: $(tei-particDesc-RUN-LAST)
-$(tei-particDesc-RUN-LAST): tei-particDesc-%:
-	echo "TODO: process each term $(particDesc)"
-	echo "      merge term info"
-
 
 
 
@@ -101,6 +104,14 @@ $(tei-particDesc-RUN-LAST): tei-particDesc-%:
 
 
 ###### other:
+create-metadata-sample:
+	rm -rf SampleMetaData/*
+	mkdir -p SampleMetaData/01-source
+	mkdir -p SampleMetaData/02-preprocess
+	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "ogd_mps_skl*_mps-data.xml" | xargs -I {} cp {} SampleMetaData/01-source/
+	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "mp-data*.*" | xargs -I {} cp {} SampleMetaData/02-preprocess/
+
+
 create-february-sample:
 	rm -rf SampleData/*
 	mkdir -p SampleData/01-htm
