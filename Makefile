@@ -65,6 +65,8 @@ download-meta: $(download-meta-NN)
 $(download-meta-NN): download-meta-%:
 	mkdir -p $(DATADIR)/download-meta/$(DATE)
 	wget https://data.rada.gov.ua/ogd/mps/skl$*/mps-data.xml -O $(DATADIR)/download-meta/$(DATE)/ogd_mps_skl$*_mps-data.xml
+	$(eval SKL := $(shell echo $* | sed "s/^/0/"| sed "s/\(..\)$$/\1/" ))
+	wget https://data.rada.gov.ua/ogd/mps/skl$*/mps$(SKL)-data.xml -O $(DATADIR)/download-meta/$(DATE)/ogd_mps_skl$*_mps$(SKL)-data.xml
 
 DOWNLOAD_META_DATA_LAST := $(shell ls $(DATADIR)/download-meta | grep -v '_' | sort -r | head -n1)
 tei-particDesc-RUN-LAST = $(addprefix tei-particDesc-, $(DOWNLOAD_META_DATA_LAST))
@@ -108,7 +110,7 @@ create-metadata-sample:
 	rm -rf SampleMetaData/*
 	mkdir -p SampleMetaData/01-source
 	mkdir -p SampleMetaData/02-preprocess
-	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "ogd_mps_skl*_mps-data.xml" | xargs -I {} cp {} SampleMetaData/01-source/
+	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "ogd_mps_skl*_mps*-data.xml" | xargs -I {} cp {} SampleMetaData/01-source/
 	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "mp-data*.*" | xargs -I {} cp {} SampleMetaData/02-preprocess/
 
 

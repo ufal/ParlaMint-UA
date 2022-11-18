@@ -14,15 +14,27 @@
   <xsl:variable name="files-mps-data">
     <xsl:for-each select="tokenize($terms, ' ')">
       <xsl:variable name="term" select="."/>
-      <xsl:variable name="filename" select="concat($in-dir,'/ogd_mps_skl',$term,'_mps-data.xml')"/>
+      <xsl:variable name="filename" select="concat('ogd_mps_skl',$term,'_mps-data.xml')"/>
       <xsl:element name="file">
           <xsl:attribute name="term" select="$term"/>
-          <xsl:attribute name="file" select="$filename"/>
-          <xsl:copy-of select="document($filename)" />
+          <xsl:attribute name="source" select="$filename"/>
+          <xsl:copy-of select="document(concat($in-dir,'/',$filename))" />
       </xsl:element>
     </xsl:for-each>
   </xsl:variable>
 
+
+  <xsl:variable name="files-mpsTT-data">
+    <xsl:for-each select="tokenize($terms, ' ')">
+      <xsl:variable name="term" select="."/>
+      <xsl:variable name="filename" select="concat('ogd_mps_skl',$term,'_mps0',$term,'-data.xml')"/>
+      <xsl:element name="file">
+          <xsl:attribute name="term" select="$term"/>
+          <xsl:attribute name="source" select="$filename"/>
+          <xsl:copy-of select="document(concat($in-dir,'/',$filename))" />
+      </xsl:element>
+    </xsl:for-each>
+  </xsl:variable>
 
   <xsl:variable name="mps-data">
     <!-- for each term load data from ogd_mps_skl*_mps-data.xml-->
@@ -37,14 +49,41 @@
     </xsl:element>
   </xsl:variable>
 
+  <xsl:variable name="mpsTT-data">
+    <!-- for each term load data from ogd_mps_skl*_mps0*-data.xml-->
+    <xsl:element name="mpsTT-data">
+      <xsl:for-each select="$files-mpsTT-data/file">
+        <xsl:variable name="term" select="./@term"/>
+        <xsl:element name="term">
+          <xsl:attribute name="n" select="$term"/>
+          <xsl:apply-templates select="." mode="mpsTT-data"/>
+        </xsl:element>
+      </xsl:for-each>
+    </xsl:element>
+  </xsl:variable>
+
   <xsl:variable name="mp_persons">
     <xsl:element name="mp_persons">
       <xsl:attribute name="source" select="string-join($files-mps-data//@file,' ')"/>
-      <xsl:for-each select="distinct-values($mps-data/*/term/mp/@id)">
+      <xsl:for-each select="distinct-values($mps-data/*/term/mp/@id | $mpsTT-data/*/term/mp/@id)">
         <xsl:variable name="mp-id" select="."/>
         <xsl:element name="mp_person">
           <xsl:attribute name="mp-id" select="$mp-id"/>
-          <xsl:copy-of select="$mps-data/*/term/mp[@id=$mp-id]"/>
+          <xsl:for-each select="distinct-values($mps-data/*/term/mp[@id=$mp-id]/@term | $mpsTT-data/*/term/mp[@id=$mp-id]/@term)">
+            <xsl:variable name="term" select="."/>
+            <xsl:variable name="terms" select="$mps-data/*/term/mp[@id=$mp-id and @term=$term] | $mpsTT-data/*/term/mp[@id=$mp-id and @term=$term]"/>
+            <xsl:element name="term">
+              <xsl:attribute name="term" select="$term"/>
+              <xsl:for-each select="distinct-values($terms/*/local-name())">
+                <xsl:sort select="."/>
+                <xsl:variable name="elem" select="."/>
+                <xsl:call-template name="merge-equal-elements">
+                  <xsl:with-param name="elems" select="$terms/*[local-name()=$elem]"/>
+                  <xsl:with-param name="name" select="$elem"/>
+                </xsl:call-template>
+              </xsl:for-each>
+            </xsl:element>
+          </xsl:for-each>
         </xsl:element>
       </xsl:for-each>
     </xsl:element>
@@ -64,7 +103,7 @@
     <xsl:variable name="check-path" select="concat($out-dir,'mp-data-check.txt')"/>
     <xsl:message select="concat('Saving ',$check-path)"/>
     <xsl:result-document href="{$check-path}" method="text">
-      <xsl:for-each select="$mp_persons/mp_persons/mp_person[count(./mp) > 1]">
+      <xsl:for-each select="$mp_persons/mp_persons/mp_person[count(./term) > 1]">
         <xsl:variable name="check-result">
           <xsl:call-template name="check"><xsl:with-param name="elem" select="'firstname'"/></xsl:call-template>
           <xsl:call-template name="check"><xsl:with-param name="elem" select="'patronymic'"/></xsl:call-template>
@@ -123,8 +162,8 @@
     <xsl:variable name="pers" select="."/>
     <xsl:variable name="newest" select="$pers/*[@term = max(../*/@term)]/*[local-name()=$elem]/text()"/>
     <xsl:variable name="values" select="distinct-values($pers/*/*[local-name()=$elem]/text()[. != $newest])"/>
-    <xsl:value-of select="$newest"/>
-    <xsl:if test="$values">
+    <xsl:value-of select="$newest[1]"/>
+    <xsl:if test="string-join($values,'')">
       <xsl:value-of select="concat('(',string-join($values,','),')')"/>
     </xsl:if>
   </xsl:template>
@@ -139,14 +178,18 @@
     <xsl:element name="mp">
       <xsl:attribute name="term" select="$term"/>
       <xsl:attribute name="id" select="ua:id"/>
+      <xsl:attribute name="source" select="./ancestor-or-self::*[@source][1]/@source"/>
       <xsl:apply-templates select="." mode="mps-data"/>
-      <xsl:element name="info"><xsl:value-of select="ua:short_info"/></xsl:element>
+      <xsl:element name="info">
+        <xsl:call-template name="add-source"><xsl:with-param name="elem" select="'short_info'"/></xsl:call-template>
+        <xsl:value-of select="ua:short_info"/>
+      </xsl:element>
       <xsl:apply-templates select="ua:party_id" mode="copy-if-text"/>
       <xsl:variable name="party_id" select="ua:party_id"/>
       <xsl:if test="ua:party_id/text()">
         <xsl:element name="party_name"><xsl:value-of select="$files-mps-data/file[@term=$term]//ua:parties/ua:party[./ua:id/text() = $party_id]/ua:name"/></xsl:element>
       </xsl:if>
-      <xsl:apply-templates select="ua:socials" mode="copy-if-text"/>
+      <xsl:apply-templates select="ua:socials/ua:social/ua:url" mode="copy-if-text"><xsl:with-param name="rename" select="'social_url'"/></xsl:apply-templates>
       <xsl:apply-templates select="ua:post_frs/ua:post_fr" mode="mps-data-cur"><xsl:with-param name="term" select="$term"/></xsl:apply-templates>
     </xsl:element>
   </xsl:template>
@@ -157,10 +200,14 @@
     <xsl:element name="mp">
       <xsl:attribute name="term" select="ua:convocation"/>
       <xsl:attribute name="id" select="ua:id"/>
+      <xsl:attribute name="source" select="./ancestor-or-self::*[@source][1]/@source"/>
       <xsl:apply-templates select="." mode="mps-data"/>
 
-      <xsl:element name="info"><xsl:value-of select="ua:mps_info_full"/></xsl:element>
-      <xsl:apply-templates select="ua:party_num" mode="copy-if-text"/>
+      <xsl:element name="info">
+        <xsl:call-template name="add-source"><xsl:with-param name="elem" select="'mps_info_full'"/></xsl:call-template>
+        <xsl:value-of select="ua:mps_info_full"/>
+      </xsl:element>
+      <xsl:apply-templates select="ua:party_num" mode="copy-if-text"><xsl:with-param name="rename" select="'party_id'"/></xsl:apply-templates>
       <xsl:apply-templates select="ua:party_name" mode="copy-if-text"/>
     </xsl:element>
   </xsl:template>
@@ -172,6 +219,7 @@
     <xsl:apply-templates select="ua:surname" mode="copy-if-text"/>
     <xsl:apply-templates select="ua:birthday" mode="copy-if-text"/>
     <xsl:element name="sex">
+      <xsl:call-template name="add-source"><xsl:with-param name="elem" select="'gender'"/></xsl:call-template>
       <xsl:choose>
         <xsl:when test="ua:gender/text() = 1">M</xsl:when>
         <xsl:otherwise>F</xsl:otherwise>
@@ -183,8 +231,17 @@
     <xsl:apply-templates select="ua:rada_id" mode="copy-if-text"/>
   </xsl:template>
 
-  <xsl:template match="ua:*[text()]" mode="copy-if-text">
-    <xsl:copy-of select="." copy-namespaces="false"/>
+  <xsl:template match="*[text()]" mode="copy-if-text">
+    <xsl:param name="rename"><xsl:value-of select="local-name()"/></xsl:param>
+    <xsl:element name="{$rename}">
+      <xsl:call-template name="add-source"><xsl:with-param name="elem" select="local-name()"/></xsl:call-template>
+      <xsl:choose>
+        <xsl:when test="matches(./text(),'^[0-9]{4}-[01][0-9]-[0123][0-9]T00:00:00$')">
+          <xsl:value-of select="replace(./text(), '^(\d\d\d\d-\d\d-\d\d)T.*$', '$1')"/>
+        </xsl:when>
+        <xsl:otherwise><xsl:value-of select="./text()"/></xsl:otherwise>
+    </xsl:choose>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="ua:post_fr" mode="mps-data-cur">
@@ -193,6 +250,7 @@
     <xsl:variable name="org_id" select="./ua:fr_association_id/text()"/>
     <xsl:variable name="org" select="$files-mps-data/file[@term=$term]//ua:fr_associations/ua:association[./ua:id/text() = $org_id]"/>
     <xsl:element name="membership">
+      <xsl:call-template name="add-source"><xsl:with-param name="elem" select="local-name()"/></xsl:call-template>
       <xsl:attribute name="type">
         <xsl:choose>
           <xsl:when test="$org/ua:is_fr/text() = 1">fraction</xsl:when>
@@ -206,4 +264,72 @@
     </xsl:element>
   </xsl:template>
 
+
+  <!-- mpsTT-data -->
+  <xsl:template match="file" mode="mpsTT-data">
+    <xsl:apply-templates select="./mps/mp" mode="mpsTT-data"/>
+  </xsl:template>
+
+
+  <xsl:template match="mp" mode="mpsTT-data">
+    <xsl:element name="mp">
+      <xsl:attribute name="term" select="convocation"/>
+      <xsl:attribute name="id" select="id"/>
+      <xsl:attribute name="source" select="./ancestor-or-self::*[@source][1]/@source"/>
+
+      <xsl:apply-templates select="first_name" mode="copy-if-text"><xsl:with-param name="rename" select="'firstname'"/></xsl:apply-templates>
+      <xsl:apply-templates select="second_name" mode="copy-if-text"><xsl:with-param name="rename" select="'patronymic'"/></xsl:apply-templates>
+      <xsl:apply-templates select="last_name" mode="copy-if-text"><xsl:with-param name="rename" select="'surname'"/></xsl:apply-templates>
+      <xsl:apply-templates select="birthday" mode="copy-if-text"/>
+      <xsl:element name="sex">
+        <xsl:choose>
+          <xsl:when test="gender/text() = 1">M</xsl:when>
+          <xsl:otherwise>F</xsl:otherwise>
+        </xsl:choose>
+      </xsl:element>
+
+      <xsl:apply-templates select="date_begin" mode="copy-if-text"><xsl:with-param name="rename" select="'date_oath'"/></xsl:apply-templates>
+      <xsl:apply-templates select="date_end" mode="copy-if-text"><xsl:with-param name="rename" select="'date_finish'"/></xsl:apply-templates>
+      <xsl:apply-templates select="party_id" mode="copy-if-text"/>
+
+      <xsl:apply-templates select="party_name" mode="copy-if-text"/>
+      <xsl:apply-templates select="photo" mode="copy-if-text"/>
+      <xsl:apply-templates select="rada_id" mode="copy-if-text"/>
+    </xsl:element>
+  </xsl:template>
+
+
+  <!-- -->
+  <xsl:template name="merge-equal-elements">
+    <xsl:param name="elems"/>
+    <xsl:param name="name"/>
+    <xsl:choose>
+      <xsl:when test="count(distinct-values($elems/text()))=0"> <!-- membership - no text -->
+        <xsl:for-each select="$elems">
+          <xsl:copy-of select="."/>
+        </xsl:for-each>
+      </xsl:when>
+      <xsl:when test="count(distinct-values($elems/text()))>1">
+        <xsl:for-each select="$elems">
+          <xsl:copy-of select="."/>
+        </xsl:for-each>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:element name="{$name}">
+          <xsl:attribute name="source" select="string-join($elems/@source,' ')"/>
+          <xsl:copy-of select="$elems[1]/text()"/>
+        </xsl:element>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template name="add-source">
+    <xsl:param name="elem"/>
+    <xsl:attribute name="source">
+      <xsl:value-of select="./ancestor-or-self::*[@source][1]/@source"/>
+      <xsl:if test="$elem">
+        <xsl:value-of select="concat('#$(//',$elem,')')"/>
+      </xsl:if>
+    </xsl:attribute>
+  </xsl:template>
 </xsl:stylesheet>

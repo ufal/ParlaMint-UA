@@ -1,2 +1,2 @@
 15669:
-	Different values for surname: 	Агафонова:7	Ковальчук:8
+	Different values for surname: 	Агафонова:	Ковальчук:
