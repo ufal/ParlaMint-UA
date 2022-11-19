@@ -270,7 +270,7 @@
          <firstname source="ogd_mps_skl7_mps-data.xml#$(//firstname) ogd_mps_skl7_mps07-data.xml#$(//first_name)">Андрій</firstname>
          <info source="ogd_mps_skl7_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;аспірант,&lt;br&gt;Київський національний університет імені Тараса Шевченка,&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Києві,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl7_mps07-data.xml#$(//party_id)">-533</party_id>
-         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Юрійович</patronymic>
          <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/d215_1.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">212</rada_id>
@@ -285,7 +285,7 @@
          <firstname source="ogd_mps_skl8_mps-data.xml#$(//firstname) ogd_mps_skl8_mps08-data.xml#$(//first_name)">Андрій</firstname>
          <info source="ogd_mps_skl8_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;народний депутат України,&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Києві,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl8_mps08-data.xml#$(//party_id)">-542</party_id>
-         <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl8_mps-data.xml#$(//patronymic) ogd_mps_skl8_mps08-data.xml#$(//second_name)">Юрійович</patronymic>
          <photo source="ogd_mps_skl8_mps-data.xml#$(//photo) ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/d215_1.jpg</photo>
          <rada_id source="ogd_mps_skl8_mps-data.xml#$(//rada_id)">173</rada_id>
@@ -1915,7 +1915,7 @@
          <firstname source="ogd_mps_skl7_mps-data.xml#$(//firstname) ogd_mps_skl7_mps07-data.xml#$(//first_name)">Юрій</firstname>
          <info source="ogd_mps_skl7_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;Ковалівський сільський голова,&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в селі Ковалівка Полтавського району Полтавської області,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl7_mps07-data.xml#$(//party_id)">-533</party_id>
-         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Васильович</patronymic>
          <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/d145_1.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">144</rada_id>
@@ -1930,7 +1930,7 @@
          <firstname source="ogd_mps_skl8_mps-data.xml#$(//firstname) ogd_mps_skl8_mps08-data.xml#$(//first_name)">Юрій</firstname>
          <info source="ogd_mps_skl8_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;народний депутат України,&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;з 25.12.2015 - зупинення членства у ВО "Свобода",&lt;br&gt;проживає в селі Ковалівка Полтавського району Полтавської області,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl8_mps08-data.xml#$(//party_id)">-542</party_id>
-         <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl8_mps-data.xml#$(//patronymic) ogd_mps_skl8_mps08-data.xml#$(//second_name)">Васильович</patronymic>
          <photo source="ogd_mps_skl8_mps-data.xml#$(//photo) ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/d145_1.jpg</photo>
          <rada_id source="ogd_mps_skl8_mps-data.xml#$(//rada_id)">108</rada_id>
@@ -2750,7 +2750,7 @@
          <firstname source="ogd_mps_skl7_mps-data.xml#$(//firstname) ogd_mps_skl7_mps07-data.xml#$(//first_name)">Михайло</firstname>
          <info source="ogd_mps_skl7_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;заступник голови,&lt;br&gt;Тернопільська обласна організація Всеукраїнського об’єднання "Свобода",&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Тернополі,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl7_mps07-data.xml#$(//party_id)">-533</party_id>
-         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Йосифович</patronymic>
          <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/d164_1.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">163</rada_id>
@@ -2765,7 +2765,7 @@
          <firstname source="ogd_mps_skl8_mps-data.xml#$(//firstname) ogd_mps_skl8_mps08-data.xml#$(//first_name)">Михайло</firstname>
          <info source="ogd_mps_skl8_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;народний депутат України,&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Тернополі,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl8_mps08-data.xml#$(//party_id)">-542</party_id>
-         <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl8_mps-data.xml#$(//patronymic) ogd_mps_skl8_mps08-data.xml#$(//second_name)">Йосифович</patronymic>
          <photo source="ogd_mps_skl8_mps-data.xml#$(//photo) ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/d164_1.jpg</photo>
          <rada_id source="ogd_mps_skl8_mps-data.xml#$(//rada_id)">125</rada_id>
@@ -4408,7 +4408,7 @@
          <firstname source="ogd_mps_skl7_mps-data.xml#$(//firstname) ogd_mps_skl7_mps07-data.xml#$(//first_name)">Олексій</firstname>
          <info source="ogd_mps_skl7_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;голова Тернопільської обласної ради,&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Тернополі,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl7_mps07-data.xml#$(//party_id)">-533</party_id>
-         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Петрович</patronymic>
          <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/d163_1.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">162</rada_id>
@@ -6763,9 +6763,7 @@
          <party_id source="ogd_mps_skl7_mps-data.xml#$(//party_num) ogd_mps_skl7_mps07-data.xml#$(//party_id)">5</party_id>
          <party_name source="ogd_mps_skl7_mps-data.xml#$(//party_name) ogd_mps_skl7_mps07-data.xml#$(//party_name)">Комуністична партія України</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Васильович</patronymic>
-         <photo source="ogd_mps_skl7_mps-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/kpu10.jpg
-</photo>
-         <photo source="ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/kpu10.jpg</photo>
+         <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/kpu10.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">447</rada_id>
          <rada_id source="ogd_mps_skl7_mps07-data.xml#$(//rada_id)">44707</rada_id>
          <sex source="ogd_mps_skl7_mps-data.xml#$(//gender)">M</sex>
@@ -7078,7 +7076,7 @@
          <firstname source="ogd_mps_skl7_mps-data.xml#$(//firstname) ogd_mps_skl7_mps07-data.xml#$(//first_name)">Євген</firstname>
          <info source="ogd_mps_skl7_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;директор,&lt;br&gt;ТзОВ "Укртрансзахід",&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Луцьку,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl7_mps07-data.xml#$(//party_id)">-533</party_id>
-         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Іванович</patronymic>
          <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/d19_1.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">20</rada_id>
@@ -7312,7 +7310,7 @@
          <firstname source="ogd_mps_skl7_mps-data.xml#$(//firstname) ogd_mps_skl7_mps07-data.xml#$(//first_name)">Юрій</firstname>
          <info source="ogd_mps_skl7_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;старший науковий співробітник,&lt;br&gt;Національний університет "Львівська політехніка",&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Львові,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl7_mps07-data.xml#$(//party_id)">-533</party_id>
-         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Адріянович</patronymic>
          <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/d118_1.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">118</rada_id>
@@ -8154,7 +8152,7 @@
          <firstname source="ogd_mps_skl7_mps-data.xml#$(//firstname) ogd_mps_skl7_mps07-data.xml#$(//first_name)">Олег</firstname>
          <info source="ogd_mps_skl7_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;заступник директора,&lt;br&gt;ТОВ "Юридична фірма "Бондарчук і партнери",&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Рівному,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl7_mps07-data.xml#$(//party_id)">-533</party_id>
-         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Іванович</patronymic>
          <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/d152_1.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">151</rada_id>
@@ -8169,7 +8167,7 @@
          <firstname source="ogd_mps_skl8_mps-data.xml#$(//firstname) ogd_mps_skl8_mps08-data.xml#$(//first_name)">Олег</firstname>
          <info source="ogd_mps_skl8_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;народний депутат України,&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Рівному,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl8_mps08-data.xml#$(//party_id)">-542</party_id>
-         <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl8_mps-data.xml#$(//patronymic) ogd_mps_skl8_mps08-data.xml#$(//second_name)">Іванович</patronymic>
          <photo source="ogd_mps_skl8_mps-data.xml#$(//photo) ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/d152_1.jpg</photo>
          <rada_id source="ogd_mps_skl8_mps-data.xml#$(//rada_id)">114</rada_id>
@@ -8936,9 +8934,7 @@
          <party_id source="ogd_mps_skl7_mps-data.xml#$(//party_num) ogd_mps_skl7_mps07-data.xml#$(//party_id)">94</party_id>
          <party_name source="ogd_mps_skl7_mps-data.xml#$(//party_name) ogd_mps_skl7_mps07-data.xml#$(//party_name)">Партія регіонів</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Леонідович</patronymic>
-         <photo source="ogd_mps_skl7_mps-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/reg75.jpg
-</photo>
-         <photo source="ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/reg75.jpg</photo>
+         <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/reg75.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">448</rada_id>
          <rada_id source="ogd_mps_skl7_mps07-data.xml#$(//rada_id)">44807</rada_id>
          <sex source="ogd_mps_skl7_mps-data.xml#$(//gender)">M</sex>
@@ -9582,7 +9578,7 @@
          <firstname source="ogd_mps_skl7_mps-data.xml#$(//firstname) ogd_mps_skl7_mps07-data.xml#$(//first_name)">Ігор</firstname>
          <info source="ogd_mps_skl7_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;голова Хмельницької обласної організації Всеукраїнського об’єднання "Свобода",&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Хмельницькому,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl7_mps07-data.xml#$(//party_id)">-533</party_id>
-         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Михайлович</patronymic>
          <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/d189_1.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">188</rada_id>
@@ -9802,7 +9798,7 @@
          <firstname source="ogd_mps_skl7_mps-data.xml#$(//firstname) ogd_mps_skl7_mps07-data.xml#$(//first_name)">Ірина</firstname>
          <info source="ogd_mps_skl7_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;директор,&lt;br&gt;ПП "Агенція юридичного захисту",&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Броди Львівської області,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl7_mps07-data.xml#$(//party_id)">-533</party_id>
-         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Ігорівна</patronymic>
          <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/d119_1.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">119</rada_id>
@@ -9872,7 +9868,7 @@
          <firstname source="ogd_mps_skl7_mps-data.xml#$(//firstname) ogd_mps_skl7_mps07-data.xml#$(//first_name)">Олександр</firstname>
          <info source="ogd_mps_skl7_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;голова Івано-Франківської обласної ради,&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Івано-Франківську,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl7_mps07-data.xml#$(//party_id)">-533</party_id>
-         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Максимович</patronymic>
          <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/d83_1.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">84</rada_id>
@@ -10622,7 +10618,7 @@
          <firstname source="ogd_mps_skl7_mps-data.xml#$(//firstname) ogd_mps_skl7_mps07-data.xml#$(//first_name)">Андрій</firstname>
          <info source="ogd_mps_skl7_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;директор,&lt;br&gt;ТзОВ "Комплект груп",&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Львові,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl7_mps07-data.xml#$(//party_id)">-533</party_id>
-         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Ярославович</patronymic>
          <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/d125_1.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">125</rada_id>
@@ -10739,7 +10735,7 @@
          <firstname source="ogd_mps_skl7_mps-data.xml#$(//firstname) ogd_mps_skl7_mps07-data.xml#$(//first_name)">Ірина</firstname>
          <info source="ogd_mps_skl7_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;доцент кафедри української мови,&lt;br&gt;Національний університет "Львівська політехніка",&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Львові,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl7_mps07-data.xml#$(//party_id)">-533</party_id>
-         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl7_mps07-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl7_mps-data.xml#$(//patronymic) ogd_mps_skl7_mps07-data.xml#$(//second_name)">Дмитрівна</patronymic>
          <photo source="ogd_mps_skl7_mps-data.xml#$(//photo) ogd_mps_skl7_mps07-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img7/d116_1.jpg</photo>
          <rada_id source="ogd_mps_skl7_mps-data.xml#$(//rada_id)">116</rada_id>
@@ -15304,7 +15300,7 @@
          <firstname source="ogd_mps_skl8_mps-data.xml#$(//firstname) ogd_mps_skl8_mps08-data.xml#$(//first_name)">Юрій</firstname>
          <info source="ogd_mps_skl8_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;помічник-консультант народного депутата України,&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Києві,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl8_mps08-data.xml#$(//party_id)">-542</party_id>
-         <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl8_mps-data.xml#$(//patronymic) ogd_mps_skl8_mps08-data.xml#$(//second_name)">Володимирович</patronymic>
          <photo source="ogd_mps_skl8_mps-data.xml#$(//photo) ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/d223_1.jpg</photo>
          <rada_id source="ogd_mps_skl8_mps-data.xml#$(//rada_id)">181</rada_id>
@@ -15726,7 +15722,7 @@
          <firstname source="ogd_mps_skl8_mps-data.xml#$(//firstname) ogd_mps_skl8_mps08-data.xml#$(//first_name)">Олександр</firstname>
          <info source="ogd_mps_skl8_mps-data.xml#$(//mps_info_full)">освіта вища,&lt;br&gt;генеральний директор,&lt;br&gt;ТДВ "Білоцерківський кар'єр",&lt;br&gt;член політичної партії Всеукраїнське об’єднання "Свобода",&lt;br&gt;проживає в місті Біла Церква Київської області,&lt;br&gt;судимість відсутня,&lt;br&gt;суб’єкт висування – політична партія Всеукраїнське об’єднання "Свобода".</info>
          <party_id source="ogd_mps_skl8_mps08-data.xml#$(//party_id)">-542</party_id>
-         <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">	Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
+         <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">Політична партія Всеукраїнське об'єднання "Свобода"</party_name>
          <patronymic source="ogd_mps_skl8_mps-data.xml#$(//patronymic) ogd_mps_skl8_mps08-data.xml#$(//second_name)">Олександрович</patronymic>
          <photo source="ogd_mps_skl8_mps-data.xml#$(//photo) ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/d90_1.jpg</photo>
          <rada_id source="ogd_mps_skl8_mps-data.xml#$(//rada_id)">65</rada_id>
@@ -16226,9 +16222,7 @@
          <party_id source="ogd_mps_skl8_mps-data.xml#$(//party_num) ogd_mps_skl8_mps08-data.xml#$(//party_id)">211</party_id>
          <party_name source="ogd_mps_skl8_mps-data.xml#$(//party_name) ogd_mps_skl8_mps08-data.xml#$(//party_name)">Політична партія "НАРОДНИЙ ФРОНТ"</party_name>
          <patronymic source="ogd_mps_skl8_mps-data.xml#$(//patronymic) ogd_mps_skl8_mps08-data.xml#$(//second_name)">Іванович</patronymic>
-         <photo source="ogd_mps_skl8_mps-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/nf76.jpg
-</photo>
-         <photo source="ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/nf76.jpg</photo>
+         <photo source="ogd_mps_skl8_mps-data.xml#$(//photo) ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/nf76.jpg</photo>
          <rada_id source="ogd_mps_skl8_mps-data.xml#$(//rada_id)">453</rada_id>
          <rada_id source="ogd_mps_skl8_mps08-data.xml#$(//rada_id)">45308</rada_id>
          <sex source="ogd_mps_skl8_mps-data.xml#$(//gender)">M</sex>
@@ -16604,9 +16598,7 @@
          <party_id source="ogd_mps_skl8_mps08-data.xml#$(//party_id)">0</party_id>
          <party_name source="ogd_mps_skl8_mps08-data.xml#$(//party_name)">Самовисування</party_name>
          <patronymic source="ogd_mps_skl8_mps-data.xml#$(//patronymic) ogd_mps_skl8_mps08-data.xml#$(//second_name)">Васильович</patronymic>
-         <photo source="ogd_mps_skl8_mps-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/d63_1.jpg
-</photo>
-         <photo source="ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/d63_1.jpg</photo>
+         <photo source="ogd_mps_skl8_mps-data.xml#$(//photo) ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/d63_1.jpg</photo>
          <rada_id source="ogd_mps_skl8_mps-data.xml#$(//rada_id)">436</rada_id>
          <rada_id source="ogd_mps_skl8_mps08-data.xml#$(//rada_id)">43608</rada_id>
          <sex source="ogd_mps_skl8_mps-data.xml#$(//gender)">M</sex>
@@ -16970,9 +16962,7 @@
          <party_id source="ogd_mps_skl8_mps-data.xml#$(//party_num) ogd_mps_skl8_mps08-data.xml#$(//party_id)">210</party_id>
          <party_name source="ogd_mps_skl8_mps-data.xml#$(//party_name) ogd_mps_skl8_mps08-data.xml#$(//party_name)">ПАРТІЯ "БЛОК ПЕТРА ПОРОШЕНКА"</party_name>
          <patronymic source="ogd_mps_skl8_mps-data.xml#$(//patronymic) ogd_mps_skl8_mps08-data.xml#$(//second_name)">Володимирович</patronymic>
-         <photo source="ogd_mps_skl8_mps-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/bp73.jpg
-</photo>
-         <photo source="ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/bp73.jpg</photo>
+         <photo source="ogd_mps_skl8_mps-data.xml#$(//photo) ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/bp73.jpg</photo>
          <rada_id source="ogd_mps_skl8_mps-data.xml#$(//rada_id)">452</rada_id>
          <rada_id source="ogd_mps_skl8_mps08-data.xml#$(//rada_id)">45208</rada_id>
          <sex source="ogd_mps_skl8_mps-data.xml#$(//gender)">M</sex>
@@ -18015,9 +18005,7 @@
          <party_id source="ogd_mps_skl8_mps-data.xml#$(//party_num) ogd_mps_skl8_mps08-data.xml#$(//party_id)">210</party_id>
          <party_name source="ogd_mps_skl8_mps-data.xml#$(//party_name) ogd_mps_skl8_mps08-data.xml#$(//party_name)">ПАРТІЯ "БЛОК ПЕТРА ПОРОШЕНКА"</party_name>
          <patronymic source="ogd_mps_skl8_mps-data.xml#$(//patronymic) ogd_mps_skl8_mps08-data.xml#$(//second_name)">Аронович</patronymic>
-         <photo source="ogd_mps_skl8_mps-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/bp72.jpg
-</photo>
-         <photo source="ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/bp72.jpg</photo>
+         <photo source="ogd_mps_skl8_mps-data.xml#$(//photo) ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/bp72.jpg</photo>
          <rada_id source="ogd_mps_skl8_mps-data.xml#$(//rada_id)">447</rada_id>
          <rada_id source="ogd_mps_skl8_mps08-data.xml#$(//rada_id)">44708</rada_id>
          <sex source="ogd_mps_skl8_mps-data.xml#$(//gender)">M</sex>
@@ -18202,9 +18190,7 @@
          <party_id source="ogd_mps_skl8_mps-data.xml#$(//party_num) ogd_mps_skl8_mps08-data.xml#$(//party_id)">206</party_id>
          <party_name source="ogd_mps_skl8_mps-data.xml#$(//party_name) ogd_mps_skl8_mps08-data.xml#$(//party_name)">Радикальна Партія Олега Ляшка</party_name>
          <patronymic source="ogd_mps_skl8_mps-data.xml#$(//patronymic) ogd_mps_skl8_mps08-data.xml#$(//second_name)">Леонідівна</patronymic>
-         <photo source="ogd_mps_skl8_mps-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/rp26.jpg
-</photo>
-         <photo source="ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/rp26.jpg</photo>
+         <photo source="ogd_mps_skl8_mps-data.xml#$(//photo) ogd_mps_skl8_mps08-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img8/rp26.jpg</photo>
          <rada_id source="ogd_mps_skl8_mps-data.xml#$(//rada_id)">454</rada_id>
          <rada_id source="ogd_mps_skl8_mps08-data.xml#$(//rada_id)">45408</rada_id>
          <sex source="ogd_mps_skl8_mps-data.xml#$(//gender)">F</sex>
@@ -18754,7 +18740,7 @@
          <photo source="ogd_mps_skl9_mps-data.xml#$(//photo) ogd_mps_skl9_mps09-data.xml#$(//photo)">http://static.rada.gov.ua/dep_img9/d15_1.jpg</photo>
          <rada_id source="ogd_mps_skl9_mps-data.xml#$(//rada_id) ogd_mps_skl9_mps09-data.xml#$(//rada_id)">6</rada_id>
          <sex source="ogd_mps_skl9_mps-data.xml#$(//gender)">F</sex>
-         <social_url source="ogd_mps_skl9_mps-data.xml#$(//url)">instagram.com/larisabilozir?utm_medium=copy_link </social_url>
+         <social_url source="ogd_mps_skl9_mps-data.xml#$(//url)">instagram.com/larisabilozir?utm_medium=copy_link</social_url>
          <social_url source="ogd_mps_skl9_mps-data.xml#$(//url)">www.facebook.com/larysabilozir</social_url>
          <social_url source="ogd_mps_skl9_mps-data.xml#$(//url)">bit.ly/larysabilozir</social_url>
          <social_url source="ogd_mps_skl9_mps-data.xml#$(//url)">t.me/larysabilozir</social_url>

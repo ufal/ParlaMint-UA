@@ -1,0 +1,15 @@
+# of different persons:	1129
+# of different birthday:	1080
+# of different date_finish:	54
+# of different date_oath:	57
+# of different firstname:	149
+# of different info:	1338
+# of different membership:	1
+# of different party_id:	34
+# of different party_name:	36
+# of different patronymic:	159
+# of different photo:	1389
+# of different rada_id:	1427
+# of different sex:	2
+# of different social_url:	89
+# of different surname:	1021

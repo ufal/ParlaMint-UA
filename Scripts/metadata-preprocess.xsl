@@ -117,6 +117,13 @@
       </xsl:for-each>
     </xsl:result-document>
 
+    <!-- stats -->
+    <xsl:variable name="stats-path" select="concat($out-dir,'mp-data-stats')"/>
+    <xsl:message select="concat('Saving ',$stats-path,'...')"/>
+    <xsl:apply-templates select="$mp_persons/mp_persons" mode="stats">
+      <xsl:with-param name="path-prefix" select="$stats-path"/>
+    </xsl:apply-templates>
+
     <!-- tsv result -->
     <!-- person list -->
     <xsl:variable name="person-list-path" select="concat($out-dir,'mp-data-person-list.tsv')"/>
@@ -185,8 +192,8 @@
         <xsl:value-of select="ua:short_info"/>
       </xsl:element>
       <xsl:apply-templates select="ua:party_id" mode="copy-if-text"/>
-      <xsl:variable name="party_id" select="ua:party_id"/>
-      <xsl:if test="ua:party_id/text()">
+      <xsl:variable name="party_id" select="ua:party_id/text()"/>
+      <xsl:if test="$party_id">
         <xsl:element name="party_name"><xsl:value-of select="$files-mps-data/file[@term=$term]//ua:parties/ua:party[./ua:id/text() = $party_id]/ua:name"/></xsl:element>
       </xsl:if>
       <xsl:apply-templates select="ua:socials/ua:social/ua:url" mode="copy-if-text"><xsl:with-param name="rename" select="'social_url'"/></xsl:apply-templates>
@@ -239,7 +246,7 @@
         <xsl:when test="matches(./text(),'^[0-9]{4}-[01][0-9]-[0123][0-9]T00:00:00$')">
           <xsl:value-of select="replace(./text(), '^(\d\d\d\d-\d\d-\d\d)T.*$', '$1')"/>
         </xsl:when>
-        <xsl:otherwise><xsl:value-of select="./text()"/></xsl:otherwise>
+        <xsl:otherwise><xsl:value-of select="normalize-space(./text())"/></xsl:otherwise>
     </xsl:choose>
     </xsl:element>
   </xsl:template>
@@ -331,5 +338,69 @@
         <xsl:value-of select="concat('#$(//',$elem,')')"/>
       </xsl:if>
     </xsl:attribute>
+  </xsl:template>
+
+  <!-- statistics: -->
+  <xsl:template match="mp_persons" mode="stats">
+  <xsl:param name="path-prefix"/>
+  <xsl:variable name="context" select="."/>
+  <xsl:result-document href="{concat($path-prefix,'.txt')}" method="text">
+    <xsl:text># of different persons:&#9;</xsl:text><xsl:value-of select="count(./mp_person)"/><xsl:text>&#10;</xsl:text>
+    <xsl:for-each select="distinct-values($context/mp_person/term/*/local-name())">
+      <xsl:sort select="."/>
+      <xsl:variable name="elem" select="."/>
+      <xsl:text># of different </xsl:text>
+      <xsl:value-of select="$elem"/>
+      <xsl:text>:&#9;</xsl:text>
+      <xsl:value-of select="count(distinct-values($context/mp_person/term/*[local-name() = $elem]))"/>
+      <xsl:text>&#10;</xsl:text>
+    </xsl:for-each>
+  </xsl:result-document>
+  <xsl:result-document href="{concat($path-prefix,'-cnt-id-party.tsv')}" method="text">
+    <xsl:text>cnt&#9;partyID&#9;partyName&#10;</xsl:text>
+    <xsl:for-each select="distinct-values($context/mp_person/term/party_id/text())">
+      <xsl:sort select="."/>
+      <xsl:variable name="party_id" select="."/>
+      <xsl:for-each select="distinct-values($context/mp_person/term[party_id/text() = $party_id]/party_name/text())">
+        <xsl:variable name="party_name" select="."/>
+        <xsl:value-of select="count($context/mp_person/term[party_id/text() = $party_id and party_name/text() = $party_name])"/>
+        <xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="$party_id"/>
+        <xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="$party_name"/>
+        <xsl:text>&#10;</xsl:text>
+      </xsl:for-each>
+    </xsl:for-each>
+  </xsl:result-document>
+  <xsl:result-document href="{concat($path-prefix,'-cnt-membership.tsv')}" method="text">
+    <xsl:text>cnt&#9;orgID&#9;isFraction&#9;term&#9;postID&#9;orgName&#9;postName&#10;</xsl:text>
+    <xsl:for-each select="distinct-values($context/mp_person/term/membership/@org_id)">
+      <xsl:sort select="."/>
+      <xsl:variable name="org_id" select="."/>
+      <xsl:for-each select="distinct-values($context/mp_person/term[membership[@org_id = $org_id]]/@term)">
+        <xsl:sort select="."/>
+        <xsl:variable name="term" select="."/>
+        <xsl:for-each select="distinct-values($context/mp_person/term[@term=$term]/membership[@org_id = $org_id]/@post_id)">
+          <xsl:sort select="."/>
+          <xsl:variable name="post_id" select="."/>
+          <xsl:variable name="memberships" select="$context/mp_person/term[@term=$term]/membership[@org_id = $org_id and @post_id = $post_id]"/>
+          <xsl:value-of select="count($memberships)"/>
+          <xsl:text>&#9;</xsl:text>
+          <xsl:value-of select="$org_id"/>
+          <xsl:text>&#9;</xsl:text>
+          <xsl:value-of select="distinct-values($memberships/@type)"/>
+          <xsl:text>&#9;</xsl:text>
+          <xsl:value-of select="$term"/>
+          <xsl:text>&#9;</xsl:text>
+          <xsl:value-of select="$post_id"/>
+          <xsl:text>&#9;</xsl:text>
+          <xsl:value-of select="distinct-values($memberships/@org_name)"/>
+          <xsl:text>&#9;</xsl:text>
+          <xsl:value-of select="distinct-values($memberships/@post_name)"/>
+          <xsl:text>&#10;</xsl:text>
+        </xsl:for-each>
+      </xsl:for-each>
+    </xsl:for-each>
+  </xsl:result-document>
   </xsl:template>
 </xsl:stylesheet>
