@@ -61,6 +61,7 @@ $(html2tei-text-RUN-ALL): html2tei-text-%:
 download-meta-NN = $(addprefix download-meta-, $(TERMS))
 ## download-meta ## metadata from all terms defined in variable TERM
 download-meta: $(download-meta-NN)
+	wget https://data.rada.gov.ua/ogd/zal/mps/mps-trans_fr.csv -O $(DATADIR)/download-meta/$(DATE)/ogd_zal_mps_mps-trans_fr.csv
 ## download-meta-NN ## Downloads all metadata from term NN
 $(download-meta-NN): download-meta-%:
 	mkdir -p $(DATADIR)/download-meta/$(DATE)
@@ -93,6 +94,7 @@ tei-particDesc-preprocess-RUN-LAST = $(addprefix tei-particDesc-preprocess-, $(D
 tei-particDesc-preprocess: $(tei-particDesc-preprocess-RUN-LAST)
 $(tei-particDesc-preprocess-RUN-LAST): tei-particDesc-preprocess-%:
 	mkdir -p $(DATADIR)/tei-particDesc-preprocess/$*
+	cp $(DATADIR)/download-meta/$*/*.csv $(DATADIR)/tei-particDesc-preprocess/$*/
 	for FILE in `ls $(DATADIR)/download-meta/$* | grep '.xml$$'`; do \
 	  xmllint --format $(DATADIR)/download-meta/$*/$${FILE} \
 	    | perl -Mopen=locale -pe 's/&#x([\da-f]+);/chr hex $$1/gie' \

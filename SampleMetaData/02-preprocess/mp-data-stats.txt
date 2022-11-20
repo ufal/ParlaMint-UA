@@ -3,6 +3,7 @@
 # of different date_finish:	54
 # of different date_oath:	57
 # of different firstname:	149
+# of different fullname:	1130
 # of different info:	1338
 # of different membership:	1
 # of different party_id:	34

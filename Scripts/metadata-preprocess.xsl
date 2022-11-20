@@ -5,10 +5,26 @@
   xmlns:ua="http://rada.gov.ua/mps/"
   xmlns:i="http://www.w3.org/2001/XMLSchema-instance"
   exclude-result-prefixes="tei ua i">
+
+  <xsl:import href="ParlaMint-UA-lib.xsl"/>
+
+
   <xsl:output method="xml" indent="yes"/>
   <xsl:param name="in-dir"/>
   <xsl:param name="out-dir"/>
   <xsl:param name="terms"/>
+
+
+  <xsl:variable name="file-trans_fr">
+
+    <xsl:variable name="file" select="'ogd_zal_mps_mps-trans_fr.csv'"/>
+    <xsl:call-template name="read-csv">
+      <xsl:with-param name="file" select="concat($in-dir,'/',$file)"/>
+      <xsl:with-param name="source" select="$file"/>
+
+    </xsl:call-template>
+  </xsl:variable>
+
 
 
   <xsl:variable name="files-mps-data">
@@ -81,6 +97,17 @@
                   <xsl:with-param name="elems" select="$terms/*[local-name()=$elem]"/>
                   <xsl:with-param name="name" select="$elem"/>
                 </xsl:call-template>
+              </xsl:for-each>
+              <xsl:for-each select="$file-trans_fr/table/row[col[@name='convocation']=$term and col[@name='full_name']=$terms/fullname/text()]">
+                <xsl:element name="membership">
+                  <xsl:attribute name="source" select="$file-trans_fr/table/@source"/>
+                  <xsl:attribute name="type">fraction</xsl:attribute>
+                  <xsl:attribute name="org_name" select="./col[@name='fra_name']/text()"/>
+                  <xsl:attribute name="from" select="./col[@name='date_in']/text()"/>
+                  <xsl:if test="normalize-space(./col[@name='date_out']/text())">
+                    <xsl:attribute name="to" select="./col[@name='date_out']/text()"/>
+                  </xsl:if>
+                </xsl:element>
               </xsl:for-each>
             </xsl:element>
           </xsl:for-each>
@@ -284,6 +311,7 @@
       <xsl:attribute name="id" select="id"/>
       <xsl:attribute name="source" select="./ancestor-or-self::*[@source][1]/@source"/>
 
+      <xsl:apply-templates select="full_name" mode="copy-if-text"><xsl:with-param name="rename" select="'fullname'"/></xsl:apply-templates>
       <xsl:apply-templates select="first_name" mode="copy-if-text"><xsl:with-param name="rename" select="'firstname'"/></xsl:apply-templates>
       <xsl:apply-templates select="second_name" mode="copy-if-text"><xsl:with-param name="rename" select="'patronymic'"/></xsl:apply-templates>
       <xsl:apply-templates select="last_name" mode="copy-if-text"><xsl:with-param name="rename" select="'surname'"/></xsl:apply-templates>
