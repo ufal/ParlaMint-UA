@@ -32,6 +32,7 @@ TEI-TEXT_DATA_LAST := $(shell ls $(DATADIR)/tei-text | grep -v '_' | sort -r | h
 # PROCESS_SUBSET := --process-subset "20[12].....-?.?"
 #PROCESS_SUBSET := --process-subset "20[12].02.."
 #PROCESS_SUBSET := --process-subset "20220223"
+#PROCESS_SUBSET := --process-subset "20[12].02..-?.?"
 
 .PHONY: $(html2tei-text-RUN) html2tei-text
 html2tei-text-RUN-ALL = $(addprefix html2tei-text-, $(DOWNLOAD_DATA_ALL))
@@ -125,7 +126,7 @@ create-february-sample:
 	ls $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ParlaMint-UA_20??-02-??*.xml | xargs -I {} cp {} SampleData/02-tei-text/
 
 create-all-stats:
-	rm -rf DataStats/*
+	#rm -rf DataStats/*
 	mkdir -p DataStats
 	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
 	   grep -o '<note>[^<]*</note>'|sort|uniq -c|sort -nr > DataStats/note_cnt.log
@@ -139,7 +140,7 @@ create-all-stats:
 	   grep -o '<seg>[^<]*</seg>'|sort|uniq -c|grep -v "^ *1 <seg" |sort -nr > DataStats/seg_non_uniq.log
 	find $(DATADIR)/tei-text/$*/ -type f |xargs cat|\
 	   tr "\n" " "|sed "s/\(<[^<]*>[^>]*<desc[^>]*>[^<]*\)/\n\1\n\n\n/g"|\
-	   grep '<desc'|sed 's/^<\([^ ]*\).*type="\([^"]*\)".*<desc[^>]*>/\1\t\2\t/'|\
+	   grep '<desc'|sed -E 's/^<([^ ]*).*(type|reason)="([^"]*)".*<desc[^>]*>/\1\t\3\t/'|\
 	   sort|uniq -c|sort -nr > DataStats/incident_ana_cnt.log
 
 

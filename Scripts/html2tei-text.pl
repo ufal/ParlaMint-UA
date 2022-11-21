@@ -71,7 +71,7 @@ for my $fileIn (@file_list){
   print STDERR "number of paragraphs:",scalar @p,"\n";
   # processing text header
   # date
-  add_note($div,(shift @p)->textContent);
+  add_note($div,(shift @p)->textContent)->setAttribute('type','date');
   # title
 =x
   while(@p && $p[0] && $p[0]->hasAttribute('align')){
@@ -106,7 +106,11 @@ for my $fileIn (@file_list){
         $chair_is_next = 1;
       }
       undef $chair_is_next if $chair && !($p_category eq 'change_chair_next');
-      add_note($div,$p->textContent);
+      my $note = add_note($div,$p->textContent);
+      $note->setAttribute('type','narrative') if $p_category eq 'change_chair';
+      $note->setAttribute('type','narrative') if $p_category eq 'change_chair_next';
+      $note->setAttribute('type','comment') if $p_category eq 'process_note';
+
       #undef $utterance;
       next;
     }
@@ -131,7 +135,7 @@ for my $fileIn (@file_list){
           ) {
           if($speaker_status eq 'interrupting'){
 print STDERR "$content:\n\t$speaker\t$speech\n";
-            add_interruption($utterance//$div,'vocal','interruption',$content);
+            add_interruption($utterance//$div,'vocal','shouting',$content);
           } else {
             add_note($div,$speaker)->setAttribute('type','speaker');
             $utterance = $div->addNewChild(undef,'u');
@@ -169,6 +173,7 @@ print STDERR "$content:\n\t$speaker\t$speech\n";
   }
 
   normalize_elements_and_spaces($tei->documentElement());
+  annotate_notes($tei->documentElement());
   save_xml($tei,$fileOut);
 }
 
@@ -219,11 +224,54 @@ sub add_time_note {
 }
 
 sub add_interruption {
-  my ($context,$elemName,$type,$text) = @_;
+  my ($context,$elemName,$type,$text,$attName) = @_;
   my $node = $context->addNewChild(undef,$elemName);
-  $node->setAttribute('type',$type) if $type;
+  $node->setAttribute($attName//'type',$type) if $type;
   $node->appendTextChild('desc',$text);
   return $node;
+}
+
+sub add_and_annotate_note {
+  my ($context,$text) = @_;
+  my ($elem,$type,$attName) = annotate_note($text);
+  print STDERR "$elem\t",($type//'??'),"\t$text\n";
+  return add_interruption($context,$elem,$type,$text,$attName) unless $elem eq 'note';
+  my $note = add_note($context,$text);
+  $note->setAttribute('type',$type) if $type;
+  return $note;
+}
+
+sub annotate_note {
+  my $text = shift;
+  $text =~ s/^\s*\(|\)\s*$//g;
+  return qw/note time/ if $text =~ m/^\d{2}:\d{2}:\d{2}$/;
+  return qw/vocal shouting/ if $text =~ m/ГОЛОС.? ІЗ ЗАЛУ/i;
+
+  return qw/kinesic applause/ if $text =~ m/Оплески/i;
+  return qw/vocal noise/ if $text =~ m/Шум [ув] залі/i;
+  return qw/incident action/ if $text =~ m/Хвилина мовчання/i;
+  return qw/incident action/ if $text =~ m/Державний Гімн/i;
+  return qw/incident action/ if $text =~ m/Лунає Гімн/i;
+  return qw/gap inaudible reason/ if $text =~ m/^Не чути$/i;
+  return qw/note comment/ if $text =~ m/\bмовою$/i;
+
+
+  return qw/vocal exclamat/ if $text =~ m/Вигуки/i;
+
+  return 'note';
+}
+
+sub annotate_notes {
+  my $node = shift;
+  print STDERR "TODO: get all notes without annotation and replace them with proper node\n";
+  for my $note ($node->findnodes('.//*[local-name() = "note" and not(@type)]')){
+    my $text = $note->textContent;
+    #$note->removeTextContent;
+    my $new_note = add_and_annotate_note($note,$text); # hack -a add it as a child(use it as a context)
+    $new_note->unbindNode;
+    $note->parentNode->insertAfter($new_note,$note);
+    $note->unbindNode;
+  }
 }
 
 sub get_p_category {
@@ -315,9 +363,12 @@ sub normalize_elements_and_spaces {
   my %process_order = (
     TEI => [qw/div/],
     div => [qw/u/],
-    u => [qw/seg note vocal/],
-    seg => [qw/note vocal/],
-    vocal => [qw/desc/]
+    u => [qw/seg note vocal kinesic incident gap/],
+    seg => [qw/note vocal kinesic incident gap/],
+    vocal => [qw/desc/],
+    kinesic => [qw/desc/],
+    incident => [qw/desc/],
+    gap => [qw/desc/]
     );
   my %normalize_spaces = map {$_ => 1} qw/seg note desc/;
   my %move_note_out = map {$_ => 1} qw/u seg/;
