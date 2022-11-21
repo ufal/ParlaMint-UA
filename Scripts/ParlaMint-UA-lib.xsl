@@ -65,4 +65,30 @@
     <xsl:variable name="t7" select="replace($t6,'^&quot;(.*)&quot;$','$1','i')"/>
     <xsl:value-of select="$t7"/>
   </xsl:function>
+  <xsl:function name="mk:create-mp-alias">
+    <xsl:param name="nodes"/>
+    <xsl:value-of select="concat(
+                            $nodes[surname/text()][1]/surname/text(),
+                            ' ',
+                            replace($nodes[firstname/text()][1]/firstname/text(),'^(.).*','$1'),
+                            '.',
+                            replace($nodes[patronymic/text()][1]/patronymic/text(),'^(.).*','$1'),
+                            '.'
+                            )
+      "/>
+  </xsl:function>
+  <xsl:function name="mk:create-parlamint-id">
+    <xsl:param name="nodes"/>
+    <xsl:param name="decisive-date"/>
+    <xsl:variable name="nodes-dec" select="$nodes[./date_oath/text()][xs:date(./date_oath/text()) &lt;= xs:date($decisive-date)]"/>
+    <xsl:variable name="nodes-max" select="$nodes-dec[max($nodes-dec/date_oath/xs:date(text())) = xs:date(./date_oath/text())]"/>
+    <xsl:value-of select="concat(
+                            $nodes-max[firstname/text()][1]/firstname/text(),
+                            $nodes-max[patronymic/text()][1]/patronymic/text(),
+                            $nodes-max[surname/text()][1]/surname/text(),
+                            '.',
+                            replace($nodes-max[birthday/text()][1]/birthday/text(), '-.*$','')
+                            )
+      "/>
+  </xsl:function>
 </xsl:stylesheet>

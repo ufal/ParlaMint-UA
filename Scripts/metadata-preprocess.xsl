@@ -14,7 +14,7 @@
   <xsl:param name="in-dir"/>
   <xsl:param name="out-dir"/>
   <xsl:param name="terms"/>
-
+  <xsl:variable name="decisive-for-generating-ids">2022-11-21</xsl:variable>
 
   <xsl:variable name="file-trans_fr">
 
@@ -84,13 +84,16 @@
       <xsl:attribute name="source" select="string-join($files-mps-data//@file,' ')"/>
       <xsl:for-each select="distinct-values($mps-data/*/term/mp/@id | $mpsTT-data/*/term/mp/@id)">
         <xsl:variable name="mp-id" select="."/>
+        <xsl:variable name="mps-data-actmp" select="$mps-data/*/term/mp[@id=$mp-id] | $mpsTT-data/*/term/mp[@id=$mp-id]"/>
         <xsl:element name="mp_person">
           <xsl:attribute name="mp-id" select="$mp-id"/>
-          <xsl:for-each select="distinct-values($mps-data/*/term/mp[@id=$mp-id]/@term | $mpsTT-data/*/term/mp[@id=$mp-id]/@term)">
+          <xsl:attribute name="parlamint-id" select="mk:create-parlamint-id($mps-data-actmp, $decisive-for-generating-ids)"/>
+          <xsl:for-each select="distinct-values($mps-data-actmp/@term)">
             <xsl:variable name="term" select="."/>
             <xsl:variable name="terms" select="$mps-data/*/term/mp[@id=$mp-id and @term=$term] | $mpsTT-data/*/term/mp[@id=$mp-id and @term=$term]"/>
             <xsl:element name="term">
               <xsl:attribute name="term" select="$term"/>
+              <xsl:attribute name="alias" select="mk:create-mp-alias($terms)"/>
               <xsl:for-each select="distinct-values($terms/*/local-name())">
                 <xsl:sort select="."/>
                 <xsl:variable name="elem" select="."/>
@@ -154,14 +157,27 @@
     </xsl:apply-templates>
 
     <!-- tsv result -->
+    <!-- speaker aliases ids -->
+    <xsl:variable name="mp-data-aliases-path" select="concat($out-dir,'mp-data-aliases.tsv')"/>
+    <xsl:message select="concat('Saving ',$mp-data-aliases-path)"/>
+    <xsl:result-document href="{$mp-data-aliases-path}" method="text">
+      <xsl:text>alias&#9;term&#9;id&#10;</xsl:text>
+      <xsl:for-each select="$mp_persons/mp_persons/mp_person/term">
+        <xsl:value-of select="./@alias"/><xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="./@term"/><xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="../@parlamint-id"/>
+        <xsl:text>&#10;</xsl:text>
+      </xsl:for-each>
+    </xsl:result-document>
     <!-- person list -->
     <xsl:variable name="person-list-path" select="concat($out-dir,'mp-data-person-list.tsv')"/>
     <xsl:message select="concat('Saving ',$person-list-path)"/>
     <xsl:result-document href="{$person-list-path}" method="text">
-      <xsl:text>personID&#9;firstname&#9;patronymic&#9;surname&#9;birthday&#9;sex&#10;</xsl:text>
+      <xsl:text>personID&#9;personParlaMintID&#9;firstname&#9;patronymic&#9;surname&#9;birthday&#9;sex&#10;</xsl:text>
 
       <xsl:for-each select="$mp_persons/mp_persons/mp_person">
         <xsl:value-of select="./@mp-id"/><xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="./@parlamint-id"/><xsl:text>&#9;</xsl:text>
         <xsl:call-template name="print-field"><xsl:with-param name="elem" select="'firstname'"/></xsl:call-template><xsl:text>&#9;</xsl:text>
         <xsl:call-template name="print-field"><xsl:with-param name="elem" select="'patronymic'"/></xsl:call-template><xsl:text>&#9;</xsl:text>
         <xsl:call-template name="print-field"><xsl:with-param name="elem" select="'surname'"/></xsl:call-template><xsl:text>&#9;</xsl:text>
