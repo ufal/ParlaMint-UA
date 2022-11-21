@@ -430,5 +430,29 @@
       </xsl:for-each>
     </xsl:for-each>
   </xsl:result-document>
+    <xsl:result-document href="{concat($path-prefix,'-cnt-frac_membership.tsv')}" method="text">
+    <xsl:text>cnt&#9;fromCnt&#9;toCnt&#9;orgIDCnt&#9;orgName&#9;term&#10;</xsl:text>
+    <xsl:for-each select="distinct-values($context/mp_person/term/membership[@type='fraction']/@org_name)">
+      <xsl:sort select="."/>
+      <xsl:variable name="org_name" select="."/>
+      <xsl:for-each select="distinct-values($context/mp_person/term[membership[@org_name = $org_name and @type='fraction']]/@term)">
+        <xsl:sort select="."/>
+        <xsl:variable name="term" select="."/>
+        <xsl:variable name="memberships" select="$context/mp_person/term[@term=$term]/membership[@org_name = $org_name and @type='fraction']"/>
+        <xsl:value-of select="count($memberships)"/>
+        <xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="count($memberships/@from)"/>
+        <xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="count($memberships/@to)"/>
+        <xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="count($memberships/@org_id)"/>
+        <xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="$org_name"/>
+        <xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="$term"/>
+        <xsl:text>&#10;</xsl:text>
+      </xsl:for-each>
+    </xsl:for-each>
+  </xsl:result-document>
   </xsl:template>
 </xsl:stylesheet>
