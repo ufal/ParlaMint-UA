@@ -3,6 +3,7 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:ua="http://rada.gov.ua/mps/"
+  xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
   xmlns:i="http://www.w3.org/2001/XMLSchema-instance"
   exclude-result-prefixes="#all">
 
@@ -50,7 +51,18 @@
 -->
         </xsl:analyze-string>
       </row>
-    <xsl:text>&#10;</xsl:text>
     </xsl:if>
   </xsl:template>
+
+  <xsl:function name="mk:normalize-fraction">
+    <xsl:param name="text"/>
+    <xsl:variable name="t1" select="replace($text,'^\s*Депутатська група\s*','','i')"/>
+    <xsl:variable name="t2" select="replace($t1,'^\s*Фракці[яї] політичної партії\s*','','i')"/>
+    <xsl:variable name="t3" select="replace($t2,'^\s*групи\s*','','i')"/>
+    <xsl:variable name="t4" select="replace($t3,'^&quot;Партія\s*','','i')"/>
+    <xsl:variable name="t5" select="replace($t4,'\s*у Верховній Раді України[^&quot;]*$','','i')"/>
+    <xsl:variable name="t6" select="normalize-space(replace($t5,'-',' - ','i'))"/>
+    <xsl:variable name="t7" select="replace($t6,'^&quot;(.*)&quot;$','$1','i')"/>
+    <xsl:value-of select="$t7"/>
+  </xsl:function>
 </xsl:stylesheet>

@@ -3,8 +3,9 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:ua="http://rada.gov.ua/mps/"
+  xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
   xmlns:i="http://www.w3.org/2001/XMLSchema-instance"
-  exclude-result-prefixes="tei ua i">
+  exclude-result-prefixes="tei ua i mk">
 
   <xsl:import href="ParlaMint-UA-lib.xsl"/>
 
@@ -103,6 +104,7 @@
                   <xsl:attribute name="source" select="$file-trans_fr/table/@source"/>
                   <xsl:attribute name="type">fraction</xsl:attribute>
                   <xsl:attribute name="org_name" select="./col[@name='fra_name']/text()"/>
+                  <xsl:attribute name="org_name_norm" select="mk:normalize-fraction(./col[@name='fra_name']/text())"/>
                   <xsl:attribute name="from" select="./col[@name='date_in']/text()"/>
                   <xsl:if test="normalize-space(./col[@name='date_out']/text())">
                     <xsl:attribute name="to" select="./col[@name='date_out']/text()"/>
@@ -295,6 +297,10 @@
       <xsl:attribute name="org_id" select="$org_id"/>
       <xsl:attribute name="post_name" select="$files-mps-data/file[@term=$term]//ua:fr_posts/ua:post[./ua:id/text() = $post_id]/ua:name"/>
       <xsl:attribute name="org_name" select="$org/ua:name"/>
+      <xsl:if test="$org/ua:is_fr/text() = 1">
+        <xsl:attribute name="org_name_norm" select="mk:normalize-fraction($org/ua:name/text())"/>
+      </xsl:if>
+
     </xsl:element>
   </xsl:template>
 
@@ -431,7 +437,7 @@
     </xsl:for-each>
   </xsl:result-document>
     <xsl:result-document href="{concat($path-prefix,'-cnt-frac_membership.tsv')}" method="text">
-    <xsl:text>cnt&#9;fromCnt&#9;toCnt&#9;orgIDCnt&#9;orgName&#9;term&#10;</xsl:text>
+    <xsl:text>cnt&#9;fromCnt&#9;toCnt&#9;orgIDCnt&#9;orgNameNorm&#9;orgName&#9;term&#10;</xsl:text>
     <xsl:for-each select="distinct-values($context/mp_person/term/membership[@type='fraction']/@org_name)">
       <xsl:sort select="."/>
       <xsl:variable name="org_name" select="."/>
@@ -446,6 +452,8 @@
         <xsl:value-of select="count($memberships/@to)"/>
         <xsl:text>&#9;</xsl:text>
         <xsl:value-of select="count($memberships/@org_id)"/>
+        <xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="$memberships[1]/@org_name_norm"/>
         <xsl:text>&#9;</xsl:text>
         <xsl:value-of select="$org_name"/>
         <xsl:text>&#9;</xsl:text>
