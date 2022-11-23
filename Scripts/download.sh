@@ -59,7 +59,7 @@ function log {
 function add_file(){
   md5sum=`md5sum $steno_dir/$1 |cut -f1 -d' '`
   url_source_html=`url_source_html $TERM $1`
-  echo -e "$ID\t$md5sum\t$1\t$url_source_html" >> $OUTPUT_DIR/$seen_file ; \
+  echo -e "$ID\t$md5sum\t$TERM\t$1\t$url_source_html" >> $OUTPUT_DIR/$seen_file ; \
   mv $steno_dir/$1 $out_dir/$1
 }
 
