@@ -37,6 +37,7 @@ unless($input_dir){
 
 
 my @file_list = glob "$data_dir/$input_dir/$run_id/*.htm";
+my @component_ids;
 if($process_subset) {
   print STDERR "WARN: prunning processed files: /[^\\/]*${process_subset}[^\\/]*\\.htm/\n";
   @file_list = grep {m/^.*\/[^\/]*${process_subset}[^\/]*\.htm$/} @file_list
@@ -46,23 +47,81 @@ exit 1 unless @file_list;
 
 `mkdir -p $data_dir/$output_dir/$run_id`;
 
+my %downloaded_files;
+{
+  open FILE, "$data_dir/$config{seen_file}";
+  while(my $line = <FILE>){
+    next unless $line =~ m/^$run_id\t/;
+    my ($t,$f,$u) = $line =~ m/\t([^\t]*)\t([^\t]*)\t([^\t\s]*)\n?$/;
+    print STDERR "($t,$f,$u)\n";
+    $downloaded_files{$f} = [$t,$u];
+  }
+  close FILE;
+}
 
-
-
+my $parser = XML::LibXML->new();
 
 for my $fileIn (@file_list){
   my ($dY,$dM,$dD,$suff) = $fileIn =~ m/(\d{4})(\d{2})(\d{2})(?:-(\d+))?\.htm$/;
+  my ($fileInName) = $fileIn =~ m/([^\/]*)$/;
   $suff //= 0;
   print STDERR "$fileIn\n\t$dY-$dM-$dD\t$suff\n";
-  my $fileOut = sprintf("%s/%s/%s/%s_%04d-%02d-%02d-m%d.xml",$data_dir,$output_dir,$run_id,$file_id,$dY,$dM,$dD,$suff);
+  my $id = sprintf("%s_%04d-%02d-%02d-m%d",$file_id,$dY,$dM,$dD,$suff);
+  my $fileOut = sprintf("%s/%s/%s/%s.xml",$data_dir,$output_dir,$run_id,$id);
   print STDERR "\t$fileOut\n";
+  push @component_ids, $id;
   my $htm = open_html($fileIn);
   my $tei = XML::LibXML::Document->new("1.0", "utf-8");
   my $root_node = XML::LibXML::Element->new('TEI');
   $tei->setDocumentElement($root_node);
   $root_node->setNamespace('http://www.tei-c.org/ns/1.0','',1);
-  $root_node->setAttributeNS('http://www.w3.org/XML/1998/namespace','id','TODO--TODO');
-  $root_node->addNewChild(undef,'teiHeader');
+  $root_node->setAttributeNS('http://www.w3.org/XML/1998/namespace','id',$id);
+  my $date = sprintf("%04d-%02d-%02d",$dY,$dM,$dD);
+  my ($term,$url) = @{$downloaded_files{$fileInName}//[]};
+  print STDERR "TODO: $term and $url\n";
+  my $teiHeader = $parser->parse_balanced_chunk(
+<<HEADER
+<teiHeader>
+  <fileDesc>
+         <titleStmt>
+            <!-- TODO -->
+            <meeting ana="#parla.term #parla.uni" n="$term">$term</meeting>
+            <!-- TODO -->
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+           <!-- TODO -->
+         </extent>
+         <publicationStmt>
+            <!-- TODO -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <!-- TODO -->
+               <idno type="URI" subtype="parliament">$url</idno>
+               <date when="$date">$date</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- TODO -->
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- TODO -->
+               <date when="$date">$date</date>
+            </setting>
+         </settingDesc>
+         <!-- TODO -->
+      </profileDesc>
+   </teiHeader>
+HEADER
+    );
+
+  $root_node->appendChild($teiHeader);
   my $div = $root_node->addNewChild(undef,'text')->addNewChild(undef,'body')->addNewChild(undef,'div');
   $div->setAttribute('type','debateSection');
   my ($chair,$sitting_date,$doc_proc_state);
@@ -180,6 +239,18 @@ print STDERR "$content:\n\t$speaker\t$speech\n";
 print STDERR (scalar @file_list)," files processed\n";
 
 
+my $teiCorpus = XML::LibXML::Document->new("1.0", "utf-8");
+my $corpus_root_node = XML::LibXML::Element->new('teiCorpus');
+$teiCorpus->setDocumentElement($corpus_root_node);
+$corpus_root_node->setNamespace('http://www.tei-c.org/ns/1.0','',1);
+$corpus_root_node->setAttributeNS('http://www.w3.org/XML/1998/namespace','id',$file_id);
+$corpus_root_node->addNewChild(undef,'teiHeader');
+for my $id (sort @component_ids){
+  my $incl = $corpus_root_node->addNewChild(undef,'include');
+  $incl->setNamespace('http://www.w3.org/2001/XInclude','xi',1);
+  $incl->setAttribute('href',"$id.xml");
+}
+save_xml($teiCorpus,sprintf("%s/%s/%s/%s.xml",$data_dir,$output_dir,$run_id,$file_id));
 
 
 sub speaker_status {
