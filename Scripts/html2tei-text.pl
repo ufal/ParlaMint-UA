@@ -153,14 +153,14 @@ HEADER
     next if $p_category eq 'empty';
     if($p_category eq 'process_note' || $p_category eq 'change_chair' || $p_category eq 'change_chair_next'){
       if($p_category eq 'change_chair' && $p_data){
-        $chair = $p_data;
+        $chair = normalize_speaker($p_data);
         print STDERR "CHAIR: $chair\n";
       } elsif ($p_category eq 'change_chair_next'){
         print STDERR "chair is next: $p\n";
         # undef $chair; <- there is sometime no chair change, even if the prevous line slightly suggest it
         if($p_data){
           print STDERR "adding temporary chairman role: $p_data\n";
-          $chair = $p_data;
+          $chair = normalize_speaker($p_data);
         }
         $chair_is_next = 1;
       }
@@ -196,6 +196,7 @@ HEADER
 print STDERR "$content:\n\t$speaker\t$speech\n";
             add_interruption($utterance//$div,'vocal','shouting',$content);
           } else {
+            $speaker = normalize_speaker($speaker);
             add_note($div,$speaker)->setAttribute('type','speaker');
             $utterance = $div->addNewChild(undef,'u');
             $utterance->setAttribute('who',$is_chair ? $chair : $speaker);
@@ -427,6 +428,20 @@ sub open_html {
     }
   }
   return $doc
+}
+
+sub normalize_speaker {
+  my $text_speaker = shift;
+  my $new_speaker = $text_speaker;
+  while(
+    $new_speaker =~ s/\.[\. ]+$/\./
+    || $new_speaker =~ s/\s\s/ /
+    || $new_speaker =~ s/^\s+|\s+$//g
+    || $new_speaker =~ s/^(.\.)(.*)$/$2 $1/
+    || $new_speaker =~ s/(.\.) +(.\.)/$1$2/
+  ){print STDERR "$new_speaker\t"};
+  print STDERR "Normalize speaker '$text_speaker'->'$new_speaker'\n" unless $text_speaker eq $new_speaker ;
+  return $new_speaker;
 }
 
 sub normalize_elements_and_spaces {
