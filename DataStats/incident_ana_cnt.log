@@ -1,11 +1,11 @@
-   8079 vocal	noise	(Шум у залі)
-   5183 kinesic	applause	(Оплески)
-    519 gap	inaudible	(Не чути)
+   8112 vocal	noise	(Шум у залі)
+   5202 kinesic	applause	(Оплески)
+    523 gap	inaudible	(Не чути)
     317 vocal	noise	(Шум в залі)
     303 vocal	shouting	ГОЛОС ІЗ ЗАЛУ.
-    253 incident	action	(Хвилина мовчання)
+    258 incident	action	(Хвилина мовчання)
     120 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Героям слава!
-     97 incident	action	(Лунає Державний Гімн України)
+    102 incident	action	(Лунає Державний Гімн України)
      78 kinesic	applause	(Оплески).
      71 kinesic	applause	Оплески
      58 vocal	noise	Шум у залі)
