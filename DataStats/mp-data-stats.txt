@@ -7,7 +7,7 @@
 # of different info:	1338
 # of different membership:	1
 # of different party_id:	34
-# of different party_name:	36
+# of different party_name:	35
 # of different patronymic:	159
 # of different photo:	1389
 # of different rada_id:	1427

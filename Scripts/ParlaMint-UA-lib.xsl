@@ -54,6 +54,11 @@
     </xsl:if>
   </xsl:template>
 
+  <xsl:function name="mk:normalize-chars">
+    <xsl:param name="text"/>
+    <xsl:value-of select="replace($text,'(\w)&#39;&#39;(\w)','$1’$2')"/>
+  </xsl:function>
+
   <xsl:function name="mk:normalize-fraction">
     <xsl:param name="text"/>
     <xsl:variable name="t1" select="replace($text,'^\s*Депутатська група\s*','','i')"/>

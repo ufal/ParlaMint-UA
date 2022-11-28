@@ -106,8 +106,8 @@
                 <xsl:element name="membership">
                   <xsl:attribute name="source" select="$file-trans_fr/table/@source"/>
                   <xsl:attribute name="type">fraction</xsl:attribute>
-                  <xsl:attribute name="org_name" select="./col[@name='fra_name']/text()"/>
-                  <xsl:attribute name="org_name_norm" select="mk:normalize-fraction(./col[@name='fra_name']/text())"/>
+                  <xsl:attribute name="org_name" select="mk:normalize-chars(./col[@name='fra_name']/text())"/>
+                  <xsl:attribute name="org_name_norm" select="mk:normalize-fraction(mk:normalize-chars(./col[@name='fra_name']/text()))"/>
                   <xsl:attribute name="from" select="./col[@name='date_in']/text()"/>
                   <xsl:if test="normalize-space(./col[@name='date_out']/text())">
                     <xsl:attribute name="to" select="./col[@name='date_out']/text()"/>
@@ -239,7 +239,7 @@
       <xsl:apply-templates select="ua:party_id" mode="copy-if-text"/>
       <xsl:variable name="party_id" select="ua:party_id/text()"/>
       <xsl:if test="$party_id">
-        <xsl:element name="party_name"><xsl:value-of select="$files-mps-data/file[@term=$term]//ua:parties/ua:party[./ua:id/text() = $party_id]/ua:name"/></xsl:element>
+        <xsl:element name="party_name"><xsl:value-of select="mk:normalize-chars($files-mps-data/file[@term=$term]//ua:parties/ua:party[./ua:id/text() = $party_id]/ua:name)"/></xsl:element>
       </xsl:if>
       <xsl:apply-templates select="ua:socials/ua:social/ua:url" mode="copy-if-text"><xsl:with-param name="rename" select="'social_url'"/></xsl:apply-templates>
       <xsl:apply-templates select="ua:post_frs/ua:post_fr" mode="mps-data-cur"><xsl:with-param name="term" select="$term"/></xsl:apply-templates>
@@ -291,7 +291,7 @@
         <xsl:when test="matches(./text(),'^[0-9]{4}-[01][0-9]-[0123][0-9]T00:00:00$')">
           <xsl:value-of select="replace(./text(), '^(\d\d\d\d-\d\d-\d\d)T.*$', '$1')"/>
         </xsl:when>
-        <xsl:otherwise><xsl:value-of select="normalize-space(./text())"/></xsl:otherwise>
+        <xsl:otherwise><xsl:value-of select="normalize-space(mk:normalize-chars(./text()))"/></xsl:otherwise>
     </xsl:choose>
     </xsl:element>
   </xsl:template>
@@ -311,10 +311,10 @@
       </xsl:attribute>
       <xsl:attribute name="post_id" select="$post_id"/>
       <xsl:attribute name="org_id" select="$org_id"/>
-      <xsl:attribute name="post_name" select="$files-mps-data/file[@term=$term]//ua:fr_posts/ua:post[./ua:id/text() = $post_id]/ua:name"/>
-      <xsl:attribute name="org_name" select="$org/ua:name"/>
+      <xsl:attribute name="post_name" select="mk:normalize-chars($files-mps-data/file[@term=$term]//ua:fr_posts/ua:post[./ua:id/text() = $post_id]/ua:name)"/>
+      <xsl:attribute name="org_name" select="mk:normalize-chars($org/ua:name)"/>
       <xsl:if test="$org/ua:is_fr/text() = 1">
-        <xsl:attribute name="org_name_norm" select="mk:normalize-fraction($org/ua:name/text())"/>
+        <xsl:attribute name="org_name_norm" select="mk:normalize-fraction(mk:normalize-chars($org/ua:name/text()))"/>
       </xsl:if>
 
     </xsl:element>
