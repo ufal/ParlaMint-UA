@@ -182,14 +182,28 @@ HEADER
     for my $pchild ($p->childNodes()){
       if(ref $pchild eq 'XML::LibXML::Text'){
         my $content = $pchild->data;
-        my ($is_chair) = $content =~ m/^\s*ГОЛОВУЮЧ(?:ИЙ|А).?/;
+        my ($is_chair) = $content =~ m/^\s*ГОЛОВУЮ?Ч(?:ИЙ|А).?/;
         if($is_chair && ! $chair){
           print STDERR "ERROR: missing chair person name\n";die;
         }
         my ($speaker,$speech);
         if($is_first
           && $content !~ m/^\s*[ЄЯ]\.\.*\s*/
-          && (($speaker,$speech) = $content =~ m/^\s*([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]{2,}\.|ГОЛОВУЮЧ(?:ИЙ|А).?)\.*\s*(.*)/)
+          && (($speaker,$speech) = $content =~ m/^\s*(
+                             [\p{Lu}\p{Lt}'’]{2,}\  # atleast 2 letters to avoid matching one letter words at the begining of sentence that is followed by abbrevitation
+                                              (?:
+                                                [\p{Lu}\p{Lt}]\.\ *(?:[\p{Lu}\p{Lt}]\b\.?)? # abbrevitated name
+                                                |
+                                                (?:\b[\p{Lu}\p{Lt}'’]{2,}\b\ *)+ # full name
+                                              )
+                             |
+                             ГОЛОВУЮ?Ч(?:ИЙ|А)\.?
+                             |
+                             (?:ГОЛОСИ?\ )?ІЗ\ ЗАЛУ\.
+                             )
+                             [,…\.\s]*
+                             (.*)
+                             /x)
           && (my $speaker_status = speaker_status($speaker))
           ) {
           if($speaker_status eq 'interrupting'){
@@ -434,7 +448,8 @@ sub normalize_speaker {
   my $text_speaker = shift;
   my $new_speaker = $text_speaker;
   while(
-    $new_speaker =~ s/\.[\. ]+$/\./
+    $new_speaker =~ s/\b([\p{Lu}\p{Lt}])\b$/$1\./
+    || $new_speaker =~ s/\.[\. ]+$/\./
     || $new_speaker =~ s/\s\s/ /
     || $new_speaker =~ s/^\s+|\s+$//g
     || $new_speaker =~ s/^(.\.)(.*)$/$2 $1/

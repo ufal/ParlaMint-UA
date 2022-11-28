@@ -239,10 +239,8 @@
                <seg>Ні, на жаль.</seg>
                <seg>Шановні колеги…</seg>
             </u>
-            <note type="speaker">ГОНЧАРЕНКО О.</note>
-            <u who="ГОНЧАРЕНКО О." ana="#regular">
-               <seg>О</seg>
-            </u>
+            <note type="speaker">ГОНЧАРЕНКО О.О.</note>
+            <u who="ГОНЧАРЕНКО О.О." ana="#regular"/>
             <gap reason="inaudible">
                <desc>(Не чути)</desc>
             </gap>
