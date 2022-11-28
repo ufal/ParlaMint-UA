@@ -448,7 +448,8 @@ sub normalize_speaker {
   my $text_speaker = shift;
   my $new_speaker = $text_speaker;
   while(
-    $new_speaker =~ s/\b([\p{Lu}\p{Lt}])\b$/$1\./
+    $new_speaker =~ s/'/’/g
+    || $new_speaker =~ s/\b([\p{Lu}\p{Lt}])\b$/$1\./
     || $new_speaker =~ s/\.[\. ]+$/\./
     || $new_speaker =~ s/\s\s/ /
     || $new_speaker =~ s/^\s+|\s+$//g
