@@ -50,6 +50,23 @@ $(html2tei-text-RUN-ALL): html2tei-text-%:
 	                           --file-id "ParlaMint-UA" \
 	                           $(PROCESS_SUBSET)
 
+link-speakers2tei-text-RUN-ALL = $(addprefix link-speakers2tei-text-, $(TEI-TEXT_DATA_ALL))
+link-speakers2tei-text-RUN-LAST = $(addprefix link-speakers2tei-text-, $(TEI-TEXT_DATA_LAST))
+## link-speakers2tei-text ## link-speakers2tei-texts
+link-speakers2tei-text: link-speakers2tei-text-last
+link-speakers2tei-text-last: $(link-speakers2tei-text-RUN-LAST)
+link-speakers2tei-text-all: $(link-speakers2tei-text-RUN-ALL)
+
+## link-speakers2tei-text-RUN ##
+$(link-speakers2tei-text-RUN-ALL): link-speakers2tei-text-%:
+	mkdir -p Data/tei-text-speakers/$*/
+	$s -xsl:Scripts/link-speakers2tei-text.xsl \
+	   -o:Data/tei-text-speakers/$*/ParlaMint-UA.xml \
+	      speaker-links="../Data/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
+	      in-dir="../Data/tei-text/$*/" \
+	      out-dir="../Data/tei-text-speakers/$*/" \
+	      Data/tei-text/$*/ParlaMint-UA.xml
+
 
 
 
@@ -122,8 +139,10 @@ create-february-sample:
 	rm -rf SampleData/*
 	mkdir -p SampleData/01-htm
 	mkdir -p SampleData/02-tei-text
+	mkdir -p SampleData/03-tei-text-speakers
 	ls $(DATADIR)/download/$(TEI-TEXT_DATA_LAST)/20??02??*.htm | xargs -I {} cp {} SampleData/01-htm/
 	ls $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ParlaMint-UA_20??-02-??*.xml | xargs -I {} cp {} SampleData/02-tei-text/
+	ls $(DATADIR)/tei-text-speakers/$(TEI-TEXT_DATA_LAST)/ParlaMint-UA_20??-02-??*.xml | xargs -I {} cp {} SampleData/03-tei-text-speakers/
 
 create-all-stats:
 	#rm -rf DataStats/*
@@ -136,6 +155,10 @@ create-all-stats:
 	   grep -o '<u [^>]*>'|sed 's/^.*who="//;s/".*$$//'|sort|uniq -c|sort -nr > DataStats/u_who_cnt.log
 	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
 	   grep -o '<u [^>]*>'|sed 's/^.*who="//;s/" .*ana="/\t/;s/".*$$//'|sort|uniq -c|sort -nr > DataStats/u_who_ana_cnt.log
+	find $(DATADIR)/tei-text-speakers/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
+	   grep -o '<u [^>]*>'|sed 's/^.*who="//;s/" .*ana="/\t/;s/".*$$//'|sort|uniq -c|sort -nr > DataStats/u_whoref_ana_cnt.log
+	find $(DATADIR)/tei-text-speakers/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
+	   grep -o 'who="[^#"]*"'|sed 's/^who="\(.*\)"/\1/'|sort|uniq -c|sort -nr > DataStats/u_who-no-attrib_cnt.log
 	find $(DATADIR)/tei-text/$*/ -type f |xargs cat|\
 	   grep -o '<seg>[^<]*</seg>'|sort|uniq -c|grep -v "^ *1 <seg" |sort -nr > DataStats/seg_non_uniq.log
 	find $(DATADIR)/tei-text/$*/ -type f |xargs cat|\
