@@ -169,7 +169,7 @@ create-all-stats:
 search-text:
 	mkdir -p DataSearchResults
 	grep -rnioP 'Мініст[\p{Lu}\p{Lt}\p{Ll}]*[^\.]{0,20}?(?:\s+\p{Lu}[\p{Lu}\p{Lt}\p{Ll}]*){3}' Data/tei-text/$(TEI-TEXT_DATA_LAST)/\
-	  |sed "s/^.*UA_//;s/-..-m..xml:[0-9]*:/\t/"|sort|uniq > DataSearchResults/minister_name_context.tsv
+	  |sed "s/^.*UA_//;s/-..-m..xml:[0-9]*:/\t/"|sed 's/"//g'|sort|uniq > DataSearchResults/minister_name_context.tsv
 
 
 
