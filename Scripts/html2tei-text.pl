@@ -558,10 +558,11 @@ sub normalize_elements_and_spaces {
   }
 
   if(defined $normalize_spaces_and_dots{$node->nodeName()}){ # normalize dots
-    my @chNodes = $node->childNodes();
+    my @chNodes = grep {ref $_ eq 'XML::LibXML::Text'} $node->childNodes();
     for my $ch (0..$#chNodes){
-      if(ref $chNodes[$ch] eq 'XML::LibXML::Text'){
-        $chNodes[$ch]->replaceDataRegEx('[\.…][\.…]*(\s?)[\s\.…]*','.$1', 'sg');
+      $chNodes[$ch]->replaceDataRegEx('[\.…][\.…]*(\s?)[\s\.…]*','.$1', 'sg');
+      if($ch > 0 && $chNodes[$ch-1] =~ m/[,!\.;]\s*$/){
+        $chNodes[$ch]->replaceDataRegEx('^[\s\.!;,]*?(\s?)[\.\s!;,]*','$1');
       }
     }
   }
