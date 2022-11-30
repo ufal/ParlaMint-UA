@@ -190,7 +190,7 @@ HEADER
         if($is_first
           && $content !~ m/^\s*[ЄЯ]\.\.*\s*/
           && (($speaker,$speech) = $content =~ m/^\s*(
-                             [\p{Lu}\p{Lt}'’]{2,}\  # atleast 2 letters to avoid matching one letter words at the begining of sentence that is followed by abbrevitation
+                             [\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’]{2,}\  # atleast 2 letters to avoid matching one letter words at the begining of sentence that is followed by abbrevitation
                                               (?:
                                                 [\p{Lu}\p{Lt}]\.\ *(?:[\p{Lu}\p{Lt}]\b\.?)? # abbrevitated name
                                                 |

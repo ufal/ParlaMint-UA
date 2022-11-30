@@ -1879,8 +1879,10 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair">
                <seg>Климпуш-Цинцадзе Іванна Орестівна.</seg>
-               <note type="time">(14:43:08)</note>
-               <seg>КЛИМПУШ-ЦИНЦАДЗЕ І.О.</seg>
+            </u>
+            <note type="time">(14:43:08)</note>
+            <note type="speaker">КЛИМПУШ-ЦИНЦАДЗЕ І.О.</note>
+            <u who="КЛИМПУШ-ЦИНЦАДЗЕ І.О." ana="#regular">
                <seg>Прошу передати слово Князевичу Руслану.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
