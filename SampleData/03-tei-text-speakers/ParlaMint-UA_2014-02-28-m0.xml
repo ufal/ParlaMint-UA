@@ -1186,10 +1186,10 @@
             <note type="speaker">ЦИБЕНКО П.С.</note>
             <u who="#ПетроСтепановичЦибенко.1949" ana="#regular">
                <seg>Дякую.</seg>
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
             </u>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
             <note type="time">(12:35:32)</note>
             <note type="speaker">ХОМУТИННІК В.Ю.</note>
             <u who="#ВіталійЮрійовичХомутиннік.1976" ana="#regular">

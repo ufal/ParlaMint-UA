@@ -234,10 +234,11 @@
                <seg>Шановні колеги.</seg>
             </u>
             <note type="speaker">ГОНЧАРЕНКО О.О.</note>
-            <u who="#ОлексійОлексійовичГончаренко.1980" ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="#ОлексійОлексійовичГончаренко.1980" ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="#ДмитроОлександровичРазумков.1983" ana="#chair">
                <seg>Дякую, Олексій Олексійович.</seg>

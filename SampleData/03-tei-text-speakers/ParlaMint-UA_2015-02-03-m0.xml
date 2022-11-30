@@ -866,10 +866,11 @@
                <seg>Прошу, шановний Віктор Васильович, доповідати. Потім Єгор Соболєв.</seg>
             </u>
             <note type="speaker">ЧУМАК В.В.</note>
-            <u who="#ВікторВасильовичЧумак.1958" ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="#ВікторВасильовичЧумак.1958" ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="#ВолодимирБорисовичГройсман.1978" ana="#chair">
                <seg>Прошу, вельмишановний Віктор Васильович, потім Єгор Соболєв.</seg>

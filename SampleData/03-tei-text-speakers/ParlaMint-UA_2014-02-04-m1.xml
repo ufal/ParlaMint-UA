@@ -106,10 +106,11 @@
                <seg>Уже все, реплік немає.</seg>
             </u>
             <note type="speaker">ЯЦЕНЮК А.П.</note>
-            <u who="#АрсенійПетровичЯценюк.1974" ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="#АрсенійПетровичЯценюк.1974" ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="#ВолодимирВасильовичРибак.1946" ana="#chair">
                <seg>Я прошу, давайте послухаємо Олександра Сергійовича Єфремова, давайте.</seg>

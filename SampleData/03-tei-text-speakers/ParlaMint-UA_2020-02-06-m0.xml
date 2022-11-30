@@ -77,10 +77,11 @@
             </u>
             <note type="time">(11:35:43)</note>
             <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
-            <u who="#НаталіяЮріївнаКоролевська.1975" ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="#НаталіяЮріївнаКоролевська.1975" ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="#РусланОлексійовичСтефанчук.1975" ana="#chair">
                <seg>Будь ласка.</seg>

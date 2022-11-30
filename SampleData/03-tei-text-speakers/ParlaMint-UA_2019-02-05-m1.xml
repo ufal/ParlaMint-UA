@@ -437,10 +437,11 @@
             </u>
             <note type="time">(17:17:25)</note>
             <note type="speaker">ЛЯШКО О.В.</note>
-            <u who="#ОлегВалерійовичЛяшко.1972" ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="#ОлегВалерійовичЛяшко.1972" ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="#ІринаВолодимирівнаГеращенко.1971" ana="#chair">
                <seg>Ви вже закінчили ваш виступ?</seg>
@@ -448,10 +449,11 @@
             </u>
             <note type="time">(17:18:02)</note>
             <note type="speaker">ЛЯШКО О.В.</note>
-            <u who="#ОлегВалерійовичЛяшко.1972" ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="#ОлегВалерійовичЛяшко.1972" ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="#ІринаВолодимирівнаГеращенко.1971" ana="#chair">
                <seg>Передумав Олег Валерійович виступати.</seg>

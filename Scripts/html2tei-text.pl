@@ -249,6 +249,7 @@ print STDERR "$content:\n\t$speaker\t$speech\n";
   normalize_elements_and_spaces($tei->documentElement());
   annotate_notes($tei->documentElement());
   move_inaudible_inside_utterance($tei->documentElement());
+  remove_empty($tei->documentElement(),'seg');
   save_xml($tei,$fileOut);
 }
 
@@ -367,6 +368,15 @@ sub annotate_notes {
     $new_note->unbindNode;
     $note->parentNode->insertAfter($new_note,$note);
     $note->unbindNode;
+  }
+}
+
+sub remove_empty {
+  my $node = shift;
+  my $elemName=shift;
+  return unless $elemName;
+  for my $nd ($node->findnodes('.//*[local-name() = "'.$elemName.'" and not(normalize-space(text())) and not(./*)]')){
+    $nd->unbindNode;
   }
 }
 

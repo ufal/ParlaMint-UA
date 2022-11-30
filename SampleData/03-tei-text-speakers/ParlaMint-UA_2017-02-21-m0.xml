@@ -1475,10 +1475,11 @@
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="#ЮліяВолодимирівнаТимошенко.1960 #ЮрійВолодимировичТимошенко.1961"
-               ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+               ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ЗАБОЛОТНИЙ Г.М.</note>
             <u who="#ГригорійМихайловичЗаболотний.1952" ana="#regular">
                <seg>Я не бачу нічого в цьому законопроекті поганого. Ми даємо, не зобов'язуємо, а даємо право людям.</seg>
