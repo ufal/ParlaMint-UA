@@ -481,7 +481,7 @@ sub normalize_elements_and_spaces {
     incident => [qw/desc/],
     gap => [qw/desc/]
     );
-  my %normalize_spaces = map {$_ => 1} qw/seg note desc/;
+  my %normalize_spaces_and_dots = map {$_ => 1} qw/seg note desc/;
   my %move_note_out = map {$_ => 1} qw/u seg/;
   my %to_be_moved_out = map {$_ => 1} qw/note vocal/;
   my %merge_notes = map {$_ => 1} qw/div u seg/;
@@ -557,6 +557,14 @@ sub normalize_elements_and_spaces {
     }
   }
 
+  if(defined $normalize_spaces_and_dots{$node->nodeName()}){ # normalize dots
+    my @chNodes = $node->childNodes();
+    for my $ch (0..$#chNodes){
+      if(ref $chNodes[$ch] eq 'XML::LibXML::Text'){
+        $chNodes[$ch]->replaceDataRegEx('[\.…][\.…]*(\s?)[\s\.…]*','.$1', 'sg');
+      }
+    }
+  }
   while(defined $move_note_out{$node->nodeName()} && (my $last_child = ($node->childNodes())[-1])){ # moving non text/seg nodes after seg/utterance
     if(ref $last_child ne 'XML::LibXML::Text' && $to_be_moved_out{$last_child->nodeName()}){
       $last_child->unbindNode;
@@ -568,12 +576,13 @@ sub normalize_elements_and_spaces {
     }
   }
 
-  if(defined $normalize_spaces{$node->nodeName()}){ # normalize spaces
+  if(defined $normalize_spaces_and_dots{$node->nodeName()}){ # normalize spaces
     my @chNodes = $node->childNodes();
     for my $ch (0..$#chNodes){
       if(ref $chNodes[$ch] eq 'XML::LibXML::Text'){
         $chNodes[$ch]->replaceDataRegEx('^\s*','') if $ch == 0;
         $chNodes[$ch]->replaceDataRegEx('\s*$','') if $ch == $#chNodes;
+        $chNodes[$ch]->replaceDataRegEx('[\.…][\.…]*(\s?)[\s\.…]*','.$1', 'sg');
         $chNodes[$ch]->replaceDataRegEx('\s\s*',' ', 'sg');
         $chNodes[$ch]->replaceDataRegEx('\(\s\s*','(', 'sg');
         $chNodes[$ch]->replaceDataRegEx('\s*\s\)',')', 'sg');
