@@ -506,10 +506,11 @@
                <seg>І відповідно Апарату парламенту сформувати протокольне доручення.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
-            <u who="ЛЯШКО О.В." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="ЛЯШКО О.В." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair">
                <seg>Лунають вислови, що це самий дієздатний парламент в історії країни. Ну, правильні закони ми здатні приймати, з чим я всіх і вітаю.</seg>

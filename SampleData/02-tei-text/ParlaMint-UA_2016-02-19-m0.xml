@@ -843,19 +843,21 @@
                <seg>Народний депутат Юрій Береза. Передав слово Медуниці.</seg>
             </u>
             <note type="speaker">БЕРЕЗА Б.Ю.</note>
-            <u who="БЕРЕЗА Б.Ю." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="БЕРЕЗА Б.Ю." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair">
                <seg>Зараз ви будете. А чому ви переживаєте? Просто перед тим був Юрій Береза, він передав слово Медуниці. А зараз будете ви наступний, не хвилюйтеся.</seg>
             </u>
             <note type="speaker">БЕРЕЗА Б.Ю.</note>
-            <u who="БЕРЕЗА Б.Ю." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="БЕРЕЗА Б.Ю." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair">
                <seg>А, перепрошую. Я перепрошую. Борислав Береза.</seg>

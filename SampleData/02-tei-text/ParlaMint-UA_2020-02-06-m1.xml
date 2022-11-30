@@ -1674,10 +1674,11 @@
                <seg>Поки скаже комітет. От, пане Сергію, я вже забув, що ви вже вичерпали свій час, взявши всі свої правки. Але це був такий ще. ще одна хвилини бенефісна.</seg>
             </u>
             <note type="speaker">ШАХОВ С.В.</note>
-            <u who="ШАХОВ С.В." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="ШАХОВ С.В." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair">
                <seg>Всім. Але ви оголосили п'ять, а це була шоста.</seg>

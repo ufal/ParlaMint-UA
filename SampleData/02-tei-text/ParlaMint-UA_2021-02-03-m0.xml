@@ -153,10 +153,11 @@
                <seg>Виключіть мікрофон, будь ласка.</seg>
             </u>
             <note type="speaker">ШАХОВ С.В.</note>
-            <u who="ШАХОВ С.В." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="ШАХОВ С.В." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair">
                <seg>Давайте не кричати.</seg>
@@ -336,10 +337,11 @@
                <seg>Антон Едуардович, я, на жаль, не є листоношею, я думаю, що ви зможете це зареєструвати. Не треба.</seg>
             </u>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
-            <u who="ПОЛЯКОВ А.Е." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="ПОЛЯКОВ А.Е." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair">
                <seg>Тоді, будь ласка, так як. також. Не кидайте, будь ласка. Шановні колеги, є процедура, будь ласка, за нею.</seg>

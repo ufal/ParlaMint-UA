@@ -514,10 +514,11 @@
             </u>
             <note type="time">(11:06:43)</note>
             <note type="speaker">НАСІРОВ Р.М.</note>
-            <u who="НАСІРОВ Р.М." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="НАСІРОВ Р.М." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">
                <seg>Концепція міняється. До слова запрошується народний депутат Пинзеник.</seg>
@@ -880,10 +881,11 @@
             </u>
             <note type="time">(11:40:20)</note>
             <note type="speaker">АЛЕКСЄЄВ І.С.</note>
-            <u who="АЛЕКСЄЄВ І.С." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="АЛЕКСЄЄВ І.С." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair">
                <seg>А. Сторожуку. Перепрошую. Прошу слово дати Сторожуку для виступу.</seg>

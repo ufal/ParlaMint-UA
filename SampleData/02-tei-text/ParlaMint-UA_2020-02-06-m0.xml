@@ -83,10 +83,11 @@
             </u>
             <note type="time">(11:35:43)</note>
             <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
-            <u who="КОРОЛЕВСЬКА Н.Ю." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="КОРОЛЕВСЬКА Н.Ю." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair">
                <seg>Будь ласка.</seg>

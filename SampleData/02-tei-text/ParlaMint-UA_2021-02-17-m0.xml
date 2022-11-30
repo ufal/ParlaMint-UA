@@ -260,10 +260,11 @@
                <seg>Переходимо до розгляду питання.</seg>
             </u>
             <note type="speaker">РУДИК С.Я.</note>
-            <u who="РУДИК С.Я." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="РУДИК С.Я." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair">
                <seg>Дивіться, ви багато реплік тут згадали. Я ж теж не брав репліку, правда? Ви не "клепайте", ви краще працюйте.</seg>

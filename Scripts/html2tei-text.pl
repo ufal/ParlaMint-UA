@@ -248,6 +248,7 @@ print STDERR "$content:\n\t$speaker\t$speech\n";
 
   normalize_elements_and_spaces($tei->documentElement());
   annotate_notes($tei->documentElement());
+  move_inaudible_inside_utterance($tei->documentElement());
   save_xml($tei,$fileOut);
 }
 
@@ -366,6 +367,17 @@ sub annotate_notes {
     $new_note->unbindNode;
     $note->parentNode->insertAfter($new_note,$note);
     $note->unbindNode;
+  }
+}
+
+sub move_inaudible_inside_utterance {
+  my $node = shift;
+  for my $gap ($node->findnodes('.//*[local-name() = "gap" and @reason="inaudible"]')){
+    my $prevSibl = $gap->previousSibling;
+    if($prevSibl && ref $prevSibl eq 'XML::LibXML::Element' && $prevSibl->nodeName eq 'u'){
+      $gap->unbindNode;
+      $prevSibl->appendChild($gap);
+    }
   }
 }
 

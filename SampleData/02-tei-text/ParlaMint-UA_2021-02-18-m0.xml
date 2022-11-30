@@ -446,10 +446,11 @@
             </u>
             <note type="time">(11:00:38)</note>
             <note type="speaker">СОВСУН І.Р.</note>
-            <u who="СОВСУН І.Р." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="СОВСУН І.Р." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair">
                <seg>Железняк? Шановні колеги, не буде ніхто виступати від "Голосу"?</seg>

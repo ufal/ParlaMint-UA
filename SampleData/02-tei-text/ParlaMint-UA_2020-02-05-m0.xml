@@ -240,10 +240,11 @@
                <seg>Шановні колеги.</seg>
             </u>
             <note type="speaker">ГОНЧАРЕНКО О.О.</note>
-            <u who="ГОНЧАРЕНКО О.О." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="ГОНЧАРЕНКО О.О." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair">
                <seg>Дякую, Олексій Олексійович.</seg>

@@ -335,10 +335,11 @@
                <seg>А з приводу чого, Петро Олексійович?</seg>
             </u>
             <note type="speaker">ПОРОШЕНКО П.О.</note>
-            <u who="ПОРОШЕНКО П.О." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="ПОРОШЕНКО П.О." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair">
                <seg>Він не назвав фракцію, наскільки я розумію.</seg>
@@ -348,10 +349,11 @@
                <seg>Будь ласка, слово. Була репліка, да? Бо я. Назвали прізвище? Бо я не почув просто. Говорять, що не було назване прізвище, було сказане слово "попєрєдніков". А до цього "попєрєдніки".</seg>
             </u>
             <note type="speaker">ПОРОШЕНКО П.О.</note>
-            <u who="ПОРОШЕНКО П.О." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="ПОРОШЕНКО П.О." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair">
                <seg>Ні-ні, Петро Олексійович, давайте далі.</seg>

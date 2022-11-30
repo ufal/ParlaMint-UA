@@ -862,10 +862,11 @@
                <seg>Прошу, шановний Віктор Васильович, доповідати. Потім Єгор Соболєв.</seg>
             </u>
             <note type="speaker">ЧУМАК В.В.</note>
-            <u who="ЧУМАК В.В." ana="#regular"/>
-            <gap reason="inaudible">
-               <desc>(Не чути)</desc>
-            </gap>
+            <u who="ЧУМАК В.В." ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair">
                <seg>Прошу, вельмишановний Віктор Васильович, потім Єгор Соболєв.</seg>
