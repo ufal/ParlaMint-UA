@@ -1,25 +1,19 @@
-   8112 vocal	noise	(Шум у залі)
-   5202 kinesic	applause	(Оплески)
-    523 gap	inaudible	(Не чути)
-    317 vocal	noise	(Шум в залі)
+   8216 vocal	noise	(Шум у залі)
+   5321 kinesic	applause	(Оплески)
+    553 gap	inaudible	(Не чути)
+    316 vocal	noise	(Шум в залі)
     303 vocal	shouting	ГОЛОС ІЗ ЗАЛУ.
-    258 incident	action	(Хвилина мовчання)
+    260 incident	action	(Хвилина мовчання)
     120 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Героям слава!
-    102 incident	action	(Лунає Державний Гімн України)
-     78 kinesic	applause	(Оплески).
+    104 incident	action	(Лунає Державний Гімн України)
      71 kinesic	applause	Оплески
-     58 vocal	noise	Шум у залі)
-     45 kinesic	applause	(оплески)
-     38 vocal	noise	(Шум у залі).
-     24 kinesic	applause	Оплески)
+     68 kinesic	applause	(оплески)
      21 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Героям Слава!
-     19 kinesic	applause	(оплески),
+     16 vocal	noise	(шум у залі)
+     14 gap	inaudible	(не чути)
      13 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Ганьба! Ганьба!
-     13 vocal	noise	(шум у залі)
-     13 gap	inaudible	(не чути)
      12 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Ганьба! Ганьба! Ганьба!
      12 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Ганьба!
-     11 kinesic	applause	(Оплески),
      10 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Голосуємо!
       9 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ.
       9 kinesic	applause	(Шум у залі) (Оплески)
@@ -29,19 +23,19 @@
       8 kinesic	applause	(Бурхливі оплески)
       7 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Слава Україні!
       7 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Слава Україні!
+      7 vocal	noise	Шум у залі)
       6 vocal	shouting	ІЗ ЗАЛУ. Героям слава!
       6 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. (Не чути)
       6 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Так.
       6 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ Героям слава!
-      6 vocal	noise	(Шум у залі) …
       6 kinesic	applause	(Оплески) (Шум у залі)
+      6 incident	action	(Лунає Гімн України)
       5 vocal	shouting	ІЗ ЗАЛУ. Героям Слава!
       5 vocal	shouting	ГОЛОС ІЗ ЗАЛУ
       5 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Слава Україні! Героям слава!
       5 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Да!
       5 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Відставка! Відставка! Відставка!
       5 kinesic	applause	(Шум у залі, оплески)
-      5 incident	action	(Лунає Гімн України)
       4 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Ні.
       4 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Да.
       4 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Да!
@@ -52,8 +46,7 @@
       4 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. ТСК, ТСК, ТСК!
       4 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Немає.
       4 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ Голосуємо!
-      4 vocal	noise	(Шум у залі)…
-      4 kinesic	applause	(Оплески);
+      4 kinesic	applause	Оплески)
       3 vocal	shouting	ІЗ ЗАЛУ.
       3 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Так.
       3 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Перерва.
@@ -70,8 +63,6 @@
       3 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ Героям Слава!
       3 vocal	exclamat	(Вигуки: "Героям слава!")
       3 kinesic	applause	(Оплески, шум у залі)
-      3 kinesic	applause	Оплески).
-      3 kinesic	applause	(оплески).
       2 vocal	shouting	ГОЛОСУ ІЗ ЗАЛУ.
       2 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Фельдман вийшов.
       2 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Слово!
@@ -104,13 +95,10 @@
       2 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Героям Слава! (
       2 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. В ріці Йордані!
       2 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Відставка! Відставка!
-      2 vocal	noise	Шум у залі).
-      2 vocal	noise	… (Шум у залі)
       2 vocal	noise	((Шум у залі)
       2 vocal	noise	(Не чути, шум у залі)
-      2 kinesic	applause	(Оплески)…
+      2 kinesic	applause	(Оплески.)
       2 kinesic	applause	(Оплески
-      2 incident	action	(Хвилина мовчання).
       2 incident	action	(Депутати співають Державний Гімн України)
       2 gap	inaudible	(Не чути
       1 vocal	shouting	ІЗ ЗАЛУ. Юлі, волю!...
@@ -578,10 +566,6 @@
       1 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. 40 мільйонів…
       1 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. 2 тисячі!
       1 vocal	noise	(Шум у залі. Вигуки: Да!)
-      1 vocal	noise	(Шум у залі),
-      1 vocal	noise	(шум у залі)…
-      1 vocal	noise	(шум у залі) …
-      1 vocal	noise	(шум у залі) ...
       1 vocal	noise	Шум в залі
       1 vocal	exclamat	(Вигуки: Слава Україні! Героям слава!)
       1 kinesic	applause	(Шум у зал) (Оплески)
@@ -589,27 +573,20 @@
       1 kinesic	applause	(Сміх у залі) (Оплески)
       1 kinesic	applause	(Оплески)(Шум у залі)
       1 kinesic	applause	(Оплески) У
-      1 kinesic	applause	(Оплески, вигуки "молодці").
+      1 kinesic	applause	(Оплески, вигуки "молодці")
       1 kinesic	applause	(оплески), а
-      1 kinesic	applause	(Оплески.).
-      1 kinesic	applause	(Оплески.)
       1 kinesic	applause	(Оплески.
-      1 kinesic	applause	(Оплески) .
       1 kinesic	applause	((Оплески)
       1 kinesic	applause	! (Оплески)
-      1 kinesic	applause	(оплески) …
       1 kinesic	applause	(оплески
       1 kinesic	applause	(Лунає "Молитва за Україну" М.В.Лисенка) (Оплески)
       1 kinesic	applause	(Лунає Державний Гімн України) (Оплески)
       1 kinesic	applause	(Вигуки: Героям слава! Оплески)
       1 incident	action	(Хвилина Мовчання)
       1 incident	action	(У виконанні народних депутатів України лунає Державний Гімн України)
-      1 incident	action	Лунає Державний Гімн України)
       1 incident	action	Лунає Державний Гімн України
-      1 incident	action	(Лунає Державний Гімн України).
       1 incident	action	(Лунає Державний гімн України)
       1 incident	action	(Лунає державний гімн Республіки Польща)
       1 incident	action	(Лунає Державний Гімн)
-      1 incident	action	(Лунає Гімн України).
       1 incident	action	(Лунає Гімн Державний Гімн України)
       1 gap	inaudible	(Не Чути)

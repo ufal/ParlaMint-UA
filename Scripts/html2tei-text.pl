@@ -279,14 +279,20 @@ sub speaker_status {
 
 sub add_note {
   my ($context,$text) = @_;
-  $text =~ s/^(\s*[\.,]*\s*)//;
-  my $before = $1;
-  $text =~ s/(\s*)$//;
-  my $after = $1;
-  if($context->nodeName() ne 'seg' and ($before or $after) and "$before$after" !~ m/^\s*$/){
-    print STDERR "ERROR:context is not <seg> but <",$context->nodeName(),"> '$before'--NOTE--'$after'\n"
+  if($context->nodeName() eq 'seg' && $text !~ m/[\p{Lu}\p{Ll}\p{Lt}\d]/){
+    $context->appendText($text);
+    return;
   }
-  $context->appendText($before) if $before and $context->nodeName() eq 'seg';
+  $text =~ s/^([\s\.,"…;]*)//;
+  my $before = $1;
+  $text =~ s/\)([\.,"…\s;]*)$/\)/;
+  my $after = $1;
+  if($context->nodeName() ne 'seg' and ($before or $after)){
+    print STDERR "WARN:context is not <seg> but <",$context->nodeName(),">  removing context: '$before'--NOTE--'$after'\n";
+    undef $before;
+    undef $after;
+  }
+  $context->appendText($before) if $before;
   $text =~ s/\s\s+/ /g;
   if($context->nodeName() eq 'seg' and ($text =~ m/^[^\w\d]*$/ or $text =~ m/^[^\w\d]*\w[^\w\d]*$/)){
     $context->appendText($text);
@@ -294,11 +300,14 @@ sub add_note {
     return;
   }
 
-  return unless $text;
-  #print STDERR "adding note '$text'\n";
-  my $note = $context->addNewChild(undef,'note');
-  $note->appendText($text);
-  $context->appendText($after) if $after and $context->nodeName() eq 'seg';
+  my $note;
+  $text =~ s/\s*$//;
+  $text =~ s/^\s*//;
+  if($text){
+    $note = $context->addNewChild(undef,'note');
+    $note->appendText($text);
+  }
+  $context->appendText($after) if $after;
   return $note;
 }
 
@@ -490,6 +499,18 @@ sub normalize_elements_and_spaces {
       next if ref $chN eq 'XML::LibXML::Text';
       next unless $chN->nodeName eq 'note';
       next if $chN->hasAttribute('type');
+      if($chN->textContent =~ m/^[^\()]*\)/){
+        print STDERR "WARN: missing opening '(' in note: '",$chN->textContent,"'\n";
+        my $prevSibl = $chN->previousSibling();
+        if($prevSibl && ref $prevSibl eq 'XML::LibXML::Text'){
+          my $datastr = $prevSibl->getData();
+          $datastr =~ s/(\(.*?)//;
+          $chN->lastChild->setData($1.$chN->textContent());
+          $prevSibl->setData($datastr);
+          print STDERR "INFO: note fixed: '",$chN->textContent,"'\n";
+        }
+
+      }
       next if $chN->textContent =~ m/\)[^\(]*$/;
       next if $chN->textContent =~ m/^[^\(]*$/;
       if($chN->textContent =~ m/\([^\)]*$/){

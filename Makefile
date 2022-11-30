@@ -196,6 +196,16 @@ DEV-backup-last-tei-text:
 DEV-recent-changes-tei-text:
 	meld DevDataBackup/tei-text/$(TEI-TEXT_DATA_LAST)/$(TEI-TEXT_DATA_LAST-BACKUP)/ $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/
 
+######---------------
+TEST_DOWNDATA_ALL := $(shell ls FileLists| sed "s/.fl$$//")
+DEV-prepare-test-downdata = $(addprefix DEV-prepare-test-downdata-, $(TEST_DOWNDATA_ALL))
+## DEV-prepare-test-downdata ## DEV-prepare-test-data
+## DEV-prepare-test-downdata- ##
+$(DEV-prepare-test-downdata): DEV-prepare-test-downdata-%:
+	mkdir -p $(DATADIR)/download/_$*/
+	rm -f $(DATADIR)/download/_$*/*
+	cat FileLists/$*.fl|xargs -I {} cp -f $(DATADIR)/download/$(DOWNLOAD_DATA_LAST)/{} $(DATADIR)/download/_$*/
+
 
 
 ######---------------
