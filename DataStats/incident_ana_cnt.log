@@ -2,7 +2,7 @@
    5321 kinesic	applause	(Оплески)
     553 gap	inaudible	(Не чути)
     316 vocal	noise	(Шум в залі)
-    303 vocal	shouting	ГОЛОС ІЗ ЗАЛУ.
+    306 vocal	shouting	ГОЛОС ІЗ ЗАЛУ.
     260 incident	action	(Хвилина мовчання)
     120 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Героям слава!
     104 incident	action	(Лунає Державний Гімн України)
@@ -33,6 +33,7 @@
       5 vocal	shouting	ІЗ ЗАЛУ. Героям Слава!
       5 vocal	shouting	ГОЛОС ІЗ ЗАЛУ
       5 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Слава Україні! Героям слава!
+      5 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Немає.
       5 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Да!
       5 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Відставка! Відставка! Відставка!
       5 kinesic	applause	(Шум у залі, оплески)
@@ -44,7 +45,6 @@
       4 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Вона врахована.
       4 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Українська! Українська!
       4 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. ТСК, ТСК, ТСК!
-      4 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Немає.
       4 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ Голосуємо!
       4 kinesic	applause	Оплески)
       3 vocal	shouting	ІЗ ЗАЛУ.
@@ -351,6 +351,7 @@
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Данилюк.
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Дайте слово.
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Дайте репліку!
+      1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Дайте Иванчуку слово. Он хочет сказать по этому вопросу, голова комитета.
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Дайте відповідь, хай скаже.
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Дайте Вадатурському закінчити.
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Да, да, да.
@@ -358,6 +359,7 @@
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Давайте ще раз закон Горбунова. Дайте виступити. Нічого страшного, будемо вести дискусію.
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ Давайте ще раз!
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Давайте сюди просто доєднаємо.
+      1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Давайте про люстрацію.
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Давайте переголосовувати.
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. Господа – в России!
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ Голосуймо!
@@ -460,11 +462,13 @@
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. 19-а.
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. 1831– не було рішення комітету.
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. 137-а.
+      1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. 124-у, Данченка.
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ 118-а!
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ. 105-а.
       1 vocal	shouting	ГОЛОС ІЗ ЗАЛУ 102-я.
       1 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Юлі волю! Юлі волю! Юлі волю! Юлі волю! Юлі волю! Юлі волю!
       1 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ: Юлі волю! Юлі волю! Юлі волю!
+      1 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Юлі волю!
       1 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Ще раз, ще раз.
       1 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ Ще раз!
       1 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Фашисти! Фашисти! Фашисти!

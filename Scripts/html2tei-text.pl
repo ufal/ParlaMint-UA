@@ -190,11 +190,11 @@ HEADER
         if($is_first
           && $content !~ m/^\s*[ЄЯ]\.\.*\s*/
           && (($speaker,$speech) = $content =~ m/^\s*(
-                             [\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’]{2,}\  # atleast 2 letters to avoid matching one letter words at the begining of sentence that is followed by abbrevitation
+                             [\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’]{2,}\s+ # atleast 2 letters to avoid matching one letter words at the begining of sentence that is followed by abbrevitation
                                               (?:
-                                                [\p{Lu}\p{Lt}]\.\ *(?:[\p{Lu}\p{Lt}]\b\.?)? # abbrevitated name
+                                                [\p{Lu}\p{Lt}]\.\s*(?:[\p{Lu}\p{Lt}]\b\.?)? # abbrevitated name
                                                 |
-                                                (?:\b[\p{Lu}\p{Lt}'’]{2,}\b\ *)+ # full name
+                                                (?:\b[\p{Lu}\p{Lt}'’]{2,}\b\s*)+ # full name
                                               )
                              |
                              ГОЛОВУЮ?Ч(?:ИЙ|А)\.?
