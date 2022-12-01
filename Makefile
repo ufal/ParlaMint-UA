@@ -150,7 +150,7 @@ create-all-stats:
 	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
 	   grep -o '<note>[^<]*</note>'|sort|uniq -c|sort -nr > DataStats/note_cnt.log
 	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
-	   grep -o '<note type="speaker">[^<]*</note>'|sed "s/^[^>]*>//;s/<.*$$//"|sort|uniq -c|sort -r > DataStats/note_speaker_cnt.log
+	   grep -o '<note type="speaker">[^<]*</note>'|sed "s/^[^>]*>//;s/<.*$$//"|sort|uniq -c|sort -nr > DataStats/note_speaker_cnt.log
 	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
 	   grep -o '<u [^>]*>'|sed 's/^.*who="//;s/".*$$//'|sort|uniq -c|sort -nr > DataStats/u_who_cnt.log
 	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
@@ -180,11 +180,11 @@ $(DEV-tei-text-stats-RUN-LAST): tei-text-stats-%:
 	echo "statistics of $*"
 	mkdir -p $(DATADIR)/tei-text-stats/$*/
 	find $(DATADIR)/tei-text/$*/ -type f |xargs cat|\
-	   grep -o '<note>[^<]*</note>'|sort|uniq -c|sort -n|nl > $(DATADIR)/tei-text-stats/$*/note_cnt.log
+	   grep -o '<note>[^<]*</note>'|sort|uniq -c|sort -nr|nl > $(DATADIR)/tei-text-stats/$*/note_cnt.log
 	find $(DATADIR)/tei-text/$*/ -type f |xargs cat|\
-	   grep -o '<note type="time">[^<]*</note>'|sort|uniq -c|sort -n|nl > $(DATADIR)/tei-text-stats/$*/note_time_cnt.log
+	   grep -o '<note type="time">[^<]*</note>'|sort|uniq -c|sort -nr|nl > $(DATADIR)/tei-text-stats/$*/note_time_cnt.log
 	find $(DATADIR)/tei-text/$*/ -type f |xargs cat|\
-	   grep -o '<seg>[^<]*</seg>'|sort|uniq -c|grep -v "^ *1 <seg" |sort -n|nl > $(DATADIR)/tei-text-stats/$*/seg_non_uniq.log
+	   grep -o '<seg>[^<]*</seg>'|sort|uniq -c|grep -v "^ *1 <seg" |sort -nr|nl > $(DATADIR)/tei-text-stats/$*/seg_non_uniq.log
 
 
 TEI-TEXT_DATA_LAST-CHANGE := $(shell stat $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST) | grep 'Modify'|sed 's/^Modify: //;s/\..*$$//'|tr " " "T"|sed "s/[-:]//g")
