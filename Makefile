@@ -68,8 +68,26 @@ $(link-speakers2tei-text-RUN-ALL): link-speakers2tei-text-%:
 	      Data/tei-text/$*/ParlaMint-UA.xml
 
 
+TEI-TEXT-SPEAKERS_DATA_LAST := $(shell ls $(DATADIR)/tei-text-speakers | grep -v '_' | sort -r | head -n1)
+TEI-TEXT-SPEAKERS_DATA_ALL := $(shell ls $(DATADIR)/tei-text-speakers )
+tei-UD-RUN-LAST = $(addprefix tei-UD-, $(TEI-TEXT-SPEAKERS_DATA_LAST))
+tei-UD-RUN-ALL = $(addprefix tei-UD-, $(TEI-TEXT-SPEAKERS_DATA_ALL))
+tei-UD: tei-UD-last
+tei-UD-last: $(tei-UD-RUN-LAST)
+tei-UD-all: $(tei-UD-RUN-ALL)
 
-
+$(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
+	echo "TODO: preprocess with language detection"
+	mkdir -p Data/tei-UD/$*/
+	ls Data/tei-text-speakers/$*/|grep 'ParlaMint-UA_' > Data/tei-UD/$*.fl
+	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
+	                             --model=ukrainian-iu-ud-2.10-220711 \
+	                             --elements "seg" \
+	                             --debug \
+	                             --try2continue-on-error \
+	                             --filelist Data/tei-UD/$*.fl \
+	                             --input-dir Data/tei-text-speakers/$*/ \
+	                             --output-dir Data/tei-UD/$*/
 
 
 
@@ -207,7 +225,13 @@ $(DEV-prepare-test-downdata): DEV-prepare-test-downdata-%:
 	cat FileLists/$*.fl|xargs -I {} cp -f $(DATADIR)/download/$(DOWNLOAD_DATA_LAST)/{} $(DATADIR)/download/_$*/
 
 
+######---------------
+prereq: udpipe2 lib
 
+udpipe2:
+	svn checkout https://github.com/ufal/ParCzech/trunk/src/udpipe2
+lib:
+	svn checkout https://github.com/ufal/ParCzech/trunk/src/lib
 ######---------------
 
 _help-intro:
