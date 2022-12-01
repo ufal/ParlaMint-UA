@@ -156,11 +156,11 @@ create-all-stats:
 	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
 	   grep -o '<u [^>]*>'|sed 's/^.*who="//;s/" .*ana="/\t/;s/".*$$//'|sort|uniq -c|sort -nr > DataStats/u_who_ana_cnt.log
 	find $(DATADIR)/tei-text-speakers/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
-	   grep -o '<u [^>]*>'|sed 's/^.*who="//;s/" .*ana="/\t/;s/".*$$//'|sort|uniq -c|sort -nr > DataStats/u_whoref_ana_cnt.log
+	   tr "\n" " "|sed 's/>/>\n/g'|grep -o '<u [^>]*>'|sed 's/^.*who="//;s/" .*ana="/\t/;s/".*$$//'|sort|uniq -c|sort -nr > DataStats/u_whoref_ana_cnt.log
 	find $(DATADIR)/tei-text-speakers/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
 	   grep -o 'who="[^#"]*"'|sed 's/^who="\(.*\)"/\1/'|sort|uniq -c|sort -nr > DataStats/u_who-no-attrib_cnt.log
 	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
-	   grep -o '<seg>[^<]*</seg>'|sort|uniq -c|grep -v "^ *1 <seg" |sort -nr > DataStats/seg_non_uniq.log
+	   grep -o '<seg[^<]*>[^<]*</seg>'|sed 's/<seg[^<]*>/<seg>/'|sort|uniq -c|grep -v "^ *1 <seg" |sort -nr > DataStats/seg_non_uniq.log
 	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
 	   tr "\n" " "|sed "s/\(<[^<]*>[^>]*<desc[^>]*>[^<]*\)/\n\1\n\n\n/g"|\
 	   grep '<desc'|sed -E 's/^<([^ ]*).*(type|reason)="([^"]*)".*<desc[^>]*>/\1\t\3\t/'|\

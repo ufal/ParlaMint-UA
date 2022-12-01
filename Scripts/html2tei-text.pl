@@ -250,6 +250,7 @@ print STDERR "$content:\n\t$speaker\t$speech\n";
   annotate_notes($tei->documentElement());
   move_inaudible_inside_utterance($tei->documentElement());
   remove_empty($tei->documentElement(),'seg');
+  add_ids($tei->documentElement(),$id,['u','u'],['seg','p']);
   save_xml($tei,$fileOut);
 }
 
@@ -368,6 +369,19 @@ sub annotate_notes {
     $new_note->unbindNode;
     $note->parentNode->insertAfter($new_note,$note);
     $note->unbindNode;
+  }
+}
+
+sub add_ids {
+  my $node = shift;
+  my $id = shift;
+  my ($elemName,$pref) = @{shift//[]};
+  return unless $elemName;
+  my @nodes = $node->findnodes('.//*[local-name() = "'.$elemName.'"]');
+  for my $i (0..$#nodes){
+    my $new_id = sprintf("%s.%s%d",$id,$pref,$i+1);
+    $nodes[$i]->setAttributeNS('http://www.w3.org/XML/1998/namespace','id',$new_id);
+    add_ids($nodes[$i],$new_id,@_);
   }
 }
 
