@@ -61,6 +61,7 @@
       3 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Є!
       3 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Голосуємо.
       3 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ Героям Слава!
+      3 vocal	shouting	ГОЛОСИ З ЗАЛУ. Героям слава!
       3 vocal	exclamat	(Вигуки: "Героям слава!")
       3 kinesic	applause	(Оплески, шум у залі)
       2 vocal	shouting	ГОЛОСУ ІЗ ЗАЛУ.
@@ -566,6 +567,8 @@
       1 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. Банду геть! Банду геть!
       1 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. 40 мільйонів.
       1 vocal	shouting	ГОЛОСИ ІЗ ЗАЛУ. 2 тисячі!
+      1 vocal	shouting	ГОЛОСИ З ЗАЛУ. Голосуємо.
+      1 vocal	shouting	ГОЛОС З ЗАЛУ. На голосування.
       1 vocal	noise	(Шум у залі. Вигуки: Да!)
       1 vocal	noise	Шум в залі
       1 vocal	exclamat	(Вигуки: Слава Україні! Героям слава!)
