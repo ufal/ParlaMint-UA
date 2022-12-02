@@ -50,8 +50,30 @@ $(html2tei-text-RUN-ALL): html2tei-text-%:
 	                           --file-id "ParlaMint-UA" \
 	                           $(PROCESS_SUBSET)
 
-link-speakers2tei-text-RUN-ALL = $(addprefix link-speakers2tei-text-, $(TEI-TEXT_DATA_ALL))
-link-speakers2tei-text-RUN-LAST = $(addprefix link-speakers2tei-text-, $(TEI-TEXT_DATA_LAST))
+
+tei-text-lang-RUN-ALL = $(addprefix tei-text-lang-, $(TEI-TEXT_DATA_ALL))
+tei-text-lang-RUN-LAST = $(addprefix tei-text-lang-, $(TEI-TEXT_DATA_LAST))
+## tei-text-lang ## tei-text-langs
+tei-text-lang: tei-text-lang-last
+tei-text-lang-last: $(tei-text-lang-RUN-LAST)
+tei-text-lang-all: $(tei-text-lang-RUN-ALL)
+
+## tei-text-lang-RUN ##
+$(tei-text-lang-RUN-ALL): tei-text-lang-%:
+	mkdir -p Data/tei-text-lang/$*/
+	rm Data/tei-text-lang/$*/*
+	./Scripts/lang-detect.pl   --id $* \
+	                           --data-dir "$(DATADIR)" \
+	                           --config Scripts/config.sh
+
+
+
+
+TEI-TEXT-LANG_DATA_LAST := $(shell ls $(DATADIR)/tei-text-lang | grep -v '_' | sort -r | head -n1)
+TEI-TEXT-LANG_DATA_ALL := $(shell ls $(DATADIR)/tei-text-lang )
+
+link-speakers2tei-text-RUN-ALL = $(addprefix link-speakers2tei-text-, $(TEI-TEXT-LANG_DATA_ALL))
+link-speakers2tei-text-RUN-LAST = $(addprefix link-speakers2tei-text-, $(TEI-TEXT-LANG_DATA_LAST))
 ## link-speakers2tei-text ## link-speakers2tei-texts
 link-speakers2tei-text: link-speakers2tei-text-last
 link-speakers2tei-text-last: $(link-speakers2tei-text-RUN-LAST)
@@ -60,6 +82,7 @@ link-speakers2tei-text-all: $(link-speakers2tei-text-RUN-ALL)
 ## link-speakers2tei-text-RUN ##
 $(link-speakers2tei-text-RUN-ALL): link-speakers2tei-text-%:
 	mkdir -p Data/tei-text-speakers/$*/
+	rm Data/tei-text-speakers/$*/*
 	$s -xsl:Scripts/link-speakers2tei-text.xsl \
 	   -o:Data/tei-text-speakers/$*/ParlaMint-UA.xml \
 	      speaker-links="../Data/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
@@ -157,10 +180,12 @@ create-february-sample:
 	rm -rf SampleData/*
 	mkdir -p SampleData/01-htm
 	mkdir -p SampleData/02-tei-text
-	mkdir -p SampleData/03-tei-text-speakers
+	mkdir -p SampleData/03-tei-text-lang
+	mkdir -p SampleData/04-tei-text-speakers
 	ls $(DATADIR)/download/$(TEI-TEXT_DATA_LAST)/20??02??*.htm | xargs -I {} cp {} SampleData/01-htm/
 	ls $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ParlaMint-UA_20??-02-??*.xml | xargs -I {} cp {} SampleData/02-tei-text/
-	ls $(DATADIR)/tei-text-speakers/$(TEI-TEXT_DATA_LAST)/ParlaMint-UA_20??-02-??*.xml | xargs -I {} cp {} SampleData/03-tei-text-speakers/
+	ls $(DATADIR)/tei-text-lang/$(TEI-TEXT_DATA_LAST)/ParlaMint-UA_20??-02-??*.xml | xargs -I {} cp {} SampleData/03-tei-text-lang/
+	ls $(DATADIR)/tei-text-speakers/$(TEI-TEXT_DATA_LAST)/ParlaMint-UA_20??-02-??*.xml | xargs -I {} cp {} SampleData/04-tei-text-speakers/
 
 create-all-stats:
 	#rm -rf DataStats/*

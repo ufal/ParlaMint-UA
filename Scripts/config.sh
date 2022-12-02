@@ -7,6 +7,8 @@ download_dir=download
 checksum_file=download-checksum.txt
 seen_file=download-seen.txt
 html2tei_text=tei-text
+tei_lang=tei-text-lang
+html2tei_text_speakers=tei-text-speakers
 
 
 url_source_html(){
