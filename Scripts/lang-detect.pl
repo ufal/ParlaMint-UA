@@ -12,6 +12,8 @@ use XML::LibXML::PrettyPrint;
 use File::Basename;
 use File::Path;
 
+use Lingua::Identify::Any qw/detect_text_language/;
+use Data::Dumper;
 my ($data_dir, $run_id, $config_path);
 
 
@@ -41,13 +43,49 @@ exit 1 unless @file_list;
 
 for my $fileIn (@file_list){
   my $tei = open_xml($fileIn);
-
+  for my $node ($tei->findnodes('.//*[local-name() = "seg"]')){
+    my $text = $node->textContent();
+    my $lng = detect_language($node,$text);
+    my @check_context = ();
+    push @check_context, status_lang($lng,$text,"too short, checking for context") if length($text) < 20;
+    push @check_context, status_lang($lng,$text,"not confident") if $lng->{identify}->{conf}*1 < 0.8;
+    push @check_context, status_lang($lng,$text,"different from uk") if $lng->{identify}->{lang} ne 'uk';
+    if(not(defined $lng->{char}) and @check_context){
+      print STDERR "INFO: ",$node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')," ",$check_context[0],"\n";
+      $text = $node->parentNode->textContent();
+      $lng = detect_language($node,$text);
+      print STDERR "INFO: ",$node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')," ",status_lang($lng,$text, 'FIXED'),"\n";
+    }
+    my $lang = $lng->{char} // $lng->{identify}->{lang};
+    unless($lang eq 'uk' or $lang eq 'ru'){
+      print STDERR "WARN language[$lang]:$text\n";
+    }
+    $node->setAttributeNS('http://www.w3.org/XML/1998/namespace','lang',$lang);
+  }
+  # check if not "uk" speech was made by someone who speaks "uk"
+  # TODO
   save_xml($tei,"$data_dir/$output_dir/$run_id/".basename($fileIn));
 }
 
 print STDERR (scalar @file_list)," files processed\n";
 
+sub status_lang  {
+  my($lng,$text,$msg) = @_;
+  return sprintf("INFO: lang=%s\tconf=%s\tlen=%d\t%s",$lng->{identify}->{lang},$lng->{identify}->{conf},length($text),$msg//'');
+}
 
+sub detect_language {
+  my ($node,$text) = @_;
+  my %res;
+  my $lng = detect_text_language(text => $text);
+  if($text =~ m/[іїєґ]/i){
+    $res{char} = 'uk';
+  } elsif($text =~ m/[ыэъ]/i){
+    $res{char} = 'ru';
+  }
+  $res{identify} = {conf => $lng->[2]->{confidence}, lang => $lng->[2]->{lang_code}};
+  return \%res;
+}
 ##-----------------------------
 
 sub to_string {

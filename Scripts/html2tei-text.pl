@@ -76,6 +76,7 @@ for my $fileIn (@file_list){
   $tei->setDocumentElement($root_node);
   $root_node->setNamespace('http://www.tei-c.org/ns/1.0','',1);
   $root_node->setAttributeNS('http://www.w3.org/XML/1998/namespace','id',$id);
+  $root_node->setAttributeNS('http://www.w3.org/XML/1998/namespace','lang','uk');
   my $date = sprintf("%04d-%02d-%02d",$dY,$dM,$dD);
   my ($term,$url) = @{$downloaded_files{$fileInName}//[]};
   print STDERR "TODO: $term and $url\n";

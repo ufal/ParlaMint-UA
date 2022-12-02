@@ -61,7 +61,7 @@ tei-text-lang-all: $(tei-text-lang-RUN-ALL)
 ## tei-text-lang-RUN ##
 $(tei-text-lang-RUN-ALL): tei-text-lang-%:
 	mkdir -p Data/tei-text-lang/$*/
-	rm Data/tei-text-lang/$*/*
+	rm -f Data/tei-text-lang/$*/*
 	./Scripts/lang-detect.pl   --id $* \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh
@@ -82,11 +82,11 @@ link-speakers2tei-text-all: $(link-speakers2tei-text-RUN-ALL)
 ## link-speakers2tei-text-RUN ##
 $(link-speakers2tei-text-RUN-ALL): link-speakers2tei-text-%:
 	mkdir -p Data/tei-text-speakers/$*/
-	rm Data/tei-text-speakers/$*/*
+	rm -f Data/tei-text-speakers/$*/*
 	$s -xsl:Scripts/link-speakers2tei-text.xsl \
 	   -o:Data/tei-text-speakers/$*/ParlaMint-UA.xml \
 	      speaker-links="../Data/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
-	      in-dir="../Data/tei-text/$*/" \
+	      in-dir="../Data/tei-text-lang/$*/" \
 	      out-dir="../Data/tei-text-speakers/$*/" \
 	      Data/tei-text/$*/ParlaMint-UA.xml
 
