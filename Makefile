@@ -64,7 +64,8 @@ $(tei-text-lang-RUN-ALL): tei-text-lang-%:
 	rm -f Data/tei-text-lang/$*/*
 	./Scripts/lang-detect.pl   --id $* \
 	                           --data-dir "$(DATADIR)" \
-	                           --config Scripts/config.sh
+	                           --config Scripts/config.sh \
+	                           --speaker-lang-stats
 
 
 
@@ -190,6 +191,7 @@ create-february-sample:
 create-all-stats:
 	#rm -rf DataStats/*
 	mkdir -p DataStats
+	cp $(DATADIR)/tei-text-lang/$(TEI-TEXT_DATA_LAST)/speaker_lang_stat.tsv DataStats/
 	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\
 	   grep -o '<note>[^<]*</note>'|sort|uniq -c|sort -nr > DataStats/note_cnt.log
 	find $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ -type f |xargs cat|\

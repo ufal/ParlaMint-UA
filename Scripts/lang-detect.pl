@@ -14,13 +14,14 @@ use File::Path;
 
 use Lingua::Identify::Any qw/detect_text_language/;
 use Data::Dumper;
-my ($data_dir, $run_id, $config_path);
+my ($data_dir, $run_id, $config_path,$lang_stats);
 
 
 GetOptions (
             'data-dir=s' => \$data_dir,
             'id=s' => \$run_id,
-            'config=s' => \$config_path
+            'config=s' => \$config_path,
+            'speaker-lang-stats' => \$lang_stats
         );
 my %config = map {m/^([^=]*)="(.*)"$/; $1 => $2} grep{m/^([^=]*)="(.*)"$/} split("\n",`./$config_path list`);
 
@@ -35,6 +36,7 @@ unless($input_dir){
 
 my @file_list = glob "$data_dir/$input_dir/$run_id/*_*.xml";
 my @component_ids;
+my $stat = {};
 
 exit 1 unless @file_list;
 
@@ -61,14 +63,33 @@ for my $fileIn (@file_list){
       print STDERR "WARN language[$lang]:$text\n";
     }
     $node->setAttributeNS('http://www.w3.org/XML/1998/namespace','lang',$lang);
+    my $u = $node->parentNode;
+    $stat->{$u->getAttribute('who')} //= {};
+    $stat->{$u->getAttribute('who')}->{$u->getAttribute('ana')} //= {};
+    $stat->{$u->getAttribute('who')}->{$u->getAttribute('ana')}->{$lang} //= 0;
+    $stat->{$u->getAttribute('who')}->{$u->getAttribute('ana')}->{$lang} += 1;
   }
   # check if not "uk" speech was made by someone who speaks "uk"
   # TODO
   save_xml($tei,"$data_dir/$output_dir/$run_id/".basename($fileIn));
 }
 
-print STDERR (scalar @file_list)," files processed\n";
+print STDERR "INFO: ",(scalar @file_list)," files processed\n";
 
+if($lang_stats){
+  my $file = "$data_dir/$output_dir/$run_id/speaker_lang_stat.tsv";
+  print STDERR "INFO: printing speaker language statistic $file\n";
+  open FILE, ">$file";
+  print FILE "who\trole\tlang\tcnt\n";
+  for my $who (sort keys %$stat){
+    for my $ana (sort keys %{$stat->{$who}}){
+      for my $lang (sort keys %{$stat->{$who}->{$ana}}){
+        print FILE "$who\t$ana\t$lang\t",$stat->{$who}->{$ana}->{$lang},"\n";
+      }
+    }
+  }
+  close FILE;
+}
 sub status_lang  {
   my($lng,$text,$msg) = @_;
   return sprintf("INFO: lang=%s\tconf=%s\tlen=%d\t%s",$lng->{identify}->{lang},$lng->{identify}->{conf},length($text),$msg//'');
