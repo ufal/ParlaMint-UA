@@ -128,9 +128,11 @@ sub get_full_name {
                           && not defined $seen->{$_->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')}
                         } get_linked_nodes($node);
     for my $nd (@linked_nodes){
+      # next node is linked to parent/child
       get_full_name($data,{%$seen,$nd->getAttributeNS('http://www.w3.org/XML/1998/namespace','id') => {%$pat,node=>$nd}},$nd, grep {$_->{ord} != $pat->{ord}} @patterns );
       $extended = 1;
     }
+    last if $extended;
   }
   unless($extended){
     print_sentence($data, $node->findnodes('./ancestor::*[local-name() = "s"][1]'), keys %$seen);
@@ -142,9 +144,10 @@ sub get_full_name {
 sub get_linked_nodes {
   my $node = shift;
   my $node_id = $node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id');
-  my @link_ids = map { s/\s*#$node_id\s*//; s/#//; $_}
+  my @link_ids = map { s/\s*#${node_id}\s*//; s/#//; $_}
+                 grep {m/#${node_id}\b/}
                  map {$_->getAttribute('target')}
-                     $node->findnodes('./ancestor::*[local-name()="s"][1]/*[local-name()="linkGrp" and @type="UD-SYN"]/*[local-name()="link" and contains(@target,"#'.$node_id.'")]');
+                     $node->findnodes('./ancestor::*[local-name()="s"][1]/*[local-name()="linkGrp" and @type="UD-SYN"]/*[local-name()="link"]');
   return map {$node->findnodes('./ancestor::*[local-name()="s"]//*[local-name()="w" and @xml:id="'.$_.'"]')} @link_ids;
 }
 
