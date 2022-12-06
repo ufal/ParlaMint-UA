@@ -116,6 +116,26 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 
 
 
+
+TEI-UD_DATA_LAST := $(shell ls $(DATADIR)/tei-UD | grep -v '_' | sort -r | head -n1)
+TEI-UD_DATA_ALL := $(shell ls $(DATADIR)/tei-UD )
+speaker-calls-RUN-ALL = $(addprefix speaker-calls-, $(TEI-UD_DATA_ALL))
+speaker-calls-RUN-LAST = $(addprefix speaker-calls-, $(TEI-UD_DATA_LAST))
+## speaker-calls ## speaker-callss
+speaker-calls: speaker-calls-last
+speaker-calls-last: $(speaker-calls-RUN-LAST)
+speaker-calls-all: $(speaker-calls-RUN-ALL)
+
+## speaker-calls-RUN ##
+$(speaker-calls-RUN-ALL): speaker-calls-%:
+	mkdir -p Data/speaker-calls/$*/
+	rm -f Data/speaker-calls/$*/*
+	./Scripts/speaker-calls.pl --id $* \
+	                           --data-dir "$(DATADIR)" \
+	                           --config Scripts/config.sh
+
+
+
 ###### metadata:
 .PHONY: $(download-meta-NN) download-meta
 download-meta-NN = $(addprefix download-meta-, $(TERMS))
@@ -183,10 +203,14 @@ create-february-sample:
 	mkdir -p SampleData/02-tei-text
 	mkdir -p SampleData/03-tei-text-lang
 	mkdir -p SampleData/04-tei-text-speakers
+	mkdir -p SampleData/05-tei-UD
+	mkdir -p SampleData/06-speaker-calls
 	ls $(DATADIR)/download/$(TEI-TEXT_DATA_LAST)/20??02??*.htm | xargs -I {} cp {} SampleData/01-htm/
 	ls $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/ParlaMint-UA_20??-02-??*.xml | xargs -I {} cp {} SampleData/02-tei-text/
 	ls $(DATADIR)/tei-text-lang/$(TEI-TEXT_DATA_LAST)/ParlaMint-UA_20??-02-??*.xml | xargs -I {} cp {} SampleData/03-tei-text-lang/
 	ls $(DATADIR)/tei-text-speakers/$(TEI-TEXT_DATA_LAST)/ParlaMint-UA_20??-02-??*.xml | xargs -I {} cp {} SampleData/04-tei-text-speakers/
+	ls $(DATADIR)/speaker-calls/_FEBRUARY/* | xargs -I {} cp {} SampleData/06-speaker-calls/
+
 
 create-all-stats:
 	#rm -rf DataStats/*

@@ -9,6 +9,8 @@ seen_file=download-seen.txt
 html2tei_text=tei-text
 tei_lang=tei-text-lang
 html2tei_text_speakers=tei-text-speakers
+tei_UD=tei-UD
+speaker_calls=speaker-calls
 
 
 url_source_html(){
