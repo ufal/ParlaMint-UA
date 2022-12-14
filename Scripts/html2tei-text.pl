@@ -52,9 +52,9 @@ my %downloaded_files;
   open FILE, "$data_dir/$config{seen_file}";
   while(my $line = <FILE>){
     next unless $line =~ m/^$run_id\t/;
-    my ($t,$f,$u) = $line =~ m/\t([^\t]*)\t([^\t]*)\t([^\t\s]*)\n?$/;
-    print STDERR "($t,$f,$u)\n";
-    $downloaded_files{$f} = [$t,$u];
+    my ($t,$s,$mt,$f,$u) = $line =~ m/\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t\s]*)\n?$/;
+    print STDERR "($t,$s,$mt,$u)\n";
+    $downloaded_files{$f} = [$t,$s,$mt,$u];
   }
   close FILE;
 }
@@ -78,7 +78,7 @@ for my $fileIn (@file_list){
   $root_node->setAttributeNS('http://www.w3.org/XML/1998/namespace','id',$id);
   $root_node->setAttributeNS('http://www.w3.org/XML/1998/namespace','lang','uk');
   my $date = sprintf("%04d-%02d-%02d",$dY,$dM,$dD);
-  my ($term,$url) = @{$downloaded_files{$fileInName}//[]};
+  my ($term,$session,$meeting_type,$url) = @{$downloaded_files{$fileInName}//[]};
   print STDERR "TODO: $term and $url\n";
   my $teiHeader = $parser->parse_balanced_chunk(
 <<HEADER
@@ -87,6 +87,8 @@ for my $fileIn (@file_list){
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="$term">$term</meeting>
+            <meeting ana="#parla.session #parla.uni" n="$session">$session</meeting>
+            <!-- TODO: meeting type: $meeting_type -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>

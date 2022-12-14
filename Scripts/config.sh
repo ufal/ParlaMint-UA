@@ -13,9 +13,6 @@ tei_UD=tei-UD
 speaker_calls=speaker-calls
 
 
-url_source_html(){
-  echo "https://data.rada.gov.ua/ogd/zal/stenogram/skl$1/$2"
-}
 
 url_meta() {
   echo "https://data.rada.gov.ua/ogd/zal/stenogram/skl$1/meta.xml"
