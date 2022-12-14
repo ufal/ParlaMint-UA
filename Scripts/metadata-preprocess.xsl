@@ -26,6 +26,20 @@
     </xsl:call-template>
   </xsl:variable>
 
+  <xsl:variable name="files-plenary_speech">
+    <xsl:for-each select="tokenize($terms, ' ')">
+      <xsl:variable name="term" select="."/>
+      <xsl:variable name="filename" select="concat('ogd_zal_ppz_skl',$term,'_plenary_speech-skl',$term,'.csv')"/>
+      <xsl:element name="file">
+          <xsl:attribute name="term" select="$term"/>
+          <xsl:attribute name="source" select="$filename"/>
+          <xsl:call-template name="read-csv">
+            <xsl:with-param name="file" select="concat($in-dir,'/',$filename)"/>
+            <xsl:with-param name="source" select="$filename"/>
+          </xsl:call-template>
+      </xsl:element>
+    </xsl:for-each>
+  </xsl:variable>
 
 
   <xsl:variable name="files-mps-data">
@@ -121,6 +135,28 @@
     </xsl:element>
   </xsl:variable>
 
+  <xsl:variable name="plenary_speech">
+    <xsl:element name="plenary-speech">
+      <xsl:for-each select="$files-plenary_speech/file">
+        <xsl:variable name="term" select="./@term"/>
+        <xsl:variable name="source" select="./@source"/>
+        <xsl:for-each select="./table/row">
+          <xsl:variable name="id_mp" select="./col[@name='id_mp']"/>
+          <speech>
+            <xsl:attribute name="parlamint-id" select="$mp_persons//mp_person[./term[@term=$term]/rada_id/text() = $id_mp]/@parlamint-id"/>
+            <xsl:attribute name="alias" select="mk:normalize-chars(./col[@name='name_mp'])"/>
+            <xsl:attribute name="term" select="$term"/>
+            <xsl:attribute name="source" select="concat($source,'#line-',@n)"/>
+            <xsl:attribute name="datetime" select="./col[@name='date_speech']"/>
+            <xsl:attribute name="date" select="substring-before(./col[@name='date_speech'],'T')"/>
+            <xsl:attribute name="dur" select="./col[@name='time_speech']"/>
+            <xsl:attribute name="rada_id" select="$id_mp"/>
+          </speech>
+        </xsl:for-each>
+      </xsl:for-each>
+    </xsl:element>
+  </xsl:variable>
+
   <xsl:template match="/">
     <xsl:message>process all convacations</xsl:message>
 
@@ -129,6 +165,12 @@
     <xsl:message select="concat('Saving ',$mp-data-path)"/>
     <xsl:result-document href="{$mp-data-path}" method="xml">
       <xsl:copy-of select="$mp_persons"/>
+    </xsl:result-document>
+
+    <xsl:variable name="plenary-speech-path" select="concat($out-dir,'plenary-speech.xml')"/>
+    <xsl:message select="concat('Saving ',$plenary-speech-path)"/>
+    <xsl:result-document href="{$plenary-speech-path}" method="xml">
+      <xsl:copy-of select="$plenary_speech"/>
     </xsl:result-document>
 
     <!-- do some checking -->
