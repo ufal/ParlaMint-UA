@@ -105,7 +105,8 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	mkdir -p Data/tei-UD/$*/
 	ls Data/tei-text-speakers/$*/|grep 'ParlaMint-UA_' > Data/tei-UD/$*.fl
 	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
-	                             --model=ukrainian-iu-ud-2.10-220711 \
+	                             --model "uk:ukrainian-iu-ud-2.10-220711" \
+	                             --model "ru:russian-syntagrus-ud-2.10-220711" \
 	                             --elements "seg" \
 	                             --debug \
 	                             --try2continue-on-error \
