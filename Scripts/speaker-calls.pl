@@ -42,7 +42,7 @@ open CALLS_SENT, ">$data_dir/$output_dir/$run_id/calls-sentences.tsv";
 open CALLS_SPEAKER, ">$data_dir/$output_dir/$run_id/calls-speakers.tsv";
 
 print CALLS_SENT "utterance\tnote\twho\tsentence\n";
-print CALLS_speaker "utterance\tnote\twho\twordIds\tnormalizedName\tisFull\n";
+print CALLS_SPEAKER "utterance\tnote\twho\twordIds\tnormalizedName\tisFull\n";
 
 for my $fileIn (@file_list){
   my $tei = open_xml($fileIn);
