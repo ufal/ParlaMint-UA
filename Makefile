@@ -92,6 +92,28 @@ $(link-speakers2tei-text-RUN-ALL): link-speakers2tei-text-%:
 	      Data/tei-text/$*/ParlaMint-UA.xml
 
 
+link-speakers-RUN-ALL = $(addprefix link-speakers-, $(TEI-TEXT-LANG_DATA_ALL))
+link-speakers-RUN-LAST = $(addprefix link-speakers-, $(TEI-TEXT-LANG_DATA_LAST))
+## link-speakers ## link-speakerss
+link-speakers: link-speakers-last
+link-speakers-last: $(link-speakers-RUN-LAST)
+link-speakers-all: $(link-speakers-RUN-ALL)
+
+## link-speakers-RUN ##
+$(link-speakers-RUN-ALL): link-speakers-%:
+	mkdir -p Data/link-speakers/$*/
+	rm -f Data/link-speakers/$*/*
+	./Scripts/link-speakers.pl --id $* \
+	                           --data-dir "$(DATADIR)" \
+	                           --config Scripts/config.sh \
+	                           --speaker-aliases "$(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
+	                           --plenary-speech "$(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/plenary-speech.xml" \
+	                           --speaker-calls "$(DATADIR)/speaker-calls/$*/calls-speakers.tsv"
+
+
+
+
+
 TEI-TEXT-SPEAKERS_DATA_LAST := $(shell ls $(DATADIR)/tei-text-speakers | grep -v '_' | sort -r | head -n1)
 TEI-TEXT-SPEAKERS_DATA_ALL := $(shell ls $(DATADIR)/tei-text-speakers )
 tei-UD-RUN-LAST = $(addprefix tei-UD-, $(TEI-TEXT-SPEAKERS_DATA_LAST))

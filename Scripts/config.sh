@@ -11,6 +11,7 @@ tei_lang=tei-text-lang
 html2tei_text_speakers=tei-text-speakers
 tei_UD=tei-UD
 speaker_calls=speaker-calls
+link_speakers=link-speakers
 
 
 
