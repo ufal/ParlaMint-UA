@@ -75,10 +75,8 @@
     <xsl:value-of select="concat(
                             $nodes[surname/text()][1]/surname/text(),
                             ' ',
-                            replace($nodes[firstname/text()][1]/firstname/text(),'^(.).*','$1'),
-                            '.',
-                            replace($nodes[patronymic/text()][1]/patronymic/text(),'^(.).*','$1'),
-                            '.'
+                            replace($nodes[firstname/text()][1]/firstname/text(),'^(.).*','$1.'),
+                            replace($nodes[patronymic/text()][1]/patronymic/text(),'^(.).*','$1.')
                             )
       "/>
   </xsl:function>
