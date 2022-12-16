@@ -98,7 +98,7 @@ for my $fileIn (@file_list){
       if($aliases->{$who}->{$tei_term +  $term_dist}){
         my $spkr_list = $aliases->{$who}->{$tei_term +  $term_dist};
         $alias_result .= "\t".join(" ",map {$_->{id}} @$spkr_list);
-        $alias_result .= "\t".($term_dist == 0 ? 'regular' : 'guest');
+        $alias_result .= "\t".($term_dist == 0 ? ($is_chair ? 'chair' : 'regular') : 'guest');
         $alias_result .= "\t".$term_dist;
         $alias_result .= "\t0";
       }
@@ -119,7 +119,7 @@ for my $fileIn (@file_list){
         $alias_result .= "\t\t\t\t";
       } else {
         $alias_result .= "\t".join(" ",map {$_->{id}} @spkr_list);
-        $alias_result .= "\tregular";
+        $alias_result .= "\t".($is_chair ? 'chair' : 'regular');
         $alias_result .= "\t0";
         $alias_result .= "\t$min";
       }
