@@ -13,8 +13,11 @@ use File::Path;
 
 use Data::Dumper;
 
+use Text::Levenshtein qw(distance);
+
 my ($data_dir, $run_id, $config_path);
 
+my $max_edit_dist = 3;
 
 GetOptions (
             'data-dir=s' => \$data_dir,
@@ -65,10 +68,14 @@ for my $fileIn (@file_list){
           speech => $id,
         };
     my ($sur) = grep {defined $_->{sur}} @speaker_pattern;
-    for my $sur_node (grep {$_->getAttribute('lemma') =~ $sur->{attr}->{lemma}} $prev_u->findnodes('.//*[local-name() = "w"]')){
+
+    for my $sur_node ( grep {
+                              substr($_->getAttribute('lemma'),0,1) eq substr($sur->{attr}->{lemma}->{txt},0,1)
+                              && distance($_->getAttribute('lemma'), $sur->{attr}->{lemma}->{txt}) <= $max_edit_dist
+                            } $prev_u->findnodes('.//*[local-name() = "w"]')){
       my $sur_id = $sur_node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id');
       # traverse tree (closest)
-      push @full_names, $_ for (get_full_name($data,{$sur_id => {%$sur,node => $sur_node }},$sur_node, grep {not defined $_->{sur}} @speaker_pattern));
+      get_full_name($data,{$sur_id => {%$sur,node => $sur_node }},$sur_node, grep {not defined $_->{sur}} @speaker_pattern);
     }
   }
 }
@@ -107,7 +114,10 @@ sub get_speaker_pattern {
     push @pat, {
                  ord => $i,
                  attr => {
-                   lemma => qr/^$p$/,
+                   lemma => {
+                    re => qr/^$p$/,
+                    txt => $p
+                    },
                    msd => qr/\bNodeType=(:?$m)\b/
                  },
                  $i == $#text ? (sur=>1) : (),
@@ -124,7 +134,7 @@ sub get_full_name {
     # check parent and childs of $node
     my $pat = $patterns[$i];
     my @linked_nodes =  grep {
-                          $_->getAttribute('lemma') =~ $pat->{attr}->{lemma}
+                          $_->getAttribute('lemma') =~ $pat->{attr}->{lemma}->{re}
                           && not defined $seen->{$_->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')}
                         } get_linked_nodes($node);
     for my $nd (@linked_nodes){
