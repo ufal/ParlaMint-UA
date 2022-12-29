@@ -92,8 +92,8 @@ $(link-speakers2tei-text-RUN-ALL): link-speakers2tei-text-%:
 	      Data/tei-text/$*/ParlaMint-UA.xml
 
 
-link-speakers-RUN-ALL = $(addprefix link-speakers-, $(TEI-TEXT-LANG_DATA_ALL))
-link-speakers-RUN-LAST = $(addprefix link-speakers-, $(TEI-TEXT-LANG_DATA_LAST))
+link-speakers-RUN-ALL = $(addprefix link-speakers-, $(TEI-TEXT_DATA_ALL))
+link-speakers-RUN-LAST = $(addprefix link-speakers-, $(TEI-TEXT_DATA_LAST))
 ## link-speakers ## link-speakerss
 link-speakers: link-speakers-last
 link-speakers-last: $(link-speakers-RUN-LAST)
