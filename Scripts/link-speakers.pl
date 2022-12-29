@@ -67,7 +67,14 @@ if($speaker_aliases_file){
 
 my $calls;
 if($speaker_calls_file){
-  $calls = { map {$_->{utterance} => $_} @{csv({in => $speaker_calls_file,headers => "auto", binary => 1, auto_diag => 1, sep_char=> "\t"}) //[] } };
+  for my $row (@{csv({in => $speaker_calls_file,headers => "auto", binary => 1, auto_diag => 1, sep_char=> "\t"}) //[] }) {
+    $calls->{$row->{utterance}} //= $row;
+
+    # taking longest name in calls:
+    $calls->{$row->{utterance}} = $row if $calls->{$row->{utterance}}->{dist} > $row->{dist};
+    $calls->{$row->{utterance}} = $row if  $calls->{$row->{utterance}}->{dist} = $row->{dist}
+                  && length($calls->{$row->{utterance}}->{normalizedName}) < length($row->{normalizedName});
+  }
 }
 
 my $speeches;
@@ -82,7 +89,7 @@ if($plenary_speech_file){
 
 my $speaker_links_filename = "$data_dir/$output_dir/$run_id/speaker-person-links.tsv";
 open SPEAKER_LINKS, ">$speaker_links_filename";
-print SPEAKER_LINKS "fileId\tutterance\taPersonId\taRole\taTermDist\taEdDist\tsPersonId\tsRole\tsEdDist\tcNormalizedName\tcIsFull\n";
+print SPEAKER_LINKS "fileId\tutterance\taPersonId\taRole\taTermDist\taEdDist\tsPersonId\tsRole\tsEdDist\tcNormalizedName\tcIsFull\tcSurDist\n";
 
 for my $dayFilesIn (@file_list_day){
   my @utterances;
@@ -171,7 +178,8 @@ for my $dayFilesIn (@file_list_day){
       $linking{$u_id} //= {};
       $linking{$u_id}->{call} =
             "\t".$calls->{$u_id}->{normalizedName}
-            ."\t".$calls->{$u_id}->{isFull};
+            ."\t".$calls->{$u_id}->{isFull}
+            ."\t".$calls->{$u_id}->{dist};
     }
   }
 

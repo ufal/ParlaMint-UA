@@ -45,7 +45,7 @@ open CALLS_SENT, ">$data_dir/$output_dir/$run_id/calls-sentences.tsv";
 open CALLS_SPEAKER, ">$data_dir/$output_dir/$run_id/calls-speakers.tsv";
 
 print CALLS_SENT "utterance\tnote\twho\tsentence\n";
-print CALLS_SPEAKER "utterance\tnote\twho\twordIds\tnormalizedName\tisFull\n";
+print CALLS_SPEAKER "utterance\tnote\twho\twordIds\tnormalizedName\tdist\tisFull\n";
 
 for my $fileIn (@file_list){
   my $tei = open_xml($fileIn);
@@ -75,7 +75,8 @@ for my $fileIn (@file_list){
                             } $prev_u->findnodes('.//*[local-name() = "w"]')){
       my $sur_id = $sur_node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id');
       # traverse tree (closest)
-      get_full_name($data,{$sur_id => {%$sur,node => $sur_node }},$sur_node, grep {not defined $_->{sur}} @speaker_pattern);
+      my $sur_dist = distance($sur_node->getAttribute('lemma'), $sur->{attr}->{lemma}->{txt});
+      get_full_name($data,{$sur_id => {%$sur,node => $sur_node }},$sur_node, $sur_dist, grep {not defined $_->{sur}} @speaker_pattern);
     }
   }
 }
@@ -127,7 +128,7 @@ sub get_speaker_pattern {
 }
 
 sub get_full_name {
-  my ($data,$seen,$node,@patterns) = @_;
+  my ($data,$seen,$node, $dist,@patterns) = @_;
 
   my $extended = 0;
   for my $i (0..$#patterns){
@@ -139,14 +140,14 @@ sub get_full_name {
                         } get_linked_nodes($node);
     for my $nd (@linked_nodes){
       # next node is linked to parent/child
-      get_full_name($data,{%$seen,$nd->getAttributeNS('http://www.w3.org/XML/1998/namespace','id') => {%$pat,node=>$nd}},$nd, grep {$_->{ord} != $pat->{ord}} @patterns );
+      get_full_name($data,{%$seen,$nd->getAttributeNS('http://www.w3.org/XML/1998/namespace','id') => {%$pat,node=>$nd}},$nd, $dist, grep {$_->{ord} != $pat->{ord}} @patterns );
       $extended = 1;
     }
     last if $extended;
   }
   unless($extended){
     print_sentence($data, $node->findnodes('./ancestor::*[local-name() = "s"][1]'), keys %$seen);
-    print_speaker($data,$seen, ! scalar(@patterns))
+    print_speaker($data,$seen, $dist, ! scalar(@patterns))
   }
 }
 
@@ -185,6 +186,7 @@ sub print_sentence {
 sub print_speaker {
   my $data = shift;
   my $seen = shift;
+  my $dist = shift;
   my $is_full = shift;
   print CALLS_SPEAKER
                $data->{speech},
@@ -196,6 +198,8 @@ sub print_speaker {
                join(' ', map {$_->{node}->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')} sort {$a->{ord}<=>$b->{ord}} values %$seen),
                "\t",
                join(' ', map {$_->{node}->getAttribute('lemma')} sort {$a->{ord}<=>$b->{ord}} values %$seen),
+               "\t",
+               $dist,
                "\t",
                ($is_full || 0)
                ;
