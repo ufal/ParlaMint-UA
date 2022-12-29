@@ -143,7 +143,7 @@
         <xsl:for-each select="./table/row">
           <xsl:variable name="id_mp" select="./col[@name='id_mp']"/>
           <speech>
-            <xsl:attribute name="parlamint-id" select="$mp_persons//mp_person[./term[@term=$term]/rada_id/text() = $id_mp]/@parlamint-id"/>
+            <xsl:attribute name="parlamint-id" select="$mp_persons//mp_person[./term[@term=$term]/rada_id_full/text() = $id_mp]/@parlamint-id"/>
             <xsl:attribute name="alias" select="mk:normalize-chars(./col[@name='name_mp'])"/>
             <xsl:attribute name="term" select="$term"/>
             <xsl:attribute name="source" select="concat($source,'#line-',@n)"/>
@@ -393,7 +393,7 @@
 
       <xsl:apply-templates select="party_name" mode="copy-if-text"/>
       <xsl:apply-templates select="photo" mode="copy-if-text"/>
-      <xsl:apply-templates select="rada_id" mode="copy-if-text"/>
+      <xsl:apply-templates select="rada_id" mode="copy-if-text"><xsl:with-param name="rename" select="'rada_id_full'"/></xsl:apply-templates>
     </xsl:element>
   </xsl:template>
 
