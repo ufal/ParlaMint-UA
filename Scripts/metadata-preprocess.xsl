@@ -203,11 +203,13 @@
     <xsl:variable name="mp-data-aliases-path" select="concat($out-dir,'mp-data-aliases.tsv')"/>
     <xsl:message select="concat('Saving ',$mp-data-aliases-path)"/>
     <xsl:result-document href="{$mp-data-aliases-path}" method="text">
-      <xsl:text>alias&#9;term&#9;id&#10;</xsl:text>
+      <xsl:text>alias&#9;term&#9;id&#9;from&#9;to&#10;</xsl:text>
       <xsl:for-each select="$mp_persons/mp_persons/mp_person/term">
         <xsl:value-of select="./@alias"/><xsl:text>&#9;</xsl:text>
         <xsl:value-of select="./@term"/><xsl:text>&#9;</xsl:text>
-        <xsl:value-of select="../@parlamint-id"/>
+        <xsl:value-of select="../@parlamint-id"/><xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="./date_oath/text()"/><xsl:text>&#9;</xsl:text>
+        <xsl:value-of select="./date_finish/text()"/>
         <xsl:text>&#10;</xsl:text>
       </xsl:for-each>
     </xsl:result-document>
