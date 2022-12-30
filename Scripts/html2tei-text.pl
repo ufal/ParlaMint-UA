@@ -537,6 +537,11 @@ sub normalize_elements_and_spaces {
     while(my $chN = shift @chNodes){
       next if ref $chN eq 'XML::LibXML::Text';
       next unless $chN->nodeName eq 'note';
+      {
+        my $str = $chN->textContent;
+        $str =~ s/\s+/ /g;
+        $chN->lastChild->setData($str);
+      }
       next if $chN->hasAttribute('type');
       if($chN->textContent =~ m/^[^\()]*\)/){
         print STDERR "WARN: missing opening '(' in note: '",$chN->textContent,"'\n";
