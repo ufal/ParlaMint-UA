@@ -119,11 +119,26 @@ for my $dayFilesIn (@file_list_day){
         $to_explore --;
       } until ($aliases->{$who}->{$tei_term +  $term_dist} || $to_explore <= 0 );
       if($aliases->{$who}->{$tei_term +  $term_dist}){
-        my $spkr_list = $aliases->{$who}->{$tei_term +  $term_dist};
-        $alias_result .= "\t".join(" ",map {$_->{id}} @$spkr_list);
-        $alias_result .= "\t".($term_dist == 0 ? ($is_chair ? 'chair' : 'regular') : 'guest');
+        my $is_teidate_in_any_alias_interval;
+        my @spkr_list = map {
+                              my $in_interval = is_in_date_interval($_,$tei_date);
+                              $is_teidate_in_any_alias_interval //= $in_interval;
+                              ({%$_, in_interval => $in_interval })
+                            } @{$aliases->{$who}->{$tei_term +  $term_dist}};
+        $alias_result .= "\t".join(" ",map {$_->{id}} grep {!$is_teidate_in_any_alias_interval || $_->{in_interval} } @spkr_list);
+        $alias_result .= "\t".( $term_dist == 0
+                                ? ( $is_chair
+                                    ? 'chair'
+                                    : ( $is_teidate_in_any_alias_interval
+                                        ? 'regular'
+                                        : 'guest'
+                                      )
+                                  )
+                                : 'guest'
+                              );
         $alias_result .= "\t".$term_dist;
         $alias_result .= "\t0";
+        print STDERR join(" ",map {"(".$_->{from}."---".($_->{to}//"??").")"} @spkr_list),"$tei_date:  $alias_result\n" unless $is_teidate_in_any_alias_interval
       }
     }
 
@@ -137,7 +152,6 @@ for my $dayFilesIn (@file_list_day){
       my $min = $d{$sorted_candidates[0]};
       my @closest_alias = grep {$d{$_} <= 3 && $d{$_} <= $min} @sorted_candidates;
       my @spkr_list = map {@{$aliases->{$_}->{$tei_term}}} @closest_alias;
-      print STDERR "$who ~ '",join(" / ", @closest_alias),"' DIST=$min\n" if @closest_alias;
       if($min <= $max_edit_dist){
         $alias_result .= "\t".join(" ",map {$_->{id}} @spkr_list);
         $alias_result .= "\t".($is_chair ? 'chair' : 'regular');
@@ -158,8 +172,8 @@ for my $dayFilesIn (@file_list_day){
     my @aligned = align_seq([map {uc $_->{alias}} @plenary_speech_day],[map {$_->{alias}} @speeches_non_chair],10,1);
     for my $pair (@aligned){
       my ($i1,$i2) = @$pair;
-      print STDERR $plenary_speech_day[$i1]->{'parlamint-id'}," ",$plenary_speech_day[$i1]->{alias},"($i1)=($i2)",
-                   $speeches_non_chair[$i2]->{alias}," ",$speeches_non_chair[$i2]->{utterance},"\n";
+      #print STDERR $plenary_speech_day[$i1]->{'parlamint-id'}," ",$plenary_speech_day[$i1]->{alias},"($i1)=($i2)",
+      #             $speeches_non_chair[$i2]->{alias}," ",$speeches_non_chair[$i2]->{utterance},"\n";
       my $sdist = distance(uc $plenary_speech_day[$i1]->{alias},$speeches_non_chair[$i2]->{alias});
       if($sdist <= $max_edit_dist ){
         $linking{$speeches_non_chair[$i2]->{utterance}} //= {};
@@ -169,7 +183,7 @@ for my $dayFilesIn (@file_list_day){
       }
     }
   } else {
-    print STDERR "INFO day $tei_date is missing in plenary speech\n";
+    print STDERR "INFO: day $tei_date is missing in plenary speech\n";
   }
   ### speaker calls linking
   for my $u (@utterances){
@@ -193,11 +207,6 @@ for my $dayFilesIn (@file_list_day){
           ($linking{$u_id}->{speech}||"\t\t\t"),
           ($linking{$u_id}->{call}||"\t\t");
     print SPEAKER_LINKS "\n";
-    print STDERR "$tei_id\t$u_id",
-          $linking{$u_id}->{alias},
-          $linking{$u_id}->{speech}//"\t\t\t",
-          $linking{$u_id}->{call}//"\t\t",
-          "\n";
   }
 }
 
@@ -250,6 +259,14 @@ sub align_seq { # Needleman-Wunsch algorithm
   return reverse @alignment;
 }
 
+sub is_in_date_interval {
+  my ($interval,$date) = @_;
+  my $is_in_interval = 1;
+  undef $is_in_interval if defined($interval->{from}) && $interval->{from} && ($interval->{from} gt $date);
+  undef $is_in_interval if defined($interval->{to}) && $interval->{to} && ($interval->{to} lt $date);
+
+  return $is_in_interval;
+}
 ##-----------------------------
 
 sub open_xml {
