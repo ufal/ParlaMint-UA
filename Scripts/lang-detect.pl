@@ -61,6 +61,11 @@ for my $fileIn (@file_list){
     my $lang = $lng->{char} // $lng->{identify}->{lang};
     unless($lang eq 'uk' or $lang eq 'ru'){
       print STDERR "WARN language[$lang]:$text\n";
+      if(length($node->textContent())<100){
+        print STDERR "WARN too short, setting uk\n";
+        $lang = 'uk';
+      }
+
     }
     $node->setAttributeNS('http://www.w3.org/XML/1998/namespace','lang',$lang);
     my $u = $node->parentNode;
