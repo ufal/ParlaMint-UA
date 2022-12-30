@@ -62,7 +62,7 @@ function add_file(){
   md5sum=`md5sum $steno_dir/$1 |cut -f1 -d' '`
   date=`echo $1 | sed 's/-.*$//;s/.htm//'`
   number=`echo $1 | sed 's/\.htm$//' |sed '/^[0-9]*$/s/$/-0/'|sed 's/^.*-//'`
-  line=`iconv -f ISO-8859-1 -t UTF-8//TRANSLIT $steno_meta_dir/*|grep -P "$date\t$TERM\t[0-9]+\t$number\t.*html"`
+  line=`iconv -f ISO-8859-1 -t UTF-8//TRANSLIT $steno_meta_dir/*|grep -P "$date\t$TERM\t[0-9]+\t$number\t.*html"|sort -r|head -n1`
   session=`echo -n "$line" |cut -f3`
   meeting_type=`echo -n "$line" |cut -f5|sed 's/^b//'|sed 's/_yellow/ regular/;s/_orange/ extraordinary/;s/_[a-z]*//g'|sed 's/^ //'`
   url_source_html=`echo -n "$line" |cut -f6`
