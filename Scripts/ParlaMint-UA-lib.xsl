@@ -54,6 +54,70 @@
     </xsl:if>
   </xsl:template>
 
+
+  <xsl:template name="read-tsv">
+    <xsl:param name="file"/>
+    <xsl:param name="source"/>
+    <xsl:variable name="text" select="unparsed-text($file, 'UTF-8')"/>
+    <xsl:variable name="lines" select="tokenize($text, '&#13;?&#10;')"/>
+    <xsl:variable name="header" select="tokenize($lines[1],'&#9;')"/>
+    <table>
+      <xsl:attribute name="source" select="$source"/>
+      <xsl:for-each select="$lines[position() > 1]">
+        <xsl:call-template name="read-tsv-row">
+          <xsl:with-param name="text" select="."/>
+          <xsl:with-param name="n" select="position()"/>
+          <xsl:with-param name="header" select="$header"/>
+        </xsl:call-template>
+      </xsl:for-each>
+    </table>
+  </xsl:template>
+
+  <xsl:template name="read-tsv-row">
+    <xsl:param name="text"/>
+    <xsl:param name="n"/>
+    <xsl:param name="header"/>
+    <xsl:if test="normalize-space($text)">
+      <row>
+        <xsl:attribute name="n" select="$n"/>
+        <xsl:analyze-string select="." regex="(?:&quot;((?:[^&quot;]*|&quot;&quot;)*)&quot;|([^&#9;]+))(?:&#9;|$)">
+          <xsl:matching-substring>
+            <col>
+              <xsl:variable name="pos" select="position()"/>
+              <xsl:attribute name="n" select="$pos"/>
+              <xsl:if test="$header[$pos]">
+                <xsl:attribute name="name" select="$header[$pos]"/>
+              </xsl:if>
+              <xsl:value-of select="replace(normalize-space(concat(regex-group(1),regex-group(2))),'&quot;&quot;','&quot;')"/>
+            </col>
+          </xsl:matching-substring>
+        </xsl:analyze-string>
+      </row>
+    </xsl:if>
+  </xsl:template>
+
+
+  <xsl:template match="table | row | col" mode="multicell">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="multicell"/>
+    </xsl:copy>
+  </xsl:template>
+
+
+  <xsl:template match="text()" mode="multicell">
+    <xsl:choose>
+      <xsl:when test="not(contains(.,';'))"><xsl:value-of select="."/></xsl:when>
+      <xsl:otherwise>
+        <xsl:for-each select="tokenize(.,';')">
+          <cell>
+            <xsl:value-of select="normalize-space(.)"/>
+          </cell>
+        </xsl:for-each>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
   <xsl:function name="mk:normalize-chars">
     <xsl:param name="text"/>
     <xsl:value-of select="replace($text,'(\w)&#39;&#39;(\w)','$1’$2')"/>

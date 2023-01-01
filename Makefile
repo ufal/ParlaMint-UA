@@ -11,6 +11,11 @@ DATADIR = Data
 
 DATE := $(shell sh -c 'date +"%Y%m%dT%H%M%S"')
 
+GSID := 2PACX-1vRTvI3QU1_q3V8cyVHeDv_Uo_OSDwuwYlmQgNq6OMClZ3QN5-5xKQ1uv34GvWV9Mvorv8ul4qJQoyEU
+GSIDperson := 983620751
+GSIDaffiliation := 1800909923
+GSIDorg := 1140033767
+GSIDevent := 19173850
 ###### steno:
 
 .PHONY: $(download-NN) download
@@ -178,18 +183,18 @@ tei-particDesc-RUN-LAST = $(addprefix tei-particDesc-, $(DOWNLOAD_META_DATA_LAST
 DOWNLOAD_META_DATA_LAST_TERMS = $(shell ls $(DATADIR)/download-meta/$(DOWNLOAD_META_DATA_LAST)/ogd_mps_skl*_mps-data.xml|sed "s/^.*skl\([0-9]*\)_.*$$/\1/"|tr "\n" " "|sed "s/ *$$//")
 
 tei-particDesc: $(tei-particDesc-RUN-LAST)
-$(tei-particDesc-RUN-LAST): tei-particDesc-%: tei-particDesc-preprocess-%
+$(tei-particDesc-RUN-LAST): tei-particDesc-%: tei-particDesc-preprocess-% tei-particDesc-gov-%
 	mkdir -p $(DATADIR)/tei-particDesc-working/$*
 	mkdir -p $(DATADIR)/tei-particDesc/$*
 	@echo "TODO: PROCESS META $*"
 	@echo "input files:"
 	@find $(DATADIR)/tei-particDesc-preprocess/$* -type f|sed 's/^/\t/'
-	echo "<?xml version=\"1.0\" ?>\n<root/>" | \
-	  $s -s:- -xsl:Scripts/metadata-preprocess.xsl \
-	      terms="$(DOWNLOAD_META_DATA_LAST_TERMS)" \
-	      in-dir=../Data/tei-particDesc-preprocess/$*/ \
-	      out-dir=Data/tei-particDesc-preprocess/$*/
 
+TEST:
+	echo "<?xml version=\"1.0\" ?>\n<root/>" | \
+	  $s -s:- -xsl:Scripts/metadata.xsl \
+	      in-dir=../Data/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ \
+	      out-dir=Data/tei-particDesc/$(DOWNLOAD_META_DATA_LAST)/
 
 
 
@@ -204,7 +209,21 @@ $(tei-particDesc-preprocess-RUN-LAST): tei-particDesc-preprocess-%:
 	    | perl -Mopen=locale -pe 's/&#x([\da-f]+);/chr hex $$1/gie' \
 	    > $(DATADIR)/tei-particDesc-preprocess/$*/$${FILE}; \
 	done
+	echo "<?xml version=\"1.0\" ?>\n<root/>" | \
+	  $s -s:- -xsl:Scripts/metadata-preprocess.xsl \
+	      terms="$(DOWNLOAD_META_DATA_LAST_TERMS)" \
+	      in-dir=../Data/tei-particDesc-preprocess/$*/ \
+	      out-dir=Data/tei-particDesc-preprocess/$*/
 
+tei-particDesc-gov-RUN-LAST = $(addprefix tei-particDesc-gov-, $(DOWNLOAD_META_DATA_LAST))
+tei-particDesc-gov: $(tei-particDesc-gov-RUN-LAST)
+$(tei-particDesc-gov-RUN-LAST): tei-particDesc-gov-%:
+	mkdir -p $(DATADIR)/tei-particDesc-preprocess/$*
+	@echo "TODO: download gov persons"
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDperson)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-person.tsv
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDaffiliation)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-affiliation.tsv
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDorg)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-org.tsv
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDevent)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-event.tsv
 
 
 
