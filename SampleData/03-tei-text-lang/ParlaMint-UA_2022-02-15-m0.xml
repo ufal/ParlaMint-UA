@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="9">9</meeting>
+            <meeting ana="#parla.session #parla.uni" n="7">7</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl9/20220215.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7951.html</idno>
                <date when="2022-02-15">2022-02-15</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-15 лютого 2022</note>
+            <note type="date">Стенограма пленарного засідання 15 лютого 2022</note>
             <note type="comment">ЗАСІДАННЯ ДРУГЕ</note>
             <note type="comment">Зал засідань Верховної Ради України</note>
             <note type="time">(15 лютого 2022 року, 10 година)</note>
@@ -527,7 +528,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-02-15-m0.u65">
-               <seg xml:id="ParlaMint-UA_2022-02-15-m0.u65.p1" xml:lang="be">Микола Скорик, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-15-m0.u65.p1" xml:lang="uk">Микола Скорик, будь ласка.</seg>
             </u>
             <note type="time">(11:10:28)</note>
             <note type="speaker">СКОРИК М.Л.</note>
@@ -1578,7 +1579,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-02-15-m0.u204">
-               <seg xml:id="ParlaMint-UA_2022-02-15-m0.u204.p1" xml:lang="be">Будь ласка, В'ятрович.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-15-m0.u204.p1" xml:lang="uk">Будь ласка, В'ятрович.</seg>
             </u>
             <note type="time">(13:50:48)</note>
             <note type="speaker">В’ЯТРОВИЧ В.М.</note>
@@ -1604,7 +1605,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-02-15-m0.u208">
-               <seg xml:id="ParlaMint-UA_2022-02-15-m0.u208.p1" xml:lang="be">Будь ласка, Михайло Лаба.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-15-m0.u208.p1" xml:lang="uk">Будь ласка, Михайло Лаба.</seg>
             </u>
             <note type="time">(13:52:44)</note>
             <note type="speaker">ЛАБА М.М.</note>
@@ -1627,7 +1628,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-02-15-m0.u212">
-               <seg xml:id="ParlaMint-UA_2022-02-15-m0.u212.p1" xml:lang="be">Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-15-m0.u212.p1" xml:lang="uk">Будь ласка.</seg>
             </u>
             <note type="time">(13:54:19)</note>
             <note type="speaker">БОНДАРЄВ К.А.</note>
@@ -1860,7 +1861,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-02-15-m0.u244">
-               <seg xml:id="ParlaMint-UA_2022-02-15-m0.u244.p1" xml:lang="be">Денис Маслов, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-15-m0.u244.p1" xml:lang="uk">Денис Маслов, будь ласка.</seg>
             </u>
             <note type="time">(14:25:14)</note>
             <note type="speaker">МАСЛОВ Д.В.</note>
@@ -2027,7 +2028,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-02-15-m0.u268">
-               <seg xml:id="ParlaMint-UA_2022-02-15-m0.u268.p1" xml:lang="be">Будь ласка, Микола Скорик.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-15-m0.u268.p1" xml:lang="uk">Будь ласка, Микола Скорик.</seg>
             </u>
             <note type="time">(14:47:02)</note>
             <note type="speaker">СКОРИК М.Л.</note>

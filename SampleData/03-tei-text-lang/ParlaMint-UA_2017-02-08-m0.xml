@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="8">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="6">6</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl8/20170208.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/6420.html</idno>
                <date when="2017-02-08">2017-02-08</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-08 лютого 2017</note>
+            <note type="date">Стенограма пленарного засідання 08 лютого 2017</note>
             <note type="comment">ЗАСІДАННЯ ТРЕТЄ</note>
             <note type="comment">Сесійний зал Верховної Ради України</note>
             <note type="time">(08 лютого 2017 року, 10 година)</note>
@@ -156,7 +157,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-08-m0.u15">
-               <seg xml:id="ParlaMint-UA_2017-02-08-m0.u15.p1" xml:lang="be">15 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-08-m0.u15.p1" xml:lang="uk">15 секунд, будь ласка.</seg>
             </u>
             <note type="speaker">ВІЛКУЛ О.Ю.</note>
             <u who="ВІЛКУЛ О.Ю." ana="#regular" xml:id="ParlaMint-UA_2017-02-08-m0.u16">
@@ -809,7 +810,7 @@
             </u>
             <note type="speaker">ГОЛОС ІЗ ЗАЛИ</note>
             <u who="ГОЛОС ІЗ ЗАЛИ" ana="#regular" xml:id="ParlaMint-UA_2017-02-08-m0.u106">
-               <seg xml:id="ParlaMint-UA_2017-02-08-m0.u106.p1" xml:lang="bg">Це чесно.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-08-m0.u106.p1" xml:lang="uk">Це чесно.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-08-m0.u107">

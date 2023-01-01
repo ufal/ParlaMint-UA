@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="8">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="2">2</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl8/20150206.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5785.html</idno>
                <date when="2015-02-06">2015-02-06</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-06 лютого 2015</note>
+            <note type="date">Стенограма пленарного засідання 06 лютого 2015</note>
             <note type="comment">ЗАСІДАННЯ ШОСТЕ</note>
             <note type="comment">Сесійний зал Верховної Ради України</note>
             <note type="time">(6 лютого, 10 година)</note>
@@ -421,7 +422,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-02-06-m0.u60">
-               <seg xml:id="ParlaMint-UA_2015-02-06-m0.u60.p1" xml:lang="be">Уточнююче запитання, будь ласка, 10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-06-m0.u60.p1" xml:lang="uk">Уточнююче запитання, будь ласка, 10 секунд.</seg>
             </u>
             <note type="time">(11:01:14)</note>
             <note type="speaker">ВОЙЦІЦЬКА В.М.</note>
@@ -731,7 +732,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-02-06-m0.u108">
-               <seg xml:id="ParlaMint-UA_2015-02-06-m0.u108.p1" xml:lang="be">Дякую. Будь ласка, Олег Барна.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-06-m0.u108.p1" xml:lang="uk">Дякую. Будь ласка, Олег Барна.</seg>
             </u>
             <note type="time">(11:47:15)</note>
             <note type="speaker">БАРНА О.С.</note>
@@ -962,7 +963,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-02-06-m0.u151">
-               <seg xml:id="ParlaMint-UA_2015-02-06-m0.u151.p1" xml:lang="be">Можна.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-06-m0.u151.p1" xml:lang="uk">Можна.</seg>
             </u>
             <note type="speaker">ПАРАСЮК В.З.</note>
             <u who="ПАРАСЮК В.З." ana="#regular" xml:id="ParlaMint-UA_2015-02-06-m0.u152">
@@ -982,7 +983,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-02-06-m0.u155">
-               <seg xml:id="ParlaMint-UA_2015-02-06-m0.u155.p1" xml:lang="be">Антон Геращенко, "Народний фронт", будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-06-m0.u155.p1" xml:lang="uk">Антон Геращенко, "Народний фронт", будь ласка.</seg>
             </u>
             <note type="time">(12:05:59)</note>
             <note type="speaker">ГЕРАЩЕНКО А.Ю.</note>

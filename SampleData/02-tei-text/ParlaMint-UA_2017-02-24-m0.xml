@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="8">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="6">6</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl8/20170224.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/6440.html</idno>
                <date when="2017-02-24">2017-02-24</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-24 лютого 2017</note>
+            <note type="date">Стенограма пленарного засідання 24 лютого 2017</note>
             <note type="comment">ЗАСІДАННЯ ДВАНАДЦЯТЕ</note>
             <note type="comment">Сесійний зал Верховної Ради України</note>
             <note type="time">(24 лютого 2017 року, 10 година)</note>

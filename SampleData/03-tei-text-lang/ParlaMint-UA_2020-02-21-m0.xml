@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="9">9</meeting>
+            <meeting ana="#parla.session #parla.uni" n="3">3</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl9/20200221.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7362.html</idno>
                <date when="2020-02-21">2020-02-21</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-21 лютого 2020</note>
+            <note type="date">Стенограма пленарного засідання 21 лютого 2020</note>
             <note type="comment">ЗАСІДАННЯ ДВАНАДЦЯТЕ</note>
             <note type="comment">Зал засідань Верховної Ради України</note>
             <note type="time">(21 лютого 2020 року, 10 година)</note>
@@ -216,7 +217,7 @@
             <note type="time">(10:45:17)</note>
             <note type="speaker">МАКАРОВ О.А.</note>
             <u who="МАКАРОВ О.А." ana="#regular" xml:id="ParlaMint-UA_2020-02-21-m0.u18">
-               <seg xml:id="ParlaMint-UA_2020-02-21-m0.u18.p1" xml:lang="be">Будь ласка, Ольга Стефанишина.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-21-m0.u18.p1" xml:lang="uk">Будь ласка, Ольга Стефанишина.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-21-m0.u19">
@@ -359,7 +360,7 @@
             </u>
             <note type="speaker">КІТ А.Б.</note>
             <u who="КІТ А.Б." ana="#regular" xml:id="ParlaMint-UA_2020-02-21-m0.u42">
-               <seg xml:id="ParlaMint-UA_2020-02-21-m0.u42.p1" xml:lang="be">Давиденку.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-21-m0.u42.p1" xml:lang="uk">Давиденку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-21-m0.u43">

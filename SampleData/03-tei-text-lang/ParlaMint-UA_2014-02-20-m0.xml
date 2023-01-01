@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="7">7</meeting>
+            <meeting ana="#parla.session #parla.uni" n="4">4</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl7/20140220.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5164.html</idno>
                <date when="2014-02-20">2014-02-20</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-20 лютого 2014</note>
+            <note type="date">Стенограма пленарного засідання 20 лютого 2014</note>
             <note type="comment">ЗАСІДАННЯ П'ЯТЕ</note>
             <note type="comment">Сесійний зал Верховної Ради України</note>
             <note type="time">(20 лютого 2014 року, 16.45 година)</note>
@@ -310,7 +311,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-20-m0.u34">
-               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u34.p1" xml:lang="be">Дякую. Прошу до слова Олександра Турчинова.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u34.p1" xml:lang="uk">Дякую. Прошу до слова Олександра Турчинова.</seg>
             </u>
             <note type="speaker">ТУРЧИНОВ О.В.</note>
             <u who="ТУРЧИНОВ О.В." ana="#regular" xml:id="ParlaMint-UA_2014-02-20-m0.u35">
@@ -894,7 +895,7 @@
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2014-02-20-m0.u100">
-               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u100.p1" xml:lang="sr">Олег Ляшко. У мене.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u100.p1" xml:lang="uk">Олег Ляшко. У мене.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-20-m0.u101">
@@ -933,9 +934,9 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-20-m0.u104">
-               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u104.p1" xml:lang="mk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u104.p2" xml:lang="mk">Прошу до трибуни, якщо ви можете до трибуни .</seg>
-               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u104.p3" xml:lang="mk">Прошу включить трибуну, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u104.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u104.p2" xml:lang="uk">Прошу до трибуни, якщо ви можете до трибуни .</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u104.p3" xml:lang="uk">Прошу включить трибуну, будь ласка.</seg>
             </u>
             <note type="speaker">НЕЧИПОРЕНКО В.М.</note>
             <u who="НЕЧИПОРЕНКО В.М." ana="#regular" xml:id="ParlaMint-UA_2014-02-20-m0.u105">
@@ -1083,7 +1084,7 @@
             </u>
             <note type="speaker">ТЯГНИБОК О.Я.</note>
             <u who="ТЯГНИБОК О.Я." ana="#regular" xml:id="ParlaMint-UA_2014-02-20-m0.u117">
-               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u117.p1" xml:lang="bg">З 17-го числа.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u117.p1" xml:lang="uk">З 17-го числа.</seg>
             </u>
             <note type="time">(22:13:36)</note>
             <note type="speaker">ПОРОШЕНКО П.О.</note>
@@ -1094,7 +1095,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-20-m0.u119">
-               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u119.p1" xml:lang="be">Дякую. Прошу, Олександр Турчинов.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-20-m0.u119.p1" xml:lang="uk">Дякую. Прошу, Олександр Турчинов.</seg>
             </u>
             <note type="speaker">ТУРЧИНОВ О.В.</note>
             <u who="ТУРЧИНОВ О.В." ana="#regular" xml:id="ParlaMint-UA_2014-02-20-m0.u120">

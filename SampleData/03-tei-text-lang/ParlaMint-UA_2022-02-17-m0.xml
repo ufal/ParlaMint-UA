@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="9">9</meeting>
+            <meeting ana="#parla.session #parla.uni" n="7">7</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl9/20220217.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7957.html</idno>
                <date when="2022-02-17">2022-02-17</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-17 лютого 2022</note>
+            <note type="date">Стенограма пленарного засідання 17 лютого 2022</note>
             <note type="comment">ЗАСІДАННЯ ЧЕТВЕРТЕ</note>
             <note type="comment">Зал засідань Верховної Ради України</note>
             <note type="time">(17 лютого 2022 року, 10 година)</note>
@@ -793,7 +794,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-02-17-m0.u114">
-               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u114.p1" xml:lang="be">Лада Булах, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u114.p1" xml:lang="uk">Лада Булах, будь ласка.</seg>
             </u>
             <note type="time">(11:37:42)</note>
             <note type="speaker">БУЛАХ Л.В.</note>
@@ -909,7 +910,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-02-17-m0.u130">
-               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u130.p1" xml:lang="be">Лада Булах, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u130.p1" xml:lang="uk">Лада Булах, будь ласка.</seg>
             </u>
             <note type="time">(11:52:37)</note>
             <note type="speaker">БУЛАХ Л.В.</note>
@@ -1946,7 +1947,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-02-17-m0.u259">
-               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u259.p1" xml:lang="be">Олександр Ковальчук, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u259.p1" xml:lang="uk">Олександр Ковальчук, будь ласка.</seg>
             </u>
             <note type="time">(14:37:11)</note>
             <note type="speaker">КОВАЛЬЧУК О.В.</note>
@@ -2094,7 +2095,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-02-17-m0.u283">
-               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u283.p1" xml:lang="be">Будь ласка, одна хвилина.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u283.p1" xml:lang="uk">Будь ласка, одна хвилина.</seg>
             </u>
             <note type="time">(14:52:39)</note>
             <note type="speaker">ІВЧЕНКО В.Є.</note>

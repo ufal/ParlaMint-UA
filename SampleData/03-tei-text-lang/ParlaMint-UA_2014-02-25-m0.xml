@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="7">7</meeting>
+            <meeting ana="#parla.session #parla.uni" n="4">4</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl7/20140225.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5177.html</idno>
                <date when="2014-02-25">2014-02-25</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-25 лютого 2014</note>
+            <note type="date">Стенограма пленарного засідання 25 лютого 2014</note>
             <note type="comment">ЗАСІДАННЯ СЬОМЕ (продовження)</note>
             <note type="comment">Сесійний зал Верховної Ради України</note>
             <note type="time">(25 лютого 2014 року, 10 година)</note>
@@ -648,7 +649,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-25-m0.u89">
-               <seg xml:id="ParlaMint-UA_2014-02-25-m0.u89.p1" xml:lang="be">Будь ласка, народний депутат Пишний. Будь ласка, з процедури.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-25-m0.u89.p1" xml:lang="uk">Будь ласка, народний депутат Пишний. Будь ласка, з процедури.</seg>
             </u>
             <note type="time">(11:35:39)</note>
             <note type="speaker">ПИШНИЙ А.Г.</note>
@@ -677,7 +678,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-25-m0.u93">
-               <seg xml:id="ParlaMint-UA_2014-02-25-m0.u93.p1" xml:lang="be">З процедуру, будь ласка, Нестор Шуфрич.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-25-m0.u93.p1" xml:lang="uk">З процедуру, будь ласка, Нестор Шуфрич.</seg>
             </u>
             <note type="time">(11:38:24)</note>
             <note type="speaker">ШУФРИЧ Н.І.</note>
@@ -1042,7 +1043,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-25-m0.u152">
-               <seg xml:id="ParlaMint-UA_2014-02-25-m0.u152.p1" xml:lang="be">Два слова, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-25-m0.u152.p1" xml:lang="uk">Два слова, будь ласка.</seg>
             </u>
             <note type="speaker">САС С.В.</note>
             <u who="САС С.В." ana="#regular" xml:id="ParlaMint-UA_2014-02-25-m0.u153">

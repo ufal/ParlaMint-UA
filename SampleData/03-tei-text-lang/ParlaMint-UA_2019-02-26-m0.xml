@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="8">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="10">10</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl8/20190226.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7027.html</idno>
                <date when="2019-02-26">2019-02-26</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-26 лютого 2019</note>
+            <note type="date">Стенограма пленарного засідання 26 лютого 2019</note>
             <note type="comment">ЗАСІДАННЯ СЬОМЕ</note>
             <note type="comment">Сесійний зал Верховної Ради України</note>
             <note type="time">(26 лютого 2019 року, 10 година)</note>
@@ -72,7 +73,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-02-26-m0.u3">
-               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u3.p1" xml:lang="be">Будь ласка, 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u3.p1" xml:lang="uk">Будь ласка, 30 секунд.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2019-02-26-m0.u4">
@@ -158,7 +159,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-02-26-m0.u17">
-               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u17.p1" xml:lang="be">30 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u17.p1" xml:lang="uk">30 секунд, будь ласка.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2019-02-26-m0.u18">
@@ -214,7 +215,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-02-26-m0.u25">
-               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u25.p1" xml:lang="be">30 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u25.p1" xml:lang="uk">30 секунд, будь ласка.</seg>
             </u>
             <note type="speaker">ЛАБАЗЮК С.П.</note>
             <u who="ЛАБАЗЮК С.П." ana="#regular" xml:id="ParlaMint-UA_2019-02-26-m0.u26">
@@ -260,7 +261,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-02-26-m0.u33">
-               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u33.p1" xml:lang="be">30 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u33.p1" xml:lang="uk">30 секунд, будь ласка.</seg>
             </u>
             <note type="speaker">БУРБАК М.Ю.</note>
             <u who="БУРБАК М.Ю." ana="#regular" xml:id="ParlaMint-UA_2019-02-26-m0.u34">
@@ -591,7 +592,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-02-26-m0.u79">
-               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u79.p1" xml:lang="be">Будь ласка, Олег Миколайович.</seg>
+               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u79.p1" xml:lang="uk">Будь ласка, Олег Миколайович.</seg>
             </u>
             <note type="time">(12:57:04)</note>
             <note type="speaker">ШЕВЧУК О.М.</note>
@@ -781,7 +782,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-02-26-m0.u109">
-               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u109.p1" xml:lang="be">Будь ласка, 30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u109.p1" xml:lang="uk">Будь ласка, 30 секунд завершити.</seg>
             </u>
             <note type="speaker">САВКА І.І.</note>
             <u who="САВКА І.І." ana="#regular" xml:id="ParlaMint-UA_2019-02-26-m0.u110">
@@ -898,7 +899,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-02-26-m0.u127">
-               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u127.p1" xml:lang="be">Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-02-26-m0.u127.p1" xml:lang="uk">Будь ласка.</seg>
             </u>
             <note type="time">(13:46:48)</note>
             <note type="speaker">МАЦОЛА Р.М.</note>

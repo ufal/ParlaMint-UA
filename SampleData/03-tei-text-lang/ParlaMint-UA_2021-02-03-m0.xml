@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="9">9</meeting>
+            <meeting ana="#parla.session #parla.uni" n="5">5</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl9/20210203.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7611.html</idno>
                <date when="2021-02-03">2021-02-03</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-03 лютого 2021</note>
+            <note type="date">Стенограма пленарного засідання 03 лютого 2021</note>
             <note type="comment">ЗАСІДАННЯ ДРУГЕ</note>
             <note type="comment">Зал засідань Верховної Ради України</note>
             <note type="time">(03 лютого 2021 року, 10 година)</note>
@@ -1467,7 +1468,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-03-m0.u197">
-               <seg xml:id="ParlaMint-UA_2021-02-03-m0.u197.p1" xml:lang="be">Будь ласка, Анна Скороход.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-03-m0.u197.p1" xml:lang="uk">Будь ласка, Анна Скороход.</seg>
             </u>
             <note type="time">(13:31:27)</note>
             <note type="speaker">СКОРОХОД А.К.</note>

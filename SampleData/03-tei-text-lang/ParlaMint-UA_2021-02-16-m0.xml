@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="9">9</meeting>
+            <meeting ana="#parla.session #parla.uni" n="5">5</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl9/20210216.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7621.html</idno>
                <date when="2021-02-16">2021-02-16</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-16 лютого 2021</note>
+            <note type="date">Стенограма пленарного засідання 16 лютого 2021</note>
             <note type="comment">ЗАСІДАННЯ П'ЯТЕ</note>
             <note type="comment">Зал засідань Верховної Ради України</note>
             <note type="time">(16 лютого 2021 року, 10 година)</note>
@@ -1691,7 +1692,7 @@
             <note type="time">(14:15:10)</note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
             <u who="КНЯЖИЦЬКИЙ М.Л." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u231">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u231.p1" xml:lang="un">33.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u231.p1" xml:lang="uk">33.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u232">
@@ -1800,7 +1801,7 @@
             </u>
             <note type="speaker">КЛИМПУШ-ЦИНЦАДЗЕ І.О.</note>
             <u who="КЛИМПУШ-ЦИНЦАДЗЕ І.О." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u250">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u250.p1" xml:lang="un">55.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u250.p1" xml:lang="uk">55.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u251">

@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="9">9</meeting>
+            <meeting ana="#parla.session #parla.uni" n="5">5</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl9/20210219.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7630.html</idno>
                <date when="2021-02-19">2021-02-19</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-19 лютого 2021</note>
+            <note type="date">Стенограма пленарного засідання 19 лютого 2021</note>
             <note type="comment">ЗАСІДАННЯ ВОСЬМЕ</note>
             <note type="comment">Зал засідань Верховної Ради України</note>
             <note type="time">(19 лютого 2021 року, 10 година)</note>
@@ -166,7 +167,7 @@
             <note type="time">(10:34:29)</note>
             <note type="speaker">НАЛИВАЙЧЕНКО В.О.</note>
             <u who="НАЛИВАЙЧЕНКО В.О." ana="#regular" xml:id="ParlaMint-UA_2021-02-19-m0.u12">
-               <seg xml:id="ParlaMint-UA_2021-02-19-m0.u12.p1" xml:lang="be">Волинцю. Волинцю, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-19-m0.u12.p1" xml:lang="uk">Волинцю. Волинцю, будь ласка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-19-m0.u13">

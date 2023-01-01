@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="9">9</meeting>
+            <meeting ana="#parla.session #parla.uni" n="5">5</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl9/20210205.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7617.html</idno>
                <date when="2021-02-05">2021-02-05</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-05 лютого 2021</note>
+            <note type="date">Стенограма пленарного засідання 05 лютого 2021</note>
             <note type="comment">ЗАСІДАННЯ ЧЕТВЕРТЕ</note>
             <note type="comment">Зал засідань Верховної Ради України</note>
             <note type="time">(05 лютого 2021 року, 10 година)</note>
@@ -411,7 +412,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-05-m0.u48">
-               <seg xml:id="ParlaMint-UA_2021-02-05-m0.u48.p1" xml:lang="be">Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-05-m0.u48.p1" xml:lang="uk">Будь ласка.</seg>
             </u>
             <note type="time">(10:59:44)</note>
             <note type="speaker">ШМИГАЛЬ Д.А.</note>
@@ -540,7 +541,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-05-m0.u68">
-               <seg xml:id="ParlaMint-UA_2021-02-05-m0.u68.p1" xml:lang="be">Будь ласка, Гео Лерос.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-05-m0.u68.p1" xml:lang="uk">Будь ласка, Гео Лерос.</seg>
             </u>
             <note type="time">(11:13:15)</note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -658,7 +659,7 @@
             </u>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
             <u who="ЦИМБАЛЮК М.М." ana="#regular" xml:id="ParlaMint-UA_2021-02-05-m0.u85">
-               <seg xml:id="ParlaMint-UA_2021-02-05-m0.u85.p1" xml:lang="mk">Правку не треба ставити.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-05-m0.u85.p1" xml:lang="uk">Правку не треба ставити.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-05-m0.u86">

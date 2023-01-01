@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="8">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="10">10</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl8/20190207-1.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7022.html</idno>
                <date when="2019-02-07">2019-02-07</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-07 лютого 2019</note>
+            <note type="date">Стенограма пленарного засідання 07 лютого 2019</note>
             <note type="comment">ЗАСІДАННЯ П'ЯТЕ</note>
             <note type="comment">Сесійний зал Верховної Ради України</note>
             <note type="time">(07 лютого 2019 року, 16 година)</note>
@@ -430,7 +431,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-02-07-m1.u53">
-               <seg xml:id="ParlaMint-UA_2019-02-07-m1.u53.p1" xml:lang="be">30 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-02-07-m1.u53.p1" xml:lang="uk">30 секунд, будь ласка.</seg>
             </u>
             <note type="speaker">ТАРАСЮК Б.І.</note>
             <u who="ТАРАСЮК Б.І." ana="#regular" xml:id="ParlaMint-UA_2019-02-07-m1.u54">
@@ -637,7 +638,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-02-07-m1.u76">
-               <seg xml:id="ParlaMint-UA_2019-02-07-m1.u76.p1" xml:lang="be">Будь ласка, 30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-02-07-m1.u76.p1" xml:lang="uk">Будь ласка, 30 секунд завершити.</seg>
             </u>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2019-02-07-m1.u77">

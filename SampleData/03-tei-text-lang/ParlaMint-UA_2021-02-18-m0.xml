@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="9">9</meeting>
+            <meeting ana="#parla.session #parla.uni" n="5">5</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl9/20210218.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7627.html</idno>
                <date when="2021-02-18">2021-02-18</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-18 лютого 2021</note>
+            <note type="date">Стенограма пленарного засідання 18 лютого 2021</note>
             <note type="comment">ЗАСІДАННЯ СЬОМЕ</note>
             <note type="comment">Зал засідань Верховної Ради України</note>
             <note type="time">(18 лютого 2021 року, 10 година)</note>
@@ -150,7 +151,7 @@
             <note type="time">(10:27:42)</note>
             <note type="speaker">МОНАСТИРСЬКИЙ Д.А.</note>
             <u who="МОНАСТИРСЬКИЙ Д.А." ana="#regular" xml:id="ParlaMint-UA_2021-02-18-m0.u8">
-               <seg xml:id="ParlaMint-UA_2021-02-18-m0.u8.p1" xml:lang="mk">Я ж виступатиму.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-18-m0.u8.p1" xml:lang="uk">Я ж виступатиму.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-18-m0.u9">

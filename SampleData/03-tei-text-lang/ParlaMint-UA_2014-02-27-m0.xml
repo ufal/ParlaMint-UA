@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="7">7</meeting>
+            <meeting ana="#parla.session #parla.uni" n="4">4</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl7/20140227.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5179.html</idno>
                <date when="2014-02-27">2014-02-27</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-27 лютого 2014</note>
+            <note type="date">Стенограма пленарного засідання 27 лютого 2014</note>
             <note type="comment">ЗАСІДАННЯ СЬОМЕ (продовження)</note>
             <note type="comment">Сесійний зал Верховної Ради України</note>
             <note type="time">(27 лютого 2014 року, 10 година)</note>
@@ -1282,7 +1283,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-27-m0.u166">
-               <seg xml:id="ParlaMint-UA_2014-02-27-m0.u166.p1" xml:lang="be">Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-27-m0.u166.p1" xml:lang="uk">Будь ласка.</seg>
             </u>
             <note type="time">(14:34:38)</note>
             <note type="speaker">ЄРЕМЕЄВ І.М.</note>
@@ -1333,7 +1334,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-27-m0.u174">
-               <seg xml:id="ParlaMint-UA_2014-02-27-m0.u174.p1" xml:lang="be">Будь ласка, Олег Тягнибок.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-27-m0.u174.p1" xml:lang="uk">Будь ласка, Олег Тягнибок.</seg>
             </u>
             <note type="time">(14:44:04)</note>
             <note type="speaker">ТЯГНИБОК О.Я.</note>

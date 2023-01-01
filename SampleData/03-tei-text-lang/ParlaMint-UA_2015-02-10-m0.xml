@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="8">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="2">2</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl8/20150210.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5787.html</idno>
                <date when="2015-02-10">2015-02-10</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-10 лютого 2015</note>
+            <note type="date">Стенограма пленарного засідання 10 лютого 2015</note>
             <note type="comment">ЗАСІДАННЯ СЬОМЕ</note>
             <note type="comment">Сесійний зал Верховної Ради України</note>
             <note type="time">(10 лютого 2015 року, 10 година)</note>
@@ -258,7 +259,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-10-m0.u31">
-               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u31.p1" xml:lang="be">Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u31.p1" xml:lang="uk">Будь ласка.</seg>
             </u>
             <note type="time">(10:42:42)</note>
             <note type="speaker">ВОЗНЮК Ю.В.</note>
@@ -277,7 +278,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-10-m0.u35">
-               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u35.p1" xml:lang="be">Олександр Долженков.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u35.p1" xml:lang="uk">Олександр Долженков.</seg>
             </u>
             <note type="time">(10:43:33)</note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
@@ -289,8 +290,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-10-m0.u37">
-               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u37.p1" xml:lang="be">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u37.p2" xml:lang="be">Будь ласка. "Блок Петра Порошенка", будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u37.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u37.p2" xml:lang="uk">Будь ласка. "Блок Петра Порошенка", будь ласка.</seg>
             </u>
             <note type="time">(10:46:08)</note>
             <note type="speaker">КОБЦЕВ М.В.</note>
@@ -413,7 +414,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-10-m0.u57">
-               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u57.p1" xml:lang="be">Будь ласка, Олександр Долженков.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u57.p1" xml:lang="uk">Будь ласка, Олександр Долженков.</seg>
             </u>
             <note type="time">(10:58:54)</note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
@@ -491,8 +492,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-10-m0.u70">
-               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u70.p1" xml:lang="be">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u70.p2" xml:lang="be">Будь ласка, Степан Барна, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u70.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u70.p2" xml:lang="uk">Будь ласка, Степан Барна, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time">(11:08:12)</note>
             <note type="speaker">БАРНА С.С.</note>
@@ -709,7 +710,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-10-m0.u108">
-               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u108.p1" xml:lang="be">Олександра Кужель, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u108.p1" xml:lang="uk">Олександра Кужель, будь ласка.</seg>
             </u>
             <note type="time">(11:33:19)</note>
             <note type="speaker">КУЖЕЛЬ О.В.</note>
@@ -1120,7 +1121,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-10-m0.u166">
-               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u166.p1" xml:lang="be">Дякую. Павло Унгурян, "Народний фронт".</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u166.p1" xml:lang="uk">Дякую. Павло Унгурян, "Народний фронт".</seg>
             </u>
             <note type="time">(13:47:28)</note>
             <note type="speaker">УНГУРЯН П.Я.</note>

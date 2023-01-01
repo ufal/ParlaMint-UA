@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="8">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="2">2</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl8/20150213.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5799.html</idno>
                <date when="2015-02-13">2015-02-13</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-13 лютого 2015</note>
+            <note type="date">Стенограма пленарного засідання 13 лютого 2015</note>
             <note type="comment">ЗАСІДАННЯ ОДИНАДЦЯТЕ</note>
             <note type="comment">Сесійний зал Верховної Ради України</note>
             <note type="time">(13 лютого 2015 року, 10 година)</note>
@@ -171,7 +172,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-13-m0.u18">
-               <seg xml:id="ParlaMint-UA_2015-02-13-m0.u18.p1" xml:lang="mk">Олег Ляшко.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-13-m0.u18.p1" xml:lang="uk">Олег Ляшко.</seg>
             </u>
             <note type="time">(10:38:08)</note>
             <note type="speaker">ЛЯШКО О.В.</note>
@@ -183,7 +184,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-13-m0.u20">
-               <seg xml:id="ParlaMint-UA_2015-02-13-m0.u20.p1" xml:lang="be">Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-13-m0.u20.p1" xml:lang="uk">Будь ласка.</seg>
             </u>
             <note type="time">(10:39:21)</note>
             <note type="speaker">КЛІМКІН П.А.</note>
@@ -258,8 +259,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-13-m0.u33">
-               <seg xml:id="ParlaMint-UA_2015-02-13-m0.u33.p1" xml:lang="be">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2015-02-13-m0.u33.p2" xml:lang="be">Будь ласка, Оксана Юринець, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-13-m0.u33.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-13-m0.u33.p2" xml:lang="uk">Будь ласка, Оксана Юринець, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time">(10:48:14)</note>
             <note type="speaker">ЮРИНЕЦЬ О.В.</note>
@@ -1496,7 +1497,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-02-13-m0.u210">
-               <seg xml:id="ParlaMint-UA_2015-02-13-m0.u210.p1" xml:lang="be">10 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-13-m0.u210.p1" xml:lang="uk">10 секунд, будь ласка.</seg>
             </u>
             <note type="speaker">МЕДУНИЦЯ О.В.</note>
             <u who="МЕДУНИЦЯ О.В." ana="#regular" xml:id="ParlaMint-UA_2015-02-13-m0.u211">

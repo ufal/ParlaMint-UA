@@ -5,6 +5,8 @@
          <titleStmt>
             <!-- TODO -->
             <meeting ana="#parla.term #parla.uni" n="8">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="4">4</meeting>
+            <!-- TODO: meeting type: regular -->
             <!-- TODO -->
          </titleStmt>
          <editionStmt>
@@ -19,7 +21,7 @@
          <sourceDesc>
             <bibl>
                <!-- TODO -->
-               <idno type="URI" subtype="parliament">https://data.rada.gov.ua/ogd/zal/stenogram/skl8/20160217.htm</idno>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/6128.html</idno>
                <date when="2016-02-17">2016-02-17</date>
             </bibl>
          </sourceDesc>
@@ -40,8 +42,7 @@
    <text>
       <body>
          <div type="debateSection">
-            <note type="date">Стенограма пленарного засідання
-17 лютого 2016</note>
+            <note type="date">Стенограма пленарного засідання 17 лютого 2016</note>
             <note type="comment">ЗАСІДАННЯ ВОСЬМЕ</note>
             <note type="comment">Сесійний зал Верховної Ради України</note>
             <note type="time">(17 лютого 2016 року, 10 година)</note>
@@ -153,8 +154,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-17-m0.u16">
-               <seg xml:id="ParlaMint-UA_2016-02-17-m0.u16.p1" xml:lang="be">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2016-02-17-m0.u16.p2" xml:lang="be">Олег Барна, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-17-m0.u16.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-17-m0.u16.p2" xml:lang="uk">Олег Барна, будь ласка.</seg>
             </u>
             <note type="time">(10:19:05)</note>
             <note type="speaker">БАРНА О.С.</note>
@@ -364,7 +365,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-17-m0.u48">
-               <seg xml:id="ParlaMint-UA_2016-02-17-m0.u48.p1" xml:lang="be">Будь ласка, Тетерук, так? А, Федорук, перепрошую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-17-m0.u48.p1" xml:lang="uk">Будь ласка, Тетерук, так? А, Федорук, перепрошую.</seg>
             </u>
             <note type="time">(11:00:06)</note>
             <note type="speaker">ФЕДОРУК М.Т.</note>
@@ -791,7 +792,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-17-m0.u109">
-               <seg xml:id="ParlaMint-UA_2016-02-17-m0.u109.p1" xml:lang="bg">Барна. Олег Барна.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-17-m0.u109.p1" xml:lang="uk">Барна. Олег Барна.</seg>
             </u>
             <note type="time">(12:54:59)</note>
             <note type="speaker">БАРНА О.С.</note>
@@ -1094,7 +1095,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-17-m0.u153">
-               <seg xml:id="ParlaMint-UA_2016-02-17-m0.u153.p1" xml:lang="be">10 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-17-m0.u153.p1" xml:lang="uk">10 секунд, будь ласка.</seg>
             </u>
             <note type="speaker">ГОЛОВКО М.Й.</note>
             <u who="ГОЛОВКО М.Й." ana="#regular" xml:id="ParlaMint-UA_2016-02-17-m0.u154">
@@ -1116,7 +1117,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-17-m0.u157">
-               <seg xml:id="ParlaMint-UA_2016-02-17-m0.u157.p1" xml:lang="be">10 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-17-m0.u157.p1" xml:lang="uk">10 секунд, будь ласка.</seg>
             </u>
             <note type="speaker">ШУРМА І.М.</note>
             <u who="ШУРМА І.М." ana="#regular" xml:id="ParlaMint-UA_2016-02-17-m0.u158">
