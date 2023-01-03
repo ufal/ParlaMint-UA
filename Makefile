@@ -190,8 +190,6 @@ $(tei-particDesc-RUN-LAST): tei-particDesc-%: tei-particDesc-preprocess-% tei-pa
 	@echo "TODO: PROCESS META $*"
 	@echo "input files:"
 	@find $(DATADIR)/tei-particDesc-preprocess/$* -type f|sed 's/^/\t/'
-
-TEST:
 	echo "<?xml version=\"1.0\" ?>\n<root/>" | \
 	  $s -s:- -xsl:Scripts/metadata.xsl \
 	      in-dir=../Data/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ \
@@ -237,10 +235,13 @@ create-metadata-sample:
 	rm -rf SampleMetaData/*
 	mkdir -p SampleMetaData/01-source
 	mkdir -p SampleMetaData/02-preprocess
+	mkdir -p SampleMetaData/03-ParlaMint-UA
 	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "ogd_mps_skl*_mps*-data.xml" | xargs -I {} cp {} SampleMetaData/01-source/
 	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "mp-data*.*"|grep -v "mp-data-stats" | xargs -I {} cp {} SampleMetaData/02-preprocess/
 	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "plenary-speech.xml"| xargs -I {} cp {} SampleMetaData/02-preprocess/
 	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "mp-data-stats*.*" | xargs -I {} cp {} DataStats/
+	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "gov-*.tsv" | xargs -I {} cp {} SampleMetaData/02-preprocess/
+	find $(DATADIR)/tei-particDesc/$(DOWNLOAD_META_DATA_LAST)/ -name "ParlaMint-UA-list*.xml"| xargs -I {} cp {} SampleMetaData/03-ParlaMint-UA/
 
 
 create-february-sample:

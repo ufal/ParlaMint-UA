@@ -1,2 +1,10 @@
+876:
+	Different values for birthday: 	1951-12-20:	1951-11-20:
+5384:
+	Different values for surname: 	Таран-Терен:	Таран:
+5448:
+	Different values for patronymic: 	В’ячеславович:	Вячеславович:
+8879:
+	Different values for surname: 	Чмир:	Чмирь:
 15669:
 	Different values for surname: 	Агафонова:	Ковальчук:

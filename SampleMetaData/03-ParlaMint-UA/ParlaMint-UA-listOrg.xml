@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listPerson xmlns="http://www.tei-c.org/ns/1.0"
+            xml:id="ParlaMint-UA-listOrg"
+            xml:lang="uk">
+   <org xml:id="ВРУ" role="parliament" ana="#parla.uni #parla.national">
+      <orgName xml:lang="uk" full="yes">Верхо́вна Ра́да Украї́ни</orgName>
+      <orgName xml:lang="en" full="yes">Verkhovna Rada of Ukraine</orgName>
+      <orgName full="abb">ВРУ</orgName>
+      <event from="1991-08-24">
+         <label xml:lang="en">existence</label>
+      </event>
+      <listEvent>
+         <event xml:id="ВРУ.1">
+            <label xml:lang="en">Верховна Рада I скликання (березень-квітень 1990 — 11 травня 1994)</label>
+         </event>
+         <event xml:id="ВРУ.2">
+            <label xml:lang="en">Верховна Рада II скликання (11 травня 1994 — 12 травня 1998)</label>
+         </event>
+         <event xml:id="ВРУ.3">
+            <label xml:lang="en">Верховна Рада III скликання (12 травня 1998 — 14 травня 2002)</label>
+         </event>
+         <event xml:id="ВРУ.4">
+            <label xml:lang="en">Верховна Рада IV скликання (14 травня 2002 — 25 травня 2006)</label>
+         </event>
+         <event xml:id="ВРУ.5">
+            <label xml:lang="en">Верховна Рада V скликання (25 травня 2006 — 23 листопада 2007)</label>
+         </event>
+         <event xml:id="ВРУ.6">
+            <label xml:lang="en">Верховна Рада VI скликання (23 листопада 2007 — 12 грудня 2012)</label>
+         </event>
+         <event xml:id="ВРУ.7">
+            <label xml:lang="en">Верховна Рада VII скликання (12 грудня 2012 — 27 листопада 2014)</label>
+         </event>
+         <event xml:id="ВРУ.8">
+            <label xml:lang="en">Верховна Рада VIII скликання (27 листопада 2014 — 29 серпня 2019)</label>
+         </event>
+         <event xml:id="ВРУ.9">
+            <label xml:lang="en">Верховна Рада IX скликання (з 29 серпня 2019)</label>
+         </event>
+      </listEvent>
+   </org>
+   <org xml:id="GOV.UA" role="government">
+      <orgName xml:lang="uk" full="yes">Кабінет Міністрів України</orgName>
+      <orgName xml:lang="en" full="yes">Cabinet of Ministers of Ukraine</orgName>
+      <orgName full="abb">govt</orgName>
+      <event from="2012-12-24">
+         <label xml:lang="en">existence</label>
+      </event>
+      <listEvent>
+         <event xml:id="GOV.UA.2ndAzarov" from="2012-12-24" to="2014-02-27">
+            <label xml:lang="en">2nd Azarov govt</label>
+         </event>
+         <event xml:id="GOV.UA.1stYatseniuk" from="2014-02-27" to="2014-11-27">
+            <label xml:lang="en">1st Yatseniuk govt</label>
+         </event>
+         <event xml:id="GOV.UA.2stYatseniuk" from="2014-11-27" to="2016-04-14">
+            <label xml:lang="en">2st Yatseniuk govt</label>
+         </event>
+         <event xml:id="GOV.UA.Hroisman" from="2016-04-14" to="2019-08-29">
+            <label xml:lang="en">Hroisman govt</label>
+         </event>
+         <event xml:id="GOV.UA.Honcharuk" from="2019-08-29" to="2020-03-04">
+            <label xml:lang="en">Honcharuk govt</label>
+         </event>
+         <event xml:id="GOV.UA.Shmyhal" from="2020-03-04">
+            <label xml:lang="en">Shmyhal govt</label>
+         </event>
+      </listEvent>
+   </org>
+   <org xml:id="Ukraine" role="republic">
+      <orgName xml:lang="uk" full="yes">Президент України</orgName>
+      <orgName xml:lang="en" full="yes">President of Ukraine</orgName>
+      <orgName full="abb">UA</orgName>
+      <event from="2010-02-25">
+         <label xml:lang="en">existence</label>
+      </event>
+      <listEvent>
+         <event xml:id="4thPresidency" from="2010-02-25" to="2014-02-22">
+            <label xml:lang="en">4th Presidency</label>
+         </event>
+         <event xml:id="ActingPresidency" from="2014-02-23" to="2014-06-07">
+            <label xml:lang="en">Acting Presidency</label>
+         </event>
+         <event xml:id="5thPresidency" from="2014-06-07" to="2019-05-20">
+            <label xml:lang="en">5th Presidency</label>
+         </event>
+         <event xml:id="6thPresidency" from="2019-05-20">
+            <label xml:lang="en">6th Presidency</label>
+         </event>
+      </listEvent>
+   </org>
+   <org xml:id="pp.Reg" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Партія регіонів</orgName>
+      <orgName xml:lang="en" full="yes">Party of Regions</orgName>
+      <orgName full="abb">PR</orgName>
+      <event from="1997-11-06">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.OB" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Політична Партія «Опозиційний блок»</orgName>
+      <orgName xml:lang="en" full="yes">Opposition Bloc</orgName>
+      <orgName full="abb">OB</orgName>
+      <event from="2010-04-23" to="2022">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.UV" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Політична партія «Україна – Вперед!»</orgName>
+      <orgName xml:lang="en" full="yes">Ukraine – Forward!</orgName>
+      <orgName full="abb">UV</orgName>
+      <event from="1998-12-11">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.But" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Всеукраїнське об'єднання "Батьківщина"</orgName>
+      <orgName xml:lang="en" full="yes">All-Ukrainian Union "Fatherland"</orgName>
+      <orgName full="abb">BUT</orgName>
+      <event from="1999-07-09">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Ud" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Політична партія «УДАР (Український Демократичний Альянс за Реформи) Віталія Кличка»</orgName>
+      <orgName xml:lang="en" full="yes">Ukrainian Democratic Alliance for Reform</orgName>
+      <orgName full="abb">UDAR</orgName>
+      <event from="2005-03-14">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Kpu" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Комуністична партія України</orgName>
+      <orgName xml:lang="en" full="yes">Communist Party of Ukraine</orgName>
+      <orgName full="abb">KPU</orgName>
+      <event from="1993-10-05">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.SPU" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Соціалістична партія України</orgName>
+      <orgName xml:lang="en" full="yes">Socialist Party of Ukraine</orgName>
+      <orgName full="abb">SPU</orgName>
+      <event from="1991-11-25" to="2022">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Sv" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Всеукраїнське об'єднання «Свобода»</orgName>
+      <orgName xml:lang="en" full="yes">All-Ukrainian Union "Freedom"</orgName>
+      <orgName full="abb">Svoboda</orgName>
+      <event from="1995-10-16">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.NF" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Народний фронт</orgName>
+      <orgName xml:lang="en" full="yes">People's Front</orgName>
+      <orgName full="abb">NF</orgName>
+      <event from="2014-03-31">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Gol" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Політична Партія «Голос»</orgName>
+      <orgName xml:lang="en" full="yes">Holos</orgName>
+      <orgName full="abb">Holos</orgName>
+      <event from="2015-02-10">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.BPP" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Блок Петра Порошенка</orgName>
+      <orgName xml:lang="en" full="yes">Petro Poroshenko Bloc</orgName>
+      <orgName full="abb">BPP</orgName>
+      <event from="2014-08-27" to="2019-05-24">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.ES" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Європейська солідарність</orgName>
+      <orgName xml:lang="en" full="yes">European Solidarity</orgName>
+      <orgName full="abb">ES</orgName>
+      <event from="2019-05-24">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.SN" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Слуга народу</orgName>
+      <orgName xml:lang="en" full="yes">Servant of the People</orgName>
+      <orgName full="abb">SN</orgName>
+      <event from="2016-03-31">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.RP" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Радикальна партія Олега Ляшка</orgName>
+      <orgName xml:lang="en" full="yes">Radical Party of Oleh Liashko</orgName>
+      <orgName full="abb">RP</orgName>
+      <event from="2010-09-28">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.OP" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Опозиційна платформа - За життя</orgName>
+      <orgName xml:lang="en" full="yes">Opposition Platform – For Life</orgName>
+      <orgName full="abb">OP</orgName>
+      <event from="1999-12-09" to="2022-06-20">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.USH" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Українська Стратегія Гройсмана</orgName>
+      <orgName xml:lang="en" full="yes">Ukrainian Strategy of Hroisman</orgName>
+      <orgName full="abb">USH</orgName>
+      <event from="2015-01-14">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.UP" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Українська партія</orgName>
+      <orgName xml:lang="en" full="yes">Ukrainian Party</orgName>
+      <orgName full="abb">UP</orgName>
+      <event from="2006-08-21">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+</listPerson>
