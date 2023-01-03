@@ -41,6 +41,12 @@
     <xsl:apply-templates select="$gov-o" mode="multicell"/>
   </xsl:variable>
 
+  <xsl:variable name="gov-event">
+    <xsl:call-template name="read-tsv">
+      <xsl:with-param name="file" select="concat($in-dir,'/gov-event.tsv')"/>
+    </xsl:call-template>
+  </xsl:variable>
+
   <xsl:variable name="listPerson-dupl">
     <xsl:element name="listPerson" xmlns="http://www.tei-c.org/ns/1.0">
       <xsl:attribute name="xml:id">ParlaMint-UA-listPerson</xsl:attribute>
@@ -110,8 +116,11 @@
                       <xsl:attribute name="ana" select="concat('#',$rada-pref,'.',$termN)"/>
                   </xsl:element>
                 </xsl:when>
+                <xsl:when test="$term/party_name[contains(' Самовисування Безпартійний ',.)]">
+                  <xsl:comment>from <xsl:value-of select="$from"/> to <xsl:value-of select="$to"/>: <xsl:value-of select="$term/party_name"/></xsl:comment>
+                </xsl:when>
                 <xsl:otherwise>
-                  <xsl:message>unknown political party <xsl:value-of select="$partyID"/>: <xsl:value-of select="$term/party_name"/></xsl:message>
+                  <xsl:message>WARN: unknown political party <xsl:value-of select="$partyID"/>: <xsl:value-of select="$term/party_name"/></xsl:message>
                   <xsl:comment>unknown political party <xsl:value-of select="$partyID"/>: <xsl:value-of select="$term/party_name"/></xsl:comment>
                 </xsl:otherwise>
               </xsl:choose>
@@ -202,8 +211,7 @@
                 <xsl:attribute name="to" select="$to"/>
               </xsl:if>
               <xsl:if test="$event | $acting">
-                <xsl:message>TODO-acting</xsl:message>
-                <xsl:attribute name="ana" select="concat('#',$event)"/>
+                <xsl:attribute name="ana" select="string-join(($event/concat('#',.), $acting/concat('#','acting')),' ')"/>
               </xsl:if>
               <xsl:if test="$role-uk">
                 <xsl:element name="roleName" xmlns="http://www.tei-c.org/ns/1.0">
@@ -249,8 +257,120 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    <xsl:variable name="listOrg-path" select="concat($out-dir,'ParlaMint-UA-listOrg.xml')"/>
+    <xsl:message select="concat('Saving ',$listOrg-path)"/>
+    <xsl:result-document href="{$listOrg-path}" method="xml">
+      <xsl:element name="listPerson" xmlns="http://www.tei-c.org/ns/1.0">
+        <xsl:attribute name="xml:id">ParlaMint-UA-listOrg</xsl:attribute>
+        <xsl:attribute name="xml:lang">uk</xsl:attribute>
+        <xsl:apply-templates select="$gov-org/table/row" mode="print-org"/>
+      </xsl:element>
+    </xsl:result-document>
   </xsl:template>
 
+
+
+  <xsl:template match="tei:affiliation[contains(' head deputyHead minister ', @role)]">
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+    </xsl:copy>
+    <xsl:copy>
+      <xsl:apply-templates select="@*" mode="affiliation-member"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="@role" mode="affiliation-member">
+    <xsl:attribute name="role">member</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="@*[not(name()='role')]" mode="affiliation-member">
+    <xsl:copy>
+      <xsl:apply-templates select="node()"/>
+    </xsl:copy>
+  </xsl:template>
+
+
+  <xsl:template match="row" mode="print-org">
+    <xsl:variable name="id" select="./col[@name='OrgID']"/>
+    <xsl:variable name="orgName_uk" select="./col[@name='OrgNameFull_uk']"/>
+    <xsl:variable name="orgName_en" select="./col[@name='OrgNameFull']"/>
+    <xsl:variable name="orgName_abb" select="./col[@name='OrgNameAbb']"/>
+    <xsl:variable name="from" select="./col[@name='From']"/>
+    <xsl:variable name="to" select="./col[@name='To' and matches(text(), '^\d{4}(-\d{2}-\d{2})?$')]"/>
+    <xsl:variable name="ana" select="./col[@name='Ana']"/>
+    <xsl:element name="org" xmlns="http://www.tei-c.org/ns/1.0">
+      <xsl:attribute name="xml:id" select="$id"/>
+      <xsl:attribute name="role" select="./col[@name='Role']"/>
+      <xsl:if test="$ana">
+        <xsl:attribute name="ana" select="string-join($ana//text()/concat('#',.),' ')"/>
+      </xsl:if>
+      <xsl:if test="$orgName_uk">
+        <xsl:element name="orgName" xmlns="http://www.tei-c.org/ns/1.0">
+          <xsl:attribute name="xml:lang">uk</xsl:attribute>
+          <xsl:attribute name="full">yes</xsl:attribute>
+          <xsl:value-of select="$orgName_uk"/>
+        </xsl:element>
+      </xsl:if>
+      <xsl:if test="$orgName_en">
+        <xsl:element name="orgName" xmlns="http://www.tei-c.org/ns/1.0">
+          <xsl:attribute name="xml:lang">en</xsl:attribute>
+          <xsl:attribute name="full">yes</xsl:attribute>
+          <xsl:value-of select="$orgName_en"/>
+        </xsl:element>
+      </xsl:if>
+      <xsl:if test="$orgName_abb">
+        <xsl:element name="orgName" xmlns="http://www.tei-c.org/ns/1.0">
+          <xsl:attribute name="full">abb</xsl:attribute>
+          <xsl:value-of select="$orgName_abb"/>
+        </xsl:element>
+      </xsl:if>
+      <xsl:if test="$from | $to">
+        <xsl:element name="event" xmlns="http://www.tei-c.org/ns/1.0">
+          <xsl:if test="$from">
+            <xsl:attribute name="from" select="$from"/>
+          </xsl:if>
+          <xsl:if test="$to">
+            <xsl:attribute name="to" select="$to"/>
+          </xsl:if>
+          <xsl:element name="label">
+            <xsl:attribute name="xml:lang">en</xsl:attribute>
+            <xsl:text>existence</xsl:text>
+          </xsl:element>
+        </xsl:element>
+      </xsl:if>
+      <xsl:variable name="events" select="$gov-event/table/row[./col[@name='OrgID'] = $id]"/>
+      <xsl:if test="$events">
+    <xsl:message><xsl:copy-of select="$events"/></xsl:message>
+        <xsl:element name="listEvent" xmlns="http://www.tei-c.org/ns/1.0">
+          <xsl:for-each select="$events">
+            <xsl:sort select="./col[@name='From']"/>
+            <xsl:variable name="event" select="."/>
+            <xsl:element name="event" xmlns="http://www.tei-c.org/ns/1.0">
+              <xsl:attribute name="xml:id" select="$event/col[@name='EventID']"/>
+              <xsl:if test="$event/col[@name='From']">
+                <xsl:attribute name="from" select="$event/col[@name='From']"/>
+              </xsl:if>
+              <xsl:if test="$event/col[@name='To' and matches(text(), '^\d{4}(-\d{2}-\d{2})?$')]">
+                <xsl:attribute name="to" select="$event/col[@name='To' and matches(text(), '^\d{4}(-\d{2}-\d{2})?$')]"/>
+              </xsl:if>
+              <xsl:if test="$event/col[@name='Label_uk']">
+                <xsl:element name="label">
+                  <xsl:attribute name="xml:lang">uk</xsl:attribute>
+                  <xsl:value-of select="$event/col[@name='Label_uk']"/>
+                </xsl:element>
+              </xsl:if>
+              <xsl:if test="$event/col[@name='Label_en']">
+                <xsl:element name="label">
+                  <xsl:attribute name="xml:lang">en</xsl:attribute>
+                  <xsl:value-of select="$event/col[@name='Label_en']"/>
+                </xsl:element>
+              </xsl:if>
+            </xsl:element>
+          </xsl:for-each>
+        </xsl:element>
+      </xsl:if>
+    </xsl:element>
+  </xsl:template>
 
 
   <xsl:template match="@*|node()">

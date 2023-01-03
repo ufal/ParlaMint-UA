@@ -16,6 +16,7 @@ GSIDperson := 983620751
 GSIDaffiliation := 1800909923
 GSIDorg := 1140033767
 GSIDevent := 19173850
+GSIDrelation := 1419083904
 ###### steno:
 
 .PHONY: $(download-NN) download
@@ -219,11 +220,12 @@ tei-particDesc-gov-RUN-LAST = $(addprefix tei-particDesc-gov-, $(DOWNLOAD_META_D
 tei-particDesc-gov: $(tei-particDesc-gov-RUN-LAST)
 $(tei-particDesc-gov-RUN-LAST): tei-particDesc-gov-%:
 	mkdir -p $(DATADIR)/tei-particDesc-preprocess/$*
-	@echo "TODO: download gov persons"
+	@echo "downloading gov persons and manually added organizations"
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDperson)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-person.tsv
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDaffiliation)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-affiliation.tsv
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDorg)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-org.tsv
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDevent)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-event.tsv
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDrelation)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-relation.tsv
 
 
 
