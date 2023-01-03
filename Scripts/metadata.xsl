@@ -80,6 +80,13 @@
               <xsl:attribute name="when" select="$birth"/>
             </xsl:element>
           </xsl:if>
+          <xsl:for-each select="$person/term/photo">
+            <xsl:element name="figure" xmlns="http://www.tei-c.org/ns/1.0">
+              <xsl:element name="graphic" xmlns="http://www.tei-c.org/ns/1.0">
+              <xsl:attribute name="url" select="."/>
+            </xsl:element>
+            </xsl:element>
+          </xsl:for-each>
           <xsl:for-each select="$person/term">
             <xsl:variable name="term" select="."/>
             <xsl:variable name="termN" select="$term/@term"/>
@@ -252,6 +259,7 @@
             <xsl:apply-templates select="$person/tei:birth[1]"/>
             <xsl:apply-templates select="$person/tei:sex[1]"/>
             <xsl:apply-templates select="$person/tei:idno"/>
+            <xsl:apply-templates select="$person/tei:figure"/>
             <xsl:apply-templates select="$person/tei:affiliation | $person/comment()"/>
           </xsl:element>
         </xsl:for-each>
