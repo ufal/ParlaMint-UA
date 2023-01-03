@@ -356,7 +356,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-21-m0.u41">
-               <seg xml:id="ParlaMint-UA_2020-02-21-m0.u41.p1" xml:lang="ru">Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-21-m0.u41.p1" xml:lang="uk">Кому?</seg>
             </u>
             <note type="speaker">КІТ А.Б.</note>
             <u who="КІТ А.Б." ana="#regular" xml:id="ParlaMint-UA_2020-02-21-m0.u42">
@@ -762,7 +762,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-21-m0.u100">
-               <seg xml:id="ParlaMint-UA_2020-02-21-m0.u100.p1" xml:lang="ru">У вас осталось 20 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-21-m0.u100.p1" xml:lang="uk">У вас осталось 20 секунд.</seg>
             </u>
             <note type="speaker">КОВАЛЬ Д.М.</note>
             <u who="КОВАЛЬ Д.М." ana="#regular" xml:id="ParlaMint-UA_2020-02-21-m0.u101">

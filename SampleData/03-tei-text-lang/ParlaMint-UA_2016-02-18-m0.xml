@@ -341,7 +341,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-18-m0.u32">
-               <seg xml:id="ParlaMint-UA_2016-02-18-m0.u32.p1" xml:lang="ru">Павло Кишкар.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-18-m0.u32.p1" xml:lang="uk">Павло Кишкар.</seg>
             </u>
             <note type="time">(10:57:58)</note>
             <note type="speaker">КИШКАР П.М.</note>
@@ -988,7 +988,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-18-m0.u108">
-               <seg xml:id="ParlaMint-UA_2016-02-18-m0.u108.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-18-m0.u108.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">СОВСУН І.Р.</note>
             <u who="СОВСУН І.Р." ana="#regular" xml:id="ParlaMint-UA_2016-02-18-m0.u109">

@@ -844,7 +844,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-28-m0.u118">
-               <seg xml:id="ParlaMint-UA_2014-02-28-m0.u118.p1" xml:lang="ru">Дякую. Прошу до слова народного депутата Томенка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-28-m0.u118.p1" xml:lang="uk">Дякую. Прошу до слова народного депутата Томенка.</seg>
             </u>
             <note type="time">(11:51:57)</note>
             <note type="speaker">ТОМЕНКО М.В.</note>
@@ -1110,8 +1110,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-28-m0.u162">
-               <seg xml:id="ParlaMint-UA_2014-02-28-m0.u162.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2014-02-28-m0.u162.p2" xml:lang="ru">Прошу до слова народного депутата Мирного.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-28-m0.u162.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-28-m0.u162.p2" xml:lang="uk">Прошу до слова народного депутата Мирного.</seg>
             </u>
             <note type="time">(12:24:53)</note>
             <note type="speaker">МИРНИЙ О.Б.</note>
@@ -1589,8 +1589,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-28-m0.u218">
-               <seg xml:id="ParlaMint-UA_2014-02-28-m0.u218.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2014-02-28-m0.u218.p2" xml:lang="ru">Прошу до слова народного депутата Благодира.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-28-m0.u218.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-28-m0.u218.p2" xml:lang="uk">Прошу до слова народного депутата Благодира.</seg>
             </u>
             <note type="time">(13:33:42)</note>
             <note type="speaker">БЛАГОДИР Ю.А.</note>
@@ -1695,7 +1695,7 @@
             <note type="comment">(фраза іноземною мовою)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-28-m0.u234">
-               <seg xml:id="ParlaMint-UA_2014-02-28-m0.u234.p1" xml:lang="ru">Прошу до слова народного депутата Головка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-28-m0.u234.p1" xml:lang="uk">Прошу до слова народного депутата Головка.</seg>
             </u>
             <note type="time">(13:55:19)</note>
             <note type="speaker">ГОЛОВКО М.Й.</note>

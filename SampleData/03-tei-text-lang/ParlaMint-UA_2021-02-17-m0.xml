@@ -1153,7 +1153,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-17-m0.u156">
-               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u156.p1" xml:lang="ru">Лерос Гео Багратович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u156.p1" xml:lang="uk">Лерос Гео Багратович.</seg>
             </u>
             <note type="time">(13:10:59)</note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -1454,7 +1454,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-17-m0.u198">
-               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u198.p1" xml:lang="ru">Синютка Олег Миколайович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u198.p1" xml:lang="uk">Синютка Олег Миколайович.</seg>
             </u>
             <note type="time">(13:49:49)</note>
             <note type="speaker">СИНЮТКА О.М.</note>
@@ -1477,7 +1477,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-17-m0.u202">
-               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u202.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u202.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time">(13:51:52)</note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -1507,7 +1507,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-17-m0.u207">
-               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u207.p1" xml:lang="ru">Шаповалов.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u207.p1" xml:lang="uk">Шаповалов.</seg>
             </u>
             <note type="time">(13:54:22)</note>
             <note type="speaker">ШАПОВАЛОВ Ю.А.</note>
@@ -1516,7 +1516,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-17-m0.u209">
-               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u209.p1" xml:lang="ru">Ще раз?</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u209.p1" xml:lang="uk">Ще раз?</seg>
             </u>
             <note type="speaker">ШАПОВАЛОВ Ю.А.</note>
             <u who="ШАПОВАЛОВ Ю.А." ana="#regular" xml:id="ParlaMint-UA_2021-02-17-m0.u210">

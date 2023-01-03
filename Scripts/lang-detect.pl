@@ -46,6 +46,7 @@ exit 1 unless @file_list;
 for my $fileIn (@file_list){
   my $tei = open_xml($fileIn);
   for my $node ($tei->findnodes('.//*[local-name() = "seg"]')){
+    my $role = $node->parentNode->getAttribute('ana');
     my $text = $node->textContent();
     my $lng = detect_language($node,$text);
     my @check_context = ();
@@ -65,8 +66,11 @@ for my $fileIn (@file_list){
         print STDERR "WARN too short, setting uk\n";
         $lang = 'uk';
       }
-
     }
+    if($lang eq 'ru' && length($node->textContent())<200 && $role eq '#chair'){
+      $lang = 'uk';
+    }
+
     $node->setAttributeNS('http://www.w3.org/XML/1998/namespace','lang',$lang);
     my $u = $node->parentNode;
     $stat->{$u->getAttribute('who')} //= {};

@@ -141,7 +141,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-02-28-m0.u13">
-               <seg xml:id="ParlaMint-UA_2018-02-28-m0.u13.p1" xml:lang="ru">30 секунд. Дайте, будь ласка, завершити. 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-02-28-m0.u13.p1" xml:lang="uk">30 секунд. Дайте, будь ласка, завершити. 30 секунд.</seg>
             </u>
             <note type="speaker">БУРБАК М.Ю.</note>
             <u who="БУРБАК М.Ю." ana="#regular" xml:id="ParlaMint-UA_2018-02-28-m0.u14">
@@ -164,7 +164,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-02-28-m0.u17">
-               <seg xml:id="ParlaMint-UA_2018-02-28-m0.u17.p1" xml:lang="ru">30 секунд завершити дайте.</seg>
+               <seg xml:id="ParlaMint-UA_2018-02-28-m0.u17.p1" xml:lang="uk">30 секунд завершити дайте.</seg>
             </u>
             <note type="speaker">КОДОЛА О.М.</note>
             <u who="КОДОЛА О.М." ana="#regular" xml:id="ParlaMint-UA_2018-02-28-m0.u18">
@@ -300,7 +300,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-02-28-m0.u34">
-               <seg xml:id="ParlaMint-UA_2018-02-28-m0.u34.p1" xml:lang="ru">Будь ласка, додайте 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-02-28-m0.u34.p1" xml:lang="uk">Будь ласка, додайте 30 секунд.</seg>
             </u>
             <note type="speaker">СПОРИШ І.Д.</note>
             <u who="СПОРИШ І.Д." ana="#regular" xml:id="ParlaMint-UA_2018-02-28-m0.u35">
@@ -986,7 +986,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-02-28-m0.u124">
-               <seg xml:id="ParlaMint-UA_2018-02-28-m0.u124.p1" xml:lang="ru">Дайте завершити, 30 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2018-02-28-m0.u124.p1" xml:lang="uk">Дайте завершити, 30 секунд, будь ласка.</seg>
             </u>
             <note type="speaker">ПОДОЛЯК І.І.</note>
             <u who="ПОДОЛЯК І.І." ana="#regular" xml:id="ParlaMint-UA_2018-02-28-m0.u125">
