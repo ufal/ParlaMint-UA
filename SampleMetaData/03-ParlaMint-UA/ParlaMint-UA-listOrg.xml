@@ -10,32 +10,41 @@
          <label xml:lang="en">existence</label>
       </event>
       <listEvent>
-         <event xml:id="ВРУ.1">
-            <label xml:lang="en">Верховна Рада I скликання (березень-квітень 1990 — 11 травня 1994)</label>
+         <event xml:id="ВРУ.1" from="1990-04-01" to="1994-05-11">
+            <label xml:lang="uk">Верховна Рада I скликання (березень-квітень 1990 — 11 травня 1994)</label>
+            <label xml:lang="en">Term 1</label>
          </event>
-         <event xml:id="ВРУ.2">
-            <label xml:lang="en">Верховна Рада II скликання (11 травня 1994 — 12 травня 1998)</label>
+         <event xml:id="ВРУ.2" from="1994-05-11" to="1998-05-12">
+            <label xml:lang="uk">Верховна Рада II скликання (11 травня 1994 — 12 травня 1998)</label>
+            <label xml:lang="en">Term 2</label>
          </event>
-         <event xml:id="ВРУ.3">
-            <label xml:lang="en">Верховна Рада III скликання (12 травня 1998 — 14 травня 2002)</label>
+         <event xml:id="ВРУ.3" from="1998-05-12" to="2002-05-14">
+            <label xml:lang="uk">Верховна Рада III скликання (12 травня 1998 — 14 травня 2002)</label>
+            <label xml:lang="en">Term 3</label>
          </event>
-         <event xml:id="ВРУ.4">
-            <label xml:lang="en">Верховна Рада IV скликання (14 травня 2002 — 25 травня 2006)</label>
+         <event xml:id="ВРУ.4" from="2002-05-14" to="2006-05-25">
+            <label xml:lang="uk">Верховна Рада IV скликання (14 травня 2002 — 25 травня 2006)</label>
+            <label xml:lang="en">Term 4</label>
          </event>
-         <event xml:id="ВРУ.5">
-            <label xml:lang="en">Верховна Рада V скликання (25 травня 2006 — 23 листопада 2007)</label>
+         <event xml:id="ВРУ.5" from="2006-05-25" to="2007-11-23">
+            <label xml:lang="uk">Верховна Рада V скликання (25 травня 2006 — 23 листопада 2007)</label>
+            <label xml:lang="en">Term 5</label>
          </event>
-         <event xml:id="ВРУ.6">
-            <label xml:lang="en">Верховна Рада VI скликання (23 листопада 2007 — 12 грудня 2012)</label>
+         <event xml:id="ВРУ.6" from="2007-11-23" to="2012-12-12">
+            <label xml:lang="uk">Верховна Рада VI скликання (23 листопада 2007 — 12 грудня 2012)</label>
+            <label xml:lang="en">Term 6</label>
          </event>
-         <event xml:id="ВРУ.7">
-            <label xml:lang="en">Верховна Рада VII скликання (12 грудня 2012 — 27 листопада 2014)</label>
+         <event xml:id="ВРУ.7" from="2012-12-12" to="2014-11-27">
+            <label xml:lang="uk">Верховна Рада VII скликання (12 грудня 2012 — 27 листопада 2014)</label>
+            <label xml:lang="en">Term 7</label>
          </event>
-         <event xml:id="ВРУ.8">
-            <label xml:lang="en">Верховна Рада VIII скликання (27 листопада 2014 — 29 серпня 2019)</label>
+         <event xml:id="ВРУ.8" from="2014-11-27" to="2019-08-29">
+            <label xml:lang="uk">Верховна Рада VIII скликання (27 листопада 2014 — 29 серпня 2019)</label>
+            <label xml:lang="en">Term 8</label>
          </event>
-         <event xml:id="ВРУ.9">
-            <label xml:lang="en">Верховна Рада IX скликання (з 29 серпня 2019)</label>
+         <event xml:id="ВРУ.9" from="2019-08-29">
+            <label xml:lang="uk">Верховна Рада IX скликання (з 29 серпня 2019)</label>
+            <label xml:lang="en">Term 9</label>
          </event>
       </listEvent>
    </org>
@@ -47,22 +56,88 @@
          <label xml:lang="en">existence</label>
       </event>
       <listEvent>
+         <event xml:id="GOV.UA.Fokin" from="1991-04-18" to="1992-10-01">
+            <label xml:lang="uk">Уряд Вітольда Фокіна</label>
+            <label xml:lang="en">Fokin govt</label>
+         </event>
+         <event xml:id="GOV.UA.Kuchma" from="1992-10-27" to="1993-09-21">
+            <label xml:lang="uk">Уряд Леоніда Кучми</label>
+            <label xml:lang="en">Kuchma govt</label>
+         </event>
+         <event xml:id="GOV.UA.Masol" from="1994-06-16" to="1995-04-04">
+            <label xml:lang="uk">Уряд Віталія Масола</label>
+            <label xml:lang="en">Masol govt</label>
+         </event>
+         <event xml:id="GOV.UA.Marchuk" from="1995-06-08" to="1996-05-27">
+            <label xml:lang="uk">Уряд Євгена Марчука</label>
+            <label xml:lang="en">Marchuk govt</label>
+         </event>
+         <event xml:id="GOV.UA.1stLazarenko" from="1996-05-28" to="1996-07-05">
+            <label xml:lang="uk">Перший уряд Павла Лазаренка</label>
+            <label xml:lang="en">1st Lazarenko govt</label>
+         </event>
+         <event xml:id="GOV.UA.2ndLazarenko" from="1996-07-11" to="1997-07-02">
+            <label xml:lang="uk">Другий уряд Павла Лазаренка</label>
+            <label xml:lang="en">2nd Lazarenko govt</label>
+         </event>
+         <event xml:id="GOV.UA.Pustovoitenko" from="1997-07-16" to="1999-12-22">
+            <label xml:lang="uk">Уряд Валерія Пустовойтенка</label>
+            <label xml:lang="en">Pustovoitenko govt</label>
+         </event>
+         <event xml:id="GOV.UA.Yushchenko" from="1999-12-22" to="2001-04-26">
+            <label xml:lang="uk">Уряд Віктора Ющенка</label>
+            <label xml:lang="en">Yushchenko govt</label>
+         </event>
+         <event xml:id="GOV.UA.Kinakh" from="2001-05-29" to="2002-11-21">
+            <label xml:lang="uk">Уряд Анатолія Кінаха</label>
+            <label xml:lang="en">Kinakh govt</label>
+         </event>
+         <event xml:id="GOV.UA.1stYanukovych" from="2002-11-21" to="2005-01-05">
+            <label xml:lang="uk">Перший уряд Віктора Януковича</label>
+            <label xml:lang="en">1st Yanukovych govt</label>
+         </event>
+         <event xml:id="GOV.UA.1stTymoshenko" from="2005-02-04" to="2005-09-08">
+            <label xml:lang="uk">Перший уряд Юлії Тимошенко</label>
+            <label xml:lang="en">1st Tymoshenko govt</label>
+         </event>
+         <event xml:id="GOV.UA.Yekhanurov" from="2005-09-22" to="2006-08-04">
+            <label xml:lang="uk">Уряд Юрія Єханурова</label>
+            <label xml:lang="en">Yekhanurov govt</label>
+         </event>
+         <event xml:id="GOV.UA.2ndYanukovych" from="2006-08-04" to="2007-12-18">
+            <label xml:lang="uk">Другий уряд Віктора Януковича</label>
+            <label xml:lang="en">2nd Yanukovych govt</label>
+         </event>
+         <event xml:id="GOV.UA.2ndTymoshenko" from="2007-12-18" to="2010-03-03">
+            <label xml:lang="uk">Другий уряд Юлії Тимошенко</label>
+            <label xml:lang="en">2nd Tymoshenko govt</label>
+         </event>
+         <event xml:id="GOV.UA.1stAzarov" from="2010-03-11" to="2012-12-24">
+            <label xml:lang="uk">Перший уряд Миколи Азарова</label>
+            <label xml:lang="en">1st Azarov govt</label>
+         </event>
          <event xml:id="GOV.UA.2ndAzarov" from="2012-12-24" to="2014-02-27">
+            <label xml:lang="uk">Другий уряд Миколи Азарова</label>
             <label xml:lang="en">2nd Azarov govt</label>
          </event>
          <event xml:id="GOV.UA.1stYatseniuk" from="2014-02-27" to="2014-11-27">
+            <label xml:lang="uk">Перший уряд Арсенія Яценюка</label>
             <label xml:lang="en">1st Yatseniuk govt</label>
          </event>
          <event xml:id="GOV.UA.2stYatseniuk" from="2014-11-27" to="2016-04-14">
+            <label xml:lang="uk">Другий уряд Арсенія Яценюка</label>
             <label xml:lang="en">2st Yatseniuk govt</label>
          </event>
          <event xml:id="GOV.UA.Hroisman" from="2016-04-14" to="2019-08-29">
+            <label xml:lang="uk">Уряд Володимира Гройсмана</label>
             <label xml:lang="en">Hroisman govt</label>
          </event>
          <event xml:id="GOV.UA.Honcharuk" from="2019-08-29" to="2020-03-04">
+            <label xml:lang="uk">Уряд Олексія Гончарука</label>
             <label xml:lang="en">Honcharuk govt</label>
          </event>
          <event xml:id="GOV.UA.Shmyhal" from="2020-03-04">
+            <label xml:lang="uk">Уряд Дениса Шмигаля</label>
             <label xml:lang="en">Shmyhal govt</label>
          </event>
       </listEvent>
@@ -75,19 +150,42 @@
          <label xml:lang="en">existence</label>
       </event>
       <listEvent>
+         <event xml:id="1stPresidency" from="1991-12-05" to="1994-07-19">
+            <label xml:lang="uk">1-й Президент України</label>
+            <label xml:lang="en">1stPresident</label>
+         </event>
+         <event xml:id="2ndPresidency" from="1994-07-19" to="2005-01-23">
+            <label xml:lang="uk">2-й Президент України</label>
+            <label xml:lang="en">2nd President</label>
+         </event>
+         <event xml:id="3rdPresidency" from="2005-01-23" to="2010-02-25">
+            <label xml:lang="uk">3-й Президент України</label>
+            <label xml:lang="en">3rd President</label>
+         </event>
          <event xml:id="4thPresidency" from="2010-02-25" to="2014-02-22">
-            <label xml:lang="en">4th Presidency</label>
+            <label xml:lang="uk">4-й Президент України</label>
+            <label xml:lang="en">4th President</label>
          </event>
          <event xml:id="ActingPresidency" from="2014-02-23" to="2014-06-07">
-            <label xml:lang="en">Acting Presidency</label>
+            <label xml:lang="uk">Виконувач обов'язків Президента України</label>
+            <label xml:lang="en">Acting President</label>
          </event>
          <event xml:id="5thPresidency" from="2014-06-07" to="2019-05-20">
-            <label xml:lang="en">5th Presidency</label>
+            <label xml:lang="uk">5-й Президент України</label>
+            <label xml:lang="en">5th President</label>
          </event>
          <event xml:id="6thPresidency" from="2019-05-20">
-            <label xml:lang="en">6th Presidency</label>
+            <label xml:lang="uk">6-й Президент України</label>
+            <label xml:lang="en">6th President</label>
          </event>
       </listEvent>
+   </org>
+   <org xml:id="pp.UNP" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Українська народна партія</orgName>
+      <orgName xml:lang="en" full="yes">Ukrainian People's Party</orgName>
+      <event from="1999-12-31">
+         <label xml:lang="en">existence</label>
+      </event>
    </org>
    <org xml:id="pp.Reg" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Партія регіонів</orgName>
@@ -161,8 +259,15 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
+   <org xml:id="pp.Self" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Політична партія «Об’єднання «САМОПОМІЧ»</orgName>
+      <orgName xml:lang="en" full="yes">Union "Self Reliance"</orgName>
+      <event from="2012-12-29">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
    <org xml:id="pp.Gol" role="politicalParty">
-      <orgName xml:lang="uk" full="yes">Політична Партія «Голос»</orgName>
+      <orgName xml:lang="uk" full="yes">Політична партія «Голос»</orgName>
       <orgName xml:lang="en" full="yes">Holos</orgName>
       <orgName full="abb">Holos</orgName>
       <event from="2015-02-10">
@@ -222,6 +327,38 @@
       <orgName xml:lang="en" full="yes">Ukrainian Party</orgName>
       <orgName full="abb">UP</orgName>
       <event from="2006-08-21">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.SL" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">«Сила Людей»</orgName>
+      <orgName xml:lang="en" full="yes">Power of the People</orgName>
+      <orgName full="abb">SL</orgName>
+      <event from="2014-08-20">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.S&amp;H" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">«Сила і Честь»</orgName>
+      <orgName xml:lang="en" full="yes">Strength and Honor</orgName>
+      <orgName full="abb">S&amp;H</orgName>
+      <event from="2009-10-26">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Patr" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Патріот</orgName>
+      <orgName xml:lang="en" full="yes">Patriot</orgName>
+      <orgName full="abb">Patriot</orgName>
+      <event from="2005-03-25">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Novi" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Політична партія «Нові обличчя»</orgName>
+      <orgName xml:lang="en" full="yes">New Faces</orgName>
+      <orgName full="abb">Novi</orgName>
+      <event from="2012-03-12">
          <label xml:lang="en">existence</label>
       </event>
    </org>

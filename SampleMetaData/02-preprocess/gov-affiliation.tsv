@@ -95,12 +95,13 @@ checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
  	ПавлоДмитровичПетренко.1979	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Justice	Міністр юстиції України
  	ПавлоДмитровичПетренко.1979	pp.BUT		2012-10-28		nominated			
  	ПавлоДмитровичПетренко.1979	pp.NF		2014-10-26		member			
+ 	ПавлоДмитровичПетренко.1979	pp.USH		2019		nominated			
  	ДмитроСергійовичБулатов.1978	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-12-02	minister		Minister of Youth and Sports 	Міністр молоді та спорту України
  ERR:org	ДмитроСергійовичБулатов.1978	pp.independent							
  	ЄвгенМиколайовичНищук.1972	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-12-02	minister		Minister of Culture	Міністр культури України
  	ЄвгенМиколайовичНищук.1972	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Culture	Міністр культури України
  ERR:org	ЄвгенМиколайовичНищук.1972	pp.BPP;pp.ES		2016		nominated			
- 	ЄвгенМиколайовичНищук.1972	pp.USH		2019		nominated			
+ 	ЄвгенМиколайовичНищук.1972	pp.USH		2019		member			
  	СергійМироновичКвіт.1965	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-11-27	minister		Minister of Education and Science	Міністр освіти і науки України
  	СергійМироновичКвіт.1965	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02	2016-04-14	minister		Minister of Education and Science 	Міністр освіти і науки України
  ERR:org	СергійМироновичКвіт.1965	pp.independent		2014					
@@ -229,44 +230,160 @@ checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
  ERR:org	ІринаВасилівнаФріз.1974	pp.BPP;pp.ES		2014-10-26		member			
  	ОлександрСергійовичСаєнко.1984	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of the Cabinet of Ministers	Міністр Кабінету Міністрів
  ERR:org	ОлександрСергійовичСаєнко.1984	pp.BPP;pp.ES		2016		nominated			
- 	ОлександрСергійовичСаєнко.1984	pp.USH		2019		nominated			
+ 	ОлександрСергійовичСаєнко.1984	pp.USH		2019		member			
  	ОлексійВалерійовичГончарук.1984	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	head		Prime Minister of Ukraine	Прем'єр-міністр України
  ERR:org	ОлексійВалерійовичГончарук.1984	pp.independent							
  	ДмитроІвановичКулеба.1981	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
- 	ДмитроІвановичКулеба.1981	GOV.UA	GOV.UA.Shmyhal	2020-03-04	present	minister			
+ 	ДмитроІвановичКулеба.1981	GOV.UA	GOV.UA.Shmyhal	2020-03-04	present	minister		Minister of Foreign Affairs	Міністр закордонних справ України
  ERR:org	ДмитроІвановичКулеба.1981	pp.independent							
  	МихайлоАльбертовичФедоров.1991	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
  	МихайлоАльбертовичФедоров.1991	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Digital Transformation	Міністр цифрової трансформації
+ 	МихайлоАльбертовичФедоров.1991	pp.SN				nominated			
+ 	МихайлоАльбертовичФедоров.1991	ВРУ	ВРУ.9	2019-08-29	2019-08-29	MP			
  	МихайлоАльбертовичФедоров.1991	GOV.UA	GOV.UA.Shmyhal	2020-03-04	present	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
  	МихайлоАльбертовичФедоров.1991	GOV.UA	GOV.UA.Shmyhal	2020-03-04	present	minister		Minister of Digital Transformation	Міністр цифрової трансформації
- ERR:org	МихайлоАльбертовичФедоров.1991	pp.independent							
+ 	МихайлоАльбертовичФедоров.1991	pp.SN		2021-03-13		member		member of the Political Council of the Servant of the People 	член політради партії "Слуга народу"
  	ДенисАнатолійовичШмигаль.1975	GOV.UA	GOV.UA.Honcharuk	2020-02-04	2020-03-04	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
  	ДенисАнатолійовичШмигаль.1975	GOV.UA	GOV.UA.Honcharuk	2020-02-04	2020-03-04	minister		Minister for Communities and Territories Development	Міністр розвитку громад і територій
  	ДенисАнатолійовичШмигаль.1975	GOV.UA	GOV.UA.Shmyhal	2020-03-04	present	head		Prime Minister of Ukraine	Прем'єр-міністр України
  ERR:org	ДенисАнатолійовичШмигаль.1975	pp.independent							
- 	ОксанаВасилівнаКоляда.1980	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister			
- 	ОлексійАнатолійовичОржель.1984	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister			
- 	ВадимВолодимировичПристайко.1970	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister			
- 	ВладиславАртуровичКриклій.1986	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister			
- 	ВолодимирВолодимировичБородянський.1974	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister			
- 	АндрійПавловичЗагороднюк.1976	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister			
- 	ГаннаІгорівнаНовосад.1990	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister			
- 	ЗорянаСтепанівнаСкалецька.1980	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister			
- 	АльонаВалеріївнаБабак.1969	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-02-04	minister			
- 	ТимофійСергійовичМилованов.1975	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister			
- 	ЮліяСергіївнаСоколовська.1985	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister			
- 	ДенисЛеонтійовичМалюська.1981	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister			
- 	ДмитроОлександровичДубілет.1985	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister			
-ERR:person 		GOV.UA							
-ERR:person 		GOV.UA							
-ERR:person 		GOV.UA							
-ERR:person 		GOV.UA							
+ 	ОксанаВасилівнаКоляда.1980	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Temporarily Occupied Territories, IDPs and veterans	Міністр у справах ветеранів, тимчасово окупованих територій та внутрішньо переміщених осіб
+ ERR:org	ОксанаВасилівнаКоляда.1980	pp.independent							
+ 	ОлексійАнатолійовичОржель.1984	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Energy and Environmental Protection of Ukraine	Міністр енергетики та захисту довкілля
+ 	ОлексійАнатолійовичОржель.1984	pp.SN				nominated			
+ 	ОлексійАнатолійовичОржель.1984	ВРУ	ВРУ.9	2019-08-29	2019-08-29	MP			
+ 	ВадимВолодимировичПристайко.1970	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Foreign Affairs	Міністр закордонних справ України
+ 	ВадимВолодимировичПристайко.1970	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2020-06-04	deputyHead		First Vice Prime Minister	Перший віцепрем'єр-міністр України
+ ERR:org	ВадимВолодимировичПристайко.1970	pp.independent							
+ 	ВладиславАртуровичКриклій.1986	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Infrastructure	Міністр інфраструктури України
+ 	ВладиславАртуровичКриклій.1986	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2021-05-18	minister		Minister of Infrastructure	Міністр інфраструктури України
+ 	ВладиславАртуровичКриклій.1986	pp.SN				nominated			
+ 	ВладиславАртуровичКриклій.1986	ВРУ	ВРУ.9	2019-08-29	2019-08-29	MP			
+ 	ВолодимирВолодимировичБородянський.1974	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Culture, Youth and Sports	Міністр культури, молоді та спорту України
+ ERR:org	ВолодимирВолодимировичБородянський.1974	pp.independent							
+ 	АндрійПавловичЗагороднюк.1976	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Defence	Міністр оборони України
+ ERR:org	АндрійПавловичЗагороднюк.1976	pp.independent							
+ 	ГаннаІгорівнаНовосад.1990	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Education and Science	Міністр освіти і науки України
+ 	ГаннаІгорівнаНовосад.1990	pp.SN				nominated			
+ 	ГаннаІгорівнаНовосад.1990	ВРУ	ВРУ.9	2019-08-29	2019-08-29	MP			
+ 	ЗорянаСтепанівнаСкалецька.1980	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Healthcare	Міністр охорони здоров'я України
+ ERR:org	ЗорянаСтепанівнаСкалецька.1980	pp.independent							
+ 	АльонаВалеріївнаБабак.1969	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-02-04	minister		Minister for Communities and Territories Development	Міністр розвитку громад і територій
+ 	АльонаВалеріївнаБабак.1969	ВРУ	ВРУ.8	2014-11-27	2019-08-29	MP			
+ 	АльонаВалеріївнаБабак.1969	pp.Self				nominated			
+ 	ТимофійСергійовичМилованов.1975	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Economic Development, Trade and Agriculture	Міністр розвитку економіки, торгівлі та сільського господарства України
+ ERR:org	ТимофійСергійовичМилованов.1975	pp.independent							
+ 	ЮліяСергіївнаСоколовська.1985	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Social Policy	Міністр соціальної політики України
+ ERR:org	ЮліяСергіївнаСоколовська.1985	pp.independent							
+ 	ДенисЛеонтійовичМалюська.1981	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Justice	Міністр юстиції України
+ 	ДенисЛеонтійовичМалюська.1981	GOV.UA	GOV.UA.Shmyhal	2020-03-04	present	minister		Minister of Justice	Міністр юстиції України
+ 	ДенисЛеонтійовичМалюська.1981	pp.SN		2021-03-13		member		member of the Political Council of the Servant of the People 	член політради партії "Слуга народу"
+ 	ДенисЛеонтійовичМалюська.1981	ВРУ	ВРУ.9	2019-08-29	2019-08-29	MP			
+ 	ДмитроОлександровичДубілет.1985	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of the Cabinet of Ministers	Міністр Кабінету Міністрів
+ ERR:org	ДмитроОлександровичДубілет.1985	pp.independent							
+ 	ЮліяАнатоліївнаСвириденко.1985	GOV.UA	GOV.UA.Shmyhal	2021-11-04	present	deputyHead		First Vice Prime Minister	Перший віце-прем'єр-міністр України
+ 	ЮліяАнатоліївнаСвириденко.1985	GOV.UA	GOV.UA.Shmyhal	2021-11-04	present	minister		Minister of Economics	Міністр економіки України
+ 	ОльгаВіталіївнаСтефанішина.1985	GOV.UA	GOV.UA.Shmyhal	2020-03-04					
+ 	ОльгаВіталіївнаСтефанішина.1985	pp.SN		2021-03-13		member		member of the Political Council of the Servant of the People 	член політради партії "Слуга народу"
+ 	ІринаАндріївнаВерещук.1979	GOV.UA	GOV.UA.Shmyhal	2021-11-04	present			Minister of Reintegration of Temporarily Occupied Territories	Міністр з питань реінтеграції тимчасово окупованих територій
+									
+									
+ 	ОлександрМиколайовичКубраков.1982	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2022-12-01	minister		Minister of Infrastructure	Міністр інфраструктури України
+ 	ОлександрМиколайовичКубраков.1982	GOV.UA	GOV.UA.Shmyhal	2022-12-01	present	minister		Minister for Communities and Territories Development and Infrastructure	Міністр розвитку громад, територій та інфраструктури України
+ 	ОлександрМиколайовичКубраков.1982	GOV.UA	GOV.UA.Shmyhal	2022-12-01	present	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+ 	ОлександрМиколайовичКубраков.1982	ВРУ	ВРУ.9	2019-08-29	2019-12-03	MP			
+ 	ОлександрМиколайовичКубраков.1982	pp.SN		2019		nominated			
+ 	РоманМиколайовичЛещенко.1988	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2022-03-24	minister		Minister of Agrarian Policy and Food	Міністр аграрної політики та продовольства України
+	РоманМиколайовичЛещенко.1988	pp.Novi		2015		nominated			
+ 	МиколаТарасовичСольський.1979	GOV.UA	GOV.UA.Shmyhal	2022-03-24	present	minister		Minister of Agrarian Policy and Food	Міністр аграрної політики та продовольства України
+	МиколаТарасовичСольський.1979	ВРУ	ВРУ.9	2019-08-29	2022-03-24	MP			
+	МиколаТарасовичСольський.1979	pp.SN		2019		nominated			
+ 	ДенисАнатолійовичМонастирський.1980	GOV.UA	GOV.UA.Shmyhal	2021-07-16	present	minister		Minister of Internal Affairs	Міністр внутрішніх справ України
+	ДенисАнатолійовичМонастирський.1980	ВРУ	ВРУ.9	2019-08-29	2021-07-16	MP			
+	ДенисАнатолійовичМонастирський.1980	pp.SN		2019		nominated			
+ 	ПавлоАндрійовичКухта.1985	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2020-03-17	minister	1	Minister of Economic Development, Trade and Agriculture	Міністр розвитку економіки, торгівлі та сільського господарства України
+	ПавлоАндрійовичКухта.1985	pp.Gol		2019		deputyHead		Program director of the party	Програмний директор партії
+ 	ІгорРостиславовичПетрашко.1975	GOV.UA	GOV.UA.Shmyhal	2020-03-17	2021-05-18	minister		Minister of Economic Development, Trade and Agriculture	Міністр розвитку економіки, торгівлі та сільського господарства України
+	ІгорРостиславовичПетрашко.1975	pp.independent							
+ 	ОлексійМиколайовичЛюбченко.1971	GOV.UA	GOV.UA.Shmyhal	2021-05-20	2021-11-03	deputyHead		First Vice Prime Minister	Перший віце-прем'єр-міністр України
+ 	ОлексійМиколайовичЛюбченко.1971	GOV.UA	GOV.UA.Shmyhal	2021-05-20	2021-11-03	minister		Minister of Economics	Міністр економіки України
+ ERR:org	ОлексійМиколайовичЛюбченко.1971	pp.independent							
+ 	ВіталійМиколайовичШубін.1982	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2020-04-16	minister	1	Minister of Energy	Міністр енергетики України
+ 	ОльгаАнатоліївнаБуславець.1975	GOV.UA	GOV.UA.Shmyhal	2020-04-16	2020-11-20	minister	1	Minister of Energy	Міністр енергетики України
+ 	ЮрійМиколайовичБойко.1972	GOV.UA	GOV.UA.Shmyhal	2020-11-20	2020-12-21	minister	1	Minister of Energy	Міністр енергетики України
+ 	ЮрійМиколайовичБойко.1972	GOV.UA	GOV.UA.Shmyhal	2021-04-28	2021-04-29	minister	1	Minister of Energy	Міністр енергетики України
+ 	ЮрійЮрійовичВітренко.1976	GOV.UA	GOV.UA.Shmyhal	2020-12-21	2021-04-28	minister	1	Minister of Energy	Міністр енергетики України
+ ERR:org	ЮрійЮрійовичВітренко.1976	pp.independent							
+ 	ГерманВалерійовичГалущенко.1973	GOV.UA	GOV.UA.Shmyhal	2021-04-29	present			Minister of Energy	Міністр енергетики України
+ 	ГерманВалерійовичГалущенко.1973	pp.Patr			2020	member			
+ ERR:org	ГерманВалерійовичГалущенко.1973	pp.independent		2020					
+ 	РоманРомановичАбрамовський.1973	GOV.UA	GOV.UA.Shmyhal	2020-06-19	2021-11-03	minister		Minister of Environmental Protection and Natural Resources of Ukraine	Міністр захисту довкілля та природних ресурсів України
+ ERR:org	РоманРомановичАбрамовський.1973	pp.independent							
+ 	РусланОлександровичСтрілець.1984	GOV.UA	GOV.UA.Shmyhal	2021-11-04	2022-04-14	minister	1	Minister of Environmental Protection and Natural Resources of Ukraine	Міністр захисту довкілля та природних ресурсів України
+ 	РусланОлександровичСтрілець.1984	GOV.UA	GOV.UA.Shmyhal	2022-04-14	present	minister			
+ ERR:org	РусланОлександровичСтрілець.1984	pp.BPP;pp.ES		2015		nominated			
+ 	АнатолійОлександровичМаксимчук.1980	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2020-03-10		1	Minister of Culture, Youth and Sports	Міністр культури, молоді та спорту України
+ ERR:org	АнатолійОлександровичМаксимчук.1980	pp.independent							
+ 	СвітланаВалеріївнаФоменко.1976	GOV.UA	GOV.UA.Shmyhal	2020-03-10	2020-06-04		1	Minister of Culture, Youth and Sports	Міністр культури, молоді та спорту України
+ ERR:org	СвітланаВалеріївнаФоменко.1976	pp.independent							
+ 	ОлександрВладиславовичТкаченко.1966	GOV.UA	GOV.UA.Shmyhal	2020-06-04	present			Minister of Culture	Міністр культури України
+ 	ОлександрВладиславовичТкаченко.1966	pp.SN		2021-03-13		member		member of the Political Council of the Servant of the People 	член політради партії "Слуга народу"
+ 	ВадимМарковичГутцайт.1971	GOV.UA	GOV.UA.Shmyhal	2020-03-04	present	minister		Minister of Youth and Sports	Міністр молоді та спорту України
+ 	ВадимМарковичГутцайт.1971	pp.SN		2019		nominated			
+ 	АндрійВасильовичТаран.1955	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2021-11-03	minister		Minister of Defence	Міністр оборони України
+ 	АндрійВасильовичТаран.1955	pp.S&H		2019		member			
+ 	ОлексійЮрійовичРезніков.1966	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2021-11-03	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+ 	ОлексійЮрійовичРезніков.1966	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2021-11-03	minister		Minister of Reintegration of Temporarily Occupied Territories	Міністр з питань реінтеграції тимчасово окупованих територій
+ 	ОлексійЮрійовичРезніков.1966	GOV.UA	GOV.UA.Shmyhal	2021-11-04	present	minister		Minister of Defence	Міністр оборони України
+ ERR:org	ОлексійЮрійовичРезніков.1966	pp.BPP;pp.ES		2015		nominated			
+ 	ЮрійЮрійовичПолюхович.1980	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2020-03-25	minister	1	Minister of Education and Science	Міністр освіти і науки України
+ ERR:org	ЮрійЮрійовичПолюхович.1980	pp.independent							
+ 	ЛюбомираСтепанівнаМандзій.1973	GOV.UA	GOV.UA.Shmyhal	2020-03-25	2020-06-25	minister	1	Minister of Education and Science	Міністр освіти і науки України
+ ERR:org	ЛюбомираСтепанівнаМандзій.1973	pp.independent							
+ 	СергійМиколайовичШкарлет.1972	GOV.UA	GOV.UA.Shmyhal	2020-06-25	present	minister		Minister of Education and Science	Міністр освіти і науки України
+ 	СергійМиколайовичШкарлет.1972	pp.Reg		2010	2015	member			
+ ERR:org	СергійМиколайовичШкарлет.1972	pp.BPP;pp.ES		2015		nominated			
+ 	ІлляМиколайовичЄмець.1956	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2020-03-30	minister		Minister of Healthcare	Міністр охорони здоров'я України
+ 	ІлляМиколайовичЄмець.1956	GOV.UA	GOV.UA.1stAzarov	2010-12-21	2011-05-24	minister		Minister of Healthcare	
+ ERR:org	ІлляМиколайовичЄмець.1956	pp.independent							
+ 	МаксимВолодимировичСтепанов.1975	GOV.UA	GOV.UA.Shmyhal	2020-03-30	2021-05-18	minister		Minister of Healthcare	Міністр охорони здоров'я України
+ 	МаксимВолодимировичСтепанов.1975	pp.SN		2020		nominated			
+ 	ВікторКириловичЛяшко.1980	GOV.UA	GOV.UA.Shmyhal	2021-05-20	present	minister		Minister of Healthcare	Міністр охорони здоров'я України
+ ERR:org	ВікторКириловичЛяшко.1980	pp.independent							
+ 	ОлегСеменовичУруський.1963	GOV.UA	GOV.UA.Shmyhal	2020-07-16	2021-11-03	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+ 	ОлегСеменовичУруський.1963	GOV.UA	GOV.UA.Shmyhal	2020-07-16	2021-11-03	minister		Minister of Strategic Industries of Ukraine	Міністр з питань стратегічних галузей промисловості України
+ ERR:org	ОлегСеменовичУруський.1963	pp.independent							
+ 	ПавлоБорисовичРябікін.1965	GOV.UA	GOV.UA.Shmyhal	2021-11-04	present	minister		Minister of Strategic Industries of Ukraine	Міністр з питань стратегічних галузей промисловості України
+ 	ПавлоБорисовичРябікін.1965	ВРУ	ВРУ.7	2012-12-12	2014-11-27	MP			
+ 	ПавлоБорисовичРябікін.1965	pp.Ud		2012		member			
+ 	ОлексійМихайловичЧернишов.1977	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2022-11-03	minister		Minister for Communities and Territories Development	Міністр розвитку громад та територій
+ 	ОлексійМихайловичЧернишов.1977	pp.SN		2021-03-13		member		member of the Political Council of the Servant of the People 	член політради партії "Слуга народу"
+ 	ВасильМироновичЛозинський.1986	GOV.UA	GOV.UA.Shmyhal	2022-11-04	2022-12-01		1	Minister for Communities and Territories Development	Міністр розвитку громад та територій
+ ERR:org	ВасильМироновичЛозинський.1986	pp.independent							
+ 	МаринаВолодимирівнаЛазебна.1975	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2022-07-18	minister		Minister of Social Policy	Міністр соціальної політики України
+ ERR:org	МаринаВолодимирівнаЛазебна.1975	pp.independent							
+ 	ОксанаІванівнаЖолнович.1979	GOV.UA	GOV.UA.Shmyhal	2022-07-19	present	minister		Minister of Social Policy	Міністр соціальної політики України
+ 	ОксанаІванівнаЖолнович.1979	pp.SL		2014		member			
+ 	СергійБорисовичБессараб.1955	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2020-12-16	minister		Minister of Veterans Affairs	Міністр у справах ветеранів України
+ ERR:org	СергійБорисовичБессараб.1955	pp.independent							
+ 	ЮліяАнатоліївнаЛапутіна.1967	GOV.UA	GOV.UA.Shmyhal	2020-12-18	present	minister		Minister of Veterans Affairs	Міністр у справах ветеранів України
+ ERR:org	ЮліяАнатоліївнаЛапутіна.1967	pp.independent							
+ 	ІгорІвановичУманський.1975	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2020-03-30	minister		Minister of Finance	Міністр фінансів України
+ ERR:org	ІгорІвановичУманський.1975	pp.independent							
+ 	СергійМихайловичМарченко.1981	GOV.UA	GOV.UA.Shmyhal	2020-03-30	present	minister		Minister of Finance	Міністр фінансів України
+ 	СергійМихайловичМарченко.1981	pp.USH		2019		member			
+ 	ОлегМиколайовичНемчінов.1977	GOV.UA	GOV.UA.Shmyhal	2020-03-04	present	minister		Minister of the Cabinet of Ministers	Міністр Кабінету Міністрів
+ 	ОлегМиколайовичНемчінов.1977	pp.UNP		2005	2013	member		Member of the Central Branch of the Ukrainian People's Party	Член Центрального проводу Української народної партії
 ERR:person ERR:org									
 ERR:person ERR:org									
 ERR:person ERR:org									
 ERR:person ERR:org									
-ERR:person ERR:org									
-ERR:person ERR:org									
+ ERR:org									
+ ERR:org									
+ ERR:org									
+ ERR:org									
+ ERR:org									
+ ERR:org									
 ERR:person ERR:org									
 ERR:person ERR:org									
 ERR:person ERR:org									

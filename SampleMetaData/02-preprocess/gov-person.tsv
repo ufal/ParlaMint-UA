@@ -32,7 +32,7 @@ AffiliationCnt	PersonID	Forename	Patronymic	Surname	Birth	Sex	urlPersonal	urlWik
 2	ВіталійГригоровичЯрема.1963	Віталій	Григорович	Ярема	1963-10-14	M		https://en.wikipedia.org/wiki/Vitaly_Yarema
 2	ОлександрМаксимовичСич.1964	Олександр	Максимович	Сич	1964-07-16	M		https://en.wikipedia.org/wiki/Oleksandr_Sych
 6	ВолодимирБорисовичГройсман.1978	Володимир	Борисович	Гройсман	1978-01-20	M		https://en.wikipedia.org/wiki/Volodymyr_Groysman
-5	ПавлоДмитровичПетренко.1979	Павло	Дмитрович	Петренко	1979-07-17	M		https://en.wikipedia.org/wiki/Pavlo_Petrenko
+6	ПавлоДмитровичПетренко.1979	Павло	Дмитрович	Петренко	1979-07-17	M		https://en.wikipedia.org/wiki/Pavlo_Petrenko
 2	ДмитроСергійовичБулатов.1978	Дмитро	Сергійович	Булатов	1978-08-13	M		https://en.wikipedia.org/wiki/Dmytro_Bulatov
 4	ЄвгенМиколайовичНищук.1972	Євген	Миколайович	Нищук	1972-12-29	M		https://en.wikipedia.org/wiki/Yevhen_Nyshchuk
 4	СергійМироновичКвіт.1965	Сергій	Миронович	Квіт	1965-11-26	M		https://en.wikipedia.org/wiki/Serhiy_Kvit
@@ -88,19 +88,58 @@ AffiliationCnt	PersonID	Forename	Patronymic	Surname	Birth	Sex	urlPersonal	urlWik
 3	ОлександрСергійовичСаєнко.1984	Олександр	Сергійович	Саєнко	1984-02-29	M		https://en.wikipedia.org/wiki/Oleksandr_Saienko
 2	ОлексійВалерійовичГончарук.1984	Олексій	Валерійович	Гончарук	1984-07-07	M		https://en.wikipedia.org/wiki/Oleksiy_Honcharuk
 3	ДмитроІвановичКулеба.1981	Дмитро	Іванович	Кулеба	1981-04-19	M		https://en.wikipedia.org/wiki/Dmytro_Kuleba
-5	МихайлоАльбертовичФедоров.1991	Михайло	Альбертович	Федоров	1991-01-21	M		https://en.wikipedia.org/wiki/Mykhailo_Fedorov
+7	МихайлоАльбертовичФедоров.1991	Михайло	Альбертович	Федоров	1991-01-21	M		https://en.wikipedia.org/wiki/Mykhailo_Fedorov
 4	ДенисАнатолійовичШмигаль.1975	Денис	Анатолійович	Шмигаль	1975-10-15	M		https://en.wikipedia.org/wiki/Denys_Shmyhal
-1	ОксанаВасилівнаКоляда.1980	Оксана	Василівна	Коляда	1980-09-04	F		https://en.wikipedia.org/wiki/Oksana_Koliada
-1	ОлексійАнатолійовичОржель.1984	Олексій	Анатолійович	Оржель	1984-01-26	M		https://en.wikipedia.org/wiki/Oleksiy_Orzhel
-1	ВадимВолодимировичПристайко.1970	Вадим	Володимирович	Пристайко	1970-02-20	M		https://en.wikipedia.org/wiki/Vadym_Prystaiko
-1	ВладиславАртуровичКриклій.1986	Владислав	Артурович	Криклій	1986-11-23	M		https://en.wikipedia.org/wiki/Vladyslav_Krykliy
-1	ВолодимирВолодимировичБородянський.1974	Володимир	Володимирович	Бородянський	1974-01-15	M		https://en.wikipedia.org/wiki/Volodymyr_Borodiansky
-1	АндрійПавловичЗагороднюк.1976	Андрій	Павлович	Загороднюк	1976-12-05	M		https://en.wikipedia.org/wiki/Andrii_Zahorodniuk
-1	ГаннаІгорівнаНовосад.1990	Ганна	Ігорівна	Новосад	1990-07-28	F		https://en.wikipedia.org/wiki/Hanna_Novosad
-1	ЗорянаСтепанівнаСкалецька.1980	Зоряна	Степанівна	Скалецька	1980-08-09	F		https://en.wikipedia.org/wiki/Zoriana_Skaletska
-1	АльонаВалеріївнаБабак.1969	Альона	Валеріївна	Бабак	1969-09-27	F		https://en.wikipedia.org/wiki/Aliona_Babak
-1	ТимофійСергійовичМилованов.1975	Тимофій	Сергійович	Милованов	1975-03-18	M		https://en.wikipedia.org/wiki/Tymofiy_Mylovanov
-1	ЮліяСергіївнаСоколовська.1985	Юлія	Сергіївна	Соколовська	1985-04-12	F		https://en.wikipedia.org/wiki/Yuliya_Sokolovska
-1	ДенисЛеонтійовичМалюська.1981	Денис	Леонтійович	Малюська	1981-11-19	M		https://en.wikipedia.org/wiki/Denys_Maliuska
-1	ДмитроОлександровичДубілет.1985	Дмитро	Олександрович	Дубілет	1985-05-27	M		https://en.wikipedia.org/wiki/Dmytro_Dubilet
-0	ЮліяАнатоліївнаСвириденко.1985	Юлія	Анатоліївна	Свириденко	1985-12-25	F		https://en.wikipedia.org/wiki/Yulia_Svyrydenko
+2	ОксанаВасилівнаКоляда.1980	Оксана	Василівна	Коляда	1980-09-04	F		https://en.wikipedia.org/wiki/Oksana_Koliada
+3	ОлексійАнатолійовичОржель.1984	Олексій	Анатолійович	Оржель	1984-01-26	M		https://en.wikipedia.org/wiki/Oleksiy_Orzhel
+3	ВадимВолодимировичПристайко.1970	Вадим	Володимирович	Пристайко	1970-02-20	M		https://en.wikipedia.org/wiki/Vadym_Prystaiko
+4	ВладиславАртуровичКриклій.1986	Владислав	Артурович	Криклій	1986-11-23	M		https://en.wikipedia.org/wiki/Vladyslav_Krykliy
+2	ВолодимирВолодимировичБородянський.1974	Володимир	Володимирович	Бородянський	1974-01-15	M		https://en.wikipedia.org/wiki/Volodymyr_Borodiansky
+2	АндрійПавловичЗагороднюк.1976	Андрій	Павлович	Загороднюк	1976-12-05	M		https://en.wikipedia.org/wiki/Andrii_Zahorodniuk
+3	ГаннаІгорівнаНовосад.1990	Ганна	Ігорівна	Новосад	1990-07-28	F		https://en.wikipedia.org/wiki/Hanna_Novosad
+2	ЗорянаСтепанівнаСкалецька.1980	Зоряна	Степанівна	Скалецька	1980-08-09	F		https://en.wikipedia.org/wiki/Zoriana_Skaletska
+3	АльонаВалеріївнаБабак.1969	Альона	Валеріївна	Бабак	1969-09-27	F		https://en.wikipedia.org/wiki/Aliona_Babak
+2	ТимофійСергійовичМилованов.1975	Тимофій	Сергійович	Милованов	1975-03-18	M		https://en.wikipedia.org/wiki/Tymofiy_Mylovanov
+2	ЮліяСергіївнаСоколовська.1985	Юлія	Сергіївна	Соколовська	1985-04-12	F		https://en.wikipedia.org/wiki/Yuliya_Sokolovska
+4	ДенисЛеонтійовичМалюська.1981	Денис	Леонтійович	Малюська	1981-11-19	M		https://en.wikipedia.org/wiki/Denys_Maliuska
+2	ДмитроОлександровичДубілет.1985	Дмитро	Олександрович	Дубілет	1985-05-27	M		https://en.wikipedia.org/wiki/Dmytro_Dubilet
+2	ЮліяАнатоліївнаСвириденко.1985	Юлія	Анатоліївна	Свириденко	1985-12-25	F		https://en.wikipedia.org/wiki/Yulia_Svyrydenko
+2	ОльгаВіталіївнаСтефанішина.1985	Ольга	Віталіївна	Стефанішина	1985-10-29			https://en.wikipedia.org/wiki/Olha_Stefanishyna
+1	ІринаАндріївнаВерещук.1979	Ірина	Андріївна	Верещук	1979-11-30			https://en.wikipedia.org/wiki/Iryna_Vereshchuk
+5	ОлександрМиколайовичКубраков.1982	Олександр	Миколайович	Кубраков	1982-08-20			https://en.wikipedia.org/wiki/Oleksandr_Kubrakov
+2	РоманМиколайовичЛещенко.1988	Роман	Миколайович	Лещенко	1988-11-23			https://en.wikipedia.org/wiki/Roman_Leshchenko
+3	МиколаТарасовичСольський.1979	Микола	Тарасович	Сольський	1979-05-22			https://en.wikipedia.org/wiki/Mykola_Solskyi
+3	ДенисАнатолійовичМонастирський.1980	Денис	Анатолійович	Монастирський	1980-06-12			https://en.wikipedia.org/wiki/Denys_Monastyrsky
+2	ПавлоАндрійовичКухта.1985	Павло	Андрійович	Кухта	1985-12-03			https://en.wikipedia.org/wiki/Pavlo_Kukhta
+2	ІгорРостиславовичПетрашко.1975	Ігор	Ростиславович	Петрашко	1975-10-06			https://en.wikipedia.org/wiki/Ihor_Petrashko
+3	ОлексійМиколайовичЛюбченко.1971	Олексій	Миколайович	Любченко	1971-09-21			https://en.wikipedia.org/wiki/Oleksiy_Liubchenko
+1	ВіталійМиколайовичШубін.1982	Віталій	Миколайович	Шубін	1982-04-25		https://www.kmu.gov.ua/storage/app/sites/1/konkurs%20NKREKP/kandydaty/avtobiografiya-shubin.pdf	https://en.wikipedia.org/wiki/Vitaliy_Shubin
+1	ОльгаАнатоліївнаБуславець.1975	Ольга	Анатоліївна	Буславець	1975-03-05			https://en.wikipedia.org/wiki/Olha_Buslavets
+2	ЮрійМиколайовичБойко.1972	Юрій	Миколайович	Бойко	1972-02-28			https://uk.wikipedia.org/wiki/%D0%91%D0%BE%D0%B9%D0%BA%D0%BE_%D0%AE%D1%80%D1%96%D0%B9_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87_(%D0%B5%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BA)
+2	ЮрійЮрійовичВітренко.1976	Юрій	Юрійович	Вітренко	1976-09-17			https://en.wikipedia.org/wiki/Yuriy_Vitrenko
+3	ГерманВалерійовичГалущенко.1973	Герман	Валерійович	Галущенко	1973-05-01			https://en.wikipedia.org/wiki/German_Galushchenko
+2	РоманРомановичАбрамовський.1973	Роман	Романович	Абрамовський	1973-10-05			https://en.wikipedia.org/wiki/Roman_Abramovsky
+3	РусланОлександровичСтрілець.1984	Руслан	Олександрович	Стрілець	1984-06-30			https://en.wikipedia.org/wiki/Ruslan_Strilets
+2	АнатолійОлександровичМаксимчук.1980	Анатолій	Олександрович	Максимчук	1980-01-14			https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D1%87%D1%83%D0%BA_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87
+2	СвітланаВалеріївнаФоменко.1976	Світлана	Валеріївна	Фоменко	1976-11-19			https://en.wikipedia.org/wiki/Svitlana_Fomenko
+2	ОлександрВладиславовичТкаченко.1966	Олександр	Владиславович	Ткаченко	1966-01-22			https://en.wikipedia.org/wiki/Oleksandr_Tkachenko_(journalist)
+2	ВадимМарковичГутцайт.1971	Вадим	Маркович	Гутцайт	1971-10-06			https://en.wikipedia.org/wiki/Vadym_Gutzeit
+2	АндрійВасильовичТаран.1955	Андрій	Васильович	Таран	1955-03-04			https://en.wikipedia.org/wiki/Andriy_Taran
+4	ОлексійЮрійовичРезніков.1966	Олексій	Юрійович	Резніков	1966-06-18			https://en.wikipedia.org/wiki/Oleksii_Reznikov
+2	ЮрійЮрійовичПолюхович.1980	Юрій	Юрійович	Полюхович	1980-11-01			https://en.wikipedia.org/wiki/Yuriy_Polyukhovych
+2	ЛюбомираСтепанівнаМандзій.1973	Любомира	Степанівна	Мандзій	1973-05-10			https://en.wikipedia.org/wiki/Lubomyra_Mandziy
+3	СергійМиколайовичШкарлет.1972	Сергій	Миколайович	Шкарлет	1972-10-19			https://en.wikipedia.org/wiki/Serhiy_Shkarlet
+3	ІлляМиколайовичЄмець.1956	Ілля	Миколайович	Ємець	1956-02-21			https://en.wikipedia.org/wiki/Illia_Yemets
+2	МаксимВолодимировичСтепанов.1975	Максим	Володимирович	Степанов	1975-08-18			https://en.wikipedia.org/wiki/Maksym_Stepanov
+2	ВікторКириловичЛяшко.1980	Віктор	Кирилович	Ляшко	1980-04-24			https://en.wikipedia.org/wiki/Viktor_Liashko
+3	ОлегСеменовичУруський.1963	Олег	Семенович	Уруський	1963-04-13			https://en.wikipedia.org/wiki/Oleh_Urusky
+3	ПавлоБорисовичРябікін.1965	Павло	Борисович	Рябікін	1965-06-06			https://en.wikipedia.org/wiki/Pavlo_Riabikin
+2	ОлексійМихайловичЧернишов.1977	Олексій	Михайлович	Чернишов	1977-09-04			https://en.wikipedia.org/wiki/Oleksiy_Chernyshov
+2	ВасильМироновичЛозинський.1986	Василь	Миронович	Лозинський	1986-02-14			https://uk.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B7%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C_%D0%9C%D0%B8%D1%80%D0%BE%D0%BD%D0%BE%D0%B2%D0%B8%D1%87
+2	МаринаВолодимирівнаЛазебна.1975	Марина	Володимирівна	Лазебна	1975-06-10			https://en.wikipedia.org/wiki/Maryna_Lazebna
+2	ОксанаІванівнаЖолнович.1979	Оксана	Іванівна	Жолнович	1979-02-21			https://en.wikipedia.org/wiki/Oksana_Zholnovych
+2	СергійБорисовичБессараб.1955	Сергій	Борисович	Бессараб	1955-11-13			https://en.wikipedia.org/wiki/Serhiy_Bessarab
+2	ЮліяАнатоліївнаЛапутіна.1967	Юлія	Анатоліївна	Лапутіна	1967-01-01			https://en.wikipedia.org/wiki/Yulia_Laputina
+2	ІгорІвановичУманський.1975	Ігор	Іванович	Уманський	1975-01-09			https://en.wikipedia.org/wiki/Ihor_Umanskyi
+2	СергійМихайловичМарченко.1981	Сергій	Михайлович	Марченко	1981-01-24			https://en.wikipedia.org/wiki/Serhiy_Marchenko
+2	ОлегМиколайовичНемчінов.1977	Олег	Миколайович	Немчінов	1977-05-01			https://en.wikipedia.org/wiki/Oleh_Nemchinov
