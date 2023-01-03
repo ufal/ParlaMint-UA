@@ -123,8 +123,8 @@ $(link-speakers-RUN-ALL): link-speakers-%:
 
 TEI-TEXT-SPEAKERS_DATA_LAST := $(shell ls $(DATADIR)/tei-text-speakers | grep -v '_' | sort -r | head -n1)
 TEI-TEXT-SPEAKERS_DATA_ALL := $(shell ls $(DATADIR)/tei-text-speakers )
-tei-UD-RUN-LAST = $(addprefix tei-UD-, $(TEI-TEXT-SPEAKERS_DATA_LAST))
-tei-UD-RUN-ALL = $(addprefix tei-UD-, $(TEI-TEXT-SPEAKERS_DATA_ALL))
+tei-UD-RUN-LAST = $(addprefix tei-UD-, $(TEI-TEXT-LANG_DATA_LAST))
+tei-UD-RUN-ALL = $(addprefix tei-UD-, $(TEI-TEXT-LANG_DATA_ALL))
 tei-UD: tei-UD-last
 tei-UD-last: $(tei-UD-RUN-LAST)
 tei-UD-all: $(tei-UD-RUN-ALL)
@@ -140,7 +140,7 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	                             --debug \
 	                             --try2continue-on-error \
 	                             --filelist Data/tei-UD/$*.fl \
-	                             --input-dir Data/tei-text-speakers/$*/ \
+	                             --input-dir Data/tei-text-lang/$*/ \
 	                             --output-dir Data/tei-UD/$*/
 
 
