@@ -69,7 +69,7 @@ tei-text-lang-all: $(tei-text-lang-RUN-ALL)
 ## tei-text-lang-RUN ##
 $(tei-text-lang-RUN-ALL): tei-text-lang-%:
 	mkdir -p Data/tei-text-lang/$*/
-	rm -f Data/tei-text-lang/$*/*
+	rm -rf Data/tei-text-lang/$*/*
 	./Scripts/lang-detect.pl   --id $* \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh \
@@ -91,7 +91,7 @@ link-speakers2tei-text-all: $(link-speakers2tei-text-RUN-ALL)
 ## link-speakers2tei-text-RUN ##
 $(link-speakers2tei-text-RUN-ALL): link-speakers2tei-text-%:
 	mkdir -p Data/tei-text-speakers/$*/
-	rm -f Data/tei-text-speakers/$*/*
+	rm -rf Data/tei-text-speakers/$*/*
 	$s -xsl:Scripts/link-speakers2tei-text.xsl \
 	   -o:Data/tei-text-speakers/$*/ParlaMint-UA.xml \
 	      speaker-links="../Data/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
@@ -133,7 +133,7 @@ tei-UD-all: $(tei-UD-RUN-ALL)
 $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	echo "TODO: preprocess with language detection"
 	mkdir -p Data/tei-UD/$*/
-	ls Data/tei-text-speakers/$*/|grep 'ParlaMint-UA_' > Data/tei-UD/$*.fl
+	find Data/tei-text-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > Data/tei-UD/$*.fl
 	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
 	                             --model "uk:ukrainian-iu-ud-2.10-220711" \
 	                             --model "ru:russian-syntagrus-ud-2.10-220711" \
