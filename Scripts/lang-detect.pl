@@ -33,9 +33,16 @@ unless($input_dir){
   exit 1;
 }
 
+my ($teiCorpus_fileIn) = glob "$data_dir/$input_dir/$run_id/ParlaMint-UA.xml";
+unless($teiCorpus_fileIn){
+  print STDERR "no input corpus file $data_dir/$input_dir/$run_id/ParlaMint-UA.xml\n";
+  exit 1;
+}
+my $teiCorpus = open_xml($teiCorpus_fileIn);
 
-my @file_list = glob "$data_dir/$input_dir/$run_id/*_*.xml";
-my @component_ids;
+die "invalid corpus file" unless $teiCorpus;
+
+my @file_list = map {$_->getAttribute('href')} $teiCorpus->findnodes('/*[local-name() = "teiCorpus"]/*[local-name() = "include" and @href]');
 my $stat = {};
 
 exit 1 unless @file_list;
@@ -43,8 +50,8 @@ exit 1 unless @file_list;
 `mkdir -p $data_dir/$output_dir/$run_id`;
 
 
-for my $fileIn (@file_list){
-  my $tei = open_xml($fileIn);
+for my $file (@file_list){
+  my $tei = open_xml("$data_dir/$input_dir/$run_id/$file");
   for my $node ($tei->findnodes('.//*[local-name() = "seg"]')){
     my $role = $node->parentNode->getAttribute('ana');
     my $text = $node->textContent();
@@ -80,7 +87,7 @@ for my $fileIn (@file_list){
   }
   # check if not "uk" speech was made by someone who speaks "uk"
   # TODO
-  save_xml($tei,"$data_dir/$output_dir/$run_id/".basename($fileIn));
+  save_xml($tei,"$data_dir/$output_dir/$run_id/$file");
 }
 
 print STDERR "INFO: ",(scalar @file_list)," files processed\n";
