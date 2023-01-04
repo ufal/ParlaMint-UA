@@ -14,7 +14,7 @@ use HTML::Entities;
 use File::Basename;
 use File::Path;
 
-my ($data_dir, $run_id, $config_path, $process_subset,$file_id);
+my ($data_dir, $run_id, $config_path, $process_subset,$file_id, $subdir_by_year);
 
 
 GetOptions (
@@ -22,7 +22,8 @@ GetOptions (
             'id=s' => \$run_id,
             'config=s' => \$config_path,
             'file-id=s' => \$file_id,
-            'process-subset=s' => \$process_subset
+            'process-subset=s' => \$process_subset,
+            'subdir-by-year' => \$subdir_by_year,
         );
 print STDERR "$data_dir $run_id $config_path $process_subset\n\n";
 my %config = map {m/^([^=]*)="(.*)"$/; $1 => $2} split("\n",`./$config_path list`);
@@ -37,7 +38,7 @@ unless($input_dir){
 
 
 my @file_list = glob "$data_dir/$input_dir/$run_id/*.htm";
-my @component_ids;
+my @component_files;
 if($process_subset) {
   print STDERR "WARN: prunning processed files: /[^\\/]*${process_subset}[^\\/]*\\.htm/\n";
   @file_list = grep {m/^.*\/[^\/]*${process_subset}[^\/]*\.htm$/} @file_list
@@ -63,13 +64,18 @@ my $parser = XML::LibXML->new();
 
 for my $fileIn (@file_list){
   my ($dY,$dM,$dD,$suff) = $fileIn =~ m/(\d{4})(\d{2})(\d{2})(?:-(\d+))?\.htm$/;
+  my $subdir = '';
+  if($subdir_by_year){
+    $subdir = "$dY/";
+    `mkdir -p $data_dir/$output_dir/$run_id/$subdir`;
+  }
   my ($fileInName) = $fileIn =~ m/([^\/]*)$/;
   $suff //= 0;
   print STDERR "$fileIn\n\t$dY-$dM-$dD\t$suff\n";
   my $id = sprintf("%s_%04d-%02d-%02d-m%d",$file_id,$dY,$dM,$dD,$suff);
-  my $fileOut = sprintf("%s/%s/%s/%s.xml",$data_dir,$output_dir,$run_id,$id);
+  my $fileOut = sprintf("%s/%s/%s/%s%s.xml",$data_dir,$output_dir,$run_id,$subdir,$id);
   print STDERR "\t$fileOut\n";
-  push @component_ids, $id;
+  push @component_files, "$subdir$id.xml";
   my $htm = open_html($fileIn);
   my $tei = XML::LibXML::Document->new("1.0", "utf-8");
   my $root_node = XML::LibXML::Element->new('TEI');
@@ -266,10 +272,10 @@ $teiCorpus->setDocumentElement($corpus_root_node);
 $corpus_root_node->setNamespace('http://www.tei-c.org/ns/1.0','',1);
 $corpus_root_node->setAttributeNS('http://www.w3.org/XML/1998/namespace','id',$file_id);
 $corpus_root_node->addNewChild(undef,'teiHeader');
-for my $id (sort @component_ids){
+for my $component_file (sort @component_files){
   my $incl = $corpus_root_node->addNewChild(undef,'include');
   $incl->setNamespace('http://www.w3.org/2001/XInclude','xi',1);
-  $incl->setAttribute('href',"$id.xml");
+  $incl->setAttribute('href',$component_file);
 }
 save_xml($teiCorpus,sprintf("%s/%s/%s/%s.xml",$data_dir,$output_dir,$run_id,$file_id));
 

@@ -52,6 +52,7 @@ html2tei-text-all: $(html2tei-text-RUN-ALL)
 ## html2tei-text-RUN ##
 $(html2tei-text-RUN-ALL): html2tei-text-%:
 	./Scripts/html2tei-text.pl --id $* \
+	                           --subdir-by-year \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh \
 	                           --file-id "ParlaMint-UA" \
