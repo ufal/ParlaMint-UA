@@ -4,9 +4,10 @@ use warnings;
 use strict;
 use open qw(:std :utf8);
 use utf8;
-use Getopt::Long;
+use Getopt::Long qw(:config debug);
 use XML::LibXML;
 use XML::LibXML::PrettyPrint;
+use Encode qw(decode encode);
 
 
 use File::Basename;
@@ -14,13 +15,15 @@ use File::Path;
 
 use Lingua::Identify::Any qw/detect_text_language/;
 use Data::Dumper;
-my ($data_dir, $run_id, $config_path,$lang_stats);
+my ($data_dir, $run_id, $config_path,$lang_stats,@langs);
 
+my $lang_translations = {};
 
 GetOptions (
             'data-dir=s' => \$data_dir,
             'id=s' => \$run_id,
             'config=s' => \$config_path,
+            'lang=s' => \@langs,
             'speaker-lang-stats' => \$lang_stats
         );
 my %config = map {m/^([^=]*)="(.*)"$/; $1 => $2} grep{m/^([^=]*)="(.*)"$/} split("\n",`./$config_path list`);
@@ -44,11 +47,26 @@ die "invalid corpus file" unless $teiCorpus;
 
 my @file_list = map {$_->getAttribute('href')} $teiCorpus->findnodes('/*[local-name() = "teiCorpus"]/*[local-name() = "include" and @href]');
 my $stat = {};
+my %usage_len;
 
 exit 1 unless @file_list;
 
 `mkdir -p $data_dir/$output_dir/$run_id`;
 
+for my $l (@langs){
+  $l = decode('UTF-8', $l, Encode::FB_CROAK);
+  my ($lang,$translations) = $l =~ m/^(\w+):((?:\w+=\p{Ll}+)(?:,\w+=\p{Ll}+)*)$/;
+  if($lang){
+    $lang_translations->{$lang} //= {};
+    for my $tr (split(',',$translations)){
+      my ($c,$t) = $tr =~ m/^(\w+)=(\p{Ll}+)$/;
+      $lang_translations->{$lang}->{$c} = $t;
+      print STDERR "INFO: translation of $lang into $c is $t\n";
+    }
+  }  else {
+    print STDERR "ERROR: invalid option format --lang '$l'. Expected value: '{lang_code}:{translation_lang_code}={translation_lang_name},{translation_lang_code2}={translation_lang_name2}'\n"
+  }
+}
 
 for my $file (@file_list){
   my $tei = open_xml("$data_dir/$input_dir/$run_id/$file");
@@ -77,7 +95,8 @@ for my $file (@file_list){
     if($lang eq 'ru' && length($node->textContent())<200 && $role eq '#chair'){
       $lang = 'uk';
     }
-
+    $usage_len{$lang} //= 0;
+    $usage_len{$lang} += length($node->textContent());
     $node->setAttributeNS('http://www.w3.org/XML/1998/namespace','lang',$lang);
     my $u = $node->parentNode;
     $stat->{$u->getAttribute('who')} //= {};
@@ -91,6 +110,37 @@ for my $file (@file_list){
 }
 
 print STDERR "INFO: ",(scalar @file_list)," files processed\n";
+
+my $total_len = 0;
+for my $l (keys %usage_len){
+  $total_len += $usage_len{$l};
+  print STDERR "INFO: language $l contains $usage_len{$l} characters\n";
+}
+if(@langs){
+  my $node = $teiCorpus->documentElement();
+  for my $node_name (qw/teiHeader profileDesc langUsage/){
+    my ($n) = grep {$_->nodeName eq $node_name} $node->childNodes;
+    if($n){
+      $node = $n;
+    } else {
+      $node = $node->addNewChild('http://www.tei-c.org/ns/1.0',$node_name);
+    }
+  }
+  for my $l (sort {$usage_len{$b} <=> $usage_len{$a}} keys %usage_len){
+    my $perc = sprintf("%.0f",100*$usage_len{$l}/$total_len);
+    print STDERR "INFO: language $l contains $perc \%\n";
+    for my $c (sort keys %{$lang_translations->{$l}}){
+      my $lnode = $node->addNewChild('http://www.tei-c.org/ns/1.0','language');
+      $lnode->setAttributeNS('http://www.w3.org/XML/1998/namespace','lang',$c);
+      $lnode->setAttribute('ident',$l);
+      $lnode->setAttribute('usage',$perc);
+      $lnode->appendTextNode($lang_translations->{$l}->{$c});
+    }
+  }
+}
+
+  save_xml($teiCorpus,"$data_dir/$output_dir/$run_id/".basename($teiCorpus_fileIn));
+
 
 if($lang_stats){
   my $file = "$data_dir/$output_dir/$run_id/speaker_lang_stat.tsv";

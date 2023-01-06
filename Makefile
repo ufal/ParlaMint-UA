@@ -77,6 +77,8 @@ $(tei-text-lang-RUN-ALL): tei-text-lang-%:
 	./Scripts/lang-detect.pl   --id $* \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh \
+	                           --lang "uk:en=ukrainian,uk=українська" \
+	                           --lang "ru:en=russian,uk=російська" \
 	                           --speaker-lang-stats
 
 
