@@ -18,6 +18,10 @@ GSIDaffiliation := 1800909923
 GSIDorg := 1140033767
 GSIDevent := 19173850
 GSIDrelation := 1419083904
+
+
+-include Makefile.env
+
 ###### steno:
 
 .PHONY: $(download-NN) download
@@ -135,6 +139,7 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	mkdir -p Data/tei-UD/$*/
 	find Data/tei-text-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > Data/tei-UD/$*.fl
 	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
+	                             $(TOKEN) \
 	                             --model "uk:ukrainian-iu-ud-2.10-220711" \
 	                             --model "ru:russian-syntagrus-ud-2.10-220711" \
 	                             --elements "seg" \
