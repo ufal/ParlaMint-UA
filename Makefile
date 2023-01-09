@@ -7,8 +7,8 @@ xpath = xargs -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off
 ##$TERMS## Terms that are processed.
 TERMS = 7 8 9
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
-DATA := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA/"')
-DATADIR = ${DATA}Data
+DATA := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA" || pwd')
+DATADIR = ${DATA}/Data
 
 DATE := $(shell sh -c 'date +"%Y%m%dT%H%M%S"')
 
@@ -72,8 +72,8 @@ tei-text-lang-all: $(tei-text-lang-RUN-ALL)
 
 ## tei-text-lang-RUN ##
 $(tei-text-lang-RUN-ALL): tei-text-lang-%:
-	mkdir -p Data/tei-text-lang/$*/
-	rm -rf Data/tei-text-lang/$*/*
+	mkdir -p $(DATADIR)/tei-text-lang/$*/
+	rm -rf $(DATADIR)/tei-text-lang/$*/*
 	./Scripts/lang-detect.pl   --id $* \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh \
@@ -96,14 +96,14 @@ link-speakers2tei-text-all: $(link-speakers2tei-text-RUN-ALL)
 
 ## link-speakers2tei-text-RUN ##
 $(link-speakers2tei-text-RUN-ALL): link-speakers2tei-text-%:
-	mkdir -p Data/tei-text-speakers/$*/
-	rm -rf Data/tei-text-speakers/$*/*
+	mkdir -p $(DATADIR)/tei-text-speakers/$*/
+	rm -rf $(DATADIR)/tei-text-speakers/$*/*
 	$s -xsl:Scripts/link-speakers2tei-text.xsl \
-	   -o:Data/tei-text-speakers/$*/ParlaMint-UA.xml \
-	      speaker-links="../Data/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
-	      in-dir="../Data/tei-text-lang/$*/" \
-	      out-dir="../Data/tei-text-speakers/$*/" \
-	      Data/tei-text/$*/ParlaMint-UA.xml
+	   -o:$(DATADIR)/tei-text-speakers/$*/ParlaMint-UA.xml \
+	      speaker-links="$(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
+	      in-dir="$(DATADIR)/tei-text-lang/$*/" \
+	      out-dir="$(DATADIR)/tei-text-speakers/$*/" \
+	      $(DATADIR)/tei-text/$*/ParlaMint-UA.xml
 
 
 link-speakers-RUN-ALL = $(addprefix link-speakers-, $(TEI-TEXT_DATA_ALL))
@@ -115,8 +115,8 @@ link-speakers-all: $(link-speakers-RUN-ALL)
 
 ## link-speakers-RUN ##
 $(link-speakers-RUN-ALL): link-speakers-%:
-	mkdir -p Data/link-speakers/$*/
-	rm -f Data/link-speakers/$*/*
+	mkdir -p $(DATADIR)/link-speakers/$*/
+	rm -f $(DATADIR)/link-speakers/$*/*
 	./Scripts/link-speakers.pl --id $* \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh \
@@ -138,8 +138,8 @@ tei-UD-all: $(tei-UD-RUN-ALL)
 
 $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	echo "TODO: preprocess with language detection"
-	mkdir -p Data/tei-UD/$*/
-	find Data/tei-text-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > Data/tei-UD/$*.fl
+	mkdir -p $(DATADIR)/tei-UD/$*/
+	find $(DATADIR)/tei-text-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > $(DATADIR)/tei-UD/$*.fl
 	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
 	                             $(TOKEN) \
 	                             --model "uk:ukrainian-iu-ud-2.10-220711" \
@@ -147,9 +147,9 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	                             --elements "seg" \
 	                             --debug \
 	                             --try2continue-on-error \
-	                             --filelist Data/tei-UD/$*.fl \
-	                             --input-dir Data/tei-text-lang/$*/ \
-	                             --output-dir Data/tei-UD/$*/
+	                             --filelist $(DATADIR)/tei-UD/$*.fl \
+	                             --input-dir $(DATADIR)/tei-text-lang/$*/ \
+	                             --output-dir $(DATADIR)/tei-UD/$*/
 
 
 
@@ -166,8 +166,8 @@ speaker-calls-all: $(speaker-calls-RUN-ALL)
 
 ## speaker-calls-RUN ##
 $(speaker-calls-RUN-ALL): speaker-calls-%:
-	mkdir -p Data/speaker-calls/$*/
-	rm -f Data/speaker-calls/$*/*
+	mkdir -p $(DATADIR)/speaker-calls/$*/
+	rm -f $(DATADIR)/speaker-calls/$*/*
 	./Scripts/speaker-calls.pl --id $* \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh
@@ -201,8 +201,8 @@ $(tei-particDesc-RUN-LAST): tei-particDesc-%: tei-particDesc-preprocess-% tei-pa
 	@find $(DATADIR)/tei-particDesc-preprocess/$* -type f|sed 's/^/\t/'
 	echo "<?xml version=\"1.0\" ?>\n<root/>" | \
 	  $s -s:- -xsl:Scripts/metadata.xsl \
-	      in-dir=../Data/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ \
-	      out-dir=Data/tei-particDesc/$(DOWNLOAD_META_DATA_LAST)/
+	      in-dir=$(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ \
+	      out-dir=$(DATADIR)/tei-particDesc/$(DOWNLOAD_META_DATA_LAST)/
 
 
 
@@ -220,8 +220,8 @@ $(tei-particDesc-preprocess-RUN-LAST): tei-particDesc-preprocess-%:
 	echo "<?xml version=\"1.0\" ?>\n<root/>" | \
 	  $s -s:- -xsl:Scripts/metadata-preprocess.xsl \
 	      terms="$(DOWNLOAD_META_DATA_LAST_TERMS)" \
-	      in-dir=../Data/tei-particDesc-preprocess/$*/ \
-	      out-dir=Data/tei-particDesc-preprocess/$*/
+	      in-dir=$(DATADIR)/tei-particDesc-preprocess/$*/ \
+	      out-dir=$(DATADIR)/tei-particDesc-preprocess/$*/
 
 tei-particDesc-gov-RUN-LAST = $(addprefix tei-particDesc-gov-, $(DOWNLOAD_META_DATA_LAST))
 tei-particDesc-gov: $(tei-particDesc-gov-RUN-LAST)
@@ -293,7 +293,7 @@ create-all-stats:
 
 search-text:
 	mkdir -p DataSearchResults
-	grep -rnioP 'Мініст[\p{Lu}\p{Lt}\p{Ll}]*[^\.]{0,20}?(?:\s+\p{Lu}[\p{Lu}\p{Lt}\p{Ll}]*){3}' Data/tei-text/$(TEI-TEXT_DATA_LAST)/\
+	grep -rnioP 'Мініст[\p{Lu}\p{Lt}\p{Ll}]*[^\.]{0,20}?(?:\s+\p{Lu}[\p{Lu}\p{Lt}\p{Ll}]*){3}' $(DATADIR)/tei-text/$(TEI-TEXT_DATA_LAST)/\
 	  |sed "s/^.*UA_//;s/-..-m..xml:[0-9]*:/\t/"|sed 's/"//g'|sort|uniq > DataSearchResults/minister_name_context.tsv
 
 
