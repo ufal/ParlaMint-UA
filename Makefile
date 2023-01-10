@@ -9,6 +9,7 @@ TERMS = 7 8 9
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATA := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA" || pwd')
 DATADIR = ${DATA}/Data
+TAXONOMIES := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA/current/taxonomies" || echo -n `pwd`"/taxonomies"')
 
 DATE := $(shell sh -c 'date +"%Y%m%dT%H%M%S"')
 
@@ -140,6 +141,7 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	echo "TODO: preprocess with language detection"
 	mkdir -p $(DATADIR)/tei-UD/$*/
 	find $(DATADIR)/tei-text-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > $(DATADIR)/tei-UD/$*.fl
+	cp $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml $(DATADIR)/tei-UD/$*/
 	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
 	                             $(TOKEN) \
 	                             --model "uk:ukrainian-iu-ud-2.10-220711" \
@@ -155,8 +157,8 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 
 
 
-TEI-UD_DATA_LAST := $(shell ls $(DATADIR)/tei-UD | grep -v '_' | sort -r | head -n1)
-TEI-UD_DATA_ALL := $(shell ls $(DATADIR)/tei-UD )
+TEI-UD_DATA_LAST := $(shell ls $(DATADIR)/tei-UD | grep -v '_'|grep -v '\.fl$$' | sort -r | head -n1)
+TEI-UD_DATA_ALL := $(shell ls $(DATADIR)/tei-UD | grep -v '\.fl$$')
 speaker-calls-RUN-ALL = $(addprefix speaker-calls-, $(TEI-UD_DATA_ALL))
 speaker-calls-RUN-LAST = $(addprefix speaker-calls-, $(TEI-UD_DATA_LAST))
 ## speaker-calls ## speaker-callss
@@ -235,8 +237,28 @@ $(tei-particDesc-gov-RUN-LAST): tei-particDesc-gov-%:
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDrelation)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-relation.tsv
 
 
+######
+
+PARTICDESC_DATA_LAST := $(shell ls $(DATADIR)/tei-particDesc | grep -v '_' | sort -r | head -n1)
 
 
+TEI.ana-RUN-ALL = $(addprefix TEI.ana-, $(TEI-UD_DATA_ALL))
+TEI.ana-RUN-LAST = $(addprefix TEI.ana-, $(TEI-UD_DATA_LAST))
+## TEI.ana ## TEI.anas
+TEI.ana: TEI.ana-last
+TEI.ana-last: $(TEI.ana-RUN-LAST)
+TEI.ana-all: $(TEI.ana-RUN-ALL)
+
+## TEI.ana-RUN ##
+$(TEI.ana-RUN-ALL): TEI.ana-%:
+	mkdir -p $(DATADIR)/release/$*
+	$s -xsl:Scripts/ParlaMint-UA-finalize.xsl \
+	    outDir=$(DATADIR)/release/$* \
+	    inListPerson=$(DATADIR)/tei-particDesc/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listPerson.xml  \
+	    inListOrg=$(DATADIR)/tei-particDesc/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listOrg.xml \
+	    inTaxonomiesDir=$(TAXONOMIES) \
+	    type=TEI.ana \
+	    $(DATADIR)/tei-UD/$*/ParlaMint-UA.xml
 
 
 ###### other:
