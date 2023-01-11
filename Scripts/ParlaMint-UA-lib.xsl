@@ -8,6 +8,13 @@
   exclude-result-prefixes="#all">
 
 
+  <xsl:template name="copy-file">
+    <xsl:param name="in"/>
+    <xsl:param name="out"/>
+    <xsl:message select="concat('INFO: copying file ',$in,' ',$out)"/>
+    <xsl:result-document href="{$out}" method="text"><xsl:value-of select="unparsed-text($in,'UTF-8')"/></xsl:result-document>
+  </xsl:template>
+
   <xsl:template name="read-csv">
     <xsl:param name="file"/>
     <xsl:param name="source"/>

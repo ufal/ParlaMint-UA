@@ -35,6 +35,16 @@
   <!-- The name of the corpus directory to output to, i.e. "ParlaMint-XX" -->
   <xsl:variable name="corpusDir" select="concat('ParlaMint-UA.',$type)"/>
 
+  <xsl:variable name="taxonomies">
+    <item>ParlaMint-taxonomy-parla.legislature.xml</item>
+    <item>ParlaMint-taxonomy-speaker_types.xml</item>
+    <item>ParlaMint-taxonomy-subcorpus.xml</item>
+    <xsl:if test="$type = 'TEI.ana'">
+      <item>ParlaMint-taxonomy-UD-SYN.ana.xml</item>
+      <item>ParlaMint-taxonomy-NER.ana.xml</item>
+    </xsl:if>
+  </xsl:variable>
+
   <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   <xsl:variable name="outRoot">
     <xsl:value-of select="$outDir"/>
@@ -378,7 +388,7 @@
         <xsl:sort select="@href"/>
         <xsl:variable name="href" select="@href"/>
         <xsl:variable name="new-href" select="$docs/tei:item[./tei:xi-orig/text() = $href]/tei:xi-new/text()"/>
-        <xsl:message select="concat('info: Fixing xi:include: ',$href,' ',$new-href)"/>
+        <xsl:message select="concat('INFO: Fixing xi:include: ',$href,' ',$new-href)"/>
         <xsl:copy>
           <xsl:attribute name="href" select="$new-href"/>
         </xsl:copy>
@@ -456,13 +466,15 @@
           </xsl:with-param>
         </xsl:call-template>
         <classDecl>
-          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
-          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
-          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
-          <xsl:if test="$type = 'TEI.ana'">
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-NER.ana.xml"/>
-          </xsl:if>
+          <xsl:for-each select="$taxonomies/tei:item/text()">
+            <xsl:sort select="."/>
+            <xsl:variable name="taxonomy" select="."/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="{$taxonomy}"/>
+            <xsl:call-template name="copy-file">
+              <xsl:with-param name="in" select="concat($inTaxonomiesDir,'/',$taxonomy)"/>
+              <xsl:with-param name="out" select="concat($outDir,'/',$corpusDir, '/',$taxonomy)"/>
+            </xsl:call-template>
+          </xsl:for-each>
         </classDecl>
         <xsl:if test="$type = 'TEI.ana'">
           <listPrefixDef>
@@ -493,7 +505,15 @@
       </textClass>
       <particDesc>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-UA-listOrg.xml"/>
+        <xsl:call-template name="copy-file">
+          <xsl:with-param name="in" select="$inListOrg"/>
+          <xsl:with-param name="out" select="concat($outDir,'/',$corpusDir, '/ParlaMint-UA-listOrg.xml')"/>
+        </xsl:call-template>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-UA-listPerson.xml"/>
+        <xsl:call-template name="copy-file">
+          <xsl:with-param name="in" select="$inListPerson"/>
+          <xsl:with-param name="out" select="concat($outDir,'/',$corpusDir, '/ParlaMint-UA-listPerson.xml')"/>
+        </xsl:call-template>
       </particDesc>
       <xsl:apply-templates select="tei:langUsage"/>
     </xsl:copy>

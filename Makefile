@@ -9,7 +9,7 @@ TERMS = 7 8 9
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATA := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA" || pwd')
 DATADIR = ${DATA}/Data
-TAXONOMIES := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA/current/taxonomies" || echo -n `pwd`"/taxonomies"')
+TAXONOMIES := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA/current/Taxonomies" || echo -n `pwd`"/Taxonomies"')
 
 DATE := $(shell sh -c 'date +"%Y%m%dT%H%M%S"')
 
@@ -259,6 +259,25 @@ $(TEI.ana-RUN-ALL): TEI.ana-%:
 	    inTaxonomiesDir=$(TAXONOMIES) \
 	    type=TEI.ana \
 	    $(DATADIR)/tei-UD/$*/ParlaMint-UA.xml
+
+TEI-RUN-ALL = $(addprefix TEI-, $(TEI-UD_DATA_ALL))
+TEI-RUN-LAST = $(addprefix TEI-, $(TEI-UD_DATA_LAST))
+## TEI.ana ## TEI.anas
+TEI: TEI-last
+TEI-last: $(TEI-RUN-LAST)
+TEI-all: $(TEI-RUN-ALL)
+
+## TEI-RUN ##
+$(TEI-RUN-ALL): TEI-%:
+	mkdir -p $(DATADIR)/release/$*
+	$s -xsl:Scripts/ParlaMint-UA-finalize.xsl \
+	    outDir=$(DATADIR)/release/$* \
+	    inListPerson=$(DATADIR)/tei-particDesc/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listPerson.xml  \
+	    inListOrg=$(DATADIR)/tei-particDesc/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listOrg.xml \
+	    inTaxonomiesDir=$(TAXONOMIES) \
+	    anaDir=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana \
+	    type=TEI \
+	    $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml
 
 
 ###### other:
