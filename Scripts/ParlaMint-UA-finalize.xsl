@@ -50,7 +50,12 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
-
+  <xsl:variable name="suff">
+    <xsl:choose>
+      <xsl:when test="$type = 'TEI.ana'">.ana</xsl:when>
+      <xsl:otherwise><text/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
   <!-- Gather URIs of component xi + files and map to new files, incl. .ana files -->
   <xsl:variable name="docs">
     <xsl:for-each select="/tei:teiCorpus/xi:include">
@@ -235,11 +240,18 @@
       </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
+  <xsl:template mode="comp" match="tei:TEI/@xml:id">
+    <xsl:attribute name="xml:id">
+      <xsl:value-of select="concat(.,$suff)"/>
+    </xsl:attribute>
+  </xsl:template>
 
   <xsl:template mode="comp" match="tei:titleStmt">
     <xsl:param name="date"/>
     <xsl:copy>
       <xsl:comment>TODO: title</xsl:comment>
+      <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term <xsl:value-of select="./tei:meeting[contains(@ana,'#parla.term')]/@n"/>, session <xsl:value-of select="./tei:meeting[contains(@ana,'#parla.session')]/@n"/>, sitting day <xsl:value-of select="$date"/><xsl:value-of select="replace(ancestor::tei:TEI/@xml:id,'^.*m',' n')"/> [ParlaMint<xsl:value-of select="$suff"/>]</title>
+
       <xsl:apply-templates select="tei:meeting"/>
       <meeting ana="#parla.sitting #parla.uni">
         <xsl:attribute name="n" select="$date"/>
@@ -272,21 +284,17 @@
   </xsl:template>
 
   <!-- Same as for root -->
-  <xsl:template mode="comp" match="tei:publicationStmt/tei:date">
-    <xsl:apply-templates select="."/>
+  <xsl:template mode="comp" match="tei:publicationStmt">
+    <xsl:call-template name="add-publicationStmt"/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:editionStmt/tei:edition">
-    <xsl:apply-templates select="."/>
-  </xsl:template>
-  <xsl:template mode="comp" match="tei:idno[contains(., 'http://hdl.handle.net/11356/')]">
-    <xsl:apply-templates select="."/>
-  </xsl:template>
-  <xsl:template mode="comp" match="tei:publicationStmt[tei:idno]/
-                       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
-    <xsl:apply-templates select="."/>
+    <xsl:call-template name="add-edition"/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:meeting">
     <xsl:apply-templates select="."/>
+  </xsl:template>
+  <xsl:template mode="comp" match="tei:settingDesc/tei:setting">
+    <xsl:call-template name="add-setting"/>
   </xsl:template>
 
   <xsl:template mode="comp" match="tei:encodingDesc">
@@ -378,12 +386,18 @@
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template match="tei:teiCorpus/@xml:id">
+    <xsl:attribute name="xml:id">
+      <xsl:value-of select="concat(.,$suff)"/>
+    </xsl:attribute>
+  </xsl:template>
+
   <xsl:template match="tei:teiHeader">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <fileDesc>
         <xsl:element name="titleStmt" xmlns="http://www.tei-c.org/ns/1.0">
-          <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA [ParlaMint]</title>
+          <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA [ParlaMint<xsl:value-of select="$suff"/>]</title>
           <title type="sub" xml:lang="en">Ukrainian parliament <xsl:value-of select="concat($corpusFrom,' - ',$corpusTo)"/></title>
           <xsl:for-each select="distinct-values($terms//tei:meeting/@n)">
             <xsl:sort select="."/>
@@ -394,7 +408,7 @@
           <xsl:call-template name="add-funder"/>
         </xsl:element>
         <editionStmt>
-
+          <xsl:call-template name="add-edition"/>
         </editionStmt>
         <extent>
           <xsl:call-template name="add-measure-speeches">
@@ -404,9 +418,7 @@
             <xsl:with-param name="quantity" select="sum($words/tei:item)"/>
           </xsl:call-template>
         </extent>
-        <publicationStmt>
-
-        </publicationStmt>
+        <xsl:call-template name="add-publicationStmt"/>
         <sourceDesc>
           <bibl>
             <xsl:call-template name="add-bibl-title"/>
@@ -454,24 +466,35 @@
         </classDecl>
         <xsl:if test="$type = 'TEI.ana'">
           <listPrefixDef>
+            <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+               <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
           </listPrefixDef>
+          <appInfo>
+            <application ident="UDPipe" version="2">
+               <label>UDPipe 2 (ukrainian-iu-ud-2.10-220711 and russian-syntagrus-ud-2.10-220711 models)</label>
+               <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with ukrainian-iu-ud-2.10-220711 and russian-syntagrus-ud-2.10-220711 models</desc>
+               <xsl:comment></xsl:comment>
+            </application>
+          </appInfo>
         </xsl:if>
-        <appInfo></appInfo>
       </encodingDesc>
       <xsl:apply-templates select="tei:profileDesc"/>
     </xsl:copy>
   </xsl:template>
 
-
-
   <xsl:template match="tei:profileDesc">
     <xsl:copy>
-      <settingDesc></settingDesc>
-      <textClass></textClass>
-      <classDecl></classDecl>
-      <xsl:if test="$type = 'TEI.ana'">
-        <listPrefixDef></listPrefixDef>
-      </xsl:if>
+      <settingDesc>
+        <xsl:call-template name="add-setting"/>
+      </settingDesc>
+      <textClass>
+        <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
+      </textClass>
+      <particDesc>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-UA-listOrg.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-UA-listPerson.xml"/>
+      </particDesc>
       <xsl:apply-templates select="tei:langUsage"/>
     </xsl:copy>
   </xsl:template>
@@ -479,7 +502,6 @@
   <xsl:template name="add-bibl-title">
     <title type="main" xml:lang="uk">Верхо́вна Ра́да Украї́ни</title>
   </xsl:template>
-
 
   <xsl:template name="add-measure-words">
     <xsl:param name="quantity"/>
@@ -536,8 +558,17 @@
   </xsl:template>
 
   <xsl:template name="add-respStmt">
+    <respStmt>
+      <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+      <resp xml:lang="en">Data retrieval</resp>
+      <resp xml:lang="en">TEI XML corpus encoding</resp>
+      <xsl:if test="$type = 'TEI.ana'">
+        <resp xml:lang="en">Linguistic annotation</resp>
+      </xsl:if>
+    </respStmt>
     <xsl:element name="respStmt">
-      <xsl:comment>TODO: respStmt</xsl:comment>
+      <persName>Anna Kryvenko</persName>
+      <xsl:comment>TODO: respStmt Anna</xsl:comment>
     </xsl:element>
   </xsl:template>
 
@@ -547,12 +578,48 @@
     </xsl:element>
   </xsl:template>
 
+  <xsl:template name="add-setting">
+    <setting>
+      <name type="org">Верхо́вна Ра́да Украї́ни</name>
+      <name type="address">вулиця Михайла Грушевського, 5</name>
+      <name type="city">Київ</name>
+      <name key="UA" type="country">Україна</name>
+      <xsl:choose>
+        <xsl:when test="./tei:date[parent::tei:setting]/@when">
+          <xsl:apply-templates select="./tei:date"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <date from="{$corpusFrom}" to="{$corpusTo}"><xsl:value-of select="concat($corpusFrom,' - ',$corpusTo)"/></date>
+        </xsl:otherwise>
+      </xsl:choose>
+    </setting>
+  </xsl:template>
+
+
+  <xsl:template name="add-edition">
+    <edition><xsl:value-of select="$version"/></edition>
+  </xsl:template>
+
+  <xsl:template name="add-publicationStmt">
+    <publicationStmt>
+      <publisher>
+        <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+        <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+      </publisher>
+      <idno type="URI"><xsl:comment>TODO</xsl:comment></idno>
+      <availability status="free">
+        <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+        <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+        <p xml:lang="uk">Цей твір ліцензовано на умовахЛіцензії <ref target="http://creativecommons.org/licenses/by/4.0/">Зазначення Авторства 4.0 Міжнародна</ref>.</p>
+        </availability>
+      <date when="{$today}"><xsl:value-of select="$today"/></date>
+    </publicationStmt>
+  </xsl:template>
+
   <xsl:template name="add-projectDesc">
     <projectDesc>
       <p xml:lang="uk"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref></p>
       <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
     </projectDesc>
   </xsl:template>
-
-
 </xsl:stylesheet>
