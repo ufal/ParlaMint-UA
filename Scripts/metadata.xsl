@@ -57,6 +57,7 @@
         <xsl:variable name="person" select="."/>
         <xsl:element name="person" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:attribute name="xml:id" select="$person/@parlamint-id"/>
+          <xsl:attribute name="n" select="max($person/term/@term)"/>
           <xsl:element name="persName" xmlns="http://www.tei-c.org/ns/1.0">
             <xsl:element name="forename" xmlns="http://www.tei-c.org/ns/1.0">
               <xsl:value-of select="string-join(distinct-values($person/term/firstname),' ')"/>
@@ -141,6 +142,7 @@
         <xsl:element name="person" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:variable name="id" select="$person/col[@name='PersonID']"/>
           <xsl:attribute name="xml:id" select="$id"/>
+          <xsl:attribute name="n">9999</xsl:attribute>
           <xsl:variable name="forename" select="$person/col[@name='Forename']"/>
           <xsl:variable name="patronymic" select="$person/col[@name='Patronymic']"/>
           <xsl:variable name="surname" select="$person/col[@name='Surname']"/>
@@ -253,11 +255,13 @@
           <xsl:sort select="."/>
           <xsl:variable name="id" select="."/>
           <xsl:variable name="person" select="$listPerson-dupl/tei:listPerson/tei:person[@xml:id=$id]"/>
+          <xsl:variable name="newest" select="max($person/@n)"/>
+          <xsl:variable name="personN" select="$person[@n = $newest or (not($newest) and position()=1)]"/>
           <xsl:element name="person" xmlns="http://www.tei-c.org/ns/1.0">
             <xsl:attribute name="xml:id" select="$id"/>
-            <xsl:apply-templates select="$person/tei:persName[1]"/>
-            <xsl:apply-templates select="$person/tei:birth[1]"/>
-            <xsl:apply-templates select="$person/tei:sex[1]"/>
+            <xsl:apply-templates select="$personN/tei:persName"/>
+            <xsl:apply-templates select="$personN/tei:birth"/>
+            <xsl:apply-templates select="$personN/tei:sex"/>
             <xsl:apply-templates select="$person/tei:idno"/>
             <xsl:apply-templates select="$person/tei:figure"/>
             <xsl:apply-templates select="$person/tei:affiliation | $person/comment()"/>
@@ -265,6 +269,11 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    <!--
+    <xsl:result-document href="{$listPerson-path}.DUPL" method="xml">
+      <xsl:copy-of select="$listPerson-dupl"/>
+    </xsl:result-document>
+    -->
     <xsl:variable name="listOrg-path" select="concat($out-dir,'ParlaMint-UA-listOrg.xml')"/>
     <xsl:message select="concat('Saving ',$listOrg-path)"/>
     <xsl:result-document href="{$listOrg-path}" method="xml">
