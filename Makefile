@@ -6,6 +6,7 @@ xpath = xargs -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off
 
 ##$TERMS## Terms that are processed.
 TERMS = 7 8 9
+TERMSMETA = 2 3 4 5 6 7 8 9
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATA := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA" || pwd')
 DATADIR = ${DATA}/Data
@@ -178,8 +179,8 @@ $(speaker-calls-RUN-ALL): speaker-calls-%:
 
 ###### metadata:
 .PHONY: $(download-meta-NN) download-meta
-download-meta-NN = $(addprefix download-meta-, $(TERMS))
-## download-meta ## metadata from all terms defined in variable TERM
+download-meta-NN = $(addprefix download-meta-, $(TERMSMETA))
+## download-meta ## metadata from all terms defined in variable TERMSMETA
 download-meta: $(download-meta-NN)
 	wget https://data.rada.gov.ua/ogd/zal/mps/mps-trans_fr.csv -O $(DATADIR)/download-meta/$(DATE)/ogd_zal_mps_mps-trans_fr.csv
 ## download-meta-NN ## Downloads all metadata from term NN
@@ -188,7 +189,14 @@ $(download-meta-NN): download-meta-%:
 	wget https://data.rada.gov.ua/ogd/mps/skl$*/mps-data.xml -O $(DATADIR)/download-meta/$(DATE)/ogd_mps_skl$*_mps-data.xml
 	$(eval SKL := $(shell echo $* | sed "s/^/0/"| sed "s/\(..\)$$/\1/" ))
 	wget https://data.rada.gov.ua/ogd/mps/skl$*/mps$(SKL)-data.xml -O $(DATADIR)/download-meta/$(DATE)/ogd_mps_skl$*_mps$(SKL)-data.xml
-	wget https://data.rada.gov.ua/ogd/zal/ppz/skl$*/plenary_speech-skl$*.csv -O $(DATADIR)/download-meta/$(DATE)/ogd_zal_ppz_skl$*_plenary_speech-skl$*.csv
+
+download-meta-speeches-NN = $(addprefix download-meta-speeches-, $(TERMS))
+## download-meta-speeches ## metadata about plenary speeches from all terms defined in variable TERMS
+download-meta-speeches: $(download-meta-speeches-NN)
+## download-meta-speeches-NN ## Downloads all plenary speeches metadata from term NN
+$(download-meta-speeches-NN): download-meta-speeches-%:
+	mkdir -p $(DATADIR)/download-meta/$(DOWNLOAD_META_DATA_LAST)
+	wget https://data.rada.gov.ua/ogd/zal/ppz/skl$*/plenary_speech-skl$*.csv -O $(DATADIR)/download-meta/$(DOWNLOAD_META_DATA_LAST)/ogd_zal_ppz_skl$*_plenary_speech-skl$*.csv
 
 DOWNLOAD_META_DATA_LAST := $(shell ls $(DATADIR)/download-meta | grep -v '_' | sort -r | head -n1)
 tei-particDesc-RUN-LAST = $(addprefix tei-particDesc-, $(DOWNLOAD_META_DATA_LAST))
