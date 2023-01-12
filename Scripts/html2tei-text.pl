@@ -633,7 +633,12 @@ sub normalize_elements_and_spaces {
       if(ref $chNodes[$ch] eq 'XML::LibXML::Text'){
         $chNodes[$ch]->replaceDataRegEx('^\s*','') if $ch == 0;
         $chNodes[$ch]->replaceDataRegEx('\s*$','') if $ch == $#chNodes;
-        $chNodes[$ch]->replaceDataRegEx('[\.…][\.…]*(\s?)[\s\.…]*','.$1', 'sg');
+        #TODO add spaces around notes, if seg!!!
+        if($node->nodeName() eq 'seg'){
+          $chNodes[$ch]->replaceDataRegEx('$',' ') if $ch < $#chNodes;
+          $chNodes[$ch]->replaceDataRegEx('^([^\.\?!;,])',' $1') if $ch > 0;
+        }
+        $chNodes[$ch]->replaceDataRegEx('\s*[\.…][\.…]*(\s?)[\s\.…]*','.$1', 'sg');
         $chNodes[$ch]->replaceDataRegEx('\s\s*',' ', 'sg');
         $chNodes[$ch]->replaceDataRegEx('\(\s\s*','(', 'sg');
         $chNodes[$ch]->replaceDataRegEx('\s*\s\)',')', 'sg');
