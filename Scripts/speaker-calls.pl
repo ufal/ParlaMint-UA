@@ -34,8 +34,17 @@ unless($input_dir){
   exit 1;
 }
 
+my ($teiCorpus_fileIn) = glob "$data_dir/$input_dir/$run_id/ParlaMint-UA.xml";
+unless($teiCorpus_fileIn){
+  print STDERR "no input corpus file $data_dir/$input_dir/$run_id/ParlaMint-UA.xml\n";
+  exit 1;
+}
+my $teiCorpus = open_xml($teiCorpus_fileIn);
 
-my @file_list = glob "$data_dir/$input_dir/$run_id/*_*.xml";
+die "invalid corpus file" unless $teiCorpus;
+
+my @file_list = sort map {"$data_dir/$input_dir/$run_id/".$_->getAttribute('href')} $teiCorpus->findnodes('/*[local-name() = "teiCorpus"]/*[local-name() = "include" and @href]');
+
 
 exit 1 unless @file_list;
 
