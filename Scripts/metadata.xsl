@@ -213,10 +213,10 @@
             <xsl:element name="affiliation" xmlns="http://www.tei-c.org/ns/1.0">
               <xsl:attribute name="ref" select="concat('#',$org)"/>
               <xsl:attribute name="role" select="$role"/>
-              <xsl:if test="$from">
+              <xsl:if test="matches($from, '^\d{4}(-\d{2}-\d{2})?$')">
                 <xsl:attribute name="from" select="$from"/>
               </xsl:if>
-              <xsl:if test="$to">
+              <xsl:if test="matches($to, '^\d{4}(-\d{2}-\d{2})?$')">
                 <xsl:attribute name="to" select="$to"/>
               </xsl:if>
               <xsl:if test="$event | $acting">
