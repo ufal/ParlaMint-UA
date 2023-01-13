@@ -16,6 +16,15 @@
   <xsl:param name="terms"/>
   <xsl:variable name="decisive-for-generating-ids">2022-11-21</xsl:variable>
 
+  <xsl:variable name="terms-list">
+    <xsl:for-each select="tokenize($terms, ' ')">
+      <xsl:choose>
+        <xsl:when test="number(.) > 3"><item><xsl:value-of select="."/></item></xsl:when>
+        <xsl:otherwise><xsl:message select="concat('WARN: term No.',.,' is not supported. Skipping.')"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
+
+  </xsl:variable>
   <xsl:variable name="file-trans_fr">
 
     <xsl:variable name="file" select="'ogd_zal_mps_mps-trans_fr.csv'"/>
@@ -27,7 +36,7 @@
   </xsl:variable>
 
   <xsl:variable name="files-plenary_speech">
-    <xsl:for-each select="tokenize($terms, ' ')">
+    <xsl:for-each select="$terms-list/item/text()">
       <xsl:variable name="term" select="."/>
       <xsl:variable name="filename" select="concat('ogd_zal_ppz_skl',$term,'_plenary_speech-skl',$term,'.csv')"/>
       <xsl:element name="file">
@@ -43,7 +52,7 @@
 
 
   <xsl:variable name="files-mps-data">
-    <xsl:for-each select="tokenize($terms, ' ')">
+    <xsl:for-each select="$terms-list/item/text()">
       <xsl:variable name="term" select="."/>
       <xsl:variable name="filename" select="concat('ogd_mps_skl',$term,'_mps-data.xml')"/>
       <xsl:element name="file">
@@ -56,7 +65,7 @@
 
 
   <xsl:variable name="files-mpsTT-data">
-    <xsl:for-each select="tokenize($terms, ' ')">
+    <xsl:for-each select="$terms-list/item/text()">
       <xsl:variable name="term" select="."/>
       <xsl:variable name="filename" select="concat('ogd_mps_skl',$term,'_mps0',$term,'-data.xml')"/>
       <xsl:element name="file">
