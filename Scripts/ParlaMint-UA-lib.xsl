@@ -18,21 +18,27 @@
   <xsl:template name="read-csv">
     <xsl:param name="file"/>
     <xsl:param name="source"/>
-    <xsl:if test="doc-available($file)">
-      <xsl:variable name="text" select="unparsed-text($file, 'UTF-8')"/>
-      <xsl:variable name="lines" select="tokenize($text, '&#10;')"/>
-      <xsl:variable name="header" select="tokenize($lines[1],',')"/>
-      <table>
-        <xsl:attribute name="source" select="$source"/>
-        <xsl:for-each select="$lines[position() > 1]">
-          <xsl:call-template name="read-csv-row">
-            <xsl:with-param name="text" select="."/>
-            <xsl:with-param name="n" select="position()"/>
-            <xsl:with-param name="header" select="$header"/>
-          </xsl:call-template>
-        </xsl:for-each>
-      </table>
-    </xsl:if>
+    <xsl:choose>
+      <xsl:when test="unparsed-text-available($file)">
+        <xsl:message select="concat('INFO: parsing ',$file)"/>
+        <xsl:variable name="text" select="unparsed-text($file, 'UTF-8')"/>
+        <xsl:variable name="lines" select="tokenize($text, '&#10;')"/>
+        <xsl:variable name="header" select="tokenize($lines[1],',')"/>
+        <table>
+          <xsl:attribute name="source" select="$source"/>
+          <xsl:for-each select="$lines[position() > 1]">
+            <xsl:call-template name="read-csv-row">
+              <xsl:with-param name="text" select="."/>
+              <xsl:with-param name="n" select="position()"/>
+              <xsl:with-param name="header" select="$header"/>
+            </xsl:call-template>
+          </xsl:for-each>
+        </table>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:message select="concat('ERROR: missing file ',$file)"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template name="read-csv-row">
