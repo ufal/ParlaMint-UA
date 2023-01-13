@@ -3,14 +3,14 @@
           xml:id="ParlaMint-taxonomy-politicalOrientation"
           xml:lang="mul">
    <desc xml:lang="uk">
-      <term><!--Political orientation--></term>
+      <term>політична орієнтація</term>
    </desc>
    <desc xml:lang="en">
       <term>Political orientation</term>
    </desc>
    <category xml:id="orientation.BT">
       <catDesc xml:lang="uk">
-         <term><!--Big tent--></term>
+         <term>універсальні партії</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Big tent</term>
@@ -18,7 +18,7 @@
    </category>
    <category xml:id="orientation.L">
       <catDesc xml:lang="uk">
-         <term><!--Left--></term>
+         <term>ліві</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Left</term>
@@ -26,7 +26,7 @@
    </category>
    <category xml:id="orientation.C">
       <catDesc xml:lang="uk">
-         <term><!--Centre--></term>
+         <term>центристи</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Centre</term>
@@ -34,7 +34,7 @@
    </category>
    <category xml:id="orientation.R">
       <catDesc xml:lang="uk">
-         <term><!--Right--></term>
+         <term>праві</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Right</term>
@@ -42,7 +42,7 @@
    </category>
    <category xml:id="orientation.FL">
       <catDesc xml:lang="uk">
-         <term><!--Far left--></term>
+         <term>ліворадикали</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Far left</term>
@@ -50,7 +50,7 @@
    </category>
    <category xml:id="orientation.FR">
       <catDesc xml:lang="uk">
-         <term><!--Far right--></term>
+         <term>праворадикали</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Far right</term>
@@ -58,7 +58,7 @@
    </category>
    <category xml:id="orientation.CL">
       <catDesc xml:lang="uk">
-         <term><!--Centre-left--></term>
+         <term>лівоцентристи</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Centre-left</term>
@@ -66,7 +66,7 @@
    </category>
    <category xml:id="orientation.CR">
       <catDesc xml:lang="uk">
-         <term><!--Centre-right--></term>
+         <term>правоцентристи</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Centre-right</term>
@@ -74,7 +74,7 @@
    </category>
    <category xml:id="orientation.CCL">
       <catDesc xml:lang="uk">
-         <term><!--Centre to centre-left--></term>
+         <term>центристи — лівоцентристи</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Centre to centre-left</term>
@@ -82,7 +82,7 @@
    </category>
    <category xml:id="orientation.CCR">
       <catDesc xml:lang="uk">
-         <term><!--Centre to centre-right--></term>
+         <term>центристи — правоцентристи</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Centre to centre-right</term>
@@ -90,7 +90,7 @@
    </category>
    <category xml:id="orientation.CLL">
       <catDesc xml:lang="uk">
-         <term><!--Centre-left to left--></term>
+         <term>лівоцентристи — ліві</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Centre-left to left</term>
@@ -98,7 +98,7 @@
    </category>
    <category xml:id="orientation.CRR">
       <catDesc xml:lang="uk">
-         <term><!--Centre-right to right--></term>
+         <term>правоцентристи — праві</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Centre-right to right</term>
@@ -106,7 +106,7 @@
    </category>
    <category xml:id="orientation.LLF">
       <catDesc xml:lang="uk">
-         <term><!--Left to far-left--></term>
+         <term>ліві — ліворадикали</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Left to far-left</term>
@@ -114,7 +114,7 @@
    </category>
    <category xml:id="orientation.RRF">
       <catDesc xml:lang="uk">
-         <term><!--Right to far-right--></term>
+         <term>праві — праворадикали</term>
       </catDesc>
       <catDesc xml:lang="en">
          <term>Right to far-right</term>
