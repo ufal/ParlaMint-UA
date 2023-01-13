@@ -357,7 +357,6 @@
       </xsl:if>
       <xsl:variable name="events" select="$gov-event/table/row[./col[@name='OrgID'] = $id]"/>
       <xsl:if test="$events">
-    <xsl:message><xsl:copy-of select="$events"/></xsl:message>
         <xsl:element name="listEvent" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:for-each select="$events">
             <xsl:sort select="./col[@name='From']"/>
