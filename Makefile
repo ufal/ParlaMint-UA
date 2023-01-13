@@ -102,7 +102,7 @@ $(link-speakers2tei-text-RUN-ALL): link-speakers2tei-text-%:
 	rm -rf $(DATADIR)/tei-text-speakers/$*/*
 	$s -xsl:Scripts/link-speakers2tei-text.xsl \
 	   -o:$(DATADIR)/tei-text-speakers/$*/ParlaMint-UA.xml \
-	      speaker-links="$(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
+	      speaker-links="$(DATADIR)/tei-particDesc-aliases/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
 	      in-dir="$(DATADIR)/tei-text-lang/$*/" \
 	      out-dir="$(DATADIR)/tei-text-speakers/$*/" \
 	      $(DATADIR)/tei-text/$*/ParlaMint-UA.xml
@@ -122,7 +122,7 @@ $(link-speakers-RUN-ALL): link-speakers-%:
 	./Scripts/link-speakers.pl --id $* \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh \
-	                           --speaker-aliases "$(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
+	                           --speaker-aliases "$(DATADIR)/tei-particDesc-aliases/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
 	                           --plenary-speech "$(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/plenary-speech.xml" \
 	                           --speaker-calls "$(DATADIR)/speaker-calls/$*/calls-speakers.tsv"
 
@@ -211,9 +211,17 @@ $(tei-particDesc-RUN-LAST): tei-particDesc-%: tei-particDesc-preprocess-% tei-pa
 	@find $(DATADIR)/tei-particDesc-preprocess/$* -type f|sed 's/^/\t/'
 	echo "<?xml version=\"1.0\" ?>\n<root/>" | \
 	  $s -s:- -xsl:Scripts/metadata.xsl \
-	      in-dir=$(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ \
-	      out-dir=$(DATADIR)/tei-particDesc/$(DOWNLOAD_META_DATA_LAST)/
+	      in-dir=$(DATADIR)/tei-particDesc-preprocess/$*/ \
+	      out-dir=$(DATADIR)/tei-particDesc/$*/
 
+tei-particDesc-aliases-RUN-LAST = $(addprefix tei-particDesc-aliases-, $(DOWNLOAD_META_DATA_LAST))
+tei-particDesc-aliases: $(tei-particDesc-aliases-RUN-LAST)
+$(tei-particDesc-aliases-RUN-LAST): tei-particDesc-aliases-%:
+	mkdir -p $(DATADIR)/tei-particDesc-aliases/$*
+	$s -xsl:Scripts/metadata-aliases.xsl \
+	  org-list="GOV.UA ВРУ" \
+	  $(DATADIR)/tei-particDesc/$(DOWNLOAD_META_DATA_LAST)/ParlaMint-UA-listPerson.xml \
+	  > $(DATADIR)/tei-particDesc-aliases/$*/mp-data-aliases.tsv
 
 
 
