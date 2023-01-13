@@ -100,7 +100,7 @@ if($plenary_speech_file){
 
 my $speaker_links_filename = "$data_dir/$output_dir/$run_id/speaker-person-links.tsv";
 open SPEAKER_LINKS, ">$speaker_links_filename";
-print SPEAKER_LINKS "fileId\tutterance\taPersonId\taRole\taDayDist\taEdDist\tsPersonId\tsRole\tsEdDist\tcNormalizedName\tcIsFull\tcSurDist\n";
+print SPEAKER_LINKS "fileId\tutterance\tspeaker\taPersonId\taRole\taDayDist\taEdDist\tsPersonId\tsRole\tsEdDist\tcNormalizedName\tcIsFull\tcSurDist\n";
 
 for my $dayFilesIn (@file_list_day){
   my @utterances;
@@ -112,7 +112,6 @@ for my $dayFilesIn (@file_list_day){
     #my $tei_term = $tei->findvalue('//*[local-name() = "meeting" and contains(concat(" ",@ana," "),"#parla.term")]/@n');
     push @utterances,$_ for $tei->findnodes('//*[local-name() = "u"]');
   }
-  print STDERR ">>>>>>>>$tei_date\n";
   my $tei_date_num = convert_to_days($tei_date);
   my %linking;
 
@@ -125,24 +124,43 @@ for my $dayFilesIn (@file_list_day){
     my $alias_result = "";
     if($seen_alias{$who}){
       $alias_result = $seen_alias{$who}
-    } elsif (defined $aliases->{$who}){
-      # check intervals, use in interval first (as regular or chair), otherwise set guest
-      my %res;
-      for my $pers_id (keys %{$aliases->{$who}}){
-        for my $interval (@{$aliases->{$who}->{$pers_id}}){
-          if($tei_date_num >= $interval->[0] and $tei_date_num <= $interval->[1]){
-            # can be multiple results (other ids)
-            $res{$pers_id} = {dist=>0, id=>$pers_id, interval=>$interval};
-            last;
-          } else {
-            my $dist;
-            if($tei_date_num < $interval->[0]){
-              $dist = $interval->[0]-$tei_date_num;
+    }
+    # check intervals, use in interval first (as regular or chair), otherwise set guest
+    my %res;
+    my $act_max_edit_dist;
+    my $minedist;
+    my @wh;
+    my @edit_dists = (0,$max_edit_dist);
+    while(!$alias_result && defined($act_max_edit_dist = shift @edit_dists)){
+      if($act_max_edit_dist == 0){
+        @wh=($who);
+        $minedist = 0
+      } else {
+        my @aliases_candidates = map {uc $_} keys %$aliases;
+        my %d;
+        @d{@aliases_candidates} = map {$_} distance(uc $who, @aliases_candidates);
+        my @sorted_candidates = sort { $d{$a} <=> $d{$b} } @aliases_candidates;
+        $minedist = $d{$sorted_candidates[0]};
+        @wh = grep {$d{$_} <= $act_max_edit_dist && $d{$_} <= $minedist} @sorted_candidates;
+      }
+
+      for my $wh (@wh){
+        for my $pers_id (keys %{$aliases->{$wh} // {}}){
+          for my $interval (@{$aliases->{$wh}->{$pers_id}}){
+            if($tei_date_num >= $interval->[0] and $tei_date_num <= $interval->[1]){
+              # can be multiple results (other ids)
+              $res{$pers_id} = {dist=>0, id=>$pers_id, interval=>$interval};
+              last;
             } else {
-              $dist = $tei_date_num-$interval->[1];
+              my $dist;
+              if($tei_date_num < $interval->[0]){
+                $dist = $interval->[0]-$tei_date_num;
+              } else {
+                $dist = $tei_date_num-$interval->[1];
+              }
+              $res{$pers_id} = {dist=> $dist, id=>$pers_id, interval=>$interval} unless defined $res{$pers_id};
+              $res{$pers_id} = {dist=> $dist, id=>$pers_id, interval=>$interval} if $res{$pers_id}->{dist} > $dist
             }
-            $res{$pers_id} = {dist=> $dist, interval=>$interval} unless defined $res{$pers_id};
-            $res{$pers_id} = {dist=> $dist, interval=>$interval} if $res{$pers_id}->{dist} > $dist
           }
         }
       }
@@ -151,17 +169,16 @@ for my $dayFilesIn (@file_list_day){
         $mindist //= $dist;
         $mindist = $dist if $mindist > $dist;
       }
-      $alias_result .= "\t".join(" ",map {$_->{id}} grep {$_->{dist} == $mindist} values %res);
-      $alias_result .= "\t".($is_chair ? 'chair' : ($mindist > 0 ? 'guest' : 'regular'));
-      $alias_result .= "\t$mindist";
-      $alias_result .= "\t0";
-      $seen_alias{$who} = $alias_result;
+      if(%res){
+        $alias_result .= "\t".join(" ",map {$_->{id}} grep {$_->{dist} == $mindist} values %res);
+        $alias_result .= "\t".($is_chair ? 'chair' : ($mindist > 0 ? 'guest' : 'regular'));
+        $alias_result .= "\t$mindist";
+        $alias_result .= "\t$minedist";
+        $seen_alias{$who} = $alias_result;
+        last;
+      }
     }
 
-    unless($alias_result){
-      #TODO : allow edit distance
-      print STDERR "TODO: implement editation distance ($who)\n";
-    }
     $linking{$node->getAttributeNS($xmlNS,'id')} //= {};
     $linking{$node->getAttributeNS($xmlNS,'id')}->{alias} = $alias_result;
   }
@@ -204,8 +221,9 @@ for my $dayFilesIn (@file_list_day){
   for my $u (@utterances){
     my $u_id = $u->getAttributeNS($xmlNS,'id');
     my $tei_id = $u->findvalue('./ancestor::*[local-name() = "TEI"]/@xml:id');
+    my $who = $u->getAttribute('who');
     print SPEAKER_LINKS
-          "$tei_id\t$u_id",
+          "$tei_id\t$u_id\t$who",
           ($linking{$u_id}->{alias}||"\t\t\t\t"),
           ($linking{$u_id}->{speech}||"\t\t\t"),
           ($linking{$u_id}->{call}||"\t\t");
@@ -274,7 +292,7 @@ sub is_in_date_interval {
 sub convert_to_days {
   my $dt = shift;
   my ($y,$m,$d) = split('-',$dt);
-  return DateTime->new(year=>$y, month=>$m, day=>$d)->epoch / 60 / 60
+  return DateTime->new(year=>$y, month=>$m, day=>$d)->epoch / 60 / 60 / 24;
 }
 ##-----------------------------
 
