@@ -10,40 +10,40 @@
          <label xml:lang="en">existence</label>
       </event>
       <listEvent>
-         <event xml:id="ВРУ.1" from="1990-04-01" to="1994-05-11">
-            <label xml:lang="uk">Верховна Рада I скликання (березень-квітень 1990 — 11 травня 1994)</label>
+         <event xml:id="ВРУ.1" from="1990-05-15" to="1994-05-11">
+            <label xml:lang="uk">Верховна Рада I скликання</label>
             <label xml:lang="en">Term 1</label>
          </event>
          <event xml:id="ВРУ.2" from="1994-05-11" to="1998-05-12">
-            <label xml:lang="uk">Верховна Рада II скликання (11 травня 1994 — 12 травня 1998)</label>
+            <label xml:lang="uk">Верховна Рада II скликання</label>
             <label xml:lang="en">Term 2</label>
          </event>
          <event xml:id="ВРУ.3" from="1998-05-12" to="2002-05-14">
-            <label xml:lang="uk">Верховна Рада III скликання (12 травня 1998 — 14 травня 2002)</label>
+            <label xml:lang="uk">Верховна Рада III скликання</label>
             <label xml:lang="en">Term 3</label>
          </event>
          <event xml:id="ВРУ.4" from="2002-05-14" to="2006-05-25">
-            <label xml:lang="uk">Верховна Рада IV скликання (14 травня 2002 — 25 травня 2006)</label>
+            <label xml:lang="uk">Верховна Рада IV скликання</label>
             <label xml:lang="en">Term 4</label>
          </event>
          <event xml:id="ВРУ.5" from="2006-05-25" to="2007-11-23">
-            <label xml:lang="uk">Верховна Рада V скликання (25 травня 2006 — 23 листопада 2007)</label>
+            <label xml:lang="uk">Верховна Рада V скликання</label>
             <label xml:lang="en">Term 5</label>
          </event>
          <event xml:id="ВРУ.6" from="2007-11-23" to="2012-12-12">
-            <label xml:lang="uk">Верховна Рада VI скликання (23 листопада 2007 — 12 грудня 2012)</label>
+            <label xml:lang="uk">Верховна Рада VI скликання</label>
             <label xml:lang="en">Term 6</label>
          </event>
          <event xml:id="ВРУ.7" from="2012-12-12" to="2014-11-27">
-            <label xml:lang="uk">Верховна Рада VII скликання (12 грудня 2012 — 27 листопада 2014)</label>
+            <label xml:lang="uk">Верховна Рада VII скликання</label>
             <label xml:lang="en">Term 7</label>
          </event>
          <event xml:id="ВРУ.8" from="2014-11-27" to="2019-08-29">
-            <label xml:lang="uk">Верховна Рада VIII скликання (27 листопада 2014 — 29 серпня 2019)</label>
+            <label xml:lang="uk">Верховна Рада VIII скликання</label>
             <label xml:lang="en">Term 8</label>
          </event>
          <event xml:id="ВРУ.9" from="2019-08-29">
-            <label xml:lang="uk">Верховна Рада IX скликання (з 29 серпня 2019)</label>
+            <label xml:lang="uk">Верховна Рада IX скликання</label>
             <label xml:lang="en">Term 9</label>
          </event>
       </listEvent>
@@ -180,10 +180,59 @@
          </event>
       </listEvent>
    </org>
+   <org xml:id="pp.NRU" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Народний Рух України</orgName>
+      <orgName xml:lang="en" full="yes">People's Movement of Ukraine</orgName>
+      <orgName full="abb">NRU</orgName>
+      <event from="1905-06-11">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
    <org xml:id="pp.UNP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Українська народна партія</orgName>
       <orgName xml:lang="en" full="yes">Ukrainian People's Party</orgName>
+      <orgName full="abb">UNP</orgName>
       <event from="1999-12-31">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.PP" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Партія праці</orgName>
+      <orgName xml:lang="en" full="yes">Party of Labor</orgName>
+      <orgName full="abb">PP</orgName>
+      <event from="1992-12-21" to="2000-11-18">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.SDPU" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Соціал-демократична партія України (об'єднана)</orgName>
+      <orgName xml:lang="en" full="yes">Social Democratic Party of Ukraine (united)</orgName>
+      <orgName full="abb">SDPU</orgName>
+      <event from="1996-07-01">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Hrom" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Всеукраїнське об'єднання «Громада»</orgName>
+      <orgName xml:lang="en" full="yes">All-Ukrainian Association "Community"</orgName>
+      <orgName full="abb">Hrom</orgName>
+      <event from="1994-03-22">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.PRP" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Партія «Реформи і порядок»</orgName>
+      <orgName xml:lang="en" full="yes">Party Reform and Order</orgName>
+      <orgName full="abb">PRP</orgName>
+      <event from="1997-10-24">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.CPSU" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Комуністична партія Радянського Союзу</orgName>
+      <orgName xml:lang="en" full="yes">Communist Party of the Soviet Union</orgName>
+      <orgName full="abb">CPSU</orgName>
+      <event from="1905-05-05" to="1991-11-06">
          <label xml:lang="en">existence</label>
       </event>
    </org>
@@ -208,6 +257,30 @@
       <orgName xml:lang="en" full="yes">Ukraine – Forward!</orgName>
       <orgName full="abb">UV</orgName>
       <event from="1998-12-11">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Lab" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Політична партія "Трудова Україна"</orgName>
+      <orgName xml:lang="en" full="yes">Labour Ukraine</orgName>
+      <orgName full="abb">Lab</orgName>
+      <event from="2000-06-21">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.OurU" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Політична партія «Наша Україна»</orgName>
+      <orgName xml:lang="en" full="yes">Our Ukraine</orgName>
+      <orgName full="abb">OurU</orgName>
+      <event from="2005-03-22">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.RPU" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Республіканська партія України</orgName>
+      <orgName xml:lang="en" full="yes">Republican Party of Ukraine</orgName>
+      <orgName full="abb">RPU</orgName>
+      <event from="2005-03-24" to="2007-08-03">
          <label xml:lang="en">existence</label>
       </event>
    </org>
@@ -262,6 +335,7 @@
    <org xml:id="pp.Self" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Об’єднання «САМОПОМІЧ»</orgName>
       <orgName xml:lang="en" full="yes">Union "Self Reliance"</orgName>
+      <orgName full="abb">Self</orgName>
       <event from="2012-12-29">
          <label xml:lang="en">existence</label>
       </event>

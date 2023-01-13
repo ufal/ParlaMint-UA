@@ -1,22 +1,49 @@
 checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
+	МиколаЯновичАзаров.1947	GOV.UA	GOV.UA.1stAzarov	2010-03-11	2012-12-24	head		Prime Minister of Ukraine	Прем'єр-міністр України
  	МиколаЯновичАзаров.1947	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-01-28	head		Prime Minister of Ukraine	Прем'єр-міністр України
- 	МиколаЯновичАзаров.1947	pp.Reg		2010-04-23	2014-02-28	head			голова Партії регіонів
+	МиколаЯновичАзаров.1947	GOV.UA	GOV.UA.2ndYanukovych	2006-08-04	2007-12-18	deputyHead		First Vice Prime Minister	Перший віце-прем'єр-міністр України
+	МиколаЯновичАзаров.1947	GOV.UA	GOV.UA.2ndYanukovych	2006-08-04	2007-12-18	minister		Minister of Finance	Міністр фінансів України
+	МиколаЯновичАзаров.1947	GOV.UA	GOV.UA.1stYanukovych	2002-11-26	2005-02-04	deputyHead		First Vice Prime Minister	Перший віце-прем'єр-міністр України
+	МиколаЯновичАзаров.1947	GOV.UA	GOV.UA.1stYanukovych	2002-11-26	2005-02-04	minister		Minister of Finance	Міністр фінансів України
+ 	МиколаЯновичАзаров.1947	pp.Reg		2010-04-23	2014-02-28	head		Head of the Party of Regions	голова Партії регіонів
+	МиколаЯновичАзаров.1947	ВРУ	ВРУ.7	2012-12-12	2012-12-18	MP			
+	МиколаЯновичАзаров.1947	ВРУ	ВРУ.6	2007-11-23	2010-03-11	MP			
+	МиколаЯновичАзаров.1947	ВРУ	ВРУ.5	2006-05-25	2006-09-12	MP			
+	МиколаЯновичАзаров.1947	pp.Reg		2006-05-25		member			
+	МиколаЯновичАзаров.1947	ВРУ	ВРУ.2	1994-05-11	1998-05-12	MP			
+	МиколаЯновичАзаров.1947	pp.PP		1992	2000	member			
+	МиколаЯновичАзаров.1947	pp.CPSU			1991	member			
  	СергійГеннадійовичАрбузов.1976	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-01-28	deputyHead		First Vice Prime Minister	Перший віце-прем'єр-міністр України
  	СергійГеннадійовичАрбузов.1976	GOV.UA	GOV.UA.2ndAzarov	2014-01-28	2014-02-27	head	1	acting Prime Minister	в.о. Прем'єр-міністра України
- 	СергійГеннадійовичАрбузов.1976	pp.Reg		2010	2014				
+ 	СергійГеннадійовичАрбузов.1976	pp.Reg		2010	2014	member			
+	СергійГеннадійовичАрбузов.1976	pp.OurU		2005	2010	member			
+	ЮрійАнатолійовичБойко.1958	GOV.UA	GOV.UA.2ndYanukovych	2006-08-04	2007-12-17	minister		Minister of Fuel and Energy	Міністр палива та енергетики України
+	ЮрійАнатолійовичБойко.1958	GOV.UA	GOV.UA.1stAzarov	2010-03-11	2012-12-24	minister		Minister of Energy and Coal Industry 	Міністр енергетики та вугільної промисловості України
  	ЮрійАнатолійовичБойко.1958	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+	ЮрійАнатолійовичБойко.1958	ВРУ	ВРУ.6	2007-11-23	2010-03-11	MP			
  	ЮрійАнатолійовичБойко.1958	pp.Reg		2007		nominated			
+	ЮрійАнатолійовичБойко.1958	ВРУ	ВРУ.8	2014-11-27	2019-08-29	MP			
  	ЮрійАнатолійовичБойко.1958	pp.OB		2014		nominated			
+	ЮрійАнатолійовичБойко.1958	ВРУ	ВРУ.9	2019-08-29	present	MP			
  	ЮрійАнатолійовичБойко.1958	pp.OP		2019		deputyHead			
+	ЮрійАнатолійовичБойко.1958	pp.RPU		2005-03-24	2007-08-03	head			
  	ОлександрЮрійовичВілкул.1974	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
- 	ОлександрЮрійовичВілкул.1974	pp.Reg		2006		member			
+	ОлександрЮрійовичВілкул.1974	ВРУ	ВРУ.5	2006-05-25	2007-11-23	MP			
+	ОлександрЮрійовичВілкул.1974	ВРУ	ВРУ.6	2007-11-23	2010-04-16	MP			
+	ОлександрЮрійовичВілкул.1974	ВРУ	ВРУ.8	2014-11-27	2019-08-29	MP			
+ 	ОлександрЮрійовичВілкул.1974	pp.Reg		2003	2014	member			
  	ОлександрЮрійовичВілкул.1974	pp.OB		2014		member			
  	КостянтинІвановичГрищенко.1953	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+	КостянтинІвановичГрищенко.1953	GOV.UA	GOV.UA.1stAzarov	2010-03-11	2012-12-24	minister		Minister of Foreign Affairs	Міністр закордонних справ України
+	КостянтинІвановичГрищенко.1953	GOV.UA	GOV.UA.1stYanukovych	2003-09-02	2005-02-03	minister		Minister of Foreign Affairs	Міністр закордонних справ України
  	КостянтинІвановичГрищенко.1953	pp.Reg		2012		nominated			
+	КостянтинІвановичГрищенко.1953	pp.RPU		2005-03-24	2007-08-03	member			
  	ОленаЛеонідівнаЛукаш.1976	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2013-07-04	minister		Minister of the Cabinet of Ministers	Міністр Кабінету Міністрів України
  	ОленаЛеонідівнаЛукаш.1976	GOV.UA	GOV.UA.2ndAzarov	2013-07-04	2014-02-27	minister		Minister of Justice	Міністр юстиції України
  	ОленаЛеонідівнаЛукаш.1976	pp.Reg		2007		member			
  	МиколаВолодимировичПрисяжнюк.1960	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	minister		Minister of Agrarian Policy and Food	Міністр аграрної політики та продовольства України
+	МиколаВолодимировичПрисяжнюк.1960	ВРУ	ВРУ.5	2006-05-25	2007-11-23	MP			
+	МиколаВолодимировичПрисяжнюк.1960	ВРУ	ВРУ.6	2007-11-23	2010-03-11	MP			
  	МиколаВолодимировичПрисяжнюк.1960	pp.Reg		2006		member			
  	ВіталійЮрійовичЗахарченко.1963	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-21	minister		Minister of Internal Affairs	Міністр внутрішніх справ України
  ERR:org	ВіталійЮрійовичЗахарченко.1963	pp.independent							
@@ -26,73 +53,156 @@ checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
  	АрсенБорисовичАваков.1964	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Internal Affairs	Міністр внутрішніх справ України
  	АрсенБорисовичАваков.1964	GOV.UA	GOV.UA.Honcharuk	2019-08-29	2020-03-04	minister		Minister of Internal Affairs	Міністр внутрішніх справ України
  	АрсенБорисовичАваков.1964	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2021-07-15	minister		Minister of Internal Affairs	Міністр внутрішніх справ України
+	АрсенБорисовичАваков.1964	ВРУ	ВРУ.7	2012-12-12	2014-03-17	MP			
  	АрсенБорисовичАваков.1964	pp.BUT		2012-10-28	2014-10-26	member			
+	АрсенБорисовичАваков.1964	ВРУ	ВРУ.8	2014-11-27	2014-12-02	MP			
  	АрсенБорисовичАваков.1964	pp.NF		2014-10-26		nominated			
  	ОлександрВікторовичКлименко.1980	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	minister		Minister of Revenue and Duties	Міністр доходів і зборів України
  	ОлександрВікторовичКлименко.1980	pp.Reg							
  	ОлегАльбертовичПроскуряков.1968	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	minister		Minister of Ecology and Natural Resources	Міністр екології та природних ресурсів України
  ERR:org	ОлегАльбертовичПроскуряков.1968	pp.independent							
- 	ІгорМиколайовичПрасолов.1962	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	minister		Minister of Economical Development and Trade	Міністр економічного розвитку і торгівлі України
- 	ІгорМиколайовичПрасолов.1962	pp.Reg		2006					
+ 	ІгорМиколайовичПрасолов.1962	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	minister		Minister of Economic Development and Trade	Міністр економічного розвитку і торгівлі України
+	ІгорМиколайовичПрасолов.1962	ВРУ	ВРУ.5	2006-05-25	2007-11-23	MP			
+	ІгорМиколайовичПрасолов.1962	ВРУ	ВРУ.6	2007-11-23	2012-12-12	MP			
+	ІгорМиколайовичПрасолов.1962	ВРУ	ВРУ.7	2012-12-12	2013-01-11	MP			
+ 	ІгорМиколайовичПрасолов.1962	pp.Reg		2006		member			
  	ЕдуардАнатолійовичСтавицький.1972	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	minister		Minister of Power Generation and Coal Mining	Міністр енергетики та вугільної промисловості України
+	ЕдуардАнатолійовичСтавицький.1972	GOV.UA	GOV.UA.1stAzarov	2012-04-20	2012-12-24	minister		Minister of Ecology and Natural Resources	Міністр екології та природних ресурсів України
  	ЕдуардАнатолійовичСтавицький.1972	pp.Reg		2006					
  	ЛеонідОлександровичКожара.1963	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-23	minister		Minister of Foreign Affairs	Міністр закордонних справ України
+	ЛеонідОлександровичКожара.1963	ВРУ	ВРУ.5	2006-05-25	2007-11-23	MP			
+	ЛеонідОлександровичКожара.1963	ВРУ	ВРУ.6	2007-11-23	2012-12-12	MP			
+	ЛеонідОлександровичКожара.1963	ВРУ	ВРУ.7	2012-12-12	2012-12-25	MP			
  	ЛеонідОлександровичКожара.1963	pp.Reg		2007		member			
  	ЛеонідОлександровичКожара.1963	pp.Reg		2010-09-06	2014-03-29	deputyHead			
  	ВолодимирВасильовичКозак.1959	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	minister		Minister of Infrastructure	Міністр інфраструктури України
- 	ВолодимирВасильовичКозак.1959	pp.Reg		2007		member			
+	ВолодимирВасильовичКозак.1959	ВРУ	ВРУ.5	2006-05-25	2007-11-23	MP			
+	ВолодимирВасильовичКозак.1959	ВРУ	ВРУ.6	2007-11-23	2012-12-12	MP			
+ 	ВолодимирВасильовичКозак.1959	pp.Reg		2006		member			
  	ЛеонідМихайловичНовохатько.1954	GOV.UA	GOV.UA.2ndAzarov	2013-02-05	2014-02-24	minister		Minister of Culture	Міністр культури України
  	ЛеонідМихайловичНовохатько.1954	pp.Reg		2012		head		Head of the Kyiv city organization of the Party of Regions	Голова Київської міської організації Партії регіонів
+	РавільСафовичСафіуллін.1955	GOV.UA	GOV.UA.1stAzarov	2010-03-11	2010-12-09	minister		Minister for Family, Youth and Sports	Міністр України у справах сім'ї, молоді та спорту
  	РавільСафовичСафіуллін.1955	GOV.UA	GOV.UA.2ndAzarov	2013-02-28	2014-02-27	minister		Minister of Youth and Sports	Міністр молоді та спорту України
+	РавільСафовичСафіуллін.1955	ВРУ	ВРУ.4	2002-05-14	2006-05-25	MP			
+	РавільСафовичСафіуллін.1955	ВРУ	ВРУ.5	2006-05-25	2007-11-23	MP			
+	РавільСафовичСафіуллін.1955	ВРУ	ВРУ.6	2007-11-23	2010-03-11	MP			
  	РавільСафовичСафіуллін.1955	pp.Reg		2002		member			
  	РавільСафовичСафіуллін.1955	pp.Reg				deputyHead		member of the Political Council of the Party of Regions	член Політради Партії регіонів
  	ПавлоВалентиновичЛебедєв.1962	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	minister		Minister of Defense	Міністр оборони України
+	ПавлоВалентиновичЛебедєв.1962	ВРУ	ВРУ.5	2006-05-25	2007-11-23	MP			
+	ПавлоВалентиновичЛебедєв.1962	ВРУ	ВРУ.6	2007-11-23	2012-12-12	MP			
+	ПавлоВалентиновичЛебедєв.1962	ВРУ	ВРУ.7	2012-12-12	2013-03-22	MP			
  	ПавлоВалентиновичЛебедєв.1962	pp.Reg		2007		nominated			
+	ПавлоВалентиновичЛебедєв.1962	pp.But		2006		nominated			
+	ДмитроВолодимировичТабачник.1963	GOV.UA	GOV.UA.1stYanukovych	2002-11-26	2005-02-03	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+	ДмитроВолодимировичТабачник.1963	GOV.UA	GOV.UA.2ndYanukovych	2006-08-04	2007-12-18	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+	ДмитроВолодимировичТабачник.1963	GOV.UA	GOV.UA.1stAzarov	2010-03-11	2012-12-24	minister		Minister of Education	Міністр освіти і науки України
  	ДмитроВолодимировичТабачник.1963	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-23	minister		Minister of Education	Міністр освіти і науки України
+	ДмитроВолодимировичТабачник.1963	ВРУ	ВРУ.3	1998-05-12	2002-05-14	MP			
+	ДмитроВолодимировичТабачник.1963	ВРУ	ВРУ.4	2002-05-14	2003-03-06	MP			
+	ДмитроВолодимировичТабачник.1963	ВРУ	ВРУ.6	2007-11-23	2010-03-11	MP			
+	ДмитроВолодимировичТабачник.1963	ВРУ	ВРУ.7	2012-12-12	2012-12-24	MP			
  	ДмитроВолодимировичТабачник.1963	pp.Reg		2007		member			
+	ДмитроВолодимировичТабачник.1963	pp.Lab		1999	2005	deputyHead		presidium member	член президії
+	РаїсаВасилівнаБогатирьова.1953	GOV.UA	GOV.UA.1stAzarov	2012-02-14	2012-12-24	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+	РаїсаВасилівнаБогатирьова.1953	GOV.UA	GOV.UA.1stAzarov	2012-02-14	2012-12-24	minister		Minister of Healthcare	Міністр охорони здоров'я України
  	РаїсаВасилівнаБогатирьова.1953	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-23	minister		Minister of Healthcare	Міністр охорони здоров'я України
- 	РаїсаВасилівнаБогатирьова.1953	pp.Reg		2006		member			
+	РаїсаВасилівнаБогатирьова.1953	ВРУ	ВРУ.1	1990-05-15	1994-05-11	MP			
+	РаїсаВасилівнаБогатирьова.1953	ВРУ	ВРУ.3	1998-05-12	2002-05-14	MP			
+	РаїсаВасилівнаБогатирьова.1953	ВРУ	ВРУ.4	2002-05-14	2006-05-25	MP			
+	РаїсаВасилівнаБогатирьова.1953	ВРУ	ВРУ.5	2006-05-25	2007-11-23	MP			
+	РаїсаВасилівнаБогатирьова.1953	ВРУ	ВРУ.6	2007-11-23	2008-05-23	MP			
+ 	РаїсаВасилівнаБогатирьова.1953	pp.Reg		2002		member			
+	РаїсаВасилівнаБогатирьова.1953	pp.CPSU			1991	member			
  	МихайлоКостянтиновичКороленко.1962	GOV.UA	GOV.UA.2ndAzarov	2013-02-05	2014-02-27	minister		Minister of the Industrial Policy	Міністр промислової політики України
  	МихайлоКостянтиновичКороленко.1962	pp.Reg		2010		member			
  	ГеннадійПавловичТемник.1970	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	minister		Minister of Regional Development, Construction and Communal Living	Міністр регіонального розвитку, будівництва та житлово-комунального господарства України
  	ГеннадійПавловичТемник.1970	pp.Reg		2010		member			
  	ГеннадійПавловичТемник.1970	pp.OB		2015		member			
  	НаталіяЮріївнаКоролевська.1975	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-24	minister		Minister of Social Policy	Міністр соціальної політики України
- 	НаталіяЮріївнаКоролевська.1975	pp.But		2005	2011	member			
- 	НаталіяЮріївнаКоролевська.1975	pp.UV		2012		head			
- 	НаталіяЮріївнаКоролевська.1975	pp.OP		2019		nominated			
+	НаталіяЮріївнаКоролевська.1975	ВРУ	ВРУ.5	2006-05-25	2007-11-23	MP			
+	НаталіяЮріївнаКоролевська.1975	ВРУ	ВРУ.6	2007-11-23	2012-12-12	MP			
+	НаталіяЮріївнаКоролевська.1975	ВРУ	ВРУ.8	2014-11-27	2019-08-29	MP			
+	НаталіяЮріївнаКоролевська.1975	ВРУ	ВРУ.9	2019-08-29	present	MP			
+ 	НаталіяЮріївнаКоролевська.1975	pp.But		2005	2012	member			
+ 	НаталіяЮріївнаКоролевська.1975	pp.UV		2011-12-23		head			
+ 	НаталіяЮріївнаКоролевська.1975	pp.OB		2014		nominated			
+	НаталіяЮріївнаКоролевська.1975	pp.OP		2019		member			
  	ЮрійВолодимировичКолобов.1973	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2014-02-27	minister		Minister of Finance	Міністр фінансів України
- ERR:org	ЮрійВолодимировичКолобов.1973	pp.independent				?			
+ ERR:org	ЮрійВолодимировичКолобов.1973	pp.independent							
+	ОлександрВолодимировичЛавринович.1956	GOV.UA	GOV.UA.Kinakh	2002-05-07	2002-11-21	minister		Minister of Justice	Міністр юстиції Украіни
+	ОлександрВолодимировичЛавринович.1956	GOV.UA	GOV.UA.1stYanukovych	2002-11-21	2005-02-03	minister		Minister of Justice	Міністр юстиції Украіни
+	ОлександрВолодимировичЛавринович.1956	GOV.UA	GOV.UA.2ndYanukovych	2006-11-01	2007-12-18	minister		Minister of Justice	Міністр юстиції Украіни
+	ОлександрВолодимировичЛавринович.1956	GOV.UA	GOV.UA.1stAzarov	2010-03-11	2012-12-24	minister		Minister of Justice	Міністр юстиції Украіни
  	ОлександрВолодимировичЛавринович.1956	GOV.UA	GOV.UA.2ndAzarov	2012-12-24	2013-07-04	minister		Minister of Justice	Міністр юстиції Украіни
- 	ОлександрВолодимировичЛавринович.1956	pp.Reg		2012-10-28		member			
+	ОлександрВолодимировичЛавринович.1956	ВРУ	ВРУ.2	1994-05-11	1998-05-12	MP			
+	ОлександрВолодимировичЛавринович.1956	ВРУ	ВРУ.3	1998-05-12	2001-10-18	MP			
+	ОлександрВолодимировичЛавринович.1956	ВРУ	ВРУ.6	2007-11-23	2010-03-11	MP			
+	ОлександрВолодимировичЛавринович.1956	ВРУ	ВРУ.7	2012-12-12	2012-12-25	MP			
+ 	ОлександрВолодимировичЛавринович.1956	pp.Reg		2007-11-23		member			
+	ОлександрВолодимировичЛавринович.1956	pp.NRU		1989	2001	deputyHead		deputy head, first deputy head of the party	заступник, перший заступник Голови Народного Руху України
  	ВікторФедоровичЯнукович.1950	Ukraine	4thPresidency	2010-02-25	2014-02-22	head		President of Ukraine	Президент України
- 	ВікторФедоровичЯнукович.1950	pp.Reg		2003-04-19	2010-04-23	head			
+	ВікторФедоровичЯнукович.1950	GOV.UA	GOV.UA.1stYanukovych	2002-11-21	2005-01-05	head		Prime Minister of Ukraine	Прем'єр-міністр України
+	ВікторФедоровичЯнукович.1950	GOV.UA	GOV.UA.2ndYanukovych	2006-08-04	2007-12-18	head		Prime Minister of Ukraine	Прем'єр-міністр України
+	ВікторФедоровичЯнукович.1950	ВРУ	ВРУ.5	2006-05-25	2006-09-12	MP			
+	ВікторФедоровичЯнукович.1950	ВРУ	ВРУ.6	2007-11-23	2010-02-19	MP			
+ 	ВікторФедоровичЯнукович.1950	pp.Reg		2003-04-19	2010-04-23	head		head of the Party of Regions	голова Партії регіонів
  	ВікторФедоровичЯнукович.1950	pp.Reg		2010-04-23	2014-03-29	head		Honorary Head 	почесний голова Партії регіонів
  	ОлександрВалентиновичТурчинов.1964	Ukraine	ActingPresidency	2014-02-23	2014-06-07	head	1	President of Ukraine	Президент України
- 	ОлександрВалентиновичТурчинов.1964	pp.BUT		2012-10-28	2014-08-21	member			
+	ОлександрВалентиновичТурчинов.1964	ВРУ	ВРУ.7	2014-02-22	2014-11-27	head		Chairman of the Verkhovna Rada of Ukraine	Голова Верховної Ради України
+	ОлександрВалентиновичТурчинов.1964	GOV.UA	GOV.UA.2ndTymoshenko	2007-12-18	2010-03-11	deputyHead		First Vice Prime Minister	Перший віце-прем'єр-міністр України
+	ОлександрВалентиновичТурчинов.1964	ВРУ	ВРУ.3	1998-05-12	2002-05-14	MP			
+	ОлександрВалентиновичТурчинов.1964	ВРУ	ВРУ.4	2002-05-14	2005-07-07	MP			
+	ОлександрВалентиновичТурчинов.1964	ВРУ	ВРУ.5	2006-05-25	2007-06-15	MP			
+	ОлександрВалентиновичТурчинов.1964	ВРУ	ВРУ.6	2007-11-23	2007-12-19	MP			
+	ОлександрВалентиновичТурчинов.1964	ВРУ	ВРУ.7	2012-12-12	2014-11-27	MP			
+	ОлександрВалентиновичТурчинов.1964	ВРУ	ВРУ.8	2014-11-27	2014-12-16	MP			
+ 	ОлександрВалентиновичТурчинов.1964	pp.BUT		2002-05-14	2014-08-21	member			
  	ОлександрВалентиновичТурчинов.1964	pp.NF		2014-10-26	2014-12-16	member			
+	ОлександрВалентиновичТурчинов.1964	pp.Hrom		1998	1999	member			
+	ОлександрВалентиновичТурчинов.1964	pp.Hrom		1994	1997	head		Head of the party	
  	ПетроОлексійовичПорошенко.1965	Ukraine	5thPresidency	2014-06-07	2019-05-20	head		President of Ukraine	Президент України
+	ПетроОлексійовичПорошенко.1965	GOV.UA	GOV.UA.1stAzarov	2012-03-23	2012-12-24	minister		Minister of Economic Development and Trade	Міністр економічного розвитку і торгівлі України
+	ПетроОлексійовичПорошенко.1965	GOV.UA	GOV.UA.2ndTymoshenko	2009-10-09	2010-03-11	minister		Minister of Foreign Affairs	Міністр закордонних справ України
+	ПетроОлексійовичПорошенко.1965	ВРУ	ВРУ.3	1998-05-12	2002-05-14	MP			
+	ПетроОлексійовичПорошенко.1965	ВРУ	ВРУ.4	2002-05-14	2005-09-08	MP			
+	ПетроОлексійовичПорошенко.1965	ВРУ	ВРУ.5	2006-05-25	2007-11-23	MP			
+	ПетроОлексійовичПорошенко.1965	ВРУ	ВРУ.7	2012-12-12	2014-06-03	MP			
+	ПетроОлексійовичПорошенко.1965	ВРУ	ВРУ.9	2019-08-29	present	MP			
+	ПетроОлексійовичПорошенко.1965	pp.SDPU		1998	2000	co-head			
+	ПетроОлексійовичПорошенко.1965	pp.OurU		2005		member			
  ERR:org	ПетроОлексійовичПорошенко.1965	pp.independent		2012-10-28	2019-05-20				
- 	ПетроОлексійовичПорошенко.1965	pp.ES		2019-05-24	present	head			
+ ERR:org	ПетроОлексійовичПорошенко.1965	pp.BPP;pp.ES		2019-05-24	present	head			
  	ВолодимирОлександровичЗеленський.1978	Ukraine	6thPresidency	2019-05-20	present	head		President of Ukraine	Президент України
  ERR:org	ВолодимирОлександровичЗеленський.1978	pp.independent		2019-05-20					
  	АрсенійПетровичЯценюк.1974	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-11-27	head		Prime Minister of Ukraine	Прем'єр-міністр України
  	АрсенійПетровичЯценюк.1974	GOV.UA	GOV.UA.2stYatseniuk	2014-11-27	2016-04-14	head		Prime Minister of Ukraine	Прем'єр-міністр України
- 	АрсенійПетровичЯценюк.1974	pp.BUT		2012-10-28	2014-08-21	member			
+	АрсенійПетровичЯценюк.1974	GOV.UA	GOV.UA.2ndYanukovych	2007-03-21	2007-12-18	minister		Minister of Foreign Affairs	Міністр закордонних справ України
+	АрсенійПетровичЯценюк.1974	GOV.UA	GOV.UA.Yekhanurov	2005-09-27	2006-08-04	minister		Minister of Economics	Міністр економіки України
+	АрсенійПетровичЯценюк.1974	ВРУ	ВРУ.6	2007-12-04	2008-11-12	head		Chairman of the Verkhovna Rada of Ukraine	Голова Верховної Ради України
+	АрсенійПетровичЯценюк.1974	ВРУ	ВРУ.6	2007-11-23	2012-12-12	MP			
+	АрсенійПетровичЯценюк.1974	ВРУ	ВРУ.7	2012-12-12	2014-02-28	MP			
+	АрсенійПетровичЯценюк.1974	ВРУ	ВРУ.8	2014-11-27	2014-12-02	MP			
+	АрсенійПетровичЯценюк.1974	pp.OurU		2007-11-23	2012-12-12	nominated			
+ 	АрсенійПетровичЯценюк.1974	pp.BUT		2012-10-28	2014-08-21	nominated			
  	АрсенійПетровичЯценюк.1974	pp.NF		2014-10-26		head			
  	ВіталійГригоровичЯрема.1963	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2019-06-24	deputyHead		First Vice Prime Minister	Перший віце-прем'єр-міністр України
+	ВіталійГригоровичЯрема.1963	ВРУ	ВРУ.7	2012-12-12	2014-05-13	MP			
  	ВіталійГригоровичЯрема.1963	pp.BUT		2012-10-28	2014-02-27	nominated			
  	ОлександрМаксимовичСич.1964	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-12-02	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+	ОлександрМаксимовичСич.1964	ВРУ	ВРУ.7	2012-12-12	2014-02-28	MP			
  	ОлександрМаксимовичСич.1964	pp.Sv		2012-10-28		member			
  	ВолодимирБорисовичГройсман.1978	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-11-27	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
  	ВолодимирБорисовичГройсман.1978	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-11-27	minister		Minister of Regional Development, Construction and Communal Living	Міністр регіонального розвитку, будівництва та житлово-комунального господарства України
  	ВолодимирБорисовичГройсман.1978	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	head		Prime Minister of Ukraine	Прем'єр-міністр України
  ERR:org	ВолодимирБорисовичГройсман.1978	pp.independent		2014-02-27					
+	ВолодимирБорисовичГройсман.1978	ВРУ	ВРУ.8	2014-11-27	2016-04-14	head		Chairman of the Verkhovna Rada of Ukraine	Голова Верховної Ради України
  	ВолодимирБорисовичГройсман.1978	pp.BPP		2014-10-26	2016-04-14	nominated			
  	ВолодимирБорисовичГройсман.1978	pp.USH		2015-01-14	present	head			
  	ПавлоДмитровичПетренко.1979	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-11-27	minister		Minister of Justice	Міністр юстиції України
  	ПавлоДмитровичПетренко.1979	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02	2016-04-14	minister		Minister of Justice	Міністр юстиції України
  	ПавлоДмитровичПетренко.1979	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Justice	Міністр юстиції України
+	ПавлоДмитровичПетренко.1979	ВРУ	ВРУ.7	2012-12-12	2014-03-17	MP			
  	ПавлоДмитровичПетренко.1979	pp.BUT		2012-10-28		nominated			
  	ПавлоДмитровичПетренко.1979	pp.NF		2014-10-26		member			
  	ПавлоДмитровичПетренко.1979	pp.USH		2019		nominated			
@@ -106,25 +216,34 @@ checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
  	СергійМироновичКвіт.1965	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02	2016-04-14	minister		Minister of Education and Science 	Міністр освіти і науки України
  ERR:org	СергійМироновичКвіт.1965	pp.independent		2014					
  ERR:org	СергійМироновичКвіт.1965	pp.BPP;pp.ES		2014-12-02		member			
- 	ПавлоМихайловичШеремета.1971	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-09-02	minister		Minister of Economical Development and Trade	Міністр економічного розвитку і торгівлі України
+ 	ПавлоМихайловичШеремета.1971	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-09-02	minister		Minister of Economic Development and Trade	Міністр економічного розвитку і торгівлі України
  ERR:org	ПавлоМихайловичШеремета.1971	pp.independent							
- 	АнатолійАркадійовичМаксюта.1963	GOV.UA	GOV.UA.1stYatseniuk	2014-09-03		minister	1	Minister of Economical Development and Trade	Міністр економічного розвитку і торгівлі України (в.о.)
+ 	АнатолійАркадійовичМаксюта.1963	GOV.UA	GOV.UA.1stYatseniuk	2014-09-03		minister	1	Minister of Economic Development and Trade	Міністр економічного розвитку і торгівлі України (в.о.)
  ERR:org	АнатолійАркадійовичМаксюта.1963	pp.independent							
- 	ВалерійТезійовичПятницький.1962	GOV.UA	GOV.UA.1stYatseniuk			minister	1	Minister of Economical Development and Trade	Міністр економічного розвитку і торгівлі України (в.о.)
+ 	ВалерійТезійовичПятницький.1962	GOV.UA	GOV.UA.1stYatseniuk			minister	1	Minister of Economic Development and Trade	Міністр економічного розвитку і торгівлі України (в.о.)
  ERR:org	ВалерійТезійовичПятницький.1962	pp.independent							
  	ОлегСтепановичМусій.1965	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-12-02	minister		Minister of Healthcare	Міністр охорони здоров'я України
- ERR:org	ОлегСтепановичМусій.1965	pp.independent							
+	ОлегСтепановичМусій.1965	ВРУ	ВРУ.8	2014-11-27	2019-08-29	MP			
+ ERR:org	ОлегСтепановичМусій.1965	pp.independent		2014					
+	ЛюдмилаЛеонтіївнаДенісова.1960	GOV.UA	GOV.UA.2ndTymoshenko	2007-12-18	2010-03-11	minister		Minister of Labour and Social Policy	Міністр праці та соціальної політики України
  	ЛюдмилаЛеонтіївнаДенісова.1960	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-12-02	minister		Minister of Social Policy	Міністр соціальної політики України
+	ЛюдмилаЛеонтіївнаДенісова.1960	ВРУ	ВРУ.5	2006-05-25	2007-06-19	MP			
+	ЛюдмилаЛеонтіївнаДенісова.1960	ВРУ	ВРУ.6	2007-11-23	2007-12-19	MP			
+	ЛюдмилаЛеонтіївнаДенісова.1960	ВРУ	ВРУ.7	2012-12-12	2014-03-17	MP			
+	ЛюдмилаЛеонтіївнаДенісова.1960	ВРУ	ВРУ.8	2014-11-27	2018-03-15	MP			
  	ЛюдмилаЛеонтіївнаДенісова.1960	pp.BUT		2012-10-28	2014	member			
  	ЛюдмилаЛеонтіївнаДенісова.1960	pp.NF		2014-10-26		member			
  	АндрійВолодимировичМохник.1972	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-12-02	minister		Minister of Ecology and Natural Resources	Міністр екології та природних ресурсів України
+	АндрійВолодимировичМохник.1972	ВРУ	ВРУ.7	2012-12-12	2014-02-28	MP			
  	АндрійВолодимировичМохник.1972	pp.Sv		2012-10-28		member			
  	АндрійБогдановичДещиця.1965	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-06-19	minister	1	Minister of Foreign Affairs	Міністр закордонних справ України (в.о.)
  ERR:org	АндрійБогдановичДещиця.1965	pp.independent							
  	ПавлоАнатолійовичКлімкін.1967	GOV.UA	GOV.UA.1stYatseniuk	2014-06-19		minister		Minister of Foreign Affairs	Міністр закордонних справ України
  ERR:org	ПавлоАнатолійовичКлімкін.1967	pp.independent							
  	ІгорОлександровичШвайка.1976	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-12-02	minister		Minister of Agrarian Policy and Food	Міністр аграрної політики та продовольства України
+	ІгорОлександровичШвайка.1976	ВРУ	ВРУ.7	2012-12-12	2014-02-28	MP			
  	ІгорОлександровичШвайка.1976	pp.Sv		2012-10-28		member			
+	ЮрійВасильовичПродан.1959	GOV.UA	GOV.UA.2ndTymoshenko	2007-12-18	2010-03-11	minister		Minister of Fuel and Energy	Міністр палива та енергетики України
  	ЮрійВасильовичПродан.1959	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-12-02	minister		Minister of Energy and Coal Industry	Міністр енергетики та вугільної промисловості України
  ERR:org	ЮрійВасильовичПродан.1959	pp.independent							
  	ІгорЙосиповичТенюх.1958	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-03-25	minister	1	Minister of Defense	Міністр оборони України (в.о.)
@@ -138,27 +257,42 @@ checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
  	СтепанТимофійовичПолторак.1965	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Defense	Міністр оборони України
  ERR:org	СтепанТимофійовичПолторак.1965	pp.independent							
  	МаксимЮрійовичБурбак.1976	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-12-02	minister		Minister of Infrastructure	Міністр інфраструктури України
+	МаксимЮрійовичБурбак.1976	ВРУ	ВРУ.7	2012-12-12	2014-03-17	MP			
+	МаксимЮрійовичБурбак.1976	ВРУ	ВРУ.8	2014-11-27	2019-08-29	MP			
  	МаксимЮрійовичБурбак.1976	pp.BUT		2012-10-28		nominated			
  	МаксимЮрійовичБурбак.1976	pp.NF		2014-10-26		member			
+	ОлександрВіталійовичШлапак.1960	GOV.UA	GOV.UA.Kinakh 	2001-07-10	2002-11-30	minister		Minister of Economics 	Міністр економіки України
  	ОлександрВіталійовичШлапак.1960	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-12-02	minister		Minister of Finance	Міністр фінансів України
  ERR:org	ОлександрВіталійовичШлапак.1960	pp.independent							
  	ОстапМихайловичСемерак.1972	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-12-02	minister		Minister of the Cabinet of Ministers	Міністр Кабінету Міністрів
  	ОстапМихайловичСемерак.1972	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Ecology and Natural Resources	Міністр екології та природних ресурсів України
+	ОстапМихайловичСемерак.1972	ВРУ	ВРУ.6	2007-11-23	2012-12-12	MP			
+	ОстапМихайловичСемерак.1972	pp.PRP		1997	2013	member			
  	ОстапМихайловичСемерак.1972	pp.BUT		2013	2014	member			
  	ОстапМихайловичСемерак.1972	pp.NF		2014-10-26		member			
  	ВалерійМиколайовичВощевський.1956	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02	2015-09-17	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+	ВалерійМиколайовичВощевський.1956	ВРУ	ВРУ.8	2014-11-27	2014-12-02	MP			
  	ВалерійМиколайовичВощевський.1956	pp.RP		2014-10-26		member			
+	В’ячеславАнатолійовичКириленко.1968	GOV.UA	GOV.UA.Yekhanurov	2005-09-27	2006-08-04	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+	В’ячеславАнатолійовичКириленко.1968	GOV.UA	GOV.UA.1stTymoshenko	2005-02-04	2005-09-27	minister		Minister of Labour and Social Policy	Міністр праці та соціальної політики України
  	В’ячеславАнатолійовичКириленко.1968	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02	2016-04-14	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
  	В’ячеславАнатолійовичКириленко.1968	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02	2016-04-14	minister		Minister of Culture	Міністр культури України
  	В’ячеславАнатолійовичКириленко.1968	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+	В’ячеславАнатолійовичКириленко.1968	ВРУ	ВРУ.3	1998-05-12	2002-05-14	MP			
+	В’ячеславАнатолійовичКириленко.1968	ВРУ	ВРУ.4	2002-05-14	2005-03-03	MP			
+	В’ячеславАнатолійовичКириленко.1968	ВРУ	ВРУ.5	2006-05-25	2007-06-08	MP			
+	В’ячеславАнатолійовичКириленко.1968	ВРУ	ВРУ.6	2007-11-23	2012-12-12	MP			
+	В’ячеславАнатолійовичКириленко.1968	ВРУ	ВРУ.7	2012-12-12	2014-11-27	MP			
+	В’ячеславАнатолійовичКириленко.1968	ВРУ	ВРУ.8	2014-11-27	2014-12-02	MP			
  	В’ячеславАнатолійовичКириленко.1968	pp.NF		2014-10-26		member			
  	В’ячеславАнатолійовичКириленко.1968	pp.BUT		2012-10-28		nominated			
  	ГеннадійГригоровичЗубко.1967	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02	2016-04-14	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
  	ГеннадійГригоровичЗубко.1967	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
  	ГеннадійГригоровичЗубко.1967	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Regional Development, Construction and Communal Living	Міністр регіонального розвитку, будівництва та житлово-комунального господарства України
+	ГеннадійГригоровичЗубко.1967	ВРУ	ВРУ.7	2012-12-12	2014-11-27	MP			
  	ГеннадійГригоровичЗубко.1967	pp.BUT		2014-10-26		nominated			
  ERR:org	ГеннадійГригоровичЗубко.1967	pp.BPP;pp.ES		2016-04-14		nominated			
- 	АйварасАбромавічус.1976	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02	2016-04-14	minister		Minister of Economical Development and Trade	Міністр економічного розвитку і торгівлі України
+ 	АйварасАбромавічус.1976	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02	2016-04-14	minister		Minister of Economic Development and Trade	Міністр економічного розвитку і торгівлі України
  ERR:org	АйварасАбромавічус.1976	pp.independent							
  	ВолодимирВасильовичДемчишин.1974	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02	2016-04-14	minister		Minister of Energy and Coal Industry 	Міністр енергетики та вугільної промисловості України
  ERR:org	ВолодимирВасильовичДемчишин.1974	pp.independent							
@@ -179,6 +313,10 @@ checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
  	ПавлоВалерійовичРозенко.1970	pp.Ud		2012-10-28		member			
  	ЮрійЯрославовичСтець.1975	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02	2016-04-14	minister		Minister of Information Policy	Міністр інформаційної політики України
  	ЮрійЯрославовичСтець.1975	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Information Policy	Міністр інформаційної політики України
+	ЮрійЯрославовичСтець.1975	ВРУ	ВРУ.6	2007-11-23	2012-12-12	MP			
+	ЮрійЯрославовичСтець.1975	ВРУ	ВРУ.7	2012-12-12	2014-11-27	MP			
+	ЮрійЯрославовичСтець.1975	ВРУ	ВРУ.8	2014-11-27	2014-12-02	MP			
+	ЮрійЯрославовичСтець.1975	pp.OurU		2007-11-23		nominated			
  	ЮрійЯрославовичСтець.1975	pp.BUT		2012-10-28	2014	nominated			
  ERR:org	ЮрійЯрославовичСтець.1975	pp.BPP;pp.ES		2014-10-26		member			
  	НаталіяЯресько.1965	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02		minister		Minister of Finance	Міністр фінансів України
@@ -186,27 +324,40 @@ checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
  	ІгорАнатолійовичШевченко.1971	GOV.UA	GOV.UA.2stYatseniuk	2014-12-02	2015-07-02	minister		Minister of Ecology and Natural Resources	Міністр екології та природних ресурсів України
  ERR:org	ІгорАнатолійовичШевченко.1971	pp.independent							
  	СтепанІвановичКубів.1962	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	deputyHead		First Vice Prime Minister	Перший віце-прем'єр-міністр України
- 	СтепанІвановичКубів.1962	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Economical Development and Trade	Міністр економічного розвитку і торгівлі України
+ 	СтепанІвановичКубів.1962	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Economic Development and Trade	Міністр економічного розвитку і торгівлі України
+	СтепанІвановичКубів.1962	ВРУ	ВРУ.7	2012-12-12	2014-03-04	MP			
+	СтепанІвановичКубів.1962	ВРУ	ВРУ.8	2014-11-27	2016-04-14	MP			
+	СтепанІвановичКубів.1962	ВРУ	ВРУ.9	2019-08-29	present	MP			
+	СтепанІвановичКубів.1962	pp.BUT		2012-12-12		nominated			
  ERR:org	СтепанІвановичКубів.1962	pp.BPP;pp.ES		2014-10-26		member			
  	ІваннаОрестівнаКлимпуш-Цинцадзе.1972	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+	ІваннаОрестівнаКлимпуш-Цинцадзе.1972	ВРУ	ВРУ.8	2014-11-27	2016-04-14	MP			
+	ІваннаОрестівнаКлимпуш-Цинцадзе.1972	ВРУ	ВРУ.9	2019-08-29	present	MP			
  ERR:org	ІваннаОрестівнаКлимпуш-Цинцадзе.1972	pp.BPP;pp.ES		2014-10-26		nominated			
  ERR:org	ІваннаОрестівнаКлимпуш-Цинцадзе.1972	pp.BPP;pp.ES		2019-07-21		nominated			
  	ВолодимирЄвсевійовичКістіон.1965	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
  ERR:org	ВолодимирЄвсевійовичКістіон.1965	pp.BPP;pp.ES		2015		nominated			
  	ВолодимирЄвсевійовичКістіон.1965	pp.USH		2020		member			
  	ТарасВікторовичКутовий.1976	GOV.UA	GOV.UA.Hroisman	2016-04-14	2018-11-22	minister		Minister of Agrarian Policy and Food	Міністр аграрної політики та продовольства України
+	ТарасВікторовичКутовий.1976	ВРУ	ВРУ.7	2012-12-12	2014-11-27	MP			
+	ТарасВікторовичКутовий.1976	ВРУ	ВРУ.8	2014-11-27	2016-04-14	MP			
  	ТарасВікторовичКутовий.1976	pp.UD		2012-10-28		member			
- ERR:org	ТарасВікторовичКутовий.1976	pp.independent		2014-10-26		nominated			
+ ERR:org	ТарасВікторовичКутовий.1976	pp.BPP;pp.ES		2014-10-26		nominated			
  	МаксимПетровичМартинюк.1977	GOV.UA	GOV.UA.Hroisman	2018-11-22	2019-02-06	minister	1	Minister of Agrarian Policy and Food	Міністр аграрної політики та продовольства України
  	МаксимПетровичМартинюк.1977	pp.BUT		2007		nominated			
  	ОльгаВасилівнаТрофімцева.1976	GOV.UA	GOV.UA.Hroisman	2019-02-06	2019-08-29	minister	1	Minister of Agrarian Policy and Food	Міністр аграрної політики та продовольства України
  ERR:org	ОльгаВасилівнаТрофімцева.1976	pp.independent							
  	ІгорСтепановичНасалик.1962	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Energy and Coal Industry 	Міністр енергетики та вугільної промисловості України
+	ІгорСтепановичНасалик.1962	ВРУ	ВРУ.3	1998-05-12	2002-05-14	MP			
+	ІгорСтепановичНасалик.1962	ВРУ	ВРУ.4	2002-05-14	2006-05-25	MP			
+	ІгорСтепановичНасалик.1962	pp.NRU		2002		member			
  ERR:org	ІгорСтепановичНасалик.1962	pp.BPP;pp.ES		2014-10-26		nominated			
  	ІгорСтепановичНасалик.1962	pp.UP		2010	2012	head		Chairman of the Political Council of the Ukrainian Party	Голова Політичної Ради Української партії
  	ВолодимирВолодимировичОмелян.1979	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Infrastructure	Міністр інфраструктури України
  	ВолодимирВолодимировичОмелян.1979	pp.NF		2016		nominated			
  	ЛіліяМихайлівнаГриневич.1965	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of Education and Science	Міністр освіти і науки України
+	ЛіліяМихайлівнаГриневич.1965	ВРУ	ВРУ.7	2012-12-12	2014-11-27	MP			
+	ЛіліяМихайлівнаГриневич.1965	ВРУ	ВРУ.8	2014-11-27	2016-04-14	MP			
  	ЛіліяМихайлівнаГриневич.1965	pp.BUT		2012-10-28		nominated			
  	ЛіліяМихайлівнаГриневич.1965	pp.NF		2014-10-26		member			
  	ЛіліяМихайлівнаГриневич.1965	pp.USH		2019		nominated			
@@ -227,6 +378,8 @@ checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
  	ОксанаСергіївнаМаркарова.1976	GOV.UA	GOV.UA.Hroisman	2018-11-28	2019-08-29	minister		Minister of Finance	Міністр фінансів України
  ERR:org	ОксанаСергіївнаМаркарова.1976	pp.independent							
  	ІринаВасилівнаФріз.1974	GOV.UA	GOV.UA.Hroisman	2018-11-22	2019-08-29	minister		Minister for Veterans Affairs	Міністр у справах ветеранів
+	ІринаВасилівнаФріз.1974	ВРУ	ВРУ.8	2014-11-27	2018-11-22	MP			
+	ІринаВасилівнаФріз.1974	ВРУ	ВРУ.9	2019-08-29	present	MP			
  ERR:org	ІринаВасилівнаФріз.1974	pp.BPP;pp.ES		2014-10-26		member			
  	ОлександрСергійовичСаєнко.1984	GOV.UA	GOV.UA.Hroisman	2016-04-14	2019-08-29	minister		Minister of the Cabinet of Ministers	Міністр Кабінету Міністрів
  ERR:org	ОлександрСергійовичСаєнко.1984	pp.BPP;pp.ES		2016		nominated			
@@ -285,9 +438,10 @@ checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
  	ЮліяАнатоліївнаСвириденко.1985	GOV.UA	GOV.UA.Shmyhal	2021-11-04	present	minister		Minister of Economics	Міністр економіки України
  	ОльгаВіталіївнаСтефанішина.1985	GOV.UA	GOV.UA.Shmyhal	2020-03-04					
  	ОльгаВіталіївнаСтефанішина.1985	pp.SN		2021-03-13		member		member of the Political Council of the Servant of the People 	член політради партії "Слуга народу"
- 	ІринаАндріївнаВерещук.1979	GOV.UA	GOV.UA.Shmyhal	2021-11-04	present			Minister of Reintegration of Temporarily Occupied Territories	Міністр з питань реінтеграції тимчасово окупованих територій
-									
-									
+	ІринаАндріївнаВерещук.1979	GOV.UA	GOV.UA.Shmyhal	2021-11-04	present	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
+ 	ІринаАндріївнаВерещук.1979	GOV.UA	GOV.UA.Shmyhal	2021-11-04	present	minister		Minister of Reintegration of Temporarily Occupied Territories	Міністр з питань реінтеграції тимчасово окупованих територій
+	ІринаАндріївнаВерещук.1979	ВРУ	ВРУ.9	2019-08-29	2021-11-04	MP			
+	ІринаАндріївнаВерещук.1979	pp.SN		2019		nominated			
  	ОлександрМиколайовичКубраков.1982	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2022-12-01	minister		Minister of Infrastructure	Міністр інфраструктури України
  	ОлександрМиколайовичКубраков.1982	GOV.UA	GOV.UA.Shmyhal	2022-12-01	present	minister		Minister for Communities and Territories Development and Infrastructure	Міністр розвитку громад, територій та інфраструктури України
  	ОлександрМиколайовичКубраков.1982	GOV.UA	GOV.UA.Shmyhal	2022-12-01	present	deputyHead		Vice Prime Minister	Віце-прем'єр-міністр України
@@ -309,9 +463,12 @@ checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
  	ОлексійМиколайовичЛюбченко.1971	GOV.UA	GOV.UA.Shmyhal	2021-05-20	2021-11-03	minister		Minister of Economics	Міністр економіки України
  ERR:org	ОлексійМиколайовичЛюбченко.1971	pp.independent							
  	ВіталійМиколайовичШубін.1982	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2020-04-16	minister	1	Minister of Energy	Міністр енергетики України
+	ВіталійМиколайовичШубін.1982	pp.independent							
  	ОльгаАнатоліївнаБуславець.1975	GOV.UA	GOV.UA.Shmyhal	2020-04-16	2020-11-20	minister	1	Minister of Energy	Міністр енергетики України
+	ОльгаАнатоліївнаБуславець.1975	pp.independent							
  	ЮрійМиколайовичБойко.1972	GOV.UA	GOV.UA.Shmyhal	2020-11-20	2020-12-21	minister	1	Minister of Energy	Міністр енергетики України
  	ЮрійМиколайовичБойко.1972	GOV.UA	GOV.UA.Shmyhal	2021-04-28	2021-04-29	minister	1	Minister of Energy	Міністр енергетики України
+	ЮрійМиколайовичБойко.1972	pp.independent							
  	ЮрійЮрійовичВітренко.1976	GOV.UA	GOV.UA.Shmyhal	2020-12-21	2021-04-28	minister	1	Minister of Energy	Міністр енергетики України
  ERR:org	ЮрійЮрійовичВітренко.1976	pp.independent							
  	ГерманВалерійовичГалущенко.1973	GOV.UA	GOV.UA.Shmyhal	2021-04-29	present			Minister of Energy	Міністр енергетики України

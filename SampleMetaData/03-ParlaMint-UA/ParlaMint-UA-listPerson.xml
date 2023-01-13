@@ -2169,14 +2169,7 @@
          <forename>Орестівна</forename>
          <surname>Климпуш-Цинцадзе</surname>
       </persName>
-      <persName>
-         <forename>Іванна</forename>
-         <forename>Орестівна</forename>
-         <surname>Климпуш-Цинцадзе</surname>
-      </persName>
       <birth when="1972-07-05"/>
-      <birth when="1972-07-05"/>
-      <sex value="F"/>
       <sex value="F"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Ivanna_Klympush-Tsintsadze</idno>
       <figure>
@@ -2210,6 +2203,12 @@
                    from="2016-04-14"
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2016-04-14"
+                   ana="#ВРУ.8"/>
+      <affiliation ref="#ВРУ" role="MP" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#pp.BPP;pp.ES" role="nominated" from="2014-10-26"/>
       <affiliation ref="#pp.BPP;pp.ES" role="nominated" from="2019-07-21"/>
    </person>
@@ -3125,8 +3124,8 @@
                    from="2014-02-27"
                    to="2014-03-25"
                    ana="#GOV.UA.1stYatseniuk #acting"/>
-      <affiliation ref="#pp.Sv" role="" from="member"/>
-      <affiliation ref="#pp.Sv" role="member" from="member"/>
+      <affiliation ref="#pp.Sv" role=""/>
+      <affiliation ref="#pp.Sv" role="member"/>
    </person>
    <person xml:id="ІгорЛеонідовичГерасименко.1984">
       <persName>
@@ -3262,14 +3261,7 @@
          <forename>Миколайович</forename>
          <surname>Прасолов</surname>
       </persName>
-      <persName>
-         <forename>Ігор</forename>
-         <forename>Миколайович</forename>
-         <surname>Прасолов</surname>
-      </persName>
       <birth when="1962-02-04"/>
-      <birth when="1962-02-04"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Ihor_Prasolov</idno>
       <figure>
@@ -3317,14 +3309,28 @@
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov">
          <roleName xml:lang="uk">Міністр економічного розвитку і торгівлі України</roleName>
-         <roleName xml:lang="en">Minister of Economical Development and Trade</roleName>
+         <roleName xml:lang="en">Minister of Economic Development and Trade</roleName>
       </affiliation>
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2012-12-24"
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov"/>
-      <affiliation ref="#pp.Reg" role="" from="2006"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-11-23"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2012-12-12"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2013-01-11"
+                   ana="#ВРУ.7"/>
       <affiliation ref="#pp.Reg" role="member" from="2006"/>
    </person>
    <person xml:id="ІгорМиколайовичСміяненко.1958">
@@ -3559,14 +3565,7 @@
          <forename>Олександрович</forename>
          <surname>Жданов</surname>
       </persName>
-      <persName>
-         <forename>Ігор</forename>
-         <forename>Олександрович</forename>
-         <surname>Жданов</surname>
-      </persName>
       <birth when="1967-12-29"/>
-      <birth when="1967-12-29"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Ihor_Zhdanov</idno>
       <figure>
@@ -3745,14 +3744,7 @@
          <forename>Олександрович</forename>
          <surname>Швайка</surname>
       </persName>
-      <persName>
-         <forename>Ігор</forename>
-         <forename>Олександрович</forename>
-         <surname>Швайка</surname>
-      </persName>
       <birth when="1976-02-25"/>
-      <birth when="1976-02-25"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Ihor_Shvaika</idno>
       <figure>
@@ -3781,6 +3773,11 @@
                    from="2014-02-27"
                    to="2014-12-02"
                    ana="#GOV.UA.1stYatseniuk"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-02-28"
+                   ana="#ВРУ.7"/>
       <affiliation ref="#pp.Sv" role="member" from="2012-10-28"/>
    </person>
    <person xml:id="ІгорОлексійовичГринів.1961">
@@ -4052,14 +4049,7 @@
          <forename>Степанович</forename>
          <surname>Насалик</surname>
       </persName>
-      <persName>
-         <forename>Ігор</forename>
-         <forename>Степанович</forename>
-         <surname>Насалик</surname>
-      </persName>
       <birth when="1962-11-25"/>
-      <birth when="1962-11-25"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Ihor_Nasalyk</idno>
       <figure>
@@ -4097,6 +4087,17 @@
                    from="2016-04-14"
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="1998-05-12"
+                   to="2002-05-14"
+                   ana="#ВРУ.3"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2002-05-14"
+                   to="2006-05-25"
+                   ana="#ВРУ.4"/>
+      <affiliation ref="#pp.NRU" role="member" from="2002"/>
       <affiliation ref="#pp.BPP;pp.ES" role="nominated" from="2014-10-26"/>
       <affiliation ref="#pp.UP" role="head" from="2010" to="2012">
          <roleName xml:lang="uk">Голова Політичної Ради Української партії</roleName>
@@ -4467,14 +4468,7 @@
          <forename>Андріївна</forename>
          <surname>Верещук</surname>
       </persName>
-      <persName>
-         <forename>Ірина</forename>
-         <forename>Андріївна</forename>
-         <surname>Верещук</surname>
-      </persName>
       <birth when="1979-11-30"/>
-      <birth when="1979-11-30"/>
-      <sex value="F"/>
       <idno type="URI" subtype="personal">https://en.wikipedia.org/wiki/Iryna_Vereshchuk</idno>
       <figure>
          <graphic url="http://static.rada.gov.ua/dep_img9/sn29.jpg"/>
@@ -4486,17 +4480,33 @@
                    ana="#ВРУ.9"/>
       <!--from 2019-08-29 to 2021-11-04: Безпартійний-->
       <affiliation ref="#GOV.UA"
-                   role=""
+                   role="deputyHead"
                    from="2021-11-04"
-                   to="present"
-                   ana="#GOV.UA.Shmyhal #acting">
-         <roleName xml:lang="en">Міністр з питань реінтеграції тимчасово окупованих територій</roleName>
+                   ana="#GOV.UA.Shmyhal">
+         <roleName xml:lang="uk">Віце-прем'єр-міністр України</roleName>
+         <roleName xml:lang="en">Vice Prime Minister</roleName>
       </affiliation>
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2021-11-04"
-                   to="present"
-                   ana="#GOV.UA.Shmyhal #acting"/>
+                   ana="#GOV.UA.Shmyhal"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2021-11-04"
+                   ana="#GOV.UA.Shmyhal">
+         <roleName xml:lang="uk">Міністр з питань реінтеграції тимчасово окупованих територій</roleName>
+         <roleName xml:lang="en">Minister of Reintegration of Temporarily Occupied Territories</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2021-11-04"
+                   ana="#GOV.UA.Shmyhal"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2019-08-29"
+                   to="2021-11-04"
+                   ana="#ВРУ.9"/>
+      <affiliation ref="#pp.SN" role="nominated" from="2019"/>
    </person>
    <person xml:id="ІринаВалентинівнаВенедіктова.1978">
       <persName>
@@ -4558,14 +4568,7 @@
          <forename>Василівна</forename>
          <surname>Фріз</surname>
       </persName>
-      <persName>
-         <forename>Ірина</forename>
-         <forename>Василівна</forename>
-         <surname>Фріз</surname>
-      </persName>
       <birth when="1974-09-25"/>
-      <birth when="1974-09-25"/>
-      <sex value="F"/>
       <sex value="F"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Iryna_Friz</idno>
       <figure>
@@ -4599,6 +4602,12 @@
                    from="2018-11-22"
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2018-11-22"
+                   ana="#ВРУ.8"/>
+      <affiliation ref="#ВРУ" role="MP" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#pp.BPP;pp.ES" role="member" from="2014-10-26"/>
    </person>
    <person xml:id="ІринаВолодимирівнаГеращенко.1971">
@@ -5043,7 +5052,7 @@
                    to="2016-04-14"
                    ana="#GOV.UA.2stYatseniuk">
          <roleName xml:lang="uk">Міністр економічного розвитку і торгівлі України</roleName>
-         <roleName xml:lang="en">Minister of Economical Development and Trade</roleName>
+         <roleName xml:lang="en">Minister of Economic Development and Trade</roleName>
       </affiliation>
       <affiliation ref="#GOV.UA"
                    role="member"
@@ -5134,14 +5143,7 @@
          <forename>Валеріївна</forename>
          <surname>Бабак</surname>
       </persName>
-      <persName>
-         <forename>Альона</forename>
-         <forename>Валеріївна</forename>
-         <surname>Бабак</surname>
-      </persName>
       <birth when="1969-09-27"/>
-      <birth when="1969-09-27"/>
-      <sex value="F"/>
       <sex value="F"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Aliona_Babak</idno>
       <figure>
@@ -5171,8 +5173,8 @@
                    from="2014-11-27"
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
-      <affiliation ref="#pp.Self" role="" from="nominated"/>
-      <affiliation ref="#pp.Self" role="member" from="nominated"/>
+      <affiliation ref="#pp.Self" role=""/>
+      <affiliation ref="#pp.Self" role="member"/>
    </person>
    <person xml:id="АльонаВолодимирівнаКошелєва.1990">
       <persName>
@@ -5434,7 +5436,7 @@
                    from="2014-09-03"
                    ana="#GOV.UA.1stYatseniuk #acting">
          <roleName xml:lang="uk">Міністр економічного розвитку і торгівлі України (в.о.)</roleName>
-         <roleName xml:lang="en">Minister of Economical Development and Trade</roleName>
+         <roleName xml:lang="en">Minister of Economic Development and Trade</roleName>
       </affiliation>
       <affiliation ref="#GOV.UA"
                    role="member"
@@ -6912,14 +6914,7 @@
          <forename>Володимирович</forename>
          <surname>Мохник</surname>
       </persName>
-      <persName>
-         <forename>Андрій</forename>
-         <forename>Володимирович</forename>
-         <surname>Мохник</surname>
-      </persName>
       <birth when="1972-06-15"/>
-      <birth when="1972-06-15"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Andriy_Mokhnyk</idno>
       <figure>
@@ -6948,6 +6943,11 @@
                    from="2014-02-27"
                    to="2014-12-02"
                    ana="#GOV.UA.1stYatseniuk"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-02-28"
+                   ana="#ВРУ.7"/>
       <affiliation ref="#pp.Sv" role="member" from="2012-10-28"/>
    </person>
    <person xml:id="АндрійВолодимировичПарубій.1971">
@@ -8609,15 +8609,8 @@
          <forename>Борисович</forename>
          <surname>Аваков</surname>
       </persName>
-      <persName>
-         <forename>Арсен</forename>
-         <forename>Борисович</forename>
-         <surname>Аваков</surname>
-      </persName>
       <birth when="1964-01-02"/>
       <birth when="1964-01-02"/>
-      <birth when="1964-01-02"/>
-      <sex value="M"/>
       <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Arsen_Avakov</idno>
@@ -8728,7 +8721,17 @@
                    from="2020-03-04"
                    to="2021-07-15"
                    ana="#GOV.UA.Shmyhal"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-03-17"
+                   ana="#ВРУ.7"/>
       <affiliation ref="#pp.BUT" role="member" from="2012-10-28" to="2014-10-26"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2014-12-02"
+                   ana="#ВРУ.8"/>
       <affiliation ref="#pp.NF" role="nominated" from="2014-10-26"/>
       <affiliation ref="#GOV.UA"
                    role="minister"
@@ -8808,7 +8811,17 @@
                    from="2020-03-04"
                    to="2021-07-15"
                    ana="#GOV.UA.Shmyhal"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-03-17"
+                   ana="#ВРУ.7"/>
       <affiliation ref="#pp.BUT" role="member" from="2012-10-28" to="2014-10-26"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2014-12-02"
+                   ana="#ВРУ.8"/>
       <affiliation ref="#pp.NF" role="nominated" from="2014-10-26"/>
    </person>
    <person xml:id="АрсенійМихайловичПушкаренко.1992">
@@ -8831,14 +8844,7 @@
          <forename>Петрович</forename>
          <surname>Яценюк</surname>
       </persName>
-      <persName>
-         <forename>Арсеній</forename>
-         <forename>Петрович</forename>
-         <surname>Яценюк</surname>
-      </persName>
       <birth when="1974-05-22"/>
-      <birth when="1974-05-22"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Arseniy_Yatsenyuk</idno>
       <idno type="URI" subtype="personal">https://yatsenyuk.org.ua/ua</idno>
@@ -8907,7 +8913,68 @@
                    from="2014-11-27"
                    to="2016-04-14"
                    ana="#GOV.UA.2stYatseniuk"/>
-      <affiliation ref="#pp.BUT" role="member" from="2012-10-28" to="2014-08-21"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2007-03-21"
+                   to="2007-12-18"
+                   ana="#GOV.UA.2ndYanukovych">
+         <roleName xml:lang="uk">Міністр закордонних справ України</roleName>
+         <roleName xml:lang="en">Minister of Foreign Affairs</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2007-03-21"
+                   to="2007-12-18"
+                   ana="#GOV.UA.2ndYanukovych"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2005-09-27"
+                   to="2006-08-04"
+                   ana="#GOV.UA.Yekhanurov">
+         <roleName xml:lang="uk">Міністр економіки України</roleName>
+         <roleName xml:lang="en">Minister of Economics</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2005-09-27"
+                   to="2006-08-04"
+                   ana="#GOV.UA.Yekhanurov"/>
+      <affiliation ref="#ВРУ"
+                   role="head"
+                   from="2007-12-04"
+                   to="2008-11-12"
+                   ana="#ВРУ.6">
+         <roleName xml:lang="uk">Голова Верховної Ради України</roleName>
+         <roleName xml:lang="en">Chairman of the Verkhovna Rada of Ukraine</roleName>
+      </affiliation>
+      <affiliation ref="#ВРУ"
+                   role="member"
+                   from="2007-12-04"
+                   to="2008-11-12"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2012-12-12"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-02-28"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2014-12-02"
+                   ana="#ВРУ.8"/>
+      <affiliation ref="#pp.OurU"
+                   role="nominated"
+                   from="2007-11-23"
+                   to="2012-12-12"/>
+      <affiliation ref="#pp.BUT"
+                   role="nominated"
+                   from="2012-10-28"
+                   to="2014-08-21"/>
       <affiliation ref="#pp.NF" role="head" from="2014-10-26"/>
       <affiliation ref="#pp.NF" role="member" from="2014-10-26"/>
    </person>
@@ -10422,7 +10489,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр молоді та спорту України</roleName>
          <roleName xml:lang="en">Minister of Youth and Sports</roleName>
@@ -10430,7 +10496,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.SN" role="nominated" from="2019"/>
    </person>
@@ -11703,14 +11768,7 @@
          <forename>Миколайович</forename>
          <surname>Вощевський</surname>
       </persName>
-      <persName>
-         <forename>Валерій</forename>
-         <forename>Миколайович</forename>
-         <surname>Вощевський</surname>
-      </persName>
       <birth when="1956-06-12"/>
-      <birth when="1956-06-12"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Valeriy_Voshchevsky</idno>
       <figure>
@@ -11739,6 +11797,11 @@
                    from="2014-12-02"
                    to="2015-09-17"
                    ana="#GOV.UA.2stYatseniuk"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2014-12-02"
+                   ana="#ВРУ.8"/>
       <affiliation ref="#pp.RP" role="member" from="2014-10-26"/>
    </person>
    <person xml:id="ВалерійМиколайовичДавиденко.1973">
@@ -12274,10 +12337,7 @@
       <birth when="1962-04-19"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Valery_Pyatnitsky</idno>
-      <affiliation ref="#GOV.UA"
-                   role="1"
-                   to="minister"
-                   ana="#GOV.UA.1stYatseniuk #acting">
+      <affiliation ref="#GOV.UA" role="1" ana="#GOV.UA.1stYatseniuk #acting">
          <roleName xml:lang="en">Міністр економічного розвитку і торгівлі України (в.о.)</roleName>
       </affiliation>
       <affiliation ref="#pp.independent" role=""/>
@@ -13752,14 +13812,7 @@
          <forename>Артурович</forename>
          <surname>Криклій</surname>
       </persName>
-      <persName>
-         <forename>Владислав</forename>
-         <forename>Артурович</forename>
-         <surname>Криклій</surname>
-      </persName>
       <birth when="1986-11-23"/>
-      <birth when="1986-11-23"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Vladyslav_Krykliy</idno>
       <figure>
@@ -13797,8 +13850,8 @@
                    from="2020-03-04"
                    to="2021-05-18"
                    ana="#GOV.UA.Shmyhal"/>
-      <affiliation ref="#pp.SN" role="" from="nominated"/>
-      <affiliation ref="#pp.SN" role="member" from="nominated"/>
+      <affiliation ref="#pp.SN" role=""/>
+      <affiliation ref="#pp.SN" role="member"/>
       <affiliation ref="#ВРУ"
                    role="MP"
                    from="2019-08-29"
@@ -14643,14 +14696,7 @@
          <forename>Борисович</forename>
          <surname>Гройсман</surname>
       </persName>
-      <persName>
-         <forename>Володимир</forename>
-         <forename>Борисович</forename>
-         <surname>Гройсман</surname>
-      </persName>
       <birth when="1978-01-20"/>
-      <birth when="1978-01-20"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Volodymyr_Groysman</idno>
       <figure>
@@ -14707,12 +14753,25 @@
                    ana="#GOV.UA.Hroisman"/>
       <affiliation ref="#pp.independent" role="" from="2014-02-27"/>
       <affiliation ref="#pp.independent" role="member" from="2014-02-27"/>
+      <affiliation ref="#ВРУ"
+                   role="head"
+                   from="2014-11-27"
+                   to="2016-04-14"
+                   ana="#ВРУ.8">
+         <roleName xml:lang="uk">Голова Верховної Ради України</roleName>
+         <roleName xml:lang="en">Chairman of the Verkhovna Rada of Ukraine</roleName>
+      </affiliation>
+      <affiliation ref="#ВРУ"
+                   role="member"
+                   from="2014-11-27"
+                   to="2016-04-14"
+                   ana="#ВРУ.8"/>
       <affiliation ref="#pp.BPP"
                    role="nominated"
                    from="2014-10-26"
                    to="2016-04-14"/>
-      <affiliation ref="#pp.USH" role="head" from="2015-01-14" to="present"/>
-      <affiliation ref="#pp.USH" role="member" from="2015-01-14" to="present"/>
+      <affiliation ref="#pp.USH" role="head" from="2015-01-14"/>
+      <affiliation ref="#pp.USH" role="member" from="2015-01-14"/>
    </person>
    <person xml:id="ВолодимирБорисовичШкляр.1960">
       <persName>
@@ -14808,14 +14867,7 @@
          <forename>Васильович</forename>
          <surname>Козак</surname>
       </persName>
-      <persName>
-         <forename>Володимир</forename>
-         <forename>Васильович</forename>
-         <surname>Козак</surname>
-      </persName>
       <birth when="1959-08-09"/>
-      <birth when="1959-08-09"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B7%D0%B0%D0%BA_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87_(1959)</idno>
       <figure>
@@ -14857,7 +14909,17 @@
                    from="2012-12-24"
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov"/>
-      <affiliation ref="#pp.Reg" role="member" from="2007"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-11-23"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2012-12-12"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#pp.Reg" role="member" from="2006"/>
    </person>
    <person xml:id="ВолодимирВасильовичКозак.1984">
       <persName>
@@ -16605,7 +16667,6 @@
       <affiliation ref="#Ukraine"
                    role="head"
                    from="2019-05-20"
-                   to="present"
                    ana="#6thPresidency">
          <roleName xml:lang="uk">Президент України</roleName>
          <roleName xml:lang="en">President of Ukraine</roleName>
@@ -16613,7 +16674,6 @@
       <affiliation ref="#Ukraine"
                    role="member"
                    from="2019-05-20"
-                   to="present"
                    ana="#6thPresidency"/>
       <affiliation ref="#pp.independent" role="" from="2019-05-20"/>
       <affiliation ref="#pp.independent" role="member" from="2019-05-20"/>
@@ -18700,7 +18760,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2021-05-20"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр охорони здоров'я України</roleName>
          <roleName xml:lang="en">Minister of Healthcare</roleName>
@@ -18708,7 +18767,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2021-05-20"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.independent" role=""/>
       <affiliation ref="#pp.independent" role="member"/>
@@ -19296,14 +19354,7 @@
          <forename>Федорович</forename>
          <surname>Янукович</surname>
       </persName>
-      <persName>
-         <forename>Віктор</forename>
-         <forename>Федорович</forename>
-         <surname>Янукович</surname>
-      </persName>
       <birth when="1950-07-09"/>
-      <birth when="1950-07-09"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Viktor_Yanukovych</idno>
       <figure>
@@ -19345,7 +19396,46 @@
                    from="2010-02-25"
                    to="2014-02-22"
                    ana="#4thPresidency"/>
-      <affiliation ref="#pp.Reg" role="head" from="2003-04-19" to="2010-04-23"/>
+      <affiliation ref="#GOV.UA"
+                   role="head"
+                   from="2002-11-21"
+                   to="2005-01-05"
+                   ana="#GOV.UA.1stYanukovych">
+         <roleName xml:lang="uk">Прем'єр-міністр України</roleName>
+         <roleName xml:lang="en">Prime Minister of Ukraine</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2002-11-21"
+                   to="2005-01-05"
+                   ana="#GOV.UA.1stYanukovych"/>
+      <affiliation ref="#GOV.UA"
+                   role="head"
+                   from="2006-08-04"
+                   to="2007-12-18"
+                   ana="#GOV.UA.2ndYanukovych">
+         <roleName xml:lang="uk">Прем'єр-міністр України</roleName>
+         <roleName xml:lang="en">Prime Minister of Ukraine</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2006-08-04"
+                   to="2007-12-18"
+                   ana="#GOV.UA.2ndYanukovych"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2006-09-12"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2010-02-19"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#pp.Reg" role="head" from="2003-04-19" to="2010-04-23">
+         <roleName xml:lang="uk">голова Партії регіонів</roleName>
+         <roleName xml:lang="en">head of the Party of Regions</roleName>
+      </affiliation>
       <affiliation ref="#pp.Reg" role="member" from="2003-04-19" to="2010-04-23"/>
       <affiliation ref="#pp.Reg" role="head" from="2010-04-23" to="2014-03-29">
          <roleName xml:lang="uk">почесний голова Партії регіонів</roleName>
@@ -19862,14 +19952,7 @@
          <forename>Григорович</forename>
          <surname>Ярема</surname>
       </persName>
-      <persName>
-         <forename>Віталій</forename>
-         <forename>Григорович</forename>
-         <surname>Ярема</surname>
-      </persName>
       <birth when="1963-10-14"/>
-      <birth when="1963-10-14"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Vitaly_Yarema</idno>
       <figure>
@@ -19898,6 +19981,11 @@
                    from="2014-02-27"
                    to="2019-06-24"
                    ana="#GOV.UA.1stYatseniuk"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-05-13"
+                   ana="#ВРУ.7"/>
       <affiliation ref="#pp.BUT"
                    role="nominated"
                    from="2012-10-28"
@@ -20009,6 +20097,8 @@
                    from="2020-03-04"
                    to="2020-04-16"
                    ana="#GOV.UA.Shmyhal #acting"/>
+      <affiliation ref="#pp.independent" role=""/>
+      <affiliation ref="#pp.independent" role="member"/>
    </person>
    <person xml:id="ВіталійМихайловичЧепинога.1969">
       <persName>
@@ -20579,14 +20669,7 @@
          <forename>Анатолійович</forename>
          <surname>Кириленко</surname>
       </persName>
-      <persName>
-         <forename>В’ячеслав</forename>
-         <forename>Анатолійович</forename>
-         <surname>Кириленко</surname>
-      </persName>
       <birth when="1968-06-07"/>
-      <birth when="1968-06-07"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Vyacheslav_Kyrylenko</idno>
       <figure>
@@ -20648,6 +20731,32 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#GOV.UA"
                    role="deputyHead"
+                   from="2005-09-27"
+                   to="2006-08-04"
+                   ana="#GOV.UA.Yekhanurov">
+         <roleName xml:lang="uk">Віце-прем'єр-міністр України</roleName>
+         <roleName xml:lang="en">Vice Prime Minister</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2005-09-27"
+                   to="2006-08-04"
+                   ana="#GOV.UA.Yekhanurov"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2005-02-04"
+                   to="2005-09-27"
+                   ana="#GOV.UA.1stTymoshenko">
+         <roleName xml:lang="uk">Міністр праці та соціальної політики України</roleName>
+         <roleName xml:lang="en">Minister of Labour and Social Policy</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2005-02-04"
+                   to="2005-09-27"
+                   ana="#GOV.UA.1stTymoshenko"/>
+      <affiliation ref="#GOV.UA"
+                   role="deputyHead"
                    from="2014-12-02"
                    to="2016-04-14"
                    ana="#GOV.UA.2stYatseniuk">
@@ -20685,6 +20794,36 @@
                    from="2016-04-14"
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="1998-05-12"
+                   to="2002-05-14"
+                   ana="#ВРУ.3"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2002-05-14"
+                   to="2005-03-03"
+                   ana="#ВРУ.4"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-06-08"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2012-12-12"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-11-27"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2014-12-02"
+                   ana="#ВРУ.8"/>
       <affiliation ref="#pp.NF" role="member" from="2014-10-26"/>
       <affiliation ref="#pp.BUT" role="nominated" from="2012-10-28"/>
    </person>
@@ -20896,14 +21035,7 @@
          <forename>Ігорівна</forename>
          <surname>Новосад</surname>
       </persName>
-      <persName>
-         <forename>Ганна</forename>
-         <forename>Ігорівна</forename>
-         <surname>Новосад</surname>
-      </persName>
       <birth when="1990-07-28"/>
-      <birth when="1990-07-28"/>
-      <sex value="F"/>
       <sex value="F"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Hanna_Novosad</idno>
       <figure>
@@ -20928,8 +21060,8 @@
                    from="2019-08-29"
                    to="2020-03-04"
                    ana="#GOV.UA.Honcharuk"/>
-      <affiliation ref="#pp.SN" role="" from="nominated"/>
-      <affiliation ref="#pp.SN" role="member" from="nominated"/>
+      <affiliation ref="#pp.SN" role=""/>
+      <affiliation ref="#pp.SN" role="member"/>
       <affiliation ref="#ВРУ"
                    role="MP"
                    from="2019-08-29"
@@ -21318,14 +21450,7 @@
          <forename>Григорович</forename>
          <surname>Зубко</surname>
       </persName>
-      <persName>
-         <forename>Геннадій</forename>
-         <forename>Григорович</forename>
-         <surname>Зубко</surname>
-      </persName>
       <birth when="1967-09-27"/>
-      <birth when="1967-09-27"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Hennadiy_Zubko</idno>
       <figure>
@@ -21380,6 +21505,11 @@
                    from="2016-04-14"
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-11-27"
+                   ana="#ВРУ.7"/>
       <affiliation ref="#pp.BUT" role="nominated" from="2014-10-26"/>
       <affiliation ref="#pp.BPP;pp.ES" role="nominated" from="2016-04-14"/>
    </person>
@@ -21864,17 +21994,15 @@
       <affiliation ref="#GOV.UA"
                    role=""
                    from="2021-04-29"
-                   to="present"
                    ana="#GOV.UA.Shmyhal #acting">
          <roleName xml:lang="en">Міністр енергетики України</roleName>
       </affiliation>
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2021-04-29"
-                   to="present"
                    ana="#GOV.UA.Shmyhal #acting"/>
-      <affiliation ref="#pp.Patr" role="" from="2020" to="member"/>
-      <affiliation ref="#pp.Patr" role="member" from="2020" to="member"/>
+      <affiliation ref="#pp.Patr" role="" from="2020"/>
+      <affiliation ref="#pp.Patr" role="member" from="2020"/>
       <affiliation ref="#pp.independent" role="" from="2020"/>
       <affiliation ref="#pp.independent" role="member" from="2020"/>
    </person>
@@ -22470,14 +22598,7 @@
          <forename>Анатолійович</forename>
          <surname>Монастирський</surname>
       </persName>
-      <persName>
-         <forename>Денис</forename>
-         <forename>Анатолійович</forename>
-         <surname>Монастирський</surname>
-      </persName>
       <birth when="1980-06-12"/>
-      <birth when="1980-06-12"/>
-      <sex value="M"/>
       <idno type="URI" subtype="personal">https://en.wikipedia.org/wiki/Denys_Monastyrsky</idno>
       <figure>
          <graphic url="http://static.rada.gov.ua/dep_img9/sn19.jpg"/>
@@ -22491,7 +22612,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2021-07-16"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр внутрішніх справ України</roleName>
          <roleName xml:lang="en">Minister of Internal Affairs</roleName>
@@ -22499,7 +22619,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2021-07-16"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#ВРУ"
                    role="MP"
@@ -22546,7 +22665,6 @@
       <affiliation ref="#GOV.UA"
                    role="head"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Прем'єр-міністр України</roleName>
          <roleName xml:lang="en">Prime Minister of Ukraine</roleName>
@@ -22554,7 +22672,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.independent" role=""/>
       <affiliation ref="#pp.independent" role="member"/>
@@ -22628,14 +22745,7 @@
          <forename>Леонтійович</forename>
          <surname>Малюська</surname>
       </persName>
-      <persName>
-         <forename>Денис</forename>
-         <forename>Леонтійович</forename>
-         <surname>Малюська</surname>
-      </persName>
       <birth when="1981-11-19"/>
-      <birth when="1981-11-19"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Denys_Maliuska</idno>
       <figure>
@@ -22663,7 +22773,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр юстиції України</roleName>
          <roleName xml:lang="en">Minister of Justice</roleName>
@@ -22671,7 +22780,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.SN" role="member" from="2021-03-13">
          <roleName xml:lang="uk">член політради партії "Слуга народу"</roleName>
@@ -22814,7 +22922,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр закордонних справ України</roleName>
          <roleName xml:lang="en">Minister of Foreign Affairs</roleName>
@@ -22822,7 +22929,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.independent" role=""/>
       <affiliation ref="#pp.independent" role="member"/>
@@ -23245,14 +23351,7 @@
          <forename>Володимирович</forename>
          <surname>Табачник</surname>
       </persName>
-      <persName>
-         <forename>Дмитро</forename>
-         <forename>Володимирович</forename>
-         <surname>Табачник</surname>
-      </persName>
       <birth when="1963-11-26"/>
-      <birth when="1963-11-26"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Dmytro_Tabachnyk</idno>
       <figure>
@@ -23291,6 +23390,45 @@
                    to="2012-12-25"
                    ana="#ВРУ.7"/>
       <affiliation ref="#GOV.UA"
+                   role="deputyHead"
+                   from="2002-11-26"
+                   to="2005-02-03"
+                   ana="#GOV.UA.1stYanukovych">
+         <roleName xml:lang="uk">Віце-прем'єр-міністр України</roleName>
+         <roleName xml:lang="en">Vice Prime Minister</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2002-11-26"
+                   to="2005-02-03"
+                   ana="#GOV.UA.1stYanukovych"/>
+      <affiliation ref="#GOV.UA"
+                   role="deputyHead"
+                   from="2006-08-04"
+                   to="2007-12-18"
+                   ana="#GOV.UA.2ndYanukovych">
+         <roleName xml:lang="uk">Віце-прем'єр-міністр України</roleName>
+         <roleName xml:lang="en">Vice Prime Minister</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2006-08-04"
+                   to="2007-12-18"
+                   ana="#GOV.UA.2ndYanukovych"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2010-03-11"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov">
+         <roleName xml:lang="uk">Міністр освіти і науки України</roleName>
+         <roleName xml:lang="en">Minister of Education</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2010-03-11"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov"/>
+      <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2012-12-24"
                    to="2014-02-23"
@@ -23303,7 +23441,32 @@
                    from="2012-12-24"
                    to="2014-02-23"
                    ana="#GOV.UA.2ndAzarov"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="1998-05-12"
+                   to="2002-05-14"
+                   ana="#ВРУ.3"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2002-05-14"
+                   to="2003-03-06"
+                   ana="#ВРУ.4"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2010-03-11"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2012-12-24"
+                   ana="#ВРУ.7"/>
       <affiliation ref="#pp.Reg" role="member" from="2007"/>
+      <affiliation ref="#pp.Lab" role="deputyHead" from="1999" to="2005">
+         <roleName xml:lang="uk">член президії</roleName>
+         <roleName xml:lang="en">presidium member</roleName>
+      </affiliation>
+      <affiliation ref="#pp.Lab" role="member" from="1999" to="2005"/>
    </person>
    <person xml:id="ДмитроВікторовичСоломчук.1980">
       <persName>
@@ -23957,6 +24120,19 @@
                    from="2012-12-24"
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2012-04-20"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov">
+         <roleName xml:lang="uk">Міністр екології та природних ресурсів України</roleName>
+         <roleName xml:lang="en">Minister of Ecology and Natural Resources</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2012-04-20"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov"/>
       <affiliation ref="#pp.Reg" role="" from="2006"/>
       <affiliation ref="#pp.Reg" role="member" from="2006"/>
    </person>
@@ -24690,7 +24866,34 @@
                    from="2012-12-24"
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2010-03-11"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov">
+         <roleName xml:lang="uk">Міністр закордонних справ України</roleName>
+         <roleName xml:lang="en">Minister of Foreign Affairs</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2010-03-11"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2003-09-02"
+                   to="2005-02-03"
+                   ana="#GOV.UA.1stYanukovych">
+         <roleName xml:lang="uk">Міністр закордонних справ України</roleName>
+         <roleName xml:lang="en">Minister of Foreign Affairs</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2003-09-02"
+                   to="2005-02-03"
+                   ana="#GOV.UA.1stYanukovych"/>
       <affiliation ref="#pp.Reg" role="nominated" from="2012"/>
+      <affiliation ref="#pp.RPU" role="member" from="2005-03-24" to="2007-08-03"/>
    </person>
    <person xml:id="КостянтинІвановичКасай.1979">
       <persName>
@@ -25769,14 +25972,7 @@
          <forename>Олександрович</forename>
          <surname>Кожара</surname>
       </persName>
-      <persName>
-         <forename>Леонід</forename>
-         <forename>Олександрович</forename>
-         <surname>Кожара</surname>
-      </persName>
       <birth when="1963-01-14"/>
-      <birth when="1963-01-14"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Leonid_Kozhara</idno>
       <figure>
@@ -25831,6 +26027,21 @@
                    from="2012-12-24"
                    to="2014-02-23"
                    ana="#GOV.UA.2ndAzarov"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-11-23"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2012-12-12"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2012-12-25"
+                   ana="#ВРУ.7"/>
       <affiliation ref="#pp.Reg" role="member" from="2007"/>
       <affiliation ref="#pp.Reg"
                    role="deputyHead"
@@ -26194,14 +26405,7 @@
          <forename>Леонтіївна</forename>
          <surname>Денісова</surname>
       </persName>
-      <persName>
-         <forename>Людмила</forename>
-         <forename>Леонтіївна</forename>
-         <surname>Денісова</surname>
-      </persName>
       <birth when="1960-07-06"/>
-      <birth when="1960-07-06"/>
-      <sex value="F"/>
       <sex value="F"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Lyudmyla_Denisova</idno>
       <figure>
@@ -26258,6 +26462,19 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#GOV.UA"
                    role="minister"
+                   from="2007-12-18"
+                   to="2010-03-11"
+                   ana="#GOV.UA.2ndTymoshenko">
+         <roleName xml:lang="uk">Міністр праці та соціальної політики України</roleName>
+         <roleName xml:lang="en">Minister of Labour and Social Policy</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2007-12-18"
+                   to="2010-03-11"
+                   ana="#GOV.UA.2ndTymoshenko"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
                    from="2014-02-27"
                    to="2014-12-02"
                    ana="#GOV.UA.1stYatseniuk">
@@ -26269,6 +26486,26 @@
                    from="2014-02-27"
                    to="2014-12-02"
                    ana="#GOV.UA.1stYatseniuk"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-06-19"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2007-12-19"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-03-17"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2018-03-15"
+                   ana="#ВРУ.8"/>
       <affiliation ref="#pp.BUT" role="member" from="2012-10-28" to="2014"/>
       <affiliation ref="#pp.NF" role="member" from="2014-10-26"/>
    </person>
@@ -26349,14 +26586,7 @@
          <forename>Михайлівна</forename>
          <surname>Гриневич</surname>
       </persName>
-      <persName>
-         <forename>Лілія</forename>
-         <forename>Михайлівна</forename>
-         <surname>Гриневич</surname>
-      </persName>
       <birth when="1965-05-13"/>
-      <birth when="1965-05-13"/>
-      <sex value="F"/>
       <sex value="F"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Liliya_Hrynevych</idno>
       <figure>
@@ -26398,6 +26628,16 @@
                    from="2016-04-14"
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-11-27"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2016-04-14"
+                   ana="#ВРУ.8"/>
       <affiliation ref="#pp.BUT" role="nominated" from="2012-10-28"/>
       <affiliation ref="#pp.NF" role="member" from="2014-10-26"/>
       <affiliation ref="#pp.USH" role="nominated" from="2019"/>
@@ -26781,14 +27021,7 @@
          <forename>Юрійович</forename>
          <surname>Бурбак</surname>
       </persName>
-      <persName>
-         <forename>Максим</forename>
-         <forename>Юрійович</forename>
-         <surname>Бурбак</surname>
-      </persName>
       <birth when="1976-01-13"/>
-      <birth when="1976-01-13"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Maksym_Burbak</idno>
       <figure>
@@ -26830,6 +27063,16 @@
                    from="2014-02-27"
                    to="2014-12-02"
                    ana="#GOV.UA.1stYatseniuk"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-03-17"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2019-08-29"
+                   ana="#ВРУ.8"/>
       <affiliation ref="#pp.BUT" role="nominated" from="2012-10-28"/>
       <affiliation ref="#pp.NF" role="member" from="2014-10-26"/>
    </person>
@@ -27835,14 +28078,7 @@
          <forename>Володимирович</forename>
          <surname>Присяжнюк</surname>
       </persName>
-      <persName>
-         <forename>Микола</forename>
-         <forename>Володимирович</forename>
-         <surname>Присяжнюк</surname>
-      </persName>
-      <birth when="1960-01-13"/>
       <birth when="1960-01-03"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Mykola_Prysyazhnyuk</idno>
       <figure>
@@ -27884,6 +28120,16 @@
                    from="2012-12-24"
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-11-23"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2010-03-11"
+                   ana="#ВРУ.6"/>
       <affiliation ref="#pp.Reg" role="member" from="2006"/>
    </person>
    <person xml:id="МиколаВолодимировичТоменко.1964">
@@ -29130,14 +29376,7 @@
          <forename>Тарасович</forename>
          <surname>Сольський</surname>
       </persName>
-      <persName>
-         <forename>Микола</forename>
-         <forename>Тарасович</forename>
-         <surname>Сольський</surname>
-      </persName>
       <birth when="1979-05-22"/>
-      <birth when="1979-05-22"/>
-      <sex value="M"/>
       <idno type="URI" subtype="personal">https://en.wikipedia.org/wiki/Mykola_Solskyi</idno>
       <figure>
          <graphic url="http://static.rada.gov.ua/dep_img9/sn125.jpg"/>
@@ -29147,7 +29386,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2022-03-24"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр аграрної політики та продовольства України</roleName>
          <roleName xml:lang="en">Minister of Agrarian Policy and Food</roleName>
@@ -29155,7 +29393,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2022-03-24"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#ВРУ"
                    role="MP"
@@ -29330,14 +29567,7 @@
          <forename>Янович</forename>
          <surname>Азаров</surname>
       </persName>
-      <persName>
-         <forename>Микола</forename>
-         <forename>Янович</forename>
-         <surname>Азаров</surname>
-      </persName>
       <birth when="1947-12-17"/>
-      <birth when="1947-12-17"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Mykola_Azarov</idno>
       <figure>
@@ -29381,6 +29611,19 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#GOV.UA"
                    role="head"
+                   from="2010-03-11"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov">
+         <roleName xml:lang="uk">Прем'єр-міністр України</roleName>
+         <roleName xml:lang="en">Prime Minister of Ukraine</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2010-03-11"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov"/>
+      <affiliation ref="#GOV.UA"
+                   role="head"
                    from="2012-12-24"
                    to="2014-01-28"
                    ana="#GOV.UA.2ndAzarov">
@@ -29392,10 +29635,87 @@
                    from="2012-12-24"
                    to="2014-01-28"
                    ana="#GOV.UA.2ndAzarov"/>
+      <affiliation ref="#GOV.UA"
+                   role="deputyHead"
+                   from="2006-08-04"
+                   to="2007-12-18"
+                   ana="#GOV.UA.2ndYanukovych">
+         <roleName xml:lang="uk">Перший віце-прем'єр-міністр України</roleName>
+         <roleName xml:lang="en">First Vice Prime Minister</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2006-08-04"
+                   to="2007-12-18"
+                   ana="#GOV.UA.2ndYanukovych"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2006-08-04"
+                   to="2007-12-18"
+                   ana="#GOV.UA.2ndYanukovych">
+         <roleName xml:lang="uk">Міністр фінансів України</roleName>
+         <roleName xml:lang="en">Minister of Finance</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2006-08-04"
+                   to="2007-12-18"
+                   ana="#GOV.UA.2ndYanukovych"/>
+      <affiliation ref="#GOV.UA"
+                   role="deputyHead"
+                   from="2002-11-26"
+                   to="2005-02-04"
+                   ana="#GOV.UA.1stYanukovych">
+         <roleName xml:lang="uk">Перший віце-прем'єр-міністр України</roleName>
+         <roleName xml:lang="en">First Vice Prime Minister</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2002-11-26"
+                   to="2005-02-04"
+                   ana="#GOV.UA.1stYanukovych"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2002-11-26"
+                   to="2005-02-04"
+                   ana="#GOV.UA.1stYanukovych">
+         <roleName xml:lang="uk">Міністр фінансів України</roleName>
+         <roleName xml:lang="en">Minister of Finance</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2002-11-26"
+                   to="2005-02-04"
+                   ana="#GOV.UA.1stYanukovych"/>
       <affiliation ref="#pp.Reg" role="head" from="2010-04-23" to="2014-02-28">
-         <roleName xml:lang="en">голова Партії регіонів</roleName>
+         <roleName xml:lang="uk">голова Партії регіонів</roleName>
+         <roleName xml:lang="en">Head of the Party of Regions</roleName>
       </affiliation>
       <affiliation ref="#pp.Reg" role="member" from="2010-04-23" to="2014-02-28"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2012-12-18"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2010-03-11"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2006-09-12"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#pp.Reg" role="member" from="2006-05-25"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="1994-05-11"
+                   to="1998-05-12"
+                   ana="#ВРУ.2"/>
+      <affiliation ref="#pp.PP" role="member" from="1992" to="2000"/>
+      <affiliation ref="#pp.CPSU" role="" from="1991"/>
+      <affiliation ref="#pp.CPSU" role="member" from="1991"/>
    </person>
    <person xml:id="МихайлоІвановичГерасимчук.1947">
       <persName>
@@ -29504,14 +29824,7 @@
          <forename>Альбертович</forename>
          <surname>Федоров</surname>
       </persName>
-      <persName>
-         <forename>Михайло</forename>
-         <forename>Альбертович</forename>
-         <surname>Федоров</surname>
-      </persName>
       <birth when="1991-01-21"/>
-      <birth when="1991-01-21"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Mykhailo_Fedorov</idno>
       <figure>
@@ -29549,8 +29862,8 @@
                    from="2019-08-29"
                    to="2020-03-04"
                    ana="#GOV.UA.Honcharuk"/>
-      <affiliation ref="#pp.SN" role="" from="nominated"/>
-      <affiliation ref="#pp.SN" role="member" from="nominated"/>
+      <affiliation ref="#pp.SN" role=""/>
+      <affiliation ref="#pp.SN" role="member"/>
       <affiliation ref="#ВРУ"
                    role="MP"
                    from="2019-08-29"
@@ -29559,7 +29872,6 @@
       <affiliation ref="#GOV.UA"
                    role="deputyHead"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Віце-прем'єр-міністр України</roleName>
          <roleName xml:lang="en">Vice Prime Minister</roleName>
@@ -29567,12 +29879,10 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр цифрової трансформації</roleName>
          <roleName xml:lang="en">Minister of Digital Transformation</roleName>
@@ -29580,7 +29890,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.SN" role="member" from="2021-03-13">
          <roleName xml:lang="uk">член політради партії "Слуга народу"</roleName>
@@ -31052,14 +31361,7 @@
          <forename>Юріївна</forename>
          <surname>Королевська</surname>
       </persName>
-      <persName>
-         <forename>Наталія</forename>
-         <forename>Юріївна</forename>
-         <surname>Королевська</surname>
-      </persName>
       <birth when="1975-05-18"/>
-      <birth when="1975-05-18"/>
-      <sex value="F"/>
       <sex value="F"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Natalia_Korolevska</idno>
       <idno type="URI" subtype="facebook">https://www.facebook.com/Nataliya.Korolevska/</idno>
@@ -31120,10 +31422,27 @@
                    from="2012-12-24"
                    to="2014-02-24"
                    ana="#GOV.UA.2ndAzarov"/>
-      <affiliation ref="#pp.But" role="member" from="2005" to="2011"/>
-      <affiliation ref="#pp.UV" role="head" from="2012"/>
-      <affiliation ref="#pp.UV" role="member" from="2012"/>
-      <affiliation ref="#pp.OP" role="nominated" from="2019"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-11-23"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2012-12-12"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2019-08-29"
+                   ana="#ВРУ.8"/>
+      <affiliation ref="#ВРУ" role="MP" from="2019-08-29" ana="#ВРУ.9"/>
+      <affiliation ref="#pp.But" role="member" from="2005" to="2012"/>
+      <affiliation ref="#pp.UV" role="head" from="2011-12-23"/>
+      <affiliation ref="#pp.UV" role="member" from="2011-12-23"/>
+      <affiliation ref="#pp.OB" role="nominated" from="2014"/>
+      <affiliation ref="#pp.OP" role="member" from="2019"/>
    </person>
    <person xml:id="НаталіяЯресько.1965">
       <persName>
@@ -31375,7 +31694,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2022-07-19"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр соціальної політики України</roleName>
          <roleName xml:lang="en">Minister of Social Policy</roleName>
@@ -31383,7 +31701,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2022-07-19"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.SL" role="member" from="2014"/>
    </person>
@@ -32867,7 +33184,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр Кабінету Міністрів</roleName>
          <roleName xml:lang="en">Minister of the Cabinet of Ministers</roleName>
@@ -32875,7 +33191,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2020-03-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.UNP" role="member" from="2005" to="2013">
          <roleName xml:lang="uk">Член Центрального проводу Української народної партії</roleName>
@@ -33185,14 +33500,7 @@
          <forename>Степанович</forename>
          <surname>Мусій</surname>
       </persName>
-      <persName>
-         <forename>Олег</forename>
-         <forename>Степанович</forename>
-         <surname>Мусій</surname>
-      </persName>
       <birth when="1965-05-12"/>
-      <birth when="1965-05-12"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Oleh_Musiy</idno>
       <figure>
@@ -33217,8 +33525,13 @@
                    from="2014-02-27"
                    to="2014-12-02"
                    ana="#GOV.UA.1stYatseniuk"/>
-      <affiliation ref="#pp.independent" role=""/>
-      <affiliation ref="#pp.independent" role="member"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2019-08-29"
+                   ana="#ВРУ.8"/>
+      <affiliation ref="#pp.independent" role="" from="2014"/>
+      <affiliation ref="#pp.independent" role="member" from="2014"/>
    </person>
    <person xml:id="ОлегЮлійовичБуховець.1974">
       <persName>
@@ -34079,14 +34392,7 @@
          <forename>Валентинович</forename>
          <surname>Турчинов</surname>
       </persName>
-      <persName>
-         <forename>Олександр</forename>
-         <forename>Валентинович</forename>
-         <surname>Турчинов</surname>
-      </persName>
       <birth when="1964-03-31"/>
-      <birth when="1964-03-31"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Oleksandr_Turchynov</idno>
       <idno type="URI" subtype="personal">https://turchynov.com/</idno>
@@ -34164,8 +34470,69 @@
                    from="2014-02-23"
                    to="2014-06-07"
                    ana="#ActingPresidency #acting"/>
-      <affiliation ref="#pp.BUT" role="member" from="2012-10-28" to="2014-08-21"/>
+      <affiliation ref="#ВРУ"
+                   role="head"
+                   from="2014-02-22"
+                   to="2014-11-27"
+                   ana="#ВРУ.7">
+         <roleName xml:lang="uk">Голова Верховної Ради України</roleName>
+         <roleName xml:lang="en">Chairman of the Verkhovna Rada of Ukraine</roleName>
+      </affiliation>
+      <affiliation ref="#ВРУ"
+                   role="member"
+                   from="2014-02-22"
+                   to="2014-11-27"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#GOV.UA"
+                   role="deputyHead"
+                   from="2007-12-18"
+                   to="2010-03-11"
+                   ana="#GOV.UA.2ndTymoshenko">
+         <roleName xml:lang="uk">Перший віце-прем'єр-міністр України</roleName>
+         <roleName xml:lang="en">First Vice Prime Minister</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2007-12-18"
+                   to="2010-03-11"
+                   ana="#GOV.UA.2ndTymoshenko"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="1998-05-12"
+                   to="2002-05-14"
+                   ana="#ВРУ.3"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2002-05-14"
+                   to="2005-07-07"
+                   ana="#ВРУ.4"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-06-15"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2007-12-19"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-11-27"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2014-12-16"
+                   ana="#ВРУ.8"/>
+      <affiliation ref="#pp.BUT" role="member" from="2002-05-14" to="2014-08-21"/>
       <affiliation ref="#pp.NF" role="member" from="2014-10-26" to="2014-12-16"/>
+      <affiliation ref="#pp.Hrom" role="member" from="1998" to="1999"/>
+      <affiliation ref="#pp.Hrom" role="head" from="1994" to="1997">
+         <roleName xml:lang="en">Head of the party</roleName>
+      </affiliation>
+      <affiliation ref="#pp.Hrom" role="member" from="1994" to="1997"/>
    </person>
    <person xml:id="ОлександрВалерійовичДолженков.1983">
       <persName>
@@ -34432,14 +34799,7 @@
          <forename>Владиславович</forename>
          <surname>Ткаченко</surname>
       </persName>
-      <persName>
-         <forename>Олександр</forename>
-         <forename>Владиславович</forename>
-         <surname>Ткаченко</surname>
-      </persName>
       <birth when="1966-01-22"/>
-      <birth when="1966-01-22"/>
-      <sex value="M"/>
       <idno type="URI" subtype="personal">https://en.wikipedia.org/wiki/Oleksandr_Tkachenko_(journalist)</idno>
       <figure>
          <graphic url="http://static.rada.gov.ua/dep_img9/sn9.jpg"/>
@@ -34453,14 +34813,12 @@
       <affiliation ref="#GOV.UA"
                    role=""
                    from="2020-06-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal #acting">
          <roleName xml:lang="en">Міністр культури України</roleName>
       </affiliation>
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2020-06-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal #acting"/>
       <affiliation ref="#pp.SN" role="member" from="2021-03-13">
          <roleName xml:lang="uk">член політради партії "Слуга народу"</roleName>
@@ -34682,14 +35040,7 @@
          <forename>Володимирович</forename>
          <surname>Лавринович</surname>
       </persName>
-      <persName>
-         <forename>Олександр</forename>
-         <forename>Володимирович</forename>
-         <surname>Лавринович</surname>
-      </persName>
       <birth when="1956-06-28"/>
-      <birth when="1956-06-28"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Oleksandr_Lavrynovych</idno>
       <figure>
@@ -34720,6 +35071,58 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#GOV.UA"
                    role="minister"
+                   from="2002-05-07"
+                   to="2002-11-21"
+                   ana="#GOV.UA.Kinakh">
+         <roleName xml:lang="uk">Міністр юстиції Украіни</roleName>
+         <roleName xml:lang="en">Minister of Justice</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2002-05-07"
+                   to="2002-11-21"
+                   ana="#GOV.UA.Kinakh"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2002-11-21"
+                   to="2005-02-03"
+                   ana="#GOV.UA.1stYanukovych">
+         <roleName xml:lang="uk">Міністр юстиції Украіни</roleName>
+         <roleName xml:lang="en">Minister of Justice</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2002-11-21"
+                   to="2005-02-03"
+                   ana="#GOV.UA.1stYanukovych"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2006-11-01"
+                   to="2007-12-18"
+                   ana="#GOV.UA.2ndYanukovych">
+         <roleName xml:lang="uk">Міністр юстиції Украіни</roleName>
+         <roleName xml:lang="en">Minister of Justice</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2006-11-01"
+                   to="2007-12-18"
+                   ana="#GOV.UA.2ndYanukovych"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2010-03-11"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov">
+         <roleName xml:lang="uk">Міністр юстиції Украіни</roleName>
+         <roleName xml:lang="en">Minister of Justice</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2010-03-11"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
                    from="2012-12-24"
                    to="2013-07-04"
                    ana="#GOV.UA.2ndAzarov">
@@ -34731,7 +35134,32 @@
                    from="2012-12-24"
                    to="2013-07-04"
                    ana="#GOV.UA.2ndAzarov"/>
-      <affiliation ref="#pp.Reg" role="member" from="2012-10-28"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="1994-05-11"
+                   to="1998-05-12"
+                   ana="#ВРУ.2"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="1998-05-12"
+                   to="2001-10-18"
+                   ana="#ВРУ.3"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2010-03-11"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2012-12-25"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#pp.Reg" role="member" from="2007-11-23"/>
+      <affiliation ref="#pp.NRU" role="deputyHead" from="1989" to="2001">
+         <roleName xml:lang="uk">заступник, перший заступник Голови Народного Руху України</roleName>
+         <roleName xml:lang="en">deputy head, first deputy head of the party</roleName>
+      </affiliation>
+      <affiliation ref="#pp.NRU" role="member" from="1989" to="2001"/>
    </person>
    <person xml:id="ОлександрВолодимировичМарченко.1971">
       <persName>
@@ -35064,6 +35492,19 @@
       <birth when="1960-01-01"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Oleksandr_Shlapak</idno>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2001-07-10"
+                   to="2002-11-30"
+                   ana="#GOV.UA.Kinakh">
+         <roleName xml:lang="uk">Міністр економіки України</roleName>
+         <roleName xml:lang="en">Minister of Economics</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2001-07-10"
+                   to="2002-11-30"
+                   ana="#GOV.UA.Kinakh"/>
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2014-02-27"
@@ -35457,14 +35898,7 @@
          <forename>Максимович</forename>
          <surname>Сич</surname>
       </persName>
-      <persName>
-         <forename>Олександр</forename>
-         <forename>Максимович</forename>
-         <surname>Сич</surname>
-      </persName>
       <birth when="1964-07-16"/>
-      <birth when="1964-07-16"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Oleksandr_Sych</idno>
       <figure>
@@ -35493,6 +35927,11 @@
                    from="2014-02-27"
                    to="2014-12-02"
                    ana="#GOV.UA.1stYatseniuk"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-02-28"
+                   ana="#ВРУ.7"/>
       <affiliation ref="#pp.Sv" role="member" from="2012-10-28"/>
    </person>
    <person xml:id="ОлександрМарковичБандурка.1937">
@@ -35731,14 +36170,7 @@
          <forename>Миколайович</forename>
          <surname>Кубраков</surname>
       </persName>
-      <persName>
-         <forename>Олександр</forename>
-         <forename>Миколайович</forename>
-         <surname>Кубраков</surname>
-      </persName>
       <birth when="1982-08-20"/>
-      <birth when="1982-08-20"/>
-      <sex value="M"/>
       <idno type="URI" subtype="personal">https://en.wikipedia.org/wiki/Oleksandr_Kubrakov</idno>
       <figure>
          <graphic url="http://static.rada.gov.ua/dep_img9/sn30.jpg"/>
@@ -35765,7 +36197,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2022-12-01"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр розвитку громад, територій та інфраструктури України</roleName>
          <roleName xml:lang="en">Minister for Communities and Territories Development and Infrastructure</roleName>
@@ -35773,12 +36204,10 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2022-12-01"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#GOV.UA"
                    role="deputyHead"
                    from="2022-12-01"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Віце-прем'єр-міністр України</roleName>
          <roleName xml:lang="en">Vice Prime Minister</roleName>
@@ -35786,7 +36215,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2022-12-01"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#ВРУ"
                    role="MP"
@@ -37587,14 +38015,7 @@
          <forename>Юрійович</forename>
          <surname>Вілкул</surname>
       </persName>
-      <persName>
-         <forename>Олександр</forename>
-         <forename>Юрійович</forename>
-         <surname>Вілкул</surname>
-      </persName>
       <birth when="1974-05-24"/>
-      <birth when="1974-05-24"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Oleksandr_Vilkul</idno>
       <idno type="URI" subtype="facebook">https://uk-ua.facebook.com/OleksandrVilkul/</idno>
@@ -37651,7 +38072,22 @@
                    from="2012-12-24"
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov"/>
-      <affiliation ref="#pp.Reg" role="member" from="2006"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-11-23"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2010-04-16"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2019-08-29"
+                   ana="#ВРУ.8"/>
+      <affiliation ref="#pp.Reg" role="member" from="2003" to="2014"/>
       <affiliation ref="#pp.OB" role="member" from="2014"/>
    </person>
    <person xml:id="ОлександрЮрійовичТретьяков.1970">
@@ -37832,14 +38268,7 @@
          <forename>Анатолійович</forename>
          <surname>Оржель</surname>
       </persName>
-      <persName>
-         <forename>Олексій</forename>
-         <forename>Анатолійович</forename>
-         <surname>Оржель</surname>
-      </persName>
       <birth when="1984-01-26"/>
-      <birth when="1984-01-26"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Oleksiy_Orzhel</idno>
       <figure>
@@ -37864,8 +38293,8 @@
                    from="2019-08-29"
                    to="2020-03-04"
                    ana="#GOV.UA.Honcharuk"/>
-      <affiliation ref="#pp.SN" role="" from="nominated"/>
-      <affiliation ref="#pp.SN" role="member" from="nominated"/>
+      <affiliation ref="#pp.SN" role=""/>
+      <affiliation ref="#pp.SN" role="member"/>
       <affiliation ref="#ВРУ"
                    role="MP"
                    from="2019-08-29"
@@ -38925,7 +39354,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2021-11-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр оборони України</roleName>
          <roleName xml:lang="en">Minister of Defence</roleName>
@@ -38933,7 +39361,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2021-11-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.BPP;pp.ES" role="nominated" from="2015"/>
    </person>
@@ -39343,14 +39770,7 @@
          <forename>Леонідівна</forename>
          <surname>Лукаш</surname>
       </persName>
-      <persName>
-         <forename>Олена</forename>
-         <forename>Леонідівна</forename>
-         <surname>Лукаш</surname>
-      </persName>
       <birth when="1976-11-12"/>
-      <birth when="1976-11-12"/>
-      <sex value="F"/>
       <sex value="F"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Olena_Lukash</idno>
       <idno type="URI" subtype="twitter">https://twitter.com/lukash_el</idno>
@@ -39631,6 +40051,8 @@
                    from="2020-04-16"
                    to="2020-11-20"
                    ana="#GOV.UA.Shmyhal #acting"/>
+      <affiliation ref="#pp.independent" role=""/>
+      <affiliation ref="#pp.independent" role="member"/>
    </person>
    <person xml:id="ОльгаАнатоліївнаСтефанишина.1983">
       <persName>
@@ -40208,14 +40630,7 @@
          <forename>Михайлович</forename>
          <surname>Семерак</surname>
       </persName>
-      <persName>
-         <forename>Остап</forename>
-         <forename>Михайлович</forename>
-         <surname>Семерак</surname>
-      </persName>
       <birth when="1972-06-27"/>
-      <birth when="1972-06-27"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Ostap_Semerak</idno>
       <figure>
@@ -40270,6 +40685,12 @@
                    from="2016-04-14"
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2012-12-12"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#pp.PRP" role="member" from="1997" to="2013"/>
       <affiliation ref="#pp.BUT" role="member" from="2013" to="2014"/>
       <affiliation ref="#pp.NF" role="member" from="2014-10-26"/>
    </person>
@@ -40480,14 +40901,7 @@
          <forename>Борисович</forename>
          <surname>Рябікін</surname>
       </persName>
-      <persName>
-         <forename>Павло</forename>
-         <forename>Борисович</forename>
-         <surname>Рябікін</surname>
-      </persName>
       <birth when="1965-06-06"/>
-      <birth when="1965-06-06"/>
-      <sex value="M"/>
       <idno type="URI" subtype="personal">https://en.wikipedia.org/wiki/Pavlo_Riabikin</idno>
       <figure>
          <graphic url="http://static.rada.gov.ua/dep_img4/d131.jpg"/>
@@ -40514,7 +40928,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2021-11-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр з питань стратегічних галузей промисловості України</roleName>
          <roleName xml:lang="en">Minister of Strategic Industries of Ukraine</roleName>
@@ -40522,7 +40935,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2021-11-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#ВРУ"
                    role="MP"
@@ -40537,14 +40949,7 @@
          <forename>Валентинович</forename>
          <surname>Лебедєв</surname>
       </persName>
-      <persName>
-         <forename>Павло</forename>
-         <forename>Валентинович</forename>
-         <surname>Лебедєв</surname>
-      </persName>
       <birth when="1962-07-12"/>
-      <birth when="1962-07-12"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Pavlo_Lebedyev</idno>
       <figure>
@@ -40599,7 +41004,23 @@
                    from="2012-12-24"
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-11-23"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2012-12-12"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2013-03-22"
+                   ana="#ВРУ.7"/>
       <affiliation ref="#pp.Reg" role="nominated" from="2007"/>
+      <affiliation ref="#pp.But" role="nominated" from="2006"/>
    </person>
    <person xml:id="ПавлоВалерійовичРозенко.1970">
       <persName>
@@ -40607,14 +41028,7 @@
          <forename>Валерійович</forename>
          <surname>Розенко</surname>
       </persName>
-      <persName>
-         <forename>Павло</forename>
-         <forename>Валерійович</forename>
-         <surname>Розенко</surname>
-      </persName>
       <birth when="1970-07-15"/>
-      <birth when="1970-07-15"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Pavlo_Rozenko</idno>
       <figure>
@@ -40875,14 +41289,7 @@
          <forename>Дмитрович</forename>
          <surname>Петренко</surname>
       </persName>
-      <persName>
-         <forename>Павло</forename>
-         <forename>Дмитрович</forename>
-         <surname>Петренко</surname>
-      </persName>
       <birth when="1979-07-17"/>
-      <birth when="1979-07-17"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Pavlo_Petrenko</idno>
       <figure>
@@ -40950,6 +41357,11 @@
                    from="2016-04-14"
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-03-17"
+                   ana="#ВРУ.7"/>
       <affiliation ref="#pp.BUT" role="nominated" from="2012-10-28"/>
       <affiliation ref="#pp.NF" role="member" from="2014-10-26"/>
       <affiliation ref="#pp.USH" role="nominated" from="2019"/>
@@ -41085,7 +41497,7 @@
                    to="2014-09-02"
                    ana="#GOV.UA.1stYatseniuk">
          <roleName xml:lang="uk">Міністр економічного розвитку і торгівлі України</roleName>
-         <roleName xml:lang="en">Minister of Economical Development and Trade</roleName>
+         <roleName xml:lang="en">Minister of Economic Development and Trade</roleName>
       </affiliation>
       <affiliation ref="#GOV.UA"
                    role="member"
@@ -41639,14 +42051,7 @@
          <forename>Олексійович</forename>
          <surname>Порошенко</surname>
       </persName>
-      <persName>
-         <forename>Петро</forename>
-         <forename>Олексійович</forename>
-         <surname>Порошенко</surname>
-      </persName>
       <birth when="1965-09-26"/>
-      <birth when="1965-09-26"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Petro_Poroshenko</idno>
       <idno type="URI" subtype="facebook">https://www.facebook.com/petroporoshenko/</idno>
@@ -41695,13 +42100,62 @@
                    from="2014-06-07"
                    to="2019-05-20"
                    ana="#5thPresidency"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2012-03-23"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov">
+         <roleName xml:lang="uk">Міністр економічного розвитку і торгівлі України</roleName>
+         <roleName xml:lang="en">Minister of Economic Development and Trade</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2012-03-23"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2009-10-09"
+                   to="2010-03-11"
+                   ana="#GOV.UA.2ndTymoshenko">
+         <roleName xml:lang="uk">Міністр закордонних справ України</roleName>
+         <roleName xml:lang="en">Minister of Foreign Affairs</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2009-10-09"
+                   to="2010-03-11"
+                   ana="#GOV.UA.2ndTymoshenko"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="1998-05-12"
+                   to="2002-05-14"
+                   ana="#ВРУ.3"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2002-05-14"
+                   to="2005-09-08"
+                   ana="#ВРУ.4"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-11-23"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-06-03"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#ВРУ" role="MP" from="2019-08-29" ana="#ВРУ.9"/>
+      <affiliation ref="#pp.SDPU" role="co-head" from="1998" to="2000"/>
+      <affiliation ref="#pp.OurU" role="member" from="2005"/>
       <affiliation ref="#pp.independent" role="" from="2012-10-28" to="2019-05-20"/>
       <affiliation ref="#pp.independent"
                    role="member"
                    from="2012-10-28"
                    to="2019-05-20"/>
-      <affiliation ref="#pp.ES" role="head" from="2019-05-24" to="present"/>
-      <affiliation ref="#pp.ES" role="member" from="2019-05-24" to="present"/>
+      <affiliation ref="#pp.BPP;pp.ES" role="head" from="2019-05-24"/>
+      <affiliation ref="#pp.BPP;pp.ES" role="member" from="2019-05-24"/>
    </person>
    <person xml:id="ПетроПавловичКузьменко.1954">
       <persName>
@@ -41960,14 +42414,7 @@
          <forename>Сафович</forename>
          <surname>Сафіуллін</surname>
       </persName>
-      <persName>
-         <forename>Равіль</forename>
-         <forename>Сафович</forename>
-         <surname>Сафіуллін</surname>
-      </persName>
       <birth when="1955-02-04"/>
-      <birth when="1955-02-04"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Ravil_Safiullin</idno>
       <figure>
@@ -42007,6 +42454,19 @@
                    ana="#ВРУ.6"/>
       <affiliation ref="#GOV.UA"
                    role="minister"
+                   from="2010-03-11"
+                   to="2010-12-09"
+                   ana="#GOV.UA.1stAzarov">
+         <roleName xml:lang="uk">Міністр України у справах сім'ї, молоді та спорту</roleName>
+         <roleName xml:lang="en">Minister for Family, Youth and Sports</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2010-03-11"
+                   to="2010-12-09"
+                   ana="#GOV.UA.1stAzarov"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
                    from="2013-02-28"
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov">
@@ -42018,10 +42478,24 @@
                    from="2013-02-28"
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2002-05-14"
+                   to="2006-05-25"
+                   ana="#ВРУ.4"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-11-23"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2010-03-11"
+                   ana="#ВРУ.6"/>
       <affiliation ref="#pp.Reg" role="member" from="2002"/>
       <affiliation ref="#pp.Reg"
                    role="member of the Political Council of the Party of Regions"
-                   from="deputyHead"
                    ana="#acting"/>
    </person>
    <person xml:id="РаїсаВасилівнаБогатирьова.1953">
@@ -42030,14 +42504,7 @@
          <forename>Василівна</forename>
          <surname>Богатирьова</surname>
       </persName>
-      <persName>
-         <forename>Раїса</forename>
-         <forename>Василівна</forename>
-         <surname>Богатирьова</surname>
-      </persName>
       <birth when="1953-01-06"/>
-      <birth when="1953-01-06"/>
-      <sex value="F"/>
       <sex value="F"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Raisa_Bohatyriova</idno>
       <figure>
@@ -42076,6 +42543,32 @@
                    to="2008-05-23"
                    ana="#ВРУ.6"/>
       <affiliation ref="#GOV.UA"
+                   role="deputyHead"
+                   from="2012-02-14"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov">
+         <roleName xml:lang="uk">Віце-прем'єр-міністр України</roleName>
+         <roleName xml:lang="en">Vice Prime Minister</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2012-02-14"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2012-02-14"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov">
+         <roleName xml:lang="uk">Міністр охорони здоров'я України</roleName>
+         <roleName xml:lang="en">Minister of Healthcare</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2012-02-14"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov"/>
+      <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2012-12-24"
                    to="2014-02-23"
@@ -42088,7 +42581,34 @@
                    from="2012-12-24"
                    to="2014-02-23"
                    ana="#GOV.UA.2ndAzarov"/>
-      <affiliation ref="#pp.Reg" role="member" from="2006"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="1990-05-15"
+                   to="1994-05-11"
+                   ana="#ВРУ.1"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="1998-05-12"
+                   to="2002-05-14"
+                   ana="#ВРУ.3"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2002-05-14"
+                   to="2006-05-25"
+                   ana="#ВРУ.4"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2006-05-25"
+                   to="2007-11-23"
+                   ana="#ВРУ.5"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2008-05-23"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#pp.Reg" role="member" from="2002"/>
+      <affiliation ref="#pp.CPSU" role="" from="1991"/>
+      <affiliation ref="#pp.CPSU" role="member" from="1991"/>
    </person>
    <person xml:id="РаїсаМиколаївнаСорочинська-Кириленко.1946">
       <persName>
@@ -43127,12 +43647,10 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2022-04-14"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2022-04-14"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.BPP;pp.ES" role="nominated" from="2015"/>
    </person>
@@ -45340,8 +45858,8 @@
                    from="2014-01-28"
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov #acting"/>
-      <affiliation ref="#pp.Reg" role="" from="2010" to="2014"/>
       <affiliation ref="#pp.Reg" role="member" from="2010" to="2014"/>
+      <affiliation ref="#pp.OurU" role="member" from="2005" to="2010"/>
    </person>
    <person xml:id="СергійГеоргійовичКіроянц.1955">
       <persName>
@@ -46102,7 +46620,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2020-06-25"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр освіти і науки України</roleName>
          <roleName xml:lang="en">Minister of Education and Science</roleName>
@@ -46110,7 +46627,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2020-06-25"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.Reg" role="member" from="2010" to="2015"/>
       <affiliation ref="#pp.BPP;pp.ES" role="nominated" from="2015"/>
@@ -46121,14 +46637,7 @@
          <forename>Миронович</forename>
          <surname>Квіт</surname>
       </persName>
-      <persName>
-         <forename>Сергій</forename>
-         <forename>Миронович</forename>
-         <surname>Квіт</surname>
-      </persName>
       <birth when="1965-11-26"/>
-      <birth when="1965-11-26"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Serhiy_Kvit</idno>
       <figure>
@@ -46185,7 +46694,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2020-03-30"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр фінансів України</roleName>
          <roleName xml:lang="en">Minister of Finance</roleName>
@@ -46193,7 +46701,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2020-03-30"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.USH" role="member" from="2019"/>
    </person>
@@ -47362,14 +47869,7 @@
          <forename>Іванович</forename>
          <surname>Кубів</surname>
       </persName>
-      <persName>
-         <forename>Степан</forename>
-         <forename>Іванович</forename>
-         <surname>Кубів</surname>
-      </persName>
       <birth when="1962-03-19"/>
-      <birth when="1962-03-19"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Stepan_Kubiv</idno>
       <figure>
@@ -47422,13 +47922,25 @@
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman">
          <roleName xml:lang="uk">Міністр економічного розвитку і торгівлі України</roleName>
-         <roleName xml:lang="en">Minister of Economical Development and Trade</roleName>
+         <roleName xml:lang="en">Minister of Economic Development and Trade</roleName>
       </affiliation>
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2016-04-14"
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-03-04"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2016-04-14"
+                   ana="#ВРУ.8"/>
+      <affiliation ref="#ВРУ" role="MP" from="2019-08-29" ana="#ВРУ.9"/>
+      <affiliation ref="#pp.BUT" role="nominated" from="2012-12-12"/>
       <affiliation ref="#pp.BPP;pp.ES" role="member" from="2014-10-26"/>
    </person>
    <person xml:id="СтепанІллічХмара.1937">
@@ -47932,14 +48444,7 @@
          <forename>Вікторович</forename>
          <surname>Кутовий</surname>
       </persName>
-      <persName>
-         <forename>Тарас</forename>
-         <forename>Вікторович</forename>
-         <surname>Кутовий</surname>
-      </persName>
       <birth when="1976-02-25"/>
-      <birth when="1976-02-25"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Taras_Kutovy</idno>
       <figure>
@@ -47981,8 +48486,18 @@
                    from="2016-04-14"
                    to="2018-11-22"
                    ana="#GOV.UA.Hroisman"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-11-27"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2016-04-14"
+                   ana="#ВРУ.8"/>
       <affiliation ref="#pp.UD" role="member" from="2012-10-28"/>
-      <affiliation ref="#pp.independent" role="nominated" from="2014-10-26"/>
+      <affiliation ref="#pp.BPP;pp.ES" role="nominated" from="2014-10-26"/>
    </person>
    <person xml:id="ТарасДмитровичКремінь.1978">
       <persName>
@@ -48841,7 +49356,6 @@
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2020-12-18"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр у справах ветеранів України</roleName>
          <roleName xml:lang="en">Minister of Veterans Affairs</roleName>
@@ -48849,7 +49363,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2020-12-18"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#pp.independent" role=""/>
       <affiliation ref="#pp.independent" role="member"/>
@@ -48866,7 +49379,6 @@
       <affiliation ref="#GOV.UA"
                    role="deputyHead"
                    from="2021-11-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Перший віце-прем'єр-міністр України</roleName>
          <roleName xml:lang="en">First Vice Prime Minister</roleName>
@@ -48874,12 +49386,10 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2021-11-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
       <affiliation ref="#GOV.UA"
                    role="minister"
                    from="2021-11-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal">
          <roleName xml:lang="uk">Міністр економіки України</roleName>
          <roleName xml:lang="en">Minister of Economics</roleName>
@@ -48887,7 +49397,6 @@
       <affiliation ref="#GOV.UA"
                    role="member"
                    from="2021-11-04"
-                   to="present"
                    ana="#GOV.UA.Shmyhal"/>
    </person>
    <person xml:id="ЮліяВолодимирівнаЛьовочкіна.1977">
@@ -49487,14 +49996,7 @@
          <forename>Анатолійович</forename>
          <surname>Бойко</surname>
       </persName>
-      <persName>
-         <forename>Юрій</forename>
-         <forename>Анатолійович</forename>
-         <surname>Бойко</surname>
-      </persName>
       <birth when="1958-10-09"/>
-      <birth when="1958-10-09"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Yuriy_Boyko</idno>
       <figure>
@@ -49529,6 +50031,32 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#pp.OP" role="represent" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2006-08-04"
+                   to="2007-12-17"
+                   ana="#GOV.UA.2ndYanukovych">
+         <roleName xml:lang="uk">Міністр палива та енергетики України</roleName>
+         <roleName xml:lang="en">Minister of Fuel and Energy</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2006-08-04"
+                   to="2007-12-17"
+                   ana="#GOV.UA.2ndYanukovych"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
+                   from="2010-03-11"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov">
+         <roleName xml:lang="uk">Міністр енергетики та вугільної промисловості України</roleName>
+         <roleName xml:lang="en">Minister of Energy and Coal Industry</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2010-03-11"
+                   to="2012-12-24"
+                   ana="#GOV.UA.1stAzarov"/>
+      <affiliation ref="#GOV.UA"
                    role="deputyHead"
                    from="2012-12-24"
                    to="2014-02-27"
@@ -49541,10 +50069,23 @@
                    from="2012-12-24"
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2010-03-11"
+                   ana="#ВРУ.6"/>
       <affiliation ref="#pp.Reg" role="nominated" from="2007"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2019-08-29"
+                   ana="#ВРУ.8"/>
       <affiliation ref="#pp.OB" role="nominated" from="2014"/>
+      <affiliation ref="#ВРУ" role="MP" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#pp.OP" role="deputyHead" from="2019"/>
       <affiliation ref="#pp.OP" role="member" from="2019"/>
+      <affiliation ref="#pp.RPU" role="head" from="2005-03-24" to="2007-08-03"/>
+      <affiliation ref="#pp.RPU" role="member" from="2005-03-24" to="2007-08-03"/>
    </person>
    <person xml:id="ЮрійАнатолійовичБойко.1961">
       <persName>
@@ -49925,6 +50466,19 @@
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Yuriy_Prodan</idno>
       <affiliation ref="#GOV.UA"
                    role="minister"
+                   from="2007-12-18"
+                   to="2010-03-11"
+                   ana="#GOV.UA.2ndTymoshenko">
+         <roleName xml:lang="uk">Міністр палива та енергетики України</roleName>
+         <roleName xml:lang="en">Minister of Fuel and Energy</roleName>
+      </affiliation>
+      <affiliation ref="#GOV.UA"
+                   role="member"
+                   from="2007-12-18"
+                   to="2010-03-11"
+                   ana="#GOV.UA.2ndTymoshenko"/>
+      <affiliation ref="#GOV.UA"
+                   role="minister"
                    from="2014-02-27"
                    to="2014-12-02"
                    ana="#GOV.UA.1stYatseniuk">
@@ -50098,8 +50652,8 @@
                    from="2012-12-24"
                    to="2014-02-27"
                    ana="#GOV.UA.2ndAzarov"/>
-      <affiliation ref="#pp.independent" role="" from="?"/>
-      <affiliation ref="#pp.independent" role="member" from="?"/>
+      <affiliation ref="#pp.independent" role=""/>
+      <affiliation ref="#pp.independent" role="member"/>
    </person>
    <person xml:id="ЮрійВолодимировичЛевченко.1984">
       <persName>
@@ -50580,6 +51134,8 @@
                    from="2021-04-28"
                    to="2021-04-29"
                    ana="#GOV.UA.Shmyhal #acting"/>
+      <affiliation ref="#pp.independent" role=""/>
+      <affiliation ref="#pp.independent" role="member"/>
    </person>
    <person xml:id="ЮрійМиколайовичВоропаєв.1955">
       <persName>
@@ -51346,14 +51902,7 @@
          <forename>Ярославович</forename>
          <surname>Стець</surname>
       </persName>
-      <persName>
-         <forename>Юрій</forename>
-         <forename>Ярославович</forename>
-         <surname>Стець</surname>
-      </persName>
       <birth when="1975-12-29"/>
-      <birth when="1975-12-29"/>
-      <sex value="M"/>
       <sex value="M"/>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Yuriy_Stets</idno>
       <figure>
@@ -51421,6 +51970,22 @@
                    from="2016-04-14"
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2007-11-23"
+                   to="2012-12-12"
+                   ana="#ВРУ.6"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2012-12-12"
+                   to="2014-11-27"
+                   ana="#ВРУ.7"/>
+      <affiliation ref="#ВРУ"
+                   role="MP"
+                   from="2014-11-27"
+                   to="2014-12-02"
+                   ana="#ВРУ.8"/>
+      <affiliation ref="#pp.OurU" role="nominated" from="2007-11-23"/>
       <affiliation ref="#pp.BUT" role="nominated" from="2012-10-28" to="2014"/>
       <affiliation ref="#pp.BPP;pp.ES" role="member" from="2014-10-26"/>
    </person>
