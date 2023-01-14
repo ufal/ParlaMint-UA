@@ -56,7 +56,8 @@
       <xsl:for-each select="$mp-data/mp_persons/mp_person">
         <xsl:variable name="person" select="."/>
         <xsl:element name="person" xmlns="http://www.tei-c.org/ns/1.0">
-          <xsl:attribute name="xml:id" select="$person/@parlamint-id"/>
+          <xsl:variable name="id" select="$person/@parlamint-id"/>
+          <xsl:attribute name="xml:id" select="$id"/>
           <xsl:attribute name="n" select="max($person/term/@term)"/>
           <xsl:element name="persName" xmlns="http://www.tei-c.org/ns/1.0">
             <xsl:element name="forename" xmlns="http://www.tei-c.org/ns/1.0">
@@ -132,6 +133,10 @@
                   <xsl:comment>unknown political party <xsl:value-of select="$partyID"/>: <xsl:value-of select="$term/party_name"/> (affiliation from <xsl:value-of select="$from"/> to <xsl:value-of select="$to"/>)</xsl:comment>
                 </xsl:otherwise>
               </xsl:choose>
+              <xsl:for-each select="$term/membership[@type='fraction' and @from and not(@org_name='Позафракційні')]">
+                <xsl:message select="concat('TODO: implement fractions ',$id,' ',@org_name_norm,' ',@from,' ',@to)"/>
+                <xsl:comment>fractions (parliamentaryGroup) are not implemented <xsl:value-of select="@org_name_norm"/> (affiliation from <xsl:value-of select="@from"/> to <xsl:value-of select="@to"/>)</xsl:comment>
+              </xsl:for-each>
             </xsl:if>
           </xsl:for-each>
         </xsl:element>
