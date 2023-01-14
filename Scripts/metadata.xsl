@@ -129,7 +129,7 @@
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:message>WARN: unknown political party <xsl:value-of select="$partyID"/>: <xsl:value-of select="$term/party_name"/></xsl:message>
-                  <xsl:comment>unknown political party <xsl:value-of select="$partyID"/>: <xsl:value-of select="$term/party_name"/></xsl:comment>
+                  <xsl:comment>unknown political party <xsl:value-of select="$partyID"/>: <xsl:value-of select="$term/party_name"/> (affiliation from <xsl:value-of select="$from"/> to <xsl:value-of select="$to"/>)</xsl:comment>
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:if>
@@ -209,33 +209,41 @@
             <xsl:variable name="role" select="$aff/col[@name='Role']"/>
             <xsl:variable name="role-en" select="$aff/col[@name='RoleName_en']"/>
             <xsl:variable name="role-uk" select="$aff/col[@name='RoleName_uk']"/>
-
-            <xsl:element name="affiliation" xmlns="http://www.tei-c.org/ns/1.0">
-              <xsl:attribute name="ref" select="concat('#',$org)"/>
-              <xsl:attribute name="role" select="$role"/>
-              <xsl:if test="matches($from, '^\d{4}(-\d{2}-\d{2})?$')">
-                <xsl:attribute name="from" select="$from"/>
-              </xsl:if>
-              <xsl:if test="matches($to, '^\d{4}(-\d{2}-\d{2})?$')">
-                <xsl:attribute name="to" select="$to"/>
-              </xsl:if>
-              <xsl:if test="$event | $acting">
-                <xsl:attribute name="ana" select="string-join(($event/concat('#',.), $acting/concat('#','acting')),' ')"/>
-              </xsl:if>
-              <xsl:if test="$role-uk">
-                <xsl:element name="roleName" xmlns="http://www.tei-c.org/ns/1.0">
-                  <xsl:attribute name="xml:lang">uk</xsl:attribute>
-                  <xsl:value-of select="$role-uk"/>
+            <xsl:choose>
+              <xsl:when test="$role = 'MP'">
+                <xsl:message select="concat('INFO: skipping MP role: ',$id,' ',$org,' ',$from,' ',$to,' ***',$role)"/>
+              </xsl:when>
+              <xsl:when test="not($gov-org/table/row[./col[@name='OrgID'] = $org])">
+                <xsl:message select="concat('INFO: skipping unknown organization: ',$id,' ***',$org,' ',$from,' ',$to,' ',$role)"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:element name="affiliation" xmlns="http://www.tei-c.org/ns/1.0">
+                  <xsl:attribute name="ref" select="concat('#',$org)"/>
+                  <xsl:attribute name="role" select="$role"/>
+                  <xsl:if test="matches($from, '^\d{4}(-\d{2}-\d{2})?$')">
+                    <xsl:attribute name="from" select="$from"/>
+                  </xsl:if>
+                  <xsl:if test="matches($to, '^\d{4}(-\d{2}-\d{2})?$')">
+                    <xsl:attribute name="to" select="$to"/>
+                  </xsl:if>
+                  <xsl:if test="$event | $acting">
+                    <xsl:attribute name="ana" select="string-join(($event/concat('#',.), $acting/concat('#','acting')),' ')"/>
+                  </xsl:if>
+                  <xsl:if test="$role-uk">
+                    <xsl:element name="roleName" xmlns="http://www.tei-c.org/ns/1.0">
+                      <xsl:attribute name="xml:lang">uk</xsl:attribute>
+                      <xsl:value-of select="$role-uk"/>
+                    </xsl:element>
+                  </xsl:if>
+                  <xsl:if test="$role-en">
+                    <xsl:element name="roleName" xmlns="http://www.tei-c.org/ns/1.0">
+                      <xsl:attribute name="xml:lang">en</xsl:attribute>
+                      <xsl:value-of select="$role-en"/>
+                    </xsl:element>
+                  </xsl:if>
                 </xsl:element>
-              </xsl:if>
-              <xsl:if test="$role-en">
-                <xsl:element name="roleName" xmlns="http://www.tei-c.org/ns/1.0">
-                  <xsl:attribute name="xml:lang">en</xsl:attribute>
-                  <xsl:value-of select="$role-en"/>
-                </xsl:element>
-              </xsl:if>
-
-            </xsl:element>
+              </xsl:otherwise>
+            </xsl:choose>
           </xsl:for-each>
         </xsl:element>
       </xsl:for-each>
