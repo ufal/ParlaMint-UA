@@ -135,7 +135,7 @@
               </xsl:choose>
               <xsl:for-each select="$term/membership[@type='fraction' and @from and not(@org_name='Позафракційні')]">
                 <xsl:message select="concat('TODO: implement fractions ',$id,' ',@org_name_norm,' ',@from,' ',@to)"/>
-                <xsl:comment>fractions (parliamentaryGroup) are not implemented <xsl:value-of select="@org_name_norm"/> (affiliation from <xsl:value-of select="@from"/> to <xsl:value-of select="@to"/>)</xsl:comment>
+                <xsl:comment>fractions (parliamentaryGroup) are not implemented <xsl:value-of select="@org_name_norm"/> [<xsl:value-of select="@org_name"/>] (affiliation from <xsl:value-of select="@from"/> to <xsl:value-of select="@to"/>)</xsl:comment>
               </xsl:for-each>
             </xsl:if>
           </xsl:for-each>
