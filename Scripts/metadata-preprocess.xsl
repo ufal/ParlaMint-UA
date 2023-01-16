@@ -300,9 +300,19 @@
       </xsl:element>
       <xsl:apply-templates select="ua:party_num" mode="copy-if-text"><xsl:with-param name="rename" select="'party_id'"/></xsl:apply-templates>
       <xsl:apply-templates select="ua:party_name" mode="copy-if-text"/>
+      <xsl:apply-templates select="ua:posts/ua:post[ua:is_fraction/text() = 1]" mode="mps-data-ex"/>
     </xsl:element>
   </xsl:template>
 
+  <xsl:template match="ua:post[ua:is_fraction/text() = 1]" mode="mps-data-ex">
+    <xsl:element name="membership">
+      <xsl:call-template name="add-source"><xsl:with-param name="elem" select="string('ex_mp/posts/post')"/></xsl:call-template>
+      <xsl:attribute name="type">fraction</xsl:attribute>
+      <xsl:attribute name="post_name" select="mk:normalize-chars(./ua:post_name/text())"/>
+      <xsl:attribute name="org_name" select="mk:normalize-chars(./ua:department_name/text())"/>
+      <xsl:attribute name="org_name_norm" select="mk:normalize-fraction(mk:normalize-chars(./ua:department_name/text()))"/>
+    </xsl:element>
+  </xsl:template>
 
   <xsl:template match="ua:ex_mp | ua:mp" mode="mps-data">
     <xsl:apply-templates select="ua:firstname" mode="copy-if-text"/>

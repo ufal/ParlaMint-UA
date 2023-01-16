@@ -133,10 +133,16 @@
                   <xsl:comment>unknown political party <xsl:value-of select="$partyID"/>: <xsl:value-of select="$term/party_name"/> (affiliation from <xsl:value-of select="$from"/> to <xsl:value-of select="$to"/>)</xsl:comment>
                 </xsl:otherwise>
               </xsl:choose>
-              <xsl:for-each select="$term/membership[@type='fraction' and @from and not(@org_name='Позафракційні')]">
-                <xsl:message select="concat('TODO: implement fractions ',$id,' ',@org_name_norm,' ',@from,' ',@to)"/>
-                <xsl:comment>fractions (parliamentaryGroup) are not implemented <xsl:value-of select="@org_name_norm"/> [<xsl:value-of select="@org_name"/>] (affiliation from <xsl:value-of select="@from"/> to <xsl:value-of select="@to"/>)</xsl:comment>
-              </xsl:for-each>
+            </xsl:if>
+            <xsl:for-each select="$term/membership[@type='fraction' and @from and not(@org_name='Позафракційні')]">
+              <xsl:message select="concat('TODO: implement fractions ',$id,' ',@org_name_norm,' ',@from,' ',@to)"/>
+              <xsl:comment>fractions (parliamentaryGroup) are not implemented <xsl:value-of select="@org_name_norm"/> [<xsl:value-of select="@org_name"/>] (affiliation from <xsl:value-of select="@from"/> to <xsl:value-of select="@to"/>)</xsl:comment>
+            </xsl:for-each>
+            <!-- if @type='fraction' and @from is missing -->
+            <xsl:variable name="fractions-without-timespan" select="$term/membership[@type='fraction' and not(@from) and not(@to)]"/>
+            <xsl:if test="not($term/membership[@type='fraction' and @from]) and count($fractions-without-timespan)">
+              <xsl:message select="concat('TODO: implement fractions ',$id,' ',$fractions-without-timespan/@org_name_norm,' ',@from,' ',@to)"/>
+              <xsl:comment>fractions (parliamentaryGroup) are not implemented <xsl:value-of select="$fractions-without-timespan/@org_name_norm"/> [<xsl:value-of select="$fractions-without-timespan/@org_name"/>] (affiliation from <xsl:value-of select="$from"/> to <xsl:value-of select="$to"/> - Rada timespan is used)</xsl:comment>
             </xsl:if>
           </xsl:for-each>
         </xsl:element>
