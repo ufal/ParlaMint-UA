@@ -172,7 +172,7 @@ checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
 	ПетроОлексійовичПорошенко.1965	pp.SDPU		1998	2000	co-head			
 	ПетроОлексійовичПорошенко.1965	pp.OurU		2005		member			
  ERR:org	ПетроОлексійовичПорошенко.1965	pp.independent		2012-10-28	2019-05-20				
- ERR:org	ПетроОлексійовичПорошенко.1965	pp.BPP;pp.ES		2019-05-24	present	head			
+ 	ПетроОлексійовичПорошенко.1965	pp.ES		2019-05-24	present	head			
  	ВолодимирОлександровичЗеленський.1978	Ukraine	6thPresidency	2019-05-20	present	head		President of Ukraine	Президент України
  ERR:org	ВолодимирОлександровичЗеленський.1978	pp.independent		2019-05-20					
  	АрсенійПетровичЯценюк.1974	GOV.UA	GOV.UA.1stYatseniuk	2014-02-27	2014-11-27	head		Prime Minister of Ukraine	Прем'єр-міністр України
