@@ -134,8 +134,7 @@ HEADER
   my $div = $root_node->addNewChild(undef,'text')->addNewChild(undef,'body')->addNewChild(undef,'div');
   $div->setAttribute('type','debateSection');
   my ($chair,$sitting_date,$doc_proc_state);
-
-  my @p = $htm->findnodes('/html/body/text() | /html/body/p | /html/body/div/p ');
+  my @p = $htm->findnodes('/html/body/text() | /html/body/p | /html/body//div/p ');
   print STDERR "number of paragraphs:",scalar @p,"\n";
   # processing text header
   # date
