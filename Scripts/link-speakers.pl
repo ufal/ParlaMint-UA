@@ -241,6 +241,7 @@ close SPEAKER_LINKS;
 sub align_seq { # Needleman-Wunsch algorithm
   my @s1 = @{shift//[]};
   my @s2 = @{shift//[]};
+  return () unless @s1 && @s2;
   my ($gap_penalty1,$gap_penalty2) = (@_,10,10);
   my @alignment = ();
   my @dist = map { [(0) x ($#s2 + 1)] }  (0..$#s1);
