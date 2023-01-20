@@ -83,7 +83,7 @@ if($speaker_calls_file){
 
     # taking longest name in calls:
     $calls->{$row->{utterance}} = $row if $calls->{$row->{utterance}}->{dist} > $row->{dist};
-    $calls->{$row->{utterance}} = $row if  $calls->{$row->{utterance}}->{dist} = $row->{dist}
+    $calls->{$row->{utterance}} = $row if  $calls->{$row->{utterance}}->{dist} == $row->{dist}
                   && length($calls->{$row->{utterance}}->{normalizedName}) < length($row->{normalizedName});
   }
 }
@@ -100,7 +100,7 @@ if($plenary_speech_file){
 
 my $speaker_links_filename = "$data_dir/$output_dir/$run_id/speaker-person-links.tsv";
 open SPEAKER_LINKS, ">$speaker_links_filename";
-print SPEAKER_LINKS "fileId\tutterance\tspeaker\taPersonId\taRole\taDayDist\taEdDist\tsPersonId\tsRole\tsEdDist\tcNormalizedName\tcIsFull\tcSurDist\n";
+print SPEAKER_LINKS "fileId\tutterance\tspeaker\taPersonId\taRole\taDayDist\taEdDist\tsPersonId\tsRole\tsEdDist\tcNormalizedName\tcIsFull\tcSurDist\tsource\n";
 
 for my $dayFilesIn (@file_list_day){
   my @utterances;
@@ -221,12 +221,14 @@ for my $dayFilesIn (@file_list_day){
   for my $u (@utterances){
     my $u_id = $u->getAttributeNS($xmlNS,'id');
     my $tei_id = $u->findvalue('./ancestor::*[local-name() = "TEI"]/@xml:id');
+    my $tei_source = $u->findvalue('./ancestor::*[local-name() = "TEI"]//*[local-name() = "bibl"]/*[local-name() = "idno"]');
     my $who = $u->getAttribute('who');
     print SPEAKER_LINKS
           "$tei_id\t$u_id\t$who",
           ($linking{$u_id}->{alias}||"\t\t\t\t"),
           ($linking{$u_id}->{speech}||"\t\t\t"),
-          ($linking{$u_id}->{call}||"\t\t");
+          ($linking{$u_id}->{call}||"\t\t\t"),
+          "\t$tei_source";
     print SPEAKER_LINKS "\n";
   }
 }
