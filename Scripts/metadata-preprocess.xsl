@@ -383,6 +383,7 @@
       <xsl:attribute name="source" select="./ancestor-or-self::*[@source][1]/@source"/>
 
       <xsl:apply-templates select="full_name" mode="copy-if-text"><xsl:with-param name="rename" select="'fullname'"/></xsl:apply-templates>
+      <xsl:apply-templates select="other_name" mode="copy-if-text"><xsl:with-param name="rename" select="'fullname'"/></xsl:apply-templates>
       <xsl:apply-templates select="first_name" mode="copy-if-text"><xsl:with-param name="rename" select="'firstname'"/></xsl:apply-templates>
       <xsl:apply-templates select="second_name" mode="copy-if-text"><xsl:with-param name="rename" select="'patronymic'"/></xsl:apply-templates>
       <xsl:apply-templates select="last_name" mode="copy-if-text"><xsl:with-param name="rename" select="'surname'"/></xsl:apply-templates>
@@ -400,7 +401,15 @@
 
       <xsl:apply-templates select="party_name" mode="copy-if-text"/>
       <xsl:apply-templates select="photo" mode="copy-if-text"/>
+      <xsl:if test="rada_id/text()">
+        <xsl:message select="rada_id/text()"/>
+        <xsl:for-each select="tokenize(rada_id/text(),'\|')">
+          <rada_id_full><xsl:value-of select="."/></rada_id_full>
+        </xsl:for-each>
+      </xsl:if>
+      <!--
       <xsl:apply-templates select="rada_id" mode="copy-if-text"><xsl:with-param name="rename" select="'rada_id_full'"/></xsl:apply-templates>
+      -->
     </xsl:element>
   </xsl:template>
 
