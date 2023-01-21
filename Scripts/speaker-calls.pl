@@ -54,7 +54,7 @@ open CALLS_SENT, ">$data_dir/$output_dir/$run_id/calls-sentences.tsv";
 open CALLS_SPEAKER, ">$data_dir/$output_dir/$run_id/calls-speakers.tsv";
 
 print CALLS_SENT "utterance\tnote\twho\tsentence\n";
-print CALLS_SPEAKER "utterance\tnote\twho\twordIds\tnormalizedName\tdist\tisFull\n";
+print CALLS_SPEAKER "utterance\tnote\twho\twordIds\tforename\tpatronymic\tsurname\tsex\tdist\tisFull\n";
 
 for my $fileIn (@file_list){
   my $tei = open_xml($fileIn);
@@ -69,7 +69,7 @@ for my $fileIn (@file_list){
     my @speaker_pattern = get_speaker_pattern($who,$speaker_note->textContent,$ana);
     next unless @speaker_pattern;
     print STDERR "INFO: find speaker in text\t$id\t$who\t$speaker_note\n";
-    print STDERR 'INFO: patterns -',join(" ",map {$_->{attr}->{lemma}} @speaker_pattern),"\n";
+    print STDERR 'INFO: patterns ',join(" ",map {$_->{attr}->{lemma}->{txt}} @speaker_pattern),"\n";
     my $data = {
           who => $who,
           note => $speaker_note->textContent,
@@ -155,6 +155,29 @@ sub get_full_name {
     last if $extended;
   }
   unless($extended){
+    # try to match with following/preceding nodes
+    if(scalar(@patterns)){
+      my @name_nodes = map {$_->{node}} values %$seen;
+      while(my $cur_node = shift @name_nodes){
+        my @explore_dir = qw/following preceding/;
+        while(my $dir = shift @explore_dir){
+          my ($nd) = $cur_node->findnodes("./$dir-sibling::*[1]");
+          next unless $nd;
+          my $nd_id = $nd->getAttributeNS('http://www.w3.org/XML/1998/namespace','id');
+          next if defined $seen->{$nd_id};
+          next unless $nd->hasAttribute('lemma');
+          for my $pat (@patterns){
+            if($nd->getAttribute('lemma') =~ $pat->{attr}->{lemma}->{re}){
+              @patterns = grep {$_->{ord} != $pat->{ord}} @patterns;
+              $seen->{$nd_id} = {%$pat,node=>$nd};
+              push @name_nodes, $nd;
+              last;
+            }
+          }
+        }
+      }
+
+    }
     print_sentence($data, $node->findnodes('./ancestor::*[local-name() = "s"][1]'), keys %$seen);
     print_speaker($data,$seen, $dist, ! scalar(@patterns))
   }
@@ -204,9 +227,17 @@ sub print_speaker {
                "\t",
                $data->{who},
                "\t",
-               join(' ', map {$_->{node}->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')} sort {$a->{ord}<=>$b->{ord}} values %$seen),
-               "\t",
-               join(' ', map {$_->{node}->getAttribute('lemma')} sort {$a->{ord}<=>$b->{ord}} values %$seen),
+               join(' ', map {$_->{node}->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')} sort {$a->{ord}<=>$b->{ord}} values %$seen);
+  my $i = -1;
+  for my $s (sort {$a->{ord}<=>$b->{ord}} values %$seen){
+    while($i < $s->{ord}){
+      print CALLS_SPEAKER "\t";
+      $i++
+    }
+    print CALLS_SPEAKER $s->{node}->getAttribute('lemma')
+  }
+  print CALLS_SPEAKER "\t",map {$_->{node}->getAttribute('msd') =~ m/Gender=\b(.)/;$1} grep {$_->{ord} == 2} values %$seen;
+  print CALLS_SPEAKER
                "\t",
                $dist,
                "\t",
