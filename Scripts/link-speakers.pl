@@ -84,7 +84,7 @@ if($speaker_calls_file){
     # taking longest name in calls:
     $calls->{$row->{utterance}} = $row if $calls->{$row->{utterance}}->{dist} > $row->{dist};
     $calls->{$row->{utterance}} = $row if  $calls->{$row->{utterance}}->{dist} == $row->{dist}
-                  && length($calls->{$row->{utterance}}->{normalizedName}) < length($row->{normalizedName});
+                  && length(join(' ',grep $calls->{$row->{utterance}}->{qw/forename patronymic surname/})) < length(join(' ',grep $row->{qw/forename patronymic surname/}));
   }
 }
 
@@ -100,7 +100,7 @@ if($plenary_speech_file){
 
 my $speaker_links_filename = "$data_dir/$output_dir/$run_id/speaker-person-links.tsv";
 open SPEAKER_LINKS, ">$speaker_links_filename";
-print SPEAKER_LINKS "fileId\tutterance\tspeaker\taPersonId\taRole\taDayDist\taEdDist\tsPersonId\tsRole\tsEdDist\tcNormalizedName\tcIsFull\tcSurDist\tsource\n";
+print SPEAKER_LINKS "fileId\tutterance\tspeaker\taPersonId\taRole\taDayDist\taEdDist\tsPersonId\tsRole\tsEdDist\tforename\tpatronymic\tsurname\tsex\tcIsFull\tcSurDist\tsource\n";
 
 for my $dayFilesIn (@file_list_day){
   my @utterances;
@@ -211,7 +211,10 @@ for my $dayFilesIn (@file_list_day){
     if(defined $calls->{$u_id}){
       $linking{$u_id} //= {};
       $linking{$u_id}->{call} =
-            "\t".$calls->{$u_id}->{normalizedName}
+            "\t".$calls->{$u_id}->{forename}
+            ."\t".$calls->{$u_id}->{patronymic}
+            ."\t".$calls->{$u_id}->{surname}
+            ."\t".$calls->{$u_id}->{sex}
             ."\t".$calls->{$u_id}->{isFull}
             ."\t".$calls->{$u_id}->{dist};
     }
@@ -227,7 +230,7 @@ for my $dayFilesIn (@file_list_day){
           "$tei_id\t$u_id\t$who",
           ($linking{$u_id}->{alias}||"\t\t\t\t"),
           ($linking{$u_id}->{speech}||"\t\t\t"),
-          ($linking{$u_id}->{call}||"\t\t\t"),
+          ($linking{$u_id}->{call}||"\t\t\t\t\t\t"),
           "\t$tei_source";
     print SPEAKER_LINKS "\n";
   }
