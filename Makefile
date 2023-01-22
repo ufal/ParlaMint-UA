@@ -126,6 +126,26 @@ $(link-speakers-RUN-ALL): link-speakers-%:
 	                           --plenary-speech "$(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/plenary-speech.xml" \
 	                           --speaker-calls "$(DATADIR)/speaker-calls/$*/calls-speakers.tsv"
 
+LINK-SPEAKERS_LAST := $(shell ls $(DATADIR)/link-speakers | grep -v '_' | sort -r | head -n1)
+LINK-SPEAKERS_ALL := $(shell ls $(DATADIR)/link-speakers )
+
+
+mismatching-speakers-RUN-ALL = $(addprefix mismatching-speakers-, $(LINK-SPEAKERS_ALL))
+mismatching-speakers-RUN-LAST = $(addprefix mismatching-speakers-, $(LINK-SPEAKERS_LAST))
+## mismatching-speakers ## mismatching-speakers
+mismatching-speakers: mismatching-speakers-last
+mismatching-speakers-last: $(mismatching-speakers-RUN-LAST)
+mismatching-speakers-all: $(mismatching-speakers-RUN-ALL)
+
+## mismatching-speakers-RUN ##
+$(mismatching-speakers-RUN-ALL): mismatching-speakers-%:
+	mkdir -p $(DATADIR)/mismatching-speakers/$*/
+	rm -f $(DATADIR)/mismatching-speakers/$*/*
+	./Scripts/mismatching-speakers.pl --id $* \
+	                           --data-dir "$(DATADIR)" \
+	                           --config Scripts/config.sh \
+	                           --linking "$(DATADIR)/link-speakers/$*/speaker-person-links.tsv"
+
 
 
 
@@ -213,6 +233,12 @@ $(tei-particDesc-RUN-LAST): tei-particDesc-%: tei-particDesc-preprocess-% tei-pa
 	  $s -s:- -xsl:Scripts/metadata.xsl \
 	      in-dir=$(DATADIR)/tei-particDesc-preprocess/$*/ \
 	      out-dir=$(DATADIR)/tei-particDesc/$*/
+
+tei-particDesc-TEST:
+	echo "<?xml version=\"1.0\" ?>\n<root/>" | \
+	  $s -s:- -xsl:Scripts/metadata.xsl \
+	      in-dir=$(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ \
+	      out-dir=$(DATADIR)/tei-particDesc/$(DOWNLOAD_META_DATA_LAST)/
 
 tei-particDesc-aliases-RUN-LAST = $(addprefix tei-particDesc-aliases-, $(DOWNLOAD_META_DATA_LAST))
 tei-particDesc-aliases: $(tei-particDesc-aliases-RUN-LAST)
