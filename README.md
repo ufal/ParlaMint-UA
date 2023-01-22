@@ -45,7 +45,7 @@ graph TB
     tei-particDesc-aliases --> link-speakers
     tei-particDesc --plenary-speech.xml--> link-speakers
 
-    mismatching-speakers[mismatching-speakers]:::TODO
+    mismatching-speakers[mismatching-speakers]
     link-speakers --speaker-person-links.tsv--> mismatching-speakers
     manMiss([manually adding<br>mismatching guest]):::MANUAL
     mismatching-speakers --tsv--> manMiss
