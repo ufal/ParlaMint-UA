@@ -3,9 +3,12 @@ Tools and samples of Ukrainian parliamentary proceedings encoded in ParlaMint fo
 
 
 ```mermaid
+---
+title: ParlaMint-UA WorkFlow
+---
 graph TB
     VR(Verkhovna Rada):::in
-    
+
     DM[fa:fa-users download-meta<br><small>metadata about MPs</small>]
     VR --> DM
     DMsp[download-meta-speeches<br><small>metadata about plenary speeches</small>]
@@ -18,12 +21,12 @@ graph TB
     tei-particDesc-preprocess -.-> tei-particDesc
     tei-particDesc-preprocess -. calls .-> tei-particDesc-gov(tei-particDesc-gov):::gr
     tei-particDesc-gov -.-> tei-particDesc-preprocess
-    GOV([manual adding persons<br>government, president]):::MANUAL
-    GS(Google sheet):::in 
-    GOV ----> GS
+    GOV([manual adding persons<br>government, president<br>affiliations<br>organizations,events]):::MANUAL
+    GS(Google sheet):::in
+    GOV --> GS
     GS --> tei-particDesc-gov
     tei-particDesc --listPerson--> tei-particDesc-aliases(tei-particDesc-aliases)
- 
+
     DP[fa:fa-file-text download<br><small>plenary speeches in HTML</small>]
     VR --> DP
 
@@ -35,7 +38,7 @@ graph TB
     TEIlang --> TEIud
     SC[speaker-calls<br><small>find speaker mentions</small>]
     TEIud --> SC
-    
+
     TEIner[NER]:::TODO
     TEIud --> TEIner
 
@@ -47,21 +50,25 @@ graph TB
 
     mismatching-speakers[mismatching-speakers]
     link-speakers --speaker-person-links.tsv--> mismatching-speakers
-    manMiss([manually adding<br>mismatching guest]):::MANUAL
+    manMiss([manual adding<br>mismatching guest<br>NO AFFILIATIONS]):::MANUAL
     mismatching-speakers --tsv--> manMiss
     manMiss --guest sheet-->GS
-    
+
     link-speaker-final[link-speaker-final]:::TODO
+    tei-particDesc --listPerson--> link-speaker-final
     GS --guest--> link-speaker-final
     link-speakers --speaker-person-links.tsv--> link-speaker-final
+    taxonomies-man([taxonomies translation]):::MANUAL --> taxonomies(GitHub/taxonomies/...):::in
 
     TEIana[TEI.ana<br>partially implemented<br>changing names and ids !!!<br>FINALIZATION]:::TODOfin
-    link-speaker-final --> TEIana
+    link-speaker-final --listPerson /updated/<br>speaker-person-links-final.tsv--> TEIana
     TEIner --> TEIana
-    
+    taxonomies --> TEIana
+    tei-particDesc --listOrg--> TEIana
+
     TEI[TEI<br>FINALIZATION]:::TODOfin
-    TEIana --speakers+numbers-->TEI
-    TEIlang -->TEI
+    TEIana --TEI.ana speakers+numbers<br>listPerson<br>listOrg<br>relevant taxonomies-->TEI
+    TEIlang --TEI-->TEI
     
     classDef default fill:#ddf,stroke:#333,stroke-width:2px;
     classDef in fill:#ff3;
