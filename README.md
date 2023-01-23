@@ -54,14 +54,20 @@ graph TB
     mismatching-speakers --tsv--> manMiss
     manMiss --guest sheet-->GS
 
-    link-speaker-final[link-speaker-final]:::TODO
-    tei-particDesc --listPerson--> link-speaker-final
-    GS --guest--> link-speaker-final
-    link-speakers --speaker-person-links.tsv--> link-speaker-final
+    extend-listPerson[extend-listPerson<br>add guest persons]:::TODO
+    tei-particDesc --listPerson--> extend-listPerson
+    GS --guest--> extend-listPerson
+    extended-listPerson-aliases[extended-listPerson-aliases<br>metadata-aliases.xsl]:::TODO
+    extend-listPerson --listPerson /extended/--> extended-listPerson-aliases
+
+    extend-link-speakers[extend-link-speakers]:::TODO
+    extended-listPerson-aliases --> extend-link-speakers
+    link-speakers --speaker-person-links.tsv--> extend-link-speakers
     taxonomies-man([taxonomies translation]):::MANUAL --> taxonomies(GitHub/taxonomies/...):::in
 
     TEIana[TEI.ana<br>partially implemented<br>changing names and ids !!!<br>FINALIZATION]:::TODOfin
-    link-speaker-final --listPerson /updated/<br>speaker-person-links-final.tsv--> TEIana
+    extend-link-speakers --speaker-person-links-extended.tsv--> TEIana
+    extend-listPerson --listPerson /extended/--> TEIana
     TEIner --> TEIana
     taxonomies --> TEIana
     tei-particDesc --listOrg--> TEIana
