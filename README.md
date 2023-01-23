@@ -62,18 +62,23 @@ graph TB
 
     extend-link-speakers[extend-link-speakers]:::TODO
     extended-listPerson-aliases --> extend-link-speakers
+    HTML --> extend-link-speakers
     link-speakers --speaker-person-links.tsv--> extend-link-speakers
     taxonomies-man([taxonomies translation]):::MANUAL --> taxonomies(GitHub/taxonomies/...):::in
 
     TEIana[TEI.ana<br>partially implemented<br>changing names and ids !!!<br>FINALIZATION]:::TODOfin
-    extend-link-speakers --speaker-person-links-extended.tsv--> TEIana
+
+    utterance-who-ana[utterance-who-ana<br>final person speaker linking]:::TODO
+    extend-link-speakers --speaker-person-links.tsv--> utterance-who-ana
+    utterance-who-ana --utterance-who-ana.tsv--> TEIana
     extend-listPerson --listPerson /extended/--> TEIana
     TEIner --> TEIana
     taxonomies --> TEIana
     tei-particDesc --listOrg--> TEIana
 
     TEI[TEI<br>FINALIZATION]:::TODOfin
-    TEIana --TEI.ana speakers+numbers<br>listPerson<br>listOrg<br>relevant taxonomies-->TEI
+    utterance-who-ana --utterance-who-ana.tsv--> TEI
+    TEIana --TEI.ana numbers<br>listPerson<br>listOrg<br>relevant taxonomies-->TEI
     TEIlang --TEI-->TEI
     
     classDef default fill:#ddf,stroke:#333,stroke-width:2px;
