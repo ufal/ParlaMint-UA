@@ -26,6 +26,12 @@
     </xsl:call-template>
   </xsl:variable>
 
+  <xsl:variable name="gov-guest">
+    <xsl:call-template name="read-tsv">
+      <xsl:with-param name="file" select="concat($in-dir,'/gov-guest.tsv')"/>
+    </xsl:call-template>
+  </xsl:variable>
+
   <xsl:variable name="gov-affiliation">
     <xsl:call-template name="read-tsv">
       <xsl:with-param name="file" select="concat($in-dir,'/gov-affiliation.tsv')"/>
@@ -63,9 +69,11 @@
             <xsl:element name="forename" xmlns="http://www.tei-c.org/ns/1.0">
               <xsl:value-of select="string-join(distinct-values($person/term/firstname),' ')"/>
             </xsl:element>
-            <xsl:element name="forename" xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
+                <xsl:attribute name="type">patronym</xsl:attribute>
               <xsl:value-of select="string-join(distinct-values($person/term/patronymic),' ')"/>
             </xsl:element>
+            <!--todo multiple names-->
             <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
               <xsl:value-of select="string-join(distinct-values($person/term/surname),' ')"/>
             </xsl:element>
@@ -148,7 +156,7 @@
         </xsl:element>
       </xsl:for-each>
       <!-- government(/manual) source -->
-      <xsl:for-each select="$gov-person/table/row">
+      <xsl:for-each select="$gov-person/table/row | $gov-guest/table/row">
         <xsl:variable name="person" select="."/>
         <xsl:element name="person" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:variable name="id" select="$person/col[@name='PersonID']"/>
@@ -164,7 +172,8 @@
               </xsl:element>
             </xsl:if>
             <xsl:if test="$patronymic">
-              <xsl:element name="forename" xmlns="http://www.tei-c.org/ns/1.0">
+              <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
+                <xsl:attribute name="type">patronym</xsl:attribute>
                 <xsl:value-of select="$patronymic"/>
               </xsl:element>
             </xsl:if>
