@@ -57,10 +57,10 @@ graph TB
     extend-listPerson[extend-listPerson<br>add guest persons]:::TODO
     tei-particDesc --listPerson--> extend-listPerson
     GS --guest--> extend-listPerson
-    extended-listPerson-aliases[extended-listPerson-aliases<br>metadata-aliases.xsl]:::TODO
+    extended-listPerson-aliases[extended-listPerson-aliases<br>metadata-aliases.xsl]
     extend-listPerson --listPerson /extended/--> extended-listPerson-aliases
 
-    extend-link-speakers[extend-link-speakers]:::TODO
+    extend-link-speakers[extend-link-speakers]
     extended-listPerson-aliases --> extend-link-speakers
     HTML --> extend-link-speakers
     link-speakers --speaker-person-links.tsv--> extend-link-speakers

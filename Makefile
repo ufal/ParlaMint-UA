@@ -20,6 +20,7 @@ GSIDaffiliation := 1800909923
 GSIDorg := 1140033767
 GSIDevent := 19173850
 GSIDrelation := 1419083904
+GSIDguest := 636463819
 
 
 -include Makefile.env
@@ -122,6 +123,8 @@ $(link-speakers-RUN-ALL): link-speakers-%:
 	./Scripts/link-speakers.pl --id $* \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh \
+	                           --in-dir-name "tei-text" \
+	                           --out-dir-name "link-speakers" \
 	                           --speaker-aliases "$(DATADIR)/tei-particDesc-aliases/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
 	                           --plenary-speech "$(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/plenary-speech.xml" \
 	                           --speaker-calls "$(DATADIR)/speaker-calls/$*/calls-speakers.tsv"
@@ -277,7 +280,64 @@ $(tei-particDesc-gov-RUN-LAST): tei-particDesc-gov-%:
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDorg)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-org.tsv
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDevent)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-event.tsv
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDrelation)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-relation.tsv
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDguest)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-guest.tsv
 
+
+extend-listPerson-RUN-LAST = $(addprefix extend-listPerson-, $(DOWNLOAD_META_DATA_LAST))
+extend-listPerson: $(extend-listPerson-RUN-LAST)
+$(extend-listPerson-RUN-LAST): extend-listPerson-%: updated-guest-sheet-%
+	mkdir -p $(DATADIR)/extend-listPerson/$*
+	echo "TODO extend-listPerson"
+	$s -xsl:Scripts/extend-listPerson.xsl \
+	  persons="$(DATADIR)/updated-guest-sheet/$*/gov-guest.tsv" \
+	  $(DATADIR)/extend-listPerson/$(DOWNLOAD_META_DATA_LAST)/ParlaMint-UA-listPerson.xml \
+	  > $(DATADIR)/extended-listPerson-aliases/$*/mp-data-aliases.tsv
+
+updated-guest-sheet-RUN-LAST = $(addprefix updated-guest-sheet-, $(DOWNLOAD_META_DATA_LAST))
+updated-guest-sheet: $(updated-guest-sheet-RUN-LAST)
+$(updated-guest-sheet-RUN-LAST): updated-guest-sheet-%:
+	mkdir -p $(DATADIR)/updated-guest-sheet/$*
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDguest)&single=true&output=tsv" > $(DATADIR)/updated-guest-sheet/$*/gov-guest.tsv
+	cmp --silent $(DATADIR)/tei-particDesc-preprocess/$*/gov-guest.tsv \
+	             $(DATADIR)/updated-guest-sheet/$*/gov-guest.tsv \
+	             && echo "WARN: (updated-guest-sheet) files are identical"
+
+extended-listPerson-aliases-RUN-LAST = $(addprefix extended-listPerson-aliases-, $(DOWNLOAD_META_DATA_LAST))
+extended-listPerson-aliases: $(extended-listPerson-aliases-RUN-LAST)
+$(extended-listPerson-aliases-RUN-LAST): extended-listPerson-aliases-%:
+	mkdir -p $(DATADIR)/extended-listPerson-aliases/$*
+	$s -xsl:Scripts/metadata-aliases.xsl \
+	  org-list="GOV.UA ВРУ" \
+	  $(DATADIR)/extend-listPerson/$(DOWNLOAD_META_DATA_LAST)/ParlaMint-UA-listPerson.xml \
+	  > $(DATADIR)/extended-listPerson-aliases/$*/mp-data-aliases.tsv
+
+
+extend-link-speakers-RUN-LAST = $(addprefix extend-link-speakers-, $(TEI-TEXT_DATA_LAST))
+## extend-link-speakers ## extend-link-speakerss
+extend-link-speakers: extend-link-speakers-last
+
+## extend-link-speakers-RUN ##
+$(extend-link-speakers-RUN-LAST): extend-link-speakers-%:
+	mkdir -p $(DATADIR)/extend-link-speakers/$*/
+	rm -f $(DATADIR)/extend-link-speakers/$*/*
+	./Scripts/link-speakers.pl --id $* \
+	                           --data-dir "$(DATADIR)" \
+	                           --config Scripts/config.sh \
+	                           --in-dir-name "tei-text" \
+	                           --out-dir-name "extend-link-speakers" \
+	                           --linking "$(DATADIR)/link-speakers/$*/speaker-person-links.tsv" \
+	                           --speaker-aliases "$(DATADIR)/extended-listPerson-aliases/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv"
+
+
+utterance-who-ana-RUN-LAST = $(addprefix utterance-who-ana-, $(TEI-TEXT_DATA_LAST))
+## utterance-who-ana ## utterance-who-anas
+utterance-who-ana: utterance-who-ana-last
+
+## utterance-who-ana-RUN ##
+$(utterance-who-ana-RUN-LAST): utterance-who-ana-%:
+	mkdir -p $(DATADIR)/utterance-who-ana/$*/
+	rm -f $(DATADIR)/utterance-who-ana/$*/*
+	echo "TODO utterance-who-ana"
 
 ######
 
@@ -294,9 +354,10 @@ TEI.ana-all: $(TEI.ana-RUN-ALL)
 ## TEI.ana-RUN ##
 $(TEI.ana-RUN-ALL): TEI.ana-%:
 	mkdir -p $(DATADIR)/release/$*
+	echo "TODO: add final speaker person linking param (utterance-who-ana.tsv)"
 	$s -xsl:Scripts/ParlaMint-UA-finalize.xsl \
 	    outDir=$(DATADIR)/release/$* \
-	    inListPerson=$(DATADIR)/tei-particDesc/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listPerson.xml  \
+	    inListPerson=$(DATADIR)/extend-listPerson/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listPerson.xml  \
 	    inListOrg=$(DATADIR)/tei-particDesc/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listOrg.xml \
 	    inTaxonomiesDir=$(TAXONOMIES) \
 	    type=TEI.ana \
@@ -312,9 +373,10 @@ TEI-all: $(TEI-RUN-ALL)
 ## TEI-RUN ##
 $(TEI-RUN-ALL): TEI-%:
 	mkdir -p $(DATADIR)/release/$*
+	echo "TODO: add final speaker person linking param (utterance-who-ana.tsv)"
 	$s -xsl:Scripts/ParlaMint-UA-finalize.xsl \
 	    outDir=$(DATADIR)/release/$* \
-	    inListPerson=$(DATADIR)/tei-particDesc/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listPerson.xml  \
+	    inListPerson=$(DATADIR)/extend-listPerson/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listPerson.xml  \
 	    inListOrg=$(DATADIR)/tei-particDesc/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listOrg.xml \
 	    inTaxonomiesDir=$(TAXONOMIES) \
 	    anaDir=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana \
