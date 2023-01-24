@@ -16,24 +16,41 @@ use Data::Dumper;
 
 my $max_edit_dist = 3;
 
-my ($data_dir, $run_id, $config_path, $speaker_aliases_file,$speaker_calls_file, $plenary_speech_file);
+my ($data_dir, $run_id, $config_path, $input_dir, $output_dir, $linking_file, $speaker_aliases_file,$speaker_calls_file, $plenary_speech_file);
 my $xmlNS = 'http://www.w3.org/XML/1998/namespace';
+
+my @header_common = qw/fileId utterance speaker/;
+my @header_alias = qw/aPersonId aRole aDayDist aEdDist/;
+my @header_speech = qw/sPersonId sRole sEdDist/;
+my @header_call = qw/forename patronymic surname sex cIsFull cSurDist/;
+my @header = (
+               @header_common,
+               @header_alias,
+               @header_speech,
+               @header_call,
+               'source'
+            );
 
 GetOptions (
             'data-dir=s' => \$data_dir,
+            'in-dir-name=s' => \$input_dir,
+            'out-dir-name=s' => \$output_dir,
             'id=s' => \$run_id,
             'config=s' => \$config_path,
+            'linking=s' => \$linking_file, #tsv
             'speaker-aliases=s' => \$speaker_aliases_file, # tsv
             'speaker-calls=s' => \$speaker_calls_file, # tsv
             'plenary-speech=s' => \$plenary_speech_file, # XML
         );
 my %config = map {m/^([^=]*)="(.*)"$/; $1 => $2} grep{m/^([^=]*)="(.*)"$/} split("\n",`./$config_path list`);
 
-my $input_dir = $config{html2tei_text};
-my $output_dir = $config{link_speakers};
-
 unless($input_dir){
   print STDERR "no input directory\n";
+  exit 1;
+}
+
+unless($output_dir){
+  print STDERR "no output directory\n";
   exit 1;
 }
 
@@ -57,12 +74,29 @@ while(my $f = shift @file_list){
   while(@file_list && $file_list[0] =~ m/^.*_${day}[^\/]*?\.xml$/){
     push @day_files, shift @file_list;
   }
-  push @file_list_day, [@day_files];
+  push @file_list_day, {date=>$day, files=>[@day_files]};
 }
 
 `mkdir -p $data_dir/$output_dir/$run_id`;
 
 my $tsv = Text::CSV->new({binary => 1, auto_diag => 1, sep_char=> "\t"});
+
+if($linking_file && $plenary_speech_file){
+  print STDERR "ERROR: invalid option combination --linking <PATH> --plenary-speech <PATH>\n";
+  exit 1;
+}
+if($linking_file && $speaker_calls_file){
+  print STDERR "ERROR: invalid option combination (not implemented) --linking <PATH> --speaker-calls <PATH>\n";
+  exit 1;
+}
+
+my %all_linking;
+if($linking_file){
+  print STDERR "INFO: loading existing linking: $linking_file\n";
+  for my $al (@{csv({in => $speaker_aliases_file,headers => "auto", binary => 1, auto_diag => 1, sep_char=> "\t"})//[]}){
+
+  }
+}
 
 my $aliases;
 if($speaker_aliases_file){
@@ -70,15 +104,18 @@ if($speaker_aliases_file){
   for my $al (@{csv({in => $speaker_aliases_file,headers => "auto", binary => 1, auto_diag => 1, sep_char=> "\t"})//[]}){
     $aliases->{uc $al->{alias}} //= {};
     $aliases->{uc $al->{alias}}->{$al->{id}} //= [];
-    my $from = convert_to_days($al->{from} || '1970-01-01');
-    my $to = convert_to_days($al->{to} || '2070-12-12');
-    push @{$aliases->{uc $al->{alias}}->{$al->{id}}},[$from,$to]
+    if($al->{org}){ # if organization is not defined, then no period is used
+      my $from = convert_to_days($al->{from} || '1970-01-01');
+      my $to = convert_to_days($al->{to} || '2070-12-12');
+      push @{$aliases->{uc $al->{alias}}->{$al->{id}}},[$from,$to]
+    }
   }
 }
 
 my $calls;
 if($speaker_calls_file){
   for my $row (@{csv({in => $speaker_calls_file,headers => "auto", binary => 1, auto_diag => 1, sep_char=> "\t"}) //[] }) {
+    $row->{$_} //= '' for @header_call;
     $calls->{$row->{utterance}} //= $row;
 
     # taking longest name in calls:
@@ -100,28 +137,33 @@ if($plenary_speech_file){
 
 my $speaker_links_filename = "$data_dir/$output_dir/$run_id/speaker-person-links.tsv";
 open SPEAKER_LINKS, ">$speaker_links_filename";
-print SPEAKER_LINKS "fileId\tutterance\tspeaker\taPersonId\taRole\taDayDist\taEdDist\tsPersonId\tsRole\tsEdDist\tforename\tpatronymic\tsurname\tsex\tcIsFull\tcSurDist\tsource\n";
+print SPEAKER_LINKS join("\t",@header)."\n";
 
 for my $dayFilesIn (@file_list_day){
   my @utterances;
-  my $tei_date; # shared over all files in same day
-  for my $fileIn (@$dayFilesIn){
+  my %linking;
+  my $tei_date = $dayFilesIn->{date}; # shared over all files in same day
+  if(%all_linking){
+    print STDERR "move day links to linking\n";
+
+  } # TODO else:
+  for my $fileIn (@{$dayFilesIn->{files}}){
     my $tei = open_xml($fileIn);
     #my $tei_id = $tei->findvalue('/*[local-name() = "TEI"]/@xml:id');
-    $tei_date = $tei->findvalue('//*[local-name() = "setting"]/*[local-name() = "date"]/@when');
+    #$tei_date = $tei->findvalue('//*[local-name() = "setting"]/*[local-name() = "date"]/@when');
     #my $tei_term = $tei->findvalue('//*[local-name() = "meeting" and contains(concat(" ",@ana," "),"#parla.term")]/@n');
     push @utterances,$_ for $tei->findnodes('//*[local-name() = "u"]');
   }
   my $tei_date_num = convert_to_days($tei_date);
-  my %linking;
 
   ### alias linking
   my %seen_alias;
   for my $node (@utterances){
-    my $tei_term = $node->findvalue('./ancestor::*//*[local-name() = "meeting" and contains(concat(" ",@ana," "),"#parla.term")]/@n');
     my $who = $node->getAttribute('who');
+    my $u_id = $node->getAttributeNS($xmlNS,'id');
+    next if defined $linking{$u_id}->{alias};
     my $is_chair = ($node->getAttribute('ana') eq '#chair');
-    my $alias_result = "";
+    my $alias_result;
     if($seen_alias{$who}){
       $alias_result = $seen_alias{$who}
     }
@@ -162,25 +204,32 @@ for my $dayFilesIn (@file_list_day){
               $res{$pers_id} = {dist=> $dist, id=>$pers_id, interval=>$interval} if $res{$pers_id}->{dist} > $dist
             }
           }
+          # add if no interval
+          unless(@{$aliases->{$wh}->{$pers_id}}){
+            $res{$pers_id} = {id => $pers_id} unless defined $res{$pers_id}
+          }
         }
       }
       my $mindist;
       for my $dist (map {$_->{dist}} values %res){
         $mindist //= $dist;
-        $mindist = $dist if $mindist > $dist;
+        $mindist = $dist if defined($dist) && $mindist > $dist;
       }
       if(%res){
-        $alias_result .= "\t".join(" ",map {$_->{id}} grep {$_->{dist} == $mindist} values %res);
-        $alias_result .= "\t".($is_chair ? 'chair' : ($mindist > 0 ? 'guest' : 'regular'));
-        $alias_result .= "\t$mindist";
-        $alias_result .= "\t$minedist";
+        #columns: aPersonId aRole aDayDist aEdDist
+        $alias_result = {
+          aPersonId => join(" ",map {$_->{id}} grep {!defined($mindist) || $_->{dist} == $mindist} values %res),
+          aRole => ($is_chair ? 'chair' : ($mindist//9999 > 0 ? 'guest' : 'regular')),
+          aDayDist => ($mindist//''),
+          aEdDist => $minedist,
+        };
         $seen_alias{$who} = $alias_result;
         last;
       }
     }
 
-    $linking{$node->getAttributeNS($xmlNS,'id')} //= {};
-    $linking{$node->getAttributeNS($xmlNS,'id')}->{alias} = $alias_result;
+    $linking{$u_id} //= {};
+    $linking{$u_id}->{alias} = $alias_result;
   }
 
   ### plenary speech linking
@@ -197,9 +246,13 @@ for my $dayFilesIn (@file_list_day){
       my $sdist = distance(uc $plenary_speech_day[$i1]->{alias},$speeches_non_chair[$i2]->{alias});
       if($sdist <= $max_edit_dist ){
         $linking{$speeches_non_chair[$i2]->{utterance}} //= {};
-        $linking{$speeches_non_chair[$i2]->{utterance}}->{speech} =
-            "\t".$plenary_speech_day[$i1]->{'parlamint-id'}
-            ."\tregular\t$sdist";
+        #columns: sPersonId sRole sEdDist
+        $linking{$speeches_non_chair[$i2]->{utterance}}->{speech} ={
+          sPersonId => $plenary_speech_day[$i1]->{'parlamint-id'},
+          sRole => 'regular',
+          sEdDist => $sdist,
+
+        };
       }
     }
   } else {
@@ -210,13 +263,15 @@ for my $dayFilesIn (@file_list_day){
     my $u_id = $u->getAttributeNS($xmlNS,'id');
     if(defined $calls->{$u_id}){
       $linking{$u_id} //= {};
-      $linking{$u_id}->{call} =
-            "\t".$calls->{$u_id}->{forename}
-            ."\t".$calls->{$u_id}->{patronymic}
-            ."\t".$calls->{$u_id}->{surname}
-            ."\t".$calls->{$u_id}->{sex}
-            ."\t".$calls->{$u_id}->{isFull}
-            ."\t".$calls->{$u_id}->{dist};
+      #columns: forename patronymic surname sex cIsFull cSurDist
+      $linking{$u_id}->{call} = {
+        forename => $calls->{$u_id}->{forename},
+        patronymic => $calls->{$u_id}->{patronymic},
+        surname => $calls->{$u_id}->{surname},
+        sex => $calls->{$u_id}->{sex},
+        cIsFull => $calls->{$u_id}->{isFull},
+        cSurDist => $calls->{$u_id}->{dist},
+      }
     }
   }
 
@@ -227,10 +282,12 @@ for my $dayFilesIn (@file_list_day){
     my $tei_source = $u->findvalue('./ancestor::*[local-name() = "TEI"]//*[local-name() = "bibl"]/*[local-name() = "idno"]');
     my $who = $u->getAttribute('who');
     print SPEAKER_LINKS
-          "$tei_id\t$u_id\t$who",
-          ($linking{$u_id}->{alias}||"\t\t\t\t"),
-          ($linking{$u_id}->{speech}||"\t\t\t"),
-          ($linking{$u_id}->{call}||"\t\t\t\t\t\t"),
+          "$tei_id\t$u_id\t$who\t",
+          join("\t", map {$linking{$u_id}->{alias}->{$_} // ''} @header_alias),
+          "\t",
+          join("\t", map {$linking{$u_id}->{speech}->{$_} // ''} @header_speech),
+          "\t",
+          join("\t", map {$linking{$u_id}->{call}->{$_} // ''} @header_call),
           "\t$tei_source";
     print SPEAKER_LINKS "\n";
   }
