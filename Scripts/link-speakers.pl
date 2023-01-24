@@ -92,9 +92,25 @@ if($linking_file && $speaker_calls_file){
 
 my %all_linking;
 if($linking_file){
+  my $ord = 0;
   print STDERR "INFO: loading existing linking: $linking_file\n";
-  for my $al (@{csv({in => $speaker_aliases_file,headers => "auto", binary => 1, auto_diag => 1, sep_char=> "\t"})//[]}){
-
+  for my $row (@{csv({in => $linking_file,headers => "auto", binary => 1, auto_diag => 1, sep_char=> "\t"})//[]}){
+    my $u_id = $row->{utterance};
+    $all_linking{$u_id} = {
+      ord => ++$ord,
+      common => {
+          map {$_ => $row->{$_}} (@header_common,'source')
+        },
+      alias => {
+          map {$_ => $row->{$_}} @header_alias
+        },
+      call => {
+          map {$_ => $row->{$_}} @header_call
+        },
+      speech => {
+          map {$_ => $row->{$_}} @header_speech
+        },
+    };
   }
 }
 
@@ -144,8 +160,11 @@ for my $dayFilesIn (@file_list_day){
   my %linking;
   my $tei_date = $dayFilesIn->{date}; # shared over all files in same day
   if($linking_file){
-    print STDERR "TODO: move day links to linking and fill \@utterance with ids\n";
-    die "not implemented";
+    for my $record (sort {$a->{ord} <=> $b->{ord}} grep {$_->{common}->{date} eq $tei_date} values %all_linking){
+      my $u_id = $record->{common}->{utterance};
+      push @utterances,$u_id;
+      $linking{$u_id} = $record;
+    }
   } else {
     for my $fileIn (@{$dayFilesIn->{files}}){
       my $tei = open_xml($fileIn);
@@ -177,7 +196,7 @@ for my $dayFilesIn (@file_list_day){
   my %seen_alias;
   for my $u_id (@utterances){
     my $who = $linking{$u_id}->{common}->{speaker};
-    next if defined $linking{$u_id}->{alias};
+    next if $linking{$u_id}->{alias}->{aPersonId};
     my $is_chair = ($linking{$u_id}->{common}->{ana} eq '#chair');
     my $alias_result;
     if($seen_alias{$who}){
