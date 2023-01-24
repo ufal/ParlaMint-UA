@@ -402,7 +402,6 @@
       <xsl:apply-templates select="party_name" mode="copy-if-text"/>
       <xsl:apply-templates select="photo" mode="copy-if-text"/>
       <xsl:if test="rada_id/text()">
-        <xsl:message select="rada_id/text()"/>
         <xsl:for-each select="tokenize(rada_id/text(),'\|')">
           <rada_id_full><xsl:value-of select="."/></rada_id_full>
         </xsl:for-each>
