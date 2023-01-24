@@ -143,26 +143,42 @@ for my $dayFilesIn (@file_list_day){
   my @utterances;
   my %linking;
   my $tei_date = $dayFilesIn->{date}; # shared over all files in same day
-  if(%all_linking){
-    print STDERR "move day links to linking\n";
-
-  } # TODO else:
-  for my $fileIn (@{$dayFilesIn->{files}}){
-    my $tei = open_xml($fileIn);
-    #my $tei_id = $tei->findvalue('/*[local-name() = "TEI"]/@xml:id');
-    #$tei_date = $tei->findvalue('//*[local-name() = "setting"]/*[local-name() = "date"]/@when');
-    #my $tei_term = $tei->findvalue('//*[local-name() = "meeting" and contains(concat(" ",@ana," "),"#parla.term")]/@n');
-    push @utterances,$_ for $tei->findnodes('//*[local-name() = "u"]');
+  if($linking_file){
+    print STDERR "TODO: move day links to linking and fill \@utterance with ids\n";
+    die "not implemented";
+  } else {
+    for my $fileIn (@{$dayFilesIn->{files}}){
+      my $tei = open_xml($fileIn);
+      my $tei_id = $tei->findvalue('/*[local-name() = "TEI"]/@xml:id');
+      #$tei_date = $tei->findvalue('//*[local-name() = "setting"]/*[local-name() = "date"]/@when');
+      #my $tei_term = $tei->findvalue('//*[local-name() = "meeting" and contains(concat(" ",@ana," "),"#parla.term")]/@n');
+      for my $u ($tei->findnodes('//*[local-name() = "u"]')){
+        my $u_id = $u->getAttributeNS($xmlNS,'id');
+        my $who = $u->getAttribute('who');
+        my $ana = $u->getAttribute('ana');
+        my $source = $u->findvalue('./ancestor::*[local-name() = "TEI"]//*[local-name() = "bibl"]/*[local-name() = "idno"]');
+        push @utterances,$u_id;
+        $linking{$u_id} = {};
+        #columns: fileId utterance speaker
+        $linking{$u_id}->{common} = {
+          fileId => $tei_id,
+          utterance => $u_id,
+          speaker => $who,
+          ana => $ana,
+          tei_date => $tei_date,
+          source => $source,
+        }
+      }
+    }
   }
   my $tei_date_num = convert_to_days($tei_date);
 
   ### alias linking
   my %seen_alias;
-  for my $node (@utterances){
-    my $who = $node->getAttribute('who');
-    my $u_id = $node->getAttributeNS($xmlNS,'id');
+  for my $u_id (@utterances){
+    my $who = $linking{$u_id}->{common}->{speaker};
     next if defined $linking{$u_id}->{alias};
-    my $is_chair = ($node->getAttribute('ana') eq '#chair');
+    my $is_chair = ($linking{$u_id}->{common}->{ana} eq '#chair');
     my $alias_result;
     if($seen_alias{$who}){
       $alias_result = $seen_alias{$who}
@@ -235,8 +251,8 @@ for my $dayFilesIn (@file_list_day){
   ### plenary speech linking
   my @plenary_speech_day = @{$speeches->{$tei_date} // []};
   if(@plenary_speech_day){
-    my @speeches_non_chair = map { {alias => $_->getAttribute('who'),utterance => $_->getAttributeNS($xmlNS,'id')} }
-                                 grep {$_->getAttribute('ana') !~ m/#chair\b/ }
+    my @speeches_non_chair = map { {alias => $linking{$_}->{common}->{speaker},utterance => $_} }
+                                 grep {$linking{$_}->{common}->{ana} !~ m/#chair\b/ }
                                       @utterances;
     my @aligned = align_seq([map {uc $_->{alias}} @plenary_speech_day],[map {$_->{alias}} @speeches_non_chair],10,1);
     for my $pair (@aligned){
@@ -259,8 +275,7 @@ for my $dayFilesIn (@file_list_day){
     print STDERR "INFO: day $tei_date is missing in plenary speech\n";
   }
   ### speaker calls linking
-  for my $u (@utterances){
-    my $u_id = $u->getAttributeNS($xmlNS,'id');
+  for my $u_id (@utterances){
     if(defined $calls->{$u_id}){
       $linking{$u_id} //= {};
       #columns: forename patronymic surname sex cIsFull cSurDist
@@ -276,19 +291,17 @@ for my $dayFilesIn (@file_list_day){
   }
 
   ### print result
-  for my $u (@utterances){
-    my $u_id = $u->getAttributeNS($xmlNS,'id');
-    my $tei_id = $u->findvalue('./ancestor::*[local-name() = "TEI"]/@xml:id');
-    my $tei_source = $u->findvalue('./ancestor::*[local-name() = "TEI"]//*[local-name() = "bibl"]/*[local-name() = "idno"]');
-    my $who = $u->getAttribute('who');
+  for my $u_id (@utterances){
     print SPEAKER_LINKS
-          "$tei_id\t$u_id\t$who\t",
+          join("\t", map {$linking{$u_id}->{common}->{$_} // ''} @header_common),
+          "\t",
           join("\t", map {$linking{$u_id}->{alias}->{$_} // ''} @header_alias),
           "\t",
           join("\t", map {$linking{$u_id}->{speech}->{$_} // ''} @header_speech),
           "\t",
           join("\t", map {$linking{$u_id}->{call}->{$_} // ''} @header_call),
-          "\t$tei_source";
+          "\t",
+          $linking{$u_id}->{common}->{source};
     print SPEAKER_LINKS "\n";
   }
 }
