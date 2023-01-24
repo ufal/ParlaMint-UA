@@ -19,7 +19,7 @@ my $max_edit_dist = 3;
 my ($data_dir, $run_id, $config_path, $input_dir, $output_dir, $linking_file, $speaker_aliases_file,$speaker_calls_file, $plenary_speech_file);
 my $xmlNS = 'http://www.w3.org/XML/1998/namespace';
 
-my @header_common = qw/fileId utterance speaker/;
+my @header_common = qw/date fileId utterance speaker ana/;
 my @header_alias = qw/aPersonId aRole aDayDist aEdDist/;
 my @header_speech = qw/sPersonId sRole sEdDist/;
 my @header_call = qw/forename patronymic surname sex cIsFull cSurDist/;
@@ -165,7 +165,7 @@ for my $dayFilesIn (@file_list_day){
           utterance => $u_id,
           speaker => $who,
           ana => $ana,
-          tei_date => $tei_date,
+          date => $tei_date,
           source => $source,
         }
       }
@@ -235,7 +235,7 @@ for my $dayFilesIn (@file_list_day){
         #columns: aPersonId aRole aDayDist aEdDist
         $alias_result = {
           aPersonId => join(" ",map {$_->{id}} grep {!defined($mindist) || $_->{dist} == $mindist} values %res),
-          aRole => ($is_chair ? 'chair' : ($mindist//9999 > 0 ? 'guest' : 'regular')),
+          aRole => ($is_chair ? '#chair' : ($mindist//9999 > 0 ? '#guest' : '#regular')),
           aDayDist => ($mindist//''),
           aEdDist => $minedist,
         };
@@ -265,7 +265,7 @@ for my $dayFilesIn (@file_list_day){
         #columns: sPersonId sRole sEdDist
         $linking{$speeches_non_chair[$i2]->{utterance}}->{speech} ={
           sPersonId => $plenary_speech_day[$i1]->{'parlamint-id'},
-          sRole => 'regular',
+          sRole => '#regular',
           sEdDist => $sdist,
 
         };
