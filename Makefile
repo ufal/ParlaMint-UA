@@ -301,8 +301,23 @@ $(tei-particDesc-update-RUN-LAST): tei-particDesc-update-%: check-tei-particDesc
 check-tei-particDesc-gov-update-RUN-LAST = $(addprefix check-tei-particDesc-gov-update-, $(DOWNLOAD_META_DATA_LAST))
 check-tei-particDesc-gov-update: $(check-tei-particDesc-gov-update-RUN-LAST)
 $(check-tei-particDesc-gov-update-RUN-LAST): check-tei-particDesc-gov-update-%:
-	make tei-particDesc-preprocess-update-$* UPDATE=1
+	#make tei-particDesc-preprocess-update-$* UPDATE=1
 	echo "TODO check-tei-particDesc-gov-update"
+	for F in `cd $(DATADIR)/tei-particDesc-preprocess/$*/ &&  ls -1 gov-*`; do \
+	  echo "checking changes in $$F";\
+	  sdiff --suppress-common-lines $(DATADIR)/tei-particDesc-preprocess/$*/$$F $(DATADIR)/tei-particDesc-preprocess-update/$*/$$F \
+	    | grep '[|<]' | awk -F: '{print "ERROR: change/DEL: " $$1}' ; \
+	done \
+	| ( \
+		while read  line; \
+		do \
+			if [ `echo "$$line"|grep -c ERROR` -gt 0 ]; \
+				then status='ERROR';\
+			fi; \
+			echo "$$line";\
+		done;\
+		test "$$status" = 'ERROR' && echo "ERROR: updates or deletes was done in google sheet" && exit 1 || : \
+	)
 
 
 
