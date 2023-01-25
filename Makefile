@@ -12,6 +12,9 @@ DATA := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-U
 DATADIR = ${DATA}/Data
 TAXONOMIES := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA/current/Taxonomies" || echo -n `pwd`"/Taxonomies"')
 
+UPDATE =
+ISUPDATE := $(shell sh -c 'test "$(UPDATE)" = "" || echo -n "-update"')
+
 DATE := $(shell sh -c 'date +"%Y%m%dT%H%M%S"')
 
 GSID := 2PACX-1vRTvI3QU1_q3V8cyVHeDv_Uo_OSDwuwYlmQgNq6OMClZ3QN5-5xKQ1uv34GvWV9Mvorv8ul4qJQoyEU
@@ -226,7 +229,7 @@ tei-particDesc-RUN-LAST = $(addprefix tei-particDesc-, $(DOWNLOAD_META_DATA_LAST
 DOWNLOAD_META_DATA_LAST_TERMS = $(shell ls $(DATADIR)/download-meta/$(DOWNLOAD_META_DATA_LAST)/ogd_mps_skl*_mps-data.xml|sed "s/^.*skl\([0-9]*\)_.*$$/\1/"|tr "\n" " "|sed "s/ *$$//")
 
 tei-particDesc: $(tei-particDesc-RUN-LAST)
-$(tei-particDesc-RUN-LAST): tei-particDesc-%: tei-particDesc-preprocess-% tei-particDesc-gov-%
+$(tei-particDesc-RUN-LAST): tei-particDesc-%: tei-particDesc-preprocess-%
 	mkdir -p $(DATADIR)/tei-particDesc-working/$*
 	mkdir -p $(DATADIR)/tei-particDesc/$*
 	@echo "TODO: PROCESS META $*"
@@ -254,79 +257,86 @@ $(tei-particDesc-aliases-RUN-LAST): tei-particDesc-aliases-%:
 
 
 
-tei-particDesc-preprocess-RUN-LAST = $(addprefix tei-particDesc-preprocess-, $(DOWNLOAD_META_DATA_LAST))
-tei-particDesc-preprocess: $(tei-particDesc-preprocess-RUN-LAST)
-$(tei-particDesc-preprocess-RUN-LAST): tei-particDesc-preprocess-%:
-	mkdir -p $(DATADIR)/tei-particDesc-preprocess/$*
-	cp $(DATADIR)/download-meta/$*/*.csv $(DATADIR)/tei-particDesc-preprocess/$*/
+tei-particDesc-preprocess-RUN-LAST = $(addprefix tei-particDesc-preprocess$(ISUPDATE)-, $(DOWNLOAD_META_DATA_LAST))
+tei-particDesc-preprocess$(ISUPDATE): $(tei-particDesc-preprocess-RUN-LAST)
+$(tei-particDesc-preprocess-RUN-LAST): tei-particDesc-preprocess$(ISUPDATE)-%: tei-particDesc-gov$(ISUPDATE)-%
+	mkdir -p $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*
+	cp $(DATADIR)/download-meta/$*/*.csv $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/
 	for FILE in `ls $(DATADIR)/download-meta/$* | grep '.xml$$'`; do \
 	  xmllint --format $(DATADIR)/download-meta/$*/$${FILE} \
 	    | perl -Mopen=locale -pe 's/&#x([\da-f]+);/chr hex $$1/gie' \
-	    > $(DATADIR)/tei-particDesc-preprocess/$*/$${FILE}; \
+	    > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/$${FILE}; \
 	done
 	echo "<?xml version=\"1.0\" ?>\n<root/>" | \
 	  $s -s:- -xsl:Scripts/metadata-preprocess.xsl \
 	      terms="$(DOWNLOAD_META_DATA_LAST_TERMS)" \
-	      in-dir=$(DATADIR)/tei-particDesc-preprocess/$*/ \
-	      out-dir=$(DATADIR)/tei-particDesc-preprocess/$*/
+	      in-dir=$(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/ \
+	      out-dir=$(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/
 
-tei-particDesc-gov-RUN-LAST = $(addprefix tei-particDesc-gov-, $(DOWNLOAD_META_DATA_LAST))
-tei-particDesc-gov: $(tei-particDesc-gov-RUN-LAST)
-$(tei-particDesc-gov-RUN-LAST): tei-particDesc-gov-%:
-	mkdir -p $(DATADIR)/tei-particDesc-preprocess/$*
-	@echo "downloading gov persons and manually added organizations"
-	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDperson)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-person.tsv
-	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDaffiliation)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-affiliation.tsv
-	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDorg)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-org.tsv
-	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDevent)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-event.tsv
-	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDrelation)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-relation.tsv
-	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDguest)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess/$*/gov-guest.tsv
+tei-particDesc-gov-RUN-LAST = $(addprefix tei-particDesc-gov$(ISUPDATE)-, $(DOWNLOAD_META_DATA_LAST))
+tei-particDesc-gov$(ISUPDATE): $(tei-particDesc-gov-RUN-LAST)
+$(tei-particDesc-gov-RUN-LAST): tei-particDesc-gov$(ISUPDATE)-%:
+	mkdir -p $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*
+	@echo "downloading gov persons and manually added organizations $(ISUPDATE)"
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDperson)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-person.tsv
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDaffiliation)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-affiliation.tsv
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDorg)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-org.tsv
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDevent)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-event.tsv
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDrelation)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-relation.tsv
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDguest)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-guest.tsv
 
 
-extend-listPerson-RUN-LAST = $(addprefix extend-listPerson-, $(DOWNLOAD_META_DATA_LAST))
-extend-listPerson: $(extend-listPerson-RUN-LAST)
-$(extend-listPerson-RUN-LAST): extend-listPerson-%: updated-guest-sheet-%
-	mkdir -p $(DATADIR)/extend-listPerson/$*
-	echo "TODO extend-listPerson"
-	$s -xsl:Scripts/extend-listPerson.xsl \
-	  persons="$(DATADIR)/updated-guest-sheet/$*/gov-guest.tsv" \
-	  $(DATADIR)/extend-listPerson/$(DOWNLOAD_META_DATA_LAST)/ParlaMint-UA-listPerson.xml \
-	  > $(DATADIR)/extended-listPerson-aliases/$*/mp-data-aliases.tsv
 
-updated-guest-sheet-RUN-LAST = $(addprefix updated-guest-sheet-, $(DOWNLOAD_META_DATA_LAST))
-updated-guest-sheet: $(updated-guest-sheet-RUN-LAST)
-$(updated-guest-sheet-RUN-LAST): updated-guest-sheet-%:
-	mkdir -p $(DATADIR)/updated-guest-sheet/$*
-	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDguest)&single=true&output=tsv" > $(DATADIR)/updated-guest-sheet/$*/gov-guest.tsv
-	cmp --silent $(DATADIR)/tei-particDesc-preprocess/$*/gov-guest.tsv \
-	             $(DATADIR)/updated-guest-sheet/$*/gov-guest.tsv \
-	             && echo "WARN: (updated-guest-sheet) files are identical"
 
-extended-listPerson-aliases-RUN-LAST = $(addprefix extended-listPerson-aliases-, $(DOWNLOAD_META_DATA_LAST))
-extended-listPerson-aliases: $(extended-listPerson-aliases-RUN-LAST)
-$(extended-listPerson-aliases-RUN-LAST): extended-listPerson-aliases-%:
-	mkdir -p $(DATADIR)/extended-listPerson-aliases/$*
+tei-particDesc-update-RUN-LAST = $(addprefix tei-particDesc-update-, $(DOWNLOAD_META_DATA_LAST))
+tei-particDesc-update: $(tei-particDesc-update-RUN-LAST)
+$(tei-particDesc-update-RUN-LAST): tei-particDesc-update-%: check-tei-particDesc-gov-update-%
+	mkdir -p $(DATADIR)/tei-particDesc-update/$*
+	echo "TODO tei-particDesc-update"
+	echo "<?xml version=\"1.0\" ?>\n<root/>" | \
+	  $s -s:- -xsl:Scripts/metadata.xsl \
+	      in-dir=$(DATADIR)/tei-particDesc-preprocess-update/$*/ \
+	      out-dir=$(DATADIR)/tei-particDesc-update/$*/
+
+check-tei-particDesc-gov-update-RUN-LAST = $(addprefix check-tei-particDesc-gov-update-, $(DOWNLOAD_META_DATA_LAST))
+check-tei-particDesc-gov-update: $(check-tei-particDesc-gov-update-RUN-LAST)
+$(check-tei-particDesc-gov-update-RUN-LAST): check-tei-particDesc-gov-update-%:
+	make tei-particDesc-preprocess-update-$* UPDATE=1
+	echo "TODO check-tei-particDesc-gov-update"
+
+
+
+
+
+
+listPerson-aliases-update-RUN-LAST = $(addprefix listPerson-aliases-update-, $(DOWNLOAD_META_DATA_LAST))
+listPerson-aliases-update: $(listPerson-aliases-update-RUN-LAST)
+$(listPerson-aliases-update-RUN-LAST): listPerson-aliases-update-%:
+	mkdir -p $(DATADIR)/listPerson-aliases-update/$*
 	$s -xsl:Scripts/metadata-aliases.xsl \
 	  org-list="GOV.UA ВРУ" \
-	  $(DATADIR)/extend-listPerson/$(DOWNLOAD_META_DATA_LAST)/ParlaMint-UA-listPerson.xml \
-	  > $(DATADIR)/extended-listPerson-aliases/$*/mp-data-aliases.tsv
+	  $(DATADIR)/tei-particDesc-update/$(DOWNLOAD_META_DATA_LAST)/ParlaMint-UA-listPerson.xml \
+	  > $(DATADIR)/listPerson-aliases-update/$*/mp-data-aliases.tsv
 
 
-extend-link-speakers-RUN-LAST = $(addprefix extend-link-speakers-, $(TEI-TEXT_DATA_LAST))
-## extend-link-speakers ## extend-link-speakerss
-extend-link-speakers: extend-link-speakers-last
+link-speakers-update-RUN-ALL = $(addprefix link-speakers-update-, $(TEI-TEXT_DATA_ALL))
+link-speakers-update-RUN-LAST = $(addprefix link-speakers-update-, $(TEI-TEXT_DATA_LAST))
+## link-speakers-update ## link-speakers-updates
+link-speakers-update: link-speakers-update-last
+link-speakers-update-last: $(link-speakers-update-RUN-LAST)
+link-speakers-update-all: $(link-speakers-update-RUN-ALL)
 
-## extend-link-speakers-RUN ##
-$(extend-link-speakers-RUN-LAST): extend-link-speakers-%:
-	mkdir -p $(DATADIR)/extend-link-speakers/$*/
-	rm -f $(DATADIR)/extend-link-speakers/$*/*
+## link-speakers-update-RUN ##
+$(link-speakers-update-RUN-ALL): link-speakers-update-%:
+	mkdir -p $(DATADIR)/link-speakers-update/$*/
+	rm -f $(DATADIR)/link-speakers-update/$*/*
 	./Scripts/link-speakers.pl --id $* \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh \
 	                           --in-dir-name "tei-text" \
-	                           --out-dir-name "extend-link-speakers" \
+	                           --out-dir-name "link-speakers-update" \
 	                           --linking "$(DATADIR)/link-speakers/$*/speaker-person-links.tsv" \
-	                           --speaker-aliases "$(DATADIR)/extended-listPerson-aliases/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv"
+	                           --speaker-aliases "$(DATADIR)/listPerson-aliases-update/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv"
 
 
 utterance-who-ana-RUN-LAST = $(addprefix utterance-who-ana-, $(TEI-TEXT_DATA_LAST))

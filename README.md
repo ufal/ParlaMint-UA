@@ -52,39 +52,48 @@ graph TB
     link-speakers --speaker-person-links.tsv--> mismatching-speakers
     manMiss([manual adding<br>mismatching guest<br>NO AFFILIATIONS]):::MANUAL
     mismatching-speakers --tsv--> manMiss
-    manMiss --guest sheet-->GS
+    manMiss -- only inserts<br>no Gov and parliament updates-->GS
 
-    extend-listPerson[extend-listPerson<br>add guest persons]:::TODO
-    tei-particDesc --listPerson--> extend-listPerson
-    GS --guest--> extend-listPerson
-    extended-listPerson-aliases[extended-listPerson-aliases<br>metadata-aliases.xsl]
-    extend-listPerson --listPerson /extended/--> extended-listPerson-aliases
+    tei-particDesc-update[tei-particDesc-update<br>rerun after Google sheet update]
+    manMiss==RUN<br>AFTER==>tei-particDesc-update
+    tei-particDesc-gov-update[tei-particDesc-gov-update]:::gr
+    GS --> tei-particDesc-gov-update
+    check-particDesc-gov-update[check-particDesc-gov-update<br>check if only inserts has been done]:::TODO
+    check-particDesc-gov-update -. calls .-> tei-particDesc-preprocess-update(tei-particDesc-preprocess-update):::gr
+    tei-particDesc-preprocess-update -.-> check-particDesc-gov-update
 
-    extend-link-speakers[extend-link-speakers]
-    extended-listPerson-aliases --> extend-link-speakers
-    HTML --> extend-link-speakers
-    link-speakers --speaker-person-links.tsv--> extend-link-speakers
+    tei-particDesc-update -. calls .-> check-particDesc-gov-update
+    check-particDesc-gov-update -.-> tei-particDesc-update
+
+    tei-particDesc-preprocess-update -. calls .-> tei-particDesc-gov-update
+    tei-particDesc-gov-update -.-> tei-particDesc-preprocess-update
+
+
+    listPerson-aliases-update[listPerson-aliases-update<br>metadata-aliases.xsl]
+    tei-particDesc-update --listPerson /updated/--> listPerson-aliases-update
+
+    link-speakers-update[link-speakers-update]
+    listPerson-aliases-update --> link-speakers-update
+    link-speakers --speaker-person-links.tsv--> link-speakers-update
     taxonomies-man([taxonomies translation]):::MANUAL --> taxonomies(GitHub/taxonomies/...):::in
 
     TEIana[TEI.ana<br>partially implemented<br>changing names and ids !!!<br>FINALIZATION]:::TODOfin
 
     utterance-who-ana[utterance-who-ana<br>final person speaker linking]:::TODO
-    extend-link-speakers --speaker-person-links.tsv--> utterance-who-ana
+    link-speakers-update --speaker-person-links.tsv--> utterance-who-ana
     utterance-who-ana --utterance-who-ana.tsv--> TEIana
-    extend-listPerson --listPerson /extended/--> TEIana
     TEIner --> TEIana
     taxonomies --> TEIana
-    tei-particDesc --listOrg--> TEIana
+    tei-particDesc-update --listPerson<br>listOrg--> TEIana
 
     TEI[TEI<br>FINALIZATION]:::TODOfin
     utterance-who-ana --utterance-who-ana.tsv--> TEI
     TEIana --TEI.ana numbers<br>listPerson<br>listOrg<br>relevant taxonomies-->TEI
     TEIlang --TEI-->TEI
-    
+
     classDef default fill:#ddf,stroke:#333,stroke-width:2px;
     classDef in fill:#ff3;
     classDef gr fill:#eee,stroke:#aaa,stroke-width:1px;
     classDef TODO fill:#fff,stroke:#aaa;
     classDef TODOfin fill:#fff,stroke:#00f,stroke-width:4px;
-    classDef MANUAL fill:#df3,stroke-width:0px;
-```
+    classDef MANUAL fill:#df3,stroke-width:0px;```
