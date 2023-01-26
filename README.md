@@ -58,7 +58,7 @@ graph TB
     manMiss==RUN<br>AFTER==>tei-particDesc-update
     tei-particDesc-gov-update[tei-particDesc-gov-update]:::gr
     GS --> tei-particDesc-gov-update
-    check-particDesc-gov-update[check-particDesc-gov-update<br>check if only inserts has been done]:::TODO
+    check-particDesc-gov-update[check-particDesc-gov-update<br>check if only inserts has been done]:::gr
     check-particDesc-gov-update -. calls .-> tei-particDesc-preprocess-update(tei-particDesc-preprocess-update):::gr
     tei-particDesc-preprocess-update -.-> check-particDesc-gov-update
 
@@ -96,4 +96,5 @@ graph TB
     classDef gr fill:#eee,stroke:#aaa,stroke-width:1px;
     classDef TODO fill:#fff,stroke:#aaa;
     classDef TODOfin fill:#fff,stroke:#00f,stroke-width:4px;
-    classDef MANUAL fill:#df3,stroke-width:0px;```
+    classDef MANUAL fill:#df3,stroke-width:0px;
+```
