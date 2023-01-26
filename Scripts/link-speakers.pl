@@ -196,7 +196,6 @@ for my $dayFilesIn (@file_list_day){
   my %seen_alias;
   for my $u_id (@utterances){
     my $who = $linking{$u_id}->{common}->{speaker};
-    next if $linking{$u_id}->{alias}->{aPersonId};
     my $is_chair = ($linking{$u_id}->{common}->{ana} eq '#chair');
     my $alias_result;
     if($seen_alias{$who}){
@@ -264,6 +263,9 @@ for my $dayFilesIn (@file_list_day){
     }
 
     $linking{$u_id} //= {};
+    if($linking{$u_id}->{alias} && ($linking{$u_id}->{alias}->{aPersonId}//'') ne ($alias_result->{aPersonId}//'') ){
+      print STDERR "INFO: $u_id replacing '",$linking{$u_id}->{alias}->{aPersonId},"' with '",($alias_result->{aPersonId}//''),"\n";
+    }
     $linking{$u_id}->{alias} = $alias_result;
   }
 
