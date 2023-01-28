@@ -168,7 +168,6 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	echo "TODO: preprocess with language detection"
 	mkdir -p $(DATADIR)/tei-UD/$*/
 	find $(DATADIR)/tei-text-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > $(DATADIR)/tei-UD/$*.fl
-	cp $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml $(DATADIR)/tei-UD/$*/
 	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
 	                             $(TOKEN) \
 	                             --model "uk:ukrainian-iu-ud-2.10-220711" \
@@ -239,12 +238,19 @@ $(tei-particDesc-RUN-LAST): tei-particDesc-%: tei-particDesc-preprocess-%
 	  $s -s:- -xsl:Scripts/metadata.xsl \
 	      in-dir=$(DATADIR)/tei-particDesc-preprocess/$*/ \
 	      out-dir=$(DATADIR)/tei-particDesc/$*/
+	echo "list of unknown political parties / parliamentary groups:"
+	cat $(DATADIR)/tei-particDesc/$*/ParlaMint-UA-listPerson.xml \
+	  |grep unknown|sed 's/.*<!--//;s/-[0-9][0-9]//g;s/T..:..:..//g;s/-->//'|tr "|" "\t"|sed 's/^\([^\|]*\|[^\|]*\|[^\|]*\|\)\(.*\)\|\(.*\)/\1\2\n\1\3/'|datamash -s groupby 1,2,3 unique 4 count 4
 
-tei-particDesc-TEST:
+
+tei-particDesc-TEST: tei-particDesc-gov-$(DOWNLOAD_META_DATA_LAST)
 	echo "<?xml version=\"1.0\" ?>\n<root/>" | \
 	  $s -s:- -xsl:Scripts/metadata.xsl \
 	      in-dir=$(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ \
 	      out-dir=$(DATADIR)/tei-particDesc/$(DOWNLOAD_META_DATA_LAST)/
+	echo "list of unknown political parties / parliamentary groups:"
+	cat $(DATADIR)/tei-particDesc/$(DOWNLOAD_META_DATA_LAST)/ParlaMint-UA-listPerson.xml \
+	  |grep unknown|sed 's/.*<!--//;s/-[0-9][0-9]//g;s/T..:..:..//g;s/-->//'|tr "|" "\t"|sed 's/^\([^\|]*\|[^\|]*\|[^\|]*\|\)\(.*\)\|\(.*\)/\1\2\n\1\3/'|datamash -s groupby 1,2,3 unique 4 count 4
 
 tei-particDesc-aliases-RUN-LAST = $(addprefix tei-particDesc-aliases-, $(DOWNLOAD_META_DATA_LAST))
 tei-particDesc-aliases: $(tei-particDesc-aliases-RUN-LAST)
@@ -354,15 +360,20 @@ $(link-speakers-update-RUN-ALL): link-speakers-update-%:
 	                           --speaker-aliases "$(DATADIR)/listPerson-aliases-update/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv"
 
 
+utterance-who-ana-RUN-ALL = $(addprefix utterance-who-ana-, $(TEI-TEXT_DATA_ALL))
 utterance-who-ana-RUN-LAST = $(addprefix utterance-who-ana-, $(TEI-TEXT_DATA_LAST))
 ## utterance-who-ana ## utterance-who-anas
 utterance-who-ana: utterance-who-ana-last
-
+utterance-who-ana-last: $(utterance-who-ana-RUN-LAST)
+utterance-who-ana-all: $(utterance-who-ana-RUN-ALL)
 ## utterance-who-ana-RUN ##
-$(utterance-who-ana-RUN-LAST): utterance-who-ana-%:
+$(utterance-who-ana-RUN-ALL): utterance-who-ana-%:
 	mkdir -p $(DATADIR)/utterance-who-ana/$*/
 	rm -f $(DATADIR)/utterance-who-ana/$*/*
 	echo "TODO utterance-who-ana"
+	./Scripts/utterance-who-ana.pl --in "$(DATADIR)/link-speakers-update/$*/speaker-person-links.tsv" \
+	                           --out "$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv"
+
 
 ######
 
@@ -382,11 +393,12 @@ $(TEI.ana-RUN-ALL): TEI.ana-%:
 	echo "TODO: add final speaker person linking param (utterance-who-ana.tsv)"
 	$s -xsl:Scripts/ParlaMint-UA-finalize.xsl \
 	    outDir=$(DATADIR)/release/$* \
-	    inListPerson=$(DATADIR)/extend-listPerson/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listPerson.xml  \
-	    inListOrg=$(DATADIR)/tei-particDesc/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listOrg.xml \
+	    inListPerson=$(DATADIR)/tei-particDesc-update/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listPerson.xml  \
+	    inListOrg=$(DATADIR)/tei-particDesc-update/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listOrg.xml \
 	    inTaxonomiesDir=$(TAXONOMIES) \
+	    who=$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv \
 	    type=TEI.ana \
-	    $(DATADIR)/tei-UD/$*/ParlaMint-UA.xml
+	    $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml
 
 TEI-RUN-ALL = $(addprefix TEI-, $(TEI-UD_DATA_ALL))
 TEI-RUN-LAST = $(addprefix TEI-, $(TEI-UD_DATA_LAST))
@@ -401,10 +413,11 @@ $(TEI-RUN-ALL): TEI-%:
 	echo "TODO: add final speaker person linking param (utterance-who-ana.tsv)"
 	$s -xsl:Scripts/ParlaMint-UA-finalize.xsl \
 	    outDir=$(DATADIR)/release/$* \
-	    inListPerson=$(DATADIR)/extend-listPerson/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listPerson.xml  \
-	    inListOrg=$(DATADIR)/tei-particDesc/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listOrg.xml \
-	    inTaxonomiesDir=$(TAXONOMIES) \
+	    inListPerson=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana/ParlaMint-UA-listPerson.xml  \
+	    inListOrg=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana/ParlaMint-UA-listOrg.xml \
+	    inTaxonomiesDir=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana \
 	    anaDir=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana \
+	    who=$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv \
 	    type=TEI \
 	    $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml
 
