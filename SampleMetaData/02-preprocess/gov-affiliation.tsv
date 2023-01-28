@@ -452,9 +452,10 @@ checkIDs	PersonID	OrgID	EventID	From	To	Role	Acting	RoleName_en	RoleName_uk
  	МиколаТарасовичСольський.1979	GOV.UA	GOV.UA.Shmyhal	2022-03-24	present	minister		Minister of Agrarian Policy and Food	Міністр аграрної політики та продовольства України
 	МиколаТарасовичСольський.1979	ВРУ	ВРУ.9	2019-08-29	2022-03-24	MP			
 	МиколаТарасовичСольський.1979	pp.SN		2019		nominated			
- 	ДенисАнатолійовичМонастирський.1980	GOV.UA	GOV.UA.Shmyhal	2021-07-16	present	minister		Minister of Internal Affairs	Міністр внутрішніх справ України
+ 	ДенисАнатолійовичМонастирський.1980	GOV.UA	GOV.UA.Shmyhal	2021-07-16	2023-01-18	minister		Minister of Internal Affairs	Міністр внутрішніх справ України
 	ДенисАнатолійовичМонастирський.1980	ВРУ	ВРУ.9	2019-08-29	2021-07-16	MP			
 	ДенисАнатолійовичМонастирський.1980	pp.SN		2019		nominated			
+	ІгорВолодимировичКлименко.1972	GOV.UA	GOV.UA.Shmyhal	2023-01-18	present	minister	1	Minister of Internal Affairs	Міністр внутрішніх справ України
  	ПавлоАндрійовичКухта.1985	GOV.UA	GOV.UA.Shmyhal	2020-03-04	2020-03-17	minister	1	Minister of Economic Development, Trade and Agriculture	Міністр розвитку економіки, торгівлі та сільського господарства України
 	ПавлоАндрійовичКухта.1985	pp.Gol		2019		deputyHead		Program director of the party	Програмний директор партії
  	ІгорРостиславовичПетрашко.1975	GOV.UA	GOV.UA.Shmyhal	2020-03-17	2021-05-18	minister		Minister of Economic Development, Trade and Agriculture	Міністр розвитку економіки, торгівлі та сільського господарства України

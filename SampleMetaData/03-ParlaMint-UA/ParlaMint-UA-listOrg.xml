@@ -3,9 +3,8 @@
             xml:id="ParlaMint-UA-listOrg"
             xml:lang="uk">
    <org xml:id="ВРУ" role="parliament" ana="#parla.uni #parla.national">
-      <orgName xml:lang="uk" full="yes">Верхо́вна Ра́да Украї́ни</orgName>
-      <orgName xml:lang="en" full="yes">Verkhovna Rada of Ukraine</orgName>
-      <orgName full="abb">ВРУ</orgName>
+      <orgName xml:lang="uk" full="yes">Верховна Рада України</orgName>
+      <orgName full="abb">VRU</orgName>
       <event from="1991-08-24">
          <label xml:lang="en">existence</label>
       </event>
@@ -50,7 +49,6 @@
    </org>
    <org xml:id="GOV.UA" role="government">
       <orgName xml:lang="uk" full="yes">Кабінет Міністрів України</orgName>
-      <orgName xml:lang="en" full="yes">Cabinet of Ministers of Ukraine</orgName>
       <orgName full="abb">govt</orgName>
       <event from="2012-12-24">
          <label xml:lang="en">existence</label>
@@ -144,7 +142,6 @@
    </org>
    <org xml:id="Ukraine" role="republic">
       <orgName xml:lang="uk" full="yes">Президент України</orgName>
-      <orgName xml:lang="en" full="yes">President of Ukraine</orgName>
       <orgName full="abb">UA</orgName>
       <event from="2010-02-25">
          <label xml:lang="en">existence</label>
@@ -182,7 +179,6 @@
    </org>
    <org xml:id="pp.NRU" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Народний Рух України</orgName>
-      <orgName xml:lang="en" full="yes">People's Movement of Ukraine</orgName>
       <orgName full="abb">NRU</orgName>
       <event from="1905-06-11">
          <label xml:lang="en">existence</label>
@@ -190,7 +186,6 @@
    </org>
    <org xml:id="pp.UNP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Українська народна партія</orgName>
-      <orgName xml:lang="en" full="yes">Ukrainian People's Party</orgName>
       <orgName full="abb">UNP</orgName>
       <event from="1999-12-31">
          <label xml:lang="en">existence</label>
@@ -198,7 +193,6 @@
    </org>
    <org xml:id="pp.PP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Партія праці</orgName>
-      <orgName xml:lang="en" full="yes">Party of Labor</orgName>
       <orgName full="abb">PP</orgName>
       <event from="1992-12-21" to="2000-11-18">
          <label xml:lang="en">existence</label>
@@ -206,7 +200,6 @@
    </org>
    <org xml:id="pp.SDPU" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Соціал-демократична партія України (об'єднана)</orgName>
-      <orgName xml:lang="en" full="yes">Social Democratic Party of Ukraine (united)</orgName>
       <orgName full="abb">SDPU</orgName>
       <event from="1996-07-01">
          <label xml:lang="en">existence</label>
@@ -214,7 +207,6 @@
    </org>
    <org xml:id="pp.Hrom" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Всеукраїнське об'єднання «Громада»</orgName>
-      <orgName xml:lang="en" full="yes">All-Ukrainian Association "Community"</orgName>
       <orgName full="abb">Hrom</orgName>
       <event from="1994-03-22">
          <label xml:lang="en">existence</label>
@@ -222,7 +214,6 @@
    </org>
    <org xml:id="pp.PRP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Партія «Реформи і порядок»</orgName>
-      <orgName xml:lang="en" full="yes">Party Reform and Order</orgName>
       <orgName full="abb">PRP</orgName>
       <event from="1997-10-24">
          <label xml:lang="en">existence</label>
@@ -230,23 +221,20 @@
    </org>
    <org xml:id="pp.CPSU" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Комуністична партія Радянського Союзу</orgName>
-      <orgName xml:lang="en" full="yes">Communist Party of the Soviet Union</orgName>
       <orgName full="abb">CPSU</orgName>
       <event from="1905-05-05" to="1991-11-06">
          <label xml:lang="en">existence</label>
       </event>
    </org>
    <org xml:id="pp.Reg" role="politicalParty">
-      <orgName xml:lang="uk" full="yes">Партія регіонів</orgName>
-      <orgName xml:lang="en" full="yes">Party of Regions</orgName>
+      <orgName xml:lang="uk" full="yes">Політична партія "Партія регіонів"</orgName>
       <orgName full="abb">PR</orgName>
       <event from="1997-11-06">
          <label xml:lang="en">existence</label>
       </event>
    </org>
    <org xml:id="pp.OB" role="politicalParty">
-      <orgName xml:lang="uk" full="yes">Політична Партія «Опозиційний блок»</orgName>
-      <orgName xml:lang="en" full="yes">Opposition Bloc</orgName>
+      <orgName xml:lang="uk" full="yes">Політична партія «Опозиційний блок»</orgName>
       <orgName full="abb">OB</orgName>
       <event from="2010-04-23" to="2022">
          <label xml:lang="en">existence</label>
@@ -254,7 +242,6 @@
    </org>
    <org xml:id="pp.UV" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Україна – Вперед!»</orgName>
-      <orgName xml:lang="en" full="yes">Ukraine – Forward!</orgName>
       <orgName full="abb">UV</orgName>
       <event from="1998-12-11">
          <label xml:lang="en">existence</label>
@@ -262,7 +249,6 @@
    </org>
    <org xml:id="pp.Lab" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Трудова Україна"</orgName>
-      <orgName xml:lang="en" full="yes">Labour Ukraine</orgName>
       <orgName full="abb">Lab</orgName>
       <event from="2000-06-21">
          <label xml:lang="en">existence</label>
@@ -270,7 +256,6 @@
    </org>
    <org xml:id="pp.OurU" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Наша Україна»</orgName>
-      <orgName xml:lang="en" full="yes">Our Ukraine</orgName>
       <orgName full="abb">OurU</orgName>
       <event from="2005-03-22">
          <label xml:lang="en">existence</label>
@@ -278,7 +263,6 @@
    </org>
    <org xml:id="pp.RPU" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Республіканська партія України</orgName>
-      <orgName xml:lang="en" full="yes">Republican Party of Ukraine</orgName>
       <orgName full="abb">RPU</orgName>
       <event from="2005-03-24" to="2007-08-03">
          <label xml:lang="en">existence</label>
@@ -286,7 +270,6 @@
    </org>
    <org xml:id="pp.But" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Всеукраїнське об'єднання "Батьківщина"</orgName>
-      <orgName xml:lang="en" full="yes">All-Ukrainian Union "Fatherland"</orgName>
       <orgName full="abb">BUT</orgName>
       <event from="1999-07-09">
          <label xml:lang="en">existence</label>
@@ -294,7 +277,6 @@
    </org>
    <org xml:id="pp.Ud" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «УДАР (Український Демократичний Альянс за Реформи) Віталія Кличка»</orgName>
-      <orgName xml:lang="en" full="yes">Ukrainian Democratic Alliance for Reform</orgName>
       <orgName full="abb">UDAR</orgName>
       <event from="2005-03-14">
          <label xml:lang="en">existence</label>
@@ -302,7 +284,6 @@
    </org>
    <org xml:id="pp.Kpu" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Комуністична партія України</orgName>
-      <orgName xml:lang="en" full="yes">Communist Party of Ukraine</orgName>
       <orgName full="abb">KPU</orgName>
       <event from="1993-10-05">
          <label xml:lang="en">existence</label>
@@ -310,7 +291,6 @@
    </org>
    <org xml:id="pp.SPU" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Соціалістична партія України</orgName>
-      <orgName xml:lang="en" full="yes">Socialist Party of Ukraine</orgName>
       <orgName full="abb">SPU</orgName>
       <event from="1991-11-25" to="2022">
          <label xml:lang="en">existence</label>
@@ -318,7 +298,6 @@
    </org>
    <org xml:id="pp.Sv" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Всеукраїнське об'єднання «Свобода»</orgName>
-      <orgName xml:lang="en" full="yes">All-Ukrainian Union "Freedom"</orgName>
       <orgName full="abb">Svoboda</orgName>
       <event from="1995-10-16">
          <label xml:lang="en">existence</label>
@@ -326,23 +305,20 @@
    </org>
    <org xml:id="pp.NF" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Народний фронт</orgName>
-      <orgName xml:lang="en" full="yes">People's Front</orgName>
       <orgName full="abb">NF</orgName>
       <event from="2014-03-31">
          <label xml:lang="en">existence</label>
       </event>
    </org>
    <org xml:id="pp.Self" role="politicalParty">
-      <orgName xml:lang="uk" full="yes">Політична партія «Об’єднання «САМОПОМІЧ»</orgName>
-      <orgName xml:lang="en" full="yes">Union "Self Reliance"</orgName>
-      <orgName full="abb">Self</orgName>
+      <orgName xml:lang="uk" full="yes">Об’єднання «Самопоміч»</orgName>
+      <orgName full="abb">SAM</orgName>
       <event from="2012-12-29">
          <label xml:lang="en">existence</label>
       </event>
    </org>
    <org xml:id="pp.Gol" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Голос»</orgName>
-      <orgName xml:lang="en" full="yes">Holos</orgName>
       <orgName full="abb">Holos</orgName>
       <event from="2015-02-10">
          <label xml:lang="en">existence</label>
@@ -350,7 +326,6 @@
    </org>
    <org xml:id="pp.BPP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Блок Петра Порошенка</orgName>
-      <orgName xml:lang="en" full="yes">Petro Poroshenko Bloc</orgName>
       <orgName full="abb">BPP</orgName>
       <event from="2014-08-27" to="2019-05-24">
          <label xml:lang="en">existence</label>
@@ -358,7 +333,6 @@
    </org>
    <org xml:id="pp.ES" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Європейська солідарність</orgName>
-      <orgName xml:lang="en" full="yes">European Solidarity</orgName>
       <orgName full="abb">ES</orgName>
       <event from="2019-05-24">
          <label xml:lang="en">existence</label>
@@ -366,7 +340,6 @@
    </org>
    <org xml:id="pp.SN" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Слуга народу</orgName>
-      <orgName xml:lang="en" full="yes">Servant of the People</orgName>
       <orgName full="abb">SN</orgName>
       <event from="2016-03-31">
          <label xml:lang="en">existence</label>
@@ -374,7 +347,6 @@
    </org>
    <org xml:id="pp.RP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Радикальна партія Олега Ляшка</orgName>
-      <orgName xml:lang="en" full="yes">Radical Party of Oleh Liashko</orgName>
       <orgName full="abb">RP</orgName>
       <event from="2010-09-28">
          <label xml:lang="en">existence</label>
@@ -382,15 +354,13 @@
    </org>
    <org xml:id="pp.OP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Опозиційна платформа - За життя</orgName>
-      <orgName xml:lang="en" full="yes">Opposition Platform – For Life</orgName>
-      <orgName full="abb">OP</orgName>
+      <orgName full="abb">OPZZh</orgName>
       <event from="1999-12-09" to="2022-06-20">
          <label xml:lang="en">existence</label>
       </event>
    </org>
    <org xml:id="pp.USH" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Українська Стратегія Гройсмана</orgName>
-      <orgName xml:lang="en" full="yes">Ukrainian Strategy of Hroisman</orgName>
       <orgName full="abb">USH</orgName>
       <event from="2015-01-14">
          <label xml:lang="en">existence</label>
@@ -398,7 +368,6 @@
    </org>
    <org xml:id="pp.UP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Українська партія</orgName>
-      <orgName xml:lang="en" full="yes">Ukrainian Party</orgName>
       <orgName full="abb">UP</orgName>
       <event from="2006-08-21">
          <label xml:lang="en">existence</label>
@@ -406,7 +375,6 @@
    </org>
    <org xml:id="pp.SL" role="politicalParty">
       <orgName xml:lang="uk" full="yes">«Сила Людей»</orgName>
-      <orgName xml:lang="en" full="yes">Power of the People</orgName>
       <orgName full="abb">SL</orgName>
       <event from="2014-08-20">
          <label xml:lang="en">existence</label>
@@ -414,7 +382,6 @@
    </org>
    <org xml:id="pp.S&amp;H" role="politicalParty">
       <orgName xml:lang="uk" full="yes">«Сила і Честь»</orgName>
-      <orgName xml:lang="en" full="yes">Strength and Honor</orgName>
       <orgName full="abb">S&amp;H</orgName>
       <event from="2009-10-26">
          <label xml:lang="en">existence</label>
@@ -422,7 +389,6 @@
    </org>
    <org xml:id="pp.Patr" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Патріот</orgName>
-      <orgName xml:lang="en" full="yes">Patriot</orgName>
       <orgName full="abb">Patriot</orgName>
       <event from="2005-03-25">
          <label xml:lang="en">existence</label>
@@ -430,9 +396,417 @@
    </org>
    <org xml:id="pp.Novi" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Нові обличчя»</orgName>
-      <orgName xml:lang="en" full="yes">New Faces</orgName>
       <orgName full="abb">Novi</orgName>
       <event from="2012-03-12">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Agro2" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Аграрна партія України</orgName>
+      <orgName full="abb">Agro2</orgName>
+      <event from="2006-10-07">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Agro1" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Аграрна партія України</orgName>
+      <orgName full="abb">Agro1</orgName>
+      <event from="1996-12-30" to="2005-02-11">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.NP" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Народна партія</orgName>
+      <orgName full="abb">NP</orgName>
+      <event from="2005-02-11">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.CUN" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Конгрес українських націоналістів</orgName>
+      <orgName full="abb">CUN</orgName>
+      <event from="1992">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Spravy" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Партія «За конкретні справи»</orgName>
+      <orgName full="abb">Spravy</orgName>
+      <event from="2015-03-26">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.NED" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Партія національно-економічного розвитку України</orgName>
+      <orgName full="abb">NED</orgName>
+      <event from="1996-01-25">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Demo" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Всеукраїнське об'єднання «Демократи (Демократична партія)»</orgName>
+      <orgName full="abb">Demo</orgName>
+      <event from="2013">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Soyuz" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Партія "Союз"</orgName>
+      <orgName full="abb">Soyuz</orgName>
+      <event from="1997-06-11">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Right" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Правий сектор</orgName>
+      <orgName full="abb">Right</orgName>
+      <event from="2014-03-22">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Volia" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Політична партія "Воля"</orgName>
+      <orgName full="abb">Volia</orgName>
+      <event from="2014-06-21">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Trud" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Трудова партія України</orgName>
+      <orgName full="abb">Trud</orgName>
+      <event from="1999-06-19" to="2009-11-28">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Sylna" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Сильна Україна</orgName>
+      <orgName full="abb">Sylna</orgName>
+      <event from="2009-11-28">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Zastrup" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Всеукраїнське аграрне об’єднання «Заступ»</orgName>
+      <orgName full="abb">Zastup</orgName>
+      <event from="2011-05-04">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Sea" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Українська морська партія</orgName>
+      <orgName full="abb">Sea</orgName>
+      <event from="2001-03-27">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Unity" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Українська партія "Єдність"</orgName>
+      <orgName full="abb">Unity</orgName>
+      <event from="2000-02-04" to="2020">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.UnityOO" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Українська партія "Єдність Олександра Омельченка"</orgName>
+      <orgName full="abb">UnityOO</orgName>
+      <event from="2020">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Ukrop" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Політична партія «Українське об'єднання патріотів — УКРОП»</orgName>
+      <orgName full="abb">Ukrop</orgName>
+      <event from="2014-09-25">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.UC" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Політична партія Єдиний Центр</orgName>
+      <orgName full="abb">UC</orgName>
+      <event from="1999-09-24">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Baloha" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Команда Андрія Балоги</orgName>
+      <orgName full="abb">Baloha</orgName>
+      <event from="2020-07-01">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.Kray" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Політична партія «Наш край»</orgName>
+      <orgName full="abb">Kray</orgName>
+      <event from="2011-08-23">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Виборчий блок політичних партій "Демократична партія України – партія "Демократичний союз"</orgName>
+      <event from="2001-12-22" to="2004">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Виборчий блок політичних партій "За Єдину Україну!"</orgName>
+      <event from="2001-12-15" to="2006">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.byut" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Виборчий блок політичних партій "Виборчий блок Юлії Тимошенко"</orgName>
+      <orgName full="abb">BYuT</orgName>
+      <event from="2002-05-14" to="2012-12-15">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.nu06" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Блок "НАША УКРАЇНА": Політична партія "Народний Союз Наша Україна", Народний Рух України, Партія промисловців і підприємців України, Конгрес Українських Націоналістів, Українська республіканська партія "Собор", Партія Християнсько-Дем.Союз</orgName>
+      <orgName full="abb">NU06</orgName>
+      <event from="2006-05-25" to="2007-11-23">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.nu02" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Виборчий блок політичних партій "Блок Віктора Ющенка "Наша Україна"</orgName>
+      <orgName full="abb">NU02</orgName>
+      <event from="2002-05-14" to="2006-05-25">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.nuns" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">Наша Україна — Народна самооборона</orgName>
+      <orgName full="abb">NUNS</orgName>
+      <event from="2007-11-23" to="2012-12-15">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="pp.bl" role="politicalParty">
+      <orgName xml:lang="uk" full="yes">"Блок Литвина" (Народна Партія, Трудова партія України)</orgName>
+      <orgName full="abb">BL</orgName>
+      <event from="2007-11-23" to="2012-12-15">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Виборчий блок політичних партій "Демократична партія України – партія "Демократичний союз"</orgName>
+      <event from="2001-12-22" to="2004">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Виборчий блок політичних партій "За Єдину Україну!"</orgName>
+      <event from="2001-12-15" to="2006">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frbyut" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Виборчий блок політичних партій "Виборчий блок Юлії Тимошенко"</orgName>
+      <orgName full="abb">BYuT</orgName>
+      <event from="2002-05-14" to="2012-12-15">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frnu06" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Блок "НАША УКРАЇНА": Політична партія "Народний Союз Наша Україна", Народний Рух України, Партія промисловців і підприємців України, Конгрес Українських Націоналістів, Українська республіканська партія "Собор", Партія Християнсько-Дем.Союз</orgName>
+      <orgName full="abb">NU06</orgName>
+      <event from="2006-05-25" to="2007-11-23">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frnu02" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Виборчий блок політичних партій "Блок Віктора Ющенка "Наша Україна"</orgName>
+      <orgName full="abb">NU02</orgName>
+      <event from="2002-05-14" to="2006-05-25">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frnuns" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Наша Україна — Народна самооборона</orgName>
+      <orgName full="abb">NUNS</orgName>
+      <event from="2007-11-23" to="2012-12-15">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frbl" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">"Блок Литвина" (Народна Партія, Трудова партія України)</orgName>
+      <orgName full="abb">BL</orgName>
+      <event from="2007-11-23" to="2012-12-15">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frsn" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція політичної партії "Слуга народу"</orgName>
+      <orgName full="abb">frSN</orgName>
+      <event from="2019-08-29">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="fres" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція політичної партії "Європейська солідарність"</orgName>
+      <orgName full="abb">frES</orgName>
+      <event from="2019-08-29">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="fropzzh" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція політичної партії "Опозиційна платформа - За життя"</orgName>
+      <orgName full="abb">frOPZZh</orgName>
+      <event from="2019-08-29" to="2022-04-14">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frob" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція політичної партії «Опозиційний блок»</orgName>
+      <orgName full="abb">frOB</orgName>
+      <event from="2014-11-27" to="2019-08-29">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frbut" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція політичної партії Всеукраїнське об'єднання "Батьківщина"</orgName>
+      <orgName full="abb">frBUT</orgName>
+      <event from="2012-12-12">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frhol" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція Політичної Партії "Голос"</orgName>
+      <orgName full="abb">frHolos</orgName>
+      <event from="2019-08-29">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="grpzm" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Депутатська група «Платформа за життя та мир»</orgName>
+      <orgName full="abb">grPZM</orgName>
+      <event from="2022-04-21">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="grvu" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Депутатська група «Відновлення України»</orgName>
+      <orgName full="abb">grVU</orgName>
+      <event from="2022-05-22">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="grzm" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Депутатська група «За майбутнє»</orgName>
+      <orgName full="abb">grZM</orgName>
+      <event from="2019-08-29" to="2020-05-20">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="grpzm" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Депутатська група "Партія "За майбутнє"</orgName>
+      <orgName full="abb">grZMP</orgName>
+      <event from="2020-05-20">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="grdvr" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Депутатська група «Довіра»</orgName>
+      <orgName full="abb">grDovira</orgName>
+      <event from="2019-12-06">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frnf" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція Політичної партії "Народний фронт"</orgName>
+      <orgName full="abb">frNF</orgName>
+      <event from="2014-11-27" to="2019-08-29">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frbpp" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція партії «Блок Петра Порошенка»</orgName>
+      <orgName full="abb">frBPP</orgName>
+      <event from="2014-11-27" to="2019-08-29">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frsp" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція політичної партії «Об'єднання „Самопоміч“»</orgName>
+      <orgName full="abb">frSAM</orgName>
+      <event from="2014-11-27" to="2019-08-29">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frrp" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція Радикальної партії Олега Ляшка</orgName>
+      <orgName full="abb">frRad</orgName>
+      <event from="2014-11-27" to="2019-08-29">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="grvd" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Група «Відродження»</orgName>
+      <orgName full="abb">grVidr</orgName>
+      <event from="2015-03-06" to="2015-06-17">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="grpvd" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Група «Партія відродження»</orgName>
+      <orgName full="abb">grVidr</orgName>
+      <event from="2015-06-17" to="2019-08-29">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="gred" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Група «Економічний розвиток»</orgName>
+      <orgName full="abb">grEcon</orgName>
+      <event from="2014-02-24" to="2015-03-06">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="grpw" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Група «Воля народу»</orgName>
+      <orgName full="abb">grVolia</orgName>
+      <event from="2014-11-27" to="2019-08-29">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frreg" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція Партії регіонів</orgName>
+      <orgName full="abb">frReg</orgName>
+      <event from="2012-12-12" to="2014-11-27">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frud" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція Політичної партії "УДАР (Український Демократичний Альянс за Реформи) Віталія Кличка"</orgName>
+      <orgName full="abb">frUDAR</orgName>
+      <event from="2012-12-12" to="2014-11-27">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frsv" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція Всеукраїнське об'єднання "Свобода"</orgName>
+      <orgName full="abb">frSvoboda</orgName>
+      <event from="2012-12-12" to="2014-11-27">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="frkpu" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Фракція Комуністичної партії України</orgName>
+      <orgName full="abb">frKPU</orgName>
+      <event from="2012-12-12" to="2014-07-24">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="greu" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Група "Суверенна європейська Україна"</orgName>
+      <orgName full="abb">grSEU</orgName>
+      <event from="2014-02-27" to="2014-11-27">
+         <label xml:lang="en">existence</label>
+      </event>
+   </org>
+   <org xml:id="grps" role="parliamentaryGroup">
+      <orgName xml:lang="uk" full="yes">Група "За мир та стабільність"</orgName>
+      <orgName full="abb">grZMIS</orgName>
+      <event from="2014-07-02" to="2014-11-27">
          <label xml:lang="en">existence</label>
       </event>
    </org>

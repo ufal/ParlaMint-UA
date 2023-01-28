@@ -3,7 +3,7 @@
 # of different date_finish:	135
 # of different date_oath:	133
 # of different firstname:	173
-# of different fullname:	1818
+# of different fullname:	1823
 # of different info:	2059
 # of different membership:	1
 # of different party_id:	48
@@ -11,7 +11,7 @@
 # of different patronymic:	216
 # of different photo:	2910
 # of different rada_id:	2007
-# of different rada_id_full:	2905
+# of different rada_id_full:	2910
 # of different sex:	2
 # of different social_url:	89
 # of different surname:	1567
