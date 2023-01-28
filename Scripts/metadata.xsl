@@ -138,19 +138,30 @@
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:message>WARN: unknown political party <xsl:value-of select="$partyID"/>: <xsl:value-of select="$term/party_name"/></xsl:message>
-                  <xsl:comment>unknown political party <xsl:value-of select="$partyID"/>: <xsl:value-of select="$term/party_name"/> (affiliation from <xsl:value-of select="$from"/> to <xsl:value-of select="$to"/>)</xsl:comment>
+                  <xsl:comment>unknown political party|<xsl:value-of select="$partyID"/>|<xsl:value-of select="$term/party_name"/>|<xsl:value-of select="$from"/>|<xsl:value-of select="$to"/></xsl:comment>
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:if>
             <xsl:for-each select="$term/membership[@type='fraction' and @from and not(@org_name='Позафракційні')]">
-              <xsl:message select="concat('TODO: implement fractions ',$id,' ',@org_name_norm,' ',@from,' ',@to)"/>
-              <xsl:comment>fractions (parliamentaryGroup) are not implemented <xsl:value-of select="@org_name_norm"/> [<xsl:value-of select="@org_name"/>] (affiliation from <xsl:value-of select="@from"/> to <xsl:value-of select="@to"/>)</xsl:comment>
+              <!-- usually current term -->
+              <xsl:variable name="frac_norm_name" select="./@org_name_norm"/>
+              <xsl:variable name="frac_name" select="./@org_name"/>
+              <xsl:variable name="frac_id" select="$term/membership[@org_name_norm = $frac_norm_name]/@org_id"/>
+              <xsl:call-template name="fraction-affiliation">
+                <xsl:with-param name="id" select="$frac_id"/>
+                <xsl:with-param name="from" select="@from"/>
+                <xsl:with-param name="to" select="@to"/>
+                <xsl:with-param name="name" select="$frac_name"/>
+              </xsl:call-template>
             </xsl:for-each>
             <!-- if @type='fraction' and @from is missing -->
             <xsl:variable name="fractions-without-timespan" select="$term/membership[@type='fraction' and not(@from) and not(@to)]"/>
             <xsl:if test="not($term/membership[@type='fraction' and @from]) and count($fractions-without-timespan)">
-              <xsl:message select="concat('TODO: implement fractions ',$id,' ',$fractions-without-timespan/@org_name_norm,' ',@from,' ',@to)"/>
-              <xsl:comment>fractions (parliamentaryGroup) are not implemented <xsl:value-of select="$fractions-without-timespan/@org_name_norm"/> [<xsl:value-of select="$fractions-without-timespan/@org_name"/>] (affiliation from <xsl:value-of select="$from"/> to <xsl:value-of select="$to"/> - Rada timespan is used)</xsl:comment>
+              <xsl:call-template name="fraction-affiliation">
+                <xsl:with-param name="from" select="$from"/>
+                <xsl:with-param name="to" select="$to"/>
+                <xsl:with-param name="name" select="$fractions-without-timespan/@org_name"/>
+              </xsl:call-template>
             </xsl:if>
           </xsl:for-each>
         </xsl:element>
@@ -338,10 +349,11 @@
   <xsl:template match="row" mode="print-org">
     <xsl:variable name="id" select="./col[@name='OrgID']"/>
     <xsl:variable name="orgName_uk" select="./col[@name='OrgNameFull_uk']"/>
-    <xsl:variable name="orgName_en" select="./col[@name='OrgNameFull']"/>
-    <xsl:variable name="orgName_abb" select="./col[@name='OrgNameAbb']"/>
+    <xsl:variable name="orgName_en" select="./col[@name='OrgNameFull_en']"/>
+    <xsl:variable name="orgName_abb_uk" select="./col[@name='OrgNameAbb_uk']"/>
+    <xsl:variable name="orgName_abb_en" select="./col[@name='OrgNameAbb_en']"/>
     <xsl:variable name="from" select="./col[@name='From']"/>
-    <xsl:variable name="to" select="./col[@name='To' and matches(text(), '^\d{4}(-\d{2}-\d{2})?$')]"/>
+    <xsl:variable name="to" select="./col[@name='To' and matches(text(), '^\d{4}(-\d{2}-\d{2})?')]"/>
     <xsl:variable name="ana" select="./col[@name='Ana']"/>
     <xsl:element name="org" xmlns="http://www.tei-c.org/ns/1.0">
       <xsl:attribute name="xml:id" select="$id"/>
@@ -363,10 +375,18 @@
           <xsl:value-of select="$orgName_en"/>
         </xsl:element>
       </xsl:if>
-      <xsl:if test="$orgName_abb">
+      <xsl:if test="$orgName_abb_uk">
         <xsl:element name="orgName" xmlns="http://www.tei-c.org/ns/1.0">
+          <xsl:attribute name="xml:lang">uk</xsl:attribute>
           <xsl:attribute name="full">abb</xsl:attribute>
-          <xsl:value-of select="$orgName_abb"/>
+          <xsl:value-of select="$orgName_abb_uk"/>
+        </xsl:element>
+      </xsl:if>
+      <xsl:if test="$orgName_abb_en">
+        <xsl:element name="orgName" xmlns="http://www.tei-c.org/ns/1.0">
+          <xsl:attribute name="xml:lang">en</xsl:attribute>
+          <xsl:attribute name="full">abb</xsl:attribute>
+          <xsl:value-of select="$orgName_abb_en"/>
         </xsl:element>
       </xsl:if>
       <xsl:if test="$from | $to">
@@ -421,6 +441,43 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
     </xsl:copy>
+  </xsl:template>
+
+
+  <xsl:template name="fraction-affiliation">
+    <xsl:param name="id"/>
+    <xsl:param name="from"/>
+    <xsl:param name="to"/>
+    <xsl:param name="name"/>
+    <xsl:variable name="org_by_id" select="$gov-org/table/row[$id and ./col[@name='RadaIDs']//text() = $id]"/>
+    <xsl:variable name="org_by_radaName" select="$gov-org/table/row[$name and ./col[@name='RadaName']//text() = $name]"/>
+    <xsl:variable name="org_by_fullName" select="$gov-org/table/row[$name and ./col[@name='Role'] = 'parliamentaryGroup' and lower-case(./col[@name='OrgNameFull_uk']) = lower-case($name)]"/>
+    <xsl:variable name="ref">
+      <xsl:choose>
+        <xsl:when test="$org_by_id"><xsl:value-of select="$org_by_id/col[@name='OrgID']/text()"/></xsl:when>
+        <xsl:when test="$org_by_radaName"><xsl:value-of select="$org_by_radaName/col[@name='OrgID']/text()"/></xsl:when>
+        <xsl:when test="$org_by_fullName"><xsl:value-of select="$org_by_fullName/col[@name='OrgID']/text()"/></xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="not($ref = '')">
+        <xsl:element name="affiliation" xmlns="http://www.tei-c.org/ns/1.0">
+          <xsl:attribute name="ref" select="concat('#', $ref)"/>
+          <xsl:attribute name="role">member</xsl:attribute>
+          <xsl:if test="$from">
+            <xsl:attribute name="from" select="$from"/>
+          </xsl:if>
+          <xsl:if test="$to">
+            <xsl:attribute name="to" select="$from"/>
+          </xsl:if>
+        </xsl:element>
+      </xsl:when>
+      <xsl:otherwise>
+        <!-- no affiliation - organization not found -->
+        <xsl:comment>unknown fraction|<xsl:value-of select="$id"/>|<xsl:value-of select="$name"/>|<xsl:value-of select="$from"/>|<xsl:value-of select="$to"/></xsl:comment>
+        <xsl:message>WARN: unknown fraction <xsl:value-of select="$id"/>:<xsl:value-of select="$name"/></xsl:message>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
 </xsl:stylesheet>
