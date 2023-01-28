@@ -1,4 +1,4 @@
-OrgID	From	To	Role	Ana	OrgNameFull_en	OrgNameFull_uk	OrgNameAbb	OrgNameAbb_ua	RadaIDs	RadaName	Sources	Note
+OrgID	From	To	Role	Ana	OrgNameFull_en	OrgNameFull_uk	OrgNameAbb_en	OrgNameAbb_uk	RadaIDs	RadaName	Sources	Note
 ВРУ	1991-08-24		parliament	parla.uni;parla.national	Verkhovna Rada of Ukraine	Верховна Рада України	VRU	ВРУ			https://www.rada.gov.ua/ ; https://en.wikipedia.org/wiki/Verkhovna_Rada;https://uk.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D1%85%D0%BE%D0%B2%D0%BD%D0%B0_%D0%A0%D0%B0%D0%B4%D0%B0_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8	
 GOV.UA	2012-12-24	present	government		Cabinet of Ministers of Ukraine	Кабінет Міністрів України	govt	Уряд			https://www.kmu.gov.ua/ ; https://en.wikipedia.org/wiki/Government_of_Ukraine	
 Ukraine	2010-02-25	present	republic		President of Ukraine	Президент України	UA	Президент			https://www.president.gov.ua/ ;https://en.wikipedia.org/wiki/President_of_Ukraine 	
