@@ -135,7 +135,7 @@
 
   <xsl:function name="mk:normalize-chars">
     <xsl:param name="text"/>
-    <xsl:value-of select="replace($text,'(\w)&#39;&#39;(\w)','$1’$2')"/>
+    <xsl:value-of select="normalize-space(replace($text,'(\w)&#39;&#39;(\w)','$1’$2'))"/>
   </xsl:function>
 
   <xsl:function name="mk:normalize-fraction">
