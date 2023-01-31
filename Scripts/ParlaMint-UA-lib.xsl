@@ -97,14 +97,17 @@
         <xsl:attribute name="n" select="$n"/>
         <xsl:analyze-string select="." regex="(?:&quot;((?:[^&quot;]*|&quot;&quot;)*)&quot;|([^&#9;]*))(?:&#9;|$)">
           <xsl:matching-substring>
-            <col>
-              <xsl:variable name="pos" select="position()"/>
-              <xsl:attribute name="n" select="$pos"/>
-              <xsl:if test="$header[$pos]">
-                <xsl:attribute name="name" select="$header[$pos]"/>
-              </xsl:if>
-              <xsl:value-of select="replace(normalize-space(concat(regex-group(1),regex-group(2))),'&quot;&quot;','&quot;')"/>
-            </col>
+            <xsl:variable name="value" select="normalize-space(concat(regex-group(1),regex-group(2)))"/>
+            <xsl:if test="$value">
+              <col>
+                <xsl:variable name="pos" select="position()"/>
+                <xsl:attribute name="n" select="$pos"/>
+                <xsl:if test="$header[$pos]">
+                  <xsl:attribute name="name" select="$header[$pos]"/>
+                </xsl:if>
+                <xsl:value-of select="replace($value,'&quot;&quot;','&quot;')"/>
+              </col>
+            </xsl:if>
           </xsl:matching-substring>
         </xsl:analyze-string>
       </row>

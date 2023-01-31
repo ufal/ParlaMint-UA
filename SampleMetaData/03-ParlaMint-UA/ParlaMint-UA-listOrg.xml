@@ -49,7 +49,7 @@
          </event>
       </listEvent>
    </org>
-   <org xml:id="GOV.UA" role="government" ana="">
+   <org xml:id="GOV.UA" role="government">
       <orgName xml:lang="uk" full="yes">Кабінет Міністрів України</orgName>
       <orgName xml:lang="en" full="yes">Cabinet of Ministers of Ukraine</orgName>
       <orgName xml:lang="uk" full="abb">Уряд</orgName>
@@ -144,7 +144,7 @@
          </event>
       </listEvent>
    </org>
-   <org xml:id="Ukraine" role="republic" ana="">
+   <org xml:id="Ukraine" role="republic">
       <orgName xml:lang="uk" full="yes">Президент України</orgName>
       <orgName xml:lang="en" full="yes">President of Ukraine</orgName>
       <orgName xml:lang="uk" full="abb">Президент</orgName>
@@ -183,7 +183,7 @@
          </event>
       </listEvent>
    </org>
-   <org xml:id="pp.NRU" role="politicalParty" ana="">
+   <org xml:id="pp.NRU" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Народний Рух України"</orgName>
       <orgName xml:lang="en" full="yes">People's Movement of Ukraine</orgName>
       <orgName xml:lang="uk" full="abb">НРУ</orgName>
@@ -192,7 +192,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.UNP" role="politicalParty" ana="">
+   <org xml:id="pp.UNP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Українська народна партія</orgName>
       <orgName xml:lang="en" full="yes">Ukrainian People's Party</orgName>
       <orgName xml:lang="uk" full="abb">УНП</orgName>
@@ -201,7 +201,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.PP" role="politicalParty" ana="">
+   <org xml:id="pp.PP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Партія праці</orgName>
       <orgName xml:lang="en" full="yes">Party of Labor</orgName>
       <orgName xml:lang="uk" full="abb">ПП</orgName>
@@ -210,7 +210,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.SDPU" role="politicalParty" ana="">
+   <org xml:id="pp.SDPU" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Соціал-демократична партія України (об'єднана)</orgName>
       <orgName xml:lang="en" full="yes">Social Democratic Party of Ukraine (united)</orgName>
       <orgName xml:lang="uk" full="abb">СДПУ(о)</orgName>
@@ -219,16 +219,15 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Hrom" role="politicalParty" ana="">
+   <org xml:id="pp.Hrom" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Всеукраїнське об'єднання «Громада»</orgName>
       <orgName xml:lang="en" full="yes">All-Ukrainian Association "Community"</orgName>
-      <orgName xml:lang="uk" full="abb"/>
       <orgName xml:lang="en" full="abb">Hrom</orgName>
       <event from="1994-03-22">
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.PRP" role="politicalParty" ana="">
+   <org xml:id="pp.PRP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Партія «Реформи і порядок»</orgName>
       <orgName xml:lang="en" full="yes">Party Reform and Order</orgName>
       <orgName xml:lang="uk" full="abb">РіП</orgName>
@@ -237,7 +236,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.CPSU" role="politicalParty" ana="">
+   <org xml:id="pp.CPSU" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Комуністична партія Радянського Союзу</orgName>
       <orgName xml:lang="en" full="yes">Communist Party of the Soviet Union</orgName>
       <orgName xml:lang="uk" full="abb">КПРС</orgName>
@@ -246,7 +245,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Reg" role="politicalParty" ana="">
+   <org xml:id="pp.Reg" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Партія регіонів"</orgName>
       <orgName xml:lang="en" full="yes">Party of Regions</orgName>
       <orgName xml:lang="uk" full="abb">ПР</orgName>
@@ -255,7 +254,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.OB" role="politicalParty" ana="">
+   <org xml:id="pp.OB" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Опозиційний блок»</orgName>
       <orgName xml:lang="en" full="yes">Opposition Bloc</orgName>
       <orgName xml:lang="uk" full="abb">Опоблок</orgName>
@@ -264,25 +263,23 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.UV" role="politicalParty" ana="">
+   <org xml:id="pp.UV" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Україна – Вперед!»</orgName>
       <orgName xml:lang="en" full="yes">Ukraine – Forward!</orgName>
-      <orgName xml:lang="uk" full="abb"/>
       <orgName xml:lang="en" full="abb">UV</orgName>
       <event from="1998-12-11">
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Lab" role="politicalParty" ana="">
+   <org xml:id="pp.Lab" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Трудова Україна"</orgName>
       <orgName xml:lang="en" full="yes">Labour Ukraine</orgName>
-      <orgName xml:lang="uk" full="abb"/>
       <orgName xml:lang="en" full="abb">Lab</orgName>
       <event from="2000-06-21">
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.OurU" role="politicalParty" ana="">
+   <org xml:id="pp.OurU" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Наша Україна»</orgName>
       <orgName xml:lang="en" full="yes">Our Ukraine</orgName>
       <orgName xml:lang="uk" full="abb">НУ</orgName>
@@ -291,7 +288,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.RPU" role="politicalParty" ana="">
+   <org xml:id="pp.RPU" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Республіканська партія України</orgName>
       <orgName xml:lang="en" full="yes">Republican Party of Ukraine</orgName>
       <orgName xml:lang="uk" full="abb">РПУ</orgName>
@@ -300,7 +297,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.But" role="politicalParty" ana="">
+   <org xml:id="pp.But" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Всеукраїнське об'єднання "Батьківщина"</orgName>
       <orgName xml:lang="en" full="yes">All-Ukrainian Union "Fatherland"</orgName>
       <orgName xml:lang="uk" full="abb">ВОБ</orgName>
@@ -309,7 +306,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Ud" role="politicalParty" ana="">
+   <org xml:id="pp.Ud" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «УДАР (Український Демократичний Альянс за Реформи) Віталія Кличка»</orgName>
       <orgName xml:lang="en" full="yes">Ukrainian Democratic Alliance for Reform</orgName>
       <orgName xml:lang="uk" full="abb">УДАР</orgName>
@@ -318,7 +315,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Kpu" role="politicalParty" ana="">
+   <org xml:id="pp.Kpu" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Комуністична партія України</orgName>
       <orgName xml:lang="en" full="yes">Communist Party of Ukraine</orgName>
       <orgName xml:lang="uk" full="abb">КПУ</orgName>
@@ -327,7 +324,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.SPU" role="politicalParty" ana="">
+   <org xml:id="pp.SPU" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Соціалістична партія України</orgName>
       <orgName xml:lang="en" full="yes">Socialist Party of Ukraine</orgName>
       <orgName xml:lang="uk" full="abb">СПУ</orgName>
@@ -336,7 +333,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Sv" role="politicalParty" ana="">
+   <org xml:id="pp.Sv" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Всеукраїнське об'єднання «Свобода»</orgName>
       <orgName xml:lang="en" full="yes">All-Ukrainian Union "Freedom"</orgName>
       <orgName xml:lang="uk" full="abb">Свобода</orgName>
@@ -345,7 +342,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.NF" role="politicalParty" ana="">
+   <org xml:id="pp.NF" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Народний фронт"</orgName>
       <orgName xml:lang="en" full="yes">People's Front</orgName>
       <orgName xml:lang="uk" full="abb">НФ</orgName>
@@ -354,7 +351,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Self" role="politicalParty" ana="">
+   <org xml:id="pp.Self" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Об’єднання «Самопоміч»"</orgName>
       <orgName xml:lang="en" full="yes">Union "Self Reliance"</orgName>
       <orgName xml:lang="uk" full="abb">ОС</orgName>
@@ -363,7 +360,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Gol" role="politicalParty" ana="">
+   <org xml:id="pp.Gol" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Голос»</orgName>
       <orgName xml:lang="en" full="yes">Holos</orgName>
       <orgName xml:lang="uk" full="abb">Голос</orgName>
@@ -372,7 +369,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.BPP" role="politicalParty" ana="">
+   <org xml:id="pp.BPP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Блок Петра Порошенка</orgName>
       <orgName xml:lang="en" full="yes">Petro Poroshenko Bloc</orgName>
       <orgName xml:lang="uk" full="abb">БПП</orgName>
@@ -381,7 +378,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.ES" role="politicalParty" ana="">
+   <org xml:id="pp.ES" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Європейська солідарність"</orgName>
       <orgName xml:lang="en" full="yes">European Solidarity</orgName>
       <orgName xml:lang="uk" full="abb">ЄС</orgName>
@@ -390,7 +387,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.SN" role="politicalParty" ana="">
+   <org xml:id="pp.SN" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Слуга народу"</orgName>
       <orgName xml:lang="en" full="yes">Servant of the People</orgName>
       <orgName xml:lang="uk" full="abb">СН</orgName>
@@ -399,7 +396,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.RP" role="politicalParty" ana="">
+   <org xml:id="pp.RP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Радикальна партія Олега Ляшка</orgName>
       <orgName xml:lang="en" full="yes">Radical Party of Oleh Liashko</orgName>
       <orgName xml:lang="uk" full="abb">Ляшко</orgName>
@@ -408,7 +405,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.OP" role="politicalParty" ana="">
+   <org xml:id="pp.OP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Опозиційна платформа - За життя"</orgName>
       <orgName xml:lang="en" full="yes">Opposition Platform – For Life</orgName>
       <orgName xml:lang="uk" full="abb">ОПЗЖ</orgName>
@@ -417,7 +414,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.USH" role="politicalParty" ana="">
+   <org xml:id="pp.USH" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Українська стратегія Гройсмана"</orgName>
       <orgName xml:lang="en" full="yes">Ukrainian Strategy of Hroisman</orgName>
       <orgName xml:lang="uk" full="abb">УСГ</orgName>
@@ -426,7 +423,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.UP" role="politicalParty" ana="">
+   <org xml:id="pp.UP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Українська партія</orgName>
       <orgName xml:lang="en" full="yes">Ukrainian Party</orgName>
       <orgName xml:lang="uk" full="abb">УП</orgName>
@@ -435,7 +432,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.SL" role="politicalParty" ana="">
+   <org xml:id="pp.SL" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Сила людей»</orgName>
       <orgName xml:lang="en" full="yes">Power of the People</orgName>
       <orgName xml:lang="uk" full="abb">СЛ</orgName>
@@ -444,7 +441,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.S&amp;H" role="politicalParty" ana="">
+   <org xml:id="pp.S&amp;H" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Сила і Честь»</orgName>
       <orgName xml:lang="en" full="yes">Strength and Honor</orgName>
       <orgName xml:lang="uk" full="abb">СіЧ</orgName>
@@ -453,7 +450,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Patr" role="politicalParty" ana="">
+   <org xml:id="pp.Patr" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Патріот"</orgName>
       <orgName xml:lang="en" full="yes">Patriot</orgName>
       <orgName xml:lang="uk" full="abb">Патріот</orgName>
@@ -462,7 +459,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Novi" role="politicalParty" ana="">
+   <org xml:id="pp.Novi" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Нові обличчя»</orgName>
       <orgName xml:lang="en" full="yes">New Faces</orgName>
       <orgName xml:lang="uk" full="abb">Нові</orgName>
@@ -471,7 +468,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Agro2" role="politicalParty" ana="">
+   <org xml:id="pp.Agro2" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Аграрна партія України</orgName>
       <orgName xml:lang="en" full="yes">Agrarian Party of Ukraine</orgName>
       <orgName xml:lang="uk" full="abb">АПУ2</orgName>
@@ -480,7 +477,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Agro1" role="politicalParty" ana="">
+   <org xml:id="pp.Agro1" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Аграрна партія України</orgName>
       <orgName xml:lang="en" full="yes">Agrarian Party of Ukraine</orgName>
       <orgName xml:lang="uk" full="abb">АПУ1</orgName>
@@ -489,7 +486,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.NP" role="politicalParty" ana="">
+   <org xml:id="pp.NP" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Народна партія</orgName>
       <orgName xml:lang="en" full="yes">People's Party</orgName>
       <orgName xml:lang="uk" full="abb">НП</orgName>
@@ -498,7 +495,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.CUN" role="politicalParty" ana="">
+   <org xml:id="pp.CUN" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Конгрес українських націоналістів</orgName>
       <orgName xml:lang="en" full="yes">Congress of Ukrainian Nationalists</orgName>
       <orgName xml:lang="uk" full="abb">КУН</orgName>
@@ -507,7 +504,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Spravy" role="politicalParty" ana="">
+   <org xml:id="pp.Spravy" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Партія «За конкретні справи»</orgName>
       <orgName xml:lang="en" full="yes">For Real Acts</orgName>
       <orgName xml:lang="uk" full="abb">Справи</orgName>
@@ -516,7 +513,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.NED" role="politicalParty" ana="">
+   <org xml:id="pp.NED" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Партія національно-економічного розвитку України</orgName>
       <orgName xml:lang="en" full="yes">Party of National Economic Development of Ukraine</orgName>
       <orgName xml:lang="uk" full="abb">НЕР</orgName>
@@ -525,16 +522,15 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Demo" role="politicalParty" ana="">
+   <org xml:id="pp.Demo" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Всеукраїнське об'єднання «Демократи (Демократична партія)»</orgName>
       <orgName xml:lang="en" full="yes">All-Ukrainian Union "Democrats"</orgName>
-      <orgName xml:lang="uk" full="abb"/>
       <orgName xml:lang="en" full="abb">Demo</orgName>
       <event from="2013">
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Soyuz" role="politicalParty" ana="">
+   <org xml:id="pp.Soyuz" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Партія "Союз"</orgName>
       <orgName xml:lang="en" full="yes">Soyuz</orgName>
       <orgName xml:lang="uk" full="abb">Союз</orgName>
@@ -543,7 +539,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Right" role="politicalParty" ana="">
+   <org xml:id="pp.Right" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Правий сектор"</orgName>
       <orgName xml:lang="en" full="yes">Right Sector</orgName>
       <orgName xml:lang="uk" full="abb">ПС</orgName>
@@ -552,7 +548,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Volia" role="politicalParty" ana="">
+   <org xml:id="pp.Volia" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Воля"</orgName>
       <orgName xml:lang="en" full="yes">Volia</orgName>
       <orgName xml:lang="uk" full="abb">Воля</orgName>
@@ -561,25 +557,23 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Trud" role="politicalParty" ana="">
+   <org xml:id="pp.Trud" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Трудова партія України</orgName>
       <orgName xml:lang="en" full="yes">Labour Party of Ukraine</orgName>
-      <orgName xml:lang="uk" full="abb"/>
       <orgName xml:lang="en" full="abb">Trud</orgName>
       <event from="1999-06-19" to="2009-11-28">
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Sylna" role="politicalParty" ana="">
+   <org xml:id="pp.Sylna" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Партія "Сильна Україна"</orgName>
       <orgName xml:lang="en" full="yes">Strong Ukraine</orgName>
-      <orgName xml:lang="uk" full="abb"/>
       <orgName xml:lang="en" full="abb">Sylna</orgName>
       <event from="2009-11-28">
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Zastrup" role="politicalParty" ana="">
+   <org xml:id="pp.Zastrup" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Всеукраїнське аграрне об’єднання «Заступ»</orgName>
       <orgName xml:lang="en" full="yes">All-Ukrainian Agrarian Association "Spade"</orgName>
       <orgName xml:lang="uk" full="abb">Заступ</orgName>
@@ -588,7 +582,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Sea" role="politicalParty" ana="">
+   <org xml:id="pp.Sea" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Українська морська партія</orgName>
       <orgName xml:lang="en" full="yes">Ukrainian Sea Party</orgName>
       <orgName xml:lang="uk" full="abb">УМП</orgName>
@@ -597,7 +591,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Unity" role="politicalParty" ana="">
+   <org xml:id="pp.Unity" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Українська партія "Єдність"</orgName>
       <orgName xml:lang="en" full="yes">Unity</orgName>
       <orgName xml:lang="uk" full="abb">Єдність</orgName>
@@ -606,7 +600,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.UnityOO" role="politicalParty" ana="">
+   <org xml:id="pp.UnityOO" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Українська партія "Єдність Олександра Омельченка"</orgName>
       <orgName xml:lang="en" full="yes">Unity of Oleksandr Omelchenko</orgName>
       <orgName xml:lang="uk" full="abb">ЄОО</orgName>
@@ -615,7 +609,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Ukrop" role="politicalParty" ana="">
+   <org xml:id="pp.Ukrop" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Українське об'єднання патріотів — УКРОП»</orgName>
       <orgName xml:lang="en" full="yes">Ukrainian Association of Patriots</orgName>
       <orgName xml:lang="uk" full="abb">УКРОП</orgName>
@@ -624,7 +618,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.UC" role="politicalParty" ana="">
+   <org xml:id="pp.UC" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Єдиний центр"</orgName>
       <orgName xml:lang="en" full="yes">United Centre</orgName>
       <orgName xml:lang="uk" full="abb">ЄЦ</orgName>
@@ -633,7 +627,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Baloha" role="politicalParty" ana="">
+   <org xml:id="pp.Baloha" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія "Команда Андрія Балоги"</orgName>
       <orgName xml:lang="en" full="yes">Andriy Baloha's Team</orgName>
       <orgName xml:lang="uk" full="abb">Балога</orgName>
@@ -642,7 +636,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.Kray" role="politicalParty" ana="">
+   <org xml:id="pp.Kray" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Політична партія «Наш край»</orgName>
       <orgName xml:lang="en" full="yes">Our Land</orgName>
       <orgName xml:lang="uk" full="abb">Край</orgName>
@@ -651,7 +645,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.dpuds" role="politicalParty" ana="">
+   <org xml:id="pp.dpuds" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Виборчий блок політичних партій "Демократична партія України – партія "Демократичний союз"</orgName>
       <orgName xml:lang="en" full="yes">Democratic Party of Ukraine -- Democratic Union electoral alliance</orgName>
       <orgName xml:lang="uk" full="abb">ДПУДС</orgName>
@@ -660,7 +654,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.zaedu" role="politicalParty" ana="">
+   <org xml:id="pp.zaedu" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Виборчий блок політичних партій "За Єдину Україну!"</orgName>
       <orgName xml:lang="en" full="yes">For United Ukraine!</orgName>
       <orgName xml:lang="uk" full="abb">За ЄдУ</orgName>
@@ -669,7 +663,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.byut" role="politicalParty" ana="">
+   <org xml:id="pp.byut" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Виборчий блок політичних партій "Виборчий блок Юлії Тимошенко"</orgName>
       <orgName xml:lang="en" full="yes">Yulia Tymoshenko Bloc</orgName>
       <orgName xml:lang="uk" full="abb">фБЮТ</orgName>
@@ -678,7 +672,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.nu06" role="politicalParty" ana="">
+   <org xml:id="pp.nu06" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Блок "НАША УКРАЇНА": Політична партія "Народний Союз Наша Україна", Народний Рух України, Партія промисловців і підприємців України, Конгрес Українських Націоналістів, Українська республіканська партія "Собор", Партія Християнсько-Дем.Союз</orgName>
       <orgName xml:lang="en" full="yes">Our Ukraine Bloc 2006</orgName>
       <orgName xml:lang="uk" full="abb">фНУ06</orgName>
@@ -687,7 +681,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.nu02" role="politicalParty" ana="">
+   <org xml:id="pp.nu02" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Виборчий блок політичних партій "Блок Віктора Ющенка "Наша Україна"</orgName>
       <orgName xml:lang="en" full="yes">Our Ukraine Bloc 2002</orgName>
       <orgName xml:lang="uk" full="abb">фНУ02</orgName>
@@ -696,7 +690,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.nuns" role="politicalParty" ana="">
+   <org xml:id="pp.nuns" role="politicalParty">
       <orgName xml:lang="uk" full="yes">Наша Україна — Народна самооборона</orgName>
       <orgName xml:lang="en" full="yes">Our Ukraine -- People's Self-Defense Bloc</orgName>
       <orgName xml:lang="uk" full="abb">фНУНС</orgName>
@@ -705,7 +699,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="pp.bl" role="politicalParty" ana="">
+   <org xml:id="pp.bl" role="politicalParty">
       <orgName xml:lang="uk" full="yes">"Блок Литвина" (Народна Партія, Трудова партія України)</orgName>
       <orgName xml:lang="en" full="yes">Lytvyn Bloc</orgName>
       <orgName xml:lang="uk" full="abb">фЛитвин</orgName>
@@ -714,7 +708,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.spu" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.spu" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція Соціалістичної партії України</orgName>
       <orgName xml:lang="en" full="yes">Socialist Party Faction</orgName>
       <orgName xml:lang="uk" full="abb">фСПУ</orgName>
@@ -723,7 +717,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.byut" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.byut" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція Виборчого блоку політичних партій "Виборчий блок Юлії Тимошенко"</orgName>
       <orgName xml:lang="en" full="yes">Yulia Tymoshenko Bloc Faction</orgName>
       <orgName xml:lang="uk" full="abb">фБЮТ</orgName>
@@ -732,7 +726,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.nu06" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.nu06" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція Блоку "НАША УКРАЇНА": Політична партія "Народний Союз Наша Україна", Народний Рух України, Партія промисловців і підприємців України, Конгрес Українських Націоналістів, Українська республіканська партія "Собор", Партія Християнсько-Дем.Союз</orgName>
       <orgName xml:lang="en" full="yes">Our Ukraine Bloc 2006 Faction</orgName>
       <orgName xml:lang="uk" full="abb">фНУ06</orgName>
@@ -741,7 +735,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.nu02" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.nu02" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція Виборчого блоку політичних партій "Блок Віктора Ющенка "Наша Україна"</orgName>
       <orgName xml:lang="en" full="yes">Our Ukraine Bloc 2002 Faction</orgName>
       <orgName xml:lang="uk" full="abb">фНУ02</orgName>
@@ -750,7 +744,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.nuns" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.nuns" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція "Наша Україна — Народна самооборона"</orgName>
       <orgName xml:lang="en" full="yes">Our Ukraine -- People's Self-Defense Bloc Faction</orgName>
       <orgName xml:lang="uk" full="abb">фНУНС</orgName>
@@ -759,7 +753,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.bl" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.bl" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція Блоку Литвина (Народна Партія, Трудова партія України)</orgName>
       <orgName xml:lang="en" full="yes">Lytvyn Bloc Faction</orgName>
       <orgName xml:lang="uk" full="abb">фЛитвин</orgName>
@@ -768,7 +762,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.sn" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.sn" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція політичної партії "Слуга народу"</orgName>
       <orgName xml:lang="en" full="yes">Servant of the People Faction</orgName>
       <orgName xml:lang="uk" full="abb">фСН</orgName>
@@ -777,7 +771,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.es" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.es" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція політичної партії "Європейська солідарність"</orgName>
       <orgName xml:lang="en" full="yes">European Solidarity Faction</orgName>
       <orgName xml:lang="uk" full="abb">фЄС</orgName>
@@ -786,7 +780,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.opzzh" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.opzzh" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція політичної партії "Опозиційна платформа - За життя"</orgName>
       <orgName xml:lang="en" full="yes">Opposition Platform – For Life Faction</orgName>
       <orgName xml:lang="uk" full="abb">фОПЗЖ</orgName>
@@ -795,7 +789,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.ob" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.ob" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція політичної партії «Опозиційний блок»</orgName>
       <orgName xml:lang="en" full="yes">Opposition Bloc Faction</orgName>
       <orgName xml:lang="uk" full="abb">фОпоблок</orgName>
@@ -804,7 +798,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.but" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.but" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція політичної партії Всеукраїнське об'єднання "Батьківщина"</orgName>
       <orgName xml:lang="en" full="yes">All-Ukrainian Union "Fatherland" Faction</orgName>
       <orgName xml:lang="uk" full="abb">фВОБ</orgName>
@@ -813,7 +807,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.hol" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.hol" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція Політичної Партії "Голос"</orgName>
       <orgName xml:lang="en" full="yes">Holos Faction</orgName>
       <orgName xml:lang="uk" full="abb">фПГ</orgName>
@@ -822,7 +816,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="gr.pzhim" role="parliamentaryGroup" ana="">
+   <org xml:id="gr.pzhim" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Депутатська група «Платформа за життя та мир»</orgName>
       <orgName xml:lang="en" full="yes">Platform for Life and Peace Group</orgName>
       <orgName xml:lang="uk" full="abb">гПЖМ</orgName>
@@ -831,7 +825,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="gr.vu" role="parliamentaryGroup" ana="">
+   <org xml:id="gr.vu" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Депутатська група «Відновлення України»</orgName>
       <orgName xml:lang="en" full="yes">Ukraine Recovery Group</orgName>
       <orgName xml:lang="uk" full="abb">гВУ</orgName>
@@ -840,7 +834,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="gr.zm" role="parliamentaryGroup" ana="">
+   <org xml:id="gr.zm" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Депутатська група «За майбутнє»</orgName>
       <orgName xml:lang="en" full="yes">For the Future Group</orgName>
       <orgName xml:lang="uk" full="abb">гЗМ</orgName>
@@ -849,7 +843,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="gr.pzm" role="parliamentaryGroup" ana="">
+   <org xml:id="gr.pzm" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Депутатська група "Партія "За майбутнє"</orgName>
       <orgName xml:lang="en" full="yes">For the Future Party Group</orgName>
       <orgName xml:lang="uk" full="abb">гЗМП</orgName>
@@ -858,7 +852,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="gr.dvr" role="parliamentaryGroup" ana="">
+   <org xml:id="gr.dvr" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Депутатська група «Довіра»</orgName>
       <orgName xml:lang="en" full="yes">Dovira Group</orgName>
       <orgName xml:lang="uk" full="abb">гДовіра</orgName>
@@ -867,7 +861,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.nf" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.nf" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція Політичної партії "Народний фронт"</orgName>
       <orgName xml:lang="en" full="yes">People's Front Faction</orgName>
       <orgName xml:lang="uk" full="abb">фНФ</orgName>
@@ -876,7 +870,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.bpp" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.bpp" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція партії «Блок Петра Порошенка»</orgName>
       <orgName xml:lang="en" full="yes">Petro Poroshenko Bloc Faction</orgName>
       <orgName xml:lang="uk" full="abb">фБПП</orgName>
@@ -885,7 +879,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.sp" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.sp" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція політичної партії «Об'єднання „Самопоміч“»</orgName>
       <orgName xml:lang="en" full="yes">Self Reliance Faction</orgName>
       <orgName xml:lang="uk" full="abb">фОС</orgName>
@@ -894,7 +888,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.rp" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.rp" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція Радикальної партії Олега Ляшка</orgName>
       <orgName xml:lang="en" full="yes">Radical Party of Oleh Liashko Faction</orgName>
       <orgName xml:lang="uk" full="abb">фЛяшко</orgName>
@@ -903,7 +897,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="gr.vd" role="parliamentaryGroup" ana="">
+   <org xml:id="gr.vd" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Група «Відродження»</orgName>
       <orgName xml:lang="en" full="yes">Revival Group</orgName>
       <orgName xml:lang="uk" full="abb">гВ</orgName>
@@ -912,7 +906,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="gr.pvd" role="parliamentaryGroup" ana="">
+   <org xml:id="gr.pvd" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Група «Партія відродження»</orgName>
       <orgName xml:lang="en" full="yes">Revival Party Group</orgName>
       <orgName xml:lang="uk" full="abb">гПВ</orgName>
@@ -921,7 +915,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="gr.ed" role="parliamentaryGroup" ana="">
+   <org xml:id="gr.ed" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Група «Економічний розвиток»</orgName>
       <orgName xml:lang="en" full="yes">Economic Development Group</orgName>
       <orgName xml:lang="uk" full="abb">гЕР</orgName>
@@ -930,7 +924,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="gr.pw" role="parliamentaryGroup" ana="">
+   <org xml:id="gr.pw" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Група «Воля народу»</orgName>
       <orgName xml:lang="en" full="yes">People's Will Group</orgName>
       <orgName xml:lang="uk" full="abb">гВН</orgName>
@@ -939,7 +933,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.reg" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.reg" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція Партії регіонів</orgName>
       <orgName xml:lang="en" full="yes">Party of Regions Faction</orgName>
       <orgName xml:lang="uk" full="abb">фПР</orgName>
@@ -948,7 +942,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.ud" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.ud" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція Політичної партії "УДАР (Український Демократичний Альянс за Реформи) Віталія Кличка"</orgName>
       <orgName xml:lang="en" full="yes">UDAR Faction</orgName>
       <orgName xml:lang="uk" full="abb">фУДАР</orgName>
@@ -957,7 +951,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.sv" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.sv" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція Всеукраїнське об'єднання "Свобода"</orgName>
       <orgName xml:lang="en" full="yes">Svoboda Faction</orgName>
       <orgName xml:lang="uk" full="abb">фСвобода</orgName>
@@ -966,7 +960,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="fr.kpu" role="parliamentaryGroup" ana="">
+   <org xml:id="fr.kpu" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Фракція Комуністичної партії України</orgName>
       <orgName xml:lang="en" full="yes">Communist Party Faction</orgName>
       <orgName xml:lang="uk" full="abb">фКПУ</orgName>
@@ -975,7 +969,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="gr.eu" role="parliamentaryGroup" ana="">
+   <org xml:id="gr.eu" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Група "Суверенна європейська Україна"</orgName>
       <orgName xml:lang="en" full="yes">Sovereign European Ukraine Group</orgName>
       <orgName xml:lang="uk" full="abb">гСЄУ</orgName>
@@ -984,7 +978,7 @@
          <label xml:lang="en">existence</label>
       </event>
    </org>
-   <org xml:id="gr.ps" role="parliamentaryGroup" ana="">
+   <org xml:id="gr.ps" role="parliamentaryGroup">
       <orgName xml:lang="uk" full="yes">Група "За мир та стабільність"</orgName>
       <orgName xml:lang="en" full="yes">For Peace and Stability Group</orgName>
       <orgName xml:lang="uk" full="abb">гЗМіС</orgName>
