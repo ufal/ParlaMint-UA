@@ -95,7 +95,7 @@
     <xsl:if test="normalize-space($text)">
       <row>
         <xsl:attribute name="n" select="$n"/>
-        <xsl:analyze-string select="." regex="(?:&quot;((?:[^&quot;]*|&quot;&quot;)*)&quot;|([^&#9;]+))(?:&#9;|$)">
+        <xsl:analyze-string select="." regex="(?:&quot;((?:[^&quot;]*|&quot;&quot;)*)&quot;|([^&#9;]*))(?:&#9;|$)">
           <xsl:matching-substring>
             <col>
               <xsl:variable name="pos" select="position()"/>
