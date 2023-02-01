@@ -555,7 +555,7 @@
             <xsl:attribute name="from" select="$from"/>
           </xsl:if>
           <xsl:if test="$to">
-            <xsl:attribute name="to" select="$from"/>
+            <xsl:attribute name="to" select="$to"/>
           </xsl:if>
         </xsl:element>
       </xsl:when>
