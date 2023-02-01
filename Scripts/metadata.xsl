@@ -59,6 +59,12 @@
     </xsl:call-template>
   </xsl:variable>
 
+  <xsl:variable name="gov-rename">
+    <xsl:call-template name="read-tsv">
+      <xsl:with-param name="file" select="concat($in-dir,'/gov-rename.tsv')"/>
+    </xsl:call-template>
+  </xsl:variable>
+
   <xsl:variable name="listPerson-dupl">
     <xsl:element name="listPerson" xmlns="http://www.tei-c.org/ns/1.0">
       <xsl:attribute name="xml:id">ParlaMint-UA-listPerson</xsl:attribute>
@@ -80,9 +86,11 @@
               <xsl:value-of select="string-join(distinct-values($person/term/patronymic),' ')"/>
             </xsl:element>
             <!--todo multiple names-->
-            <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
-              <xsl:value-of select="string-join(distinct-values($person/term/surname),' ')"/>
-            </xsl:element>
+            <xsl:for-each select="distinct-values($person/term/surname)">
+              <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
+                <xsl:value-of select="."/>
+              </xsl:element>
+            </xsl:for-each>
           </xsl:element>
           <xsl:variable name="sex" select="distinct-values($person/term/sex)[1]"/>
           <xsl:if test="$sex">

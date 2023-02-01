@@ -43,19 +43,22 @@
     </xsl:variable>
     <xsl:if test="$period">
       <xsl:for-each select="ancestor-or-self::tei:person[1]/tei:persName">
+        <xsl:variable name="persName" select="."/>
+        <xsl:for-each select="./tei:surname[not(@type='patronym')]/text()">
         <xsl:value-of select="concat(
-                            ./tei:surname[last()]/text(),
+                            .,
                             ' ',
-                            string-join(./tei:forename/replace(text(),'^(.).*','$1.'),''),
-                            ./tei:surname[@type='patronym']/replace(text(),'^(.).*','$1.'),
+                            string-join($persName/tei:forename/replace(text(),'^(.).*','$1.'),''),
+                            $persName/tei:surname[@type='patronym']/replace(text(),'^(.).*','$1.'),
                             $period
                             )"/>
         <xsl:value-of select="concat(
                                 string-join(
-                                  ./tei:forename | ./tei:surname,
+                                  $persName/tei:forename | $persName/tei:surname[@type='patronym'] | .,
                                   ' '),
                                 $period
                             )"/>
+        </xsl:for-each>
       </xsl:for-each>
     </xsl:if>
     <xsl:apply-templates/>
