@@ -95,6 +95,7 @@
     <xsl:if test="normalize-space($text)">
       <row>
         <xsl:attribute name="n" select="$n"/>
+        <text><xsl:value-of select="replace(.,'&#9;','|')"/></text>
         <xsl:analyze-string select="." regex="(?:&quot;((?:[^&quot;]*|&quot;&quot;)*)&quot;|([^&#9;]*))(?:&#9;|$)">
           <xsl:matching-substring>
             <xsl:variable name="value" select="normalize-space(concat(regex-group(1),regex-group(2)))"/>

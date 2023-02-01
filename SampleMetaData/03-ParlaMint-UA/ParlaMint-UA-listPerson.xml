@@ -2,6 +2,19 @@
 <listPerson xmlns="http://www.tei-c.org/ns/1.0"
             xml:id="ParlaMint-UA-listPerson"
             xml:lang="uk">
+   <person xml:id="">
+      <persName/>
+      <persName/>
+      <persName/>
+      <persName/>
+   </person>
+   <person xml:id="CЯровий">
+      <persName>
+         <forename>C</forename>
+         <surname>Яровий</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЄвгенІвановичКирильчук.1940">
       <persName>
          <forename>Євген</forename>
@@ -694,6 +707,14 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.nf" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="ЄвгенСергійовичКуренков">
+      <persName>
+         <forename>Євген</forename>
+         <surname type="patronym">Сергійович</surname>
+         <surname>Куренков</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЄвгенЮрійовичРибчинський.1969">
       <persName>
          <forename>Євген</forename>
@@ -1131,6 +1152,15 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
+   </person>
+   <person xml:id="ЄнсСтолтенберг.1959">
+      <persName>
+         <forename>Єнс</forename>
+         <surname>Столтенберг</surname>
+      </persName>
+      <birth when="1959-03-16"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Jens_Stoltenberg</idno>
    </person>
    <person xml:id="ЄфимЗіс’євичФікс.1946">
       <persName>
@@ -2260,6 +2290,14 @@
                    ana="#ВРУ.6"/>
       <!--unknown fraction||групи "Реформи заради майбутнього" у Верховній Раді України|2007-11-23|2012-12-12-->
    </person>
+   <person xml:id="ІванСтепановичРуснак">
+      <persName>
+         <forename>Іван</forename>
+         <surname type="patronym">Степанович</surname>
+         <surname>Руснак</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ІванФедоровичДрач.1936">
       <persName>
          <forename>Іван</forename>
@@ -2351,6 +2389,14 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.bpp" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="ІванЮрійовичЛіщина">
+      <persName>
+         <forename>Іван</forename>
+         <surname type="patronym">Юрійович</surname>
+         <surname>Ліщина</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ІванЯрославовичГаврилюк.1948">
       <persName>
          <forename>Іван</forename>
@@ -2373,6 +2419,14 @@
                    to="2006-05-25"
                    ana="#ВРУ.4"/>
       <!--unknown fraction||фракції політичної партії "Реформи і порядок"|2002-05-14|2006-05-25-->
+   </person>
+   <person xml:id="ІваннаВасилівнаСмачило">
+      <persName>
+         <forename>Іванна</forename>
+         <surname type="patronym">Василівна</surname>
+         <surname>Смачило</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ІваннаОрестівнаКлимпуш-Цинцадзе.1972">
       <persName>
@@ -2415,6 +2469,21 @@
                    from="2016-04-14"
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman"/>
+   </person>
+   <person xml:id="ІваннаФедько">
+      <persName>
+         <forename>Іванна</forename>
+         <surname>Федько</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="ІгорЄвгеновичГоцул">
+      <persName>
+         <forename>Ігор</forename>
+         <surname type="patronym">Євгенович</surname>
+         <surname>Гоцул</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ІгорЄвгенійовичСкосар.1968">
       <persName>
@@ -3374,6 +3443,14 @@
                    to="2005-09-08"
                    ana="#ВРУ.4"/>
    </person>
+   <person xml:id="ІгорДмитровичЛіховий">
+      <persName>
+         <forename>Ігор</forename>
+         <surname type="patronym">Дмитрович</surname>
+         <surname>Ліховий</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ІгорЙосиповичРезнік.1945">
       <persName>
          <forename>Ігор</forename>
@@ -3417,6 +3494,14 @@
                    ana="#GOV.UA.1stYatseniuk #acting"/>
       <affiliation ref="#pp.Sv" role="member"/>
    </person>
+   <person xml:id="ІгорЛеоновичСамсін">
+      <persName>
+         <forename>Ігор</forename>
+         <surname type="patronym">Леонович</surname>
+         <surname>Самсін</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ІгорЛеонідовичГерасименко.1984">
       <persName>
          <forename>Ігор</forename>
@@ -3454,6 +3539,14 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
       <affiliation ref="#gr.ed" role="member" from="2012-12-12" to="2012-12-12"/>
+   </person>
+   <person xml:id="ІгорМиколайовичГарбарук">
+      <persName>
+         <forename>Ігор</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Гарбарук</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ІгорМиколайовичГлущенко.1962">
       <persName>
@@ -3751,6 +3844,14 @@
                    from="2014-11-27"
                    to="2015-08-13"
                    ana="#ВРУ.8"/>
+   </person>
+   <person xml:id="ІгорМихайловичБенедисюк">
+      <persName>
+         <forename>Ігор</forename>
+         <surname type="patronym">Михайлович</surname>
+         <surname>Бенедисюк</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ІгорМихайловичМірошниченко.1976">
       <persName>
@@ -4156,6 +4257,14 @@
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.bpp" role="member" from="2014-11-27" to="2014-11-27"/>
+   </person>
+   <person xml:id="ІгорОлексійовичДолгов">
+      <persName>
+         <forename>Ігор</forename>
+         <surname type="patronym">Олексійович</surname>
+         <surname>Долгов</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ІгорПавловичФріс.1973">
       <persName>
@@ -4648,6 +4757,13 @@
                    to="2011-05-24"
                    ana="#GOV.UA.1stAzarov"/>
    </person>
+   <person xml:id="ІнараМурнієце">
+      <persName>
+         <forename>Інара</forename>
+         <surname>Мурнієце</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="ІнгаСтаніславівнаВершиніна.1967">
       <persName>
          <forename>Інга</forename>
@@ -4670,6 +4786,15 @@
                    to="2007-11-23"
                    ana="#ВРУ.5"/>
       <affiliation ref="#fr.byut" role="member" from="2006-05-25" to="2006-05-25"/>
+   </person>
+   <person xml:id="ІннаІванівнаЄмельянова.1974">
+      <persName>
+         <forename>Інна</forename>
+         <surname type="patronym">Іванівна</surname>
+         <surname>Ємельянова</surname>
+      </persName>
+      <birth when="1974-03-06"/>
+      <sex value="F"/>
    </person>
    <person xml:id="ІннаГерманівнаБогословська.1960">
       <persName>
@@ -4706,6 +4831,14 @@
                    from="2012-12-12"
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
+   </person>
+   <person xml:id="ІннаЛеонідівнаБордюг">
+      <persName>
+         <forename>Інна</forename>
+         <surname type="patronym">Леонідівна</surname>
+         <surname>Бордюг</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ІннаРоманівнаСовсун.1984">
       <persName>
@@ -5107,6 +5240,14 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.reg" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="ІринаДмитрівнаСадов'як">
+      <persName>
+         <forename>Ірина</forename>
+         <surname type="patronym">Дмитрівна</surname>
+         <surname>Садов'як</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="ІринаДмитрівнаСпіріна.1959">
       <persName>
          <forename>Ірина</forename>
@@ -5151,6 +5292,13 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.sv" role="member" from="2012-12-12" to="2012-12-12"/>
+   </person>
+   <person xml:id="ІринаМикичак">
+      <persName>
+         <forename>Ірина</forename>
+         <surname>Микичак</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ІринаМиколаївнаСуслова.1988">
       <persName>
@@ -5248,6 +5396,7 @@
       </persName>
       <birth when="1959-03-26"/>
       <sex value="F"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/yefremova-irina-oleksiivna.html</idno>
       <figure>
          <graphic url="http://static.rada.gov.ua/dep_img8/nf63.jpg"/>
       </figure>
@@ -5312,6 +5461,14 @@
                    to="2019-11-12"
                    ana="#ВРУ.9"/>
       <affiliation ref="#fr.es" role="member" from="2019-08-29T13:51:59"/>
+   </person>
+   <person xml:id="ІринаЮріївнаМамонтова">
+      <persName>
+         <forename>Ірина</forename>
+         <surname type="patronym">Юріївна</surname>
+         <surname>Мамонтова</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ІштванФеренцовичГайдош.1971">
       <persName>
@@ -5452,6 +5609,22 @@
                    from="2014-12-02"
                    to="2016-04-14"
                    ana="#GOV.UA.2stYatseniuk"/>
+   </person>
+   <person xml:id="АйдерРустемов.1980">
+      <persName>
+         <forename>Айдер</forename>
+         <surname>Рустемов</surname>
+      </persName>
+      <birth when="1980-03-19"/>
+      <sex value="M"/>
+   </person>
+   <person xml:id="АллаВалентинівнаБасалаєва">
+      <persName>
+         <forename>Алла</forename>
+         <surname type="patronym">Валентинівна</surname>
+         <surname>Басалаєва</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="АллаОлександрівнаАлександровська.1948">
       <persName>
@@ -5640,6 +5813,16 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
    </person>
+   <person xml:id="АнатолійІвановичАмелін.1977">
+      <persName>
+         <forename>Анатолій</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Амелін</surname>
+      </persName>
+      <birth when="1977-08-18"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="personal">https://prostir.fandom.com/wiki/%D0%90%D0%BC%D0%B5%D0%BB%D1%96%D0%BD_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9_%D0%86%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87</idno>
+   </person>
    <person xml:id="АнатолійІвановичДоманський.1939">
       <persName>
          <forename>Анатолій</forename>
@@ -5731,6 +5914,20 @@
                    to="2006-05-25"
                    ana="#ВРУ.4"/>
       <!--unknown fraction||фракції Народної Партії|2002-05-14|2006-05-25-->
+   </person>
+   <person xml:id="АнатолійІвановичМярковський">
+      <persName>
+         <forename>Анатолій</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Мярковський</surname>
+      </persName>
+      <persName>
+         <forename>Анатолій</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Мярковський</surname>
+      </persName>
+      <sex value="M"/>
+      <sex value="M"/>
    </person>
    <person xml:id="АнатолійІвановичСеминога.1960">
       <persName>
@@ -6814,6 +7011,37 @@
                    ana="#ВРУ.5"/>
       <affiliation ref="#fr.reg" role="member" from="2006-05-25" to="2006-05-25"/>
    </person>
+   <person xml:id="АнджейДуда">
+      <persName>
+         <forename>Анджей</forename>
+         <surname>Дуда</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="АндреасЕбі">
+      <persName>
+         <forename>Андреас</forename>
+         <surname>Ебі</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="АндрейПленкович">
+      <persName>
+         <forename>Андрей</forename>
+         <surname>Пленкович</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="АндрійЄвгеновичГевко.1981">
+      <persName>
+         <forename>Андрій</forename>
+         <surname type="patronym">Євгенович</surname>
+         <surname>Гевко</surname>
+      </persName>
+      <birth when="1981-06-17"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/gevko-andriy-yevgenovich.html</idno>
+   </person>
    <person xml:id="АндрійЄвгеновичКостін.1973">
       <persName>
          <forename>Андрій</forename>
@@ -6846,6 +7074,14 @@
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
       <!--from 2014-11-27 to 2019-08-29: Самовисування-->
+   </person>
+   <person xml:id="АндрійІвановичГраділь">
+      <persName>
+         <forename>Андрій</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Граділь</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="АндрійІвановичНіколаєнко.1979">
       <persName>
@@ -7433,6 +7669,14 @@
       <!--from 2014-11-27 to 2019-08-29: Самовисування-->
       <affiliation ref="#fr.ob" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="АндрійВолодимировичМамалига">
+      <persName>
+         <forename>Андрій</forename>
+         <surname type="patronym">Володимирович</surname>
+         <surname>Мамалига</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="АндрійВолодимировичМохник.1972">
       <persName>
          <forename>Андрій</forename>
@@ -7874,6 +8118,14 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.but" role="member" from="2012-12-12" to="2012-12-12"/>
+   </person>
+   <person xml:id="АндрійЛеонідовичБілоусов">
+      <persName>
+         <forename>Андрій</forename>
+         <surname type="patronym">Леонідович</surname>
+         <surname>Білоусов</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="АндрійЛеонідовичДеркач.1967">
       <persName>
@@ -8407,6 +8659,16 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#gr.ed" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="АндрійПетровичІгнатов.1974">
+      <persName>
+         <forename>Андрій</forename>
+         <surname type="patronym">Петрович</surname>
+         <surname>Ігнатов</surname>
+      </persName>
+      <birth when="1974-11-06"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="personal">https://m.ednist.info/dossier/253</idno>
+   </person>
    <person xml:id="АндрійПетровичКлюєв.1964">
       <persName>
          <forename>Андрій</forename>
@@ -8502,6 +8764,16 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
+   </person>
+   <person xml:id="АндрійСергійовичЄвстігнєєв.1982">
+      <persName>
+         <forename>Андрій</forename>
+         <surname type="patronym">Сергійович</surname>
+         <surname>Євстігнєєв</surname>
+      </persName>
+      <birth when="1982-02-03"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/yevstignieiev-andriy-sergiyovich.html</idno>
    </person>
    <person xml:id="АндрійСергійовичДенисенко.1973">
       <persName>
@@ -9105,6 +9377,14 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
    </person>
+   <person xml:id="АнтонОлександровичКориневич">
+      <persName>
+         <forename>Антон</forename>
+         <surname type="patronym">Олександрович</surname>
+         <surname>Кориневич</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="АнтонОлексійовичШвачко.1992">
       <persName>
          <forename>Антон</forename>
@@ -9180,6 +9460,13 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#pp.OP" role="represent" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#fr.opzzh" role="member" from="2019-08-29T13:49:17"/>
+   </person>
+   <person xml:id="АніфеКуртсеітова">
+      <persName>
+         <forename>Аніфе</forename>
+         <surname>Куртсеітова</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="АркадійОлексійовичКорнацький.1953">
       <persName>
@@ -10020,6 +10307,24 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.es" role="member" from="2019-08-29T13:51:59"/>
    </person>
+   <person xml:id="Балан">
+      <persName>
+         <surname>Балан</surname>
+      </persName>
+   </person>
+   <person xml:id="Бараш">
+      <persName>
+         <surname>Бараш</surname>
+      </persName>
+   </person>
+   <person xml:id="БогданЄвгеновичДрап'ятий">
+      <persName>
+         <forename>Богдан</forename>
+         <surname type="patronym">Євгенович</surname>
+         <surname>Драп'ятий</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="БогданІвановичКостинюк.1958">
       <persName>
          <forename>Богдан</forename>
@@ -10056,6 +10361,14 @@
                    to="2007-06-08"
                    ana="#ВРУ.5"/>
       <affiliation ref="#fr.nu06" role="member" from="2007-05-31" to="2007-05-31"/>
+   </person>
+   <person xml:id="БогданВалентиновичБоруховський">
+      <persName>
+         <forename>Богдан</forename>
+         <surname type="patronym">Валентинович</surname>
+         <surname>Боруховський</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="БогданВасильовичДубневич.1962">
       <persName>
@@ -10257,6 +10570,12 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.bpp" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="Боднар-Петровська">
+      <persName>
+         <surname>Боднар-Петровська</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="БорисІвановичТарасюк.1949">
       <persName>
          <forename>Борис</forename>
@@ -10397,6 +10716,14 @@
                    to="2012-12-12"
                    ana="#ВРУ.6"/>
    </person>
+   <person xml:id="БорисБорисовичЛебедцов">
+      <persName>
+         <forename>Борис</forename>
+         <surname type="patronym">Борисович</surname>
+         <surname>Лебедцов</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="БорисВікторовичКолесніков.1962">
       <persName>
          <forename>Борис</forename>
@@ -10513,6 +10840,21 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.reg" role="member" from="2012-12-12" to="2012-12-12"/>
+   </person>
+   <person xml:id="БорисДжонсон">
+      <persName>
+         <forename>Борис</forename>
+         <surname>Джонсон</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="БорисЙосиповичВізіров">
+      <persName>
+         <forename>Борис</forename>
+         <surname type="patronym">Йосипович</surname>
+         <surname>Візіров</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="БорисМиколайовичПудов.1951">
       <persName>
@@ -10776,6 +11118,24 @@
                    ana="#ВРУ.8"/>
       <!--from 2014-11-27 to 2019-08-29: Самовисування-->
    </person>
+   <person xml:id="Брацюнь">
+      <persName>
+         <surname>Брацюнь</surname>
+      </persName>
+   </person>
+   <person xml:id="Брусило">
+      <persName>
+         <surname>Брусило</surname>
+      </persName>
+   </person>
+   <person xml:id="В'ячеславМиколайовичКоломієць">
+      <persName>
+         <forename>В'ячеслав</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Коломієць</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ВадимЄвгеновичІвченко.1980">
       <persName>
          <forename>Вадим</forename>
@@ -10896,6 +11256,22 @@
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.bpp" role="member" from="2014-11-27" to="2014-11-27"/>
+   </person>
+   <person xml:id="ВадимАнатолійовичКарандій">
+      <persName>
+         <forename>Вадим</forename>
+         <surname type="patronym">Анатолійович</surname>
+         <surname>Карандій</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ВадимАнатолійовичТроян">
+      <persName>
+         <forename>Вадим</forename>
+         <surname type="patronym">Анатолійович</surname>
+         <surname>Троян</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ВадимВалентиновичЛитвин.1963">
       <persName>
@@ -11401,6 +11777,11 @@
                    to="2006-05-25"
                    ana="#ВРУ.4"/>
       <!--unknown fraction||фракції Соціал-демократичної партії України (об’єднаної)|2005-07-07|2006-05-25-->
+   </person>
+   <person xml:id="Вакараш">
+      <persName>
+         <surname>Вакараш</surname>
+      </persName>
    </person>
    <person xml:id="ВалентинІвановичЛандик.1946">
       <persName>
@@ -13356,6 +13737,38 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.rp" role="member" from="2017-12-07" to="2017-12-07"/>
    </person>
+   <person xml:id="ВалеріяОлексіївнаГонтарева">
+      <persName>
+         <forename>Валерія</forename>
+         <surname type="patronym">Олексіївна</surname>
+         <surname>Гонтарева</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="ВалеріяОлексіївнаГонтарєва">
+      <persName>
+         <forename>Валерія</forename>
+         <surname type="patronym">Олексіївна</surname>
+         <surname>Гонтарєва</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="ВалеріяРудольфівнаКоломієць">
+      <persName>
+         <forename>Валерія</forename>
+         <surname type="patronym">Рудольфівна</surname>
+         <surname>Коломієць</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ВасилОлександровичШкураков">
+      <persName>
+         <forename>Васил</forename>
+         <surname type="patronym">Олександрович</surname>
+         <surname>Шкураков</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ВасильІвановичЄвтухов.1948">
       <persName>
          <forename>Василь</forename>
@@ -13784,6 +14197,14 @@
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.reg" role="member" from="2010-04-27" to="2010-04-27"/>
    </person>
+   <person xml:id="ВасильВасильовичЛазоришинець">
+      <persName>
+         <forename>Василь</forename>
+         <surname type="patronym">Васильович</surname>
+         <surname>Лазоришинець</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ВасильВасильовичОнопенко.1949">
       <persName>
          <forename>Василь</forename>
@@ -14107,6 +14528,14 @@
                    to="2012-12-12"
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.reg" role="member" from="2007-11-23" to="2007-11-23"/>
+   </person>
+   <person xml:id="ВасильМиколайовичСерватюк">
+      <persName>
+         <forename>Василь</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Серватюк</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ВасильМироновичЛозинський.1986">
       <persName>
@@ -14788,6 +15217,11 @@
                    ana="#ВРУ.4"/>
       <!--unknown fraction||фракції Партії регіонів у Верховній Раді України "Регіони України"|2002-05-14|2006-05-25-->
    </person>
+   <person xml:id="Веремій">
+      <persName>
+         <surname>Веремій</surname>
+      </persName>
+   </person>
    <person xml:id="ВладиславАнатолійовичАтрошенко.1968">
       <persName>
          <forename>Владислав</forename>
@@ -15197,6 +15631,14 @@
                    to="2006-05-25"
                    ana="#ВРУ.4"/>
       <!--unknown fraction||фракції "Партії промисловців і підприємців України"|2002-05-14|2006-05-25-->
+   </person>
+   <person xml:id="ВолодимирІвановичКосюга">
+      <persName>
+         <forename>Володимир</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Косюга</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ВолодимирІвановичЛандік.1949">
       <persName>
@@ -15626,6 +16068,14 @@
                    ana="#ВРУ.4"/>
       <!--from 2002-05-14 to 2006-05-25: Самовисування-->
       <!--unknown fraction||фракції Партії регіонів у Верховній Раді України "Регіони України"|2002-05-14|2006-05-25-->
+   </person>
+   <person xml:id="ВолодимирАнатолійовичМанжосов">
+      <persName>
+         <forename>Володимир</forename>
+         <surname type="patronym">Анатолійович</surname>
+         <surname>Манжосов</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ВолодимирАнатолійовичПехов.1969">
       <persName>
@@ -16750,6 +17200,16 @@
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.reg" role="member" from="2011-02-15" to="2011-02-15"/>
    </person>
+   <person xml:id="ВолодимирГригоровичПерепелюк.1975">
+      <persName>
+         <forename>Володимир</forename>
+         <surname type="patronym">Григорович</surname>
+         <surname>Перепелюк</surname>
+      </persName>
+      <birth when="19 серпня 1975"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/perepelyuk-volodimir-grigorovich.html</idno>
+   </person>
    <person xml:id="ВолодимирГригоровичЯцуба.1947">
       <persName>
          <forename>Володимир</forename>
@@ -17435,6 +17895,14 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.reg" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="ВолодимирМиколайовичМожаровський">
+      <persName>
+         <forename>Володимир</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Можаровський</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ВолодимирМиколайовичНовак.1947">
       <persName>
          <forename>Володимир</forename>
@@ -17911,6 +18379,13 @@
                    to="2005-06-15"
                    ana="#ВРУ.4"/>
    </person>
+   <person xml:id="ВолодимирНікіфоренко">
+      <persName>
+         <forename>Володимир</forename>
+         <surname>Нікіфоренко</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ВолодимирОлександровичЗеленський.1978">
       <persName>
          <forename>Володимир</forename>
@@ -18199,6 +18674,22 @@
       <!--from 2012-12-12 to 2014-11-27: Самовисування-->
       <affiliation ref="#gr.ps" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="ВолодимирПавловичГорбулін">
+      <persName>
+         <forename>Володимир</forename>
+         <surname type="patronym">Павлович</surname>
+         <surname>Горбулін</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ВолодимирПавловичЗвєрєв">
+      <persName>
+         <forename>Володимир</forename>
+         <surname type="patronym">Павлович</surname>
+         <surname>Звєрєв</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ВолодимирПавловичНечипорук.1949">
       <persName>
          <forename>Володимир</forename>
@@ -18217,6 +18708,14 @@
                    ana="#ВРУ.4"/>
       <!--from 2002-05-14 to 2006-05-25: Самовисування-->
       <!--unknown fraction||фракції "Партії промисловців і підприємців України"|2002-05-14|2006-05-25-->
+   </person>
+   <person xml:id="ВолодимирПетровичКрижанівський">
+      <persName>
+         <forename>Володимир</forename>
+         <surname type="patronym">Петрович</surname>
+         <surname>Крижанівський</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ВолодимирПетровичМакієнко.1955">
       <persName>
@@ -18705,6 +19204,14 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.reg" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="ВолодимирСтепановичНікіфоренко">
+      <persName>
+         <forename>Володимир</forename>
+         <surname type="patronym">Степанович</surname>
+         <surname>Нікіфоренко</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ВолодимирСтепановичПродивус.1962">
       <persName>
          <forename>Володимир</forename>
@@ -19007,6 +19514,14 @@
       <!--from 2014-11-27 to 2019-08-29: Самовисування-->
       <affiliation ref="#gr.pvd" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="ВолодимирЮрійовичШульмейстер">
+      <persName>
+         <forename>Володимир</forename>
+         <surname type="patronym">Юрійович</surname>
+         <surname>Шульмейстер</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ВолодимирЯковичМайстришин.1960">
       <persName>
          <forename>Володимир</forename>
@@ -19063,6 +19578,14 @@
                    to="2012-12-12"
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.byut" role="member" from="2007-11-23" to="2007-11-23"/>
+   </person>
+   <person xml:id="ВячеславВасильовичШтучний">
+      <persName>
+         <forename>Вячеслав</forename>
+         <surname type="patronym">Васильович</surname>
+         <surname>Штучний</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ВячеславВолодимировичРубльов.1979">
       <persName>
@@ -19377,6 +19900,14 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.rp" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="ВікторІвановичГвоздь">
+      <persName>
+         <forename>Віктор</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Гвоздь</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ВікторІвановичГубар.1971">
       <persName>
          <forename>Віктор</forename>
@@ -19474,6 +20005,14 @@
       <affiliation ref="#pp.OP" role="represent" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#fr.opzzh" role="member" from="2019-08-29T13:49:17"/>
    </person>
+   <person xml:id="ВікторІгоровичІванкевич">
+      <persName>
+         <forename>Віктор</forename>
+         <surname type="patronym">Ігорович</surname>
+         <surname>Іванкевич</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ВікторАнатолійовичТимошенко.1969">
       <persName>
          <forename>Віктор</forename>
@@ -19502,6 +20041,14 @@
                    ana="#ВРУ.7"/>
       <!--from 2012-12-12 to 2014-11-27: Самовисування-->
       <affiliation ref="#gr.eu" role="member" from="2012-12-12" to="2012-12-12"/>
+   </person>
+   <person xml:id="ВікторАнатолійовичШайтан">
+      <persName>
+         <forename>Віктор</forename>
+         <surname type="patronym">Анатолійович</surname>
+         <surname>Шайтан</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ВікторАндрійовичМироненко.1946">
       <persName>
@@ -19900,6 +20447,16 @@
       <affiliation ref="#pp.OP" role="represent" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#fr.opzzh" role="member" from="2019-08-29T13:49:17"/>
    </person>
+   <person xml:id="ВікторВікторовичІванкевич.1960">
+      <persName>
+         <forename>Віктор</forename>
+         <surname type="patronym">Вікторович</surname>
+         <surname>Іванкевич</surname>
+      </persName>
+      <birth when="1960-10-05"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="wikimedia">https://uk.everybodywiki.com/%D0%86%D0%B2%D0%B0%D0%BD%D0%BA%D0%B5%D0%B2%D0%B8%D1%87_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87</idno>
+   </person>
    <person xml:id="ВікторВікторовичБондаренко.1967">
       <persName>
          <forename>Віктор</forename>
@@ -20264,6 +20821,14 @@
                    from="2016-09-06"
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
+   </person>
+   <person xml:id="ВікторМиколайовичДовган">
+      <persName>
+         <forename>Віктор</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Довган</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ВікторМиколайовичЖеребнюк.1970">
       <persName>
@@ -20964,6 +21529,16 @@
       </affiliation>
       <affiliation ref="#pp.Reg" role="member" from="2010-04-23" to="2014-03-29"/>
    </person>
+   <person xml:id="ВікторіяАнатоліївнаГлущенко.1990">
+      <persName>
+         <forename>Вікторія</forename>
+         <surname type="patronym">Анатоліївна</surname>
+         <surname>Глущенко</surname>
+      </persName>
+      <birth when="1990-10-12"/>
+      <sex value="F"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/glushhenko-viktoriya-anatoliivna.html</idno>
+   </person>
    <person xml:id="ВікторіяВалентинівнаПодгорна.1969">
       <persName>
          <forename>Вікторія</forename>
@@ -21491,6 +22066,26 @@
                    to="2014-06-05"
                    ana="#ВРУ.7"/>
    </person>
+   <person xml:id="ВіталійВолодимировичПлукар.1986">
+      <persName>
+         <forename>Віталій</forename>
+         <surname type="patronym">Володимирович</surname>
+         <surname>Плукар</surname>
+      </persName>
+      <birth when="1986-09-26"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/plukar-vitaliy-volodimirovich.html</idno>
+   </person>
+   <person xml:id="ВіталійВячеславовичГрень.1986">
+      <persName>
+         <forename>Віталій</forename>
+         <surname type="patronym">Вячеславович</surname>
+         <surname>Грень</surname>
+      </persName>
+      <birth when="18 червня 1986"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/gren-vitaliy-vyacheslavovich.html</idno>
+   </person>
    <person xml:id="ВіталійГригоровичЦехмістренко.1965">
       <persName>
          <forename>Віталій</forename>
@@ -21597,6 +22192,14 @@
       <!--from 2014-11-27 to 2019-08-29: Самовисування-->
       <affiliation ref="#gr.pvd" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="ВіталійМиколайовичКузьмишин">
+      <persName>
+         <forename>Віталій</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Кузьмишин</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ВіталійМиколайовичКупрій.1973">
       <persName>
          <forename>Віталій</forename>
@@ -21641,6 +22244,14 @@
                    to="2006-05-25"
                    ana="#ВРУ.4"/>
       <!--unknown fraction||фракції Народної Партії|2002-05-14|2006-05-25-->
+   </person>
+   <person xml:id="ВіталійМиколайовичТрубаров">
+      <persName>
+         <forename>Віталій</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Трубаров</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ВіталійМиколайовичШубін.1982">
       <persName>
@@ -22626,6 +23237,12 @@
                    ana="#ВРУ.5"/>
       <!--unknown fraction||фракції Соціалістичної партії України|2006-05-25|2007-11-23-->
    </person>
+   <person xml:id="Галібаренко-">
+      <persName>
+         <surname>Галібаренко</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="ГаннаІгорівнаНовосад.1990">
       <persName>
          <forename>Ганна</forename>
@@ -22674,6 +23291,14 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
+   </person>
+   <person xml:id="ГаннаВасилівнаФазікош">
+      <persName>
+         <forename>Ганна</forename>
+         <surname type="patronym">Василівна</surname>
+         <surname>Фазікош</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ГаннаВолодимирівнаОнищенко.1984">
       <persName>
@@ -22785,6 +23410,14 @@
                    from="2014-11-27"
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
+   </person>
+   <person xml:id="ГаннаОлександрівнаВронська">
+      <persName>
+         <forename>Ганна</forename>
+         <surname type="patronym">Олександрівна</surname>
+         <surname>Вронська</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ГаннаПетрівнаАнтоньєва.1961">
       <persName>
@@ -23877,6 +24510,14 @@
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.reg" role="member" from="2007-11-23" to="2007-11-23"/>
    </person>
+   <person xml:id="ГригорійГригоровичСоболевський">
+      <persName>
+         <forename>Григорій</forename>
+         <surname type="patronym">Григорович</surname>
+         <surname>Соболевський</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ГригорійМиколайовичКалетнік.1949">
       <persName>
          <forename>Григорій</forename>
@@ -24194,6 +24835,13 @@
                    ana="#ВРУ.4"/>
       <!--unknown fraction||фракції Соціалістичної партії України|2002-05-14|2006-05-25-->
    </person>
+   <person xml:id="ГітанасНаусєда">
+      <persName>
+         <forename>Гітанас</forename>
+         <surname>Наусєда</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ДавидБорисовичМакар’ян.1984">
       <persName>
          <forename>Давид</forename>
@@ -24291,6 +24939,13 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
    </person>
+   <person xml:id="ДавидСакварелідзе">
+      <persName>
+         <forename>Давид</forename>
+         <surname>Сакварелідзе</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ДанилоОлександровичГетманцев.1978">
       <persName>
          <forename>Данило</forename>
@@ -24305,6 +24960,12 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
+   </person>
+   <person xml:id="Данішевська">
+      <persName>
+         <surname>Данішевська</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="Дар’яАртемівнаВолодіна.1991">
       <persName>
@@ -24415,6 +25076,14 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
+   </person>
+   <person xml:id="ДенисВалерійовичУлютін">
+      <persName>
+         <forename>Денис</forename>
+         <surname type="patronym">Валерійович</surname>
+         <surname>Улютін</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ДенисВячеславовичМаслов.1983">
       <persName>
@@ -24585,6 +25254,32 @@
                    ana="#ВРУ.8"/>
       <!--from 2014-11-27 to 2019-08-29: Самовисування-->
       <affiliation ref="#fr.ob" role="member" from="2014-11-27" to="2014-11-27"/>
+   </person>
+   <person xml:id="ДенисЮрійовичАнтонюк">
+      <persName>
+         <forename>Денис</forename>
+         <surname type="patronym">Юрійович</surname>
+         <surname>Антонюк</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Джапарова">
+      <persName>
+         <surname>Джапарова</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="Джигир">
+      <persName>
+         <surname>Джигир</surname>
+      </persName>
+   </person>
+   <person xml:id="ДжоБайден">
+      <persName>
+         <forename>Джо</forename>
+         <surname>Байден</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ДмитроЄвгеновичДобродомов.1977">
       <persName>
@@ -25011,6 +25706,22 @@
                    to="2015-06-04"
                    ana="#ВРУ.8"/>
    </person>
+   <person xml:id="ДмитроВолодимировичДемидович">
+      <persName>
+         <forename>Дмитро</forename>
+         <surname type="patronym">Володимирович</surname>
+         <surname>Демидович</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ДмитроВолодимировичЖуравльов">
+      <persName>
+         <forename>Дмитро</forename>
+         <surname type="patronym">Володимирович</surname>
+         <surname>Журавльов</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ДмитроВолодимировичЛінько.1987">
       <persName>
          <forename>Дмитро</forename>
@@ -25377,6 +26088,22 @@
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.reg" role="member" from="2007-11-23" to="2007-11-23"/>
    </person>
+   <person xml:id="ДмитроМиколайовичПарфененко">
+      <persName>
+         <forename>Дмитро</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Парфененко</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ДмитроМиколайовичТевелів">
+      <persName>
+         <forename>Дмитро</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Тевелів</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ДмитроМихайловичСандлер.1961">
       <persName>
          <forename>Дмитро</forename>
@@ -25427,6 +26154,14 @@
                    to="2012-12-12"
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.reg" role="member" from="2007-11-23" to="2007-11-23"/>
+   </person>
+   <person xml:id="ДмитроМихайловичТевелєв">
+      <persName>
+         <forename>Дмитро</forename>
+         <surname type="patronym">Михайлович</surname>
+         <surname>Тевелєв</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ДмитроОлександровичБілоцерковець.1986">
       <persName>
@@ -25762,6 +26497,13 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
    </person>
+   <person xml:id="ДмитроШимків">
+      <persName>
+         <forename>Дмитро</forename>
+         <surname>Шимків</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ДмитроЮрійовичШпенов.1978">
       <persName>
          <forename>Дмитро</forename>
@@ -25813,6 +26555,23 @@
       <affiliation ref="#fr.ob" role="member" from="2014-11-27" to="2014-11-27"/>
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
+   </person>
+   <person xml:id="Дубовик">
+      <persName>
+         <surname>Дубовик</surname>
+      </persName>
+   </person>
+   <person xml:id="Дукар">
+      <persName>
+         <surname>Дукар</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Дєєва">
+      <persName>
+         <surname>Дєєва</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ЕдуардІвановичПавленко.1947">
       <persName>
@@ -26096,6 +26855,13 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
    </person>
+   <person xml:id="ЕкаЗгуладзе">
+      <persName>
+         <forename>Ека</forename>
+         <surname>Згуладзе</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="ЕллаАнатоліївнаРєпіна.1973">
       <persName>
          <forename>Елла</forename>
@@ -26185,6 +26951,13 @@
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.byut" role="member" from="2007-11-23" to="2007-11-23"/>
    </person>
+   <person xml:id="ЕмануелісЗінгяріас">
+      <persName>
+         <forename>Емануеліс</forename>
+         <surname>Зінгяріас</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЕнверОмаровичЦкітішвілі.1961">
       <persName>
          <forename>Енвер</forename>
@@ -26245,6 +27018,30 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
    </person>
+   <person xml:id="ЖерарЛарше">
+      <persName>
+         <forename>Жерар</forename>
+         <surname>Ларше</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Закопець">
+      <persName>
+         <surname>Закопець</surname>
+      </persName>
+   </person>
+   <person xml:id="Замана">
+      <persName>
+         <surname>Замана</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Замлинський">
+      <persName>
+         <surname>Замлинський</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЗаремаГафарівнаКатушева.1954">
       <persName>
          <forename>Зарема</forename>
@@ -26267,6 +27064,32 @@
                    to="2006-05-25"
                    ana="#ВРУ.4"/>
       <affiliation ref="#fr.kpu" role="member" from="2002-05-14" to="2002-05-14"/>
+   </person>
+   <person xml:id="Захаров">
+      <persName>
+         <surname>Захаров</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Згуладзе">
+      <persName>
+         <surname>Згуладзе</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="Згуладзе-Глуксманн">
+      <persName>
+         <surname>Згуладзе-Глуксманн</surname>
+      </persName>
+      <persName>
+         <surname>Згуладзе-Глуксманн</surname>
+      </persName>
+   </person>
+   <person xml:id="Зеркаль">
+      <persName>
+         <surname>Зеркаль</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ЗлатаЛеонідівнаОгнєвіч.1986">
       <persName>
@@ -26350,6 +27173,18 @@
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.byut" role="member" from="2007-11-23" to="2007-11-23"/>
    </person>
+   <person xml:id="ЗузанаЧапутова">
+      <persName>
+         <forename>Зузана</forename>
+         <surname>Чапутова</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="Зюков">
+      <persName>
+         <surname>Зюков</surname>
+      </persName>
+   </person>
    <person xml:id="ЗіновійВасильовичШкутяк.1948">
       <persName>
          <forename>Зіновій</forename>
@@ -26406,6 +27241,13 @@
       <!--from 2019-08-29 to 2020-11-17: Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
    </person>
+   <person xml:id="ЙонасЛесіс">
+      <persName>
+         <forename>Йонас</forename>
+         <surname>Лесіс</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЙосипВікентійовичВінський.1956">
       <persName>
          <forename>Йосип</forename>
@@ -26456,6 +27298,20 @@
                    to="2007-12-19"
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.byut" role="member" from="2007-11-23" to="2007-11-23"/>
+   </person>
+   <person xml:id="Карандєєв">
+      <persName>
+         <surname>Карандєєв</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="КатеринаЄвгенівнаЧуєва">
+      <persName>
+         <forename>Катерина</forename>
+         <surname type="patronym">Євгенівна</surname>
+         <surname>Чуєва</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="КатеринаЄвгеніївнаЛук’янова.1969">
       <persName>
@@ -26683,6 +27539,22 @@
                    to="2012-12-12"
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.nuns" role="member" from="2007-11-23" to="2007-11-23"/>
+   </person>
+   <person xml:id="Ковтунець">
+      <persName>
+         <surname>Ковтунець</surname>
+      </persName>
+   </person>
+   <person xml:id="Коморовський">
+      <persName>
+         <surname>Коморовський</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Корзун">
+      <persName>
+         <surname>Корзун</surname>
+      </persName>
    </person>
    <person xml:id="КостянтинЄвгеновичІщейкін.1975">
       <persName>
@@ -27028,6 +27900,18 @@
                    ana="#ВРУ.8"/>
       <!--from 2014-11-27 to 2019-08-29: Самовисування-->
       <affiliation ref="#fr.ob" role="member" from="2014-11-27" to="2014-11-27"/>
+   </person>
+   <person xml:id="Крапівницька">
+      <persName>
+         <surname>Крапівницька</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="Красносільська">
+      <persName>
+         <surname>Красносільська</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="КсеніяМихайлівнаЛяпіна.1964">
       <persName>
@@ -27423,6 +28307,14 @@
                    ana="#ВРУ.5"/>
       <affiliation ref="#fr.byut" role="member" from="2006-05-25" to="2006-05-25"/>
    </person>
+   <person xml:id="ЛеонтійМиколайовичШипілов">
+      <persName>
+         <forename>Леонтій</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Шипілов</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЛеонтійСвятославовичМартинюк.1971">
       <persName>
          <forename>Леонтій</forename>
@@ -27647,6 +28539,14 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
       <affiliation ref="#gr.eu" role="member" from="2012-12-12" to="2012-12-12"/>
+   </person>
+   <person xml:id="ЛеонідДаниловичКучма">
+      <persName>
+         <forename>Леонід</forename>
+         <surname type="patronym">Данилович</surname>
+         <surname>Кучма</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ЛеонідКостянтиновичКаденюк.1951">
       <persName>
@@ -27918,14 +28818,15 @@
       <!--from 2002-05-14 to 2006-05-25: Самовисування-->
       <affiliation ref="#fr.nu02" role="member" from="2002-05-14" to="2002-05-14"/>
    </person>
-   <person xml:id="ЛеонідОлександровичЄвдоченко">
+   <person xml:id="ЛеонідОлександровичЄвдоченко.1971">
       <persName>
          <forename>Леонід</forename>
          <surname type="patronym">Олександрович</surname>
          <surname>Євдоченко</surname>
       </persName>
+      <birth when="1971-06-11"/>
       <sex value="M"/>
-      <idno type="URI" subtype="personal">TEST</idno>
+      <idno type="URI" subtype="wikimedia">https://uk.wikipedia.org/wiki/%D0%84%D0%B2%D0%B4%D0%BE%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87</idno>
    </person>
    <person xml:id="ЛеонідОлександровичЄмець.1979">
       <persName>
@@ -28286,6 +29187,17 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.but" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="Лузан">
+      <persName>
+         <surname>Лузан</surname>
+      </persName>
+   </person>
+   <person xml:id="Лутковська">
+      <persName>
+         <surname>Лутковська</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="ЛюбовВолодимирівнаСтасів.1962">
       <persName>
          <forename>Любов</forename>
@@ -28594,6 +29506,14 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.but" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="ЛідіяМиколаївнаДроздова">
+      <persName>
+         <forename>Лідія</forename>
+         <surname type="patronym">Миколаївна</surname>
+         <surname>Дроздова</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="ЛіліяМихайлівнаГриневич.1965">
       <persName>
          <forename>Лілія</forename>
@@ -28697,6 +29617,40 @@
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.nuns" role="member" from="2007-11-23" to="2007-11-23"/>
    </person>
+   <person xml:id="ЛінаДешвар">
+      <persName>
+         <forename>Ліна</forename>
+         <surname>Дешвар</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="Лінчевський">
+      <persName>
+         <surname>Лінчевський</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Лісневська">
+      <persName>
+         <surname>Лісневська</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="Лісовенко">
+      <persName>
+         <surname>Лісовенко</surname>
+      </persName>
+      <persName>
+         <surname>Лісовенко</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Макеєва">
+      <persName>
+         <surname>Макеєва</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="МаксимЄвгеновичДирдін.1982">
       <persName>
          <forename>Максим</forename>
@@ -28712,6 +29666,14 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
    </person>
+   <person xml:id="МаксимЄвгеновичНефьодов">
+      <persName>
+         <forename>Максим</forename>
+         <surname type="patronym">Євгенович</surname>
+         <surname>Нефьодов</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="МаксимІгоровичПашковський.1983">
       <persName>
          <forename>Максим</forename>
@@ -28726,6 +29688,14 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
+   </person>
+   <person xml:id="МаксимАнатолійовичМалашкін">
+      <persName>
+         <forename>Максим</forename>
+         <surname type="patronym">Анатолійович</surname>
+         <surname>Малашкін</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="МаксимАнатолійовичПоляков.1982">
       <persName>
@@ -28920,6 +29890,14 @@
       <affiliation ref="#pp.ES" role="represent" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#fr.es" role="member" from="2019-08-29T13:51:59"/>
    </person>
+   <person xml:id="МаксимВіталійовичСтріха">
+      <persName>
+         <forename>Максим</forename>
+         <surname type="patronym">Віталійович</surname>
+         <surname>Стріха</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="МаксимГеоргійовичЛуцький.1976">
       <persName>
          <forename>Максим</forename>
@@ -28971,6 +29949,14 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#pp.SN" role="represent" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
+   </person>
+   <person xml:id="МаксимМиколайовичХлапук">
+      <persName>
+         <forename>Максим</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Хлапук</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="МаксимПавловичКурячий.1979">
       <persName>
@@ -29188,6 +30174,13 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
    </person>
+   <person xml:id="МаркРютте">
+      <persName>
+         <forename>Марк</forename>
+         <surname>Рютте</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="МаркіянРомановичЛопачак.1980">
       <persName>
          <forename>Маркіян</forename>
@@ -29210,6 +30203,13 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.sv" role="member" from="2014-03-25" to="2014-03-25"/>
+   </person>
+   <person xml:id="МартінШульц">
+      <persName>
+         <forename>Мартін</forename>
+         <surname>Шульц</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="МаріяАндріївнаМаркуш.1955">
       <persName>
@@ -29359,6 +30359,18 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29"/>
    </person>
+   <person xml:id="МеттеФредеріксен">
+      <persName>
+         <forename>Метте</forename>
+         <surname>Фредеріксен</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Мехед">
+      <persName>
+         <surname>Мехед</surname>
+      </persName>
+   </person>
    <person xml:id="МикитаРуслановичПотураєв.1970">
       <persName>
          <forename>Микита</forename>
@@ -29373,6 +30385,22 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
+   </person>
+   <person xml:id="МиколІвановичСірий">
+      <persName>
+         <forename>Микол</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Сірий</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="МиколІвановичШамбір">
+      <persName>
+         <forename>Микол</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Шамбір</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="МиколаЄвгенійовичЯкименко.1958">
       <persName>
@@ -30094,6 +31122,14 @@
                    to="2011-02-04"
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.reg" role="member" from="2007-11-23" to="2007-11-23"/>
+   </person>
+   <person xml:id="МиколаВолодимировичЛюбинецький">
+      <persName>
+         <forename>Микола</forename>
+         <surname type="patronym">Володимирович</surname>
+         <surname>Любинецький</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="МиколаВолодимировичЛюшняк.1974">
       <persName>
@@ -30926,6 +31962,14 @@
                    ana="#ВРУ.4"/>
       <!--unknown fraction||фракції Партії регіонів у Верховній Раді України "Регіони України"|2002-05-14|2006-05-25-->
    </person>
+   <person xml:id="МиколаМихайловичСтеблинський">
+      <persName>
+         <forename>Микола</forename>
+         <surname type="patronym">Михайлович</surname>
+         <surname>Стеблинський</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="МиколаМихайловичТимошенко.1958">
       <persName>
          <forename>Микола</forename>
@@ -31054,6 +32098,14 @@
                    to="2012-12-12"
                    ana="#ВРУ.6"/>
       <!--unknown fraction||фракції Народної Партії у Верховній Раді України|2007-11-23|2012-12-12-->
+   </person>
+   <person xml:id="МиколаОлександровичКизим">
+      <persName>
+         <forename>Микола</forename>
+         <surname type="patronym">Олександрович</surname>
+         <surname>Кизим</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="МиколаОлександровичКириченко.1983">
       <persName>
@@ -31567,6 +32619,14 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
    </person>
+   <person xml:id="МиколаСтаніславовичТочицький">
+      <persName>
+         <forename>Микола</forename>
+         <surname type="patronym">Станіславович</surname>
+         <surname>Точицький</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="МиколаСтепановичКомар.1945">
       <persName>
          <forename>Микола</forename>
@@ -31814,6 +32874,13 @@
                    to="2012-12-12"
                    ana="#ВРУ.6"/>
       <!--unknown fraction||фракції Народної Партії у Верховній Раді України|2007-11-23|2012-12-12-->
+   </person>
+   <person xml:id="МиколаЧечеткін">
+      <persName>
+         <forename>Микола</forename>
+         <surname>Чечеткін</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="МиколаЯковичСидоренко.1947">
       <persName>
@@ -32080,6 +33147,14 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#gr.ed" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="МихайлоІвановичТітарчук">
+      <persName>
+         <forename>Михайло</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Тітарчук</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="МихайлоАльбертовичФедоров.1991">
       <persName>
          <forename>Михайло</forename>
@@ -32250,6 +33325,14 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.sv" role="member" from="2012-12-12" to="2012-12-12"/>
+   </person>
+   <person xml:id="МихайлоВасильовичБолотських">
+      <persName>
+         <forename>Михайло</forename>
+         <surname type="patronym">Васильович</surname>
+         <surname>Болотських</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="МихайлоВасильовичГладій.1952">
       <persName>
@@ -32699,6 +33782,14 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.es" role="member" from="2019-08-29T13:51:59"/>
+   </person>
+   <person xml:id="МихайлоГеоргійовичВербенський">
+      <persName>
+         <forename>Михайло</forename>
+         <surname type="patronym">Георгійович</surname>
+         <surname>Вербенський</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="МихайлоДмитровичСирота.1956">
       <persName>
@@ -33314,6 +34405,21 @@
                    ana="#ВРУ.4"/>
       <!--unknown fraction||групи Народного блоку Литвина|2002-05-14|2006-05-25-->
    </person>
+   <person xml:id="МихайлоОхендовський">
+      <persName>
+         <forename>Михайло</forename>
+         <surname>Охендовський</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="МихайлоХазреталійовичГашев">
+      <persName>
+         <forename>Михайло</forename>
+         <surname type="patronym">Хазреталійович</surname>
+         <surname>Гашев</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="МихайлоЯковичВолинець.1956">
       <persName>
          <forename>Михайло</forename>
@@ -33429,6 +34535,13 @@
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
    </person>
+   <person xml:id="МустафаДжемілєв">
+      <persName>
+         <forename>Мустафа</forename>
+         <surname>Джемілєв</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="МустафаДжемілєв.1943">
       <persName>
          <forename>Мустафа</forename>
@@ -33514,6 +34627,20 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.es" role="member" from="2019-08-29T13:51:59"/>
    </person>
+   <person xml:id="МюкремінШахін">
+      <persName>
+         <forename>Мюкремін</forename>
+         <surname>Шахін</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="МілошВистрчіл">
+      <persName>
+         <forename>Мілош</forename>
+         <surname>Вистрчіл</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="НадіяВікторівнаСавченко.1981">
       <persName>
          <forename>Надія</forename>
@@ -33536,6 +34663,29 @@
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
    </person>
+   <person xml:id="НадіяМихайлівнаСольона">
+      <persName>
+         <forename>Надія</forename>
+         <surname type="patronym">Михайлівна</surname>
+         <surname>Сольона</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="НазарІвановичХолодницький">
+      <persName>
+         <forename>Назар</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Холодницький</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="НайджелБраун">
+      <persName>
+         <forename>Найджел</forename>
+         <surname>Браун</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="НаталіяІгорівнаПриходько.1981">
       <persName>
          <forename>Наталія</forename>
@@ -33550,6 +34700,14 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#pp.OP" role="represent" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#fr.opzzh" role="member" from="2019-08-29T13:49:17"/>
+   </person>
+   <person xml:id="НаталіяІларіонівнаСевастьянова">
+      <persName>
+         <forename>Наталія</forename>
+         <surname type="patronym">Іларіонівна</surname>
+         <surname>Севастьянова</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="НаталіяАрсентіївнаГорбенко.1955">
       <persName>
@@ -33573,6 +34731,21 @@
                    to="2007-11-23"
                    ana="#ВРУ.5"/>
       <affiliation ref="#fr.reg" role="member" from="2007-03-20" to="2007-03-20"/>
+   </person>
+   <person xml:id="НаталіяБернацька">
+      <persName>
+         <forename>Наталія</forename>
+         <surname>Бернацька</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="НаталіяВалеріївнаФорсюк">
+      <persName>
+         <forename>Наталія</forename>
+         <surname type="patronym">Валеріївна</surname>
+         <surname>Форсюк</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="НаталіяВасилівнаВеселова.1975">
       <persName>
@@ -33656,6 +34829,15 @@
                    ana="#ВРУ.5"/>
       <affiliation ref="#fr.nu06" role="member" from="2006-05-25" to="2006-05-25"/>
    </person>
+   <person xml:id="НаталіяВолодимирівнаАгафонова.1977">
+      <persName>
+         <forename>Наталія</forename>
+         <surname type="patronym">Володимирівна</surname>
+         <surname>Агафонова</surname>
+      </persName>
+      <birth when="1977-09-19"/>
+      <sex value="F"/>
+   </person>
    <person xml:id="НаталіяВолодимирівнаКацер-Бучковська.1983">
       <persName>
          <forename>Наталія</forename>
@@ -33738,6 +34920,56 @@
                    to="2007-06-08"
                    ana="#ВРУ.5"/>
       <affiliation ref="#fr.nu06" role="member" from="2006-05-25" to="2006-05-25"/>
+   </person>
+   <person xml:id="НаталіяВолодимирівнаФедорович">
+      <persName>
+         <forename>Наталія</forename>
+         <surname type="patronym">Володимирівна</surname>
+         <surname>Федорович</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="НаталіяВолодимирівнаХоцянівська">
+      <persName>
+         <forename>Наталія</forename>
+         <surname type="patronym">Володимирівна</surname>
+         <surname>Хоцянівська</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="НаталіяВікторівнаКозловська">
+      <persName>
+         <forename>Наталія</forename>
+         <surname type="patronym">Вікторівна</surname>
+         <surname>Козловська</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="НаталіяКостянтинівнаШаптала">
+      <persName>
+         <forename>Наталія</forename>
+         <surname type="patronym">Костянтинівна</surname>
+         <surname>Шаптала</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="НаталіяОлександрівнаАлюшина.1970">
+      <persName>
+         <forename>Наталія</forename>
+         <surname type="patronym">Олександрівна</surname>
+         <surname>Алюшина</surname>
+      </persName>
+      <birth when="1970-06-24"/>
+      <sex value="F"/>
+      <idno type="URI" subtype="personal">https://nads.gov.ua/persons/nataliya-alyushina</idno>
+   </person>
+   <person xml:id="НаталіяОлександрівнаВолковицька">
+      <persName>
+         <forename>Наталія</forename>
+         <surname type="patronym">Олександрівна</surname>
+         <surname>Волковицька</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="НаталіяРоманівнаПіпа.1983">
       <persName>
@@ -33850,6 +35082,14 @@
                    from="2014-12-02"
                    ana="#GOV.UA.2stYatseniuk"/>
    </person>
+   <person xml:id="НаталіяЯрославівнаМикольська">
+      <persName>
+         <forename>Наталія</forename>
+         <surname type="patronym">Ярославівна</surname>
+         <surname>Микольська</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="НвєрМнацакановичМхітарян.1960">
       <persName>
          <forename>Нвєр</forename>
@@ -33900,6 +35140,12 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
       <affiliation ref="#gr.ed" role="member" from="2012-12-12" to="2012-12-12"/>
+   </person>
+   <person xml:id="Негода">
+      <persName>
+         <surname>Негода</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="НелліІллівнаЯковлєва.1985">
       <persName>
@@ -34170,6 +35416,16 @@
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.rp" role="member" from="2014-11-27" to="2014-11-27"/>
+   </person>
+   <person xml:id="ОксанаБорисівнаБоярчук.1979">
+      <persName>
+         <forename>Оксана</forename>
+         <surname type="patronym">Борисівна</surname>
+         <surname>Боярчук</surname>
+      </persName>
+      <birth when="1979-11-26"/>
+      <sex value="F"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/boyarchuk-oksana-borisivna.html</idno>
    </person>
    <person xml:id="ОксанаВасилівнаКоляда.1980">
       <persName>
@@ -35699,6 +36955,24 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.bpp" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="ОлегМиколайовичДіденко.1980">
+      <persName>
+         <forename>Олег</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Діденко</surname>
+      </persName>
+      <birth when="1980-05-08"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/didenko-oleg-mikolayovich.html</idno>
+   </person>
+   <person xml:id="ОлегМиколайовичКонопольський">
+      <persName>
+         <forename>Олег</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Конопольський</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ОлегМиколайовичНемчінов.1977">
       <persName>
          <forename>Олег</forename>
@@ -37017,6 +38291,14 @@
       <affiliation ref="#pp.Kray" role="represent" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#fr.opzzh" role="member" from="2019-08-29T13:49:17"/>
    </person>
+   <person xml:id="ОлександрВ'ячеславовичКурдінович">
+      <persName>
+         <forename>Олександр</forename>
+         <surname type="patronym">В'ячеславович</surname>
+         <surname>Курдінович</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ОлександрВалентиновичТурчинов.1964">
       <persName>
          <forename>Олександр</forename>
@@ -37386,6 +38668,22 @@
                    ana="#ВРУ.5"/>
       <affiliation ref="#fr.reg" role="member" from="2006-05-25" to="2006-05-25"/>
    </person>
+   <person xml:id="ОлександрВасильовичКорнейко">
+      <persName>
+         <forename>Олександр</forename>
+         <surname type="patronym">Васильович</surname>
+         <surname>Корнейко</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ОлександрВасильовичКраснолуцький">
+      <persName>
+         <forename>Олександр</forename>
+         <surname type="patronym">Васильович</surname>
+         <surname>Краснолуцький</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ОлександрВасильовичРевега.1966">
       <persName>
          <forename>Олександр</forename>
@@ -37605,6 +38903,22 @@
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.bpp" role="member" from="2014-11-27" to="2014-11-27"/>
+   </person>
+   <person xml:id="ОлександрВолодимировичДублян">
+      <persName>
+         <forename>Олександр</forename>
+         <surname type="patronym">Володимирович</surname>
+         <surname>Дублян</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ОлександрВолодимировичКасмінін">
+      <persName>
+         <forename>Олександр</forename>
+         <surname type="patronym">Володимирович</surname>
+         <surname>Касмінін</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ОлександрВолодимировичКисельов.1953">
       <persName>
@@ -37936,6 +39250,14 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.bpp" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="ОлександрВолодимировичШелест">
+      <persName>
+         <forename>Олександр</forename>
+         <surname type="patronym">Володимирович</surname>
+         <surname>Шелест</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ОлександрВікторовичЗадорожній.1960">
       <persName>
          <forename>Олександр</forename>
@@ -38059,6 +39381,14 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.nf" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="ОлександрВікторовичРоманішин">
+      <persName>
+         <forename>Олександр</forename>
+         <surname type="patronym">Вікторович</surname>
+         <surname>Романішин</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ОлександрВікторовичФомін.1963">
       <persName>
          <forename>Олександр</forename>
@@ -38146,6 +39476,14 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.but" role="member" from="2012-12-12" to="2012-12-12"/>
+   </person>
+   <person xml:id="ОлександрВіталійовичПривалов">
+      <persName>
+         <forename>Олександр</forename>
+         <surname type="patronym">Віталійович</surname>
+         <surname>Привалов</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ОлександрВіталійовичШлапак.1960">
       <persName>
@@ -39610,6 +40948,14 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.sv" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="ОлександрОлеговичКомаріда">
+      <persName>
+         <forename>Олександр</forename>
+         <surname type="patronym">Олегович</surname>
+         <surname>Комаріда</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ОлександрОлеговичКравцов.1963">
       <persName>
          <forename>Олександр</forename>
@@ -40447,6 +41793,13 @@
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.reg" role="member" from="2010-04-27" to="2010-04-27"/>
    </person>
+   <person xml:id="ОлександрСветелік">
+      <persName>
+         <forename>Олександр</forename>
+         <surname>Светелік</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ОлександрСеменовичПресман.1961">
       <persName>
          <forename>Олександр</forename>
@@ -40761,6 +42114,14 @@
                    ana="#ВРУ.4"/>
       <!--unknown fraction||фракції Народного Руху України|2005-04-05|2006-05-25-->
    </person>
+   <person xml:id="ОлександрСергійовичУдовиченко">
+      <persName>
+         <forename>Олександр</forename>
+         <surname type="patronym">Сергійович</surname>
+         <surname>Удовиченко</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ОлександрСталіноленовичКачний.1968">
       <persName>
          <forename>Олександр</forename>
@@ -41044,6 +42405,16 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.but" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="ОлександраОлександрівнаКармаза.1972">
+      <persName>
+         <forename>Олександра</forename>
+         <surname type="patronym">Олександрівна</surname>
+         <surname>Кармаза</surname>
+      </persName>
+      <birth when="8 листопада 1972"/>
+      <sex value="F"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/karmaza-oleksandra-oleksandrivna.html</idno>
+   </person>
    <person xml:id="ОлександраСергіївнаПавленко.1982">
       <persName>
          <forename>Олександра</forename>
@@ -41066,6 +42437,13 @@
                    from="2016-04-14"
                    to="2016-04-27"
                    ana="#GOV.UA.Hroisman #acting"/>
+   </person>
+   <person xml:id="ОлександраЧуркіна">
+      <persName>
+         <forename>Олександра</forename>
+         <surname>Чуркіна</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ОлександраЮріївнаУстінова.1985">
       <persName>
@@ -41465,6 +42843,14 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
    </person>
+   <person xml:id="ОлексійВолодимировичМаловацький">
+      <persName>
+         <forename>Олексій</forename>
+         <surname type="patronym">Володимирович</surname>
+         <surname>Маловацький</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ОлексійВіталійовичПлотніков.1965">
       <persName>
          <forename>Олексій</forename>
@@ -41537,6 +42923,13 @@
                    to="2007-06-08"
                    ana="#ВРУ.5"/>
       <affiliation ref="#fr.nu06" role="member" from="2006-05-25" to="2006-05-25"/>
+   </person>
+   <person xml:id="ОлексійКудрявцев">
+      <persName>
+         <forename>Олексій</forename>
+         <surname>Кудрявцев</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ОлексійЛеонідовичФедун.1962">
       <persName>
@@ -42182,6 +43575,14 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
    </person>
+   <person xml:id="ОлексійСергійовичОрловський">
+      <persName>
+         <forename>Олексій</forename>
+         <surname type="patronym">Сергійович</surname>
+         <surname>Орловський</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ОлексійСтепановичЛогвиненко.1955">
       <persName>
          <forename>Олексій</forename>
@@ -42451,6 +43852,14 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.reg" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="ОленаАнатоліївнаМиколайчук">
+      <persName>
+         <forename>Олена</forename>
+         <surname type="patronym">Анатоліївна</surname>
+         <surname>Миколайчук</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="ОленаАнатоліївнаНетецька.1972">
       <persName>
          <forename>Олена</forename>
@@ -42524,6 +43933,23 @@
                    to="2007-11-23"
                    ana="#ВРУ.5"/>
       <affiliation ref="#fr.byut" role="member" from="2006-05-25" to="2006-05-25"/>
+   </person>
+   <person xml:id="ОленаАухатівнаГатаулліна.1982">
+      <persName>
+         <forename>Олена</forename>
+         <surname type="patronym">Аухатівна</surname>
+         <surname>Гатаулліна</surname>
+      </persName>
+      <birth when="28 липня 1982"/>
+      <sex value="F"/>
+   </person>
+   <person xml:id="ОленаВалеріївнСукманова">
+      <persName>
+         <forename>Олена</forename>
+         <surname type="patronym">Валеріївн</surname>
+         <surname>Сукманова</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ОленаВалеріївнаКолганова.1969">
       <persName>
@@ -43377,6 +44803,14 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
    </person>
+   <person xml:id="ОльгаМиколаївнаЖелтова">
+      <persName>
+         <forename>Ольга</forename>
+         <surname type="patronym">Миколаївна</surname>
+         <surname>Желтова</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="ОльгаМирославівнаСікора.1961">
       <persName>
          <forename>Ольга</forename>
@@ -43437,6 +44871,14 @@
                    to="2006-05-25"
                    ana="#ВРУ.4"/>
       <affiliation ref="#fr.kpu" role="member" from="2002-05-14" to="2002-05-14"/>
+   </person>
+   <person xml:id="ОльгаПетрівнаКрентовська">
+      <persName>
+         <forename>Ольга</forename>
+         <surname type="patronym">Петрівна</surname>
+         <surname>Крентовська</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ОльгаСеменівнаКобець.1948">
       <persName>
@@ -43713,6 +45155,12 @@
                    ana="#GOV.UA.Hroisman"/>
       <affiliation ref="#pp.PRP" role="member" from="1997" to="2013"/>
       <affiliation ref="#pp.NF" role="member" from="2014-10-26"/>
+   </person>
+   <person xml:id="Остріков">
+      <persName>
+         <surname>Остріков</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ПавлоІвановичБалога.1977">
       <persName>
@@ -44239,6 +45687,14 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
    </person>
+   <person xml:id="ПавлоВікторовичХодаковський">
+      <persName>
+         <forename>Павло</forename>
+         <surname type="patronym">Вікторович</surname>
+         <surname>Ходаковський</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ПавлоВіталійовичХалімон.1983">
       <persName>
          <forename>Павло</forename>
@@ -44268,6 +45724,14 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
+   </person>
+   <person xml:id="ПавлоГенріховичКозирєв">
+      <persName>
+         <forename>Павло</forename>
+         <surname type="patronym">Генріхович</surname>
+         <surname>Козирєв</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ПавлоГнатовичСулковський.1953">
       <persName>
@@ -44397,6 +45861,13 @@
       <affiliation ref="#pp.NF" role="member" from="2014-10-26"/>
       <affiliation ref="#pp.USH" role="nominated" from="2019"/>
    </person>
+   <person xml:id="ПавлоКовтонюк">
+      <persName>
+         <forename>Павло</forename>
+         <surname>Ковтонюк</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ПавлоМиколайовичІгнатенко.1973">
       <persName>
          <forename>Павло</forename>
@@ -44456,6 +45927,14 @@
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.reg" role="member" from="2007-11-23" to="2007-11-23"/>
    </person>
+   <person xml:id="ПавлоМиколайовичГречківський">
+      <persName>
+         <forename>Павло</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Гречківський</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ПавлоМиколайовичКишкар.1980">
       <persName>
          <forename>Павло</forename>
@@ -44477,6 +45956,16 @@
                    from="2014-11-27"
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
+   </person>
+   <person xml:id="ПавлоМиколайовичЛюбченко.1967">
+      <persName>
+         <forename>Павло</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Любченко</surname>
+      </persName>
+      <birth when="1967-07-17"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/lyubchenko-pavlo-mikolayovich.html</idno>
    </person>
    <person xml:id="ПавлоМиколайовичСушко.1979">
       <persName>
@@ -44723,6 +46212,14 @@
                    to="2005-10-06"
                    ana="#ВРУ.4"/>
    </person>
+   <person xml:id="ПавлоФедоровичСкутельник">
+      <persName>
+         <forename>Павло</forename>
+         <surname type="patronym">Федорович</surname>
+         <surname>Скутельник</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ПавлоЯкимовичУнгурян.1979">
       <persName>
          <forename>Павло</forename>
@@ -44759,6 +46256,34 @@
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.nf" role="member" from="2014-11-27" to="2014-11-27"/>
+   </person>
+   <person xml:id="ПаолоАллі">
+      <persName>
+         <forename>Паоло</forename>
+         <surname>Аллі</surname>
+      </persName>
+      <sex value="0"/>
+   </person>
+   <person xml:id="Пауль-ФранцовичПшенічка">
+      <persName>
+         <forename>Пауль</forename>
+         <surname type="patronym">Францович</surname>
+         <surname>Пшенічка</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ПаулюсСаударгас">
+      <persName>
+         <forename>Паулюс</forename>
+         <surname>Саударгас</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Перевезенцев">
+      <persName>
+         <surname>Перевезенцев</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ПетроІвановичПавловський.1981">
       <persName>
@@ -45516,6 +47041,18 @@
                    ana="#ВРУ.4"/>
       <affiliation ref="#fr.kpu" role="member" from="2002-05-14" to="2002-05-14"/>
    </person>
+   <person xml:id="Прохоренко">
+      <persName>
+         <surname>Прохоренко</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Піщанська">
+      <persName>
+         <surname>Піщанська</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="РавільСафовичСафіуллін.1955">
       <persName>
          <forename>Равіль</forename>
@@ -45599,6 +47136,12 @@
          <roleName xml:lang="en">member of the Political Council of the Party of Regions</roleName>
       </affiliation>
       <affiliation ref="#pp.Reg" role="member"/>
+   </person>
+   <person xml:id="Радутний">
+      <persName>
+         <surname>Радутний</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="РаїсаВасилівнаБогатирьова.1953">
       <persName>
@@ -45716,6 +47259,14 @@
                    ana="#ВРУ.6"/>
       <!--unknown fraction||групи "Реформи заради майбутнього" у Верховній Раді України|2007-11-23|2012-12-12-->
    </person>
+   <person xml:id="РаїсаОлександрівнаМоісеєнко">
+      <persName>
+         <forename>Раїса</forename>
+         <surname type="patronym">Олександрівна</surname>
+         <surname>Моісеєнко</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="РенатРавелійовичКузьмін.1967">
       <persName>
          <forename>Ренат</forename>
@@ -45782,6 +47333,20 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.bpp" role="member" from="2015-05-15" to="2015-05-15"/>
    </person>
+   <person xml:id="РефатЧубаров">
+      <persName>
+         <forename>Рефат</forename>
+         <surname>Чубаров</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="РишардТерлецький">
+      <persName>
+         <forename>Ришард</forename>
+         <surname>Терлецький</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="РобертІвановичГорват.1969">
       <persName>
          <forename>Роберт</forename>
@@ -45810,6 +47375,26 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#gr.dvr" role="member" from="2019-12-06T10:10:00"/>
+   </person>
+   <person xml:id="РобертХантер">
+      <persName>
+         <forename>Роберт</forename>
+         <surname>Хантер</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="РобертаМецола">
+      <persName>
+         <forename>Роберта</forename>
+         <surname>Мецола</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="Рогова">
+      <persName>
+         <surname>Рогова</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="РоксоланаАндріївнаПідласа.1994">
       <persName>
@@ -46071,6 +47656,14 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
+   </person>
+   <person xml:id="РоманМихайловичБогачев">
+      <persName>
+         <forename>Роман</forename>
+         <surname type="patronym">Михайлович</surname>
+         <surname>Богачев</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="РоманМихайловичЗварич.1953">
       <persName>
@@ -46379,6 +47972,14 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.sp" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="РоманСергійовичШахматенко">
+      <persName>
+         <forename>Роман</forename>
+         <surname type="patronym">Сергійович</surname>
+         <surname>Шахматенко</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="РоманСтепановичВанзуряк.1980">
       <persName>
          <forename>Роман</forename>
@@ -46423,6 +48024,12 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.ud" role="member" from="2012-12-12" to="2012-12-12"/>
+   </person>
+   <person xml:id="Роменський">
+      <persName>
+         <surname>Роменський</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="РостиславМиколайовичПавленко.1976">
       <persName>
@@ -47034,6 +48641,25 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.hol" role="member" from="2019-08-29T13:46:41"/>
    </person>
+   <person xml:id="Рутицька">
+      <persName>
+         <surname>Рутицька</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="Рябошапка">
+      <persName>
+         <surname>Рябошапка</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="РікардуБешіга">
+      <persName>
+         <forename>Рікарду</forename>
+         <surname>Бешіга</surname>
+      </persName>
+      <sex value="0"/>
+   </person>
    <person xml:id="РінатЛеонідовичАхметов.1966">
       <persName>
          <forename>Рінат</forename>
@@ -47070,6 +48696,13 @@
                    to="2012-12-12"
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.reg" role="member" from="2007-11-23" to="2007-11-23"/>
+   </person>
+   <person xml:id="СандерЛевін">
+      <persName>
+         <forename>Сандер</forename>
+         <surname>Левін</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="СвятославІвановичВакарчук.1975">
       <persName>
@@ -47222,6 +48855,12 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#fr.sv" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="Свінціцька">
+      <persName>
+         <surname>Свінціцька</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
    <person xml:id="СвітланаВалеріївнаФоменко.1976">
       <persName>
          <forename>Світлана</forename>
@@ -47243,6 +48882,14 @@
                    from="2020-03-10"
                    to="2020-06-04"
                    ana="#GOV.UA.Shmyhal #acting"/>
+   </person>
+   <person xml:id="СвітланаМиколаївнаПанаіотіді">
+      <persName>
+         <forename>Світлана</forename>
+         <surname type="patronym">Миколаївна</surname>
+         <surname>Панаіотіді</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="СвітланаМихайлівнаВойцеховська.1959">
       <persName>
@@ -47357,6 +49004,12 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.sp" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="Семиноженко">
+      <persName>
+         <surname>Семиноженко</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="СергійЄвсейовичДраюк.1953">
       <persName>
          <forename>Сергій</forename>
@@ -47449,6 +49102,14 @@
                    ana="#ВРУ.4"/>
       <affiliation ref="#fr.kpu" role="member" from="2002-05-14" to="2002-05-14"/>
    </person>
+   <person xml:id="СергійІвановичКурикін">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Курикін</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="СергійІвановичКіраль.1975">
       <persName>
          <forename>Сергій</forename>
@@ -47471,6 +49132,14 @@
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.sp" role="member" from="2014-11-27" to="2014-11-27"/>
+   </person>
+   <person xml:id="СергійІвановичЛекарь">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Лекарь</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="СергійІвановичМельник.1965">
       <persName>
@@ -47552,6 +49221,14 @@
                    ana="#ВРУ.4"/>
       <affiliation ref="#fr.nu02" role="member" from="2002-05-14" to="2002-05-14"/>
    </person>
+   <person xml:id="СергійІвановичЧеботар">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Іванович</surname>
+         <surname>Чеботар</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="СергійАнатолійовичІванов.1952">
       <persName>
          <forename>Сергій</forename>
@@ -47569,6 +49246,14 @@
                    to="2005-07-07"
                    ana="#ВРУ.4"/>
       <!--from 2002-05-14 to 2005-07-07: Самовисування-->
+   </person>
+   <person xml:id="СергійАнатолійовичАндрущенко">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Анатолійович</surname>
+         <surname>Андрущенко</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="СергійАнатолійовичБичков.1961">
       <persName>
@@ -47756,6 +49441,14 @@
                    role="member"
                    from="2019-08-29T13:51:05"
                    to="2019-08-29T13:51:05"/>
+   </person>
+   <person xml:id="СергійАнатолійовичНіколайчук">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Анатолійович</surname>
+         <surname>Ніколайчук</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="СергійАнатолійовичТерьохін.1963">
       <persName>
@@ -49544,6 +51237,14 @@
                    ana="#ВРУ.4"/>
       <!--unknown fraction||фракції Народної Партії|2002-05-14|2006-05-25-->
    </person>
+   <person xml:id="СергійМаркіяновичВинокуров">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Маркіянович</surname>
+         <surname>Винокуров</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="СергійМефодійовичКошин.1959">
       <persName>
          <forename>Сергій</forename>
@@ -49750,6 +51451,14 @@
                    from="2014-11-27"
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
+   </person>
+   <person xml:id="СергійМиколайовичКнязєв">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Миколайович</surname>
+         <surname>Князєв</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="СергійМиколайовичЛарін.1962">
       <persName>
@@ -50241,6 +51950,24 @@
       <affiliation ref="#pp.ES" role="represent" from="2019-08-29" ana="#ВРУ.9"/>
       <affiliation ref="#fr.es" role="member" from="2019-08-29T13:51:59"/>
    </person>
+   <person xml:id="СергійОлеговичДубовик.1971">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Олегович</surname>
+         <surname>Дубовик</surname>
+      </persName>
+      <birth when="22 квітня 1971"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/dubovik-sergiy-olegovich.html</idno>
+   </person>
+   <person xml:id="СергійОлеговичКислиця">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Олегович</surname>
+         <surname>Кислиця</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="СергійОлександровичАндрос.1962">
       <persName>
          <forename>Сергій</forename>
@@ -50301,6 +52028,16 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#gr.ps" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="СергійОлександровичПостівий.1987">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Олександрович</surname>
+         <surname>Постівий</surname>
+      </persName>
+      <birth when="24 січня 1987"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/postiviy-sergiy-oleksandrovich.html</idno>
+   </person>
    <person xml:id="СергійОлександровичФаєрмарк.1962">
       <persName>
          <forename>Сергій</forename>
@@ -50360,6 +52097,22 @@
                    to="2007-11-23"
                    ana="#ВРУ.5"/>
       <!--unknown fraction||фракції Соціалістичної партії України|2006-05-25|2007-11-23-->
+   </person>
+   <person xml:id="СергійОлександровичШаптала">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Олександрович</surname>
+         <surname>Шаптала</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="СергійОлексійовичВерланов">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Олексійович</surname>
+         <surname>Верланов</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="СергійОлексійовичДемченко.1976">
       <persName>
@@ -50741,6 +52494,14 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
+   </person>
+   <person xml:id="СергійСтаніславовичБочковський">
+      <persName>
+         <forename>Сергій</forename>
+         <surname type="patronym">Станіславович</surname>
+         <surname>Бочковський</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="СергійФедоровичКальцев.1960">
       <persName>
@@ -51820,6 +53581,13 @@
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman"/>
    </person>
+   <person xml:id="СтефанРоманів">
+      <persName>
+         <forename>Стефан</forename>
+         <surname>Романів</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="СутоЧолоєвичМамоян.1981">
       <persName>
          <forename>Суто</forename>
@@ -52298,6 +54066,11 @@
                    ana="#ВРУ.7"/>
       <affiliation ref="#gr.ed" role="member" from="2012-12-12" to="2012-12-12"/>
    </person>
+   <person xml:id="Тахтай">
+      <persName>
+         <surname>Тахтай</surname>
+      </persName>
+   </person>
    <person xml:id="ТаїсіяМиколаївнаПовалій.1964">
       <persName>
          <forename>Таїсія</forename>
@@ -52461,6 +54234,14 @@
                    to="2012-12-12"
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.reg" role="member" from="2007-11-23" to="2007-11-23"/>
+   </person>
+   <person xml:id="ТетянаВолодимирівнаСліпачук">
+      <persName>
+         <forename>Тетяна</forename>
+         <surname type="patronym">Володимирівна</surname>
+         <surname>Сліпачук</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ТетянаВікторівнаЦиба.1977">
       <persName>
@@ -52699,6 +54480,48 @@
                    to="2020-03-04"
                    ana="#GOV.UA.Honcharuk"/>
    </person>
+   <person xml:id="ТимурХромаєв">
+      <persName>
+         <forename>Тимур</forename>
+         <surname>Хромаєв</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ТобайясЕлвуд">
+      <persName>
+         <forename>Тобайяс</forename>
+         <surname>Елвуд</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ТомашГродзький">
+      <persName>
+         <forename>Томаш</forename>
+         <surname>Гродзький</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Тука">
+      <persName>
+         <surname>Тука</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ТігранАшотовичАвакян.1975">
+      <persName>
+         <forename>Тігран</forename>
+         <surname type="patronym">Ашотович</surname>
+         <surname>Авакян</surname>
+      </persName>
+      <birth when="1975-08-28"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="wikimedia">https://uk.everybodywiki.com/%D0%90%D0%B2%D0%B0%D0%BA%D1%8F%D0%BD_%D0%A2%D1%96%D0%B3%D1%80%D0%B0%D0%BD_%D0%90%D1%88%D0%BE%D1%82%D0%BE%D0%B2%D0%B8%D1%87</idno>
+   </person>
+   <person xml:id="Улида">
+      <persName>
+         <surname>Улида</surname>
+      </persName>
+   </person>
    <person xml:id="УлянаМиколаївнаМостіпан.1944">
       <persName>
          <forename>Уляна</forename>
@@ -52757,6 +54580,13 @@
                    from="2016-08-01"
                    to="2019-08-29"
                    ana="#GOV.UA.Hroisman #acting"/>
+   </person>
+   <person xml:id="Урсулафон-дер-Ляєн">
+      <persName>
+         <forename>Урсула</forename>
+         <surname>фон дер Ляєн</surname>
+      </persName>
+      <sex value="F"/>
    </person>
    <person xml:id="ФедірІвановичШпиг.1956">
       <persName>
@@ -52873,6 +54703,16 @@
       <!--from 2014-11-27 to 2019-08-29: Самовисування-->
       <affiliation ref="#fr.bpp" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="Фудашкін">
+      <persName>
+         <surname>Фудашкін</surname>
+      </persName>
+      <persName>
+         <surname>Фудашкін</surname>
+      </persName>
+      <sex value="M"/>
+      <sex value="M"/>
+   </person>
    <person xml:id="ХвичаНодаровичМепарішвілі.1972">
       <persName>
          <forename>Хвича</forename>
@@ -52896,6 +54736,40 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.nf" role="member" from="2016-04-21" to="2016-04-21"/>
    </person>
+   <person xml:id="Хобзей">
+      <persName>
+         <surname>Хобзей</surname>
+      </persName>
+   </person>
+   <person xml:id="Холодницький">
+      <persName>
+         <surname>Холодницький</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Царевич">
+      <persName>
+         <surname>Царевич</surname>
+      </persName>
+      <sex value="F"/>
+   </person>
+   <person xml:id="Чечоткін">
+      <persName>
+         <surname>Чечоткін</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="Чмілітє-Нільсен">
+      <persName>
+         <surname>Чмілітє-Нільсен</surname>
+      </persName>
+   </person>
+   <person xml:id="Шидловський">
+      <persName>
+         <surname>Шидловський</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЮлійВалерійовичМамчур.1971">
       <persName>
          <forename>Юлій</forename>
@@ -52918,6 +54792,14 @@
                    to="2019-08-29"
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.bpp" role="member" from="2014-11-27" to="2014-11-27"/>
+   </person>
+   <person xml:id="ЮлійПавловичГере">
+      <persName>
+         <forename>Юлій</forename>
+         <surname type="patronym">Павлович</surname>
+         <surname>Гере</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ЮлійЯковичІоффе.1940">
       <persName>
@@ -53351,6 +55233,18 @@
       <affiliation ref="#ВРУ" role="member" from="2019-08-29" ana="#ВРУ.9"/>
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
+   </person>
+   <person xml:id="ЮріРатас">
+      <persName>
+         <forename>Юрі</forename>
+         <surname>Ратас</surname>
+      </persName>
+      <persName>
+         <forename>Юрі</forename>
+         <surname>Ратас</surname>
+      </persName>
+      <sex value="M"/>
+      <sex value="M"/>
    </person>
    <person xml:id="Юрій-БогданРомановичШухевич.1933">
       <persName>
@@ -54251,6 +56145,14 @@
                    ana="#ВРУ.8"/>
       <affiliation ref="#fr.rp" role="member" from="2014-12-04" to="2014-12-04"/>
    </person>
+   <person xml:id="ЮрійВеніаміновичГусєв">
+      <persName>
+         <forename>Юрій</forename>
+         <surname type="patronym">Веніамінович</surname>
+         <surname>Гусєв</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЮрійВолодимировичІванющенко.1959">
       <persName>
          <forename>Юрій</forename>
@@ -55104,6 +57006,22 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
    </person>
+   <person xml:id="ЮрійОлеговичДраганчук">
+      <persName>
+         <forename>Юрій</forename>
+         <surname type="patronym">Олегович</surname>
+         <surname>Драганчук</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ЮрійОлеговичФрицький">
+      <persName>
+         <forename>Юрій</forename>
+         <surname type="patronym">Олегович</surname>
+         <surname>Фрицький</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЮрійОлександровичБолдирєв.1951">
       <persName>
          <forename>Юрій</forename>
@@ -55420,6 +57338,14 @@
                    ana="#ВРУ.6"/>
       <affiliation ref="#fr.reg" role="member" from="2010-03-30" to="2010-03-30"/>
    </person>
+   <person xml:id="ЮрійПетровичБровченко">
+      <persName>
+         <forename>Юрій</forename>
+         <surname type="patronym">Петрович</surname>
+         <surname>Бровченко</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЮрійПетровичСавчук.1967">
       <persName>
          <forename>Юрій</forename>
@@ -55478,6 +57404,17 @@
                    to="2006-05-25"
                    ana="#ВРУ.4"/>
       <affiliation ref="#fr.kpu" role="member" from="2002-05-14" to="2002-05-14"/>
+   </person>
+   <person xml:id="ЮрійРоманович-РамазановичМірошниченко.1970">
+      <persName>
+         <forename>Юрій</forename>
+         <surname type="patronym">Романович; Рамазанович</surname>
+         <surname>Мірошниченко</surname>
+      </persName>
+      <birth when="1970-02-03"/>
+      <sex value="M"/>
+      <idno type="URI" subtype="wikimedia">https://uk.wikipedia.org/wiki/%D0%9C%D1%96%D1%80%D0%BE%D1%88%D0%BD%D0%B8%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%AE%D1%80%D1%96%D0%B9_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87</idno>
+      <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/miroshnichenko-yuriy-romanovich.html</idno>
    </person>
    <person xml:id="ЮрійРомановичМірошниченко.1970">
       <persName>
@@ -55601,6 +57538,22 @@
                    from="2007-11-23"
                    to="2012-12-12"
                    ana="#ВРУ.6"/>
+   </person>
+   <person xml:id="ЮрійФедоровичЛавренюк">
+      <persName>
+         <forename>Юрій</forename>
+         <surname type="patronym">Федорович</surname>
+         <surname>Лавренюк</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ЮрійФедоровичЩиголь">
+      <persName>
+         <forename>Юрій</forename>
+         <surname type="patronym">Федорович</surname>
+         <surname>Щиголь</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ЮрійЮрійовичАрістов.1975">
       <persName>
@@ -55837,6 +57790,14 @@
       <!--from 2014-11-27 to 2019-08-29: Самовисування-->
       <affiliation ref="#fr.ob" role="member" from="2014-11-27" to="2014-11-27"/>
    </person>
+   <person xml:id="ЯковВасильовичСмолій">
+      <persName>
+         <forename>Яков</forename>
+         <surname type="patronym">Васильович</surname>
+         <surname>Смолій</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЯківПіневичТабачнік.1945">
       <persName>
          <forename>Яків</forename>
@@ -55931,6 +57892,21 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.es" role="member" from="2019-08-29T13:51:59"/>
    </person>
+   <person xml:id="ЯнісМакдевід">
+      <persName>
+         <forename>Яніс</forename>
+         <surname>Макдевід</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
+   <person xml:id="ЯремБогдановичКовалів">
+      <persName>
+         <forename>Ярем</forename>
+         <surname type="patronym">Богданович</surname>
+         <surname>Ковалів</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЯрославІвановичДжоджик.1960">
       <persName>
          <forename>Ярослав</forename>
@@ -55998,6 +57974,14 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.hol" role="member" from="2019-08-29T13:46:41"/>
    </person>
+   <person xml:id="ЯрославВ'ячеславовичВойтович">
+      <persName>
+         <forename>Ярослав</forename>
+         <surname type="patronym">В'ячеславович</surname>
+         <surname>Войтович</surname>
+      </persName>
+      <sex value="M"/>
+   </person>
    <person xml:id="ЯрославВасильовичДубневич.1969">
       <persName>
          <forename>Ярослав</forename>
@@ -56040,6 +58024,14 @@
                    role="member"
                    from="2019-08-29T13:51:05"
                    to="2019-08-29T13:51:05"/>
+   </person>
+   <person xml:id="ЯрославВасильовичКраснопольський">
+      <persName>
+         <forename>Ярослав</forename>
+         <surname type="patronym">Васильович</surname>
+         <surname>Краснопольський</surname>
+      </persName>
+      <sex value="M"/>
    </person>
    <person xml:id="ЯрославВасильовичЛесюк.1952">
       <persName>

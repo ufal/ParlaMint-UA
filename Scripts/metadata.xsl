@@ -53,6 +53,12 @@
     </xsl:call-template>
   </xsl:variable>
 
+  <xsl:variable name="gov-relation">
+    <xsl:call-template name="read-tsv">
+      <xsl:with-param name="file" select="concat($in-dir,'/gov-relation.tsv')"/>
+    </xsl:call-template>
+  </xsl:variable>
+
   <xsl:variable name="listPerson-dupl">
     <xsl:element name="listPerson" xmlns="http://www.tei-c.org/ns/1.0">
       <xsl:attribute name="xml:id">ParlaMint-UA-listPerson</xsl:attribute>
@@ -285,7 +291,7 @@
   <xsl:template match="/">
     <!-- xml result -->
     <xsl:variable name="listPerson-path" select="concat($out-dir,'ParlaMint-UA-listPerson.xml')"/>
-    <xsl:message select="concat('Saving ',$listPerson-path)"/>
+    <xsl:message select="concat('INFO: Creating ',$listPerson-path)"/>
     <xsl:result-document href="{$listPerson-path}" method="xml">
       <xsl:element name="listPerson" xmlns="http://www.tei-c.org/ns/1.0">
         <xsl:attribute name="xml:id">ParlaMint-UA-listPerson</xsl:attribute>
@@ -308,20 +314,26 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    <xsl:message select="concat('INFO: Saving ',$listPerson-path)"/>
+
     <!--
     <xsl:result-document href="{$listPerson-path}.DUPL" method="xml">
       <xsl:copy-of select="$listPerson-dupl"/>
     </xsl:result-document>
     -->
     <xsl:variable name="listOrg-path" select="concat($out-dir,'ParlaMint-UA-listOrg.xml')"/>
-    <xsl:message select="concat('Saving ',$listOrg-path)"/>
+    <xsl:message select="concat('INFO: Creating ',$listOrg-path)"/>
     <xsl:result-document href="{$listOrg-path}" method="xml">
       <xsl:element name="listPerson" xmlns="http://www.tei-c.org/ns/1.0">
         <xsl:attribute name="xml:id">ParlaMint-UA-listOrg</xsl:attribute>
         <xsl:attribute name="xml:lang">uk</xsl:attribute>
         <xsl:apply-templates select="$gov-org/table/row" mode="print-org"/>
+        <xsl:element name="listRelation" xmlns="http://www.tei-c.org/ns/1.0">
+          <xsl:apply-templates select="$gov-relation/table/row[col[@name='Relation']]" mode="print-relation"/>
+        </xsl:element>
       </xsl:element>
     </xsl:result-document>
+    <xsl:message select="concat('INFO: Saving ',$listOrg-path)"/>
   </xsl:template>
 
 
@@ -436,6 +448,74 @@
     </xsl:element>
   </xsl:template>
 
+  <xsl:template match="row" mode="print-relation">
+    <xsl:variable name="row" select="."/>
+    <xsl:variable name="relation" select="./col[@name='Relation']"/>
+    <xsl:choose>
+      <xsl:when test="contains(' renaming coalition opposition representing ', concat(' ',$relation,' '))">
+        <xsl:element name="relation" xmlns="http://www.tei-c.org/ns/1.0">
+          <xsl:attribute name="name" select="$relation"/>
+          <xsl:choose>
+            <xsl:when test="$relation = 'renaming'">
+              <xsl:call-template name="print-relation-attribute"><xsl:with-param name="attr">when</xsl:with-param></xsl:call-template>
+              <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">active</xsl:with-param></xsl:call-template>
+              <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">passive</xsl:with-param></xsl:call-template>
+            </xsl:when>
+            <xsl:when test="$relation = 'coalition'">
+              <xsl:call-template name="print-relation-attribute"><xsl:with-param name="attr">from</xsl:with-param></xsl:call-template>
+              <xsl:call-template name="print-relation-attribute"><xsl:with-param name="attr">to</xsl:with-param></xsl:call-template>
+              <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">mutual</xsl:with-param></xsl:call-template>
+              <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">event</xsl:with-param></xsl:call-template>
+            </xsl:when>
+            <xsl:when test="$relation = 'opposition' or $relation = 'representing'">
+              <xsl:call-template name="print-relation-attribute"><xsl:with-param name="attr">from</xsl:with-param></xsl:call-template>
+              <xsl:call-template name="print-relation-attribute"><xsl:with-param name="attr">to</xsl:with-param></xsl:call-template>
+              <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">active</xsl:with-param></xsl:call-template>
+              <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">passive</xsl:with-param></xsl:call-template>
+              <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">event</xsl:with-param></xsl:call-template>
+            </xsl:when>
+          </xsl:choose>
+        </xsl:element>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:message>WARN: unknown relation|<xsl:value-of select="./text/text()"/></xsl:message>
+        <xsl:comment>unknown relation|<xsl:value-of select="./text/text()"/></xsl:comment>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template name="print-relation-attribute">
+    <xsl:param name="attr"/>
+    <xsl:variable name="val" select="normalize-space(./col[lower-case(@name)=$attr]/text() )"/>
+    <xsl:if test="$val">
+      <xsl:attribute name="{$attr}" select="$val"/>
+      <xsl:message select="concat($attr,' ',$val)"/>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="print-relation-attribute-ref">
+    <xsl:param name="attr"/>
+    <xsl:variable name="val" select="normalize-space(
+                                     replace(
+                                           concat(' ',normalize-space(./col[lower-case(@name)=$attr]/text() )),
+                                           ' #*',
+                                           ' #'
+                                           )
+                                        )"/>
+    <xsl:if test="$val">
+      <xsl:attribute name="{$attr}" select="$val"/>
+      <xsl:message select="concat($attr,' ',$val)"/>
+    </xsl:if>
+  </xsl:template>
+  <!--
+  <xsl:template match="col[contains(' active passive mutual event ',concat(' ',lower-case(./@name),' '))]" mode="print-relation">
+    <xsl:attribute name="{lower-case(@name)}" select="string-join(' ',.//text()/concat('#',.))"/>
+  </xsl:template>
+  <xsl:template match="col[contains(' from to ',concat(' ',@name,' '))]" mode="print-relation">
+    <xsl:attribute name="{lower-case(@name)}" select="normalize-space(.)"/>
+  </xsl:template>
+-->
+  <xsl:template match="col" mode="print-relation"/>
 
   <xsl:template match="@*|node()">
     <xsl:copy>

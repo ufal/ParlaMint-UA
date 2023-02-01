@@ -7,23 +7,23 @@ renaming			2005	pp.NP	pp.Agro1
 renaming			2015-03-06	gr.vd	pp.ed		
 renaming			2015-06-17	gr.pvd	gr.vd		
 renaming			2020-05-20	gr.pzm	gr.zm		
-opposition				fr.nu02			ВРУ.4
+opposition				#fr.nu02	#GOV.UA		ВРУ.4
 coalition	2006-06-22	2006-07-07				#fr.nu06 #fr.byut #fr.spu	ВРУ.5
-opposition	2006-06-22	2006-07-07		#fr.reg #fr.kpu	#GOV.UA.Yekhanurov		ВРУ.5
+opposition	2006-06-22	2006-07-07		#fr.reg #fr.kpu	#GOV.UA		ВРУ.5 #GOV.UA.Yekhanurov
 coalition	2006-07-07	2007-11-29				#fr.reg #fr.kpu #fr.spu	ВРУ.5
 situational coalition	2006-07-07	2007-11-29				#fr.nu06	ВРУ.5
-opposition	2006-07-07	2007-11-29		#fr.byut	#GOV.UA.2ndYanukovych		ВРУ.5
-opposition	2007-11-29	2008-09-17		#fr.bl #fr.kpu #fr.reg	#GOV.UA.2ndTymoshenko		ВРУ.6
+opposition	2006-07-07	2007-11-29		#fr.byut	#GOV.UA		ВРУ.5 #GOV.UA.2ndYanukovych
+opposition	2007-11-29	2008-09-17		#fr.bl #fr.kpu #fr.reg	#GOV.UA		ВРУ.6 #GOV.UA.2ndTymoshenko
 coalition	2007-11-29	2008-09-17				#fr.nuns #fr.byut	ВРУ.6
 coalition	2008-12-17	2010-03-03				#fr.bl #fr.nuns #fr.byut	ВРУ.6
-opposition	2008-12-17	2010-03-03		#fr.kpu #fr.reg	#GOV.UA.2ndTymoshenko		ВРУ.6
+opposition	2008-12-17	2010-03-03		#fr.kpu #fr.reg	#GOV.UA		ВРУ.6 #GOV.UA.2ndTymoshenko
 coalition	2010-03-11	2012-12-12				#fr.bl #fr.kpu #fr.reg 	ВРУ.6
-opposition	2010-03-11	2012-12-12		#fr.nuns #fr.byut	#GOV.UA.1stAzarov		ВРУ.6
+opposition	2010-03-11	2012-12-12		#fr.nuns #fr.byut	#GOV.UA		ВРУ.6 #GOV.UA.1stAzarov
 monomajority	2019-08-29	present				#fr.sn 	ВРУ.9
 coalition	2019-08-29	present				#gr.pzm	ВРУ.9
 coalition	2019-12-06	present				#gr.dvr	ВРУ.9
-opposition	2019-08-29	2022-02-24		#fr.es #fr.but #fr.hol	#GOV.UA.Honcharuk #GOV.UA.Shmyhal 		ВРУ.9
-opposition	2019-08-29	2022-05-12		#fr.opzzh	#GOV.UA.Honcharuk #GOV.UA.Shmyhal 		ВРУ.9
+opposition	2019-08-29	2022-02-24		#fr.es #fr.but #fr.hol	#GOV.UA		ВРУ.9 #GOV.UA.Honcharuk #GOV.UA.Shmyhal 
+opposition	2019-08-29	2022-05-12		#fr.opzzh	#GOV.UA		ВРУ.9 #GOV.UA.Honcharuk #GOV.UA.Shmyhal 
 defense coalition	2022-02-24	present				#fr.sn #gr.pzm #fr.es #fr.but #fr.hol #gr.dvr	ВРУ.9
 defense coalition	2022-04-21	present				#gr.pzhim	ВРУ.9
 defense coalition	2022-05-22	present				#gr.vu	ВРУ.9
@@ -31,11 +31,11 @@ coalition	2014-11-27	2019-05-17				#fr.nf #fr.bpp #gr.pw #gr.pvd 	ВРУ.8
 coalition	2014-11-27	2016-02-19				#fr.sp	ВРУ.8
 coalition	2014-11-27	2016-02-18				#fr.but	ВРУ.8
 coalition	2014-11-27	2015-09-01				#fr.rp	ВРУ.8
-opposition	2015-09-01	2019-08-29		#fr.rp	#GOV.UA.Hroisman		ВРУ.8
-opposition	2016-04-14	2019-08-29		#fr.but #fr.sp	#GOV.UA.Hroisman		ВРУ.8
-opposition	2014-11-27	2019-08-29		#fr.ob 	#GOV.UA.2stYatseniuk #GOV.UA.Hroisman		ВРУ.8
+opposition	2015-09-01	2019-08-29		#fr.rp	#GOV.UA		ВРУ.8 #GOV.UA.Hroisman
+opposition	2016-04-14	2019-08-29		#fr.but #fr.sp	#GOV.UA		ВРУ.8 #GOV.UA.Hroisman
+opposition	2014-11-27	2019-08-29		#fr.ob 	#GOV.UA		ВРУ.8 #GOV.UA.2stYatseniuk #GOV.UA.Hroisman
 coalition	2012-12-12	2014-02-27				#fr.reg #fr.kpu 	ВРУ.7
-opposition	2012-12-12	2014-02-27		#fr.but #fr.ud #fr.sv	#GOV.UA.2ndAzarov		ВРУ.7
+opposition	2012-12-12	2014-02-27		#fr.but #fr.ud #fr.sv	#GOV.UA		ВРУ.7 #GOV.UA.2ndAzarov
 coalition	2014-02-27	2014-07-24				#fr.ud #fr.but #fr.sv #gr.eu #gr.ed	ВРУ.7
-situational coalition	2014-02-27	2014-11-27		#fr.reg	#GOV.UA.1stYatseniuk		ВРУ.7
-opposition	2014-02-27	2014-07-24		#fr.kpu	#GOV.UA.1stYatseniuk		ВРУ.7
+situational coalition	2014-02-27	2014-11-27		#fr.reg	#GOV.UA		ВРУ.7 #GOV.UA.1stYatseniuk
+opposition	2014-02-27	2014-07-24		#fr.kpu	#GOV.UA		ВРУ.7 #GOV.UA.1stYatseniuk
