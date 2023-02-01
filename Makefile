@@ -24,6 +24,7 @@ GSIDorg := 1140033767
 GSIDevent := 19173850
 GSIDrelation := 1419083904
 GSIDguest := 636463819
+GSIDrename := 480487169
 
 
 -include Makefile.env
@@ -290,6 +291,7 @@ $(tei-particDesc-gov-RUN-LAST): tei-particDesc-gov$(ISUPDATE)-%:
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDevent)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-event.tsv
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDrelation)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-relation.tsv
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDguest)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-guest.tsv
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDrename)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-rename.tsv
 
 
 
