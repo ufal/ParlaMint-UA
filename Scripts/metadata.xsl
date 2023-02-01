@@ -504,7 +504,6 @@
                                         )"/>
     <xsl:if test="$val">
       <xsl:attribute name="{$attr}" select="$val"/>
-      <xsl:message select="concat($attr,' ',$val)"/>
     </xsl:if>
   </xsl:template>
   <!--
