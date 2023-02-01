@@ -173,7 +173,7 @@
         </xsl:element>
       </xsl:for-each>
       <!-- government(/manual) source -->
-      <xsl:for-each select="$gov-person/table/row | $gov-guest/table/row">
+      <xsl:for-each select="$gov-person/table/row[not(./col[@name='Exclude'])] | $gov-guest/table/row[not(./col[@name='Exclude'])]">
         <xsl:variable name="person" select="."/>
         <xsl:element name="person" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:variable name="id" select="$person/col[@name='PersonID']"/>
