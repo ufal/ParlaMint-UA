@@ -166,14 +166,17 @@
   <xsl:function name="mk:create-parlamint-id">
     <xsl:param name="nodes"/>
     <xsl:param name="decisive-date"/>
+    <!--
     <xsl:variable name="nodes-dec" select="$nodes[./date_oath/text()][xs:date(./date_oath/text()) &lt;= xs:date($decisive-date)]"/>
-    <xsl:variable name="nodes-max" select="$nodes-dec[max($nodes-dec/date_oath/xs:date(text())) = xs:date(./date_oath/text())]"/>
+    <xsl:variable name="nodes-res" select="$nodes-dec[max($nodes-dec/date_oath/xs:date(text())) = xs:date(./date_oath/text())]"/>
+  -->
+    <xsl:variable name="nodes-res" select="$nodes[./date_oath/text()][min($nodes[./date_oath/text()]/date_oath/xs:date(text())) = xs:date(./date_oath/text())]"/>
     <xsl:value-of select="concat(
-                            $nodes-max[firstname/text()][1]/firstname/text(),
-                            $nodes-max[patronymic/text()][1]/patronymic/text(),
-                            $nodes-max[surname/text()][1]/surname/text(),
+                            $nodes-res[firstname/text()][1]/firstname/text(),
+                            $nodes-res[patronymic/text()][1]/patronymic/text(),
+                            $nodes-res[surname/text()][1]/surname/text(),
                             '.',
-                            replace($nodes-max[birthday/text()][1]/birthday/text(), '-.*$','')
+                            replace($nodes-res[birthday/text()][1]/birthday/text(), '-.*$','')
                             )
       "/>
   </xsl:function>

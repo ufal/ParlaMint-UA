@@ -345,6 +345,50 @@
   </xsl:template>
 
 
+  <xsl:template match="tei:persName">
+    <xsl:variable name="id" select="../@xml:id"/>
+    <xsl:variable name="rename" select="$gov-rename/table/row[./col[@name='PersonID'] = $id]"/>
+    <xsl:choose>
+      <xsl:when test="count($rename)>0">
+        <xsl:for-each select="$rename">
+          <xsl:variable name="forename" select="./col[@name='Forename']"/>
+          <xsl:variable name="patronymic" select="./col[@name='Patronymic']"/>
+          <xsl:variable name="surname" select="./col[@name='Surname']"/>
+          <xsl:variable name="from" select="./col[@name='From']"/>
+          <xsl:variable name="to" select="./col[@name='To']"/>
+          <xsl:element name="persName" xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:if test="$from">
+              <xsl:attribute name="from" select="$from"/>
+            </xsl:if>
+            <xsl:if test="$to">
+              <xsl:attribute name="to" select="$to"/>
+            </xsl:if>
+            <xsl:if test="$forename">
+              <xsl:element name="forename" xmlns="http://www.tei-c.org/ns/1.0">
+                <xsl:value-of select="$forename"/>
+              </xsl:element>
+            </xsl:if>
+            <xsl:if test="$patronymic">
+              <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
+                <xsl:attribute name="type">patronym</xsl:attribute>
+                <xsl:value-of select="$patronymic"/>
+              </xsl:element>
+            </xsl:if>
+            <xsl:if test="$surname">
+              <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
+                <xsl:value-of select="$surname"/>
+              </xsl:element>
+            </xsl:if>
+          </xsl:element>
+        </xsl:for-each>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:copy>
+          <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
 
   <xsl:template match="tei:affiliation[contains(' head deputyHead minister ', @role)]">
     <xsl:copy>
