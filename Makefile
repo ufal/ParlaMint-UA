@@ -430,12 +430,14 @@ create-metadata-sample:
 	mkdir -p SampleMetaData/01-source
 	mkdir -p SampleMetaData/02-preprocess
 	mkdir -p SampleMetaData/03-ParlaMint-UA
+	mkdir -p SampleMetaData/04-aliases
 	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "ogd_mps_skl*_mps*-data.xml" | xargs -I {} cp {} SampleMetaData/01-source/
 	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "mp-data*.*"|grep -v "mp-data-stats" | xargs -I {} cp {} SampleMetaData/02-preprocess/
 	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "plenary-speech.xml"| xargs -I {} cp {} SampleMetaData/02-preprocess/
 	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "mp-data-stats*.*" | xargs -I {} cp {} DataStats/
 	find $(DATADIR)/tei-particDesc-preprocess/$(DOWNLOAD_META_DATA_LAST)/ -name "gov-*.tsv" | xargs -I {} cp {} SampleMetaData/02-preprocess/
 	find $(DATADIR)/tei-particDesc/$(DOWNLOAD_META_DATA_LAST)/ -name "ParlaMint-UA-list*.xml"| xargs -I {} cp {} SampleMetaData/03-ParlaMint-UA/
+	find $(DATADIR)/tei-particDesc-aliases/$(DOWNLOAD_META_DATA_LAST)/ -type f | xargs -I {} cp {} SampleMetaData/04-aliases/
 
 
 create-february-sample:
