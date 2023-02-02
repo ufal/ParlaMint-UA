@@ -181,4 +181,14 @@
       "/>
     <xsl:value-of select="replace($res,'’','')"/>
   </xsl:function>
+  <xsl:function name="mk:text-to-id">
+    <xsl:param name="text"/>
+    <xsl:param name="birth"/>
+    <xsl:value-of select="replace(
+                            concat(
+                              replace($text,'^([^ ]*) (.*)$','$2$1'),
+                              '.',
+                              replace($birth, '-.*$','')
+                            ),'[’ ]','')"/>
+  </xsl:function>
 </xsl:stylesheet>

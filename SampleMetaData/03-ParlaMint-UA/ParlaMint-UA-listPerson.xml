@@ -4735,10 +4735,28 @@
          <surname type="patronym">Леонідівна</surname>
          <surname>Бордюг</surname>
       </persName>
+      <persName from="2010">
+         <forename>Злата</forename>
+         <surname type="patronym">Леонідівна</surname>
+         <surname>Огнєвіч</surname>
+      </persName>
       <birth when="1986-01-12"/>
       <sex value="F"/>
       <occupation>MP</occupation>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Zlata_Ognevich</idno>
+      <figure>
+         <graphic url="http://static.rada.gov.ua/dep_img8/rp4.jpg"/>
+      </figure>
+      <affiliation ref="#ВРУ"
+                   role="member"
+                   from="2014-11-27"
+                   to="2015-12-22"
+                   ana="#ВРУ.8"/>
+      <affiliation ref="#pp.RP"
+                   role="represent"
+                   from="2014-11-27"
+                   to="2015-12-22"
+                   ana="#ВРУ.8"/>
    </person>
    <person xml:id="ІннаРоманівнаСовсун.1984">
       <persName>
@@ -26425,28 +26443,6 @@
                    to="2006-05-25"
                    ana="#ВРУ.4"/>
       <affiliation ref="#fr.kpu" role="member" from="2002-05-14" to="2006-05-25"/>
-   </person>
-   <person xml:id="ЗлатаЛеонідівнаОгнєвіч.1986">
-      <persName>
-         <forename>Злата</forename>
-         <surname type="patronym">Леонідівна</surname>
-         <surname>Огнєвіч</surname>
-      </persName>
-      <birth when="1986-01-12"/>
-      <sex value="F"/>
-      <figure>
-         <graphic url="http://static.rada.gov.ua/dep_img8/rp4.jpg"/>
-      </figure>
-      <affiliation ref="#ВРУ"
-                   role="member"
-                   from="2014-11-27"
-                   to="2015-12-22"
-                   ana="#ВРУ.8"/>
-      <affiliation ref="#pp.RP"
-                   role="represent"
-                   from="2014-11-27"
-                   to="2015-12-22"
-                   ana="#ВРУ.8"/>
    </person>
    <person xml:id="ЗорянаСтепанівнаСкалецька.1980">
       <persName>

@@ -108,9 +108,20 @@
       <xsl:for-each select="distinct-values($mps-data/*/term/mp/@id | $mpsTT-data/*/term/mp/@id)">
         <xsl:variable name="mp-id" select="."/>
         <xsl:variable name="mps-data-actmp" select="$mps-data/*/term/mp[@id=$mp-id] | $mpsTT-data/*/term/mp[@id=$mp-id]"/>
+        <xsl:variable name="parlamint-id" select="mk:create-parlamint-id($mps-data-actmp, $decisive-for-generating-ids)"/>
+        <xsl:variable name="birth" select="$mps-data-actmp[1]/birthday/text()"/>
         <xsl:element name="mp_person">
           <xsl:attribute name="mp-id" select="$mp-id"/>
-          <xsl:attribute name="parlamint-id" select="mk:create-parlamint-id($mps-data-actmp, $decisive-for-generating-ids)"/>
+          <xsl:attribute name="parlamint-id" select="$parlamint-id"/>
+          <xsl:element name="alternative-parlamint-ids">
+            <xsl:element name="id"><xsl:value-of select="$parlamint-id"/></xsl:element>
+            <xsl:for-each select="distinct-values($mps-data-actmp/fullname/text())">
+              <xsl:variable name="alt-id" select="mk:text-to-id(.,$birth)"/>
+              <xsl:if test="not($alt-id = $parlamint-id)">
+                <xsl:element name="id"><xsl:value-of select="$alt-id"/></xsl:element>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:element>
           <xsl:for-each select="distinct-values($mps-data-actmp/@term)">
             <xsl:variable name="term" select="."/>
             <xsl:variable name="terms" select="$mps-data/*/term/mp[@id=$mp-id and @term=$term] | $mpsTT-data/*/term/mp[@id=$mp-id and @term=$term]"/>

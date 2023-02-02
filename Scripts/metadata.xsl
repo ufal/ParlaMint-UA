@@ -74,7 +74,8 @@
       <xsl:for-each select="$mp-data/mp_persons/mp_person">
         <xsl:variable name="person" select="."/>
         <xsl:element name="person" xmlns="http://www.tei-c.org/ns/1.0">
-          <xsl:variable name="id" select="$person/@parlamint-id"/>
+          <xsl:variable name="id" select="mk:use-id-or-find-alternative($person/@parlamint-id)"/>
+          <!--xsl:variable name="id" select="$person/@parlamint-id"/-->
           <xsl:attribute name="xml:id" select="$id"/>
           <xsl:attribute name="n" select="max($person/term/@term)"/>
           <xsl:element name="persName" xmlns="http://www.tei-c.org/ns/1.0">
@@ -184,7 +185,7 @@
       <xsl:for-each select="$gov-person/table/row[not(./col[@name='Exclude'])] | $gov-guest/table/row[not(./col[@name='Exclude'])]">
         <xsl:variable name="person" select="."/>
         <xsl:element name="person" xmlns="http://www.tei-c.org/ns/1.0">
-          <xsl:variable name="id" select="$person/col[@name='PersonID']"/>
+          <xsl:variable name="id" select="mk:use-id-or-find-alternative($person/col[@name='PersonID'])"/>
           <xsl:attribute name="xml:id" select="$id"/>
           <xsl:attribute name="n">9999</xsl:attribute>
           <xsl:variable name="forename" select="$person/col[@name='Forename']"/>
@@ -622,4 +623,18 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:function name="mk:use-id-or-find-alternative">
+    <xsl:param name="cur-id"/>
+    <xsl:variable name="rename-person" select="$gov-rename/table/row[./col[@name='NameID'] = $cur-id ]/col[@name='PersonID']"/>
+    <xsl:variable name="mp-person" select="$mp-data/mp_persons/mp_person[./alternative-ids/id/text() = $cur-id]/@parlamint-id"/>
+    <xsl:choose>
+      <xsl:when test="$rename-person"><xsl:value-of select="$rename-person"/></xsl:when>
+      <xsl:when test="count($mp-person) = 1"><xsl:value-of select="$mp-person"/></xsl:when>
+      <xsl:when test="count($mp-person) > 1">
+        <xsl:message>WARN: repeated alternative id</xsl:message>
+        <xsl:value-of select="$cur-id"/>
+      </xsl:when>
+      <xsl:otherwise><xsl:value-of select="$cur-id"/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
 </xsl:stylesheet>
