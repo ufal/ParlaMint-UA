@@ -171,7 +171,7 @@
     <xsl:variable name="nodes-res" select="$nodes-dec[max($nodes-dec/date_oath/xs:date(text())) = xs:date(./date_oath/text())]"/>
   -->
     <xsl:variable name="nodes-res" select="$nodes[./date_oath/text()][min($nodes[./date_oath/text()]/date_oath/xs:date(text())) = xs:date(./date_oath/text())]"/>
-    <xsl:value-of select="concat(
+    <xsl:variable name="res" select="concat(
                             $nodes-res[firstname/text()][1]/firstname/text(),
                             $nodes-res[patronymic/text()][1]/patronymic/text(),
                             $nodes-res[surname/text()][1]/surname/text(),
@@ -179,5 +179,6 @@
                             replace($nodes-res[birthday/text()][1]/birthday/text(), '-.*$','')
                             )
       "/>
+    <xsl:value-of select="replace($res,'’','')"/>
   </xsl:function>
 </xsl:stylesheet>
