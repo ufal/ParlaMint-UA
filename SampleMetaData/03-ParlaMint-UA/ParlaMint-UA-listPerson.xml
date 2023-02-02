@@ -2,46 +2,6 @@
 <listPerson xmlns="http://www.tei-c.org/ns/1.0"
             xml:id="ParlaMint-UA-listPerson"
             xml:lang="uk">
-   <person xml:id="">
-      <persName>
-         <forename>Іван</forename>
-         <surname type="patronym">Васильович</surname>
-         <surname>Васюник</surname>
-      </persName>
-      <persName>
-         <forename>Володимир</forename>
-         <surname type="patronym">Андрійович</surname>
-         <surname>Василенко</surname>
-      </persName>
-      <persName>
-         <forename>Володимир</forename>
-         <surname type="patronym">Михайлович</surname>
-         <surname>В'ятрович</surname>
-      </persName>
-      <persName>
-         <forename>Філарет</forename>
-         <surname>(Денисенко)</surname>
-      </persName>
-      <persName>
-         <forename>Святослав</forename>
-         <surname>(Шевчук)</surname>
-      </persName>
-      <birth when="1959-07-07"/>
-      <birth when="1937-01-16"/>
-      <birth when="1977-06-07"/>
-      <birth when="1929-01-23"/>
-      <birth when="1970-05-05"/>
-      <sex value="M"/>
-      <sex value="M"/>
-      <sex value="M"/>
-      <sex value="M"/>
-      <sex value="M"/>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Ivan_Vasyunyk</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Volodymyr_Vasylenko</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Volodymyr_Viatrovych</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Filaret_(Denysenko)</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Sviatoslav_Shevchuk</idno>
-   </person>
    <person xml:id="ЄвгенІвановичКирильчук.1940">
       <persName>
          <forename>Євген</forename>
@@ -1179,6 +1139,7 @@
       </persName>
       <birth when="1959-03-16"/>
       <sex value="M"/>
+      <occupation>Secretary General of NATO</occupation>
       <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Jens_Stoltenberg</idno>
    </person>
    <person xml:id="ЄфимЗісєвичФікс.1946">
@@ -1554,6 +1515,8 @@
       </persName>
       <birth when="1959-07-07"/>
       <sex value="M"/>
+      <occupation>співголова громадського комітету з вшанування пам'яті жертв Голодомору-геноциду 1932-1933 років в Україні</occupation>
+      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Ivan_Vasyunyk</idno>
       <figure>
          <graphic url="http://static.rada.gov.ua/dep_img4/nu43.jpg"/>
       </figure>
@@ -4728,6 +4691,7 @@
       </persName>
       <birth when="1974-03-06"/>
       <sex value="F"/>
+      <occupation>перший заступник міністра юстиції</occupation>
    </person>
    <person xml:id="ІннаГерманівнаБогословська.1960">
       <persName>
@@ -4764,6 +4728,17 @@
                    from="2012-12-12"
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
+   </person>
+   <person xml:id="ІннаЛеонідівнаБордюг.1986">
+      <persName>
+         <forename>Інна</forename>
+         <surname type="patronym">Леонідівна</surname>
+         <surname>Бордюг</surname>
+      </persName>
+      <birth when="1986-01-12"/>
+      <sex value="F"/>
+      <occupation>MP</occupation>
+      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Zlata_Ognevich</idno>
    </person>
    <person xml:id="ІннаРоманівнаСовсун.1984">
       <persName>
@@ -5306,6 +5281,7 @@
       </persName>
       <birth when="1959-03-26"/>
       <sex value="F"/>
+      <occupation>член Центральної виборчої комісії</occupation>
       <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/yefremova-irina-oleksiivna.html</idno>
       <figure>
          <graphic url="http://static.rada.gov.ua/dep_img8/nf63.jpg"/>
@@ -5519,6 +5495,7 @@
       </persName>
       <birth when="1980-03-19"/>
       <sex value="M"/>
+      <occupation>заступник голови Духовного управління мусульман Автономної Республіки Крим муфтій</occupation>
    </person>
    <person xml:id="АллаОлександрівнаАлександровська.1948">
       <persName>
@@ -5715,6 +5692,7 @@
       </persName>
       <birth when="1977-08-18"/>
       <sex value="M"/>
+      <occupation>член Національної комісії з цінних паперів та фондового ринку</occupation>
       <idno type="URI" subtype="personal">https://prostir.fandom.com/wiki/%D0%90%D0%BC%D0%B5%D0%BB%D1%96%D0%BD_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9_%D0%86%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87</idno>
    </person>
    <person xml:id="АнатолійІвановичДоманський.1939">
@@ -6899,6 +6877,7 @@
       </persName>
       <birth when="1981-06-17"/>
       <sex value="M"/>
+      <occupation>член Центральної виборчої комісії</occupation>
       <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/gevko-andriy-yevgenovich.html</idno>
    </person>
    <person xml:id="АндрійЄвгеновичКостін.1973">
@@ -8502,6 +8481,7 @@
       </persName>
       <birth when="1974-11-06"/>
       <sex value="M"/>
+      <occupation>заступник міністра доходів і зборів</occupation>
       <idno type="URI" subtype="personal">https://m.ednist.info/dossier/253</idno>
    </person>
    <person xml:id="АндрійПетровичКлюєв.1964">
@@ -8608,6 +8588,7 @@
       </persName>
       <birth when="1982-02-03"/>
       <sex value="M"/>
+      <occupation>член Центральної виборчої комісії</occupation>
       <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/yevstignieiev-andriy-sergiyovich.html</idno>
    </person>
    <person xml:id="АндрійСергійовичДенисенко.1973">
@@ -15756,6 +15737,17 @@
                    to="2014-11-27"
                    ana="#ВРУ.7"/>
    </person>
+   <person xml:id="ВолодимирАндрійовичВасиленко.1937">
+      <persName>
+         <forename>Володимир</forename>
+         <surname type="patronym">Андрійович</surname>
+         <surname>Василенко</surname>
+      </persName>
+      <birth when="1937-01-16"/>
+      <sex value="M"/>
+      <occupation>Надзвичайний і Повноважний Посол України, доктор юридичних наук, професор</occupation>
+      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Volodymyr_Vasylenko</idno>
+   </person>
    <person xml:id="ВолодимирАндрійовичДаниленко.1948">
       <persName>
          <forename>Володимир</forename>
@@ -17857,10 +17849,12 @@
       <persName>
          <forename>Володимир</forename>
          <surname type="patronym">Михайлович</surname>
-         <surname>В’ятрович</surname>
+         <surname>В'ятрович</surname>
       </persName>
       <birth when="1977-06-07"/>
       <sex value="M"/>
+      <occupation>голова Українського інституту національної пам'яті</occupation>
+      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Volodymyr_Viatrovych</idno>
       <figure>
          <graphic url="http://static.rada.gov.ua/dep_img9/es25.jpg"/>
       </figure>
@@ -20186,6 +20180,7 @@
       </persName>
       <birth when="1960-10-05"/>
       <sex value="M"/>
+      <occupation>заступник міністра соціальної політики</occupation>
       <idno type="URI" subtype="wikimedia">https://uk.everybodywiki.com/%D0%86%D0%B2%D0%B0%D0%BD%D0%BA%D0%B5%D0%B2%D0%B8%D1%87_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87</idno>
    </person>
    <person xml:id="ВікторВікторовичБондаренко.1967">
@@ -21260,6 +21255,7 @@
       </persName>
       <birth when="1990-10-12"/>
       <sex value="F"/>
+      <occupation>член Центральної виборчої комісії</occupation>
       <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/glushhenko-viktoriya-anatoliivna.html</idno>
    </person>
    <person xml:id="ВікторіяВалентинівнаПодгорна.1969">
@@ -21797,6 +21793,7 @@
       </persName>
       <birth when="1986-09-26"/>
       <sex value="M"/>
+      <occupation>член Центральної виборчої комісії</occupation>
       <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/plukar-vitaliy-volodimirovich.html</idno>
    </person>
    <person xml:id="ВіталійГригоровичЦехмістренко.1965">
@@ -26243,6 +26240,20 @@
       <!--from 2019-08-29 to : Безпартійний-->
       <affiliation ref="#fr.sn" role="member" from="2019-08-29T14:16:37"/>
    </person>
+   <person xml:id="ЕкатерінаЗгуладзе.1978">
+      <persName to="2011-04-29">
+         <forename>Екатеріна</forename>
+         <surname>Згуладзе</surname>
+      </persName>
+      <persName from="2011-04-30">
+         <forename>Екатеріна</forename>
+         <surname>Згуладзе-Глуксманн</surname>
+      </persName>
+      <birth when="1978-06-18"/>
+      <sex value="F"/>
+      <occupation>перший заступник міністра внутрішніх справ</occupation>
+      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Eka_Zguladze</idno>
+   </person>
    <person xml:id="ЕллаАнатоліївнаРєпіна.1973">
       <persName>
          <forename>Елла</forename>
@@ -28073,6 +28084,7 @@
       </persName>
       <birth when="1971-06-11"/>
       <sex value="M"/>
+      <occupation>голова Державної служби спеціального зв’язку та захисту інформації України</occupation>
       <idno type="URI" subtype="wikimedia">https://uk.wikipedia.org/wiki/%D0%84%D0%B2%D0%B4%D0%BE%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87</idno>
    </person>
    <person xml:id="ЛеонідОлександровичЄмець.1979">
@@ -33805,18 +33817,19 @@
       <affiliation ref="#fr.nu06" role="member" from="2006-05-25" to="2007-06-15"/>
    </person>
    <person xml:id="НаталіяВолодимирівнаАгафонова.1977">
-      <persName to="2019-01-11">
+      <persName to="2019-01-10">
          <forename>Наталія</forename>
          <surname type="patronym">Володимирівна</surname>
          <surname>Агафонова</surname>
       </persName>
-      <persName from="2019-01-12">
+      <persName from="2019-01-11">
          <forename>Наталія</forename>
          <surname type="patronym">Володимирівна</surname>
          <surname>Ковальчук</surname>
       </persName>
       <birth when="1977-09-19"/>
       <sex value="F"/>
+      <occupation>MP</occupation>
       <figure>
          <graphic url="http://static.rada.gov.ua/dep_img7/ud8.jpg"/>
       </figure>
@@ -33900,6 +33913,7 @@
       </persName>
       <birth when="1970-06-24"/>
       <sex value="F"/>
+      <occupation>голова Національного агентства з питань державної служби</occupation>
       <idno type="URI" subtype="personal">https://nads.gov.ua/persons/nataliya-alyushina</idno>
    </person>
    <person xml:id="НаталіяРоманівнаПіпа.1983">
@@ -34342,6 +34356,7 @@
       </persName>
       <birth when="1979-11-26"/>
       <sex value="F"/>
+      <occupation>член Центральної виборчої комісії</occupation>
       <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/boyarchuk-oksana-borisivna.html</idno>
    </person>
    <person xml:id="ОксанаВасилівнаКоляда.1980">
@@ -35880,6 +35895,7 @@
       </persName>
       <birth when="1980-05-08"/>
       <sex value="M"/>
+      <occupation>член Центральної виборчої комісії</occupation>
       <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/didenko-oleg-mikolayovich.html</idno>
    </person>
    <person xml:id="ОлегМиколайовичНемчінов.1977">
@@ -44669,6 +44685,7 @@
       </persName>
       <birth when="1967-07-17"/>
       <sex value="M"/>
+      <occupation>член Центральної виборчої комісії</occupation>
       <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/lyubchenko-pavlo-mikolayovich.html</idno>
    </person>
    <person xml:id="ПавлоМиколайовичСушко.1979">
@@ -52900,6 +52917,7 @@
       </persName>
       <birth when="1975-08-28"/>
       <sex value="M"/>
+      <occupation>заступник міністра внутрішніх справ</occupation>
       <idno type="URI" subtype="wikimedia">https://uk.everybodywiki.com/%D0%90%D0%B2%D0%B0%D0%BA%D1%8F%D0%BD_%D0%A2%D1%96%D0%B3%D1%80%D0%B0%D0%BD_%D0%90%D1%88%D0%BE%D1%82%D0%BE%D0%B2%D0%B8%D1%87</idno>
    </person>
    <person xml:id="УлянаМиколаївнаМостіпан.1944">
@@ -53075,6 +53093,16 @@
                    ana="#ВРУ.8"/>
       <!--from 2014-11-27 to 2019-08-29: Самовисування-->
       <affiliation ref="#fr.bpp" role="member" from="2014-11-27" to="2019-08-29"/>
+   </person>
+   <person xml:id="Філарет(Денисенко).1929">
+      <persName>
+         <forename>Філарет</forename>
+         <surname>(Денисенко)</surname>
+      </persName>
+      <birth when="1929-01-23"/>
+      <sex value="M"/>
+      <occupation>Патріарх Київський і всієї Руси-України</occupation>
+      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Filaret_(Denysenko)</idno>
    </person>
    <person xml:id="ХвичаНодаровичМепарішвілі.1972">
       <persName>
@@ -55691,6 +55719,7 @@
       </persName>
       <birth when="1970-02-03"/>
       <sex value="M"/>
+      <occupation>член Центральної виборчої комісії</occupation>
       <idno type="URI" subtype="wikimedia">https://uk.wikipedia.org/wiki/%D0%9C%D1%96%D1%80%D0%BE%D1%88%D0%BD%D0%B8%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%AE%D1%80%D1%96%D0%B9_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87</idno>
       <idno type="URI" subtype="personal">https://cvk.gov.ua/sklad_cvk/miroshnichenko-yuriy-romanovich.html</idno>
    </person>

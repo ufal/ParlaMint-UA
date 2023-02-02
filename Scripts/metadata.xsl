@@ -190,6 +190,8 @@
           <xsl:variable name="forename" select="$person/col[@name='Forename']"/>
           <xsl:variable name="patronymic" select="$person/col[@name='Patronymic']"/>
           <xsl:variable name="surname" select="$person/col[@name='Surname']"/>
+          <xsl:variable name="occupation" select="$person/col[@name='Occupation']"/>
+          <xsl:variable name="country" select="$person/col[@name='Country']"/>
           <xsl:element name="persName" xmlns="http://www.tei-c.org/ns/1.0">
             <xsl:if test="$forename">
               <xsl:element name="forename" xmlns="http://www.tei-c.org/ns/1.0">
@@ -243,6 +245,14 @@
               <xsl:value-of select="$idno"/>
             </xsl:element>
           </xsl:if>
+          </xsl:for-each>
+          <xsl:for-each select="tokenize($occupation,' *; *')">
+            <xsl:variable name="occ" select="normalize-space(.)"/>
+            <xsl:if test="$occ">
+              <xsl:element name="occupation" xmlns="http://www.tei-c.org/ns/1.0">
+                <xsl:value-of select="$occ"/>
+              </xsl:element>
+            </xsl:if>
           </xsl:for-each>
           <xsl:for-each select="$gov-affiliation/table/row[./col[@name='PersonID'] = $id]">
             <xsl:variable name="aff" select="."/>
@@ -315,6 +325,7 @@
             <xsl:apply-templates select="$personN/tei:persName"/>
             <xsl:apply-templates select="$personN/tei:birth"/>
             <xsl:apply-templates select="$personN/tei:sex"/>
+            <xsl:apply-templates select="$person/tei:occupation"/>
             <xsl:apply-templates select="$person/tei:idno"/>
             <xsl:apply-templates select="$person/tei:figure"/>
             <xsl:apply-templates select="$person/tei:affiliation | $person/comment()"/>
