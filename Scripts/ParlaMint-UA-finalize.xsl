@@ -378,6 +378,8 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template mode="comp" match="tei:pc/@lemma"/><!-- remove lemma from punctation -->
+
   <!-- Remove leading, trailing and multiple spaces -->
   <xsl:template mode="comp" match="text()[normalize-space(.)]">
     <xsl:variable name="str" select="replace(., '\s+', ' ')"/>
