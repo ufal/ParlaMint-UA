@@ -39,9 +39,10 @@
           <xsl:value-of select="./@xml:id"/>
           <xsl:text>&#9;&#9;&#10;</xsl:text>
         </xsl:when>
+        <xsl:otherwise/>
       </xsl:choose>
     </xsl:variable>
-    <xsl:if test="$period">
+    <xsl:if test="not($period='')">
       <xsl:for-each select="ancestor-or-self::tei:person[1]/tei:persName">
         <xsl:variable name="persName" select="."/>
         <xsl:for-each select="./tei:surname[not(@type='patronym')]/text()">
