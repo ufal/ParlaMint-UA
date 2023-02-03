@@ -270,6 +270,7 @@ my $corpus_root_node = XML::LibXML::Element->new('teiCorpus');
 $teiCorpus->setDocumentElement($corpus_root_node);
 $corpus_root_node->setNamespace('http://www.tei-c.org/ns/1.0','',1);
 $corpus_root_node->setAttributeNS('http://www.w3.org/XML/1998/namespace','id',$file_id);
+$corpus_root_node->setAttributeNS('http://www.w3.org/XML/1998/namespace','lang','uk');
 $corpus_root_node->addNewChild(undef,'teiHeader');
 for my $component_file (sort @component_files){
   my $incl = $corpus_root_node->addNewChild(undef,'include');
