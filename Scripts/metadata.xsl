@@ -344,7 +344,7 @@
     <xsl:variable name="listOrg-path" select="concat($out-dir,'ParlaMint-UA-listOrg.xml')"/>
     <xsl:message select="concat('INFO: Creating ',$listOrg-path)"/>
     <xsl:result-document href="{$listOrg-path}" method="xml">
-      <xsl:element name="listPerson" xmlns="http://www.tei-c.org/ns/1.0">
+      <xsl:element name="listOrg" xmlns="http://www.tei-c.org/ns/1.0">
         <xsl:attribute name="xml:id">ParlaMint-UA-listOrg</xsl:attribute>
         <xsl:attribute name="xml:lang">uk</xsl:attribute>
         <xsl:apply-templates select="$gov-org/table/row" mode="print-org"/>
