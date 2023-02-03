@@ -169,6 +169,7 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	echo "TODO: preprocess with language detection"
 	mkdir -p $(DATADIR)/tei-UD/$*/
 	find $(DATADIR)/tei-text-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > $(DATADIR)/tei-UD/$*.fl
+	cp $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml $(DATADIR)/tei-UD/$*/
 	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
 	                             $(TOKEN) \
 	                             --model "uk:ukrainian-iu-ud-2.10-220711" \
@@ -392,15 +393,15 @@ TEI.ana-all: $(TEI.ana-RUN-ALL)
 ## TEI.ana-RUN ##
 $(TEI.ana-RUN-ALL): TEI.ana-%:
 	mkdir -p $(DATADIR)/release/$*
-	echo "TODO: add final speaker person linking param (utterance-who-ana.tsv)"
 	$s -xsl:Scripts/ParlaMint-UA-finalize.xsl \
 	    outDir=$(DATADIR)/release/$* \
 	    inListPerson=$(DATADIR)/tei-particDesc-update/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listPerson.xml  \
 	    inListOrg=$(DATADIR)/tei-particDesc-update/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listOrg.xml \
 	    inTaxonomiesDir=$(TAXONOMIES) \
-	    who=$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv \
+	    speakers=$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv \
 	    type=TEI.ana \
-	    $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml
+	    $(DATADIR)/tei-UD/$*/ParlaMint-UA.xml
+	echo "TODO: change path when tei-NER is implemented"
 
 TEI-RUN-ALL = $(addprefix TEI-, $(TEI-UD_DATA_ALL))
 TEI-RUN-LAST = $(addprefix TEI-, $(TEI-UD_DATA_LAST))
@@ -419,7 +420,7 @@ $(TEI-RUN-ALL): TEI-%:
 	    inListOrg=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana/ParlaMint-UA-listOrg.xml \
 	    inTaxonomiesDir=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana \
 	    anaDir=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana \
-	    who=$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv \
+	    speakers=$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv \
 	    type=TEI \
 	    $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml
 

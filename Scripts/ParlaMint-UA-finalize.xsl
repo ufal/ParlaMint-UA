@@ -20,6 +20,7 @@
   <xsl:param name="outDir"/>
   <xsl:param name="anaDir"/>
   <xsl:param name="type"/> <!-- TEI or TEI.ana-->
+  <xsl:param name="speakers"/>
 
 
   <xsl:param name="version">3.0a</xsl:param>
@@ -43,6 +44,19 @@
       <item>ParlaMint-taxonomy-UD-SYN.ana.xml</item>
       <item>ParlaMint-taxonomy-NER.ana.xml</item>
     </xsl:if>
+  </xsl:variable>
+
+  <xsl:variable name="speaker-person">
+    <xsl:variable name="table">
+      <xsl:call-template name="read-tsv">
+        <xsl:with-param name="file" select="$speakers"/>
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:for-each select="$table//row">
+      <xsl:if test="./col[@name='who']">
+        <item utterance="{./col[@name='utterance']}" doc="{./col[@name='utterance']}" who="{./col[@name='who']}" ana="{./col[@name='ana']}"/>
+      </xsl:if>
+    </xsl:for-each>
   </xsl:variable>
 
   <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
@@ -110,15 +124,15 @@
           <xsl:when test="doc-available(tei:url-ana)">
             <xsl:value-of select="document(tei:url-ana)/tei:TEI/tei:teiHeader//
                                   tei:extent/tei:measure[@unit='words'][1]/@quantity"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id,
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id,
                                    ': cannot locate .ana file ', tei:url-ana)"/>
-              <xsl:value-of select="number('0')"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </item>
-      </xsl:for-each>
+            <xsl:value-of select="number('0')"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </item>
+    </xsl:for-each>
   </xsl:variable>
 
   <!-- Terms in component files -->
@@ -318,6 +332,22 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- link utterance with person -->
+  <xsl:template mode="comp" match="tei:u">
+    <xsl:variable name="id" select="@xml:id"/>
+    <xsl:variable name="speaker" select="$speaker-person//*:item[@utterance = $id]"/>
+    <xsl:copy copy-namespaces="no">
+      <xsl:apply-templates select="@*[not(name()='ana' or name()='who')]" mode="comp" />
+      <xsl:if test="$speaker">
+        <xsl:attribute name="who" select="replace(concat('#',$speaker/@who),'##*','#')"/>
+        <xsl:if test="not(@ana = $speaker/@ana)">
+          <xsl:message select="concat('INFO: changing speaker type ',@xml:id,'(',@who,'|',$speaker/@who,') ',@ana,' to ',$speaker/@ana)"/>
+        </xsl:if>
+        <xsl:attribute name="ana" select="$speaker/@ana"/>
+      </xsl:if>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
+  </xsl:template>
 
   <!-- Take care of syntactic words -->
   <xsl:template mode="comp" match="tei:w[tei:w]">
