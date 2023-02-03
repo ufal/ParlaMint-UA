@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA_2014-01-14-m0" xml:lang="uk">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- TODO -->
+            <meeting ana="#parla.term #parla.uni" n="7">7</meeting>
+            <meeting ana="#parla.session #parla.uni" n="3">3</meeting>
+            <!-- TODO: meeting type: regular -->
+            <!-- TODO -->
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <!-- TODO -->
+         </extent>
+         <publicationStmt>
+            <!-- TODO -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <!-- TODO -->
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5140.html</idno>
+               <date when="2014-01-14">2014-01-14</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- TODO -->
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- TODO -->
+               <date when="2014-01-14">2014-01-14</date>
+            </setting>
+         </settingDesc>
+         <!-- TODO -->
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 14 січня 2014</note>
+            <note type="comment">ЗАСІДАННЯ СОРОК ПЕРШЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="time">(14 січня 2014 року, 10 година)</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України В.В.РИБАК</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2014-01-14-m0.u1">
+               <seg xml:id="ParlaMint-UA_2014-01-14-m0.u1.p1">Добрий день, шановні народні депутати! Я поздоровляю вас із всіма святами. Тут все зроблено, як положено.</seg>
+               <seg xml:id="ParlaMint-UA_2014-01-14-m0.u1.p2">Я прошу депутатів зареєструватися, і я зроблю об'яву. Прошу народних депутатів зареєструватися.</seg>
+               <note type="time">(10:23:53)</note>
+               <seg xml:id="ParlaMint-UA_2014-01-14-m0.u1.p3">В залі зареєструвалися 269 народних депутатів України.</seg>
+               <seg xml:id="ParlaMint-UA_2014-01-14-m0.u1.p4">Ранкове засідання Верховної Ради України оголошую відкритим.</seg>
+               <seg xml:id="ParlaMint-UA_2014-01-14-m0.u1.p5">Зараз в кабінеті Голови Верховної Ради ідуть перемовини, ідуть консультації керівників усіх фракцій. Тому є пропозиція.</seg>
+               <seg xml:id="ParlaMint-UA_2014-01-14-m0.u1.p6">Я оголошую перерву до 16 години. В 16 годин прошу народних депутатів зібратися в цьому, в цій сесійній залі. Дякую.</seg>
+            </u>
+            <note type="comment">ПІСЛЯ ПЕРЕРВИ</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2014-01-14-m0.u2">
+               <seg xml:id="ParlaMint-UA_2014-01-14-m0.u2.p1">Шановні народні депутати, перемовини між керівниками фракцій продовжуються. Розглядаються ті питання, які сьогодні виникли, шляхи їх вирішення.</seg>
+               <seg xml:id="ParlaMint-UA_2014-01-14-m0.u2.p2">Тому продовжимо роботу сесії Верховної Ради України завтра о 10-й годині ранку. А сьогодні всім – до побачення.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
