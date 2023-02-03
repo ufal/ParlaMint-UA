@@ -199,7 +199,9 @@ for my $dayFilesIn (@file_list_day){
     my $is_chair = ($linking{$u_id}->{common}->{ana} eq '#chair');
     my $alias_result;
     if($seen_alias{$who}){
-      $alias_result = $seen_alias{$who}
+      $alias_result = {%{$seen_alias{$who}}}; ## copy content, not reference !!!
+      # make sure that #chair is not overwritten
+      $alias_result->{aRole} = $linking{$u_id}->{common}->{ana} if $alias_result->{aRole} eq '#chair' or $is_chair;
     }
     # check intervals, use in interval first (as regular or chair), otherwise set guest
     my %res;
