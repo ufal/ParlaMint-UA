@@ -53,15 +53,8 @@ while(my $row = $tsv_in->getline_hr ($INPUT)){
 
   if($row->{aPersonId} =~ m/ /){
     print STDERR Dumper($row);
-    last
   }
 }
-
-
-
-
-
-
 
 
 close $INPUT if $in;
