@@ -138,7 +138,7 @@
                 <xsl:when test="$party">
                   <xsl:element name="affiliation" xmlns="http://www.tei-c.org/ns/1.0">
                     <xsl:attribute name="ref" select="concat('#',$party/col[@name='OrgID'])"/>
-                    <xsl:attribute name="role">represent</xsl:attribute>
+                    <xsl:attribute name="role">representative</xsl:attribute>
                     <xsl:if test="$from">
                       <xsl:attribute name="from" select="$from"/>
                     </xsl:if>
