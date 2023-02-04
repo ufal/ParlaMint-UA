@@ -529,14 +529,14 @@
               <xsl:call-template name="print-relation-attribute"><xsl:with-param name="attr">from</xsl:with-param></xsl:call-template>
               <xsl:call-template name="print-relation-attribute"><xsl:with-param name="attr">to</xsl:with-param></xsl:call-template>
               <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">mutual</xsl:with-param></xsl:call-template>
-              <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">event</xsl:with-param></xsl:call-template>
+              <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">ana</xsl:with-param></xsl:call-template>
             </xsl:when>
             <xsl:when test="$relation = 'opposition' or $relation = 'representing'">
               <xsl:call-template name="print-relation-attribute"><xsl:with-param name="attr">from</xsl:with-param></xsl:call-template>
               <xsl:call-template name="print-relation-attribute"><xsl:with-param name="attr">to</xsl:with-param></xsl:call-template>
               <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">active</xsl:with-param></xsl:call-template>
               <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">passive</xsl:with-param></xsl:call-template>
-              <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">event</xsl:with-param></xsl:call-template>
+              <xsl:call-template name="print-relation-attribute-ref"><xsl:with-param name="attr">ana</xsl:with-param></xsl:call-template>
             </xsl:when>
           </xsl:choose>
         </xsl:element>
