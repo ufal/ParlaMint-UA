@@ -551,6 +551,14 @@
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template match="tei:langUsage">
+    <xsl:copy>
+      <xsl:apply-templates select="tei:language[not(@idetn='en')]"/>
+      <language xml:lang="en" ident="en" usage="0">english</language>
+      <language xml:lang="uk" ident="en" usage="0">aнглійська</language>
+    </xsl:copy>
+  </xsl:template>
+
   <xsl:template name="add-bibl-title">
     <title type="main" xml:lang="uk">Верхо́вна Ра́да Украї́ни</title>
   </xsl:template>
