@@ -378,6 +378,16 @@ $(utterance-who-ana-RUN-ALL): utterance-who-ana-%:
 	                           --out "$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv"
 
 
+
+listPerson-affiliation-fix-RUN-LAST = $(addprefix listPerson-affiliation-fix-, $(DOWNLOAD_META_DATA_LAST))
+listPerson-affiliation-fix: $(listPerson-affiliation-fix-RUN-LAST)
+$(listPerson-affiliation-fix-RUN-LAST): listPerson-affiliation-fix-%:
+	mkdir -p $(DATADIR)/listPerson-affiliation-fix/$*
+	$s -xsl:Scripts/affiliations-remove-overlaps.xsl \
+	  $(DATADIR)/tei-particDesc-update/$(DOWNLOAD_META_DATA_LAST)/ParlaMint-UA-listPerson.xml \
+	  > $(DATADIR)/listPerson-affiliation-fix/$*/ParlaMint-UA-listPerson.xml
+
+
 ######
 
 PARTICDESC_DATA_LAST := $(shell ls $(DATADIR)/tei-particDesc | grep -v '_' | sort -r | head -n1)
@@ -395,7 +405,7 @@ $(TEI.ana-RUN-ALL): TEI.ana-%:
 	mkdir -p $(DATADIR)/release/$*
 	$s -xsl:Scripts/ParlaMint-UA-finalize.xsl \
 	    outDir=$(DATADIR)/release/$* \
-	    inListPerson=$(DATADIR)/tei-particDesc-update/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listPerson.xml  \
+	    inListPerson=$(DATADIR)/listPerson-affiliation-fix/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listPerson.xml  \
 	    inListOrg=$(DATADIR)/tei-particDesc-update/$(PARTICDESC_DATA_LAST)/ParlaMint-UA-listOrg.xml \
 	    inTaxonomiesDir=$(TAXONOMIES) \
 	    speakers=$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv \

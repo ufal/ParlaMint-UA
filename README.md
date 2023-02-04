@@ -84,7 +84,9 @@ graph TB
     utterance-who-ana --utterance-who-ana.tsv--> TEIana
     TEIner --> TEIana
     taxonomies --> TEIana
-    tei-particDesc-update --listPerson<br>listOrg--> TEIana
+    tei-particDesc-update --listOrg--> TEIana
+    tei-particDesc-update --listPerson--> listPerson-affiliation-fix[listPerson-affiliation-fix<br>remove overlaps]:::TODO
+    listPerson-affiliation-fix --listPerson--> TEIana
 
     TEI[TEI<br>FINALIZATION]:::TODOfin
     utterance-who-ana --utterance-who-ana.tsv--> TEI
