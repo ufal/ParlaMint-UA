@@ -551,10 +551,17 @@
   <xsl:template name="print-relation-attribute">
     <xsl:param name="attr"/>
     <xsl:variable name="val" select="normalize-space(./col[lower-case(@name)=$attr]/text() )"/>
-    <xsl:if test="$val">
-      <xsl:attribute name="{$attr}" select="$val"/>
-      <xsl:message select="concat($attr,' ',$val)"/>
-    </xsl:if>
+    <xsl:choose>
+      <xsl:when test="matches($val, '^\d{4}(-\d{2}-\d{2})?$') and matches($attr,'^to|when|from$')">
+        <xsl:attribute name="{$attr}" select="$val"/>
+      </xsl:when>
+      <xsl:when test="matches($attr,'^to|when|from$')">
+        <!-- date attribute but invalid format -->
+      </xsl:when>
+      <xsl:when test="$val">
+        <xsl:attribute name="{$attr}" select="$val"/>
+      </xsl:when>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template name="print-relation-attribute-ref">
