@@ -628,14 +628,18 @@
     </respStmt>
     <xsl:element name="respStmt">
       <persName>Anna Kryvenko</persName>
-      <xsl:comment>TODO: respStmt Anna</xsl:comment>
+      <resp xml:lang="en">Manual metadata retrieval</resp>
+      <resp xml:lang="en">Translations</resp>
     </xsl:element>
   </xsl:template>
 
   <xsl:template name="add-funder">
-    <xsl:element name="funder">
-      <xsl:comment>TODO: funder</xsl:comment>
-    </xsl:element>
+    <funder>
+      <orgName xml:lang="en">CLARIN ERIC</orgName>
+    </funder>
+    <funder>
+      <orgName xml:lang="en">Slovenian Research Agency</orgName>
+    </funder>
   </xsl:template>
 
   <xsl:template name="add-setting">
@@ -666,7 +670,7 @@
         <orgName xml:lang="en">CLARIN research infrastructure</orgName>
         <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
       </publisher>
-      <idno type="URI"><xsl:comment>TODO</xsl:comment></idno>
+      <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
       <availability status="free">
         <licence>http://creativecommons.org/licenses/by/4.0/</licence>
         <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
