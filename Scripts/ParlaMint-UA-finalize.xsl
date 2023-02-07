@@ -379,8 +379,8 @@
   </xsl:template>
 
   <xsl:template mode="comp" match="tei:pc/@lemma"/><!-- remove lemma from punctation -->
-  <xsl:template mode="comp" match="tei:linkGrp[@type='UD-SYN']/tei:link/@ana[. = 'ud-syn:xcomp_sp']">
-    <xsl:attribute name="ana">ud-syn:xcomp_pred</xsl:attribute>
+  <xsl:template mode="comp" match="tei:linkGrp[@type='UD-SYN']/tei:link/@ana[ends-with(.,'_sp')]">
+    <xsl:attribute name="ana" select="concat(substring-before(.,'_sp'),'_pred')"/>
   </xsl:template>
 
   <!-- Remove leading, trailing and multiple spaces -->
