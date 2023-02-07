@@ -379,6 +379,9 @@
   </xsl:template>
 
   <xsl:template mode="comp" match="tei:pc/@lemma"/><!-- remove lemma from punctation -->
+  <xsl:template mode="comp" match="tei:linkGrp[@type='UD-SYN']/tei:link/@ana[. = 'ud-syn:xcomp_sp']">
+    <xsl:attribute name="ana">ud-syn:xcomp_pred</xsl:attribute>
+  </xsl:template>
 
   <!-- Remove leading, trailing and multiple spaces -->
   <xsl:template mode="comp" match="text()[normalize-space(.)]">
