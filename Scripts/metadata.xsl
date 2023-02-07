@@ -402,7 +402,7 @@
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="tei:affiliation[contains(' head deputyHead minister ', @role)]">
+  <xsl:template match="tei:affiliation[contains(' head deputyHead minister deputyMinister ', @role)]">
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
     </xsl:copy>
