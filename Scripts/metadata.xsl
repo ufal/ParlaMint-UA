@@ -145,7 +145,7 @@
                     <xsl:if test="$to">
                       <xsl:attribute name="to" select="$to"/>
                     </xsl:if>
-                      <xsl:attribute name="ana" select="concat('#',$rada-pref,'.',$termN)"/>
+                    <!--  <xsl:attribute name="ana" select="concat('#',$rada-pref,'.',$termN)"/> -->
                   </xsl:element>
                 </xsl:when>
                 <xsl:when test="$term/party_name[contains(' Самовисування Безпартійний ',.)]">
