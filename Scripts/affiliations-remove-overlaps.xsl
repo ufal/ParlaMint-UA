@@ -46,7 +46,9 @@
     <xsl:variable name="position" select="position()"/>
     <xsl:variable name="aff" select="."/>
     <xsl:variable name="similar-siblings" select="(preceding-sibling::tei:affiliation | following-sibling::tei:affiliation)[mk:is-comparable(.,$aff)]"/>
-
+<xsl:if test="@role = 'member' and @ref='#fr.sn' and not(@to) and ./parent::tei:person/@xml:id = 'АнастасіяОлегівнаКрасносільська.1984'">
+  <xsl:message>######<xsl:copy-of select="."/><xsl:value-of select="count(similar-siblings)"/></xsl:message>
+</xsl:if>
     <item n="{position()}">
       <orig>
         <xsl:copy>
@@ -140,7 +142,7 @@
 
   <xsl:template match="tei:affiliation" mode="affiliation-merge">
     <xsl:param name="extend"/>
-    <xsl:message>INTERVALS:&#9;<xsl:value-of select="concat(@from,' -- ',@to)"/>&#9;|&#9;<xsl:value-of select="concat($extend/@from,' -- ',$extend/@to)"/></xsl:message>
+    <xsl:message>INTERVALS (<xsl:value-of select="./parent::tei:person/@xml:id"/>|<xsl:value-of select="@ref"/>|<xsl:value-of select="@ana"/>):&#9;<xsl:value-of select="concat(@from,' -- ',@to)"/>&#9;|&#9;<xsl:value-of select="concat($extend/@from,' -- ',$extend/@to)"/></xsl:message>
     <xsl:copy>
       <xsl:apply-templates select="@*" mode="affiliation-merge">
         <xsl:with-param name="extend" select="$extend"/>
@@ -191,10 +193,13 @@
       <xsl:when test="not($aff1/@ref = $aff2/@ref)"><xsl:sequence select="false()"/></xsl:when>
       <xsl:when test="not($aff1/@role = $aff2/@role)"><xsl:sequence select="false()"/></xsl:when>
       <!-- IMPROVE: sort content -->
-      <xsl:when test="not($aff1/@ana = $aff2/@ana)"><xsl:sequence select="false()"/></xsl:when>
+      <xsl:when test="not($aff1/@ana) and $aff2/@ana"><xsl:sequence select="false()"/></xsl:when>
+      <xsl:when test="$aff1/@ana and not($aff2/@ana)"><xsl:sequence select="false()"/></xsl:when>
+
+      <xsl:when test="$aff1/@ana and $aff2/@ana and not($aff1/@ana = $aff2/@ana)"><xsl:sequence select="false()"/></xsl:when>
       <xsl:when test="$aff1/tei:roleName and not($aff2/roleName)"><xsl:sequence select="false()"/></xsl:when>
       <xsl:when test="not($aff1/tei:roleName) and $aff2/roleName"><xsl:sequence select="false()"/></xsl:when>
-      <xsl:when test="$aff1/tei:roleName and $aff2/roleName and $aff1/tei:roleName/text() = $aff2/roleName/text()"><xsl:sequence select="false()"/></xsl:when>
+      <xsl:when test="$aff1/tei:roleName and $aff2/roleName and not($aff1/tei:roleName/text() = $aff2/roleName/text())"><xsl:sequence select="false()"/></xsl:when>
       <xsl:otherwise><xsl:sequence select="true()"/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
