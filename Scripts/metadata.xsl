@@ -82,10 +82,13 @@
             <xsl:element name="forename" xmlns="http://www.tei-c.org/ns/1.0">
               <xsl:value-of select="string-join(distinct-values($person/term/firstname),' ')"/>
             </xsl:element>
-            <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:variable name="patronym" select="string-join(distinct-values($person/term/patronymic),' ')"/>
+            <xsl:if test="$patronym">
+              <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
                 <xsl:attribute name="type">patronym</xsl:attribute>
-              <xsl:value-of select="string-join(distinct-values($person/term/patronymic),' ')"/>
-            </xsl:element>
+                <xsl:value-of select="$patronym"/>
+              </xsl:element>
+            </xsl:if>
             <!--todo multiple names-->
             <xsl:for-each select="distinct-values($person/term/surname)">
               <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
