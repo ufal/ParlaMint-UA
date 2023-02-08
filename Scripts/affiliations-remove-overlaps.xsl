@@ -46,9 +46,6 @@
     <xsl:variable name="position" select="position()"/>
     <xsl:variable name="aff" select="."/>
     <xsl:variable name="similar-siblings" select="(preceding-sibling::tei:affiliation | following-sibling::tei:affiliation)[mk:is-comparable(.,$aff)]"/>
-<xsl:if test="@role = 'member' and @ref='#fr.sn' and not(@to) and ./parent::tei:person/@xml:id = 'АнастасіяОлегівнаКрасносільська.1984'">
-  <xsl:message>######<xsl:copy-of select="."/><xsl:value-of select="count(similar-siblings)"/></xsl:message>
-</xsl:if>
     <item n="{position()}">
       <orig>
         <xsl:copy>
@@ -211,6 +208,7 @@
       <xsl:when test="$aff1/@to and mk:between-dates($aff1/@to,$aff2/@from,$aff2/@to)"><xsl:sequence select="true()"/></xsl:when>
       <xsl:when test="$aff2/@from and mk:between-dates($aff2/@from,$aff1/@from,$aff1/@to)"><xsl:sequence select="true()"/></xsl:when>
       <xsl:when test="$aff2/@to and mk:between-dates($aff2/@to,$aff1/@from,$aff1/@to)"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:when test="not($aff1/@from or $aff1/@to or $aff2/@from or $aff2/@to)"><xsl:sequence select="true()"/></xsl:when>
       <xsl:otherwise><xsl:sequence select="false()"/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
