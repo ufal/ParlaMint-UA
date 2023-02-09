@@ -198,7 +198,7 @@ HEADER
         if($is_first
           && $content !~ m/^\s*[ЄЯ]\.\.*\s*/
           && (($speaker,$speech) = $content =~ m/^\s*(
-                             [\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’]{2,}\s+ # atleast 2 letters to avoid matching one letter words at the begining of sentence that is followed by abbrevitation
+                             [\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’`]{2,}\s+ # atleast 2 letters to avoid matching one letter words at the begining of sentence that is followed by abbrevitation
                                               (?:
                                                 [\p{Lu}\p{Lt}]\.\s*(?:[\p{Lu}\p{Lt}]\b\.?)? # abbrevitated name
                                                 |
@@ -502,7 +502,7 @@ sub normalize_speaker {
   my $text_speaker = shift;
   my $new_speaker = $text_speaker;
   while(
-    $new_speaker =~ s/'/’/g
+    $new_speaker =~ s/['`]/’/g
     || $new_speaker =~ s/\b([\p{Lu}\p{Lt}])\b$/$1\./
     || $new_speaker =~ s/\.[\. ]+$/\./
     || $new_speaker =~ s/\s\s/ /
