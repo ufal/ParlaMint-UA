@@ -240,7 +240,7 @@ HEADER
           && (my $speaker_status = speaker_status($speaker))
           ) {
           if($speaker_status eq 'interrupting'){
-print STDERR "$content:\n\t$speaker\t$speech\n";
+#print STDERR "$content:\n\t$speaker\t$speech\n";
             add_interruption($utterance//$div,'vocal','shouting',$content);
           } else {
             $speaker = normalize_speaker($speaker);
@@ -377,7 +377,7 @@ sub add_interruption {
 sub add_and_annotate_note {
   my ($context,$text) = @_;
   my ($elem,$type,$attName) = annotate_note($text);
-  print STDERR "$elem\t",($type//'??'),"\t$text\n";
+#  print STDERR "$elem\t",($type//'??'),"\t$text\n";
   return add_interruption($context,$elem,$type,$text,$attName) unless $elem eq 'note';
   my $note = add_note($context,$text);
   $note->setAttribute('type',$type) if $type;
