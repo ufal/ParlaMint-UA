@@ -190,7 +190,7 @@ HEADER
     for my $pchild ($p->childNodes()){
       if(ref $pchild eq 'XML::LibXML::Text'){
         my $content = $pchild->data;
-        my ($is_chair) = $content =~ m/^\s*ГОЛОВУЮ?Ч(?:ИЙ|А).?/;
+        my ($is_chair) = $content =~ m/^\s*Г?ОЛ[ОВ]{2}УЮ?Ч(?:ИЙ|А)\.?/;
         if($is_chair && ! $chair){
           print STDERR "ERROR: missing chair person name\n";die;
         }
@@ -205,7 +205,7 @@ HEADER
                                                 (?:\b[\p{Lu}\p{Lt}'’]{2,}\b\s*)+ # full name
                                               )
                              |
-                             ГОЛОВУЮ?Ч(?:ИЙ|А)\.?
+                             Г?ОЛ[ОВ]{2}УЮ?Ч(?:ИЙ|А)\.?
                              |
                              (?:ГОЛОСИ?\s+)?(?:І?З|В)\s+ЗАЛУ\.
                              )
