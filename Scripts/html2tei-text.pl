@@ -207,7 +207,7 @@ HEADER
                              |
                              Г?ОЛ[ОВ]{2}УЮ?Ч(?:ИЙ|А)\.?
                              |
-                             (?:ГОЛОСИ?\s+)?(?:І?З|В)\s+ЗАЛУ\.
+                             (?:ГОЛОСИ?\s+)?(?:І?З|В)\s+ЗАЛ[УІ]\.
                              )
                              [,…\.\s]*
                              (.*)
@@ -286,6 +286,7 @@ sub speaker_status {
   my %not_speaker = map {$_=>1} qw/COVID./;
   return if $not_speaker{$text};
   return 'interrupting' if $text =~ m/(?:ЗАЛУ)/;
+  return 'interrupting' if $text =~ m/(?:ГОЛОС.*ЗАЛ[УІ])/;
   return 'MP';
 }
 
