@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA" xml:lang="uk">
    <teiHeader/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-UA_2012-12-04-m0.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-UA_2012-12-06-m0.xml"/>
