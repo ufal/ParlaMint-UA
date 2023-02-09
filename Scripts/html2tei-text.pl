@@ -36,6 +36,15 @@ unless($input_dir){
   exit 1;
 }
 
+my $speaker_name_re = qr/
+[\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’`]{2,}\.?\s+ # atleast 2 letters to avoid matching one letter words at the begining of sentence that is followed by abbrevitation
+(?:
+  [\p{Lu}\p{Lt}]\.\s*(?:[\p{Lu}\p{Lt}]\b\.?)? # abbrevitated name
+  |
+  (?:\b[\p{Lu}\p{Lt}'’]{2,}\b\s*)+ # full name
+)/x;
+my $chairman_re = qr/Г?ОЛ[ОВ]{2}УЮ?Ч(?:ИЙ|А)\.?/;
+
 
 my @file_list = glob "$data_dir/$input_dir/$run_id/*.htm";
 my @component_files;
@@ -152,6 +161,8 @@ HEADER
 =cut
   my $utterance;
   my $chair_is_next;
+  my $prev_nonchair_alias;
+  my $prev_nonchair_surname = 'NEVER_MATCHING_CONTENT';
   while(my $p = shift @p){
     next unless $p->hasChildNodes();
 
@@ -203,24 +214,22 @@ HEADER
     for my $pchild ($p->childNodes()){
       if(ref $pchild eq 'XML::LibXML::Text'){
         my $content = $pchild->data;
-        my ($is_chair) = $content =~ m/^\s*Г?ОЛ[ОВ]{2}УЮ?Ч(?:ИЙ|А)\.?/;
+        my $is_chair = $content =~ m/^\s*$chairman_re/;
         if($is_chair && ! $chair){
           print STDERR "ERROR: missing chair person name\n";die;
         }
         my ($speaker,$speech);
+
         if($is_first
           && $content !~ m/^\s*[ЄЯ]\.\.*\s*/
           && (($speaker,$speech) = $content =~ m/^\s*(
-                             [\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’`]{2,}\.?\s+ # atleast 2 letters to avoid matching one letter words at the begining of sentence that is followed by abbrevitation
-                                              (?:
-                                                [\p{Lu}\p{Lt}]\.\s*(?:[\p{Lu}\p{Lt}]\b\.?)? # abbrevitated name
-                                                |
-                                                (?:\b[\p{Lu}\p{Lt}'’]{2,}\b\s*)+ # full name
-                                              )
+                             $speaker_name_re
                              |
-                             Г?ОЛ[ОВ]{2}УЮ?Ч(?:ИЙ|А)\.?
+                             $chairman_re
                              |
                              (?:ГОЛОСИ?\s+)?(?:І?З|В)\s+ЗАЛ[УІ]\.
+                             |
+                             $prev_nonchair_surname
                              )
                              [,…\.\s]*
                              (.*)
@@ -234,10 +243,20 @@ print STDERR "$content:\n\t$speaker\t$speech\n";
             $speaker = normalize_speaker($speaker);
             add_note($div,$speaker)->setAttribute('type','speaker');
             $utterance = $div->addNewChild(undef,'u');
+            $speaker = $prev_nonchair_alias if $speaker eq $prev_nonchair_surname; # interrupted utterance continue
             $utterance->setAttribute('who',$is_chair ? $chair : $speaker);
             $utterance->setAttribute('ana',$is_chair ? '#chair':'#regular');
             if($speech){
               $seg = $utterance->appendTextChild('seg',$speech);
+            }
+            unless($is_chair){
+              $prev_nonchair_alias = $speaker;
+              # TODO: improve
+              if($speaker =~ m/^([\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’`]{2,}).?$/){ # take last name
+                $prev_nonchair_surname = $1;
+              } else {
+                ($prev_nonchair_surname) = $speaker =~ m/^([^ ]{3,})/;
+              }
             }
           }
         } elsif($content !~ m/^\s*$/) {
