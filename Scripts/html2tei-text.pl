@@ -43,7 +43,7 @@ my $speaker_name_re = qr/
   |
   (?:\b[\p{Lu}\p{Lt}'’]{2,}\b\s*)+ # full name
 )/x;
-my $chairman_re = qr/Г?ОЛ[ОВ]{2}УЮ?Ч(?:ИЙ|А)\.?/;
+my $chairman_re = qr/(?:Г?ОЛ[ОВ]{2}У?Ю?Ч(?:[ИЙ]{1,2}|А))(?<=\S{7})\.?/; # some character can miss, but minimum is 7
 
 
 my @file_list = glob "$data_dir/$input_dir/$run_id/*.htm";
@@ -163,6 +163,7 @@ HEADER
   my $chair_is_next;
   my $prev_nonchair_alias;
   my $prev_nonchair_surname = 'NEVER_MATCHING_CONTENT';
+  my $empty_par_before = 1;
   while(my $p = shift @p){
     next unless $p->hasChildNodes();
 
@@ -182,7 +183,10 @@ HEADER
     my $is_first = 1;
     my ($p_category, $p_data) = get_p_category($p,$chair_is_next);
     # print STDERR "P CATEGORY: $p_category $p\n";
-    next if $p_category eq 'empty';
+    if($p_category eq 'empty'){
+      $empty_par_before = 1;
+      next;
+    }
     if($p_category eq 'process_note' || $p_category eq 'change_chair' || $p_category eq 'change_chair_next'){
       if($p_category eq 'change_chair' && $p_data){
         $chair = normalize_speaker($p_data);
@@ -228,11 +232,15 @@ HEADER
                    |
                    $prev_nonchair_surname
                    /x;
-
+        my $only_forename_re = ($is_chair || ! $empty_par_before)
+              ? qr/NEVER_MATCHING_CONTENT/
+              : qr/[\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’`]{2,}\./x;
         if($is_first
           && $content !~ m/^\s*[ЄЯ]\.\.*\s*/
           && (($speaker,$speech) = $content =~ m/^\s*(
                              $speaker_re
+                             |
+                             $only_forename_re
                              )
                              [,…\.\s]*
                              (.*)
@@ -249,6 +257,7 @@ HEADER
             $speaker = $prev_nonchair_alias if $speaker eq $prev_nonchair_surname; # interrupted utterance continue
             $utterance->setAttribute('who',$is_chair ? $chair : $speaker);
             $utterance->setAttribute('ana',$is_chair ? '#chair':'#regular');
+            undef $empty_par_before;
             if($speech){
               $seg = $utterance->appendTextChild('seg',$speech);
             }
