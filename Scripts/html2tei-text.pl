@@ -220,16 +220,19 @@ HEADER
         }
         my ($speaker,$speech);
 
+        my $speaker_re = $is_chair
+              ? $chairman_re
+              : qr/$speaker_name_re
+                   |
+                   (?:ГОЛОСИ?\s+)?(?:І?З|В)\s+ЗАЛ[УІ]\.
+                   |
+                   $prev_nonchair_surname
+                   /x;
+
         if($is_first
           && $content !~ m/^\s*[ЄЯ]\.\.*\s*/
           && (($speaker,$speech) = $content =~ m/^\s*(
-                             $speaker_name_re
-                             |
-                             $chairman_re
-                             |
-                             (?:ГОЛОСИ?\s+)?(?:І?З|В)\s+ЗАЛ[УІ]\.
-                             |
-                             $prev_nonchair_surname
+                             $speaker_re
                              )
                              [,…\.\s]*
                              (.*)
