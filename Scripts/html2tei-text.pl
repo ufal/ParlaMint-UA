@@ -154,6 +154,19 @@ HEADER
   my $chair_is_next;
   while(my $p = shift @p){
     next unless $p->hasChildNodes();
+
+    #prune paragraph from invisible nodes (nodes without text content) and merge adjected text content
+    for my $nocontent_node ($p->findnodes('.//*[not(text())]')){
+      if(
+        ref $nocontent_node->previousSibling() eq 'XML::LibXML::Text'
+        and
+        ref $nocontent_node->nextSibling() eq 'XML::LibXML::Text'
+        ){
+        $nocontent_node->previousSibling()->appendData($nocontent_node->nextSibling()->data);
+        $nocontent_node->nextSibling()->unbindNode;
+      }
+      $nocontent_node->unbindNode
+    }
     my $seg;
     my $is_first = 1;
     my ($p_category, $p_data) = get_p_category($p,$chair_is_next);
