@@ -17,6 +17,11 @@ use File::Path;
 my ($data_dir, $run_id, $config_path, $process_subset,$file_id, $subdir_by_year);
 
 
+my $tz = 'Europe/Prague';
+my $strp = DateTime::Format::Strptime->new(
+  pattern   => '%Y-%m-%e %H:%M:%S',
+);
+
 GetOptions (
             'data-dir=s' => \$data_dir,
             'id=s' => \$run_id,
@@ -236,7 +241,7 @@ HEADER
     }
     if($p_category eq 'time_note'){
       # print STDERR $p;
-      add_time_note($seg // $utterance // $div,$p->textContent);
+      add_time_note($seg // $utterance // $div,trim($p->textContent), $date);
       next;
     }
     print STDERR "ERROR: missing chair\n" unless $chair;
@@ -396,9 +401,18 @@ sub add_note {
 
 
 sub add_time_note {
-  my ($context,$text) = @_;
+  my ($context,$text, $date) = @_;
   #print STDERR "adding time note '$text'\n";
-  return add_note($context, "($text)")->setAttribute('type','time');
+  my $note;
+  my $datetime;
+  if($text =~ m/^\d\d:\d\d:\d\d$/ && eval {$datetime = $strp->parse_datetime("$date $text")}){
+    $note = $context->addNewChild(undef,'note');
+    $note->appendTextChild('time',$text);
+    $note->firstChild->setAttribute('when',$datetime)
+  }  else {
+    $note = add_note($context, "$text");
+  }
+  return $note->setAttribute('type','time');
 }
 
 sub add_interruption {
@@ -540,6 +554,13 @@ sub get_p_category {
 
 
 ################################################
+
+sub trim {
+  my $text = shift;
+  $text =~ s/^\s*|\s*$//g;
+  $text =~ s/\s+/ /g;
+  return $text;
+}
 sub open_html {
   my $file = shift;
   my $params = shift // {};
@@ -625,6 +646,7 @@ sub normalize_elements_and_spaces {
     while(my $chN = shift @chNodes){
       next if ref $chN eq 'XML::LibXML::Text';
       next unless $chN->nodeName eq 'note';
+      next if grep {ref $_ eq 'XML::LibXML::Element'} $chN->childNodes;
       {
         my $str = $chN->textContent;
         $str =~ s/\s+/ /g;
