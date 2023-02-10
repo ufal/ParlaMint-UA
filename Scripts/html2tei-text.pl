@@ -79,7 +79,7 @@ for my $fileIn (@file_list){
     `mkdir -p $data_dir/$output_dir/$run_id/$subdir`;
   }
   my ($fileInName) = $fileIn =~ m/([^\/]*)$/;
-  # unless($fileInName =~ m/20170317-1.htm/){print STDERR "DEBUG: skipping $fileInName\n"; next;}
+  # unless($fileInName =~ m/20181002.htm/){print STDERR "DEBUG: skipping $fileInName\n"; next;}
   $suff //= 0;
   print STDERR "$fileIn\n\t$dY-$dM-$dD\t$suff\n";
   my $id = sprintf("%s_%04d-%02d-%02d-m%d",$file_id,$dY,$dM,$dD,$suff);
@@ -180,6 +180,30 @@ HEADER
       }
       $nocontent_node->unbindNode
     }
+    my $no_change_in_loop;
+    do {
+      $no_change_in_loop = 1;
+      my ($node) = $p->findnodes('.//*[not(name()="i") and not(./*)]');
+      if($node){
+        undef $no_change_in_loop;
+        my $parent = $node->parentNode;
+        my $prev = $node->previousSibling();
+        my $next = $node->nextSibling();
+        if($prev && ref $prev eq 'XML::LibXML::Text'){
+          $prev->appendData($node->textContent);
+          $node->unbindNode;
+          # $node = $prev;
+        } else {
+          $prev = XML::LibXML::Text->new($node->textContent);
+          $parent->replaceChild( $prev, $node );
+        }
+
+        if($next && ref $next eq 'XML::LibXML::Text'){
+          $prev->appendData($next->data);
+          $next->unbindNode;
+        }
+      }
+    } until($no_change_in_loop);
     my $seg;
     my $is_first = 1;
     my ($p_category, $p_data) = get_p_category($p,$chair_is_next);
