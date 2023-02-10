@@ -45,15 +45,15 @@
             <note type="date">Стенограма пленарного засідання 11 липня 2019</note>
             <note type="comment">ЗАСІДАННЯ СІМДЕСЯТЕ</note>
             <note type="comment">Сесійний зал Верховної Ради України</note>
-            <note type="time">(11 липня 2019 року, 10 година)</note>
+            <note type="time">11 липня 2019 року, 10 година</note>
             <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>
-            <note type="time">(10:02:11)</note>
+            <note type="time"><time when="2019-07-11T10:02:11">10:02:11</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u1">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u1.p1">Доброго ранку, шановні колеги! Доброго ранку! Прошу всіх заходити в зал, приготуватись до реєстрації.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u1.p2">У нас сьогодні повна мобілізація. Ще не повністю це відчувається, але, я переконаний, що колеги всі підходять, підтягуються. Я прошу всіх заходити в зал, перейнятись відповідальністю.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u1.p3">Отже, прошу провести реєстрацію. І прошу зареєструватись.</seg>
-               <note type="time">(10:03:32)</note>
+               <note type="time"><time when="2019-07-11T10:03:32">10:03:32</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u1.p4">Зареєстровано 280 народних депутатів. Ранкове пленарне засідання Верховної Ради України оголошую відкритим.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u1.p5">Сьогодні день народження народного депутата України Тетяни Анатоліївни Донець. Давайте привітаємо нашу колегу.</seg>
                <kinesic type="applause">
@@ -89,7 +89,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u2.p2">Отже, колеги, зараз я оголошую про продовження розгляду проекту Виборчого кодексу (3112-1). У нас лишилося близько 20 правок. Я сподіваюся, протягом 15 хвилин ми зможемо завершити їхній розгляд, після того доповідь Черненка Олександра Миколайовича, після того по хвилині від фракцій і об 11-й, а, можливо, о 10:55 ми переходимо до прийняття рішення.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u2.p3">Отже, запрошую до доповіді Черненка Олександра Миколайовича.</seg>
             </u>
-            <note type="time">(10:11:47)</note>
+            <note type="time"><time when="2019-07-11T10:11:47">10:11:47</time></note>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u3">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u3.p1">Колеги, доброго ранку. Дивіться, у нас, дійсно, з тих 4 тисяч 500 з лишнім поправок лишилося 27 і всі поправки стосуються "Перехідних положень". Але ми потім, коли будемо повертатися, є одна поправка, яка повністю дає редакцію "Перехідних положень" нову, яку робоча група рекомендує підтримати. Тому всі ці 27 поправок, я, робоча група рекомендує відхилити, тому що ми до цього повернемося. Тому давайте оперативно поставимо зараз на голосування, я навіть не буду виступати. По кожній з цих поправок робоча група – пропозиція відхилити.</seg>
@@ -102,7 +102,7 @@
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u5">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u5.p1">Так. Тому правка.</seg>
             </u>
-            <note type="time">(10:12:35)</note>
+            <note type="time"><time when="2019-07-11T10:12:35">10:12:35</time></note>
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України</note>
             <note type="narrative">ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
@@ -116,7 +116,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u8">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u8.p1">Прошу визначатися. Група просить відхилити.</seg>
-               <note type="time">(10:12:53)</note>
+               <note type="time"><time when="2019-07-11T10:12:53">10:12:53</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u8.p2">За-9</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u8.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u8.p4">Наступна – 49. вибачте, 4532.</seg>
@@ -136,7 +136,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u12">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u12.p1">Відхилити, зрозуміло. Будь ласка, прошу визначатися.</seg>
-               <note type="time">(10:13:22)</note>
+               <note type="time"><time when="2019-07-11T10:13:22">10:13:22</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u12.p2">За-6</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u12.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u12.p4">4533.</seg>
@@ -148,7 +148,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u14">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u14.p1">Прошу визначатися.</seg>
-               <note type="time">(10:13:42)</note>
+               <note type="time"><time when="2019-07-11T10:13:42">10:13:42</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u14.p2">За-3</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u14.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u14.p4">4534.</seg>
@@ -160,7 +160,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u16">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u16.p1">Прошу визначатися.</seg>
-               <note type="time">(10:14:01)</note>
+               <note type="time"><time when="2019-07-11T10:14:01">10:14:01</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u16.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u16.p3">4535.</seg>
             </u>
@@ -172,7 +172,7 @@
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u18">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u18.p1">Попередня поправка була відхилена.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u18.p2">А тепер визначаємося по 4535. Прошу визначатися.</seg>
-               <note type="time">(10:14:22)</note>
+               <note type="time"><time when="2019-07-11T10:14:22">10:14:22</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u18.p3">За-3</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u18.p4">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u18.p5">4536.</seg>
@@ -184,7 +184,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u20">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u20.p1">Прошу визначатися.</seg>
-               <note type="time">(10:14:42)</note>
+               <note type="time"><time when="2019-07-11T10:14:42">10:14:42</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u20.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u20.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u20.p4">4537.</seg>
@@ -196,7 +196,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u22">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u22.p1">Прошу визначатися.</seg>
-               <note type="time">(10:15:02)</note>
+               <note type="time"><time when="2019-07-11T10:15:02">10:15:02</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u22.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u22.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u22.p4">4538.</seg>
@@ -208,7 +208,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u24">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u24.p1">Прошу визначатися.</seg>
-               <note type="time">(10:15:20)</note>
+               <note type="time"><time when="2019-07-11T10:15:20">10:15:20</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u24.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u24.p3">4539.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u24.p4">Прошу визначатися.</seg>
@@ -220,7 +220,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u26">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u26.p1">Прошу визначатися.</seg>
-               <note type="time">(10:15:38)</note>
+               <note type="time"><time when="2019-07-11T10:15:38">10:15:38</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u26.p2">За-5</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u26.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u26.p4">4540.</seg>
@@ -232,7 +232,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u28">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u28.p1">Прошу визначатися.</seg>
-               <note type="time">(10:15:57)</note>
+               <note type="time"><time when="2019-07-11T10:15:57">10:15:57</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u28.p2">За-1</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u28.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u28.p4">4541.</seg>
@@ -244,7 +244,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u30">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u30.p1">Прошу визначатися.</seg>
-               <note type="time">(10:16:15)</note>
+               <note type="time"><time when="2019-07-11T10:16:15">10:16:15</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u30.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u30.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u30.p4">4542.</seg>
@@ -256,7 +256,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u32">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u32.p1">Прошу визначатися.</seg>
-               <note type="time">(10:16:35)</note>
+               <note type="time"><time when="2019-07-11T10:16:35">10:16:35</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u32.p2">За-0</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u32.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u32.p4">4543.</seg>
@@ -268,7 +268,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u34">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u34.p1">Колеги, я прошу визначатися.</seg>
-               <note type="time">(10:16:54)</note>
+               <note type="time"><time when="2019-07-11T10:16:54">10:16:54</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u34.p2">За-1</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u34.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u34.p4">Наступна – 4544.</seg>
@@ -280,7 +280,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u36">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u36.p1">Друзі, прошу визначатися.</seg>
-               <note type="time">(10:17:14)</note>
+               <note type="time"><time when="2019-07-11T10:17:14">10:17:14</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u36.p2">За-1</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u36.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u36.p4">Наступна – 4545.</seg>
@@ -308,12 +308,12 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u42">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u42.p1">Прошу визначатися.</seg>
-               <note type="time">(10:17:48)</note>
+               <note type="time"><time when="2019-07-11T10:17:48">10:17:48</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u42.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u42.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u42.p4">Наступна – 4546. Автор поправки пані Гопко. Будь ласка, увімкніть мікрофон, вона просить слова.</seg>
             </u>
-            <note type="time">(10:17:57)</note>
+            <note type="time"><time when="2019-07-11T10:17:57">10:17:57</time></note>
             <note type="speaker">ГОПКО Г.М.</note>
             <u who="ГОПКО Г.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u43">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u43.p1">Доброго дня, шановні колеги! Я хотіла би запросити всіх до залу і сьогодні проголосувати Виборчий кодекс, що є одним із наших зобов'язань, які ми взяли і мали зробити ще до березня 2015 року. А також поінформувати, що сьогодні в порядку денному є ще Заява Верховної Ради щодо ситуації в Парламентській Асамблеї Ради Європи, і я хотіла б, щоб ми це підтримали. Кадрові призначення, зокрема міністра закордонних справ, щойно комітет підтримав ці рішення. І також Угода про вільну торгівлю з Ізраїлем. Я б хотіла, щоб ми на завершення цієї каденції, крім того, що ми ратифікували Угоду про зону вільної торгівлі з Канадою, є з Європейським Союзом, і завершили цю каденцію також із ратифікації Угоди про зону вільної торгівлі з Канадою. з Ізраїлем, яка сьогодні в порядку денному.</seg>
@@ -331,7 +331,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u46">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u46.p1">Прошу визначатися.</seg>
-               <note type="time">(10:19:15)</note>
+               <note type="time"><time when="2019-07-11T10:19:15">10:19:15</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u46.p2">За-5</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u46.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u46.p4">Наступна – 4547.</seg>
@@ -343,7 +343,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u48">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u48.p1">Прошу визначатися.</seg>
-               <note type="time">(10:19:34)</note>
+               <note type="time"><time when="2019-07-11T10:19:34">10:19:34</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u48.p2">За-3</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u48.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u48.p4">Наступна – 4548.</seg>
@@ -355,7 +355,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u50">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u50.p1">Друзі, прошу визначатися.</seg>
-               <note type="time">(10:19:54)</note>
+               <note type="time"><time when="2019-07-11T10:19:54">10:19:54</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u50.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u50.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u50.p4">Наступна – 4549.</seg>
@@ -367,7 +367,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u52">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u52.p1">Прошу визначатися.</seg>
-               <note type="time">(10:20:13)</note>
+               <note type="time"><time when="2019-07-11T10:20:13">10:20:13</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u52.p2">За-3</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u52.p3">Ця поправка відхиляється, друзі, а наступна – 4550.</seg>
             </u>
@@ -378,7 +378,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u54">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u54.p1">Прошу визначатися.</seg>
-               <note type="time">(10:20:35)</note>
+               <note type="time"><time when="2019-07-11T10:20:35">10:20:35</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u54.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u54.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u54.p4">4551.</seg>
@@ -390,7 +390,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u56">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u56.p1">Прошу визначатися.</seg>
-               <note type="time">(10:20:55)</note>
+               <note type="time"><time when="2019-07-11T10:20:55">10:20:55</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u56.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u56.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u56.p4">4552.</seg>
@@ -402,7 +402,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u58">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u58.p1">Прошу визначатися.</seg>
-               <note type="time">(10:21:13)</note>
+               <note type="time"><time when="2019-07-11T10:21:13">10:21:13</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u58.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u58.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u58.p4">4553.</seg>
@@ -414,7 +414,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u60">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u60.p1">Прошу визначатися.</seg>
-               <note type="time">(10:21:33)</note>
+               <note type="time"><time when="2019-07-11T10:21:33">10:21:33</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u60.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u60.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u60.p4">Наступна – 4554.</seg>
@@ -426,7 +426,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u62">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u62.p1">Прошу визначатися.</seg>
-               <note type="time">(10:21:52)</note>
+               <note type="time"><time when="2019-07-11T10:21:52">10:21:52</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u62.p2">За-3</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u62.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u62.p4">4555.</seg>
@@ -440,7 +440,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u64.p1">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u64.p2">Вибачте, друзі, ми ставимо її на голосування, але, я думаю, що зала підтримає робочу групу, це я вже на автоматі.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u64.p3">Прошу визначатися, друзі.</seg>
-               <note type="time">(10:22:23)</note>
+               <note type="time"><time when="2019-07-11T10:22:23">10:22:23</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u64.p4">За-5</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u64.p5">Поправка, дійсно, відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u64.p6">Наступна поправка 4556.</seg>
@@ -452,7 +452,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u66">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u66.p1">Друзі, я прошу визначатися.</seg>
-               <note type="time">(10:22:47)</note>
+               <note type="time"><time when="2019-07-11T10:22:47">10:22:47</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u66.p2">За-3</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u66.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u66.p4">Наступна – 4557.</seg>
@@ -464,7 +464,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u68">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u68.p1">Друзі, я прошу визначатися.</seg>
-               <note type="time">(10:23:07)</note>
+               <note type="time"><time when="2019-07-11T10:23:07">10:23:07</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u68.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u68.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u68.p4">4558.</seg>
@@ -476,7 +476,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u70">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u70.p1">Прошу визначатися.</seg>
-               <note type="time">(10:23:25)</note>
+               <note type="time"><time when="2019-07-11T10:23:25">10:23:25</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u70.p2">За-1</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u70.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u70.p4">Наступна – 4559.</seg>
@@ -488,7 +488,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u72">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u72.p1">Прошу визначатися.</seg>
-               <note type="time">(10:23:44)</note>
+               <note type="time"><time when="2019-07-11T10:23:44">10:23:44</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u72.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u72.p3">Друзі, відхиляється поправка.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u72.p4">Наступна – 4560.</seg>
@@ -500,7 +500,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u74">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u74.p1">Прошу визначатися.</seg>
-               <note type="time">(10:24:03)</note>
+               <note type="time"><time when="2019-07-11T10:24:03">10:24:03</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u74.p2">За-3</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u74.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u74.p4">4561.</seg>
@@ -512,7 +512,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u76">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u76.p1">Я прошу визначатися всіх колег.</seg>
-               <note type="time">(10:24:26)</note>
+               <note type="time"><time when="2019-07-11T10:24:26">10:24:26</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u76.p2">За-3</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u76.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u76.p4">Наступна – 4562.</seg>
@@ -524,7 +524,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u78">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u78.p1">Прошу визначатися.</seg>
-               <note type="time">(10:24:47)</note>
+               <note type="time"><time when="2019-07-11T10:24:47">10:24:47</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u78.p2">За-3</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u78.p3">Відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u78.p4">4563.</seg>
@@ -536,7 +536,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u80">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u80.p1">Прошу визначатися.</seg>
-               <note type="time">(10:25:06)</note>
+               <note type="time"><time when="2019-07-11T10:25:06">10:25:06</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u80.p2">За-3</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u80.p3">Відхиляється ця поправка.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u80.p4">4564.</seg>
@@ -548,7 +548,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u82">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u82.p1">Прошу визначатися.</seg>
-               <note type="time">(10:25:26)</note>
+               <note type="time"><time when="2019-07-11T10:25:26">10:25:26</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u82.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u82.p3">4565.</seg>
             </u>
@@ -559,7 +559,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u84">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u84.p1">Друзі, прошу визначатися.</seg>
-               <note type="time">(10:25:43)</note>
+               <note type="time"><time when="2019-07-11T10:25:43">10:25:43</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u84.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u84.p3">Відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u84.p4">4565. Вибачте, 4566.</seg>
@@ -571,7 +571,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u86">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u86.p1">Прошу визначатися.</seg>
-               <note type="time">(10:26:05)</note>
+               <note type="time"><time when="2019-07-11T10:26:05">10:26:05</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u86.p2">За-2</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u86.p3">4567.</seg>
             </u>
@@ -582,12 +582,12 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u88">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u88.p1">Прошу визначатися.</seg>
-               <note type="time">(10:26:22)</note>
+               <note type="time"><time when="2019-07-11T10:26:22">10:26:22</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u88.p2">За-3</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u88.p3">Поправка відхиляється.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u88.p4">Шановні колеги, із особливим почуттям і відчуттям я оголошую останню поправку до Виборчого кодексу – 4567. І по цій поправці ми надаємо слово автору поправки пану Левченку. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ну, неважливо, але пан Левченко вимагає слова. Будь ласка.</seg>
             </u>
-            <note type="time">(10:26:49)</note>
+            <note type="time"><time when="2019-07-11T10:26:49">10:26:49</time></note>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u89">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u89.p1">Дякую.</seg>
@@ -603,10 +603,10 @@
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u91">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u91.p1">Дивіться, ця поправка, вона, дійсно, дає, це поправка робочої.</seg>
-               <note type="time">(10:28:33)</note>
+               <note type="time"><time when="2019-07-11T10:28:33">10:28:33</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u91.p2">За-20</seg>
             </u>
-            <note type="time">(10:28:39)</note>
+            <note type="time"><time when="2019-07-11T10:28:39">10:28:39</time></note>
             <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u92">
@@ -615,7 +615,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u92.p3">Зараз голова робочої групи Черненко Олександр протягом 15 хвилин пояснить ключові моменти, які стосуються Кодексу. Потім по 1 хвилині – від усіх фракцій, щоб усі фракції підтримали свою підтримку Виборчого кодексу. І нагадую, в 11 годині ми переходимо до прийняття рішення, навіть о 10:55. Я прошу всіх в 10:55 прибути в сесійний зал і приготуватись до голосування.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u92.p4">А зараз я надаю слово для виступу 15 хвилин – Черненко Олександр Миколайович.</seg>
             </u>
-            <note type="time">(10:30:14)</note>
+            <note type="time"><time when="2019-07-11T10:30:14">10:30:14</time></note>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u93">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u93.p1">Да, ще раз доброго дня, шановні колеги. Як сказав Голова Верховної Ради, дійсно оскільки під час розгляду всіх правок тут протягом останніх пленарних тижнів, так сталося, що всі правки – і хороші, і нехороші, і користі, і некорисні – були відхилені. Але низка правок, які підтримала робоча група, повірте, ми дуже довго про них дискутували і серед депутатів, і з громадськими організаціями, експертами. Дійсно, правки, які покращують цей документ, які його осучаснюють і які дійсно роблять його таким, що. який ми всі хочемо прийняти. Не мета ж – прийняти Виборчий кодекс, мета – прийняти якісний документ. Відповідно ті правки, які були відхилені, але на думку робочої групи, дуже важливі для якості Кодексу, я їх зачитаю, їхні номери. А зараз дуже коротко поясню, хай не всі, але основні ті положення, в які ми маємо повернутися.</seg>
@@ -644,7 +644,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u96.p1">Шановні колеги, зараз ми передамо слово члену комітету профільної робочої групи Владиславу Голубу, який продовжить читати поправки. А потім, коли вже буде в нас резюмуюча частина, до трибуни повернеться наш основний доповідач Олександр Черненко.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u96.p2">Будь ласка, пане Голубе, під стенограму, ви продовжуєте зараз, з тієї поправки, на якій зупинився пан Олександр, для того щоби ми врахували це під час підсумкового голосування.</seg>
             </u>
-            <note type="time">(10:49:26)</note>
+            <note type="time"><time when="2019-07-11T10:49:26">10:49:26</time></note>
             <note type="speaker">ГОЛУБ В.В.</note>
             <u who="ГОЛУБ В.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u97">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u97.p1">Дякую, шановна пані головуюча.</seg>
@@ -660,7 +660,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u98.p4">Я прошу всіх заходити в зал. Через 5 хвилин, як я й попереджав, ми переходимо до прийняття рішення.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u98.p5">Зараз про "Перехідні положення" Черненко 5 хвилин, і ми переходимо до голосування. Будь ласка.</seg>
             </u>
-            <note type="time">(10:55:25)</note>
+            <note type="time"><time when="2019-07-11T10:55:25">10:55:25</time></note>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u99">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u99.p1">Так, шановні колеги, як я вже казав, ключова правка, крім, ну, ті, які вам роздані, це 4568. Вона стосується "Перехідних положень". Я би, давайте я, все-таки, би їх зачитав. Ключове, знов же я наголошую, і про це говорив, щоби всі почули.</seg>
@@ -720,14 +720,14 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u102.p4">Отже, колеги, тепер, як я і обіцяв, по хвилині від фракцій. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ні. Ні, колеги. 11-а година. По одній хвилині. БПП – Артур Герасимов. Приготуватися – Максим Бурбак. По одній хвилині, і переходимо до голосування. Я дам всім фракціям по хвилині.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u102.p5">Будь ласка, Артур Герасимов.</seg>
             </u>
-            <note type="time">(11:03:32)</note>
+            <note type="time"><time when="2019-07-11T11:03:32">11:03:32</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>
             <u who="ГЕРАСИМОВ А.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u103">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u103.p1">Шановний Андрій Володимировичу! Шановні колеги! Шановні українці! Парламент восьмого скликання започаткував низку життєво важливих реформ, завдяки яким Україна стане повноцінним членом європейського співтовариства з розвиненою демократією на рівні демократичних країн світу.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u103.p2">І сьогодні я закликаю всі фракції парламенту об'єднатися і підтримати Виборчий кодекс, де відкриті списки до виборів, це є надважливим. І тому я звертаюся до кожного народного депутата, до всіх фракцій і груп парламенту з проханням підтримати цей Виборчий кодекс.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u103.p3">Дякую.</seg>
             </u>
-            <note type="time">(11:04:13)</note>
+            <note type="time"><time when="2019-07-11T11:04:13">11:04:13</time></note>
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України</note>
             <note type="narrative">ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
@@ -735,7 +735,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u104.p1">30 секунд, будь ласка, завершіть. Все, ви завершили.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u104.p2">Будь ласка, слово надається лідеру фракції "Народний фронт" Максиму Бурбаку – одна хвилина.</seg>
             </u>
-            <note type="time">(11:04:21)</note>
+            <note type="time"><time when="2019-07-11T11:04:21">11:04:21</time></note>
             <note type="speaker">БУРБАК М.Ю.</note>
             <u who="БУРБАК М.Ю." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u105">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u105.p1">Шановні колеги! Верховна Рада, відповідно до Регламенту, має завершити розгляд проекту Виборчого кодексу. Це дуже важливий закон. Ми з вами обіцяли його суспільству.</seg>
@@ -750,7 +750,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u106.p2">До слова запрошується представник фракції "Опозиційний блок". Хто буде від вас виступати? Шановні колеги.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u106.p3">Будь ласка, пан. Ігор Шурма. Будь ласка, я не побачила за спиною Мірошниченка. Перепрошую, будь ласка.</seg>
             </u>
-            <note type="time">(11:05:39)</note>
+            <note type="time"><time when="2019-07-11T11:05:39">11:05:39</time></note>
             <note type="speaker">ШУРМА І.М.</note>
             <u who="ШУРМА І.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u107">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u107.p1">Ігор Шурма, "Опозиційний блок". Шановні колеги, "Опозиційний блок" без сумніву буде підтримувати даний законопроект, по-перше, тому що це є відхід від мажоритарної системи.</seg>
@@ -763,7 +763,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u108.p1">Дякуємо за позицію вашої фракції.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u108.p2">Будь ласка, до слова запрошується фракція "Самопоміч". Пан Сидорович, просимо вас.</seg>
             </u>
-            <note type="time">(11:06:56)</note>
+            <note type="time"><time when="2019-07-11T11:06:56">11:06:56</time></note>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u109">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u109.p1">Шановні колеги народні депутати! Шановні глядачі! Ніхто не вірив, що це може статися, але 7 листопада 2017 року Верховна Рада проголосувала, 226 голосів. Зараз, 11 липня 2019 року, ми маємо шанс увійти в історію України як той парламент, який вперше прийняв Виборчий кодекс, який вперше провів кодифікацію виборчого права, який відмовився від мажоритарки і не просто відмовився від мажоритарки, а запровадив відкриті пропорційні списки. Цей момент істини – момент нашої відповідальності за ті обіцянки, які давалися у 2014 році. Я хочу вірити, що навіть ті, хто зараз сумнівається, чи ті, хто думають, як голосувати за цей Виборчий кодекс, зрозуміють, що потім, коли пройде час, вони будуть себе запитуватися, а що я зробив 11 липня 2019 року, щоби змінити майбутнє країни? Кожен з нас, з народних депутатів, ті, хто зараз є у сесійній залі, мають.</seg>
@@ -781,7 +781,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u112.p1">Дякуємо за позицію вашої політичної сили.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u112.p2">І, будь ласка, запрошується до слова лідер Радикальної партії і цієї ж фракції Олег Ляшко. Прошу.</seg>
             </u>
-            <note type="time">(11:08:35)</note>
+            <note type="time"><time when="2019-07-11T11:08:35">11:08:35</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u113">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u113.p1">Упродовж багатьох років українцям розказують про те, що хочуть подолати корупцію, і замість того, щоб реально подолати корупцію, створюють антикорупційні органи, платять мільйонні зарплати, а корупції менше не стає. А ті органи, які фінансуються за рахунок коштів українців, перетворюються на інструменти політичної боротьби. Чому в Україні не стає менше корупції? Дві причини. Перша – політична виборча система. Друга – відсутність незалежного суду.</seg>
@@ -793,13 +793,13 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u114.p1">15 секунд завершити. Будь ласка, дякуємо за висловлену позицію вашої політичної сили.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u114.p2">До слова запрошується від фракції "Батьківщина" Сергій Соболєв. Просимо, пане Сергію.</seg>
             </u>
-            <note type="time">(11:10:10)</note>
+            <note type="time"><time when="2019-07-11T11:10:10">11:10:10</time></note>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u115">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u115.p1">Шановні друзі, я думаю, що народ України визначився, який закон потрібен, тепер залишилось визначитись залу. Партія "Батьківщина" так само визначилась. І коли ми наполягали на тому, щоб один із перших пунктів коаліційної угоди був пункт про відкриті виборчі списки, ми вважали це як ключовий момент, який змінить політичну систему держави. На жаль, це питання розглядалося 5 років, 5 довгих років. Той перший пункт коаліційної угоди, накінець-то, попав в сесійну залу. Фракція "Батьківщина" буде підтримувати цей закон. І ми вважаємо, що це реальна зміна ситуації і реальна зміна, коли корупція зникне з виборчого процесу.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u115.p2">Дякую.</seg>
             </u>
-            <note type="time">(11:11:12)</note>
+            <note type="time"><time when="2019-07-11T11:11:12">11:11:12</time></note>
             <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u116">
@@ -810,13 +810,13 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p5">І я прошу всіх, колеги, приготуватись до голосування. Прошу всіх бути на робочих місцях. У нас голосів є буквально обмаль для прийняття рішення. Тому кожен голос буде мати величезну вагу. Готові? Осуховський, верніться в зал. Отже, уважно, відповідально приймаємо рішення.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p6">Отже, перше голосування, колеги. Пропонується повернутись до правок, які запропонувала робоча група, яка близько 10 місяців працювала над кодексом. Пропозиція – повернутися до їхнього розгляду. Друге голосування буде – підтримати. Отже, треба голосувати "за", треба підтримувати. Я прошу, колеги, всіх і кожного проголосувати і підтримати.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p7">Отже, перше голосування за повернення до правок, які були вам роздані, які вивішені на сайти Верховної Ради України. Прошу голосувати. Прошу підтримати, колеги. Кожен голос. Голосуємо! Підтримуємо! Голосуємо, колеги! Підтримуємо!</seg>
-               <note type="time">(11:14:17)</note>
+               <note type="time"><time when="2019-07-11T11:14:17">11:14:17</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p8">За-209</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p9">Прошу по фракціях показати. Прошу всіх заходити в зал, колеги. Я прошу подивитися по фракціях.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p10">Колеги, "Блок Петра Порошенка" – 63, "Народний фронт" – 38 (це якась помилкова позиція, я переконаний, що має бути більше), "Опозиційний блок" –11 (я переконаний, має бути більше), "Самопоміч" – 23, Радикальна партія – 16, "Батьківщина" – 15, "Воля народу" – 1, "Партія "Відродження" – 3, позафракційні – 39, позафракційні – 39.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p11">Колеги, я прошу змобілізуватись, не всі встигли проголосувати. Зараз ще раз поставлю на голосування. Я прошу подивитися по фракціях голів фракцій і змобілізувати особовий склад. 39 голосів позафракційні. Колеги, прошу всіх приготуватись. Голосуємо! Голоси є, просто треба змобілізуватись. Готові?</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p12">Я ставлю на голосування пропозицію повернутися до розгляду правок, які вам були роздані. Я прошу голосувати і прошу підтримати, колеги. На це голосування дивиться сьогодні вся Україна. Прошу підтримати. Прошу проголосувати. Голосуємо, колеги, за повернення до правок. Голосуємо. Підтримуємо. Кожен голос, колеги. Голосуємо.</seg>
-               <note type="time">(11:16:11)</note>
+               <note type="time"><time when="2019-07-11T11:16:11">11:16:11</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p13">За-222</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p14">4 голоси, не встигли підійти, 4 голоси, подивіться по фракціях. Чекаємо.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p15">Колеги, подивіться, я зачитаю по фракціях. "Блок Петра Порошенка" – 68, "Народний фронт" – 40, "Опозиційний блок" – 17, Радикальна партія – 17, "Батьківщина" – 16, "Воля народу" – 2, "Партія "Відродження" – 1, позафракційні - 38.</seg>
@@ -830,14 +830,14 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p23">Отже, перше голосування – повернення. І я прошу кожного взяти участь в цьому голосуванні.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p24">Максим, все, є? Ну, поверніть їх. Повернулись. Все.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p25">Отже, колеги, приготувались. Зал мобілізований. Зал в готовності. Перше голосування – за повернення до правок, які роздані народним депутатам і опубліковані на сайті. Прошу голосувати, прошу підтримати, колеги. Кожен голос. Кожен голос. Прошу голосувати, прошу підтримати. Голосуємо. Підтримуємо. Колеги, кожен голос. Побратими, підтримайте. Голосуємо. Ярослав, підтримайте.</seg>
-               <note type="time">(11:20:28)</note>
+               <note type="time"><time when="2019-07-11T11:20:28">11:20:28</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p26">За-213</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p27">Що відбувається, хлопці? По фракціях. По фракціях. 63 – "Блок Петра Порошенка". Було 68. Було 68, колеги. "Народний фронт" – 38. Було більше. Що відбувається, колеги? Що відбувається? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> "Опозиційний блок" – 15.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p28">Колеги, я прошу усіх зайняти робочі місця, зайти в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p29">Я звертаюсь до усіх фракцій, до своїх колег, до колег з "Блоку Петра Порошенка", до колег з "Народного фронту", до колег з "Батьківщини", Радикальної партії, "Самопомочі". Це наше зобов’язання в коаліційній угоді, це наше зобов’язання перед суспільством. Я звертаюсь до всіх з великим проханням. За цим голосуванням будуть слідкувати у всіх куточках України і наші виборці. Я дуже прошу, колеги, підтримати. Я дуже прошу змобілізуватись. Я дуже прошу зараз, зараз звертаюсь до всіх – підтримати, колеги. Прошу зайти в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p30">Я хочу нагадати, що, згідно Регламенту, до правок я можу ставити безконечну кількість раз, повернення до правок. Я прошу усіх зайти в зал і приготуватись. Невже ви, колеги, не відчуваєте і не розумієте, який це буде ляпас кожному з народних депутатів, якщо ми не проголосуємо? Готові? По фракціям, готові?</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p31">Отже, я ставлю ще раз на голосування пропозицію повернутись до правок. Я прошу голосувати. "Народний фронт", БПП, я прошу голосувати, я прошу підтримати. За повернення, голосуємо. Голосуємо. Підтримуємо. Голос до голосу, кожен голос. Підтримуємо. Підтримуємо, колеги. Кожен голос, голосуємо.</seg>
-               <note type="time">(11:23:19)</note>
+               <note type="time"><time when="2019-07-11T11:23:19">11:23:19</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p32">За-216</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p33">Колеги, в залі є голоси.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p34">Я прошу не виходити з залу. Нам бракує 10 голосів. В залі є голоси, колеги. Це було публічне зобов'язання усіх фракцій, які йшли на вибори. Це публічна позиція усіх фракцій. Колеги, усі будуть нести відповідальність. Прошу усіх запросити в зал.</seg>
@@ -848,7 +848,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p39">Я хочу ще одне голосити, ви бачите всі закони, які є далі. Просто порядок денний посиплеться, якщо ми не вийдемо на позитивне голосування. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ні, люди розійдуться, ми будемо голосувати і приймати рішення. Я прошу всіх зараз відставити політичні амбіції, протиріччя і підтримати.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p40">Отже, прошу зайняти робочі місця. Готові, так? Я ставлю на голосування пропозицію повернутися до правок. Отже, колеги, ми всі голосуємо, так? Так.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p41">Отже, перше голосування, кожен голос – повернення до правок. Прошу підтримати, прошу проголосувати повернення до правок. Голосуємо, підтримаємо, друзі! Підтримаємо, голосуємо. Голосуємо. Максимальна мобілізація, підтримаємо!</seg>
-               <note type="time">(11:27:29)</note>
+               <note type="time"><time when="2019-07-11T11:27:29">11:27:29</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p42">За-216</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p43">Ще немає.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p44">Отже, по фракціях прошу зачитати: "Блок Петра Порошенка" – 64, було 68. "Народний фронт" – 38. Було 40. "Опозиційний блок" – 17, "Самопоміч" – 24, Радикальна партія – 17, "Батьківщина" – 14, "Воля народу" – 2, "Партія "Відродження" – 3. Було 2. було 3. Позафракційні – 38.</seg>
@@ -858,7 +858,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p48">Отже, я ще раз ставлю на голосування. Я прошу всіх зайняти робочі місця. Наголошую, повернення до правок я можу ставити стільки раз, скільки вважаю за необхідне.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p49">Я прошу приготуватися. Голови фракцій! Будь ласка, Артур Герасимов, Максим Бурбак. Прошу, Максим, прошу максимально змобілізувати фракції.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p50">Отже, голосуємо за повернення до правок. Прошу всіх підтримати, прошу проголосувати за повернення. Прошу підтримати, колеги. Голосуємо! Прошу підтримати повернення до правок. Голосуємо, підтримуємо! Колеги, кожен голос! Прошу підтримати! Голосуємо!</seg>
-               <note type="time">(11:30:41)</note>
+               <note type="time"><time when="2019-07-11T11:30:41">11:30:41</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p51">За-220</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p52">6 голосів! Не встиг, не встиг Мустафа Найєм.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p53">Колеги, 6 голосів.</seg>
@@ -869,7 +869,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p58">Перше буде голосування за повернення до правок, які підготувала робоча група. Я прошу зараз кожного підтримати повернення до правок.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p59">Отже, перше голосування.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p60">Кожен голос має вагу, кожен голос! Прошу голосувати. Прошу підтримати повернення до правок. Голосуємо. Підтримаємо, колеги, 226. Підтримуємо, голосуємо. Кожен, голосуємо! Підтримуємо. Кожен голос!</seg>
-               <note type="time">(11:33:47)</note>
+               <note type="time"><time when="2019-07-11T11:33:47">11:33:47</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p61">За-223</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p62">Три голоси! Три голоси! Три голоси.</seg>
                <vocal type="noise">
@@ -881,7 +881,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p66">Побратими, підтримайте мене! Оленка, підтримайте, просто підтримайте. Скажіть справа, зліва. Просто підтримайте зараз. Це буде ганьба для всіх нас, це буде для всіх дуже погано. Підтримайте мене, друзі! Я прошу вас, побратими, підтримайте!</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p67">Отже, є голоси, так? Зайшло ще четверо депутатів. Дякую вам. Дякую.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p68">Отже, приготувались, приготувались. Перше голосування. Всі на місцях робочих. Перше голосування. Я прошу повернутися до правок, які були озвучені робочою групою. Отже, колеги, кожен голос! Прошу підтримати повернення. Колеги, голосуйте. Будь ласка, друзі. Прошу підтримати. Прошу проголосувати за повернення. Голосуємо. Підтримуємо. Кожен голос. Кожен голос! Підтримуємо. Голосуємо. Голосуємо. Кожен голос! "Фронт"!</seg>
-               <note type="time">(11:36:23)</note>
+               <note type="time"><time when="2019-07-11T11:36:23">11:36:23</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p69">За-214</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p70">Хто мінусує? Хто мінусує? По фракціях.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p71">Ну, підійшло ж четверо депутатів. Будь ласка, не виходіть. Сергій, не виходи. Сергій, я прошу. Я прошу, вже зараз буде голосування. Хто дає мінус? Хто дає мінус?</seg>
@@ -891,7 +891,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p75">Отже, прошу всіх зайняти робочі місця. "Відродження", моє прохання: підтримайте, друзі. "Воля народу", підтримайте. Хто є, підтримайте. Хлопці, підтримайте. Давайте. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Давайте без образ, без підлості зараз. Давайте проголосуємо, ми це обіцяли.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p76">Отже, повернувся Сергій. В залі Сергій Пашинський, в залі, так?</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p77">Отже, приготувались, приготувались, колеги. Давайте чесно, без підлості проголосуємо. Всі на місцях, так? Отже, кожен голос має вагу. Я прошу всіх, хто є в залі, підтримати. Перше голосування, повернення до правок. Прошу голосувати, прошу підтримати за повернення до правок. Колеги, кожен голос, уважно, кожен голос. Не відходіть від робочих місць. Голосуємо "за", голосуємо, підтримуємо. Марія, Сергій, голосуємо, підтримуємо, кожен голос. "За" голосуємо, підтримуємо, голосуємо! Голосуємо. Як же можна під час голосування?.</seg>
-               <note type="time">(11:39:12)</note>
+               <note type="time"><time when="2019-07-11T11:39:12">11:39:12</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p78">За-220</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p79">Ви ж ходите по залу під час голосування. Як можна з такою зневагою до закону! Будь ласка, будьте на робочих місцях. Ні, не треба – треба голосувати, треба підтримувати. Я прошу, колеги, 6 голосів.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p80">По фракціях покажіть, по фракціях, будь ласка. "Народний фронт" – було 43, було 43, "Блок Петра Порошенка" – було 68. Нам бракує 6 голосів, колеги. "Опозиційний блок" – було 17, ну, було 17, вас у залі є 17. Ну, бракує 6 голосів. Теж суспільство бачить, хто бавиться і віднімає голоси, це ж бачать усі і дивляться на вас усі. В залі є голоси. Я прошу зараз не ходити по залу, а бути на робочих місцях.</seg>
@@ -899,7 +899,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p82">Отже, готові? Всі на місцях? Марія, Віка, я прошу, зупиніть дискусії, на місця.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p83">Отже, я ставлю на голосування пропозицію повернутись. Я прошу всіх бути на робочих місцях, не вести дискусії під час голосування.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p84">Отже, перше голосування. Повернутись до розгляду правок. І я дуже прошу, я дуже прошу всіх підтримати, не віднімайте голоси, підтримайте. Підтримайте, колеги. Прошу голосувати. Прошу підтримати. Кожен голос за повернення до правок. За повернення. Голосуємо. Підтримуємо, колеги. Голосуємо. Виходимо на 226. Підтримуємо.</seg>
-               <note type="time">(11:41:27)</note>
+               <note type="time"><time when="2019-07-11T11:41:27">11:41:27</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p85">За-211</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u116.p86">Що відбувається?</seg>
                <vocal type="noise">
@@ -923,26 +923,26 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p5">Я прошу зараз, колеги, не бавитись, це ж чітко видно, як деякі фракції віднімають по кілька голосів, коли бачать, що ми підходимо до вирішальної цифри. Хтось здумає когось обдурити, це не вийде. Я прошу всіх зайти в зал. Прошу кожного зайняти. Не виходьте з залу, зайдіть в зал, колеги. Кожен голос має вагу. Прошу приготуватись до голосування. Прошу всіх зайти в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p6">Отже, усі на місцях. Отже, переходимо до голосування. Колеги, прошу всіх зайняти робочі місця. Голосуємо. Підтримуємо. Побратими і друзі, підтримаємо.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p7">Отже, я ставлю на голосування пропозицію повернутись до голосування за правки. Я прошу під час голосування усіх бути на робочих місцях. Я прошу проголосувати і прошу підтримати. Колеги, я всіх прошу підтримати. Голосуємо. Підтримуємо. Кожен голос. Підтримуємо. Переконайте, хто є поруч з вами. Підтримуємо і голосуємо. Голосуємо за повернення до правок. Голосуємо! Підтримуємо!</seg>
-               <note type="time">(11:45:23)</note>
+               <note type="time"><time when="2019-07-11T11:45:23">11:45:23</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p8">За-218</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p9">8 голосів бракує. Колеги, я хочу вам наголосити всім, хто чекає наступні закони, зараз, окрім всього іншого, ви збиваєте і розгляд наступних законів.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p10">По фракціях. "Блок Петра Порошенка" – 63 (було 68). "Народний фронт" – 39 (було 43). "Опозиційний блок" – 19, "Самопоміч" – 24, Радикальна партія – 17. "Батьківщина" – 13 (було більше). Було більше, "Батьківщина". "Воля народу" – 2. "Відродження" – 1 (було 3).</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p11">"Відродження", дайте 3 голоси, а не один, дайте 3 голоси, "Відродження". Позафракційні – вже 40. Я прошу вас, дайте 3 голоси. Всі, що є в залі, підтримайте. "Народний фронт", треба 43. "Блок Петра Порошенка", треба 68 – і ми виходимо на рішення. Отут є секрет. "Батьківщина", треба на 3 голоси більше, і ми виходимо на рішення.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p12">Отже, колеги, ми можемо це зробити? Будь ласка, займіть робочі місця, займіть робочі місця. Отже, готові? Отже, голосуємо? Заходимо, заходимо в зал, колеги, сідаємо. Підтримуємо! Всі, хто турбуються за наступні закони, зараз голосуємо за Кодекс. І, колеги, зараз ми маємо вийти на 226. Всі на робочих місцях. Я прошу всіх зараз проголосувати позитивно. Я прошу своїх колег, прошу всі фракції зараз проголосувати. Оксана, карточка з вами чи ні, Оксана? Сироїд, карточка з вами? Макс. 43 голоси, 43. Є карточка там. Голосуємо.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p13">Отже, перше голосування за повернення. Артур, 68! Голосуємо за повернення до правок. Прошу підтримати, прошу проголосувати. Кожен голос, колеги, кожен голос! Голосуємо. Підтримуємо. "Батьківщина", 18. Голосуємо, підтримуємо. Кожен голос. Прошу підтримати. Прошу проголосувати. Голосуємо! Підтримуємо! Колеги, вирішальне голосування. Голосуємо!</seg>
-               <note type="time">(11:48:18)</note>
+               <note type="time"><time when="2019-07-11T11:48:18">11:48:18</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p14">За-211</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p15">По фракціях. 63, 40, "Опозиційний блок" – 15 (було щойно 19), Радикальна партія – 15 (було більше), "Батьківщина" (прийшов Журжій) – 13. "Воля народу" – 2, "Відродження". Ви обіцяли 3, ви обіцяли 3.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p16">Колеги, в залі є голоси. Ви не розумієте, яку помилку допускають ті, хто не голосують. Дайте всі 3 голоси. Я прошу, колеги, зайти в зал, зайняти робочі місця, ми маємо в залі голоси. Деякі люди займають нечесну позицію. Нам зараз треба дуже просто. Нам треба, щоб фракції дали стільки голосів, як давали. Щоб дав "Блок Петра Порошенка" 68, щоб "Народний фронт" дав 43, щоб "Опозиційний блок" дав 19, щоб "Відродження" дало 3, щоб "Батьківщина" дала 17 і ми вийдемо на рішення. І ми вийдемо на рішення. Зараз у цю хвилю просто треба не займати нечесної позиції, просто треба бути чесними до людей і до виборців, і до громадян України.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p17">Прошу приготуватись до голосування, прошу зайняти робочі місця. Отже, усі на місцях? Готові? Всі з карточками? Не виходіть із залу. Несторе, не виходіть із залу. Отже. Сергій, будь ласка, поверніться. Готові, так? Прошу усіх зайняти робочі місця. Я чекаю. Я чекаю. Будь ласка. Я чекаю, поки всі повернуться. 43, брати, друзі, підтримайте. Переконайте кого можливо, зараз ми маємо вийти, зараз маємо вийти на голосування, колеги. Пішли. Можемо, так?</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p18">Отже, колеги, перше голосування. Повернення до правок робочої групи. Іра, будь ласка, всі на робочих місцях, перше голосування за повернення. Я прошу кожного проголосувати і підтримати. Прошу, Іра, голосувати. Голосуємо за повернення. Прошу підтримати. Сергій! Пашинський! Сергій Пашинський! Сергій! Все, голосуємо, підтримуємо за повернення. Прошу проголосувати, прошу підтримати, кожен голос. Юра Береза, голосуємо, підтримуємо, кожен голос, 68, 43 – фронт, 3 – "Відродження", 18 – "Батьківщина". Голосуємо, підтримуємо, колеги, підтримуємо, кожен голос, підтримуємо, голосуємо. Нехай це буде вирішальне голосування, голосуємо. Підтримуємо, колеги.</seg>
-               <note type="time">(11:51:47)</note>
+               <note type="time"><time when="2019-07-11T11:51:47">11:51:47</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p19">За-222</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p20">4 голоси.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p21">Отже, колеги, 4 голоси, 4 голоси. Ми все одно сьогодні проголосуємо Кодекс. Ми все одно його сьогодні проголосуємо. Все, що ми зараз робимо – це ми відтягуємо розгляд законів про заручників, про капеланів, про шахтарів, про електроавтомобілі, про сонячні електростанції. Ми просто зараз їх відтягуємо. Це безглуздо, це безсенсово, це не мудро, хлопці. Ми будемо голосувати і голосувати поки не приймемо Виборчий кодекс з відкритими списками. Мені дозволяє Регламент повертатись до правок. І ваше відтягування, і ця позиція віднімати голоси є нечесною і безсенсовою. Я, до речі, прошу всіх, хто чує нас, кого немає в залі, прибувати в зал всіх народних депутатів. Я прошу всіх зараз зайняти робочі місця і приготуватись до голосування.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p22">Колеги, треба просто повторити свій результат, який ми вже давали. Прийшов Мельничук. Будь ласка, 4 голоси. Прошу всіх зайти в зал. Прошу приготуватись до голосування. Мельничук, поверніться в зал. Голосуємо, так? Зайшло як мінімум 5 чоловік, як мінімум. Прошу приготуватись до голосування. Так, зайшло в зал 6 чоловік. Не виходіть з залу, поверніться в зал. Зараз 4 голоси бракувало, в зал зайшло 5 народних депутатів. Прошу всіх приготуватись. Зараз буде вирішальне голосування. В залі є голоси. Підтримайте. Проголосуйте, колеги.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p23">Отже, перше голосування – повернення до правок. Я прошу кожного бути на робочих місцях і я прошу кожного проголосувати за повернення до правок. Голосуємо. Підтримайте, колеги. Займіть чесну позицію. Підтримайте, проголосуйте. Голосуємо за повернення до правок. Кожен голос. Уважно. Голосуємо. Підтримуємо. Чекаємо Оксану. Голосуємо. Пане Микола, голосуємо. Давайте, голосуємо.</seg>
-               <note type="time">(11:55:09)</note>
+               <note type="time"><time when="2019-07-11T11:55:09">11:55:09</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p24">За-214</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p25">Хто мінусує, покажіть, будь ласка, по фракціях. По фракціях покажіть. "Блок Петра Порошенка" – 64, "Народний фронт" – 38, "Опозиційний блок" – 15 (було 19). Хлопці, було 19. Це нечесно. На кожній Погоджувальній раді ви виступали з вимогою.</seg>
                <vocal type="noise">
@@ -953,11 +953,11 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p28">Я хочу подякувати позафракційним, які дають величезну кількість.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p29">Давайте зараз проголосуємо. "Відродження", дайте три голоси. Давайте, колеги, зараз проголосуємо. Прошу всіх приготуватись. Прошу всіх приготуватись до голосування. Прошу зараз взяти участь в голосуванні кожного. Отже, підтримаєте? Голосуєте? Підтримаєте максимально? "Фронт", підтримаєте максимально? БПП, "Удар", підтримаєте максимально? "Відродження", 3 голоси.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p30">Отже, давайте зараз всі об’єднаємось і чесно проголосуємо. Давайте, колеги! Я прошу підтримати повернення до правок. І давайте, колеги, підтримаємо. Артур, Максим, голосуємо, підтримуємо. Прошу підтримати і проголосувати. Голосуємо, підтримуємо. Всі дають максимально зараз, голосуємо. Голосуємо. Степан, Барна, проголосуємо.</seg>
-               <note type="time">(11:57:54)</note>
+               <note type="time"><time when="2019-07-11T11:57:54">11:57:54</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p31">За-212</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u117.p32">Будь ласка, по фракціях. По фракціях. 64, "Народний фронт" – 39, "Опозиційний блок" – 19. Має бути 19 на табло, "Опозиційний блок", має бути 19. "Фронт", має бути 43. "Самопоміч" – 25. Радикальна партія – 17, "Батьківщина" – 14, "Воля народу" – 2, Партія "Відродження" – 1. Дайте 3, колеги. Позафракційні – 36.</seg>
             </u>
-            <note type="time">(11:58:39)</note>
+            <note type="time"><time when="2019-07-11T11:58:39">11:58:39</time></note>
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України</note>
             <note type="narrative">ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
@@ -971,7 +971,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u118.p7">Шановні колеги, я дуже прошу повертатися до сесійної зали, до своїх місць. І повірте, всі мажоритарники, які активно працюють на округах, вони точно виграють тільки від голосування за цей Виборчий кодекс. Тому що він дає прив'язку до округу, він дає презентацію політика на своєму виборчому окрузі, але він дає і політичний окрас, ідеологічну позицію, платформу для кожного політика, що також є важливим.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u118.p8">Шановні колеги, ми зараз повертаємося до голосування, ще раз дякуємо кожному, хто голосує "за". І просимо переглянути свою позицію, хто утримувався, хто мав застереження. Будь ласка, друзі, дуже просимо.</seg>
             </u>
-            <note type="time">(12:02:07)</note>
+            <note type="time"><time when="2019-07-11T12:02:07">12:02:07</time></note>
             <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u119">
@@ -983,7 +983,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p6">Зараз я можу розраховувати? 19 голосів. Максим – 43 голоси! Артур – 68 голосів, "Батьківщина" – 17-18 – так же ж? Отже, "Самопоміч" – 25. І я прошу зараз, є в залі голоси. Зараз, колеги, я прошу приготуватися. Зараз ми вийдемо на рішення. Будь ласка, займаємо місця, заходимо всі в зал. З лож поверніться в зал. Я продовжую засідання до завершення розгляду питання. І зараз ми маємо вийти на позитивне голосування.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p7">Підтримуємо? Голосуємо, хлопці? Всі готові? Готові – так?</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p8">Я ставлю на голосування першу пропозицію: повернутися до правок. І кожен голос зараз буде матиме велику вагу. Підтримайте, три голоси, як ми домовлялися. Проголосуйте, колеги. Оленка, проголосуйте! Отже, колеги, зараз ми вийдемо на позитивне голосування. Кожен голос! Голосуємо за повернення до правок. Прошу підтримати, прошу проголосувати! Голосуємо! Голосуємо! Зараз – позитивне голосування. Голосуємо! Володя, щоб встигнути! Голосуємо! Підтримуємо всі і кожен. Підтримуємо! Підтримуємо! Підтримуємо! <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ярослав!</seg>
-               <note type="time">(12:05:11)</note>
+               <note type="time"><time when="2019-07-11T12:05:11">12:05:11</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p9">За-216</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p10">Зайшов Тетерук. Я продовжив засідання, я продовжив. 216.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p11">Отже, все дуже просто: "БПП" – 65 (треба 68), "Народний фронт" – 40 (треба 43). "Опозиційний блок" – 19. Вас було 19, вас в залі є 19, я прошу 19 проголосувати. Радикальна партія – 17, "Батьківщина" – 13 (було більше, було більше). "Відродження", ви обіцяли 3 голоси – є 1. "Воля народу" – 2, дякую. Позафракційні – 39 (було 40).</seg>
@@ -991,7 +991,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p13">Колеги, це безглузда позиція. Я прошу усіх зараз взяти участь в голосуванні, в залі є голоси. Я прошу, колеги, усіх зараз приготуватися і вийти на позитивне голосування. Я наголошую, ми ставимо під удар і всі наступні закони. Я прошу усіх зараз проголосувати, зайняти робочі місця. Оленка, проголосуйте, проголосуйте "за". Барна, проголосуйте "за".</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p14">Я прошу усіх зараз приготуватися до голосування. Отже, можемо проголосувати. Я нагадую: "Опозиційний блок" – 19, "Фронт" – 43, БПП – 68 – і ми вийдемо на позитивне голосування.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p15">Отже, прошу всіх підтримати, колеги. Голосуємо за повернення до правок. Прошу кожного проголосувати. Прошу проголосувати, прошу підтримати. Голосуємо! Підтримуємо! Виходимо на 226. Голосуємо. Підтримуємо. Підтримуємо. Голосуємо.</seg>
-               <note type="time">(12:08:24)</note>
+               <note type="time"><time when="2019-07-11T12:08:24">12:08:24</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p16">За-227</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p17">По фракціях, будь ласка. По фракціях, будь ласка.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p18">"Блок Петра Порошенка" – 69. Дякую! Дякую! "Фронт" – 41. Дякую! "Опозиційний блок" – 20. Дякую! "Самопоміч" – 24. Дякую! "Батьківщина" – 13. "Воля народу" – 2. "Відродження" – 2 (було 3). Позафракційні – 39. Радикальна партія. Я перепрошую! Радикальна партія – всім складом, 17 чоловік. Дякую!</seg>
@@ -999,7 +999,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p20">Я прошу всіх підтримати Виборчий кодекс України № 3112-1. Також підтримати всі правки, всі правки, до яких ми повернулись, зразу одночасно їх і підтримати. І також з тими зауваженнями, які зачитав під стенограму Черненко з трибуни Верховної Ради України. З тими пропозиціями, які були зачитані з трибуни Черненком, і підтримуючи всі правки, які були названі, за Виборчий кодекс в цілому, хлопці. Це вирішальне голосування. Не дай Боже, хтось поступить підло! Голосуємо чесно! Голосуємо для українського суспільства! За Виборчий кодекс! Дякую "Батьківщині"! Дякую "Батьківщині" за голоси!</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p21">Отже, Виборчий кодекс в другому читанні і в цілому з правками Черненка під стенограму, з техніко-юридичними правками голосуємо. Підтримуємо. Всім дякую! Кожен голос має значення! Голосуємо.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p22">Підтримуємо! Голосуєм, колеги. Кожен голос! Не підведіть. Голосуємо, підтримуємо. Голосуємо!</seg>
-               <note type="time">(12:10:36)</note>
+               <note type="time"><time when="2019-07-11T12:10:36">12:10:36</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p23">За-230</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p24">230 – за! Виборчий кодекс прийнято!</seg>
                <kinesic type="applause">
@@ -1013,16 +1013,16 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p27">Виборчий кодекс України з відкритими списками (3112-1) прийнято! Зі всіма правками, які дав Черненко. Вітаю, друзі, це перемога! Слава Україні!</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p28">Колеги, зараз у мене є пропозиція голосувати далі. Як ви дивитесь на те? Скасувати перерву і голосувать. Як дивитесь? Попробуємо! Зараз ПАРЄ, зараз електромобілі, зараз важливі питання, давайте спробуємо. Спробуємо.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p29">Хто за те. Хто за те, щоб працювати без перерви о 12:00-12:30, прошу проголосувати. Хто за те, щоб голосувати без перерви, прошу проголосувати. Голосуємо.</seg>
-               <note type="time">(12:12:07)</note>
+               <note type="time"><time when="2019-07-11T12:12:07">12:12:07</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u119.p30">За-161</seg>
             </u>
-            <note type="time">(12:12:31)</note>
+            <note type="time"><time when="2019-07-11T12:12:31">12:12:31</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u120">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u120.p1">Нема такої, на жаль, нема.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u120.p2">Отже, колеги, оголошую згідно Регламенту перерву до 12:30. Отже, о 12:30 я прошу прибути в зал для продовження нашої роботи.</seg>
             </u>
-            <note type="time">(12:32:29)</note>
+            <note type="time"><time when="2019-07-11T12:32:29">12:32:29</time></note>
             <note type="comment">(Після перерви)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u121">
@@ -1036,28 +1036,28 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p8">Отже, прошу всіх приготуватись, ми переходимо до наступного питання порядку денного – до проекту Закону про правовий статус і соціальні гарантії осіб, які незаконно позбавлені волі, заручники, або засуджені на тимчасово окупованих територіях України та за її межами (8205). І я прошу всіх підтримати пропозицію розгляду за скороченою процедурою. Прошу всіх зайти в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p9">Друзі, колеги, нам буде кожен голос важливий. Якщо можна, покличте з урядових лож, щоб в зал зайшли. Колеги з урядової ложі, гостьової ложі, поверніться, треба 150 голосів, на одну хвилинку. Колеги, прошу всіх зайти в зал і взяти участь в голосуванні.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p10">Отже, я прошу проект Закону 8205 за скороченою процедурою. Я прошу всіх підтримати, хто є в залі, усі фракції, усі депутати. Прошу підтримати за скорочену процедуру. Голосуємо.</seg>
-               <note type="time">(12:39:38)</note>
+               <note type="time"><time when="2019-07-11T12:39:38">12:39:38</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p11">За-87</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p12">Ще не підійшли. Ну, а чому, ви ж, ну. Я знаю. Давайте, колеги, давайте зберемося. Ну, я пояснюю дуже просто: якщо ми не входимо в годинний розгляд, це означає, що ми не встигнемо розглянути наступні закони. Все банально і просто. Це і є організація роботи Верховної Ради України.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p13">Я прошу голів фракцій подивитися, кого нема і запросити в зал. Якщо можливо, я звернусь і попрошу кожного з фракцій, зайдіть в кулуари, покличте всіх, хто в кулуарах. Запросіть всіх в зал. Прошу всіх зайти в зал. Хлопці, кому не складно, пройдіться по кулуарах. Микола, Михайло, якщо не важко – по кулуарах зібрати, добре? Ми кожну хвилину будемо рахувати сьогодні. Тому я прошу всіх підтримувати мене. Прошу всіх мене підтримувати сьогодні. По кулуарах і запросіть всіх в зал, голови фракцій, допоможіть. Артур Герасимов, Максим Бурбак, допоможіть. Допоможіть зібрати.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p14">Отже, 150 голосів. Хто утримувався, не утримуйтесь. Підтримайте скорочену процедуру. Це буде правильно і чесно. Будь ласка, займаємо робочі місця. Сьогодні без пауз. Це наші години заключні, нашої каденції. Друзі, давайте всі зайдемо і займемо робочі місця. Нам кожна хвилина на вагу золота. Я прошу всіх підтримати мене.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p15">Отже, я нагадую. Перший закон про заручників. І моє прохання підтримати розгляд за скороченою процедурою. Я прошу всіх зайти в зал і взяти участь в голосуванні. Підтримуємо українських заручників. Не на ефірах їх треба підтримувати, а тут, в залі своїм голосуванням. Прошу всіх зайняти робочі місця.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p16">Отже, я ставлю на голосування пропозицію розглянути проект Закону про заручників (8205) за скороченою процедурою. Я прошу знову ж повернутися і підтримати, колеги. Журжій, підтримайте, будь ласка. Журжій, Мірошніченко, підтримайте. 2 голоси за скорочену, підтримайте, будь ласка. Проголосуйте за скорочену, колеги. Голосуємо, підтримуємо за скорочену. Голосуємо. Підтримайте, колеги, це мудро і правильно. Підтримаємо українських заручників.</seg>
-               <note type="time">(12:43:32)</note>
+               <note type="time"><time when="2019-07-11T12:43:32">12:43:32</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p17">За-127</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p18">Я не розумію тих, хто не голосує. Тих, хто чекає Закон про шахтарів, чому не голосують. Тих, хто чекає Закон про сонячні батареї, чому не голосують. Ми ж просто до них не дійдемо. Хто чекає про транзит, чому не голосують. Я того не розумію. Я прошу всіх зараз зайти в зал і підтримати мою пропозицію. Прошу всіх зайти в зал і всіх, хто в залі є, проголосувати. Інакше воно не працює, друзі. Інакше порядок денний буде збитий. Будь ласка, всіх прошу зайти в зал і підтримати. Готові? Всі переосмислили свою позицію? Всі перейнялись відповідальністю?</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p19">Отже, зараз кожен голос. Прошу підтримати пропозицію, щоб проект Закону 8205 ми розглянули за скороченою процедурою. Прошу всіх і кожного проголосувати і підтримати. Уважно! Кожен голос. Голосуємо! Підтримуємо! Підтримуємо українських заручників. Голосуємо. Підтримуємо. Голосуємо, колеги.</seg>
-               <note type="time">(12:45:02)</note>
+               <note type="time"><time when="2019-07-11T12:45:02">12:45:02</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p20">За-146</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p21">Динаміка дуже висока. Але ще бракує 4 голоси. Чотири голоси, заходіть в зал. Будь ласка, центральна, зайдіть в зал, будь ласка, не виходіть. Андрій, не виходіть, верніться, будь ласка.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p22">Отже. Пане Максим, чекаємо. Так, будь ласка.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p23">Отже, колеги, зараз я ставлю на голосування пропозицію, що проект Закону про правовий статус і соціальні гарантії осіб, які незаконно позбавлені волі, заручники, або засуджені на тимчасово окупованих територіях (8205) ми розглянули за скороченою процедурою, і нам важливий кожен голос, кожен голос. Прошу всіх підтримати, прошу проголосувати. Голосуємо, підтримуємо, колеги, кожен голос. Підтримуємо, за скорочену процедуру. Прошу проголосувати. Підтримуємо. Голосуємо. Кожен голос. Підтримуємо. Голосуємо. увага, підтримайте, колеги, кожен голос.</seg>
-               <note type="time">(12:46:24)</note>
+               <note type="time"><time when="2019-07-11T12:46:24">12:46:24</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p24">За-155</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p25">Рішення прийнято. Дякую вам.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u121.p26">І я запрошую до доповіді народного депутата України Шухевича Юрія-Богдана Романовича. Пане Юрій, будь ласка.</seg>
             </u>
-            <note type="time">(12:46:55)</note>
+            <note type="time"><time when="2019-07-11T12:46:55">12:46:55</time></note>
             <note type="speaker">ШУХЕВИЧ Ю.Р.</note>
             <u who="ШУХЕВИЧ Ю.Р." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u122">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u122.p1">Шановні народні депутати, запропонований вам закон стосується незаконно ув'язнених заручників, полонених, які знаходяться і на непідконтрольній нам території, а так само в Росії засуджені. Наприклад, Карпюк, Сенцов і такі інші.</seg>
@@ -1081,7 +1081,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u125.p3">Колеги, через 3 хвилини голосування. Я прошу усіх запросити в зал. Подивіться, кого немає, щоб всі були в залі через 3 хвилини. Через 3 хвилини ми переходимо до прийняття рішення.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u125.p4">Отже, прошу, пане Григорій, і прошу всіх запросити в зал. Будь ласка.</seg>
             </u>
-            <note type="time">(12:49:45)</note>
+            <note type="time"><time when="2019-07-11T12:49:45">12:49:45</time></note>
             <note type="speaker">НЕМИРЯ Г.М.</note>
             <u who="НЕМИРЯ Г.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u126">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u126.p1">Дякую, пане головуючий.</seg>
@@ -1100,7 +1100,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u127.p4">Я даю ще 2 хвилини, щоб усі були на своїх робочих місцях.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u127.p5">Отже, зараз 2 хвилини Першому заступнику Голови Верховної Ради України Ірині Геращенко. І за 2 хвилини голосуємо. Прошу усіх повернутися в зал, 2 хвилини.</seg>
             </u>
-            <note type="time">(12:52:43)</note>
+            <note type="time"><time when="2019-07-11T12:52:43">12:52:43</time></note>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u128">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u128.p1">Шановні колеги! Я хочу, насправді, подякувати сесійній залі, що в питаннях підтримки заручників ми завжди займали спільну позицію. Але, дійсно, прийшов час, щоби закріпити законодавчо статус і військовополонених, і заручників, незаконно утримуваних, політв'язнів, і законодавчо закріпити ту допомогу, яку останнім часом держава, слава Богу, надавала родинам. Це, зокрема, юридичний супровід. Це, зокрема, соціальна виплата для того, щоби родини могли просто прожити в час, коли годувальник знаходиться в окупації, в тюрмі.</seg>
@@ -1125,13 +1125,13 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p2">Я дуже переконливо ще раз прошу повернутися з урядових лож в зал. Пані Тетяна, я дуже прошу повернутися на робоче місце. Острікова Тетяна, я прошу повернутися на робоче місце. На робоче місце. Друзі, хто знаходиться в ложі, я прошу повернутися на робоче місце. "Самопоміч" самоорганізуйтесь, поверніться на робочі місця.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p3">Отже, переходимо до прийняття рішення, колеги. Я ставлю на голосування проект Закону про правовий статус і соціальні гарантії осіб, які незаконно позбавлені волі, заручники, або засуджені на тимчасово окупованих територіях України та за її межами (№ 8205) за пропозицією комітет за основу, за основу. Прошу всіх проголосувати, підтримати українських заручників, підтримати комітет і автора Шухевича Юрія-Богдана Романовича.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p4">Прошу голосувати і прошу підтримати. Голосуємо, підтримуємо! Голосуємо.</seg>
-               <note type="time">(12:57:21)</note>
+               <note type="time"><time when="2019-07-11T12:57:21">12:57:21</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p5">За-190</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p6">По фракціях, будь ласка: "Блок Петра Порошенка" – 64, "Народний фронт" – 47, "Опозиційний блок" – 1, Радикальна партія – 13, "Батьківщина" – 12, "Воля народу" – 2, "Партія "Відродження" – 3, позафракційні – 29.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p7">Я прошу всіх запросити в зал. Я наголошую, колеги, це проект Закону про українських заручників, українських політв'язнів, які зараз за Україну, за український інтерес перебувають у тюрмах країни-агресора. Я не розумію, як під час такого голосування можна не бути в сесійному залі. Я зараз поставлю на повернення. Я прошу всіх максимально змобілізуватися, запросити, кого немає, повернутися в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p8">Отже, звертаюся до голів фракцій запросити всіх депутатів у зал. Будь ласка, прошу всіх заходити в зал і займати робочі місця. Я ставлю зараз пропозицію повернутися до розгляду проекту Закону про заручників, засуджених на тимчасово окупованих територіях України та за її межами – 8205. Я прошу підтримати пропозицію повернутися до розгляду Закону про заручників.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p9">Прошу всіх проголосувати, прошу підтримати. Голосуємо і підтримуємо українських заручників. Голосуємо, підтримуємо! Кожен голос! Голосуємо!</seg>
-               <note type="time">(12:59:33)</note>
+               <note type="time"><time when="2019-07-11T12:59:33">12:59:33</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p10">За-196</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p11">По фракціях, будь ласка: "Блок Петра Порошенка" – 67, "Народний фронт" – 48, "Опозиційний блок" – 2, "Самопоміч" – 19, Радикальна партія – 15, "Батьківщина" – 11, "Воля народу" – 2, партія "Відродження" – 2, позафракційні – 30.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p12">Як можна не підтримати тих людей, які зараз в ці хвилини перебувають по тюрмах, які чекають підтримки найвищого законодавчого органу держави? Як можна не бути в залі під час цього голосування? Я прошу зараз, колеги, друзі, ще раз комусь вийти в кулуари і запросити всіх в зал. Хто може, хто відчуває цю важливість, я прошу вийти. Так, я попрошу і Михайла попрошу. Так, ми не голосуємо поки. І Миколу попрошу запросити депутатів в зал. Зараз дам наказ закрити буфет сьогодні, просто закрити його. Прошу з кулуарів всіх запросити в зал, запросити переконливо.</seg>
@@ -1140,14 +1140,14 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p15">Переходимо до прийняття рішення. Перше голосування буде – повернення, а потім – за основу.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p16">Отже, кожен зараз має бути на робочому місці. Прошу всіх зайти в зал і приготуватись до голосування. Не виходіть з залу, Паламарчук! Не виходіть з залу! Поверніть Паламарчука в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p17">Отже, перше голосування – повернення. І я ставлю на голосування пропозицію повернутись до проекту Закону про правовий статус і соціальні гарантії осіб, які незаконно позбавлені волі, заручники, або засуджені на тимчасово окупованих територіях України та за її межами (№ 8205). За повернення. Прошу проголосувати, прошу підтримати. Кожен голос! Голосуємо. Підтримуємо. За повернення. Голосуємо. За повернення.</seg>
-               <note type="time">(13:04:15)</note>
+               <note type="time"><time when="2019-07-11T13:04:15">13:04:15</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p18">За-209</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p19">Будь ласка, заходіть в зал. Я поставлю ще раз. Я по фракціях зачитаю.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p20">"Блок Петра Порошенка" – 72, "Народний фронт" – 51, "Опозиційний блок" – 2, "Самопоміч" – 18, Радикальна партія – 16, "Батьківщина" – 13, "Воля народу" – 2, "Відродження" – 4, позафракційні – 31. Позафракційні сьогодні дають приклад, як можна і треба голосувати.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p21">Я прошу всіх максимально змобілізуватися. Я прошу запросити в зал тих, кого нема поруч. Подивіться, кого нема поруч, запросіть в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p22">Отже, зараз я ще раз поставлю за повернення. Не виходіть з залу! Навпаки, заходіть в зал. Отже, готові? Можемо? Будь ласка, приготувалися.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p23">Перше голосування за повернення до проекту Закону про заручників (8205). Прошу проголосувати і прошу підтримати. Кожен голос має вагу. Кожен голос має значення, тому уважно голосуємо за повернення. Прошу підтримати. Голосуємо! Пане Олег, голосуєм. Голосуєм за повернення. Прошу підтримати, голосуємо. За українських заручників, за підтримку українських політв'язнів.</seg>
-               <note type="time">(13:06:09)</note>
+               <note type="time"><time when="2019-07-11T13:06:09">13:06:09</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p24">За-213</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p25">Нехай ніхто зараз не виходить з залу. Це буде зрада національних інтересів, українських політв'язнів, якщо хтось вийде з залу. Я прошу усіх подивитися, кого нема поруч, запросити в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p26">Отже, якщо є зв'язок і чути мої слова в їдальні, я прошу тих, хто є в їдальні, зайти в зал. Можна назвати по прізвищах, але я не хочу вас ображати. Я хочу, щоб ви повернулися в зал і працювали. В ці хвилини, коли вирішується доля законів, які стосуються українських політв'язнів, я прошу всіх з кулуарів і з буфету зайти в зал.</seg>
@@ -1155,7 +1155,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p28">Отже, прошу всіх приготуватись до голосування, зайти в зал. Юра, не виходь, Береза, повернись. Поверніть Березу в зал. Він пішов кликати інших, я знаю.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p29">Отже, прошу зайняти робочі місця, приготуватись до голосування. Прошу всіх з лож повернутися в зал і приготуватися до прийняття рішення.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p30">Отже, перше голосування: повернення до Закону про українських політв'язнів, про заручників. Я прошу всіх бути на робочих місцях і проголосувати. Я прошу підтримати пропозицію повернутись до проекту Закону про заручників і українських політв'язнів. Я прошу кожного проголосувати за повернення. Добре. Прошу проголосувати за повернення. Голосуємо, прошу підтримати. Артур, голосуємо! Прошу підтримати за повернення. Кожен голос, голосуємо. Голосуємо.</seg>
-               <note type="time">(13:09:07)</note>
+               <note type="time"><time when="2019-07-11T13:09:07">13:09:07</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p31">За-203</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p32">Хто віднімає голоси по питанню заручників. По фракціях, будь ласка: "Блок Петра Порошенка" – 72, "Народний фронт" – 50, "Опозиційний блок" – 0. Чому? Було ж 2 в підтримку українських політв'язнів.</seg>
                <vocal type="noise">
@@ -1164,17 +1164,17 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p33">Від того українські політв'язні не винні. Вони чекають нашої підтримки. "Самопоміч" – 16, Радикальна партія – 18, "Батьківщина" – 11, "Воля народу" – 3, партія "Відродження" – 3.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p34">Я прошу, колеги, всіх зайти в зал і підтримати. Прошу бути всіх в залі і підтримати. Я нагадую, у нас попереду ряд інших важливих законів. Ми втрачаємо хвилину за хвилиною.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p35">Отже, прошу приготуватись до голосування, всіх зайняти робочі місця. Давайте зараз не сваритись, а підтримувати, підтримувати тих людей, які в нелюдських умовах зараз перебувають по тюрмах і на окупованих територіях, і в Російській Федерації, країні-агресорі. Їхні родини сьогодні слідкують за нашим голосуванням, вони очікують рішення від нас. Я прошу, колеги, всіх приготуватись до голосування і підтримати повернення до проекту Закону про українських політв'язнів (8205). Прошу проголосувати. Прошу підтримати. Голосуємо за повернення. Прошу підтримати за повернення. Голосуємо. Кожен голос, уважно, голосуємо. Голосуємо за повернення. Прошу підтримати.</seg>
-               <note type="time">(13:11:29)</note>
+               <note type="time"><time when="2019-07-11T13:11:29">13:11:29</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p36">За-204</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p37">Я даю ще хвилину усім зайти в зал. Подивіться, кого немає, і запросіть в зал. Я прошу усіх прибути на засідання.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p38">Отже, колеги, прошу всіх прибути в зал. Колеги, у мене теж не безконечні сили і енергія. Допоможіть, голови фракцій, подивитись, кого немає, всіх запросити в зал. Прошу всіх підтримати. Це не є питання політики. Це питання підтримки наших громадян, які сьогодні знаходяться по тюрмах. Я прошу всіх зайти в зал. Подивитись, кого нема, запросити в зал. Прошу всіх, заходимо в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p39">Я ставлю на голосування першу пропозицію: повернутись до розгляду проекту Закону про заручників, про українських політв'язнів. Прошу проголосувати. Прошу підтримати повернення. Кожен голос прошу підтримати. І прошу справді підтримати. Голосуємо, підтримуємо.</seg>
-               <note type="time">(13:13:46)</note>
+               <note type="time"><time when="2019-07-11T13:13:46">13:13:46</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p40">За-213</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p41">Не виходіть із залу. Колеги, бракує 13 голосів. Ми не можемо "завалити" заручників. Давайте збирати голоси.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u131.p42">Будь ласка, 30 секунд.</seg>
             </u>
-            <note type="time">(13:14:18)</note>
+            <note type="time"><time when="2019-07-11T13:14:18">13:14:18</time></note>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u132">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u132.p1">Друзі! Ну, от, уявіть собі маму Саші Кольченка, яка не може купити квитку до Сибіру, провідати свого сина. Уявіть собі родину Олега Сенцова, який так само повинен отримати. У нього день народження 13 липня. Ну, невже немає совісті в цьому парламенті підтримати родини заручників і самих заручників, політв'язнів?! Я дуже прошу, це гуманітарне питання, це справа нашої честі і совісті. За цим голосуванням зараз уважно слідкують громадські активісти, родини наших військовополонених моряків. Вибачте, будь ласка, якщо сьогодні Росія їх не відпускає, то наша задача підтримати родини. Я закликаю, я прошу колег повернутись до сесійної зали і дати зараз 226 голосів. Ми не можемо це не проголосувати! Будь ласка. Це наш обов'язок. Це наш борг. Це наш дембельский акорд хороший має бути. Будь ласка.</seg>
@@ -1183,85 +1183,85 @@
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u133">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p1">Колеги, я прошу всіх підтримати. Це лишень за основу. Якщо до нього є застереження, можна буде. Не виходіть із залу! Не виходіть із залу! Я прошу зараз. Я прошу всіх зайти в зал. Це велика підлість виходити із залу під час голосування. Я не знаю, які можуть бути більш важливі справи під час голосування за Закон про заручників і політв'язнів. Я прошу всіх зайняти робочі місця. Прошу приготуватись до голосування. І прошу всіх зараз підтримати, всіх, що є в залі, підтримати. Пане Ігорю, велике прохання підтримати. Так, велике прохання підтримати. Це за основу. Велике прохання. Колеги, отже, отже, голосуємо, так, готові?</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p2">Перше голосування. Я прошу підтримати пропозицію повернутись до проекту Закону про заручників і про українських політв'язнів (8205). Прошу проголосувати і прошу підтримати. Кожен голос. Уважно! Голосуємо! Підтримуємо, колеги. Кожен голос. Я прошу уважно і відповідально всіх підтримати. Голосуємо! Підтримуємо! Всі, хто в залі, підтримайте колеги. Ми маємо шанс. Прошу підтримати. Голосуємо.</seg>
-               <note type="time">(13:16:47)</note>
+               <note type="time"><time when="2019-07-11T13:16:47">13:16:47</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p3">За-222</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p4">4 голоси! 4 голоси! Не спрацювала картка. Колеги, 4 голоси. Будь ласка, зайдіть. 4 голоси. Підтримайте! Підтримайте.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p5">Підтримайте, колеги, 4 голоси, не виходіть з залу.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p6">Отже, зараз ми вийдемо на позитивне голосування, 4 голоси. Я прошу усіх приготуватись до голосування. Я прошу зараз зайняти робочі місця, кожен голос має значення. Я прошу усіх, хто є в залі, підтримати. Я прошу усіх бути на робочому місці. Зараз ми зможемо прийняти позитивне рішення.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p7">Отже, я прошу підтримати всіх пропозицію повернутись до проекту Закону про заручників і проукраїнських політв'язнів. Я прошу всіх підтримати. Я прошу проголосувати. Бути уважними. Кожен голос. Голосуємо. Підтримуємо. Підтримуємо, колеги. Голосуємо за повернення. Прошу проголосувати. Голосуємо.</seg>
-               <note type="time">(13:18:08)</note>
+               <note type="time"><time when="2019-07-11T13:18:08">13:18:08</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p8">За-227</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p9">Повернулися, колеги. Хтось помилково жовтою голосував. Тепер, колеги, ставлю проект Закону 8205 про заручників і українських політв'язнів за основу, за основу. Прошу проголосувати, колеги. Уважно. Підтримайте за основу. Голосуємо. Підтримаємо українських політв'язнів. Голосуємо. Голосуємо, колеги. Голосуємо. Підтримуємо.</seg>
-               <note type="time">(13:18:43)</note>
+               <note type="time"><time when="2019-07-11T13:18:43">13:18:43</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p10">За-235</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p11">Рішення прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p12">Я прошу бути всіх на робочих місцях, зараз буде включення в порядок денний сесії.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p13">Але перед тим я хочу зачитати звернення, яке було від "Блоку Петра Порошенка", що відповідно до статті 6, 34 Регламенту Верховної Ради України я ставлю на голосування пропозицію про необхідність присутності сьогодні на пленарному засіданні Верховної Ради України та заслуховування керівництва Національної ради України з питань телебачення і радіомовлення. Прошу народних депутатів підтримати і запросити сьогодні після обіду Фещук Уляну Юріївну. Прошу проголосувати, прошу підтримати. Голосуємо. Підтримуємо. Підтримуємо. Це була загальна вимога – почути про ситуацію на нашому теле- і радіопросторі.</seg>
-               <note type="time">(13:19:44)</note>
+               <note type="time"><time when="2019-07-11T13:19:44">13:19:44</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p14">За-207</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p15">Нам достатньо 150 голосів. Рішення прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p16">Тепер, колеги, включення в порядок денний сесії. Прошу всіх бути на робочих місцях. Зараз включення в порядок денний сесії, кожен має бути на робочому місці. У вас всіх він є розданий, є на руках.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p17">Перше. Пропоную включити в порядок денний сесії для прийняття рішення проект Постанови про Заяву Верховної Ради України з приводу відновлення повноважень делегації Російської Федерації у Парламентській асамблеї Ради Європи (10435).</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p18">Прошу проголосувати за включення в порядок денний сесії для прийняття рішення. Голосуємо, підтримуємо. Голосуємо.</seg>
-               <note type="time">(13:20:36)</note>
+               <note type="time"><time when="2019-07-11T13:20:36">13:20:36</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p19">За-213</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p20">Наступний. Проект Закону про внесення змін до деяких законів України щодо запровадження основ фінансової прозорості електронних засобів масової інформації (8494).</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p21">Включення в порядок денний сесії для прийняття рішення. Прошу голосувати, прошу підтримати. Голосуємо. Це прозорість діяльності українських медіа.</seg>
-               <note type="time">(13:21:08)</note>
+               <note type="time"><time when="2019-07-11T13:21:08">13:21:08</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p22">За-201</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p23">Рішення не прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p24">Наступний. 6762: проект Закону про внесення змін до Закону України "Про телебачення і радіомовлення" щодо удосконалення механізмів забезпечення прозорості власності аудіовізуальних (електронних) засобів масової інформації.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p25">Про прозорість медіаринку. Прошу голосувати, прошу підтримати включення в порядок денний сесії для прийняття рішення. Голосуємо, підтримуємо 6762.</seg>
-               <note type="time">(13:21:45)</note>
+               <note type="time"><time when="2019-07-11T13:21:45">13:21:45</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p26">За-197</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p27">Рішення не прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p28">Наступний. 10405: проект Закону про внесення змін до деяких законодавчих актів України щодо створення доступу до інфраструктури зарядних станцій для електромобілів.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p29">Прошу підтримати включення у порядок денний сесії для прийняття рішення 10405. Прошу проголосувати і підтримати. Голосуємо.</seg>
-               <note type="time">(13:22:19)</note>
+               <note type="time"><time when="2019-07-11T13:22:19">13:22:19</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p30">За-215</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p31">Рішення не прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p32">Наступний. 10357: проект Закону про внесення змін до статті 9-1 Закону України "Про альтернативні джерела енергії" щодо врегулювання питання генерації електричної енергії приватними домогосподарствами.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p33">Дуже короткий простий закон. Прошу підтримати включення у порядок денний сесії для прийняття рішення 10357. Прошу голосувати, прошу підтримати. Голосуємо.</seg>
-               <note type="time">(13:22:57)</note>
+               <note type="time"><time when="2019-07-11T13:22:57">13:22:57</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p34">За-228</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p35">Рішення прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p36">Наступний: проект Закону про внесення змін до Закону України "Про Державний бюджет України на 2019 рік" щодо збільшення видатків за бюджетною програмою "Реструктуризація вугільної галузі". Шахтарі.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p37">Підтримаємо шахтарів. Включення у порядок денний сесії для прийняття рішення. Підтримаємо шахтарів. Голосуємо. Включення у порядок денний сесії для прийняття рішення. Голосуємо!</seg>
-               <note type="time">(13:23:32)</note>
+               <note type="time"><time when="2019-07-11T13:23:32">13:23:32</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p38">За-209</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p39">209, чому?</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p40">Наступний. 10354: проект Закону про внесення змін до деяких законів України щодо системи державного управління у книговидавничій сфері. 10354. Включення у порядок денний сесії для прийняття рішення.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p41">Прошу проголосувати, прошу підтримати. Голосуємо!</seg>
-               <note type="time">(13:24:03)</note>
+               <note type="time"><time when="2019-07-11T13:24:03">13:24:03</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p42">За-198</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p43">Рішення не прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p44">І заключний. 10231: проект Закону про внесення зміни до статті 87 Бюджетного кодексу України щодо фінансування забезпечення окремих програм та закладів охорони здоров'я.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p45">Включення у порядок денний сесії. Прошу підтримати.</seg>
-               <note type="time">(13:24:35)</note>
+               <note type="time"><time when="2019-07-11T13:24:35">13:24:35</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p46">За-196</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p47">Рішення не прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p48">Колеги, в нас ПАРЄ і шахтарі були близькі до прийняття рішення. Я прошу. І електромобілі, я прошу всіх змобілізуватися, зайти в зал, не дорахували кілька голосів. Отже, запросіть всіх в зал, зайдіть в зал. Пане Олександр, підтримайте шахтарів, верніться в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p49">Отже, зараз ПАРЄ, шахтарі і електромобілі. Приготуватися, змобілізуватися і зайняти робочі місця.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p50">Отже, перший, я прошу підтримати включення в порядок денний сесії для прийняття рішення проект Постанови про Заяву Верховної Ради України з приводу відновлення повноважень російської делегації у Парламентській Асамблеї Ради Європи. Прошу усіх підтримати включення в порядок денний сесії для прийняття рішення. Одноголосно підтримуємо, голосуємо. Всі члени делегації підтримують. Голосуємо, підтримуємо. Голосуємо.</seg>
-               <note type="time">(13:25:52)</note>
+               <note type="time"><time when="2019-07-11T13:25:52">13:25:52</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p51">За-214</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p52">Наступне, колеги, електромобілі, електромобілі. Проект Закону про внесення змін до деяких законодавчих актів України щодо створення доступу до інфраструктури зарядних станцій для електромобілів. Кілька голосів бракувало, прошу підтримати включення в порядок денний сесії для розгляду, прошу підтримати, голосуємо. Підтримуємо електромобілі – реформи і прогрес.</seg>
-               <note type="time">(13:26:28)</note>
+               <note type="time"><time when="2019-07-11T13:26:28">13:26:28</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p53">За-227</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p54">Підтримали.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p55">І, колеги, шахтарі, підтримаємо шахтарів. Прошу всіх всіх змобілізуватися для підтримки українських шахтарів. Законопроект Бондаря Михайла Леонтійовича, я прошу всіх підтримати включення в порядок денний сесії для прийняття рішення 10307. Прошу проголосувати, прошу підтримати включення в порядок денний сесії для розгляду зараз. Голосуємо. Підтримуємо. Голосуємо. Підтримуємо, колеги, одностайно. Голосуємо.</seg>
-               <note type="time">(13:27:06)</note>
+               <note type="time"><time when="2019-07-11T13:27:06">13:27:06</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p56">За-211</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p57">Зараз, колеги, пройдемо Ізраїль і потім ще раз спробуємо повернутись.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p58">Отже, колеги, зараз наступне питання в порядку денному – це питання. Повернемось зараз, після ратифікації. Зараз, колеги, ми будемо йти дуже швидко і динамічно. Прошу нікого не виходити з залу. Не мене закликати повернутись, а закликати тих депутатів, кого нема в залі. У нас є ще 5 хвилин.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p59">Отже, пішли швидко і динамічно. Переходимо: проект Закону про ратифікацію Угоди про вільну торгівлю між Кабінетом Міністрів України та Урядом Держави Ізраїль. Я запрошую до слова Гопко Ганну Миколаївну. І відразу голосуємо. Прошу всіх змобілізуватись максимально. Будь ласка, пані Ганна, 3 хвилини.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p60">Ні, увага! За скорочену процедуру. Прошу підтримати скорочену процедуру. Прошу голосувати. Голосуємо.</seg>
-               <note type="time">(13:28:10)</note>
+               <note type="time"><time when="2019-07-11T13:28:10">13:28:10</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p61">За-197</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p62">Проголосували.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u133.p63">Будь ласка, Ганна Гопко, одна хвилина. І голосуємо. Будь ласка, пані Ганна.</seg>
             </u>
-            <note type="time">(13:28:17)</note>
+            <note type="time"><time when="2019-07-11T13:28:17">13:28:17</time></note>
             <note type="speaker">ГОПКО Г.М.</note>
             <u who="ГОПКО Г.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u134">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u134.p1">Доброго дня, шановні українці! Я хотіла вам сказати, що Ізраїль залишається для України одним з ключових партнерів на Близькому Сході. І нам дуже важливо сьогодні підтримати, зокрема, цю ратифікацію Угоди про вільну торгівлю між Кабінетом Міністрів України та Урядом Держави Ізраїль, адже вона створює дуже хороші умови взаємні для лібералізації торгівлі між українськими і ізраїльськими товарами.</seg>
@@ -1275,7 +1275,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u135.p2">Колеги, два – за, два – проти – по одній хвилині. По одній хвилині: два – за, два – проти. Будь ласка. Але тільки ті, що записалися, тільки чотири виступи, більше не буде. І прошу збирати, запрошувати людей. Будь ласка, два – за, два – проти. По одній хвилині.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u135.p3">Будь ласка, Артур Герасимов, одна хвилина.</seg>
             </u>
-            <note type="time">(13:30:00)</note>
+            <note type="time"><time when="2019-07-11T13:30:00">13:30:00</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>
             <u who="ГЕРАСИМОВ А.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u136">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u136.p1">Шановний Андрій Володимировичу! Шановні колеги! Шановні українці! Хотів би нагадати, що ця угода була підписана Президентом України Петром Порошенком під час візиту до Ізраїлю, і я б хотів сказати, що сьогодні український парламент, я закликаю всіх об'єднатися і ратифікувати її сьогодні обов'язково.</seg>
@@ -1286,7 +1286,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u137.p1">Дякую.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u137.p2">Ляшко, Радикальна партія. Приготуватися "Народний фронт" – одна хвилина, Бурбак. По хвилині, колеги. Будь ласка, Ляшко.</seg>
             </u>
-            <note type="time">(13:30:29)</note>
+            <note type="time"><time when="2019-07-11T13:30:29">13:30:29</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u138">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u138.p1">Шановні колеги, учора я разом із своїми колегами Георгієм Логвинським і Андрієм Лозовим мав чудові зустрічі в Єрусалимі з Прем’єр-міністром Ізраїлю і із спікером ізраїльського Кнесету. Ми обговорили ряд важливих для взаємного розвитку двох країн питань. Одне із них, це питання ратифікації Угоди про зону вільної торгівлі. Також сьогодні в Україні перебуває міністр внутрішніх справ Ізраїлю разом із керівником міграційної служби для того, щоб ми нарешті домоглися, щоб громадян України годинами не тримали і не принижували під час перевірок, коли вони приїжджають в Ізраїль. Ізраїль – це приклад для України, як треба боронити свою незалежність, ставати навіть в умовах війни сильними, не продаючи землю, розвивати сільське господарство, високі технології, медицину і військово-технічне співробітництво. Потенціал наших стосунків невичерпний, його треба значно поглиблювати, щоб від цього вигравав і український народ, і наші взаємні стосунки.</seg>
@@ -1297,7 +1297,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u139.p2">І через 2 хвилини голосування.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u139.p3">Логвинський, будь ласка, одна хвилина. Потім одна хвилина – Долженков. І голосуємо. За 2 хвилини прошу всіх прийти в зал. Будь ласка.</seg>
             </u>
-            <note type="time">(13:31:51)</note>
+            <note type="time"><time when="2019-07-11T13:31:51">13:31:51</time></note>
             <note type="speaker">ЛОГВИНСЬКИЙ Г.В.</note>
             <u who="ЛОГВИНСЬКИЙ Г.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u140">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u140.p1">Шановні друзі, я хотів би сказати, що це не просто угода. Це наш заклик до братського народу, який нас підтримує, щоб ми могли об'єднатись економічно, могли найти спільну діяльність, військову діяльність, туристичну діяльність.</seg>
@@ -1310,7 +1310,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u141.p1">Прошу всіх зайти в зал. Через хвилину голосування, зараз – Долженков. І прошу всіх зайти в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u141.p2">Будь ласка, від "Опозиційного блоку" – Долженков, і голосуємо.</seg>
             </u>
-            <note type="time">(13:33:05)</note>
+            <note type="time"><time when="2019-07-11T13:33:05">13:33:05</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
             <u who="ДОЛЖЕНКОВ О.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u142">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u142.p1">Шановні громадяни України, шановні колеги! Цей законопроект спрямований не тільки на покращення економічних взаємовідносин з Ізраїлем і Україною. Цей законопроект, на жаль, містить і політичну складову. Ми проти політики в налагодженні економічних взаємовідносин між країнами. Відповідно якщо буде проголосовано лише за текст міжнародної угоди без будь-яких зауважень, які містять політичну складову, ми будемо це підтримувати. Адже ми усвідомлюємо, що ратифікація Угоди про вільну торгівлю з Ізраїлем – це вкрай важливі речі для української економіки.</seg>
@@ -1328,54 +1328,54 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u145">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p1">Отже, переходимо до прийняття рішення, колеги. Займаємо робочі місця. І я ставлю на голосування проект Закону про ратифікацію Угоди про вільну торгівлю між Кабінетом Міністрів України та Урядом Держави Ізраїль (№ 0223) за пропозицією комітету в цілому. Прошу усіх проголосувати. Прошу усіх підтримати, колеги. Отже, голосуємо. Підтримуємо ратифікацію. Голосуємо. Прошу підтримати. Голосуємо. Кожен голос, голосуємо.</seg>
-               <note type="time">(13:35:34)</note>
+               <note type="time"><time when="2019-07-11T13:35:34">13:35:34</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p2">За-219</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p3">Не встигли. Не встигли, зараз я повернуся. Будь ласка, зайдіть в зал, займіть робочі місця. Прошу приготуватись і зайти в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p4">По фракціях: "Блок Петра Порошенка" – 80, "Народний фронт" – 52, "Опозиційний блок" – 0, "Самопоміч" – 16, Радикальна партія – 17, "Батьківщина" – 13, "Воля народу" – 4, партія "Відродження" – 3 і позафракційні – 34.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p5">Отже, прошу приготуватись, кожен голос. Прошу проголосувати.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p6">Отже, перше голосування буде повернення. Перше голосування буде повернення. Я прошу проголосувати за повернення, за повернення до проекту Закону про ратифікацію угоди (0223). Прошу підтримати повернення. Прошу зайти усіх в зал. Прошу підтримати, повернення. Голосуємо. Голосуємо за повернення.</seg>
-               <note type="time">(13:36:55)</note>
+               <note type="time"><time when="2019-07-11T13:36:55">13:36:55</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p7">За-222</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p8">4 голоси, 4 голоси, друзі!</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p9">Будь ласка, зайдіть. Один зайшов. Не виходіть із залу, будь ласка, протягом 20 хвилин. Не виходіть із залу протягом 20 хвилин! Це можна втриматись на місцях! Я прошу всіх зайти в зал, я прошу всіх зайняти робочі місця. Чотири голоси, чотири голоси! Отже, голови фракцій, допоможіть зібрати депутатів.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p10">Перше голосування за повернення. Отже, я ставлю на голосування пропозицію повернутись до ратифікації Угоди між Кабінетом Міністрів України та Урядом Держави Ізраїль. Прошу проголосувати. Прошу підтримати. Голосуємо, колеги, підтримуємо. Голосуємо, підтримуємо, кожен голос.</seg>
-               <note type="time">(13:37:59)</note>
+               <note type="time"><time when="2019-07-11T13:37:59">13:37:59</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p11">За-227</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p12">Повернулись. Колеги, ставлю на голосування проект Закону про ратифікацію Угоди про вільну торгівлю між Кабінетом Міністрів України та Урядом Держави Ізраїль (0223) в цілому. Прошу голосувати. Прошу підтримати в цілому. Голосуємо! Підтримуємо, кожен голос. Голосуємо. Підтримуємо. Голосуємо.</seg>
-               <note type="time">(13:38:32)</note>
+               <note type="time"><time when="2019-07-11T13:38:32">13:38:32</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p13">За-230</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p14">Закон прийнято. 230 – за.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p15">Колеги, ще ставлю раз пропозицію включити в порядок денний проект Постанови про Заяву Верховної Ради України по ПАРЄ, по ПАРЄ. Я ще раз поставлю ПАРЄ включення в порядок денний сесії для прийняття рішення, Заяву до ПАРЄ. Прошу всіх уважно голосувати 10435 включення в порядок денний сесії для прийняття рішення. Прошу голосувати. Прошу підтримати. Голосуємо. Прошу підтримати. Голосуємо.</seg>
-               <note type="time">(13:39:16)</note>
+               <note type="time"><time when="2019-07-11T13:39:16">13:39:16</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p16">За-216</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p17">Наступне – шахтарі. Ставлю на голосування проект Закону про Державний бюджет України щодо збільшення видатків за бюджетною програмою по вугільній галузі (10307). Включення в порядок денний сесії для прийняття рішення. Прошу голосувати. Прошу підтримати шахтарів. Голосуємо. Хлопці, шахтарі, підтримуєте?</seg>
-               <note type="time">(13:39:54)</note>
+               <note type="time"><time when="2019-07-11T13:39:54">13:39:54</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p18">За-204</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p19">Рішення не прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p20">Колеги, тепер увага! Я хочу перед тим, як перейти до електромобілів, перед тим, як перейти до сонячної електроенергії, я хочу поставити наступні проекти законів на сигнальне рейтингове голосування.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p21">Отже, наступний проект закону це є проект Закону про внесення змін до деяких законодавчих актів України (щодо виконання військового обов'язку та проходження військової служби) (10181). Сержантський склад. Закон необхідний для нашої інтеграції в НАТО.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p22">Рейтингове голосування. Прошу голосувати. Прошу підтримати. Голосуємо. Голосуємо. Рейтингове голосування.</seg>
-               <note type="time">(13:40:44)</note>
+               <note type="time"><time when="2019-07-11T13:40:44">13:40:44</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p23">За-209</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p24">Наступний – 10244-1. Проект Закону про військове капеланство. Рейтингове голосування. Прошу голосувати.</seg>
-               <note type="time">(13:41:08)</note>
+               <note type="time"><time when="2019-07-11T13:41:08">13:41:08</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p25">За-199</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p26">І проект Закону про режим спільного транзиту (9532) – рейтингове голосування. Прошу проголосувати. Рейтингове голосування.</seg>
-               <note type="time">(13:41:31)</note>
+               <note type="time"><time when="2019-07-11T13:41:31">13:41:31</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p27">За-200</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p28">Отже. Секундочку. Ще раз рейтингове по сержантському складу 10181. Рейтингове голосування.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p29">Це наша велика реформа, армійська велика реформа. Прошу проголосувати, прошу підтримати. Рейтингове. Сержантський склад (10181) голосуємо. Голосуємо.</seg>
-               <note type="time">(13:42:07)</note>
+               <note type="time"><time when="2019-07-11T13:42:07">13:42:07</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p30">За-198</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p31">Отже, друзі, я зараз говорю вичерпний перелік. Зараз ми включили електромобілі, сонячну енергію, Гандзюк (доповідь комісії). У нас є 20 хвилин, і тому ми будемо працювати швидко і ефективно.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p32">Ми переходимо до розгляду проекту Закону про внесення змін до деяких законодавчих актів України щодо створення доступу до інфраструктури зарядних станцій для електромобілів (10405).</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p33">Перше голосування: прошу підтримати за скороченою процедурою. Прошу проголосувати за скорочену, 10405.</seg>
-               <note type="time">(13:42:59)</note>
+               <note type="time"><time when="2019-07-11T13:42:59">13:42:59</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p34">За-191</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p35">Рішення прийнято. Рішення прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u145.p36">Я запрошую до доповіді Рябчина Олексія Михайловича.</seg>
             </u>
-            <note type="time">(13:43:11)</note>
+            <note type="time"><time when="2019-07-11T13:43:11">13:43:11</time></note>
             <note type="speaker">РЯБЧИН О.М.</note>
             <u who="РЯБЧИН О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u146">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u146.p1">Шановні колеги, законопроект про електромобілі підтриманий і підписаний всіма політичними силами: БПП, "Народний фронт", "Батьківщина", Радикали, "Опозиційний блок", "Самопоміч", група "Відродження", група "Воля народу". Він дуже простий і він дає запровадити "зелені" номери для електрокарів, врегулювати питання обладнання місць для паркування, зарядки електромобілів та питання безперешкодного доступу електрокарів до зарядних станцій. Прошу підтримати.</seg>
@@ -1386,19 +1386,19 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p2">10 хвилин. Я прошу всіх запросити назад в зал. Я пропоную краще переходити до голосування і повертатись, це буде правильніше.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p3">Отже, ставлю на голосування проект Закону про внесення змін до деяких законодавчих актів України щодо створення доступу до інфраструктури зарядних станцій для електромобілів (10405).</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p4">Дуже простий, прогресивний, реформаторський закон. Я прошу всіх підтримати пропозицію комітету прийняти за основу і в цілому. Прошу голосувати, прошу підтримати. Голосуємо, підтримуємо. Прошу підтримати, голосуємо. Всіх, хто є в залі, прошу проголосувати.</seg>
-               <note type="time">(13:45:16)</note>
+               <note type="time"><time when="2019-07-11T13:45:16">13:45:16</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p5">За-197</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p6">По фракціях, будь ласка. Не встигли, будемо повертатись.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p7">По фракціях. "Блок Петра Порошенка" – 68, "Народний фронт" – 45, "Опозиційний блок" – 3, "Самопоміч" – 16, Радикальна партія – 14, "Батьківщина" – 11, "Воля народу" – 4, "Партія "Відродження" – 3, позафракційні – 33.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p8">Я не розумію, чому можна бути проти цього закону. Я прошу усіх запросити в зал. Прошу голів фракцій запросити народних депутатів в зал і прошу усіх підтримати, колеги. Усіх, хто є в залі, прошу підтримати. Отже, прошу приготуватись до голосування. Прошу приготуватись до голосування.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p9">І я ставлю на голосування пропозицію повернутись до проекту Закону про внесення змін до деяких законодавчих актів України щодо створення доступу до інфраструктури зарядних станцій для електромобілів (10405). Я прошу усіх, хто є в залі, підтримати і проголосувати. Спочатку за повернення. Голосуємо за повернення, підтримуємо. Кожен голос. Прошу підтримати, прошу проголосувати за.</seg>
-               <note type="time">(13:46:38)</note>
+               <note type="time"><time when="2019-07-11T13:46:38">13:46:38</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p10">За-206</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p11">Я бачу, не встигли. Є достатньо голосів. Просто треба в зал повернути народних депутатів. Я прошу секретаріат Верховної Ради повідомити всім, що йде голосування.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p12">Я прошу показати по фракціях. Отже, "Блок Петра Порошенка" – 73, "Народний фронт" – 45, "Опозиційний блок" – 3. Чому ви не підтримуєте, я не розумію. "Самопоміч" – 17, Радикальна партія – 16, "Батьківщина" – 11, "Воля народу" – 3, "Партія "Відродження" – 4 і позафракційні – 34. 34 – позафракційні.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p13">Отже, прошу всіх приготуватися до голосування, прошу зайняти робочі місця. Прошу заходити і займати робочі місця. І не виходьте із залу! І найближчі 10 хвилин не виходьте із залу. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ні! Мобілізовуємося! В нас ще є сонячні батареї і звіт комісії по Гандзюк. Я прошу всіх зайняти робочі місця. І на це все в нас 15 хвилин. Зараз треба швидко ефективно проголосувати.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p14">Отже, перше голосування – повернутися до проекту Закону 10405 – доступу до інфраструктури зарядних станцій для електромобілів. Прошу проголосувати, прошу підтримати за повернення. Голосуємо! Підтримуємо, друзі, підтримуємо. Голосуємо! Кожен голос.</seg>
-               <note type="time">(13:48:29)</note>
+               <note type="time"><time when="2019-07-11T13:48:29">13:48:29</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p15">За-217</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p16">9 голосів. По фракціях: "Блок Петра Порошенка" – 78, "Народний фронт" – 47, "Опозиційний блок" – 4, "Самопоміч" – 18, Радикальна партія – 16, "Батьківщина" – 12, "Воля народу" – 4, "Відродження" – 5, позафракційні – 33.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u147.p17">Не виходьте із залу! Я просив 10 хвилин не виходити із залу, а навпаки, заходити в зал.</seg>
@@ -1415,35 +1415,35 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p2">Отже, прошу приготуватися до голосування. Прошу зайняти робочої місця. Заходіть в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p3">Отже, прошу приготуватися і зайняти робочі місця. Отже, готові, всі на місцях? Рябчин вийшов кликати народних депутатів, почекаємо ще 10 секунди, і в той час, будь ласка, всі займайте робочі міста.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p4">Готові, так? Павелко, не виходіть, будь ласка, Андрій, Андрій, прошу повернутися. Голосуємо. Андрій Павелко, Андрій Павелко, я прошу повернутися. Голосуємо, голосуємо за повернення до проекту Закону 10405 про підтримку власників електромобілів, голосуємо за повернення, підтримуємо, колеги, кожен голос. Іра, поверніться. Голосуємо. Іра, я прошу повернутися. Прошу проголосувати за повернення, голосуємо, повертаємося, підтримуємо. Увага! Голосуємо, голосуємо.</seg>
-               <note type="time">(13:51:07)</note>
+               <note type="time"><time when="2019-07-11T13:51:07">13:51:07</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p5">За-222</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p6">Чотири, чотири голоси.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p7">Зараз, колеги, не виходіть, пане Віктор, не виходіть. Я зараз ще раз поставлю, зайшло кілька депутатів. Отже, 4 народних депутати. Я прошу приготуватися до голосування. Пане Віктор, прошу вас підтримати. Голосуємо, все, зараз голосуємо.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p8">Отже, я прошу всіх бути на місцях.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p9">Я прошу підтримати повернення до проекту Закону 10405. Микола, я дуже прошу проголосувати.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p10">Отже, за повернення 10405. Прошу підтримати, прошу проголосувати. За повернення голосуємо, за повернення.</seg>
-               <note type="time">(13:52:16)</note>
+               <note type="time"><time when="2019-07-11T13:52:16">13:52:16</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p11">За-229</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p12">Повернулися.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p13">Ставлю проект Закону 10405 в цілому з техніко-юридичними правками. Прошу проголосувати. Прошу підтримати. Кожен голос! Прошу підтримати, голосувати. Голосуємо. Підтримуємо. Голосуємо за електромобілі, підтримуємо.</seg>
-               <note type="time">(13:52:44)</note>
+               <note type="time"><time when="2019-07-11T13:52:44">13:52:44</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p14">За-225</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p15">Не встиг, бач! Колеги, знову, увага, всі будьте на робочих місцях. Один голос! Ви стояли в ложі. Це нечесно і підло!</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p16">Отже, перше голосування – повернення до проекту Закону 10405. Прошу всіх бути на робочих місцях. Голосуємо повернення. Голосуємо. Голосуємо уважно! Кожен голосуємо уважно! Повернення. Голосуємо. Уважно!</seg>
-               <note type="time">(13:53:26)</note>
+               <note type="time"><time when="2019-07-11T13:53:26">13:53:26</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p17">За-231</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p18">Повернулись.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p19">Тепер проект Закону 10405 – за основу і в цілому з техніко-юридичними правками. Голосуємо. Підтримуємо. Підтримуємо. Кожен голос! Уважно! Голосуємо, підтримуємо.</seg>
-               <note type="time">(13:53:50)</note>
+               <note type="time"><time when="2019-07-11T13:53:50">13:53:50</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p20">За-233</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p21">Закон прийнятий.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p22">Наступний: проект Закону "Про альтернативні джерела енергії" (10357). Прошу підтримати розгляд за скороченою процедурою. І не виходіть з залу, не виходіть, не виходіть! За скорочену голосуємо.</seg>
-               <note type="time">(13:54:19)</note>
+               <note type="time"><time when="2019-07-11T13:54:19">13:54:19</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p23">За-187</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p24">Запрошую до доповіді Домбровського Олександра Георгійовича. Через одну хвилину голосування. Прошу усіх зайти в зал.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u148.p25">Домбровський, будь ласка.</seg>
             </u>
-            <note type="time">(13:54:30)</note>
+            <note type="time"><time when="2019-07-11T13:54:30">13:54:30</time></note>
             <note type="speaker">ДОМБРОВСЬКИЙ О.Г.</note>
             <u who="ДОМБРОВСЬКИЙ О.Г." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u149">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u149.p1">Шановні колеги! Законопроект 10357 знімає технічні неузгодженості, які є в законопроекті і повертає "мале сонце" для домогосподарств на землю, тобто ми знімаємо норму і дозволяємо домогосподарствам будувати малі сонячні станції на землі. Це норма, яка діяла до прийняття закону.</seg>
@@ -1454,7 +1454,7 @@
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u150">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p1">Отже, колеги, дуже простий закон, який виправляє помилку, яку ми допустили. Тому я прошу всіх бути в залі під час цього голосування. І прошу всіх підтримати і проголосувати.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p2">І я ставлю на голосування проект Закону про внесення змін до статті 9–1 Закону України "Про альтернативні джерела енергії" щодо врегулювання питання генерації електричної енергії приватними домогосподарствами (10357) за основу і в цілому з техніко-юридичними правками. Прошу всіх проголосувати. Прошу підтримати. Голосуємо. Підтримаємо, колеги. Голосуємо, підтримаємо. Підтримаємо наших громадян!</seg>
-               <note type="time">(13:55:55)</note>
+               <note type="time"><time when="2019-07-11T13:55:55">13:55:55</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p3">За-243</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p4">Закон прийнято.</seg>
                <kinesic type="applause">
@@ -1462,24 +1462,24 @@
                </kinesic>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p5">І, колеги, я продовжую засідання на 15 хвилин, і ми переходимо. Зараз я ще раз. Увага! Я ще раз поставлю. Я нагадую, зараз звіт комісії по Гандзюк. Але я ще раз поставлю пропозицію включити в порядок денний сесії для прийняття рішення наше звернення по ПАРЄ (10435).</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p6">Я прошу підтримати включення в порядок денний сесії для прийняття рішення 10435. Прошу проголосувати. Прошу підтримати. Голосуємо. Голосуємо.</seg>
-               <note type="time">(13:56:41)</note>
+               <note type="time"><time when="2019-07-11T13:56:41">13:56:41</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p7">За-206</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p8">Ще раз ставлю шахтарів. Приготувались, 10307, включення в порядок денний. Шахтарі, шахтарі. 10307 – включення в порядок денний сесії для прийняття рішення. Голосуємо, голосуємо за шахтарів.</seg>
-               <note type="time">(13:57:09)</note>
+               <note type="time"><time when="2019-07-11T13:57:09">13:57:09</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p9">За-199</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p10">Рішення не прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p11">Ще раз, рейтингове голосування по проекту Закону про режим спільного транзиту (9532). Рейтингове голосування. Прошу голосувати, хто підтримує. Голосуємо рейтингове про спільний транзит. Вимагають від мене народні депутати, голосуємо.</seg>
-               <note type="time">(13:57:36)</note>
+               <note type="time"><time when="2019-07-11T13:57:36">13:57:36</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p12">За-203</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p13">Отже, ми бачимо ситуацію. Отже, колеги, ми переходимо до розгляду звіту Тимчасової слідчої комісії Верховної Ради України для проведення розслідування відомостей щодо нападів на Катерину Гандзюк та інших громадських активістів</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p14">І я прошу, колеги, проголосувати за скорочену процедуру. В нас лишається 15 хвилин, я продовжую сесію на 15 хвилин.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p15">Прошу підтримати за скорочену процедуру. Голосуємо, підтримуємо за скорочену. Голосуємо.</seg>
-               <note type="time">(13:58:15)</note>
+               <note type="time"><time when="2019-07-11T13:58:15">13:58:15</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p16">За-193</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p17">Я запрошую до виступу голову Тимчасової слідчої комісії Березу Борислава Юхимовича. Прошу дуже коротко, і відразу голосуємо, колеги. І відразу голосуємо. Не виходьте з залу, не виходьте, всі в залі, повернутися в зал усім.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u150.p18">Будь ласка, Береза Борислав Юхимович.</seg>
             </u>
-            <note type="time">(13:58:33)</note>
+            <note type="time"><time when="2019-07-11T13:58:33">13:58:33</time></note>
             <note type="speaker">БЕРЕЗА Б.Ю.</note>
             <u who="БЕРЕЗА Б.Ю." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u151">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u151.p1">За період роботи Тимчасової слідчої комісії проведено 18 засідань. 15 засідань відбулося в залі засідань Комітету Верховної Ради України з питань запобігання і протидії корупції і по одному – в місті Херсоні, в місті Одесі та місті Харкові.</seg>
@@ -1494,7 +1494,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u152.p1">Будь ласка, ще 2 хвилин і потім голосуємо. Будь ласка, за 2 хвилини прошу всіх бути в сесійному залі. Прошу всіх голів фракцій змобілізувати народних депутатів.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u152.p2">Будь ласка.</seg>
             </u>
-            <note type="time">(14:01:00)</note>
+            <note type="time"><time when="2019-07-11T14:01:00">14:01:00</time></note>
             <note type="speaker">БЕРЕЗА Б.Ю.</note>
             <u who="БЕРЕЗА Б.Ю." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u153">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u153.p1">Комісією встановлено, що місцева влада в місті Одесі залучає комунальну силову структуру "Муніципальна варта" для залякування громадських активістів і підтримки діяльності міської ради протиправними, в тому числі силовими методами. Аналогічна діяльність має місце і в інших містах України. Комісія наголошує на факті неодноразового закриття слідчими органами кримінального провадження, передбаченого за частиною першою статті 125 Кримінального кодексу України, потерпілого Лисичкіна. Комісією констатовано неналежний стан розслідування кримінального провадження за підозрою Сурженка у вчиненні кримінального правопорушення щодо потерпілої Макарової.</seg>
@@ -1512,7 +1512,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p2">Ми переходимо до прийняття рішення. Зараз я прошу всіх запросити депутатів в зал. Я прошу всіх голів фракцій зайти в зал для прийняття рішення. Всіх, хто зараз виходив, я прошу зайти в зал. Я прошу, Миколо, Миколо! Будь ласка, усі, прошу, це питання честі – проголосувати за звіт комісії. Прошу всіх зайти в зал і приготуватись до голосування. Подивіться, кого немає.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p3">Отже, я ставлю на голосування звіт Тимчасової слідчої комісії Верховної Ради України для проведення розслідування відомостей щодо нападів на Катерину Гандзюк та інших громадських активістів. Проект Постанови 10397.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p4">Прошу підтримати. Прошу голосувати. Вікторе, голосуємо, підтримуємо. Голосуємо, колеги, звіт комісії. Голосуємо.</seg>
-               <note type="time">(14:04:38)</note>
+               <note type="time"><time when="2019-07-11T14:04:38">14:04:38</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p5">За-200</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p6">По фракціях, будь ласка. Прошу всіх заходити в зал. По фракціях. "Блок Петра Порошенка" – 70, "Народний фронт" – 40, "Опозиційний блок" – 1, "Самопоміч" – 17, Радикальна партія – 116, "Батьківщина" – 10, "Воля народу" – 3, "Партія "Відродження" – 4, позафракційні, позафракційні. Покажіть, будь ласка. Я прошу всіх зайти в зал. 39 позафракційних.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p7">Я прошу, колеги, зараз запросити всіх у зал. Ми не можемо не пройти це голосування. Я прошу запросити всіх, хто є в кулуарах, у зал. Я прошу подивитись, кого зараз немає на робочому місці. Прошу усіх запросити в зал і не виходити зараз із залу. Передзвоніть, запросіть. Хто допоможе покликати з кулуарів? Отже. Заходимо, хлопці, заходимо, робота йде.</seg>
@@ -1521,17 +1521,17 @@
                   <desc>(Шум у залі)</desc>
                </vocal>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p9">Отже, я ставлю перше голосування за повернення. Прошу всіх приготуватись. Позаписуєте селфі потім, зараз будьте в залі. Перше голосування – повернення за голосування Звіту Тимчасової слідчої комісії щодо нападів на Катерину Гандзюк та інших громадських активістів. Прошу проголосувати за повернення. Прошу підтримати уважно всіх і відповідально. Голосуємо. Підтримуємо. Голосуємо, колеги. Голосуємо. Кожен голос. Голосуємо.</seg>
-               <note type="time">(14:06:44)</note>
+               <note type="time"><time when="2019-07-11T14:06:44">14:06:44</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p10">За-216</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p11">Хто червоною голосує, подивіться. Колеги, я прошу, бракує кілька голосів. Я прошу зайти в зал і бути на робочих місцях під час голосування.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p12">Отже, колеги, зараз ми вийдемо на позитивне голосування. Отже, голосуємо. Перше голосування – за повернення до голосування за звіт ТСК щодо нападів на Катерину Гандзюк та інших громадських активістів, Постанова 10397. Я прошу усіх підтримати і проголосувати. Голосуємо. Підтримуємо за повернення. Кожен голос. Голосуємо і підтримуємо. Підтримуємо, колеги. Підтримайте. Підтримайте. Голосуємо.</seg>
-               <note type="time">(14:07:42)</note>
+               <note type="time"><time when="2019-07-11T14:07:42">14:07:42</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p13">За-217</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p14">Ну, колеги, кілька голосів. Хтось утримався, очевидно помилково. Так не може бути, що ми цього не проголосуємо. Я прошу, прошу подивитися, кого немає поруч. Запросіть, подивіться, кого немає. Я попрошу когось, хто пройде по кулуарах, 30 секунд. Хто пройде по кулуарах? Президія голосує. В чому річ? Президія не голосує? Та ви що? Не спрацювала картка. Так.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p15">Отже, колеги, кого я можу попросити? Віктор, ні? Віктор. Добре. Будь ласка, займіть робочі місця. Не спрацювала картка в Геращенко.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p16">Отже, готові? Зайшли в зал. Я ставлю на голосування пропозицію повернутись до голосування за звіт тимчасової слідчої комісії щодо нападів на Катерину Гандзюк та інших громадських активістів. Я прошу усіх бути на робочих місцях і проголосувати за повернення.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p17">Голосуємо. Віктор, голосуємо. Підтримуємо. Кожен голос. Голосуємо, підтримуємо. Кожен голос.</seg>
-               <note type="time">(14:09:11)</note>
+               <note type="time"><time when="2019-07-11T14:09:11">14:09:11</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p18">За-218</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p19">Хтось утримується в нас. Хлопці, хтось утримується. Будь ласка, прошу всіх підтримати.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p20">По фракціях. "Блок Петра Порошенка" – 75. Заходіть, пане Руслан. "Народний фронт" – 46, "Опозиційний блок" – 7, "Самопоміч" – 18, "Батьківщина" – 10, "Воля народу" – 3, "Партія "Відродження" – 3, позафракційні – 38.</seg>
@@ -1540,26 +1540,26 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p23">Я ставлю пропозицію повернутись до голосування за Звіт ТСК про напади на Катерину Гандзюк та інших громадських активістів.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p24">До цього питання прикута особлива увага сьогодні суспільства. Тому я прошу кожного. Антон! Антон! Верніться, Яценко, проголосуйте, підтримайте. Підтримайте, будь ласка. Антон Яценко, проголосуйте за ТСК по Каті Гандзюк.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p25">Прошу голосувати, прошу підтримати. За повернення, голосуємо. Підтримуємо. Кожен голос. Голосуємо. Уважно, відповідально.</seg>
-               <note type="time">(14:10:53)</note>
+               <note type="time"><time when="2019-07-11T14:10:53">14:10:53</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p26">За-227</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p27">Повернулися.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p28">Ставлю на голосування Звіт Тимчасової слідчої комісії для проведення розслідування відомостей щодо нападів на Катерину Гандзюк та інших громадських активістів, Постанова 10397.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p29">Прошу підтримати в цілому. Прошу голосувати. Кожен голос важливий. Дуже уважно, дуже відповідально. Голосуємо, підтримуємо. Голосуємо.</seg>
-               <note type="time">(14:11:25)</note>
+               <note type="time"><time when="2019-07-11T14:11:25">14:11:25</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p30">За-227</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p31">Звіт прийнято, колеги.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p32">Прошу, зараз, через 3 хвилини, буде позачергове засідання. Але в мене є вимога від ряду народних депутатів. В нас є проект закону, в якому нема жодної правки, він стоїть у порядку денному – 9532. Це ми ще маємо 4 хвилини. В ньому нема жодної правки.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p33">Колеги, я ставлю. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Три хвилини! Не виходьте із залу, не виходьте! Три хвилини.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p34">Отже, проект Закону про режим спільного транзиту (9532). Нема жодної правки.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p35">Я ставлю на рейтингове голосування 9532: проект Закону про режим спільного транзиту. Рейтингове голосування, прошу голосувати. Рейтингове голосування, прошу підтримати. Голосуємо!</seg>
-               <note type="time">(14:12:36)</note>
+               <note type="time"><time when="2019-07-11T14:12:36">14:12:36</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p36">За-176</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p37">Ну, друзі, ну, що ж я зроблю. Ну, 176!</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p38">Колеги, я пропоную переходити до позачергової сесії. Але зараз. Зараз, колеги, зараз є заява від двох фракцій на виступ. Я зараз даю слово –3 хвилини. Потім о 14.15 я оголошу закриття ранкового засідання і оголошу реєстрацію позачергового. Тому нікуди не виходимо.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p39">Зараз перерва від двох фракцій – "Батьківщина" і "Самопоміч". Виступ Оксани Сироїд. Радикальна партія. Після того початок позачергової.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u154.p40">Будь ласка, Оксана Сироїд.</seg>
             </u>
-            <note type="time">(14:13:15)</note>
+            <note type="time"><time when="2019-07-11T14:13:15">14:13:15</time></note>
             <note type="speaker">СИРОЇД О.І.</note>
             <u who="СИРОЇД О.І." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u155">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u155.p1">Шановні колеги, шановні українці! Попри все, я вважаю, найбільшим досягненням парламенту цього скликання є те, що саме цей парламент зберіг українську державність і українську Конституцію, бо ми не дали можливості внести зміни до Конституції з особливим статусом для окупованих територій. І це заслуга цього парламенту незалежно від того, хто як голосував.</seg>
@@ -1572,12 +1572,12 @@
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u156.p1">Дякую.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u156.p2">І, колеги, 14:15, і я. Одне повідомлення, одне повідомлення – Геращенко.</seg>
             </u>
-            <note type="time">(14:15:02)</note>
+            <note type="time"><time when="2019-07-11T14:15:02">14:15:02</time></note>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-11-m0.u157">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u157.p1">Шановні колеги, до президії надійшла заява нашого колеги пана Люшняка, що його картка не спрацювала під час голосування за Закон про сонячні батареї, про альтернативні джерела енергії, і він просить врахувати як "за" його голос.</seg>
             </u>
-            <note type="time">(14:15:12)</note>
+            <note type="time"><time when="2019-07-11T14:15:12">14:15:12</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-11-m0.u158">
                <seg xml:id="ParlaMint-UA_2019-07-11-m0.u158.p1">Дякую.</seg>

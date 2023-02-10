@@ -46,9 +46,9 @@
             <note type="comment">ЗАСІДАННЯ ПЕРШЕ</note>
             <note type="comment">(продовження)</note>
             <note type="comment">Зал засідань Верховної Ради України</note>
-            <note type="time">(28 грудня 2022 року, 13 година 30 хвилин)</note>
+            <note type="time">28 грудня 2022 року, 13 година 30 хвилин</note>
             <note type="narrative">Веде засідання Голова Верховної Ради України СТЕФАНЧУК Р.О.</note>
-            <note type="time">(13:35:43)</note>
+            <note type="time"><time when="2022-12-28T13:35:43">13:35:43</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-12-28-m0.u1">
                <seg xml:id="ParlaMint-UA_2022-12-28-m0.u1.p1">Шановні колеги, слава Україні!</seg>
@@ -77,7 +77,7 @@
             <kinesic type="applause">
                <desc>(Оплески)</desc>
             </kinesic>
-            <note type="time">(13:43:09)</note>
+            <note type="time"><time when="2022-12-28T13:43:09">13:43:09</time></note>
             <note type="speaker">ЗЕЛЕНСЬКИЙ В.О.</note>
             <u who="ЗЕЛЕНСЬКИЙ В.О." ana="#regular" xml:id="ParlaMint-UA_2022-12-28-m0.u2">
                <seg xml:id="ParlaMint-UA_2022-12-28-m0.u2.p1">Дуже дякую. Слава Україні!</seg>
@@ -407,7 +407,7 @@
             <kinesic type="applause">
                <desc>(Оплески)</desc>
             </kinesic>
-            <note type="time">(14:42:26)</note>
+            <note type="time"><time when="2022-12-28T14:42:26">14:42:26</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-12-28-m0.u7">
                <seg xml:id="ParlaMint-UA_2022-12-28-m0.u7.p1">Шановні народні депутати, давайте ще раз подякуємо Президенту України Володимиру Олександровичу Зеленському, уряду на чолі з Прем'єр-міністром, захисникам та захисницям, членам родин загиблих героїв, представникам дипломатичного корпусу та усім запрошеним.</seg>
