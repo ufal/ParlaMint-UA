@@ -79,6 +79,7 @@ for my $fileIn (@file_list){
     `mkdir -p $data_dir/$output_dir/$run_id/$subdir`;
   }
   my ($fileInName) = $fileIn =~ m/([^\/]*)$/;
+  # unless($fileInName =~ m/20170317-1.htm/){print STDERR "DEBUG: skipping $fileInName\n"; next;}
   $suff //= 0;
   print STDERR "$fileIn\n\t$dY-$dM-$dD\t$suff\n";
   my $id = sprintf("%s_%04d-%02d-%02d-m%d",$file_id,$dY,$dM,$dD,$suff);
@@ -215,6 +216,7 @@ HEADER
       next;
     }
     print STDERR "ERROR: missing chair\n" unless $chair;
+    # print STDERR "DEBUG: $p\n" if $empty_par_before;
     for my $pchild ($p->childNodes()){
       if(ref $pchild eq 'XML::LibXML::Text'){
         my $content = $pchild->data;
@@ -234,8 +236,8 @@ HEADER
                    /x;
         my $only_forename_re = ($is_chair || ! $empty_par_before)
               ? qr/NEVER_MATCHING_CONTENT/
-              : qr/[\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’`]{2,}\./x;
-        if($is_first
+              : qr/[\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’`]{2,}\s*(?:\.|\([\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’`]{2,}\))/x;
+         if($is_first
           && $content !~ m/^\s*[ЄЯ]\.\.*\s*/
           && (($speaker,$speech) = $content =~ m/^\s*(
                              $speaker_re
@@ -255,7 +257,7 @@ HEADER
             add_note($div,$speaker)->setAttribute('type','speaker');
             $utterance = $div->addNewChild(undef,'u');
             $speaker = $prev_nonchair_alias if $speaker eq $prev_nonchair_surname; # interrupted utterance continue
-            $utterance->setAttribute('who',$is_chair ? $chair : $speaker);
+            $utterance->setAttribute('who',$is_chair ? $chair : normalize_speaker_who($speaker));
             $utterance->setAttribute('ana',$is_chair ? '#chair':'#regular');
             undef $empty_par_before;
             if($speech){
@@ -548,6 +550,7 @@ sub normalize_speaker {
   my $new_speaker = $text_speaker;
   while(
     $new_speaker =~ s/['`]/’/g
+    || $new_speaker =~ s/\s+\./\./
     || $new_speaker =~ s/\b([\p{Lu}\p{Lt}])\b$/$1\./
     || $new_speaker =~ s/^\b([\p{Lu}\p{Lt}]{2,})\. /$1 /
     || $new_speaker =~ s/\.[\. ]+$/\./
@@ -560,6 +563,15 @@ sub normalize_speaker {
   return $new_speaker;
 }
 
+sub normalize_speaker_who {
+  my $text_speaker = shift;
+  my $new_speaker = $text_speaker;
+  $new_speaker =~ s/\s*[(]/ /g;
+  $new_speaker =~ s/[)]\s*/ /g;
+  $new_speaker =~ s/^\s*|\s*$//g;
+  print STDERR "Normalize speaker who '$text_speaker'->'$new_speaker'\n" unless $text_speaker eq $new_speaker ;
+  return $new_speaker;
+}
 sub normalize_elements_and_spaces {
   my $node = shift;
   my %process_order = (
