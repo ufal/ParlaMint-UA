@@ -286,7 +286,7 @@
                     <xsl:attribute name="to" select="$to"/>
                   </xsl:if>
                   <xsl:if test="$event | $acting">
-                    <xsl:attribute name="ana" select="string-join(($event/concat('#',.), $acting/concat('#','acting')),' ')"/>
+                    <xsl:attribute name="ana" select="string-join(($event/concat('#',.), $acting/concat('#','affiliation.role.acting')),' ')"/>
                   </xsl:if>
                   <xsl:if test="$role-uk">
                     <xsl:element name="roleName" xmlns="http://www.tei-c.org/ns/1.0">

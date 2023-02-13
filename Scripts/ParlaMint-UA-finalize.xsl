@@ -40,6 +40,7 @@
     <item>ParlaMint-taxonomy-parla.legislature.xml</item>
     <item>ParlaMint-taxonomy-speaker_types.xml</item>
     <item>ParlaMint-taxonomy-subcorpus.xml</item>
+    <item>ParlaMint-UA-taxonomy-affiliation.roles.xml</item>
     <xsl:if test="$type = 'TEI.ana'">
       <item>ParlaMint-taxonomy-UD-SYN.ana.xml</item>
       <item>ParlaMint-taxonomy-NER.ana.xml</item>
