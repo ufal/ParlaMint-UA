@@ -338,13 +338,19 @@
     <xsl:variable name="speaker" select="$speaker-person//*:item[@utterance = $id]"/>
     <xsl:copy copy-namespaces="no">
       <xsl:apply-templates select="@*[not(name()='ana' or name()='who')]" mode="comp" />
-      <xsl:if test="$speaker">
-        <xsl:attribute name="who" select="replace(concat('#',$speaker/@who),'##*','#')"/>
-        <xsl:if test="not(@ana = $speaker/@ana)">
-          <xsl:message select="concat('INFO: changing speaker type ',@xml:id,'(',@who,'|',$speaker/@who,') ',@ana,' to ',$speaker/@ana)"/>
-        </xsl:if>
-        <xsl:attribute name="ana" select="$speaker/@ana"/>
-      </xsl:if>
+      <xsl:choose>
+        <xsl:when test="$speaker">
+          <xsl:attribute name="who" select="replace(concat('#',$speaker/@who),'##*','#')"/>
+          <xsl:if test="not(@ana = $speaker/@ana)">
+            <xsl:message select="concat('INFO: changing speaker type ',@xml:id,'(',@who,'|',$speaker/@who,') ',@ana,' to ',$speaker/@ana)"/>
+         </xsl:if>
+          <xsl:attribute name="ana" select="$speaker/@ana"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <!-- set guest role if speaker is unknown -->
+          <xsl:attribute name="ana">#guest</xsl:attribute>
+        </xsl:otherwise>
+      </xsl:choose>
       <xsl:apply-templates mode="comp"/>
     </xsl:copy>
   </xsl:template>
