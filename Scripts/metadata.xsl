@@ -607,15 +607,15 @@
     <xsl:variable name="org_by_fullName" select="$gov-org/table/row[$name and ./col[@name='Role'] = 'parliamentaryGroup' and lower-case(./col[@name='OrgNameFull_uk']) = lower-case($name)]"/>
     <xsl:variable name="ref">
       <xsl:choose>
-        <xsl:when test="$org_by_id"><xsl:value-of select="$org_by_id/col[@name='OrgID']/text()"/></xsl:when>
-        <xsl:when test="$org_by_radaName"><xsl:value-of select="$org_by_radaName/col[@name='OrgID']/text()"/></xsl:when>
-        <xsl:when test="$org_by_fullName"><xsl:value-of select="$org_by_fullName/col[@name='OrgID']/text()"/></xsl:when>
+        <xsl:when test="$org_by_id"><xsl:copy-of select="$org_by_id"/></xsl:when>
+        <xsl:when test="$org_by_radaName"><xsl:copy-of select="$org_by_radaName"/></xsl:when>
+        <xsl:when test="$org_by_fullName"><xsl:copy-of select="$org_by_fullName"/></xsl:when>
       </xsl:choose>
     </xsl:variable>
     <xsl:choose>
-      <xsl:when test="not($ref = '')">
+      <xsl:when test="count($ref/*) = 1">
         <xsl:element name="affiliation" xmlns="http://www.tei-c.org/ns/1.0">
-          <xsl:attribute name="ref" select="concat('#', $ref)"/>
+          <xsl:attribute name="ref" select="concat('#', $ref/*/col[@name='OrgID']/text())"/>
           <xsl:attribute name="role">member</xsl:attribute>
           <xsl:if test="$from">
             <xsl:attribute name="from" select="$from"/>
@@ -624,6 +624,22 @@
             <xsl:attribute name="to" select="$to"/>
           </xsl:if>
         </xsl:element>
+      </xsl:when>
+      <xsl:when test="count($ref/*) > 1">
+        <xsl:message terminate="no">TODO multipe affiliations !!!: |<xsl:value-of select="$ref/text()"/>| '<xsl:copy-of select="$ref"/>'</xsl:message>
+        <xsl:comment>multiple fraction affiliation at the same time:</xsl:comment>
+        <xsl:for-each select="$ref/*">
+          <xsl:element name="affiliation" xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:attribute name="ref" select="concat('#', ./col[@name='OrgID']/text())"/>
+            <xsl:attribute name="role">member</xsl:attribute>
+            <xsl:if test="$from">
+              <xsl:attribute name="from" select="$from"/>
+            </xsl:if>
+            <xsl:if test="$to">
+              <xsl:attribute name="to" select="$to"/>
+            </xsl:if>
+          </xsl:element>
+        </xsl:for-each>
       </xsl:when>
       <xsl:otherwise>
         <!-- no affiliation - organization not found -->
