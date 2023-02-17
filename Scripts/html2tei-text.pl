@@ -48,7 +48,7 @@ my $speaker_name_re = qr/
   |
   (?:\b[\p{Lu}\p{Lt}'’]{2,}\b\s*)+ # full name
 )/x;
-my $chairman_re = qr/(?:Г?ОЛ[ОВ]{2}У?Ю?Ч(?:[ИЙ]{1,2}|А))(?<=\S{7})\.?/; # some character can miss, but minimum is 7
+my $chairman_re = qr/(?:\S?[Г\S]?[ГОЛ]?[ОЛO]?[ЛОB]?[OВУ]{1,3}[ВУЮ]?[УЮЧ]?[ЮЧ]?(?:[ИЙ]{1,2}|А))(?<=\S{7})\.?/; # some character can miss, but minimum is 7
 
 
 my @file_list = glob "$data_dir/$input_dir/$run_id/*.htm";
@@ -259,7 +259,7 @@ HEADER
               ? $chairman_re
               : qr/$speaker_name_re
                    |
-                   (?:ГОЛОСИ?\s+)?(?:І?З|В)\s+ЗАЛ[УІ]\.
+                   (?:ГОЛОСИ?\s+)?(?:І?З|В)\s+ЗАЛ[ИУІ]\.
                    |
                    $prev_nonchair_surname
                    /x;
@@ -361,7 +361,7 @@ sub speaker_status {
   my %not_speaker = map {$_=>1} qw/COVID./;
   return if $not_speaker{$text};
   return 'interrupting' if $text =~ m/(?:ЗАЛУ)/;
-  return 'interrupting' if $text =~ m/(?:ГОЛОС.*ЗАЛ[УІ])/;
+  return 'interrupting' if $text =~ m/(?:ГОЛОС.*ЗАЛ[ИУІ])/;
   return 'MP';
 }
 
@@ -543,6 +543,8 @@ sub get_p_category {
   return 'process_note' if $not_spaced_content =~  m/Сесійний зал Верховної Ради$/;
   return 'process_note' if $not_spaced_content =~  m/^України\. \d+ \w+ \d\d\d\d року\.$/;
   return 'process_note' if $content =~  m/(?: .){5}/ && $content !~  m/\w{5}/; # spaced text detection (contains spaced word len>5 and donesnt contain nonspaced)
+
+  return 'process_note' if $not_spaced_content =~ m/(?:ПІСЛЯ )?ПЕРЕРВИ/; # (after )break
 
   return 'process_note' if $node->hasAttribute('align') && $node->getAttribute('align') eq 'center';
   return 'unknown';
