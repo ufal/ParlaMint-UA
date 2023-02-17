@@ -323,7 +323,7 @@
           <xsl:variable name="id" select="."/>
           <xsl:variable name="person" select="$listPerson-dupl/tei:listPerson/tei:person[@xml:id=$id]"/>
           <xsl:variable name="newest" select="max($person/@n)"/>
-          <xsl:variable name="personN" select="$person[@n = $newest or (not($newest) and position()=1)]"/>
+          <xsl:variable name="personN" select="$person[@n = $newest or (not($newest) and position()=1)][1]"/>
           <xsl:element name="person" xmlns="http://www.tei-c.org/ns/1.0">
             <xsl:attribute name="xml:id" select="$id"/>
             <xsl:apply-templates select="$personN/tei:persName"/>
