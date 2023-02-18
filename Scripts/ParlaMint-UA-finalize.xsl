@@ -36,6 +36,17 @@
   <!-- The name of the corpus directory to output to, i.e. "ParlaMint-XX" -->
   <xsl:variable name="corpusDir" select="concat('ParlaMint-UA.',$type)"/>
 
+  <xsl:variable name="languages">
+    <item xml:lang="uk">
+      <language xml:lang="en">ukrainian</language>
+      <language xml:lang="uk">українська</language>
+    </item>
+    <item xml:lang="ru">
+      <language xml:lang="en">russian</language>
+      <language xml:lang="uk">російська</language>
+    </item>
+  </xsl:variable>
+
   <xsl:variable name="taxonomies">
     <item>ParlaMint-taxonomy-parla.legislature.xml</item>
     <item>ParlaMint-taxonomy-speaker_types.xml</item>
@@ -75,6 +86,10 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
+
+  <xsl:variable name="url-corpus-ana" select="concat($anaDir, '/', replace(base-uri(), '.*/(.+)\.xml', '$1.ana.xml'))"/>
+
+
   <xsl:variable name="suff">
     <xsl:choose>
       <xsl:when test="$type = 'TEI.ana'">.ana</xsl:when>
@@ -133,6 +148,43 @@
           </xsl:otherwise>
         </xsl:choose>
       </item>
+    </xsl:for-each>
+  </xsl:variable>
+
+  <!-- Numbers of tokens in component .ana files -->
+  <xsl:variable name="tokens">
+    <xsl:for-each select="$docs/tei:item">
+      <xsl:variable name="doc-url" select="./tei:url-orig"/>
+      <item n="{tei:xi-orig}">
+        <xsl:for-each select="$languages/tei:item">
+          <xsl:variable name="lang" select="."/>
+          <lang n="{$lang/@xml:lang}">
+            <xsl:choose>
+              <!-- For .ana files, compute number of tokens -->
+              <xsl:when test="$type = 'TEI.ana'">
+                <xsl:value-of select="document($doc-url)/
+                                    count(
+                                           //tei:w[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang/@xml:lang][not(parent::tei:w)]
+                                           | //tei:pc[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang/@xml:lang]
+                                         )"/>
+              </xsl:when>
+            </xsl:choose>
+          </lang>
+        </xsl:for-each>
+      </item>
+    </xsl:for-each>
+  </xsl:variable>
+
+  <xsl:variable name="langUsage">
+    <xsl:for-each select="$languages/*/@xml:lang">
+      <xsl:variable name="lang" select="."/>
+      <lang n="{$lang}">
+        <xsl:choose>
+          <xsl:when test="$type = 'TEI.ana'">
+            <xsl:value-of select="round(100 * sum($tokens/tei:item/tei:lang[@n=$lang]) div sum($tokens/tei:item/*),0)"/> <!--  / sum($tokens/tei:item/*) -->
+          </xsl:when>
+        </xsl:choose>
+      </lang>
     </xsl:for-each>
   </xsl:variable>
 
@@ -562,11 +614,29 @@
   </xsl:template>
 
   <xsl:template match="tei:langUsage">
-    <xsl:copy>
-      <xsl:apply-templates select="tei:language[not(@idetn='en')]"/>
-      <language xml:lang="en" ident="en" usage="0">english</language>
-      <language xml:lang="uk" ident="en" usage="0">aнглійська</language>
-    </xsl:copy>
+    <xsl:choose>
+      <xsl:when test="$type = 'TEI'">
+        <xsl:copy-of select="document($url-corpus-ana)/tei:teiCorpus//tei:langUsage"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:copy>
+          <!--xsl:apply-templates select="tei:language[not(@idetn='en')]"/-->
+          <xsl:message>TODO: langUsage </xsl:message>
+          <xsl:for-each select="$languages/*">
+            <xsl:variable name="lang" select="."/>
+            <xsl:variable name="usage" select="$langUsage/tei:lang[@n = $lang/@xml:lang]"/>
+            <xsl:for-each select="$lang/tei:language">
+              <xsl:variable name="translation" select="."/>
+              <language xml:lang="{$translation/@xml:lang}" ident="{$lang/@xml:lang}" usage="{$usage}">
+                <xsl:value-of select="$translation/text()"/>
+              </language>
+            </xsl:for-each>
+          </xsl:for-each>
+          <language xml:lang="en" ident="en" usage="0">english</language>
+          <language xml:lang="uk" ident="en" usage="0">aнглійська</language>
+        </xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template name="add-bibl-title">
