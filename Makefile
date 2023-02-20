@@ -25,7 +25,7 @@ GSIDevent := 19173850
 GSIDrelation := 1419083904
 GSIDguest := 636463819
 GSIDrename := 480487169
-
+GSIDspeakers := 542098680
 
 -include Makefile.env
 
@@ -374,7 +374,9 @@ $(utterance-who-ana-RUN-ALL): utterance-who-ana-%:
 	mkdir -p $(DATADIR)/utterance-who-ana/$*/
 	rm -f $(DATADIR)/utterance-who-ana/$*/*
 	echo "TODO utterance-who-ana"
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDspeakers)&single=true&output=tsv" > $(DATADIR)/utterance-who-ana/$*/gov-speaker-person.tsv
 	./Scripts/utterance-who-ana.pl --in "$(DATADIR)/link-speakers-update/$*/speaker-person-links.tsv" \
+	                               --fallback "$(DATADIR)/utterance-who-ana/$*/gov-speaker-person.tsv" \
 	                           --out "$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv"
 
 
