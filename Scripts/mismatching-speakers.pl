@@ -53,7 +53,7 @@ if($linking_file){
   #    cSurDist
   #    source
   $mismatching = {};
-  for my $miss (grep {not($_->{aPersonId}) && not($_->{sPersonId}) } @{csv({in => $linking_file,headers => "auto", binary => 1, auto_diag => 1, sep_char=> "\t"})//[]}){
+  for my $miss (grep {(not($_->{aPersonId}) || ($_->{aPersonId}//'' =~ m/ /) ) && not($_->{sPersonId})} @{csv({in => $linking_file,headers => "auto", binary => 1, auto_diag => 1, sep_char=> "\t"})//[]}){
     $mismatching->{$miss->{speaker}} //= {};
     my $normalized_name = join(" ",grep map {$miss->{$_}} qw/forename patronymic surname/ );
     $mismatching->{$miss->{speaker}}->{$normalized_name} //= {
