@@ -502,7 +502,9 @@
       <fileDesc>
         <xsl:element name="titleStmt" xmlns="http://www.tei-c.org/ns/1.0">
           <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA [ParlaMint<xsl:value-of select="$suff"/>]</title>
+          <title type="main" xml:lang="uk">>Корпус Верховної Ради України ParlaMint-UA [ParlaMint<xsl:value-of select="$suff"/>]</title>
           <title type="sub" xml:lang="en">Ukrainian parliament <xsl:value-of select="concat($corpusFrom,' - ',$corpusTo)"/></title>
+          <title type="sub" xml:lang="uk">Корпус стенограм Верховної Ради України за період з <xsl:value-of select="concat($corpusFrom,' по ',$corpusTo)"/></title>
           <xsl:for-each select="distinct-values($terms//tei:meeting/@n)">
             <xsl:sort select="."/>
             <xsl:variable name="term" select="."/>
@@ -573,13 +575,13 @@
         <xsl:if test="$type = 'TEI.ana'">
           <listPrefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
-               <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
             </prefixDef>
           </listPrefixDef>
           <appInfo>
             <application ident="UDPipe" version="2">
-               <label>UDPipe 2 (ukrainian-iu-ud-2.10-220711 and russian-syntagrus-ud-2.10-220711 models)</label>
-               <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with ukrainian-iu-ud-2.10-220711 and russian-syntagrus-ud-2.10-220711 models</desc>
+               <label xml:lang="en">UDPipe 2 (ukrainian-iu-ud-2.10-220711 and russian-syntagrus-ud-2.10-220711 models)</label>
+               <desc xml:lang="en">POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with ukrainian-iu-ud-2.10-220711 and russian-syntagrus-ud-2.10-220711 models</desc>
                <xsl:comment></xsl:comment>
             </application>
           </appInfo>
@@ -659,7 +661,7 @@
       <xsl:with-param name="quantity" select="$quantity"/>
       <xsl:with-param name="unit">speeches</xsl:with-param>
       <xsl:with-param name="en_text">speeches</xsl:with-param>
-      <xsl:with-param name="uk_text">ви́ступів</xsl:with-param>
+      <xsl:with-param name="uk_text">виступів</xsl:with-param>
     </xsl:call-template>
   </xsl:template>
 
@@ -701,15 +703,20 @@
     <respStmt>
       <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
       <resp xml:lang="en">Data retrieval</resp>
+      <resp xml:lang="uk">Збирання даних</resp>
       <resp xml:lang="en">TEI XML corpus encoding</resp>
+      <resp xml:lang="uk">Програмування корпусу у форматі TEI XML</resp>
       <xsl:if test="$type = 'TEI.ana'">
         <resp xml:lang="en">Linguistic annotation</resp>
+        <resp xml:lang="uk">Мовна розмітка</resp>
       </xsl:if>
     </respStmt>
     <xsl:element name="respStmt">
       <persName>Anna Kryvenko</persName>
       <resp xml:lang="en">Manual metadata retrieval</resp>
+      <resp xml:lang="uk">Ручне збирання метаданих</resp>
       <resp xml:lang="en">Translations</resp>
+      <resp xml:lang="uk">Переклад</resp>
     </xsl:element>
   </xsl:template>
 
@@ -719,6 +726,7 @@
     </funder>
     <funder>
       <orgName xml:lang="en">Slovenian Research Agency</orgName>
+      <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
     </funder>
   </xsl:template>
 
@@ -748,13 +756,14 @@
     <publicationStmt>
       <publisher>
         <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+        <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
         <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
       </publisher>
       <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
       <availability status="free">
         <licence>http://creativecommons.org/licenses/by/4.0/</licence>
         <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
-        <p xml:lang="uk">Цей твір ліцензовано на умовахЛіцензії <ref target="http://creativecommons.org/licenses/by/4.0/">Зазначення Авторства 4.0 Міжнародна</ref>.</p>
+        <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
         </availability>
       <date when="{$today}"><xsl:value-of select="$today"/></date>
     </publicationStmt>
