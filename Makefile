@@ -377,7 +377,9 @@ $(utterance-who-ana-RUN-ALL): utterance-who-ana-%:
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDspeakers)&single=true&output=tsv" > $(DATADIR)/utterance-who-ana/$*/gov-speaker-person.tsv
 	./Scripts/utterance-who-ana.pl --in "$(DATADIR)/link-speakers-update/$*/speaker-person-links.tsv" \
 	                               --fallback "$(DATADIR)/utterance-who-ana/$*/gov-speaker-person.tsv" \
-	                           --out "$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv"
+	                               --listPerson "$(DATADIR)/listPerson-affiliation-fix/$(DOWNLOAD_META_DATA_LAST)/ParlaMint-UA-listPerson.xml" \
+	                               --out "$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv"
+	cat "$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv" | grep -v '#' > "$(DATADIR)/utterance-who-ana/$*/utterance-who-ana-no-match.tsv"
 
 
 

@@ -81,6 +81,9 @@ graph TB
 
     utterance-who-ana[utterance-who-ana<br>final person speaker linking]:::TODO
     link-speakers-update --speaker-person-links.tsv--> utterance-who-ana
+    listPerson-affiliation-fix --listPerson--> utterance-who-ana
+    GS --speaker-person--> utterance-who-ana
+
     utterance-who-ana --utterance-who-ana.tsv--> TEIana
     TEIner --> TEIana
     taxonomies --> TEIana
@@ -99,4 +102,5 @@ graph TB
     classDef TODO fill:#fff,stroke:#aaa;
     classDef TODOfin fill:#fff,stroke:#00f,stroke-width:4px;
     classDef MANUAL fill:#df3,stroke-width:0px;
+
 ```
