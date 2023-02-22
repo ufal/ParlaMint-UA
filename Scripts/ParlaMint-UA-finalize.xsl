@@ -326,8 +326,8 @@
   <xsl:template mode="comp" match="tei:titleStmt">
     <xsl:param name="date"/>
     <xsl:copy>
-      <xsl:comment>TODO: title</xsl:comment>
-      <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term <xsl:value-of select="./tei:meeting[contains(@ana,'#parla.term')]/@n"/>, session <xsl:value-of select="./tei:meeting[contains(@ana,'#parla.session')]/@n"/>, sitting day <xsl:value-of select="$date"/><xsl:value-of select="replace(ancestor::tei:TEI/@xml:id,'^.*m',' n')"/> [ParlaMint<xsl:value-of select="$suff"/>]</title>
+      <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term <xsl:value-of select="./tei:meeting[contains(@ana,'#parla.term')]/@n"/>, session <xsl:value-of select="./tei:meeting[contains(@ana,'#parla.session')]/@n"/>, sitting day <xsl:value-of select="$date"/>,<xsl:value-of select="replace(ancestor::tei:TEI/@xml:id,'^.*m',' n')"/> [ParlaMint<xsl:value-of select="$suff"/>]</title>
+      <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA, <xsl:value-of select="./tei:meeting[contains(@ana,'#parla.term')]/@n"/> скликання, <xsl:value-of select="./tei:meeting[contains(@ana,'#parla.session')]/@n"/> сесія, дата пленарного засідання <xsl:value-of select="$date"/>, <xsl:value-of select="replace(ancestor::tei:TEI/@xml:id,'^.*m','номер засідання №')"/> [ParlaMint<xsl:value-of select="$suff"/>]</title>
 
       <xsl:apply-templates select="tei:meeting"/>
       <meeting ana="#parla.sitting #parla.uni">
@@ -642,7 +642,7 @@
   </xsl:template>
 
   <xsl:template name="add-bibl-title">
-    <title type="main" xml:lang="uk">Верхо́вна Ра́да Украї́ни</title>
+    <title type="main" xml:lang="uk">Верховна Рада України</title>
   </xsl:template>
 
   <xsl:template name="add-measure-words">
@@ -732,7 +732,7 @@
 
   <xsl:template name="add-setting">
     <setting>
-      <name type="org">Верхо́вна Ра́да Украї́ни</name>
+      <name type="org">Верховна Рада України</name>
       <name type="address">вулиця Михайла Грушевського, 5</name>
       <name type="city">Київ</name>
       <name key="UA" type="country">Україна</name>
@@ -771,7 +771,7 @@
 
   <xsl:template name="add-projectDesc">
     <projectDesc>
-      <p xml:lang="uk"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref></p>
+      <p xml:lang="uk"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівнянних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
       <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
     </projectDesc>
   </xsl:template>
