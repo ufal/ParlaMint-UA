@@ -380,6 +380,12 @@ $(utterance-who-ana-RUN-ALL): utterance-who-ana-%:
 	                               --listPerson "$(DATADIR)/listPerson-affiliation-fix/$(DOWNLOAD_META_DATA_LAST)/ParlaMint-UA-listPerson.xml" \
 	                               --out "$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv"
 	cat "$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv" | grep -v '#' > "$(DATADIR)/utterance-who-ana/$*/utterance-who-ana-no-match.tsv"
+	( \
+		echo "who\tana\tcnt"; \
+		cat "$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv" | tr "\t" "," \
+		| csvcut -d ',' --columns "who,ana" --delete-empty-rows   \
+		| tr "," "\t" | tail -n +2 |sort |uniq -c | sed "s/^\s*\([^ ]*\)\s*\(.*\)/\2\t\1/" \
+	) >  "$(DATADIR)/utterance-who-ana/$*/who-ana-cnt.tsv"
 
 
 

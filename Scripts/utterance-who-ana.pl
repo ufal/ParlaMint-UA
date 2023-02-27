@@ -51,8 +51,10 @@ if($fallback_tsv){
   my $tsv_fb = Text::CSV->new ({ binary => 1, auto_diag => 1, sep_char=> "\t" });
   $tsv_fb->header ($FH, { munge_column_names => "none" });
   while(my $row = $tsv_fb->getline_hr ($FH)){
+    my $speaker = $row->{alias};
+    $speaker =~ s/\.*$//;
     $fallback->{$row->{date}} = {};
-    $fallback->{$row->{date}}->{$row->{alias}} = {
+    $fallback->{$row->{date}}->{$speaker} = {
       ana => $row->{ana},
       who => $row->{who}
     };
@@ -183,6 +185,7 @@ close $OUTPUT if $out;
 
 sub get_fallback {
   my ($date,$speaker,$field) = @_;
+  $speaker =~ s/\.*$//;
   return '' unless $fallback->{$date};
   return '' unless $fallback->{$date}->{$speaker};
   return $fallback->{$date}->{$speaker}->{$field};
