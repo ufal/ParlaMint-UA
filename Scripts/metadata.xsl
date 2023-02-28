@@ -413,7 +413,7 @@
       <xsl:apply-templates select="@*|node()"/>
     </xsl:copy>
     <xsl:copy>
-      <xsl:apply-templates select="@*" mode="affiliation-member"/>
+      <xsl:apply-templates select="@*[not(name() = 'ana')]" mode="affiliation-member"/>
     </xsl:copy>
   </xsl:template>
 
