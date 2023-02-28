@@ -502,7 +502,7 @@
       <fileDesc>
         <xsl:element name="titleStmt" xmlns="http://www.tei-c.org/ns/1.0">
           <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA [ParlaMint<xsl:value-of select="$suff"/>]</title>
-          <title type="main" xml:lang="uk">>Корпус Верховної Ради України ParlaMint-UA [ParlaMint<xsl:value-of select="$suff"/>]</title>
+          <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA [ParlaMint<xsl:value-of select="$suff"/>]</title>
           <title type="sub" xml:lang="en">Ukrainian parliament <xsl:value-of select="concat($corpusFrom,' - ',$corpusTo)"/></title>
           <title type="sub" xml:lang="uk">Корпус стенограм Верховної Ради України за період з <xsl:value-of select="concat($corpusFrom,' по ',$corpusTo)"/></title>
           <xsl:for-each select="distinct-values($terms//tei:meeting/@n)">
