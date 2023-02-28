@@ -17,7 +17,7 @@
   </xsl:variable>
 
   <xsl:template match="/">
-    <xsl:text>alias&#9;org&#9;id&#9;from&#9;to&#10;</xsl:text>
+    <xsl:text>alias&#9;org&#9;id&#9;sex&#9;from&#9;to&#10;</xsl:text>
     <xsl:apply-templates/>
   </xsl:template>
 
@@ -30,6 +30,7 @@
           <xsl:text>&#9;</xsl:text>
           <xsl:value-of select="substring-after($aff/@ref,'#')"/><xsl:text>&#9;</xsl:text>
           <xsl:value-of select="$aff/parent::tei:person/@xml:id"/><xsl:text>&#9;</xsl:text>
+          <xsl:value-of select="$aff/parent::tei:person/tei:sex/@value"/><xsl:text>&#9;</xsl:text>
           <xsl:value-of select="$aff/@from"/><xsl:text>&#9;</xsl:text>
           <xsl:value-of select="$aff/@to"/>
           <xsl:text>&#10;</xsl:text>
@@ -37,6 +38,8 @@
         <xsl:when test="local-name() = 'person'">
           <xsl:text>&#9;&#9;</xsl:text>
           <xsl:value-of select="./@xml:id"/>
+          <xsl:text>&#9;</xsl:text>
+          <xsl:value-of select="./tei:sex/@value"/>
           <xsl:text>&#9;&#9;&#10;</xsl:text>
         </xsl:when>
         <xsl:otherwise/>
