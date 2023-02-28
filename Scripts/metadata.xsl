@@ -414,6 +414,9 @@
     </xsl:copy>
     <xsl:copy>
       <xsl:apply-templates select="@*[not(name() = 'ana')]" mode="affiliation-member"/>
+      <xsl:if test="not(@ref = '#GOV.UA')">
+        <xsl:apply-templates select="@ana" mode="affiliation-member"/>
+      </xsl:if>
     </xsl:copy>
   </xsl:template>
 
