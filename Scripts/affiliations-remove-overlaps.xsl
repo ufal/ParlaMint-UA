@@ -194,9 +194,9 @@
       <xsl:when test="$aff1/@ana and not($aff2/@ana)"><xsl:sequence select="false()"/></xsl:when>
 
       <xsl:when test="$aff1/@ana and $aff2/@ana and not($aff1/@ana = $aff2/@ana)"><xsl:sequence select="false()"/></xsl:when>
-      <xsl:when test="$aff1/tei:roleName and not($aff2/roleName)"><xsl:sequence select="false()"/></xsl:when>
-      <xsl:when test="not($aff1/tei:roleName) and $aff2/roleName"><xsl:sequence select="false()"/></xsl:when>
-      <xsl:when test="$aff1/tei:roleName and $aff2/roleName and not($aff1/tei:roleName/text() = $aff2/roleName/text())"><xsl:sequence select="false()"/></xsl:when>
+      <xsl:when test="$aff1/tei:roleName and not($aff2/tei:roleName)"><xsl:sequence select="false()"/></xsl:when>
+      <xsl:when test="not($aff1/tei:roleName) and $aff2/tei:roleName"><xsl:sequence select="false()"/></xsl:when>
+      <xsl:when test="$aff1/tei:roleName and $aff2/tei:roleName and not($aff1/tei:roleName/text() = $aff2/tei:roleName/text())"><xsl:sequence select="false()"/></xsl:when>
       <xsl:otherwise><xsl:sequence select="true()"/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
