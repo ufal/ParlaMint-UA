@@ -104,10 +104,10 @@ else
   mkdir -p $out_dir
   for file in `ls $steno_dir`
   do
-    if grep -q $file $OUTPUT_DIR/$checksum_file
+    if grep -q $file $OUTPUT_DIR/$seen_file
     then
-      $md5sum=`md5sum $steno_dir/$file |cut -f1 -d' '`
-      if ! grep -q '$md5sum\t$file' $OUTPUT_DIR/$checksum_file
+      md5sum=`md5sum $steno_dir/$file |cut -f1 -d' '`
+      if ! grep -q "$md5sum.*$file" $OUTPUT_DIR/$seen_file
       then
         log "file changed: $file"
         add_file $file
