@@ -33,9 +33,12 @@
   </xsl:variable>
 
   <xsl:variable name="gov-affiliation">
-    <xsl:call-template name="read-tsv">
-      <xsl:with-param name="file" select="concat($in-dir,'/gov-affiliation.tsv')"/>
-    </xsl:call-template>
+    <xsl:variable name="gov-a">
+      <xsl:call-template name="read-tsv">
+        <xsl:with-param name="file" select="concat($in-dir,'/gov-affiliation.tsv')"/>
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:apply-templates select="$gov-a" mode="multicell"/>
   </xsl:variable>
 
   <xsl:variable name="gov-org">
@@ -263,7 +266,7 @@
             <xsl:variable name="org" select="$aff/col[@name='OrgID']"/>
             <xsl:variable name="from" select="$aff/col[@name='From']"/>
             <xsl:variable name="to" select="$aff/col[@name='To']"/>
-            <xsl:variable name="event" select="$aff/col[@name='EventID']"/>
+            <xsl:variable name="event" select="$aff/col[@name='EventID']//text()"/>
             <xsl:variable name="acting" select="$aff/col[@name='Acting']"/>
             <xsl:variable name="role" select="$aff/col[@name='Role']"/>
             <xsl:variable name="role-en" select="$aff/col[@name='RoleName_en']"/>
@@ -291,13 +294,13 @@
                   <xsl:if test="$role-uk">
                     <xsl:element name="roleName" xmlns="http://www.tei-c.org/ns/1.0">
                       <xsl:attribute name="xml:lang">uk</xsl:attribute>
-                      <xsl:value-of select="$role-uk"/>
+                      <xsl:value-of select="string-join($role-uk//text(),'; ')"/>
                     </xsl:element>
                   </xsl:if>
                   <xsl:if test="$role-en">
                     <xsl:element name="roleName" xmlns="http://www.tei-c.org/ns/1.0">
                       <xsl:attribute name="xml:lang">en</xsl:attribute>
-                      <xsl:value-of select="$role-en"/>
+                      <xsl:value-of select="string-join($role-en//text(),'; ')"/>
                     </xsl:element>
                   </xsl:if>
                 </xsl:element>
