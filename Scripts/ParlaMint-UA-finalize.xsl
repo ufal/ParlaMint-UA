@@ -332,6 +332,7 @@
       <xsl:apply-templates select="tei:meeting"/>
       <meeting ana="#parla.sitting #parla.uni">
         <xsl:attribute name="n" select="$date"/>
+        <xsl:attribute name="corresp">#ВРУ</xsl:attribute>
         <xsl:value-of select="$date"/>
       </meeting>
       <xsl:call-template name="add-respStmt"/>
@@ -463,6 +464,16 @@
   </xsl:template>
 
   <!-- Finalizing ROOT -->
+
+  <xsl:template match="tei:meeting">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:if test="not(@corresp)">
+        <xsl:attribute name="corresp">#ВРУ</xsl:attribute>
+      </xsl:if>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
 
   <xsl:template match="*">
     <xsl:copy>
