@@ -333,6 +333,7 @@ HEADER
   annotate_notes($tei->documentElement());
   move_inaudible_inside_utterance($tei->documentElement());
   remove_empty($tei->documentElement(),'seg');
+  remove_empty($tei->documentElement(),'u');
   add_ids($tei->documentElement(),$id,['u','u'],['seg','p']);
   save_xml($tei,$fileOut);
 }
