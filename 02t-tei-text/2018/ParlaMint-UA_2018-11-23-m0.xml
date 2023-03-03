@@ -860,7 +860,7 @@
                <seg xml:id="ParlaMint-UA_2018-11-23-m0.u118.p5">Дякую за увагу.</seg>
             </u>
             <note type="speaker">ГОЛВОУЮЧИЙ.</note>
-            <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2018-11-23-m0.u119">
+            <u who="ГОЛВОУЮЧИЙ." ana="#regular" xml:id="ParlaMint-UA_2018-11-23-m0.u119">
                <seg xml:id="ParlaMint-UA_2018-11-23-m0.u119.p1">Дякую вам.</seg>
                <seg xml:id="ParlaMint-UA_2018-11-23-m0.u119.p2">Зараз, будь ласка, народний депутатЛевченко і народний депутат Чумак.</seg>
             </u>
