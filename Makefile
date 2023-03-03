@@ -176,6 +176,7 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	                             --model "ru:russian-syntagrus-ud-2.10-220711" \
 	                             --elements "seg" \
 	                             --debug \
+	                             --no-space-in-punct \
 	                             --try2continue-on-error \
 	                             --filelist $(DATADIR)/tei-UD/$*.fl \
 	                             --input-dir $(DATADIR)/tei-text-lang/$*/ \
