@@ -191,4 +191,10 @@
                               replace($birth, '-.*$','')
                             ),'[’ ]','')"/>
   </xsl:function>
+
+  <xsl:function name="mk:number">
+    <xsl:param name="num"/>
+    <xsl:value-of select="format-number($num,'#0')"/>
+  </xsl:function>
+
 </xsl:stylesheet>

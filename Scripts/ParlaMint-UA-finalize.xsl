@@ -7,8 +7,9 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  exclude-result-prefixes="xsl tei xs xi"
+  exclude-result-prefixes="xsl tei xs xi mk"
   version="2.0">
 
   <xsl:import href="ParlaMint-UA-lib.xsl"/>
@@ -568,7 +569,7 @@
             <xsl:for-each select="distinct-values($tagUsages//@gi)">
               <xsl:sort select="."/>
               <xsl:variable name="elem-name" select="."/>
-              <tagUsage gi="{$elem-name}" occurs="{sum($tagUsages//*[@gi=$elem-name]/@occurs)}"/>
+              <tagUsage gi="{$elem-name}" occurs="{mk:number(sum($tagUsages//*[@gi=$elem-name]/@occurs))}"/>
             </xsl:for-each>
           </xsl:with-param>
         </xsl:call-template>
@@ -683,15 +684,15 @@
     <xsl:param name="uk_text"/>
     <xsl:element name="measure">
       <xsl:attribute name="unit" select="$unit"/>
-      <xsl:attribute name="quantity" select="$quantity"/>
+      <xsl:attribute name="quantity" select="mk:number($quantity)"/>
       <xsl:attribute name="xml:lang">en</xsl:attribute>
-      <xsl:value-of select="concat($quantity,' ',$en_text)"/>
+      <xsl:value-of select="concat(mk:number($quantity),' ',$en_text)"/>
     </xsl:element>
     <xsl:element name="measure">
       <xsl:attribute name="unit" select="$unit"/>
-      <xsl:attribute name="quantity" select="$quantity"/>
+      <xsl:attribute name="quantity" select="mk:number($quantity)"/>
       <xsl:attribute name="xml:lang">uk</xsl:attribute>
-      <xsl:value-of select="concat($quantity,' ',$uk_text)"/>
+      <xsl:value-of select="concat(mk:number($quantity),' ',$uk_text)"/>
     </xsl:element>
   </xsl:template>
 
