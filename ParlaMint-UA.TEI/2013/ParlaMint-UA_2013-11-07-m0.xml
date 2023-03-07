@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-UA_2013-11-07-m0"
+     xml:lang="uk"
+     ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term 7, session 3, sitting day 2013-11-07, n0 [ParlaMint]</title>
+            <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA, 7 скликання, 3 сесія, дата пленарного засідання 2013-11-07, номер засідання №0 [ParlaMint]</title>
+            <meeting ana="#parla.term #parla.uni" n="7" corresp="#ВРУ">7</meeting>
+            <meeting ana="#parla.session #parla.uni" n="3" corresp="#ВРУ">3</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2013-11-07" corresp="#ВРУ">2013-11-07</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Data retrieval</resp>
+               <resp xml:lang="uk">Збирання даних</resp>
+               <resp xml:lang="en">TEI XML corpus encoding</resp>
+               <resp xml:lang="uk">Програмування корпусу у форматі TEI XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Kryvenko</persName>
+               <resp xml:lang="en">Manual metadata retrieval</resp>
+               <resp xml:lang="uk">Ручне збирання метаданих</resp>
+               <resp xml:lang="en">Translations</resp>
+               <resp xml:lang="uk">Переклад</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">CLARIN ERIC</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+               <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="18" xml:lang="en">18 speeches</measure>
+            <measure unit="speeches" quantity="18" xml:lang="uk">18 виступів</measure>
+            <measure unit="words" quantity="1066" xml:lang="en">1066 words</measure>
+            <measure unit="words" quantity="1066" xml:lang="uk">1066 слів</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
+            </availability>
+            <date when="2023-03-07">2023-03-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="uk">Верховна Рада України</title>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5104.html</idno>
+               <date when="2013-11-07">2013-11-07</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="uk">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівняльних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="5"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="4"/>
+               <tagUsage gi="note" occurs="31"/>
+               <tagUsage gi="seg" occurs="47"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="7"/>
+               <tagUsage gi="u" occurs="18"/>
+               <tagUsage gi="vocal" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Верховна Рада України</name>
+               <name type="address">вулиця Михайла Грушевського, 5</name>
+               <name type="city">Київ</name>
+               <name key="UA" type="country">Україна</name>
+               <date when="2013-11-07">2013-11-07</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 07 листопада 2013</note>
+            <note type="comment">ЗАСІДАННЯ ДВАДЦЯТЬ ШОСТЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="time">07 листопада 2013 року, 10 година</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України В.В.РИБАК</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u1"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u1.p1" xml:lang="uk">Доброго ранку, шановні народні депутати, запрошені та гості Верховної Ради! Прошу народних депутатів підготуватися до реєстрації. Увімкніть систему "Рада".</seg>
+               <note type="time">
+                  <time when="2013-11-07T10:07:15">10:07:15</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u1.p2" xml:lang="uk">В залі зареєструвалося 375 народних депутатів.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u1.p3" xml:lang="uk">Ранкове засідання Верховної Ради України оголошую відкритим.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u1.p4" xml:lang="uk">Шановні колеги! У нас є сьогодні день народження народних депутатів. Сьогодні народився Олег Ярославович Тягнибок. <kinesic type="applause">
+                     <desc>(Оплески)</desc>
+                  </kinesic> Давайте привітаємо його. І народився Володимир Миколайович Вечерко. Давайте привітаємо і Володимира Миколайовича.</seg>
+               <kinesic type="applause">
+                  <desc>(Оплески)</desc>
+               </kinesic>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u1.p5" xml:lang="uk">Я ж думаю, що це поздоровлення і для Володимира Миколайовича таке.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u1.p6" xml:lang="uk">Я прошу уваги, шановні народні депутати. Я прошу уваги. Перелік питань, що пропонується для обговорення і прийняття рішень сьогодні, у депутатів є. У мене відбулася розмова з керівниками фракцій. Нам треба розглянути сьогодні дуже серйозні питання. Тому ми домовилися з керівниками фракцій, що я оголошу перерву на 30 хвилин, щоб ми узгодили порядок денний сьогоднішнього засідання.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u1.p7" xml:lang="uk">Тому я оголошую перерву на 30 хвилин. А керівників фракцій прошу зайти в кабінет Голови Верховної Ради України.</seg>
+            </u>
+            <note type="comment">ПІСЛЯ ПЕРЕРВИ</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u2"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u2.p1" xml:lang="uk">Шановні народні депутати! Я прошу сідати і прошу вашої уваги. Шановні народні депутати, сідайте. Я прошу уваги вашої. Я зараз зроблю об'яву. Надам хвилину керівнику фракцію Арсенію Петровичу Яценюку слово. І ми приймемо рішення, проголосуємо. Я прошу послухати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u2.p2" xml:lang="uk">Узгоджувальна рада керівників фракцій вносить пропозицію Верховній Раді.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u2.p3" xml:lang="uk">Перше. Включити до порядку денного для розгляду сьогодні законопроекти про прокуратуру номер 3542 і 3542-1. Це перше питання, яке ми повинні будемо проголосувати зараз.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u2.p4" xml:lang="uk">Друге. Продовжити консультації по порядку денному сьогоднішнього засідання і о 16 годині продовжити роботу засідання сесії Верховної Ради і внести на розгляд засідання першими закони євроінтеграційного пакету. Це чотири законопроекти по лікуванню засуджених осіб за кордоном, це законопроекти про прокуратуру (3541 і 3541-1), це зміни до виборчого законодавства (закони 3396 і 3396-1). Зрозуміли?</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u2.p5" xml:lang="uk">Я прошу, увімкніть мікрофон Арсенія Петровича Яценюка. Прошу на трибуну, хвилина у вас є.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u2.p6" xml:lang="uk">Тоді я всім керівникам фракцій. Прошу, по хвилині керівники фракцій просять.</seg>
+            </u>
+            <note type="time">
+               <time when="2013-11-07T11:23:20">11:23:20</time>
+            </note>
+            <note type="speaker">ЯЦЕНЮК А.П.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u3"
+               who="#АрсенійПетровичЯценюк.1974"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u3.p1" xml:lang="uk">Шановні члени парламенту! Історичний момент: чи підпише чи не підпише Україна угоду з Європейським Союзом. Ми як опозиція заявляємо. Ми готові на будь-які компроміси для того, щоби Україна підписала угоду, а для цього необхідно звільнити Юлію Тимошенко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u3.p2" xml:lang="uk">Ми запропонували пакет з трьох рішень. Перше. Прийняття законопроекту в першому читанні про звільнення Юлії Тимошенко, внесений народним депутатом Лабунською. Друге. Прийняття в першому читанні Закону України "Про прокуратуру". І третє. Прийняття в першому читанні Закону України "Про вибори народних депутатів України".</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u3.p3" xml:lang="uk">Ми пропонуємо негайно прийняти цих три законопроекти. У найкоротші терміни доопрацювати їх і до 18 числа прийняти цих три закони в другому читанні і в цілому.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u3.p4" xml:lang="uk">Зараз Президент України буде мати зустріч з місією Європейського парламенту.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u4"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u4.p1" xml:lang="uk">Завершуйте.</seg>
+            </u>
+            <note type="time">
+               <time when="2013-11-07T11:23:40">11:23:40</time>
+            </note>
+            <note type="speaker">ЯЦЕНЮК А.П.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u5"
+               who="#АрсенійПетровичЯценюк.1974"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u5.p1" xml:lang="uk">Потім голова парламенту о третій годині буде мати відповідну зустріч.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u5.p2" xml:lang="uk">Ми очікуємо на політичне рішення Президента України, опозиція своє рішення щойно задекларувала: ми готові підтримувати всі законопроекти. Тепер це повинна сказати Партія регіонів та Президент Янукович. Дякую.</seg>
+            </u>
+            <kinesic type="applause">
+               <desc>(Оплески)</desc>
+            </kinesic>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u6"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u6.p1" xml:lang="uk">Фракція "УДАР Віталія Кличка", хвилина у вас. Народний депутат, керівник фракції, Віталій Кличко. А потім - Олег Тягнибок.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u6.p2" xml:lang="uk">Прошу.</seg>
+            </u>
+            <note type="time">
+               <time when="2013-11-07T11:25:25">11:25:25</time>
+            </note>
+            <note type="speaker">КЛИЧКО В.В.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u7"
+               who="#ВіталійВолодимировичКличко.1971"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u7.p1" xml:lang="uk">Я хочу, шановні депутати, я хочу подякувати, по-перше, тисячам громадян, які прийшли зараз під стіни Верховної Ради висловити свою позицію, що стосується євроінтеграції. Ми впевнені, що Україна повинна стати європейською країною. Для цього не достатньо тільки декларувати - для цього потрібно робити кроки. І ми розуміємо, що на сьогоднішній день залежить багато, і Партія регіонів не може прийняти рішення особисто, чекають результатів розмови, яка зараз відбувається Президента Януковича з місією "Кокса-Кваснєвського".</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u7.p2" xml:lang="uk">Ми сподіваємось, що всі закони будуть проголосовані, і партія "УДАР" дасть голоси за всі законопроекти, що стосуються європейської інтеграції, і зможемо зробити для того, щоб Угода про асоціацію була підписана. Якщо вона буде зірвана, вся відповідальність лежить на Президенті Україні Вікторі Януковичу. Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u8"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u8.p1" xml:lang="uk">Фракція об'єднання "Свобода", іменинник Олег Тягнибок.</seg>
+            </u>
+            <note type="time">
+               <time when="2013-11-07T11:26:37">11:26:37</time>
+            </note>
+            <note type="speaker">ТЯГНИБОК О.Я.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u9"
+               who="#ОлегЯрославовичТягнибок.1968"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u9.p1" xml:lang="uk">Боже, як приємно: в парламенті немає комуністів! Аж дихається легше!</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u10"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u10.p1" xml:lang="uk">Це не по порядку денному, Олег Ярославович.</seg>
+            </u>
+            <note type="speaker">ТЯГНИБОК О.Я.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u11"
+               who="#ОлегЯрославовичТягнибок.1968"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u11.p1" xml:lang="uk">Все навіть дуже, Володимире Васильовичу, по порядку денному, тому що раніше 7 листопада – день кривавої Жовтневої революції був "красным днем календаря". Але сьогодні, товариство, перед нами історична відповідальність, перед кожним з нас. Ми можемо цей день зробити не "красным днем календаря", а днем в календарі кольору неба і пшениці, днем, коли ми проголосуємо три найважніших законопроекти: щодо ліквідації політичних репресій в Україні (щодо звільнення пані Тимошенко), щодо нового Закону про вибори і, звісно, щодо Закону про прокуратуру. І це відкриє нам, реально відкриє нам інше зовсім майбутнє. Майбутнє в європейській цивілізованій родині. Ми, українці, – європейська нація, і наш шлях туди.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u11.p2" xml:lang="uk">Сьогодні наша відповідальність - і з однієї сторони, і з іншої сторони, і ми однозначно повинні цього досягнути.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u12"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u12.p1" xml:lang="uk">Завершуйте.</seg>
+            </u>
+            <note type="speaker">ТЯГНИБОК О.Я.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u13"
+               who="#ОлегЯрославовичТягнибок.1968"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u13.p1" xml:lang="uk">давайте досягнемо того, щоби доля України вирішувалася не як в 1917 році - поза межами України, - а сьогодні ми все можемо зробити тут, в тому залі українського парламенту, вирішити реально, правильно, світло долю і майбутнє української держави. І ми це зробимо. Слава Україні!</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u14"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u14.p1" xml:lang="uk">Представник Президента України Юрій Романович Мірошниченко. Прошу.</seg>
+            </u>
+            <note type="time">
+               <time when="2013-11-07T11:28:17">11:28:17</time>
+            </note>
+            <note type="speaker">МІРОШНИЧЕНКО Ю.Р.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u15"
+               who="#ЮрійРомановичМірошниченко.1970"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u15.p1" xml:lang="uk">Дякую, Володимире Васильовичу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u15.p2" xml:lang="uk">Шановні колеги, ну, насправді ми всі розуміємо ступінь відповідальності, яка сьогодні є перед українським парламентом і всіма нами. Я хочу сказати, що лідери всіх фракцій досить відповідально поставилися до своїх обов'язків. І на сьогоднішній день з євроінтеграційного пакету у нас залишилося три закони, які ми маємо розглянути в цій залі. По двох з них є розуміння і підтримка з того, що ми чули від наших колег, які представляли опозицію, вони готові голосувати. А це Закон про прокуратуру в новій редакції, це Закон про зміни до виборчого законодавства.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u15.p3" xml:lang="uk">Те питання, яке викликає сьогодні дискусію і поки що не знайшло порозуміння, – це питання лікування засуджених за кордоном. Але є політична воля проводити консультації і шукати вихід.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u15.p4" xml:lang="uk">Партія регіонів пропонує створити робочу групу, де би можна було це питання узгодити і підписати законопроект всім разом від всіх фракцій. Поки що такого бажання і готовності немає з боку колег з опозиції, але діалог триває.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u16"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u16.p1" xml:lang="uk">Завершуйте.</seg>
+            </u>
+            <note type="speaker">МІРОШНИЧЕНКО Ю.Р.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u17"
+               who="#ЮрійРомановичМірошниченко.1970"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u17.p1" xml:lang="uk">ми сподіваємося, що до 16-ї години ці консультації будуть успішно завершені. Але ми не повинні забувати, що ті законопроекти, які стоять в порядку денному, мають бути розглянуті. І по тих, в яких є голоси, щоби вони проголосовані вже сьогодні. Дякую за увагу.</seg>
+            </u>
+            <kinesic type="applause">
+               <desc>(Оплески)</desc>
+            </kinesic>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-11-07-m0.u18"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u18.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u18.p2" xml:lang="uk">Всі висловились? Я прошу депутатів підготуватись до голосування. Прошу підготуватись.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u18.p3" xml:lang="uk">Не кричіть, ви не на мітингу, друзі мої! Ну, ми ж домовились!</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u18.p4" xml:lang="uk">Прошу підготуватись до голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u18.p5" xml:lang="uk">Ставлю на голосування: включити до розкладу сьогоднішнього засідання, до порядку денного законопроекти про прокуратуру (номери: 3541 та 3541-1). Прошу народних депутатів голосувати.</seg>
+               <note type="time">
+                  <time when="2013-11-07T11:30:48">11:30:48</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u18.p6" xml:lang="uk">За-383.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u18.p7" xml:lang="uk">Проти – 0, утримались – 0, не голосували - 16. Рішення прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u18.p8" xml:lang="uk">По фракціях. Партія регіонів - 191, "Батьківщина" - 90, "УДАР Віталія Кличка" - 38, "Свобода" - 33, Компартії - 0, позафракційні - 31.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-07-m0.u18.p9" xml:lang="uk">Ранкове засідання Верховної Ради України оголошую закритим. Продовжимо наше засідання о 16 годині сьогодні. Всіх запрошую на сесію о 16 годині.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

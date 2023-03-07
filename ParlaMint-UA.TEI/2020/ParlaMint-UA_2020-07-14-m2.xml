@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-UA_2020-07-14-m2"
+     xml:lang="uk"
+     ana="#parla.sitting #covid">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term 9, session 3, sitting day 2020-07-14, n2 [ParlaMint]</title>
+            <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA, 9 скликання, 3 сесія, дата пленарного засідання 2020-07-14, номер засідання №2 [ParlaMint]</title>
+            <meeting ana="#parla.term #parla.uni" n="9" corresp="#ВРУ">9</meeting>
+            <meeting ana="#parla.session #parla.uni" n="3" corresp="#ВРУ">3</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2020-07-14" corresp="#ВРУ">2020-07-14</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Data retrieval</resp>
+               <resp xml:lang="uk">Збирання даних</resp>
+               <resp xml:lang="en">TEI XML corpus encoding</resp>
+               <resp xml:lang="uk">Програмування корпусу у форматі TEI XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Kryvenko</persName>
+               <resp xml:lang="en">Manual metadata retrieval</resp>
+               <resp xml:lang="uk">Ручне збирання метаданих</resp>
+               <resp xml:lang="en">Translations</resp>
+               <resp xml:lang="uk">Переклад</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">CLARIN ERIC</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+               <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="3" xml:lang="en">3 speeches</measure>
+            <measure unit="speeches" quantity="3" xml:lang="uk">3 виступів</measure>
+            <measure unit="words" quantity="220" xml:lang="en">220 words</measure>
+            <measure unit="words" quantity="220" xml:lang="uk">220 слів</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
+            </availability>
+            <date when="2023-03-07">2023-03-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="uk">Верховна Рада України</title>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7493.html</idno>
+               <date when="2020-07-14">2020-07-14</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="uk">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівняльних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="11"/>
+               <tagUsage gi="seg" occurs="14"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="3"/>
+               <tagUsage gi="u" occurs="3"/>
+               <tagUsage gi="vocal" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Верховна Рада України</name>
+               <name type="address">вулиця Михайла Грушевського, 5</name>
+               <name type="city">Київ</name>
+               <name key="UA" type="country">Україна</name>
+               <date when="2020-07-14">2020-07-14</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 14 липня 2020</note>
+            <note type="comment">ПОЗАЧЕРГОВЕ ЗАСІДАННЯ</note>
+            <note type="comment">Зал засідань Верховної Ради України</note>
+            <note type="time">14 липня 2020 року, 16 година 25 хвилин</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-07-14-m2.u1"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u1.p1" xml:lang="uk">Шановні колеги, будь ласка, підготуйтесь до реєстрації.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u1.p2" xml:lang="uk">Відповідно до статті 83 Конституції України частини восьмої статті 19 Регламенту Верховної Ради України сьогодні на вимогу 150 народних депутатів України ми проводимо позачергове пленарне засідання Верховної Ради України.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u1.p3" xml:lang="uk">Будь ласка, підготуйтесь до реєстрації. Готові реєструватись? Прошу реєструватись.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u1.p4" xml:lang="uk">Нагадую: реєстрація відбувається. ну, ви знаєте.</seg>
+               <note type="time">
+                  <time when="2020-07-14T16:26:41">16:26:41</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u1.p5" xml:lang="uk">Вибачте, в залі зареєстровано 343 народних депутати України. позачергове пленарне засідання Верховної Ради України оголошую відкритим.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u1.p6" xml:lang="uk">Шановні колеги. <vocal type="noise">
+                     <desc>(Шум у залі)</desc>
+                  </vocal> З процедури – Лубінець. Почекайте.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-07-14T16:27:27">16:27:27</time>
+            </note>
+            <note type="speaker">ЛУБІНЕЦЬ Д.В.</note>
+            <u xml:id="ParlaMint-UA_2020-07-14-m2.u2"
+               who="#ДмитроВалерійовичЛубінець.1981"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u2.p1" xml:lang="uk">Шановний Дмитро Олександрович, шановні колеги, від авторського колективу я прошу поставити на голосування мою пропозицію відправити на повторний розгляд в комітет даний законопроект 3133.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u2.p2" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-07-14-m2.u3"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u3.p1" xml:lang="uk">Шановні колеги, від.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u3.p2" xml:lang="uk">Шановні колеги, хвилинку тиші. Шановні колеги! Надійшла пропозиція від авторів цей законопроект реєстраційний номер 3133, він єдиний, який винесений на позачергове засідання Верховної Ради України, відправити на повторне друге читання. вибачте, на повторне перше читання. Вибачте. На повторне перше читання. Ми тоді зараз в нього заходимо і голосуємо лише питання направлення на повторне перше читання. Правильно? Немає заперечень?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u3.p3" xml:lang="uk">Ставлю на голосування пропозицію про направлення до комітету для підготовки на повторне перше читання законопроект про внесення змін до деяких законодавчих актів України щодо підвищення ефективності протидії корупції в окремих правоохоронних та інших державних органах (реєстраційний номер 3133). Прошу підтримати та проголосувати.</seg>
+               <note type="time">
+                  <time when="2020-07-14T16:29:22">16:29:22</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u3.p4" xml:lang="uk">За-284</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u3.p5" xml:lang="uk">Рішення прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m2.u3.p6" xml:lang="uk">Шановні колеги, позачергове засідання Верховної Ради України оголошую закритим. Саме коротке засідання в нашій історії.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

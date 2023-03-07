@@ -1047,6 +1047,7 @@
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-UA_2022-02-23-m1.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-UA_2022-02-23-m2.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-UA_2022-02-24-m0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-UA_2022-03-03-m0.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-UA_2022-03-15-m0.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-UA_2022-03-24-m0.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-UA_2022-04-01-m0.xml"/>
@@ -1084,4 +1085,11 @@
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-UA_2022-12-01-m0.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-UA_2022-12-13-m0.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-UA_2022-12-28-m0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2023/ParlaMint-UA_2023-01-12-m0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2023/ParlaMint-UA_2023-01-13-m0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2023/ParlaMint-UA_2023-01-19-m0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2023/ParlaMint-UA_2023-02-06-m0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2023/ParlaMint-UA_2023-02-07-m0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2023/ParlaMint-UA_2023-02-23-m0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2023/ParlaMint-UA_2023-02-24-m0.xml"/>
 </teiCorpus>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-UA_2015-09-01-m0"
+     xml:lang="uk"
+     ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term 8, session 3, sitting day 2015-09-01, n0 [ParlaMint]</title>
+            <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2015-09-01, номер засідання №0 [ParlaMint]</title>
+            <meeting ana="#parla.term #parla.uni" n="8" corresp="#ВРУ">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="3" corresp="#ВРУ">3</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2015-09-01" corresp="#ВРУ">2015-09-01</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Data retrieval</resp>
+               <resp xml:lang="uk">Збирання даних</resp>
+               <resp xml:lang="en">TEI XML corpus encoding</resp>
+               <resp xml:lang="uk">Програмування корпусу у форматі TEI XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Kryvenko</persName>
+               <resp xml:lang="en">Manual metadata retrieval</resp>
+               <resp xml:lang="uk">Ручне збирання метаданих</resp>
+               <resp xml:lang="en">Translations</resp>
+               <resp xml:lang="uk">Переклад</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">CLARIN ERIC</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+               <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="5" xml:lang="en">5 speeches</measure>
+            <measure unit="speeches" quantity="5" xml:lang="uk">5 виступів</measure>
+            <measure unit="words" quantity="830" xml:lang="en">830 words</measure>
+            <measure unit="words" quantity="830" xml:lang="uk">830 слів</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
+            </availability>
+            <date when="2023-03-07">2023-03-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="uk">Верховна Рада України</title>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5963.html</idno>
+               <date when="2015-09-01">2015-09-01</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="uk">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівняльних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="4"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="incident" occurs="3"/>
+               <tagUsage gi="note" occurs="17"/>
+               <tagUsage gi="seg" occurs="21"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="4"/>
+               <tagUsage gi="u" occurs="5"/>
+               <tagUsage gi="vocal" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Верховна Рада України</name>
+               <name type="address">вулиця Михайла Грушевського, 5</name>
+               <name type="city">Київ</name>
+               <name key="UA" type="country">Україна</name>
+               <date when="2015-09-01">2015-09-01</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 01 вересня 2015</note>
+            <note type="comment">ЗАСІДАННЯ ПЕРШЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="time">1 вересня 2015 року, 14 година</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України В.Б.ГРОЙСМАН</note>
+            <note type="time">
+               <time when="2015-09-01T14:07:21">14:07:21</time>
+            </note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2015-09-01-m0.u1"
+               who="#ВолодимирБорисовичГройсман.1978"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u1.p1" xml:lang="uk">Шановні колеги народні депутати, прошу, займайте свої місця. Прошу народних депутатів зайняти свої місця, підготуватись до реєстрації. Прошу увімкнути систему "Рада" для реєстрації народних депутатів у залі.</seg>
+               <note type="time">
+                  <time when="2015-09-01T14:08:16">14:08:16</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u1.p2" xml:lang="uk">311 народних депутатів зареєстровані у залі.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u1.p3" xml:lang="uk">Шановні народні депутати та гості Верховної Ради України! У засіданні Верховної Ради України беруть участь члени Кабінету Міністрів, керівники центральних органів виконавчої влади, керівники судової гілки влади. Присутні посадові особи, яких Верховна Рада обирає і призначає. Представники громадських організацій, засобів масової інформації, глави дипломатичних представництв іноземних держав та інші офіційні особи.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u1.p4" xml:lang="uk">Шановні народні депутати та гості Верховної Ради України! Відповідно до статті 83 Конституції України третю сесію Верховної Ради України восьмого скликання оголошую відкритою.</seg>
+            </u>
+            <incident type="action">
+               <desc>(Лунає Державний Гімн України)</desc>
+            </incident>
+            <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України</note>
+            <note type="narrative">А.В.ПАРУБІЙ</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2015-09-01-m0.u2"
+               who="#АндрійВолодимировичПарубій.1971"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u2.p1" xml:lang="uk">До слова запрошується Голова Верховної Ради України Володимир Борисович Гройсман.</seg>
+            </u>
+            <note type="time">
+               <time when="2015-09-01T14:11:16">14:11:16</time>
+            </note>
+            <note type="speaker">ГРОЙСМАН В.Б.</note>
+            <u xml:id="ParlaMint-UA_2015-09-01-m0.u3"
+               who="#ВолодимирБорисовичГройсман.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u3.p1" xml:lang="uk">Шановний український народе, шановні колеги народні депутати, гості і запрошені! У надзвичайно трагічний день, чорний день українського парламентаризму, ми відкриваємо чергову сесію українського парламенту. Учора під стінам українського парламенту від рук злочинців і вбивць постраждало більше 100 наших героїв – хлопців, які захищали право України на демократію, на парламентаризм, які робили з честю свою справу і виконували свій громадянський обов'язок. По даним на сьогодні 3 людини загинуло від негідників, які дозволили собі вбивати в центрі столиці. Молоді хлопці, трошки більше 20 років, це чиїсь діти, це люди, які могли жити, які могли створювати сім'ї, народжувати дітей. Але ні, вийшло по-іншому. Я закликаю вшанувати світлу пам'ять наших героїв.</seg>
+               <incident type="action">
+                  <desc>(Хвилина мовчання)</desc>
+               </incident>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u3.p2" xml:lang="uk">Хочу особисто, від вашого імені, від імені всіх нормальних громадян нашої держави подякувати за те, що вони виконували достойно свій обов'язок, що вони робили якісно свою справу, поважаючи право на мирні зібрання. Закликаємо всю правоохоронну систему знайти кожного причетного і кожен, хто причетний до цього теракту, я не побоюсь цього слова, має нести саму жорстку відповідальність, в тому числі і політичну за те, що перетворили абсолютно мирне зібрання на смерті і кровопролиття.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u3.p3" xml:lang="uk">Я переконаний, що саме в цей час українські громадяни, українське суспільство очікує від парламенту якісної роботи, а не популізму, бо сьогодні в тих умовах я не можу назвати його дешевим, люди потребують прийняття якісних, демократичних рішень, рішень, які будуть змінювати нашу країну.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u3.p4" xml:lang="uk">І я переконаний в тому, що для кожного з нас це має бути обов'язок. Ми той парламент, який прийшов після Революції гідності. Ми маємо бути з вами відповідальними перед тими, хто віддав своє життя за нашу незалежність і свободу. І я закликаю, щоб ми від сьогодні демонстрували зовсім іншу якість парламентаризму, шани, поваги один до одного, щоб українці пишалися українським парламентом, який має принести стабільність в нашу державу, спокій і якість життя людей.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u3.p5" xml:lang="uk">Я закликаю усіх народних депутатів, всі фракції українського парламенту, прийняти спільну заяву щодо вчорашніх подій, взяти на себе зобов'язання неухильно дотримуватися норм парламентаризму, Регламенту. Я б хотів, щоб ми вийшли з вами на нову якість нашої спільної роботи.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u3.p6" xml:lang="uk">Серед нас, шановні колеги, присутні хлопці, які захищають і захищали нашу державу. Я сказав про загибель і поранення нацгвардійців, які сумлінно виконували свій обов'язок. І зараз я хочу запросити до слова одного з представників добровольчого руху, людину, яка стояла і стоїть у витоків Національної гвардії, нашого колегу народного депутата України Юрія Березу. Слава Україні!</seg>
+            </u>
+            <note type="time">
+               <time when="2015-09-01T14:16:45">14:16:45</time>
+            </note>
+            <note type="speaker">БЕРЕЗА Ю.М.</note>
+            <u xml:id="ParlaMint-UA_2015-09-01-m0.u4"
+               who="#ЮрійМиколайовичБереза.1970"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u4.p1" xml:lang="uk">Дуже складно і не просто сьогодні говорити, говорити про те, що відбувалося вчора. Насправді вчора під стінами українського парламенту загинуло три побратими. Три бійця Національної гвардії, які виконували свій обов'язок. Ви знаєте, за півтора року я поховав дуже багато людей, але вони загинули на Сході, вони загинули від куль ворога. Скажіть, від чиєї кулі загинули ці три молоді і юні хлопці? Чому, на сьогоднішній день в моїй країні, хлопці гинуть від політиканства? Чому, в моїй країні хлопці гинуть за кожного з нас захищаючи демократію під стінами українського парламенту?</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u4.p2" xml:lang="uk">Ви знаєте, мені багато, цілу ніч, практично, телефонували хлопці з передової, зі сходу, вони просили пояснити чому так? Відповідь неоднозначна і непроста. Ви знаєте, мабуть, мені здається, досить нам уже гратись в такі ігри після яких матері ховають своїх дітей! А ці три воїна, от я хотів би, щоб хтось поїхав зі мною ховати тих воїнів. І тоді, можливо, ми більш задумаємося про те, що ми робимо тут. Про те, як ми робимо тут.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u4.p3" xml:lang="uk">Ніхто нам не подарує країну, країну нам приходиться вигризати під вогнем ворога, і страшно, мені страшно те, що ворог здається ходить у мене за спиною!</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u4.p4" xml:lang="uk">Ви знаєте, ніхто із нас не захищений, ніхто не буде захищений до тих пір, поки не тільки кримінальна відповідальність, а і політична відповідальність за всі свої вчинки буде нормою в моїй державі.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u4.p5" xml:lang="uk">Я не знаю, я не знаю, як дивитися в очі матерям. Як пояснити, чому діти не на фронті, а в Києві, в центрі столиці загинули?</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u4.p6" xml:lang="uk">І тому я всіх закликаю, колеги, друзі, побратими, нам треба закінчувати з оцією незрозумілістю у наших стосунках. Якщо ми зараз не зробимо висновки ми повторимо 17-ий рік, якщо ми зараз не об'єднаємося ми втратимо цю державу. І ніяких виправдань на тому і на цьому світі ми не отримаємо, нам не простить Бог, нам не простять люди.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u4.p7" xml:lang="uk">Зараз я прошу хвилиною мовчання вшанувати пам'ять загиблих воїнів України.</seg>
+               <incident type="action">
+                  <desc>(Хвилина мовчання)</desc>
+               </incident>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u4.p8" xml:lang="uk">Дякую. Слава Україні!</seg>
+            </u>
+            <vocal type="shouting">
+               <desc>ГОЛОСИ ІЗ ЗАЛУ. Героям слава!</desc>
+            </vocal>
+            <note type="narrative">Веде засідання Голова Верховної Ради України В.Б.ГРОЙСМАН</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2015-09-01-m0.u5"
+               who="#ВолодимирБорисовичГройсман.1978"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u5.p1" xml:lang="uk">Пленарне засідання Верховної Ради оголошую закритим.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-01-m0.u5.p2" xml:lang="uk">Завтра ми продовжимо нашу роботу о 10 годині. Дякую.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

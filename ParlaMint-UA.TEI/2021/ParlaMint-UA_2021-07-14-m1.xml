@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-UA_2021-07-14-m1"
+     xml:lang="uk"
+     ana="#parla.sitting #covid">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term 9, session 5, sitting day 2021-07-14, n1 [ParlaMint]</title>
+            <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA, 9 скликання, 5 сесія, дата пленарного засідання 2021-07-14, номер засідання №1 [ParlaMint]</title>
+            <meeting ana="#parla.term #parla.uni" n="9" corresp="#ВРУ">9</meeting>
+            <meeting ana="#parla.session #parla.uni" n="5" corresp="#ВРУ">5</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2021-07-14" corresp="#ВРУ">2021-07-14</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Data retrieval</resp>
+               <resp xml:lang="uk">Збирання даних</resp>
+               <resp xml:lang="en">TEI XML corpus encoding</resp>
+               <resp xml:lang="uk">Програмування корпусу у форматі TEI XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Kryvenko</persName>
+               <resp xml:lang="en">Manual metadata retrieval</resp>
+               <resp xml:lang="uk">Ручне збирання метаданих</resp>
+               <resp xml:lang="en">Translations</resp>
+               <resp xml:lang="uk">Переклад</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">CLARIN ERIC</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+               <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="1" xml:lang="en">1 speeches</measure>
+            <measure unit="speeches" quantity="1" xml:lang="uk">1 виступів</measure>
+            <measure unit="words" quantity="275" xml:lang="en">275 words</measure>
+            <measure unit="words" quantity="275" xml:lang="uk">275 слів</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
+            </availability>
+            <date when="2023-03-07">2023-03-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="uk">Верховна Рада України</title>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7784.html</idno>
+               <date when="2021-07-14">2021-07-14</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="uk">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівняльних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="11"/>
+               <tagUsage gi="seg" occurs="15"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="5"/>
+               <tagUsage gi="u" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Верховна Рада України</name>
+               <name type="address">вулиця Михайла Грушевського, 5</name>
+               <name type="city">Київ</name>
+               <name key="UA" type="country">Україна</name>
+               <date when="2021-07-14">2021-07-14</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 14 липня 2021</note>
+            <note type="comment">ПОЗАЧЕРГОВЕ ЗАСІДАННЯ</note>
+            <note type="comment">Зал засідань Верховної Ради України</note>
+            <note type="time">14 липня 2021 року, 14 година</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
+            <note type="time">
+               <time when="2021-07-14T14:00:13">14:00:13</time>
+            </note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2021-07-14-m1.u1"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p1" xml:lang="uk">У зв'язку з вимогою 156 народних депутатів України та відповідно до частини восьмої статті 19 Регламенту Верховної Ради України ми сьогодні проводимо позачергове пленарне засідання Верховної Ради України, згоду на яке дали всі депутатські фракції та групи. Перелік питань, які передбачені до розгляду, вам запропоновані. Будь ласка, підготуйтесь до реєстрації.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p2" xml:lang="uk">Прошу реєструватись.</seg>
+               <note type="time">
+                  <time when="2021-07-14T14:00:53">14:00:53</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p3" xml:lang="uk">У залі зареєстровано 316 народних депутатів України. Позачергове пленарне засідання Верховної Ради України оголошую відкритим.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p4" xml:lang="uk">Шановні колеги, вам запропонований до розгляду проект Закону про внесення змін до Закону України "Про Національне агентство України з питань виявлення, розшуку та управління активами, одержаними від корупційних та інших злочинів" щодо гарантій прав українських та іноземних інвесторів (реєстраційний номер 5141).</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p5" xml:lang="uk">Хтось на правках наполягає? Ми можемо голосувати? Одна правка, так? Можемо голосувати. Ставлю на голосування пропозицію про прийняття в другому читанні та в цілому з необхідними техніко-юридичними правками проект Закону (реєстраційний номер 5141).</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p6" xml:lang="uk">Прошу підтримати та проголосувати.</seg>
+               <note type="time">
+                  <time when="2021-07-14T14:02:01">14:02:01</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p7" xml:lang="uk">За-322</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p8" xml:lang="uk">Рішення прийнято. Закон прийнятий в цілому.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p9" xml:lang="uk">Наступне питання, наскільки мені відомо, без обговорення, правильно? Ставлю на голосування пропозицію. Пропонується за основу і в цілому, немає заперечень? Немає. Ставлю на голосування пропозицію про прийняття за основу проекту Закону про внесення змін до розділу XI "Перехідні положення" Закону України "Про основні принципи та вимоги до органічного виробництва, обігу та маркування органічної продукції" (реєстраційний номер 5440). Прошу підтримати та проголосувати.</seg>
+               <note type="time">
+                  <time when="2021-07-14T14:02:46">14:02:46</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p10" xml:lang="uk">За-317</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p11" xml:lang="uk">Рішення прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p12" xml:lang="uk">Ставлю на голосування пропозицію про прийняття в цілому з необхідними техніко-юридичними правками проект Закону про внесення змін до розділу XI "Перехідні положення" Закону України "Про основні принципи та вимоги до органічного виробництва, обігу та маркування органічної продукції" (реєстраційний номер 5440). Прошу підтримати та проголосувати.</seg>
+               <note type="time">
+                  <time when="2021-07-14T14:03:17">14:03:17</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p13" xml:lang="uk">За-315</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p14" xml:lang="uk">Рішення прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-14-m1.u1.p15" xml:lang="uk">Позачергове засідання Верховної Ради України оголошую закритим.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

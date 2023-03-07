@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-UA_2013-06-06-m0"
+     xml:lang="uk"
+     ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term 7, session 2, sitting day 2013-06-06, n0 [ParlaMint]</title>
+            <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA, 7 скликання, 2 сесія, дата пленарного засідання 2013-06-06, номер засідання №0 [ParlaMint]</title>
+            <meeting ana="#parla.term #parla.uni" n="7" corresp="#ВРУ">7</meeting>
+            <meeting ana="#parla.session #parla.uni" n="2" corresp="#ВРУ">2</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2013-06-06" corresp="#ВРУ">2013-06-06</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Data retrieval</resp>
+               <resp xml:lang="uk">Збирання даних</resp>
+               <resp xml:lang="en">TEI XML corpus encoding</resp>
+               <resp xml:lang="uk">Програмування корпусу у форматі TEI XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Kryvenko</persName>
+               <resp xml:lang="en">Manual metadata retrieval</resp>
+               <resp xml:lang="uk">Ручне збирання метаданих</resp>
+               <resp xml:lang="en">Translations</resp>
+               <resp xml:lang="uk">Переклад</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">CLARIN ERIC</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+               <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="1" xml:lang="en">1 speeches</measure>
+            <measure unit="speeches" quantity="1" xml:lang="uk">1 виступів</measure>
+            <measure unit="words" quantity="159" xml:lang="en">159 words</measure>
+            <measure unit="words" quantity="159" xml:lang="uk">159 слів</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
+            </availability>
+            <date when="2023-03-07">2023-03-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="uk">Верховна Рада України</title>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5005.html</idno>
+               <date when="2013-06-06">2013-06-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="uk">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівняльних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="1"/>
+               <tagUsage gi="note" occurs="7"/>
+               <tagUsage gi="seg" occurs="5"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Верховна Рада України</name>
+               <name type="address">вулиця Михайла Грушевського, 5</name>
+               <name type="city">Київ</name>
+               <name key="UA" type="country">Україна</name>
+               <date when="2013-06-06">2013-06-06</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 06 червня 2013</note>
+            <note type="comment">ЗАСІДАННЯ ТРИДЦЯТЬ ДРУГЕ</note>
+            <note type="comment">Сесійна зала Верховної Ради України</note>
+            <note type="time">06 червня 2013 року, 10 година</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України В.В.РИБАК</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-06-06-m0.u1"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-06-06-m0.u1.p1" xml:lang="uk">Доброго ранку, шановні народні депутати! Запрошені, гості Верховної Ради України! Я прошу всіх сідати, я все, я все зроблю. Прошу народних депутатів зареєструватися.</seg>
+               <note type="time">
+                  <time when="2013-06-06T10:02:38">10:02:38</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2013-06-06-m0.u1.p2" xml:lang="uk">В залі зареєструвалося -371 народний депутат. Шановні депутати! Сьогодні День журналіста, тому давайте ми разом привітаємо журналістів з професійним святом!</seg>
+               <kinesic type="applause">
+                  <desc>(Оплески)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-UA_2013-06-06-m0.u1.p3" xml:lang="uk">І в цей святковий день бажаємо вам всім міцного здоров'я, сімейного благополаччя, професійних і життєвих успіхів, натхнення. Творчих здобутків у вашій благородній справі! І нехай ваша праця завжди знаходить любов та повагу в серцях людей. Ви бачите, що народні депутати стоя вас поздоровляють.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-06-m0.u1.p4" xml:lang="uk">Сьогодні день народження народного депутата Рябікіна Павла Борисовича. Давайте привітаємо його з днем народження. І відповідно до пункту 15 частини першої Регламенту до Верховної Ради України вимагаємо оголосити перерву для проведення консультацій з питань порядку денного та виголошення заяви. Дві фракції: фракція "УДАР" Віталія Кличка" і фракція ""Батьківщина".</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-06-m0.u1.p5" xml:lang="uk">Я оголошую перерву до 10-ї години 30 хвилин. В 10.30 продовжимо нашу роботу. Керівників фракцій я прошу зайти в кабінет Голови Верховної Ради України.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

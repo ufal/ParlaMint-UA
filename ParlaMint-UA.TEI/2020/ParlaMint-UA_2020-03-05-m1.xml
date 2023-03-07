@@ -1,0 +1,1856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-UA_2020-03-05-m1"
+     xml:lang="uk"
+     ana="#parla.sitting #covid">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term 9, session 3, sitting day 2020-03-05, n1 [ParlaMint]</title>
+            <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA, 9 скликання, 3 сесія, дата пленарного засідання 2020-03-05, номер засідання №1 [ParlaMint]</title>
+            <meeting ana="#parla.term #parla.uni" n="9" corresp="#ВРУ">9</meeting>
+            <meeting ana="#parla.session #parla.uni" n="3" corresp="#ВРУ">3</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2020-03-05" corresp="#ВРУ">2020-03-05</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Data retrieval</resp>
+               <resp xml:lang="uk">Збирання даних</resp>
+               <resp xml:lang="en">TEI XML corpus encoding</resp>
+               <resp xml:lang="uk">Програмування корпусу у форматі TEI XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Kryvenko</persName>
+               <resp xml:lang="en">Manual metadata retrieval</resp>
+               <resp xml:lang="uk">Ручне збирання метаданих</resp>
+               <resp xml:lang="en">Translations</resp>
+               <resp xml:lang="uk">Переклад</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">CLARIN ERIC</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+               <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="142" xml:lang="en">142 speeches</measure>
+            <measure unit="speeches" quantity="142" xml:lang="uk">142 виступів</measure>
+            <measure unit="words" quantity="10087" xml:lang="en">10087 words</measure>
+            <measure unit="words" quantity="10087" xml:lang="uk">10087 слів</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
+            </availability>
+            <date when="2023-03-07">2023-03-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="uk">Верховна Рада України</title>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/7382.html</idno>
+               <date when="2020-03-05">2020-03-05</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="uk">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівняльних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="6"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="1"/>
+               <tagUsage gi="note" occurs="305"/>
+               <tagUsage gi="seg" occurs="554"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="153"/>
+               <tagUsage gi="u" occurs="142"/>
+               <tagUsage gi="vocal" occurs="5"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Верховна Рада України</name>
+               <name type="address">вулиця Михайла Грушевського, 5</name>
+               <name type="city">Київ</name>
+               <name key="UA" type="country">Україна</name>
+               <date when="2020-03-05">2020-03-05</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 05 березня 2020</note>
+            <note type="comment">ЗАСІДАННЯ СІМНАДЦЯТЕ</note>
+            <note type="comment">Зал засідань Верховної Ради України</note>
+            <note type="time">05 березня 2020 року, 16 година</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
+            <note type="time">
+               <time when="2020-03-05T16:01:12">16:01:12</time>
+            </note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u1"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u1.p1" xml:lang="uk">Шановні колеги, будь ласка, запросіть народних депутатів до зали, розпочинаємо нашу роботу.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u1.p2" xml:lang="uk">Будь ласка, підготуйтесь до реєстрації.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u1.p3" xml:lang="uk">Шановні колеги! Будь ласка, підготуйтесь до реєстрації. Хто не зареєструється, зарплати не отримає. Ви ж знаєте процедуру. Ніколи. Є пропозиція – ніколи. Непогана пропозиція щодо зміни регламенту. Максим Аркадійович! Максим Аркадійович Бужанський! Я можу сказати, що це ваша пропозиція про "ніколи", да?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u1.p4" xml:lang="uk">Готові реєструватись?</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u1.p5" xml:lang="uk">А ми одразу можемо голосувати?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u1.p6" xml:lang="uk">Шановні колеги, прошу реєструватись.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:08:06">16:08:06</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u1.p7" xml:lang="uk">258 народних депутатів України. Вечірнє засідання Верховної Ради України оголошую відкритим. Покажіть по фракціям, будь ласка.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u1.p8" xml:lang="uk">А чому ви радієте? Якщо ми порахуємо по кількості, по відсотках, то може бути і так у деяких фракцій.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u1.p9" xml:lang="uk">Йдемо далі. Шуфрич, 2898. Голосуємо. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:09:11">16:09:11</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u1.p10" xml:lang="uk">За-56</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u1.p11" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u1.p12" xml:lang="uk">Наступна правка - 2900.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:09:19">16:09:19</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u2"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u2.p1" xml:lang="uk">Дякую, шановний головуючий. Ми наближаємося до 3000 поправки. Це така ювілейна - 2900. І ви знаєте, вона стосується нашого принципового питання, а саме: уваги і поваги до позиції людей, які сьогодні занепокоєні ініціативою влади щодо впровадження якомога швидше ринку землі. Тому ми і наполягаємо в черговий раз, і в цій поправці теж, що будь-яке рішення, будь-яке регулювання питання ринку землі можливо виключно після проведення всеукраїнського референдуму. І це є принципова позиція нашої партії, "Опозиційної платформи – За життя".</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u3"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u3.p1" xml:lang="uk">Можемо ставити на підтвердження? Ставлю на підтвердження 2900. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:10:36">16:10:36</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u3.p2" xml:lang="uk">За-58</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u3.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u3.p4" xml:lang="uk">Наступна правка 2901, Шуфрич.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:10:46">16:10:46</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u4"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u4.p1" xml:lang="uk">Дякую, шановний головуючий. Я прошу дати мені дві хвилини і поставити три поправки поспіль на голосування. Вони стосуються питання щодо врегулювання окремих питань, які пов'язані із правом власності на землю, але які мають бути врегульовані також внесенням змін в статтю 7 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обмежень".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u4.p2" xml:lang="uk">Мова йдеться про те, що володіння земельними ділянками в порядку, визначеному Кабінетом Міністрів України, які використовуються для недопущення порушень, визначених в статті 1 закону 130 Земельного кодексу України.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u4.p3" xml:lang="uk">І я ще раз хочу наголосити нашу принципову позицію, що всі ці зміни можливі виключно в одному випадку: якщо сама можливість внесення змін до Земельного кодексу щодо реалізації права продажу землі буде врегульовано і схвалено на всеукраїнському референдумі. Ми занепокоєні тим, що в умовах низьких доходів, що в умовах низьких пенсій і зарплат люди будуть змушені продати землю для того, щоб виплатити в тому числі і комунальні послуги, забезпечити саме необхідне, а не заради того, щоб використати ці гроші для розвитку своїх родин.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u4.p4" xml:lang="uk">Прошу поставити на голосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u5"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u5.p1" xml:lang="uk">Ставлю на голосування 2901. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:13:09">16:13:09</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u5.p2" xml:lang="uk">За-57</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u5.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u5.p4" xml:lang="uk">2903. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:13:26">16:13:26</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u5.p5" xml:lang="uk">За-56</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u5.p6" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u5.p7" xml:lang="uk">2904. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:13:43">16:13:43</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u5.p8" xml:lang="uk">За-57</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u5.p9" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u5.p10" xml:lang="uk">2905, Шуфрич.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:13:50">16:13:50</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u6"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u6.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u6.p2" xml:lang="uk">Хочу звернути ще раз вашу увагу, що ці питання, які треба врегулювати в разі введення реального ринку землі, можуть бути реалізовані виключно після референдуму. А аргументація, що людям необхідно в окремих випадках при бажанні отримати гроші зараз, можуть бути вирішені через надання спеціальних кредитів уповноважених на то держави банками, в яких власниками є держава.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u6.p3" xml:lang="uk">Дякую за увагу. Прошу поставити на голосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u7"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u7.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u7.p2" xml:lang="uk">Ставлю її на голосування. 2905. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:14:50">16:14:50</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u7.p3" xml:lang="uk">За-57</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u7.p4" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u7.p5" xml:lang="uk">Наступну теж ставимо на підтвердження. 2906. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:15:12">16:15:12</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u7.p6" xml:lang="uk">За-54</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u7.p7" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u7.p8" xml:lang="uk">2907. Включіть мікрофон Шуфричу.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:15:17">16:15:17</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u8"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u8.p1" xml:lang="uk">Я ще раз хочу привернути вашу увагу щодо занепокоєння, яке викликає ця ініціатива у наших громадян. Вони сьогодні дуже стурбовані тим, що в такому турборежимі проводиться спроба ввести цей закон, який не сприймається суспільством. І єдиним виходом з цієї ситуації було би проведення всеукраїнського референдуму. Виходить, що питання референдуму відображено в наступних трьох правках: за номером 7, 8 і 9. Прошу наступні три правки поставити на голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u8.p2" xml:lang="uk">Дякую за увагу.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u9"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p1" xml:lang="uk">Ставлю на. Михайло Миколайович!</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p2" xml:lang="uk">Та ставимо на голосування!</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p3" xml:lang="uk">2908. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:16:35">16:16:35</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p4" xml:lang="uk">За-55</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p5" xml:lang="uk">Рішення не прийнято, правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p6" xml:lang="uk">2909.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p7" xml:lang="uk">Дивіться, завдяки тому, що Железняк тут, за вашу правку менше "проти" проголосувало. Не наполягаєте?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p8" xml:lang="uk">Далі - 2910. Ставлю 2910, ставлю на голосування. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:17:13">16:17:13</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p9" xml:lang="uk">За-58</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p10" xml:lang="uk">Рішення не прийнято, правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p11" xml:lang="uk">2911.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:17:20">16:17:20</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u10"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u10.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u10.p2" xml:lang="uk">Мені, безумовно, нравиться позиція наших нових народних депутатів України, які приєдналися де-факто до монобільшості, але ж колись потрібно буде повертатися і до рідних, повертатися в рідне село. А я би хотів, щоб ви не боялися цього робити. Тому пропонуємо вам перед тим, як схвалювати подібні законопроекти, запитати людей, чи готові вони.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u10.p3" xml:lang="uk">А на голосуванні за поправку я наполягаю. Дякую за увагу.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u11"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u11.p1" xml:lang="uk">2911. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:18:18">16:18:18</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u11.p2" xml:lang="uk">За-61</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u11.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u11.p4" xml:lang="uk">2913. Наполягаєте? Не наполягаєте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u11.p5" xml:lang="uk">2915. Ой, вибачте, я вже так, я просто так звик, що це правки Нестора Івановича, вибачте. Олександр Сергійович, наполягаєте, да? 2913.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:18:41">16:18:41</time>
+            </note>
+            <note type="speaker">ПОНОМАРЬОВ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u12"
+               who="#ОлександрСергійовичПономарьов.1962"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u12.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u12.p2" xml:lang="uk">Шановні колеги, якщо наша фракція не може або не має впливу на більшість в цьому залі, і ми не можемо зупинити рух в цьому напрямку, давайте хоча би намагатися відкоригувати те, що відбувається. Тому пропоную назву статті 112 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень" викласти у редакції: "Стаття 12. Повноваження Державного реєстру прав". Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u12.p3" xml:lang="uk">Прошу ставити на голосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u13"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u13.p1" xml:lang="uk">Ставлю на голосування 2913. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:19:42">16:19:42</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u13.p2" xml:lang="uk">За-57</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u13.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u13.p4" xml:lang="uk">Колтунович, 2914.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:19:47">16:19:47</time>
+            </note>
+            <note type="speaker">КОЛТУНОВИЧ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u14"
+               who="#ОлександрСергійовичКолтунович.1987"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u14.p1" xml:lang="uk">Дякую, шановний пане Голово. Прошу мені додати ще хвилину. Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u15"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u15.p1" xml:lang="uk">Кому надати хвилину?</seg>
+            </u>
+            <note type="speaker">КОЛТУНОВИЧ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u16"
+               who="#ОлександрСергійовичКолтунович.1987"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u16.p1" xml:lang="uk">Я прошу поставити на голосування поправку 2926, ну і хвилину виступу щодо сутності поправки.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u17"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u17.p1" xml:lang="uk">Додайте хвилину, будь ласка.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:20:25">16:20:25</time>
+            </note>
+            <note type="speaker">КОЛТУНОВИЧ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u18"
+               who="#ОлександрСергійовичКолтунович.1987"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u18.p1" xml:lang="uk">Дякую, шановний пане Голово. Колтунович, "Опозиційна платформа – За життя". Шановні народні депутати і, головне, шановні виборці! Потенційно, з 1 жовтня 2020 року в Україні буде запроваджено обіг земель сільськогосподарського призначення. Всі ми з вами розуміємо, що в цих умовах і в сьогоднішніх реаліях, які існують в Україні, ми не зможемо бути потенційними покупцями. Навіть мова не йде про те, що ми зможемо сконцентрувати в своїх руках в тих обсягах земельні ділянки, про які йде мова. Ми уже говорили про орієнтовну вартість земельних ділянок. А от уявіть собі, що ви там тисячу гектарів навіть купили і заплатили там відповідно за гектар по тисячу доларів. Це зовсім інші кошти, якими не володіють і якими ніколи не оперують переважна більшість громадян України, які проживають в умовах тотальної бідності, а отже, головна маніпуляція, яка на сьогоднішній день існує, що дається конституційне право громадянам України володіти, а що головне, купувати земельні ділянки, і кожен з вас зможе сконцентрувати в своїх руках там до 10 і більше тисяч гектарів землі. І це, виявляється, що кожен з нас не зможе цього зробити, окрім кількох сімей, які на сьогоднішній день існують в Україні. тому наше, безумовно, побажання, все-таки зменшити концентрацію, яка на сьогоднішній день прописана в цьому проекті закону, оскільки переважна більшість громадян не зможе це реалізувати.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u18.p2" xml:lang="uk">Прошу цю правку поставити на голосування. Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u19"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u19.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u19.p2" xml:lang="uk">Ставлю 2926 на голосування. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:22:15">16:22:15</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u19.p3" xml:lang="uk">За-61</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u19.p4" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u19.p5" xml:lang="uk">2940. Волошин.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u19.p6" xml:lang="uk">Включіть, будь ласка, мікрофон Олегу Анатолійовичу.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:22:34">16:22:34</time>
+            </note>
+            <note type="speaker">ВОЛОШИН О.А.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u20"
+               who="#ОлегАнатолійовичВолошин.1981"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u20.p1" xml:lang="uk">Прошу дати мені 2 хвилини для виступу замість.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u21"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u21.p1" xml:lang="uk">2 хвилини. Включіть, будь ласка.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:22:45">16:22:45</time>
+            </note>
+            <note type="speaker">ВОЛОШИН О.А.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u22"
+               who="#ОлегАнатолійовичВолошин.1981"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u22.p1" xml:lang="uk">Шановні колеги, ми бачимо, що навіть за присутності представників більшості в залі, ми бачимо, що немає жодного бажання дослухатися до думки опозиції в цьому питанні. Зрештою, знаєте, коли людина стоїть на даху або на краю моста і хоче стрибнути, то громадянський обов'язок і людяність вимагає від нас зробити все, щоб втримати самогубця. Але якщо майже чверть тисячі дорослих людей протягом уже майже двох місяців вперто стоять далі на краю цього мосту і збираються пригати, то я думаю, що ми не маємо жодного морального зобов'язання зупиняти це політичне самогубство. Шкода, що ціна буде надто висока цього самогубства: падіння не лише рейтингу, але, очевидно, і доходів, і головне – враження в правах великої кількості наших громадян.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u22.p2" xml:lang="uk">Але в мене в цьому сенсі філософська позиція, тому я свідомо не наполягаю на голосуванні кожної своєї правки, тому що розумію, що повна політична відповідальність за ухвалення цього ганебного закону буде лежати, власне, на Президенті Зеленському і тих людях, яких він привів сьогодні у Верховну Раду.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u22.p3" xml:lang="uk">На цьому дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u23"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u23.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u23.p2" xml:lang="uk">2945, Шуфрич.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:24:10">16:24:10</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u24"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u24.p1" xml:lang="uk">Дякую, шановний головуючий. Я прошу наступні поправки 2942, 2943 і 2944 поставити одну за іншою. І хочу сказати, що вони стосуються врегулювання питань щодо статті 12 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень". Ми сьогодні звертаємо ще раз вашу увагу, що врегулювання окремих аспектів правоволодіння майновими правами на землю може бути врегульовано виключно після проведення всеукраїнського референдуму. І це принципова і головна позиція нашої політичної партії "Опозиційна платформа - За життя".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u24.p2" xml:lang="uk">Ми сподіваємося на те, що під час остаточного розгляду.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u25"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p1" xml:lang="uk">Ставлю на голосування 2942. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:25:42">16:25:42</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p2" xml:lang="uk">За-62</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p4" xml:lang="uk">2943 – прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:25:59">16:25:59</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p5" xml:lang="uk">За-63</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p6" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p7" xml:lang="uk">2944 – прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:26:17">16:26:17</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p8" xml:lang="uk">За-61</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p9" xml:lang="uk">2945 – прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:26:35">16:26:35</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p10" xml:lang="uk">За-61</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p11" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p12" xml:lang="uk">Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u25.p13" xml:lang="uk">2946, 1 хвилину дайте, будь ласка.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:26:41">16:26:41</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u26"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u26.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u26.p2" xml:lang="uk">Я прошу наступні 3 поправки: 46, 47, 48 - поставити на голосування зразу, одну після іншої.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u26.p3" xml:lang="uk">І я хочу ще раз звернути увагу на нашу принципову позицію, на якій ми наполягаємо під час всього розгляду цього законопроекту. Голосування за одну поправку із декількох сотень, які були запропоновані нашою політичною силою і депутатами нашої фракції, могло би поставити крапку в розгляді цього законопроекту. Це визнання норми, що цей закон вступає в силу виключно після проведення всеукраїнського референдуму. Застереження, що це зараз неможливо зробити у зв'язку з відсутністю закону, є некоректним, тому що станом на зараз діє Закон про референдум, національний та місцеві, 1991 року редакції.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u27"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u27.p1" xml:lang="uk">Ставлю на голосування 2946. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:28:07">16:28:07</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u27.p2" xml:lang="uk">За-65</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u27.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u27.p4" xml:lang="uk">2947. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:28:23">16:28:23</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u27.p5" xml:lang="uk">За-63</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u27.p6" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u27.p7" xml:lang="uk">Прошу голосувати та визначатись. 2948.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:28:45">16:28:45</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u27.p8" xml:lang="uk">За-65</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u27.p9" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u27.p10" xml:lang="uk">2960, Пономарьов.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:29:04">16:29:04</time>
+            </note>
+            <note type="speaker">ПОНОМАРЬОВ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u28"
+               who="#ОлександрСергійовичПономарьов.1962"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u28.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u28.p2" xml:lang="uk">Шановні колеги, прошу розглянути наступну пропозицію. Частина перша статті 12 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень" у запропонованому варіанті звучить: "Державний реєстр прав містить записи про зареєстровані речові права на нерухоме майно, ціну (вартість) нерухомого майна та речових прав на нього чи розмір плати за користуванням нерухомим майном за відповідними правочинами, об'єкт незавершеного будівництва, їх обтяження, про об'єкти та суб'єктів цих прав, відомості та електронні копії документів, поданих у паперовій формі, або документи в електронній формі, на підставі яких проведено реєстрацію дій, а також документи, сформовані за допомогою програмних засобів ведення Державного реєстру прав у процесі проведення таких реєстраційних дій", прошу доповнити.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u29"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u29.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u29.p2" xml:lang="uk">Ставлю на голосування 2960. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:30:30">16:30:30</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u29.p3" xml:lang="uk">За-68</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u29.p4" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u29.p5" xml:lang="uk">Наступна правка Скорик.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u29.p6" xml:lang="uk">А, вибачте, 2961, ще Пономарьов, так.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:30:43">16:30:43</time>
+            </note>
+            <note type="speaker">ПОНОМАРЬОВ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u30"
+               who="#ОлександрСергійовичПономарьов.1962"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u30.p1" xml:lang="uk">Дякую, Дмитре Олександровичу.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u30.p2" xml:lang="uk">Продовжую пропонувати вносити правки у запропонований варіант змін до Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень". У статті 12 йдеться про те, що державний реєстр прав містить записи про зареєстровані речові права на нерухоме майно, ціну (вартість) нерухомого майна та речових прав на нього. Розмір плати за користування нерухомим майном та відповідними правочинами і так далі.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u30.p3" xml:lang="uk">Пропоную: "В частині 1 статті 12 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень" слово "ціну" вилучити.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u30.p4" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u31"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u31.p1" xml:lang="uk">Ставлю на голосування 2961. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:31:47">16:31:47</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u31.p2" xml:lang="uk">За-64</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u31.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u31.p4" xml:lang="uk">Скорик Микола Леонідович, може, 2 хвилини та об'єднаємо правки?</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:32:10">16:32:10</time>
+            </note>
+            <note type="speaker">СКОРИК М.Л.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u32"
+               who="#МиколаЛеонідовичСкорик.1972"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u32.p1" xml:lang="uk">Так. Шановний пане Голово, шановні громадяни України, шановні колеги! Скорик, "Опозиційна платформа - За життя".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u32.p2" xml:lang="uk">Правка 2962. Прошу викласти в наступній редакції: "Частину першу статті 12 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень" доповнити абзацом в такій редакції: "Частина перша цієї статті набирає чинності після встановлення результатів референдуму, який передбачений пунктами 14 та 15 Розділу Х "Перехідні положення" Земельного кодексу України".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u32.p3" xml:lang="uk">Шановні колеги, я хочу ще раз акцентувати вашу увагу, що ключовим питанням. ми досить багато приводили аргументів, які, на жаль, не чує влада стосовно і неготовності нашого кредитного ринку до того, щоб наші аграрії, дійсно, прийняли реальну конкретну участь в земельному ринку, і те, що не виконані моменти, пов'язані з інвентаризацією земель. Є багато інших питань, які потребують врегулювання. Але головним аргументом у цій ситуації є те, що коли провладна сила йшла на вибори, коли Президент, діючий Президент йшов на вибори, то ключовим питанням було питання прямого народовладдя. Це питання стосовно ринку землі – це питання всього українського народу, не більшості, не тільки власників земельних паїв, тобто жителів нашого села, дай їм Боже здоров'я, а це питання до всієї громади України, до всього нашого суспільства. І воно має вирішуватися на всеукраїнському референдумі. Саме з цим пов'язані всі наші поправки, саме це ми вважаємо може згуртувати суспільство і надати той поштовх, про який вчора у своєму виступі говорив Президент для того, щоб дійсно суспільство рухалося вперед, для того, щоб ми не захищали тільки власні партійні інтереси, а щоб ми захищали реально інтереси держави, інтереси наших громадян. Буду дуже вдячний за підтримку своєї правки і за підтримку взагалі позиції "Опозиційна платформа – За життя".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u32.p4" xml:lang="uk">Дякую за увагу.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u33"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u33.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u33.p2" xml:lang="uk">Ставлю на голосування правку 2962. Правильно? Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:34:26">16:34:26</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u33.p3" xml:lang="uk">За-68</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u33.p4" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u33.p5" xml:lang="uk">2985, Королевська.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u33.p6" xml:lang="uk">Гнатенко, 2998.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:34:51">16:34:51</time>
+            </note>
+            <note type="speaker">ГНАТЕНКО В.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u34"
+               who="#ВалерійСергійовичГнатенко.1967"
+               ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u35"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u35.p1" xml:lang="uk">На підтвердження, да? Ставлю. Ставлю правку, вона була відхилена комітетом 2998. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:35:20">16:35:20</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u35.p2" xml:lang="uk">За-66</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u35.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u35.p4" xml:lang="uk">Наливайченко.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:35:28">16:35:28</time>
+            </note>
+            <note type="speaker">НАЛИВАЙЧЕНКО В.О.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u36"
+               who="#ВалентинОлександровичНаливайченко.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u36.p1" xml:lang="uk">Наливайченко, фракція "Батьківщина". Ми наполягаємо на цій правці, тому що зараз, поки монобільшість просуває цей законопроект, який по суті розпродає українську землю і позбавляє право українців на землю, в Запоріжжі відбувається абсолютно незаконна акція, коли до міста приєдналося село, і 45 людей зараз, поки парламент байдуже спостерігає за цим, позбавлені права володіння на земельні паї, які, вдумайтесь друзі, отримали вони 20 років тому. Тобто ще не ухвалений цей законопроект, а вже у людей забирають земельні паї і святе право на приватну власність на рідну землю.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u36.p2" xml:lang="uk">Я вважаю, що якщо це правдивий підхід від монобільшості, має виїхати зараз в Запоріжжя аграрний комітет, Голова Верховної Ради мав би підписати таке розпорядження і там захистити 45 українців від того, що у них зараз забирають незаконно землю.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u37"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u37.p1" xml:lang="uk">Ставлю на голосування 3003. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:36:49">16:36:49</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u37.p2" xml:lang="uk">За-73</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u37.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u37.p4" xml:lang="uk">3004, Наливайченко.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:36:56">16:36:56</time>
+            </note>
+            <note type="speaker">НАЛИВАЙЧЕНКО В.О.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u38"
+               who="#ВалентинОлександровичНаливайченко.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u38.p1" xml:lang="uk">Наливайченко, фракція "Батьківщина". Цією правкою ми передбачаємо, щоб не вносились до Держреєстру речових прав на нерухоме майно, відомості про ціну нерухомого майна чи розмір плати за користування ним. Чому так? Та тому що без референдуму, без позиції людей, без того, щоб, починаючи з Запоріжжя, з сьогоднішньої незаконної ситуації, не захистивши людей і землю, і право на землю кожного громадянина, не можна ухвалювати цей закон.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u38.p2" xml:lang="uk">І "Батьківщина", і Юлія Тимошенко, і вся країна з нами вимагає від вас одного: бути чесними з людьми. Захистіть права людей на землю. Вийдіть на референдум всеукраїнський чесний і почуйте ту відповідь, яку ми вам вже 2 тисячі 343 рази повторюємо – не можна ухвалювати цей закон без всенародного референдуму. Прошу врахувати.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u39"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u39.p1" xml:lang="uk">Ставлю на голосування 3004, Наливайченко. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:38:14">16:38:14</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u39.p2" xml:lang="uk">За-80</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u39.p3" xml:lang="uk">Рішення не прийнято, правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u39.p4" xml:lang="uk">3008, Папієв.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u39.p5" xml:lang="uk">Нагаєвський, 3012. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u39.p6" xml:lang="uk">Шкрум, 3015.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:38:33">16:38:33</time>
+            </note>
+            <note type="speaker">ШКРУМ А.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u40"
+               who="#АльонаІванівнаШкрум.1988"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u40.p1" xml:lang="uk">Шкрум Альона, фракція "Батьківщина". Колеги, ця моя правка стосується загального також, не лише цього тексту, а й загальної філософії взагалі цього законопроекту. Вже, мабуть, тисячу разів ми повторювали всій Верховній Раді і будемо повторювати, поки нас не почує в тому числі влада та Президент Зеленський і "слуги", що цей законопроект абсолютно руйнує, на жаль, можливість для малого і середнього фермерства розвиватися і отримати новий економічний поштовх, новий економічний курс для нашої країни.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u40.p2" xml:lang="uk">Вчора був змінений уряд. Був змінений уряд, за словами самого Президента, тому що у нас величезне падіння і промисловості, і економіки, і неправильний, мабуть, економічний курс, який не працює на розвиток якраз українців, для того, щоб ми ставали багатшими. Так от, цей законопроект є наслідком і причиною одночасно, і симптомом якраз, найбільшим, мабуть, цієї хвороби – невірного економічного курсу.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u40.p3" xml:lang="uk">Тому я прошу ці мої поправки дивитися також в комплексі того, що цей закон, мабуть, доцільно було б все ж таки відкласти, відізвати авторам, і ми про це говорили неодноразово, і провести загальну величезну дискусію, як зміниться курс і куди ми хочемо рухатися для того, щоб стати успішною країною.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u40.p4" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u41"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u41.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u41.p2" xml:lang="uk">Наполягаєте, да, на голосуванні?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u41.p3" xml:lang="uk">3015.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u41.p4" xml:lang="uk">Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:40:03">16:40:03</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u41.p5" xml:lang="uk">За-74</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u41.p6" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u41.p7" xml:lang="uk">3016, Німченко. Не наполягає. Будь ласка, можете говорити.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:40:09">16:40:09</time>
+            </note>
+            <note type="speaker">НІМЧЕНКО В.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u42"
+               who="#ВасильІвановичНімченко.1950"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u42.p1" xml:lang="uk">"Опозиційна платформа – За життя", Німченко. Прошу поставити на підтвердження.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u43"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u43.p1" xml:lang="uk">Ставлю на голосування 3016. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:40:51">16:40:51</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u43.p2" xml:lang="uk">За-71</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u43.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u43.p4" xml:lang="uk">Шановні колеги, підготуйтесь.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u43.p5" xml:lang="uk">Фріс, 3017.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:40:58">16:40:58</time>
+            </note>
+            <note type="speaker">ФРІС І.П.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u44"
+               who="#ІгорПавловичФріс.1973"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u44.p1" xml:lang="uk">Добрий день, шановні колеги! Я прошу хвилиночку вашої уваги. Ми завжди з вами голосуємо жовтою. Прошу тут послухати уважно головуючого і правильно підтримати цю правку. Ця правка стосується виправлення технічної помилки в нумерації Закону "Про державну реєстрацію речових прав на нерухоме майно", які ми з вами вже прийняли. Зараз його не можна використовувати, і нам треба це поправити.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u44.p2" xml:lang="uk">Прошу вашої підтримки. Підтримайте цю правку.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u45"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u45.p1" xml:lang="uk">Позиція комітету.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:41:34">16:41:34</time>
+            </note>
+            <note type="speaker">СОЛЬСЬКИЙ М.Т.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u46"
+               who="#МиколаТарасовичСольський.1979"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u46.p1" xml:lang="uk">Дякую, пане Ігор. Правка, дійсно, технічна, але важлива, виправляє помилку в діючому законодавстві. Дякую автору, що звернув на це увагу. Прошу підтримати.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u47"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u47.p1" xml:lang="uk">Шановні колеги, будь ласка, підготуйтесь до голосування! Готові? Ставлю на голосування правку 3017, Фріс. Прошу підтримати та проголосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:42:15">16:42:15</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u47.p2" xml:lang="uk">За-244</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u47.p3" xml:lang="uk">Рішення прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u47.p4" xml:lang="uk">Правка врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u47.p5" xml:lang="uk">Шановні колеги, коли я чую "не голосуємо". ви є так наполягали, що треба враховувати правки. Я ж думав, що тут немає наших-ваших, я думав, що тут правильні і не дуже. <vocal type="noise">
+                     <desc>(Шум у залі)</desc>
+                  </vocal> Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u47.p6" xml:lang="uk">3018. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u47.p7" xml:lang="uk">Лубінець, 3019. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u47.p8" xml:lang="uk">Івченко, 3020. Теж не наполягає. А, наполягаєте?</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:42:53">16:42:53</time>
+            </note>
+            <note type="speaker">ІВЧЕНКО В.Є.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u48"
+               who="#ВадимЄвгеновичІвченко.1980"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u48.p1" xml:lang="uk">Вадим Івченко, фракція "Батьківщина". Шановний пане Голово, я хотів звернутися до заступника міністра пана Висоцького. Пане Тарасе, я знаю, що вчора уряд прийняв рішення - і всі законопроекти урядові були відкликані. Скажіть, будь ласка, яка позиція уряду стосовно цього Закону про ринок землі? Ми вчора наполягали перед Прем'єр-міністром, щоб він вивчив питання, бо даний законопроект такий, який пропонується, в жодній країні світу таких правил немає. Цей законопроект не для аграрія - цей законопроект для спекулянта.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u48.p2" xml:lang="uk">Тому ми хочемо почути позицію нового уряду, якщо вона є, і чи плануєте ви відкликати даний законопроект задля того, щоб розібратися в уряді, прийняти рішення, а потім внести такий законопроект, який буде відповідати і національним інтересам, і вимогам людей.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u48.p3" xml:lang="uk">Тому ми у вас запитуємо, просимо дати відповідь, якщо ви знаєте відповідь з боку уряду.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u48.p4" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u49"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u49.p1" xml:lang="uk">Шановні колеги, ставлю на голосування правку 3020. Що ви попросили? Позицію комітету, якщо можна, почути. Уряду? Уряду пізніше, коли будемо голосувати за закон, звісно, вони.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:44:27">16:44:27</time>
+            </note>
+            <note type="speaker">СОЛЬСЬКИЙ М.Т.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u50"
+               who="#МиколаТарасовичСольський.1979"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u50.p1" xml:lang="uk">Вадим Євгенович, ви знаєте, що 2178-10 – це законопроект депутатський. Депутати його, звичайно, не відкличуть. Правка відхилена.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u51"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u51.p1" xml:lang="uk">Дякую. Ставлю на голосування правку 3020 Івченка. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:44:58">16:44:58</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u51.p2" xml:lang="uk">За-78</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u51.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u51.p4" xml:lang="uk">Бєлькова, 3021. Наполягає?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u51.p5" xml:lang="uk">Наполягає.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:45:04">16:45:04</time>
+            </note>
+            <note type="speaker">БЄЛЬКОВА О.В.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u52"
+               who="#ОльгаВалентинівнаБєлькова.1975"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u52.p1" xml:lang="uk">Наполягаю, звичайно. Пане Голово, шановний пане голово комітету! От зараз відбулася невеличка зміна в цьому законопроекті: ми підтримали правку шановного колеги Фріса. Якщо чесно я, наприклад, не розумію, яким чином вона зараз співставляється з моєю правкою, яка до тієї самої статті. І це говорить про те, що парламент приймає рішення щодо одного з найбільш сакральних понять і взагалі значень в Україні, як земля, не розуміючи наслідки прийнятих цих всіх правок.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u52.p2" xml:lang="uk">Я закликаю вас вкотре, почуйте. За три каденції мого невеличкого перебування в парламенті я зрозуміла одне: такі докорінні реформи залишаться не на папері, а в житті народу лише тоді, коли за них проголосує не більшість депутатів, а більшість фракцій. Так, це важко мене переконати, але ви, будь ласка, спробуйте, може, й вийде, знайдіть ту форму, яку підтримає весь народ, а не тільки одна фракція.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u52.p3" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u53"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u53.p1" xml:lang="uk">Ставлю на голосування правку 3021 Бєлькової, прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:46:33">16:46:33</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u53.p2" xml:lang="uk">За-112</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u53.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u53.p4" xml:lang="uk">Так, Пузанов. 3024.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u53.p5" xml:lang="uk">Папієв.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u53.p6" xml:lang="uk">Качний. Качний Олександре Сталіноленовичу, будете, да, дооповідати?</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:46:52">16:46:52</time>
+            </note>
+            <note type="speaker">КАЧНИЙ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u54"
+               who="#ОлександрСталіноленовичКачний.1968"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u54.p1" xml:lang="uk">Ну, да, щось треба.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u55"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u55.p1" xml:lang="uk">3026.</seg>
+            </u>
+            <note type="speaker">КАЧНИЙ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u56"
+               who="#ОлександрСталіноленовичКачний.1968"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u56.p1" xml:lang="uk">3026.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u56.p2" xml:lang="uk">Шановні колеги, ця правка у нас дуже важлива, тому що всі її чекають, головного рішення від вас. Чи готові ви говорити про референдум, чи готові ви сьогодні слухати народ? Я вважаю, що якщо ми не будемо дослуховуватись до українського народу, то ми жодного рішення позитивного тут не приймемо. Тому частина перша статті 12 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень" слово "ціну" вилучити. Це моя.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u56.p3" xml:lang="uk">Будь ласка, прошу проголосувати.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u57"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u57.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u57.p2" xml:lang="uk">Ставлю на голосування 3026. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:47:56">16:47:56</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u57.p3" xml:lang="uk">За-68</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u57.p4" xml:lang="uk">Рішення не прийнято, правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u57.p5" xml:lang="uk">Наступна правка - Качний, 3027. Прошу. Будете доповідати, да? Може, поставити на голосування?</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:48:07">16:48:07</time>
+            </note>
+            <note type="speaker">КАЧНИЙ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u58"
+               who="#ОлександрСталіноленовичКачний.1968"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u58.p1" xml:lang="uk">Шановні колеги, прошу підтримати мою поправку. Ставте на голосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u59"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u59.p1" xml:lang="uk">Ставлю на голосування 3027. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:48:32">16:48:32</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u59.p2" xml:lang="uk">За-68</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u59.p3" xml:lang="uk">Дякую, Олександр Сталіноленович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u59.p4" xml:lang="uk">Яцик. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u59.p5" xml:lang="uk">Дубіль. Наполягає? Немає, да?</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:48:42">16:48:42</time>
+            </note>
+            <note type="speaker">ДУБІЛЬ В.О.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u60"
+               who="#ВалерійОлександровичДубіль.1973"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u60.p1" xml:lang="uk">Шановні колеги, шановний український народе! Фракція "Батьківщина", як і 73 відсотки народу України, виступає категорично проти в умовах війни цього законопроекту про продаж української землі.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u60.p2" xml:lang="uk">Хочу звернути увагу, що зараз відбувається в нашій країні. Стрімко падає промвиробництво, вже другий місяць на мільярди недовиконується бюджет, 20 відсотків недобір по митниці, уряд економив, не індексуючи пенсії наших пенсіонерів, в селах закриваються дитячі садки і школи, в районах із-за недофінансування вимушені закриватися ФАПи та районні лікарні. Виходять люди на мітинги, щоб захистити малий та середній бізнес, і декілька тисяч людей тиждень тому зібралися під адміністрацією Президента. І сьогодні в цих умовах ви хочете ще й продати землю, продати нашу державу! Прошу дослухатися до людей і це питання вирішувати після всеукраїнського референдуму.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u60.p3" xml:lang="uk">Що стосується правки - прошу поставити на підтримку.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u61"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u61.p1" xml:lang="uk">Обов'язково, ставлю на підтвердження 3030. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:50:06">16:50:06</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u61.p2" xml:lang="uk">За-70</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u61.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u61.p4" xml:lang="uk">Наступна правка - Крулько, 3031.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:50:12">16:50:12</time>
+            </note>
+            <note type="speaker">КРУЛЬКО І.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u62"
+               who="#ІванІвановичКрулько.1981"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u62.p1" xml:lang="uk">Іван Крулько, фракція "Батьківщина". Шановні колеги, в цій ситуації, яка зараз складається в нас в Україні, з тим, що обраний новий уряд вчора парламентом, натомість не має ні міністра економіки, ні міністра аграрної політики. Ми так і не можемо зрозуміти, а яка ж буде політика уряду стовно питання української землі. Це питання взагалі вчора не було належним чином висвітлено під час представлення уряду. Саме тому єдине логічне рішення, яке зараз може бути: зупинити розгляд цього законопроекту, відкликати його і нехай уряд внесе законопроект, не депутати вносять законопроект стосовно землі, нехай уряд внесе законопроект, який буде відображати національні інтереси України і захищати фермерство, а не знищувати його, як зараз пропонується цим законопроектом. Давайте припинимо знущатися над людьми, цими місяцями розглядати законопроект, який нічого доброго для України не несе.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u62.p2" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u63"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u63.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u63.p2" xml:lang="uk">Ставлю на голосування правку. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:51:37">16:51:37</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u63.p3" xml:lang="uk">За-70</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u63.p4" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u63.p5" xml:lang="uk">Наступна правка 3035, Павленко.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:51:45">16:51:45</time>
+            </note>
+            <note type="speaker">ПАВЛЕНКО Ю.О.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u64"
+               who="#ЮрійОлексійовичПавленко.1975"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u64.p1" xml:lang="uk">Шановний пане Голово, шановні колеги, моя правка - одна із тих вимог, на яких наполягає "Опозиційна платформа – За життя", що цей закон може вступити в силу лише за умови, якщо будуть підтримані його тези на всеукраїнському референдумі. Разом із тим, звичайно, в мене є запитання до представників уряду, які тут присутні, але я розумію, що ця особа не здатна дати відповідь, бо представляє міністерство, якого вже немає, я так розумію. Тому я сподіваюся, що мене почує Прем’єр-міністр України і завтра на "годині запитань до Уряду" дасть чітку відповідь, коли Кабінет Міністрів, новий його склад наведе порядок в Держгеокадастрі і будуть призначені керівники, буде проведена оцінка землі, і чи не бачить він ризику в ухваленні цього закону при тому, що держава не готова сьогодні до його застосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u65"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u65.p1" xml:lang="uk">Юрій Олексійович, ви ж досвідчений і депутат, і урядовець, ви ж і там, і там побули. Ви ж знаєте, що на "годині запитань до Уряду" згідно визначеної теми. Завтра точно не тема землі, ви це добре знаєте. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u65.p2" xml:lang="uk">Ставимо на підтвердження? Ні? Можемо далі іти? <vocal type="noise">
+                     <desc>(Шум у залі)</desc>
+                  </vocal> Голосуємо? Ну тоді голосуємо. 3035. Прошу визначатися.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:53:19">16:53:19</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u65.p3" xml:lang="uk">За-63</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u65.p4" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u65.p5" xml:lang="uk">Пономарьов Олександр Сергійович, 3037.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:53:25">16:53:25</time>
+            </note>
+            <note type="speaker">ПОНОМАРЬОВ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u66"
+               who="#ОлександрСергійовичПономарьов.1962"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u66.p1" xml:lang="ru">Дякую. Ви пропустили 3036. Не знаю чия.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u67"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u67.p1" xml:lang="uk">Ні, 3037.</seg>
+            </u>
+            <note type="speaker">ПОНОМАРЬОВ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u68"
+               who="#ОлександрСергійовичПономарьов.1962"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u68.p1" xml:lang="uk">Олександр Пономарьов, Запорізька область. Наступна правка регулює відповідальність за внесення інформації до Державного реєстру, тому пропонується частину третю статті 13 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень" доповнити абзацом наступного змісту: "Відповідальність за достовірну інформацію покладається на власника земельної ділянки".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u68.p2" xml:lang="uk">Дякую. Прошу підтримати та проголосувати.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u69"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u69.p1" xml:lang="uk">Обов'язково.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u69.p2" xml:lang="uk">Ставлю на голосування 3037. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:54:27">16:54:27</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u69.p3" xml:lang="uk">За-66</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u69.p4" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u69.p5" xml:lang="uk">Наступна правка - Івченко, 3044.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:54:38">16:54:38</time>
+            </note>
+            <note type="speaker">ІВЧЕНКО В.Є.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u70"
+               who="#ВадимЄвгеновичІвченко.1980"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u70.p1" xml:lang="uk">Вадим Івченко, фракція "Батьківщина". Шановні колеги, ви знаєте, як можна запроваджувати ринок землі, коли елементарно ви не можете вберегти людям право власності?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u70.p2" xml:lang="uk">Останній приклад. Приєднання територіальних громад сільських рад до великого міста – до такого міста, як Запоріжжя. Місцева рада міста Запоріжжя подала в суд на скасування державних актів 45 людям, які отримали давним-давно свої паї. І бездіє центральна влада і не звертає на це увагу. Яким чином ми можемо запускати ринок, коли в країні процвітає рейдерство і захисту від аграрного рейдерства, в тому числі питання землі у нас немає?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u70.p3" xml:lang="uk">Тому, будь ласка, відреагуйте, пане заступнику міністра, пане Тарасе, на цю ситуацію. Зверніть увагу, напишіть запити, зверніться до міністра МВС і відреагуйте на те питання, щоб у людей не забирали паї через суди.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u70.p4" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u71"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u71.p1" xml:lang="uk">Ставимо на голосування чи можемо не робити це? Ставимо, да? Добре.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u71.p2" xml:lang="uk">Івченко, 3044, прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:56:09">16:56:09</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u71.p3" xml:lang="uk">За-72</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u71.p4" xml:lang="uk">Рішення не прийнято, правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u71.p5" xml:lang="uk">Королевська Наталія Юріївна, 3045.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:56:16">16:56:16</time>
+            </note>
+            <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u72"
+               who="#НаталіяЮріївнаКоролевська.1975"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u72.p1" xml:lang="uk">Шановні колеги, ми бачимо, що, на жаль, рішення щодо відкладання цього законопроекту так і не приймається. Ми бачимо, що і далі імітується обговорення цієї злочинної земельної реформи. Ми офіційно вас попереджуємо, що якщо ви даже знайдете ті необхідні голоси, щоб прийняти цей антинародне рішення та розпродати землю, яка належить народу України, то через Конституційний Суд ми визнаємо це рішення недійсним.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u72.p2" xml:lang="uk">І тому, шановні народні депутати України, у нас в країні достатньо сьогодні найактуальніших проблем, які треба вирішувати. Нам треба сьогодні захищати людей. Тому прошу вас відкласти це рішення та перестати імітувати тут бурну діяльність українського парламенту. Не витрачайте народні гроші.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u72.p3" xml:lang="uk">Прошу поставити на підтвердження поправку.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u73"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u73.p1" xml:lang="uk">Ставлю на голосування 3045. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:57:36">16:57:36</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u73.p2" xml:lang="uk">За-68</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u73.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u73.p4" xml:lang="uk">3046, Наливайченко.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:57:41">16:57:41</time>
+            </note>
+            <note type="speaker">НАЛИВАЙЧЕНКО В.О.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u74"
+               who="#ВалентинОлександровичНаливайченко.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u74.p1" xml:lang="uk">Валентин Наливайченко, фракція "Батьківщина". Шановні громадяни України, чому "Батьківщина" так б'ється за право кожного з вас володіти тими паями земельними, які вам і належать за законом, за Земельним кодексом зараз? Я наполягаю, що у нас, у команди, у кожного українця, Юлія Тимошенко, "Батьківщина", як і вся країна, ми наполягаємо, щоб раз і назавжди право на землю не перепродавалось, не забиралося у вас через суди, не через злочинні схеми "піджачків", один з них зараз в ложі уряду, і не через агроолігархів, які є авторами цього законопроекту. Ні! Автором цього законопроекту має бути народ через всенародний референдум, через прийом людей особистий. Захистіть людей зараз в Запоріжжі. Мало Запоріжжя? Поїдьте в Закарпаття. Поверніть державні землі територіальним громадам і після цього проведіть референдум. І після цього ми готові говорити як удосконалити довічне право на користування землею громадянами України.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u74.p2" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u75"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u75.p1" xml:lang="uk">Ставлю на голосування 3046. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T16:59:02">16:59:02</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u75.p2" xml:lang="uk">За-79</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u75.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u75.p4" xml:lang="uk">Крулько, 3053.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T16:59:09">16:59:09</time>
+            </note>
+            <note type="speaker">КРУЛЬКО І.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u76"
+               who="#ІванІвановичКрулько.1981"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u76.p1" xml:lang="uk">Іван Крулько, фракція "Батьківщина". Я ще раз, колеги, хотів би звернути увагу до надзвичайно важливого питання, яке ми зараз розглядаємо. І я ще раз хотів би звернутися до монобільшості, до фракції "Слуга народу". Друзі, ми приймаємо рішення, яке буде стосуватися найбільшого національного багатства, яке буде стосуватися мільйонів і мільйонів українців, яке буде стосуватися прийдешніх поколінь.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u76.p2" xml:lang="uk">Тому давайте не будемо на цьому питанні, так легковажно до нього ставитись, що ми приймемо все, що завгодно, те, що нам подобається. Це питання має об'єднувати всю країну, це питання має об'єднувати українське село, це питання має об'єднувати українських громадян. І саме заради того, щоб прийняти рішення, яке відповідатиме національним інтересам України, цей законопроект треба відкликати.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u76.p3" xml:lang="uk">Потрібно прийняти той закон, який надасть можливість сьогодні українському фермеру відчути себе господарем на своїй землі і не перетворювати українців на кріпаків. Кріпацтво уже давно відмінено. Давайте не робити це цим.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u77"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u77.p1" xml:lang="uk">Ставимо на голосування правку Крулько, 3053. Прошу визначатись та голосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u77.p2" xml:lang="uk">Михайло Миколайович, не переживайте, ми зараз повернемося до вашої правки, просто вас не було. Не було вас у залі. Не було, не було. Ну, як не було? Не було.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:00:41">17:00:41</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u77.p3" xml:lang="uk">За-76</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u77.p4" xml:lang="uk">Ми декілька правок можемо підняти подивитись, ви ж знаєте. Повертаємося, нема питань. Да-да.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u77.p5" xml:lang="uk">3049, Папієва правка.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:00:57">17:00:57</time>
+            </note>
+            <note type="speaker">ПАПІЄВ М.М.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u78"
+               who="#МихайлоМиколайовичПапієв.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u78.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u78.p2" xml:lang="uk">Шановні народні депутати України, шановні колеги, бачте, все ж таки справедливість є, за неї треба боротися. Тому я хочу наполягати на тому, щоб та правка, яку я пропоную, щоб за неї проголосували вдумливо народні депутати України і врахували її, тому що вона абсолютно доречна. Тобто для того, щоб в розділі державного реєстру існували такі пункти, як нерухоме майно та його ціна і вартість. Тобто це абсолютно необхідні показники, які потрібно, щоб там вони були. Чому вона не врахована комітетом, так, це питання вже до них. Але сьогодні ми не маємо навіть відповіді на це питання від голови комітету, то, може, представник уряду зможе якось прокоментувати позицію уряду в цьому питанні, як вони планують формувати державний реєстр.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u78.p3" xml:lang="uk">Але, пане Голово, ще раз привертаю вашу увагу, ну, знову там у вас "рішали" Дмитро Олександрович!</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u79"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u79.p1" xml:lang="uk">Ставлю на голосування правку 3049. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:02:24">17:02:24</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u79.p2" xml:lang="uk">За-67</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u79.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u79.p4" xml:lang="uk">3050, Папієв.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:02:30">17:02:30</time>
+            </note>
+            <note type="speaker">ПАПІЄВ М.М.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u80"
+               who="#МихайлоМиколайовичПапієв.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u80.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u80.p2" xml:lang="uk">Шановний Дмитре Олександровичу, я розумію, що коронавірус, маски – це більш цікаве питання, ніж цей законопроект, так? І більш таке воно, як би важливе. Але все ж таки ми зараз розглядаємо законопроект, який стосується кожного громадянина України, який шкоди наносить Україні не менше, ніж коронавірус. Нам необхідно відмінити цей законопроект, не приймати його до того часу, допоки не буде проведено референдум, де український народ висловиться з цього питання і визначиться, визначиться по цьому законопроекту.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u80.p3" xml:lang="uk">Стосовно моєї поправки. Бо кожен народний депутат, я просив би, щоб говорив по своїй поправці. Я знову ж таки звертаюся або до голови комітету, або до представника уряду. Бо якось у мене, як "вой вопиющего в пустыне", так? Я говорю правильні речі, і знаю, і впевнений, що вони правильні, а відповіді немає. Зал не голосує, тому що залу не дають об'єктивну інформацію, не забезпечено конституційне право народного депутата України.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u81"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u81.p1" xml:lang="uk">Позиція комітету.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:03:42">17:03:42</time>
+            </note>
+            <note type="speaker">СОЛЬСЬКИЙ М.Т.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u82"
+               who="#МиколаТарасовичСольський.1979"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u82.p1" xml:lang="uk">Пане Михайле, ви насправді все правильно озвучили, правильні речі в цих правках. Але ці речі вже відображені в законопроекті 0858, який приблизно перед Новим роком ми прийняли вже в другому читанні. В тому числі ціна була одна з тих змін, які цим законопроектом внесено в державний реєстр.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u82.p2" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u83"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u83.p1" xml:lang="uk">Ставлю на голосування 3050. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:04:33">17:04:33</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u83.p2" xml:lang="uk">За-70</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u83.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u83.p4" xml:lang="uk">Папієв, 3051.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:04:39">17:04:39</time>
+            </note>
+            <note type="speaker">ПАПІЄВ М.М.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u84"
+               who="#МихайлоМиколайовичПапієв.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u84.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u84.p2" xml:lang="uk">Я перш за все звертаюся до громадян України. І хочу пояснити, що відбувається зараз у залі. У залі відбувається наступне. Я от зараз прочитаю поправку, яка пропонується мною. Вона абсолютно специфічна, бо вона містить термінологію, яка в більшості своїй вона для нефахівців дуже складна і тим більше для народних депутатів України. Я дуже просив би, у нас немає так багато народних депутатів України, які би були і мали фахову освіту в сфері землі або в сфері сільського господарства. Тому треба, необхідно просто, щоб народні депутати України пояснювали поправку свою, а також отримували кваліфіковану відповідь від голови комітету або від уряду. Тому що, от я прочитаю зараз, на наступній я прочитаю її повністю, щоб громадяни зрозуміли, чому ви боїтесь за них голосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u84.p3" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u85"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u85.p1" xml:lang="uk">Ставлю на голосування 3051. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:06:03">17:06:03</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u85.p2" xml:lang="uk">За-68</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u85.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u85.p4" xml:lang="uk">3052.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:06:07">17:06:07</time>
+            </note>
+            <note type="speaker">ПАПІЄВ М.М.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u86"
+               who="#МихайлоМиколайовичПапієв.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u86.p1" xml:lang="uk">Парадокс в тому, що от коли в цій залі розглядається Закон про мову, то всі у нас фахівцями одразу стають. А от Закон про землю - чомусь фахівців мало. Так я от спеціально для громадян України прочитаю попередню поправку, щоб вони зрозуміли, чому народні депутати України за неї не змогли проголосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u86.p2" xml:lang="uk">Читаю. "У разі, якщо договором оренди землі, суборенди землі, земельного сервітуту, емфітевзису, суперфіцію.". Тобто це абсолютно специфічна термінологія, на яку народні депутати України мають право отримати від фахівців, бо ми ж то розуміємо, що голова комітету має бути фахівцем з цього питання так само, як і представник уряду, щоб вдумливо голосувати і підтримувати цю поправку, бо не підтримати її взагалі-то неможливо, вона абсолютно правильна і відповідає потребам і інтересам громадян України.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u86.p3" xml:lang="uk">Я прошу поставити її на голосування і прошу підтримати, хоч один раз підтримайте, і референдум також.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u87"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u87.p1" xml:lang="uk">Михайло Миколайович, я думаю, що просто не всі знають ці назви, бо не в усіх є аграрний бізнес. Тому, може, тут є питання до цього. Я думаю, що і ті правки до назв, якщо я зараз задам автору, він не на все зможе відповісти. Тому я пропоную поставити на голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u87.p2" xml:lang="uk">3052. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:07:50">17:07:50</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u87.p3" xml:lang="uk">За-67</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u87.p4" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u87.p5" xml:lang="uk">Шуфрич, 3075.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:08:03">17:08:03</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u88"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u88.p1" xml:lang="uk">Дякую, шановний головуючий.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u88.p2" xml:lang="uk">Ви знаєте, ми не можемо зрозуміти ту вашу, я вже сказав, незрозумілу наполегливість, безвідповідальну і злочинну, в питанні проштовхування цього закону. От ми продовжуємо порівнювати співвідношення мінімальних зарплат, мінімальних пенсій, середніх зарплат, ВВП на душу населення з ціною на землю в тих чи інших країнах. І наскільки у них ці показники кращі, настільки в тих країнах є земля дорожча. Так давайте перед тим, як запустити механізм розпродажу землі, ми піднімемо вартість цієї землі, піднявши доходи наших громадян. І взагалі будь-яка ініціатива з цього напрямку можлива тільки після референдуму.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u88.p3" xml:lang="uk">Дякую за увагу.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u89"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u89.p1" xml:lang="uk">Ставлю на голосування 3075. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:09:33">17:09:33</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u89.p2" xml:lang="uk">За-67</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u89.p3" xml:lang="uk">Рішення не прийнято, правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u89.p4" xml:lang="uk">3076, Шуфрич.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:09:42">17:09:42</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u90"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u90.p1" xml:lang="uk">Дякую, шановний головуючий.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u90.p2" xml:lang="uk">Наступні чотири правки. Прошу уваги трошки. Дмитре Олександровичу! Дмитро, я розумію, що вас відволікають наші чарівні колеги, але все ж таки. 76, 77, 78, 79 і 80 я прошу поставити підряд. А зараз дати мені 2 хвилини.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u91"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u91.p1" xml:lang="uk">Додайте хвилину. Я вас добре чую, Нестор Іванович.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:10:15">17:10:15</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u92"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u92.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u92.p2" xml:lang="uk">Тобто я хочу звернути увагу всіх наших колег, що співвідношення вартості землі з реальним матеріальним станом громадян в різних країнах, воно корелюється. Чим більші доходи громадян, чим більші соціальні гарантії, тим і більше вартість землі в цих країнах.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u92.p3" xml:lang="uk">Ми ще раз наполягаємо на тому, щоби відповідний закон був розглянутий після стабілізації ситуації в країні, після того, як буде забезпечений рівень соціальних гарантій, співвідношення вартості життя та доходів наших громадян хоча б на рівні 13-го року. Після цього провести обов’язково референдум, на якому громадяни України мають визначитись, чи готові вони сьогодні піти на ринок землі і погодитись з тим, що вони, продавши свої майнові права, втратять право власності на власні земельні ділянки.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u92.p4" xml:lang="uk">Поки референдум, на якому наполягає наша політична сила, не буде проведений, ми не погоджуємось на прийняття цього закону.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u92.p5" xml:lang="uk">Дякую за увагу.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u93"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p1" xml:lang="uk">Ставлю на голосування 3076. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:12:07">17:12:07</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p2" xml:lang="uk">За-67</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p4" xml:lang="uk">3077, Шуфрич. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:12:23">17:12:23</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p5" xml:lang="uk">За-64</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p6" xml:lang="uk">3078. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:12:38">17:12:38</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p7" xml:lang="uk">За-65</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p8" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p9" xml:lang="uk">3080. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:12:58">17:12:58</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p10" xml:lang="uk">За-65</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p11" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p12" xml:lang="uk">Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u93.p13" xml:lang="uk">3081, Шуфрич.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:13:06">17:13:06</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u94"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u94.p1" xml:lang="uk">Дякую, шановний головуючий.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u94.p2" xml:lang="uk">Я хочу вам привести конкретний приклад Німеччини. Ми вже з вами мали можливість проаналізувати співвідношення вартості землі із показниками мінімальної зарплати і мінімальної пенсії в Угорщині та Польщі. Я хочу вам довести до вашого відома наступні цифри: мінімальна заробітна плата в Німеччині - 1 тисяча 557 євро, а середня вартість землі в Німеччині - біля 30 тисяч євро. Скажіть, будь ласка, чи не варто зараз сконцентрувати увагу, можливості всіх нас об'єднатися навколо головного – підняття рівня заробітної плати та пенсійного забезпечення наших громадян, і тим самим підняття вартості всіх матеріальних цінностей в нашій країні, включаючи землю, а не розпродавати її за безцінь і.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u95"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u95.p1" xml:lang="uk">Ставлю на голосування 3081. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:14:34">17:14:34</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u95.p2" xml:lang="uk">За-66</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u95.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u95.p4" xml:lang="uk">82 правка, Шуфрич.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:14:40">17:14:40</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u96"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u96.p1" xml:lang="uk">Дякую. Шановний головуючий, прошу 82-у, 83-ю, 84-у і 85-у поставити по черзі. А мені зараз надати 2 хвилини. Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u97"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u97.p1" xml:lang="uk">І 86-у. 2 хвилини.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:15:00">17:15:00</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u98"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u98.p1" xml:lang="uk">Дякую, шановний головуючий ще раз. Шановні колеги, я ще раз хочу звернути вашу увагу на той принцип справедливості, який зараз відстоює наша політична сила. А саме: ми розуміємо, що при середній пенсії 3 тисячі гривень, а мінімальній пенсії - 1 тисячу 628 гривень ми спонукаємо наших пенсіонерів, які здебільшого і є власниками земельних паїв, ми провокуємо їх на продажу після прийняття цього закону своїх земельних паїв за безцінь. Через 3-4 роки ті спекулянти, які в кращому випадку виплатять їм по 1 тисячу доларів за 1 гектар перепродадуть їх за 5-7 тисяч. Уявіть собі настрої людей, які зрозуміють, що їх в черговий раз обібрали, як це відбулося під час ваучерної приватизації.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u98.p2" xml:lang="uk">Тому ми і наполягаємо зупинити розгляд цього законопроекту. Сісти за стіл, обговорити це питання. Цей закон провалити під час голосування, відмовитись від його прийняття. А надалі дати можливість уряду відпрацювати закон, і не ховатись за спинами народних депутатів монобільшості, а спокійно внести закон, основа якого має бути одна: він може вступити в силу виключно після проведення всеукраїнського референдуму. На чому наполягаємо.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u99"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p1" xml:lang="uk">Ставлю на голосування правку 82. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:17:18">17:17:18</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p2" xml:lang="uk">За-72</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p4" xml:lang="uk">83-ю, прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:17:33">17:17:33</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p5" xml:lang="uk">За-70</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p6" xml:lang="uk">Рішення не прийнято, правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p7" xml:lang="uk">84-а. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:17:50">17:17:50</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p8" xml:lang="uk">За-72</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p9" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p10" xml:lang="uk">І 3086. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:18:08">17:18:08</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p11" xml:lang="uk">За-69</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p12" xml:lang="uk">Ця правка також не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u99.p13" xml:lang="uk">3087.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:18:13">17:18:13</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u100"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u100.p1" xml:lang="uk">Дякую, шановний головуючий.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u100.p2" xml:lang="uk">Шановні колеги! 87 поправка, 3087 поправка пропонує внести зміни в пункт 2 частини третьої статті 13 Закону "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень". Але будь-які зміни, будь-які новації, пов’язані із законом, який надає можливість реалізовувати і продавати землю, може вступити в силу виключно після проведення всеукраїнського референдуму. Це є принципова позиція нашої політичної сили. Прошу поставити на голосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u101"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u101.p1" xml:lang="uk">Ставлю на голосування 3087. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:19:13">17:19:13</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u101.p2" xml:lang="uk">За-62</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u101.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u101.p4" xml:lang="uk">3088.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:19:17">17:19:17</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u102"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u102.p1" xml:lang="uk">Дякую, шановний головуючий.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u102.p2" xml:lang="uk">Ця поправка теж стосується врегулювання окремих аспектів реалізації майнових прав наших громадян. Але всі зміни можуть бути реалізовані виключно після проведення всеукраїнського референдуму. І це є принциповою позицією нашої політичної сили "Опозиційна платформа – За життя".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u102.p3" xml:lang="uk">Прошу поставити поправку на голосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u103"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u103.p1" xml:lang="uk">Ставлю правку на голосування. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:20:07">17:20:07</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u103.p2" xml:lang="uk">За-72</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u103.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u103.p4" xml:lang="uk">3090, Шуфрич.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:20:12">17:20:12</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u104"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u104.p1" xml:lang="uk">Дякую, шановний головуючий, я все ж таки ще раз пропоную. На наступному тижні у нас буде можливість, враховуючи, що це буде непленарний тиждень, не тиждень, коли ми засідаємо під час пленарних засідань, зібратися і обговорити остаточну долю цього закону. Вже абсолютно зрозуміло, що цей закон не сприймається суспільством.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u104.p2" xml:lang="uk">Зверніть увагу, медична реформа, яка педалювалася попереднім урядом, пішла разом із ним. Невже ми хочемо, щоби з цим законом пішла і ця Верховна Рада, разом із урядами, які вона ще буде продукувати? Я абсолютно переконаний, що цей уряд далеко не останній. Можете готувати наступний склад, якщо є з кого.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u104.p3" xml:lang="uk">А поправку.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u105"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u105.p1" xml:lang="uk">Ставлю на голосування 3090. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:21:39">17:21:39</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u105.p2" xml:lang="uk">За-69</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u105.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u105.p4" xml:lang="uk">3091, Шуфрич.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:21:42">17:21:42</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u106"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u106.p1" xml:lang="uk">Прошу поправку 3091, 3092, 3093, 3094 та 3095 включно поставити на голосування по черзі. А мені надати 2 хвилини.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u107"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u107.p1" xml:lang="uk">Додайте хвилину.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:22:01">17:22:01</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u108"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u108.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u108.p2" xml:lang="uk">Дмитро Олександрович, шановні колеги! Ми, дійсно, зараз розглядаємо закон, який є не просто доленосним для нашої країни, а який викликає страшне занепокоєння серед українців, і які з надією, що цей закон не буде прийнятий, зараз спостерігають за нашими діями.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u108.p3" xml:lang="uk">Половина українців зараз підтримує опозицію і "Опозиційну платформу – За життя", народних депутатів у фракції, які, незважаючи на страшенний тиск, навантаження і непростий характер роботи у Верховній Раді України, зараз відстоюють їх права, а саме: право на справедливість, право на отримання і забезпечення справедливої ціни на землю через підвищення добробуту наших громадян.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u108.p4" xml:lang="uk">А провокування продажу землі за безцінь, в умовах, коли наші люди знаходяться в умовах зубожіння, є, безумовно, антинародним, неприйнятним і не гідним, тих хто ініціює цей закон.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u108.p5" xml:lang="uk">Виходячи з принципу справедливості, відстоювання людських, якщо хочете, прав, конституційних прав наших громадян, ми наполягаємо на тому, щоб цей закон був розглянутий виключно після проведення всеукраїнського референдуму, на якому народ має визначитись, чи прийшов час на продаж землі.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:24:00">17:24:00</time>
+            </note>
+            <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України</note>
+            <note type="narrative">СТЕФАНЧУК Р.О.</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u109"
+               who="#РусланОлексійовичСтефанчук.1975"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u109.p1" xml:lang="uk">Дякую, Нестор Іванович. Ставиться на голосування, як ви і сказали, правка, 3091, народного депутата Шуфрича. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:24:17">17:24:17</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u109.p2" xml:lang="uk">За-70</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:24:22">17:24:22</time>
+            </note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u110"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p1" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p2" xml:lang="uk">92 правка. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:24:35">17:24:35</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p3" xml:lang="uk">За-64</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p4" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p5" xml:lang="uk">93 правка. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:24:52">17:24:52</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p6" xml:lang="uk">За-67</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p7" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p8" xml:lang="uk">3094 правка. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:25:08">17:25:08</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p9" xml:lang="uk">За-67</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p10" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p11" xml:lang="uk">3095 правка. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:25:24">17:25:24</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p12" xml:lang="uk">За-67</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p13" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u110.p14" xml:lang="uk">3097. Шуфрич.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:25:30">17:25:30</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u111"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u111.p1" xml:lang="uk">Дякую, шановний головуючий.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u111.p2" xml:lang="uk">Я хочу звернути вашу увагу, що вказана поправка стосується пункту 2 частини третьої статті 13 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень", а також статті 12 відповідного закону, і регулює окремі аспекти, які визначені в тексті цієї поправки. Але я ще раз наполегливо звертаю вашу увагу, що головна вимога нашої політичної сили "Опозиційна платформа – За життя" є в наступному, що будь-які зміни до діючого Земельного кодексу, до нового закону можуть бути реалізовані в питанні надання можливості реалізації майнових прав наших громадян на землю виключно після проведення всеукраїнського референдуму.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u112"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u112.p1" xml:lang="uk">Прошу визначатись та голосувати, 3097.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:26:55">17:26:55</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u112.p2" xml:lang="uk">За-68</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u112.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u112.p4" xml:lang="uk">3098. Шуфрич Нестор Іванович.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:27:00">17:27:00</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u113"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u113.p1" xml:lang="uk">Дякую, шановний головуючий.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u113.p2" xml:lang="uk">Вказана правка відноситься до пункту 2 частини третьої статті 13 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень", і вона стосується права власності, довірчої власності тимчасового користування та суб'єкта (суб'єктів) цього права". Далі по тексту поправки.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u113.p3" xml:lang="uk">І в цій же поправці знову ми звертаємо увагу наших колег по парламенту і наполягаємо, що цей закон може бути реалізований виключно після проведення всеукраїнського референдуму, що є принциповою позицією нашої партії "Опозиційна платформа - За життя".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u113.p4" xml:lang="uk">Прошу поставити вказану правку на голосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u114"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u114.p1" xml:lang="uk">Ставлю на голосування 3098. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:28:20">17:28:20</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u114.p2" xml:lang="uk">За-67</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u114.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u114.p4" xml:lang="uk">3100 - знову кругла дата.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:28:26">17:28:26</time>
+            </note>
+            <note type="speaker">ШУФРИЧ Н.І.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u115"
+               who="#НесторІвановичШуфрич.1966"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u115.p1" xml:lang="uk">Кругла цифра. Хоча, ви знаєте, для нас це дійсно вже становиться датами.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u115.p2" xml:lang="uk">Шановні колеги, поправка 3100 стосується пункту 2 частини третьої статті 13 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обмежень", в яку пропонується внести зміни прийняттям закону, який ми зараз розглядаємо. Але в цій же поправці знову-таки визначається, що право на реалізацію майнових прав наших громадян, а просто кажучи, можливості продажу землі наступає виключно після схвалення на всеукраїнському референдумі, де народ України має дати на це дозвіл. А сьогодні більше ніж дві третини наших громадян категорично проти продажу землі.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u115.p3" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u116"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u116.p1" xml:lang="uk">Ставлю на голосування круглу цифру - 3100. Прошу визначатися та голосувати. Нестор Іванович!</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:29:57">17:29:57</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u116.p2" xml:lang="uk">За-74</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u116.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u116.p4" xml:lang="uk">І знову правки Олександра Сергійовича Пономарьова: правка 3101.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:30:05">17:30:05</time>
+            </note>
+            <note type="speaker">ПОНОМАРЬОВ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u117"
+               who="#ОлександрСергійовичПономарьов.1962"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u117.p1" xml:lang="uk">Дякую, Дмитро Олександрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u117.p2" xml:lang="uk">Колеги, далі прошу об'єднати дві технічні правки та поставити їх разом або послідовно на голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u117.p3" xml:lang="uk">"В абзаці 2 частини 3 статті 13 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень", які звучать як відомості про ціну, вартість нерухомого майна, ціну або вартість речових прав чи розмір плати за користування нерухомим майном вноситься до Державного реєстру прав виключно під час державної реєстрації набуття прав на підставі документів, поданих для такої реєстрації. Слово "ціну" виключити".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u117.p4" xml:lang="uk">І наступна правка - 3102: "В пункті 2 частини 3 статті 13 Закону України "Про державну реєстрацію речових прав на нерухоме майно і їх обтяжень" слово "ціну" теж виключити".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u117.p5" xml:lang="uk">Дякую. Дві правки підряд.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u118"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u118.p1" xml:lang="uk">Ставлю на голосування правку 3101. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:31:27">17:31:27</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u118.p2" xml:lang="uk">За-72</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u118.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u118.p4" xml:lang="uk">І 3102. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:31:44">17:31:44</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u118.p5" xml:lang="uk">За-71</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u118.p6" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u118.p7" xml:lang="uk">3103, Скорик.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:31:50">17:31:50</time>
+            </note>
+            <note type="speaker">СКОРИК М.Л.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u119"
+               who="#МиколаЛеонідовичСкорик.1972"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u119.p1" xml:lang="uk">Шановний Дмитро Олександрович, дозволю собі зацитувати дану правку: "У статті 13 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень" пункт 2 частини третьої викласти в наступній редакції: "2) право власності та суб’єкта (суб’єктів) цього права, а також ціну чи вартість такого права;".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u119.p2" xml:lang="uk">Доповнити статтю 13 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень" абзацом в такій редакції: "Забороняється купівля-продаж або іншим способом відчуження земельних ділянок і зміна цільового призначення (використання) земельних ділянок, які перебувають у власності громадян та юридичних осіб для ведення товарного сільськогосподарського виробництва до проведення та встановлення результатів Всеукраїнського референдуму щодо купівлі-продажу земель сільськогосподарського призначення.".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u119.p3" xml:lang="uk">Прошу поставити правку на голосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u120"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u120.p1" xml:lang="uk">Ставлю на голосування 3103. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:32:59">17:32:59</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u120.p2" xml:lang="uk">За-71</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u120.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u120.p4" xml:lang="uk">Микола Леонідович, наступні дві також можемо на підтвердження поставити?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u120.p5" xml:lang="uk">Хвилину включіть, будь ласка. 3104.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:33:06">17:33:06</time>
+            </note>
+            <note type="speaker">СКОРИК М.Л.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u121"
+               who="#МиколаЛеонідовичСкорик.1972"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u121.p1" xml:lang="uk">Дмитро Олександрович, я вкладусь за хвилину. Ви знаєте, я не бачу сенсу наводити в даній ситуації додаткові аргументи. Я їх наводжу, як і мої колеги, і, на жаль, не маю жодних контраргументів з боку доповідача. Ми вислуховуємо доповіді і голосуємо. На жаль, наші правки не приймаються. Я дуже сподіваюся, що коли дійде, дійсно, до прийняття цього законопроекту, то схаменеться більшість і цей закон не буде прийнятий, і все ж таки ми підемо цивілізованим, легітимним шляхом через референдум. Я цього дуже бажаю, в це вірю. Прошу поставити 3104 і 3105 на голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u121.p2" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u122"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u122.p1" xml:lang="uk">Ставлю 3104 на голосування. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:34:09">17:34:09</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u122.p2" xml:lang="uk">За-73</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u122.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u122.p4" xml:lang="uk">3105. Прошу визначатися та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:34:26">17:34:26</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u122.p5" xml:lang="uk">За-71</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u122.p6" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u122.p7" xml:lang="uk">3108. Колтунович.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:34:34">17:34:34</time>
+            </note>
+            <note type="speaker">КОЛТУНОВИЧ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u123"
+               who="#ОлександрСергійовичКолтунович.1987"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u123.p1" xml:lang="uk">Шановний пане Голово, шановні народні депутати, шановні виборці! Колтунович, "Опозиційна платформа – За життя". У цій поправці і коментуючи дану поправку, я хотів би звернути увагу на особливості земельної політики в умовах поглиблення інтеграційних процесів. Я чому на це звертаю увагу? Перепрошую. Тому що на сьогоднішній день Україна, безумовно, обрала для себе один вектор економічної інтеграції. Добре це чи погано? Очевидно, що погано, тому що ми маємо втрати суттєві в торгівлі з нашими східними сусідами.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u123.p2" xml:lang="uk">Але мова не про це. Мова йде про те, що вартість земельних ділянок, які на сьогоднішній день є в країнах Європейського Союзу, жодним чином не корелює з тим, що є в країнах Європейського Союзу і в Україні. Для прикладу: в Австрії – 42 тисячі за гектар, це доларів мається на увазі, в Німеччині – 32 тисячі доларів за гектар, у Великобританії – 31 тисяча доларів за гектар, Нідерланди – 63 тисячі доларів за гектар. Ми пам'ятаємо, що у нас називали тисячу – максимум півтори.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u123.p3" xml:lang="uk">Тому я думаю, що в Україні, навіть якщо навіть після референдуму підтримають це.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u124"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u124.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u124.p2" xml:lang="uk">Ставлю на голосування правку. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:36:01">17:36:01</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u124.p3" xml:lang="uk">За-70</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u124.p4" xml:lang="uk">Рішення не прийнято, правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u124.p5" xml:lang="uk">Наступна правка, Королевська, 3134.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:36:14">17:36:14</time>
+            </note>
+            <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u125"
+               who="#НаталіяЮріївнаКоролевська.1975"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u125.p1" xml:lang="uk">7 хвилин, будь ласка.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u126"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u126.p1" xml:lang="uk">Да, да, да.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:36:22">17:36:22</time>
+            </note>
+            <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u127"
+               who="#НаталіяЮріївнаКоролевська.1975"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p1" xml:lang="uk">7 хвилин. Шановні колеги, шановні присутні! Ми зараз з вами продовжуємо цей земельний марафон, скажемо так, як всією країною донести до "слуг народу", що землю продавати не можна. Як всією країною звернутися до Президента та довести, що: "Шановний пане Президент, ви обіцяли, що тільки через референдум. Ну, будь ласка, ну, зупиніть, зупиніть цей цирк у цьому парламенті. Будь ласка, давайте підемо та проведемо всеукраїнський референдум".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p2" xml:lang="uk">Це дуже важливе питання, це питання, яке турбує кожну українську родину. Це питання, яке вирішує долю України на майбутнє.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p3" xml:lang="uk">Шановний пан Президент, це в вашій силі, це в вашій волі. Сьогодні тільки ви можете змінити ситуацію та змінити думку ваших "слуг" щодо майбутньої долі української землі. А в цей час ми, народні депутати України, повинні в першу чергу прийняти рішення щодо виконання Мінських угод. В цей час ми сьогодні повинні зробити все, щоб захистити людей, людей, які потребують від нас сьогодні підтримки та рішення їх проблем.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p4" xml:lang="uk">Я хочу нагадати в цьому залі ще раз, хто не знає, тому що тут багато молодих облич, які ще не дуже розуміють, хто проживає в нашій країні. А я хочу сказати, що в нашій країні це більше 1 мільйона чорнобильців, які очікують, в квітні місяці будуть роковини трагедії чорнобильської, треба приймати рішення та захищати людей, виправляти помилки режиму Порошенка, коли вони позбавили пільг та компенсацій, та гідних пенсій чорнобильців. Сьогодні треба виконувати рішення Конституційного Суду та захистити наших захисників, наших чорнобильців.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p5" xml:lang="uk">Друге питання – це ветерани труда та ветерани Великої Вітчизняної війни. Та цих людей майже одиниці вже залишилися в країні. Та невже ж ми не можемо зараз замість того, щоб продавати українську землю, розпаювати, роздати цю землю людям, а ще частину землі віддати в оренду та гроші від цієї оренди віддати людям на їх сьогодні заслужені пенсії, на їх сьогодні заслужені пільги, щоб вони відчули хоча б на остаток життя свого нормальне гідне життя в своїй країні, що їх почали поважати? Вони дійсно воювали не за те, щоб сьогодні прийдешнє покоління після них розпродало землю, яку вони захистили.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p6" xml:lang="uk">Шановні колеги, а що зараз відбувається з військовими пенсіонерами? Їм не перераховують пенсію, їм не віддають борги. А це ті люди, які також захищали цю землю, служили цій Батьківщині, нашій з вами Батьківщині. А що ви зараз робите? Ви замість того, щоб віддати їм паї, гарантовані людям Конституцією, ви хочете за них розпродати цю землю, заробити на цій землі замість того, щоб віддати її законно людям.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p7" xml:lang="uk">Шановні, а що робити переселенцям, людям, паї, які даже якщо хтось і отримав, залишились сьогодні на неконтрольованій території? Що робити мешканцям, які проживають вдоль лінії розмежування? Їх паї сьогодні заміновані, їх поля сьогодні поруч з ними заміновані. Як вирішувати це питання? Що ви плануєте продавати? Ну навіщо ви це все тут влаштовуєте, шановні? Навіщо ми вже третій тиждень поспіль вмовляємо вас? Будь ласка, прокиньтеся! Ви зараз віддаєте Україну іноземним радникам, іноземним спекулянтам. Ви віддаєте її за майбутні кредити Міжнародному валютному фонду. Навіщо ви все це робите?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p8" xml:lang="uk">Тому "Опозиційна платформа – За життя" категорично, категорично вимагає: перше – це розпаювати українську землю, віддати землю людям, і хай люди вирішують, що робити в майбутньому з цією землею.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p9" xml:lang="uk">Друге – це об'єднати всі зусилля та провести всеукраїнський референдум. Не маємо ми права приймати рішення за людей. Сьогодні всі соціальні опитування. соціологічні опитування показують, що люди готові йти на референдум, готові брати на себе відповідальність та вирішувати майбутню долю української землі та України. Тому ми вимагаємо провести референдум, підготуватися, а спочатку знайдіть, будь ласка, хоча б міністра сільського господарства в нашій країні. У вас даже міністра немає. Ні міністра економіки. У вас немає сьогодні уряду професійно підготовленого. Про який розпродаж України ви сьогодні говорите? Тому підготуємося до референдуму.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p10" xml:lang="uk">Третє, найголовніше питання. Тільки після того, як люди проголосують на референдумі, приймуть в ньому участь, вирішать долю України, тільки після цього в цьому залі ми можемо з вами розглядати це питання.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p11" xml:lang="uk">Шановні, ну, якщо ви не чуєте наш компромісний до вас план, нашу сьогодні, з разом з людьми, спільнотою, підготовлену пропозицію розпаювати, провести референдум та після цього приймати рішення в цьому залі, шановні, так складіть, будь ласка, мандати та ходімо разом на вибори. Хай люди переоберуть той парламент, який сьогодні, замість вирішення комплексного питань конфігурації економіки, соціального захисту людей, повернення миру в Україну, перше, що бере і робить, він розпродає українську землю, він сьогодні вже бігає по кулуарам і хоче встановлювати казино, вже тут встановлювати казино та "одноруких бандитів" майже в залі парламенту. Навіщо ви все це робите?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p12" xml:lang="uk">Сьогодні у нас є вихід. Є вихід – об'єднуємось для того, щоб повернути мир. Відкладаємо це земельне зараз питання, яке зраджує Україну. Ідемо далі для того, щоб країна стала сильною та квітучою. Для того, щоб кожен громадянин України був впевнений, що його Батьківщина ніколи його не зрадить. Що громадяни України завжди будуть отримувати підтримку з боку українських політиків. І сьогодні у нас з вами є такий шанс. Відкладаємо цей законопроект, ідемо на референдум.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u127.p13" xml:lang="uk">Дякую. І прошу поставити поправки на підтримку.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u128"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p1" xml:lang="uk">3134. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:43:42">17:43:42</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p2" xml:lang="uk">За-62</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p4" xml:lang="uk">3135. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:43:58">17:43:58</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p5" xml:lang="uk">За-60</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p6" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p7" xml:lang="uk">3136. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:44:15">17:44:15</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p8" xml:lang="uk">За-61</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p9" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p10" xml:lang="uk">3137. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:44:31">17:44:31</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p11" xml:lang="uk">За-62</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p12" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p13" xml:lang="uk">3146. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:44:48">17:44:48</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p14" xml:lang="uk">За-63</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p15" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u128.p16" xml:lang="uk">Папієв, 3151.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:44:54">17:44:54</time>
+            </note>
+            <note type="speaker">ПАПІЄВ М.М.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u129"
+               who="#МихайлоМиколайовичПапієв.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u129.p1" xml:lang="uk">Дякую. Шановні народні депутати, ми будемо наполегливо, наша фракція "Опозиційна платформа – За життя" наполегливо достукатися до народних депутатів України від "Слуги народу", пояснювати термінологію цього закону, пояснювати взагалі деталі, пояснювати основоположні оці положення цього закону, які в першу чергу порушують конституційні права та свободи громадян. І кожен раз ми будемо звертати вашу увагу, і нехай нас пробачать громадяни України, бо це в їхніх інтересах робимо. Тільки після проведення всеукраїнського референдуму, якщо народ України дасть добро, будете приймати цей закон. Я впевнений, що громадяни України не дали би добро, і тому ви його намагаєтесь проштовхнути в абсолютно антиконституційний спосіб через залу Верховної Ради.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u129.p2" xml:lang="uk">Дмитре Олександровичу, я просив би вас. Дмитро Олександрович! Дмитро Олександрович!</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u130"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u130.p1" xml:lang="uk">Ставлю на голосування 3151. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:46:24">17:46:24</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u130.p2" xml:lang="uk">За-66</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u130.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u130.p4" xml:lang="uk">Наступна правка - Качний.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:46:34">17:46:34</time>
+            </note>
+            <note type="speaker">КАЧНИЙ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u131"
+               who="#ОлександрСталіноленовичКачний.1968"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u131.p1" xml:lang="uk">Шановні колеги, шановні українці! Що відбувається сьогодні у Верховній Раді? Жодного скликання не було ще такого, щоб була створена монобільшість, щоб не враховувались взагалі жодні пропозиції, жодні правки жодної фракції Верховної Ради. А що просить сьогодні "Опозиційна платформа - За життя" від "слуг народу"? Лише єдине – це почути голос нашого українського народу. І ми бачимо сьогодні, що на селі практично немає жодної людини, яка б хотіла зробити те, щоб вона залишилася без землі. Якщо ви мотивуєте всіх нас і всю Україну тим, що ви хочете зробити так, щоб українці могли продавати свою землю, що ви їх хочете звільнити, як тут хто каже, від кріпацтва, то я хочу вам сказати, що соціологічні опитування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u132"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u132.p1" xml:lang="uk">Ставлю на голосування 3152. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:48:01">17:48:01</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u132.p2" xml:lang="uk">За-62</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u132.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u132.p4" xml:lang="uk">Дубіль, 3154.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:48:09">17:48:09</time>
+            </note>
+            <note type="speaker">ДУБІЛЬ В.О.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u133"
+               who="#ВалерійОлександровичДубіль.1973"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u133.p1" xml:lang="uk">Шановні колеги, шановний український народе, ще раз і ще раз повторюю, що фракція "Батьківщина", як і 73 відсотки людей, категорично проти виступають цього законопроекту про продаж української землі.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u133.p2" xml:lang="uk">Ще раз нагадую монобільшості про ту присягу, яку приймали, і про Конституцію, яка говорить, що земля та її надра є об'єктом права власності українського народу. Земля знаходиться. це є національне багатство і знаходиться під особливою охороною.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u133.p3" xml:lang="uk">Що стосується правки. Пропонується встановити ціну, вартість речового права згідно з її експертною оцінкою, що, на мій погляд, цілком доречно, щоб не було чи завищення, чи заниження такої ціни, а вона була об'єктивна та економічно обґрунтована експертами.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u133.p4" xml:lang="uk">Ставте на голосування. Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u134"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u134.p1" xml:lang="uk">Ставлю на голосування правку 3154 Дубеля. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:49:14">17:49:14</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u134.p2" xml:lang="uk">За-69</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u134.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u134.p4" xml:lang="uk">3157, Івченко.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:49:19">17:49:19</time>
+            </note>
+            <note type="speaker">ІВЧЕНКО В.Є.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u135"
+               who="#ВадимЄвгеновичІвченко.1980"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u135.p1" xml:lang="uk">Шановні колеги, Вадим Івченко, фракція "Батьківщина". Ви знаєте, як сказав великий класик - Президент України Володимир Зеленський: влада робить крок у прірву, коли втрачає пам'ять, коли втрачає рух і коли втрачає зір. Так я хочу нагадати кожному з вас. На сьогоднішній день в Україні діє Закон України про референдум 91-го року. Ми як "Батьківщина" почали збирати через місцеві ради ініціативні групи. Ми будемо по цьому закону проводити всеукраїнський референдум, щоб показати кожному з вас, наскільки ви помилилися.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u135.p2" xml:lang="uk">І друге. Колеги, зір. Подивіться, будь ласка, на перекриття доріг. Подивіться, будь ласка, що робили аграрії в Києві не перший раз. Подивіться, будь ласка, коли вони сюди приїжджали на тракторах і комбайнах. Колеги, подивіться, будь ласка, що аграрії говорять. Не втрачайте, будь ласка, рух і зір і слухайте.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u136"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u136.p1" xml:lang="uk">Ставлю правку на голосування. Прошу визначатись та голосувати.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:50:45">17:50:45</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u136.p2" xml:lang="uk">За-67</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u136.p3" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u136.p4" xml:lang="uk">Пономарьов 3172.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:50:51">17:50:51</time>
+            </note>
+            <note type="speaker">ПОНОМАРЬОВ О.С.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u137"
+               who="#ОлександрСергійовичПономарьов.1962"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u137.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u137.p2" xml:lang="uk">Пономарьов Олександр, Запорізька область. Також технічна правка. Задля того, щоб не допускати різного тлумачення законодавства прошу в пункті 3 частини три статті в 13 Закону України "Про державну реєстрацію речових прав на нерухоме майно та їх обтяжень" слово "ціну" виключити.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u137.p3" xml:lang="uk">Дякую. Прошу ставити на голосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u138"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u138.p1" xml:lang="uk">Ставлю на голосування 3172. Прошу визначатись та голосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u138.p2" xml:lang="uk">Перерив оголосити? Можемо просто продовжити на 15 хвилин, якщо так питання.</seg>
+               <note type="time">
+                  <time when="2020-03-05T17:51:45">17:51:45</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u138.p3" xml:lang="uk">За-64</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u138.p4" xml:lang="uk">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u138.p5" xml:lang="uk">Продовжити на 15 хвилин? Бажання залу, це. Продовжуємо на 15 хвилин.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u138.p6" xml:lang="uk">3173, Скорик. Включіть мікрофон, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u138.p7" xml:lang="uk">Далі. Королевська - 3182. 10 хвилин дайте.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:52:30">17:52:30</time>
+            </note>
+            <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u139"
+               who="#НаталіяЮріївнаКоролевська.1975"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u139.p1" xml:lang="uk">Шановні колеги, 3183, прошу 10 хвилин.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u140"
+               who="#ДмитроОлександровичРазумков.1983"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u140.p1" xml:lang="uk">10 хвилин дайте.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T17:52:40">17:52:40</time>
+            </note>
+            <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u141"
+               who="#НаталіяЮріївнаКоролевська.1975"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p1" xml:lang="uk">10 хвилин будь ласка. Шановні колеги, ми всі дуже добре розуміємо, що ви вже всі втомилися, але ж ми будемо вас брати ізмором. Якщо ви не маєте бажання відкласти цей законопроект, тоді ви будете нас цілодобово слухати. І ми будемо доводити вам думку, що не можна продавати українську землю, що треба іти на всеукраїнський референдум. І я от хочу, щоб телеглядачі побачили, як зараз убегают з зали, як вони не працюють, як вони не читають законопроекти, як вони взагалі не розуміють, про що йде мова. А мова іде, шановні, про українську землю. І якщо ви не хочете нас слухати, то я вам зараз буду читати ті питання, які ставлять люди, які щоденно, щодоби присилають нам, до "Опозиційної платформи – За життя", в наші депутатські приймальні, в наші партійні приймальні, на наші сторінки в Facebook, де люди до нас звертаються з проханням, щоб ви почули, почули їх голос. І перше питання, яке нам поставила Вікторія Ващенко: "Чому влада іде проти волі народу, добре знаючи, що народ проти? Ви що, вороги народу? Так і запитайте у них." Народ запитує: "Ви що, вороги?". Шановні, навіщо ви це робите?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p2" xml:lang="uk">Наступне питання - Людмила Парафіла: "Чому людям не роздали землю, що безкоштовно належить? Ми ж до вас звертаємось! Розпаюйте ви, віддайте людям Конституцією гарантовану землю. Чого ви не даєте їм землю?".</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p3" xml:lang="uk">Наступне питання. Люди питають: влада повинна подати розрахунок ефекту відпродажу землі. Це Дніпро, Анатолій Доброгорський.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p4" xml:lang="uk">Шановні, а чому ви не даєте цей розрахунок? А я дам відповідь людям, чому. Та тому що у вас немає цього розрахунку. Тому що цю землю за безцінок хочуть продати. І тут мій колега Нестор Шуфрич, Олександр Пономарьов, пан Скорик вже неодноразово доводили, що ви за безцінок хочете продати цю землю. Тому що сьогодні немає реальної ринкової ціни. Тому що немає ринку землі в країні, де йдуть бойові дії, де частина землі замінована. Частина землі зараз, на жаль, знаходиться на непідконтрольній території.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p5" xml:lang="uk">Ви всі питаєте: Крим – це Україна? Та, безумовно, Крим – Україна. Але ж, на жаль, ми знаємо з вами зараз, що до землі до кримської, як ви достанете? Чи ви будете ф'ючерси продавати? Шановні, може, досить оцю комедію тут ламати? Це життя реальне. Це не серіал "Слуга народу", другий сезон. Це ж життя людське. І люди ставлять вам наступне питання.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p6" xml:lang="uk">Микола Смірнов, місто Маріуполь: "Коли приймуть референдум?" Ну чого ви боїтесь? Ідіть на референдум, спитайте у людей. Не треба ховатися під куполом. Не треба ховатися сьогодні під депутатським значком. Ідіть до людей. Проводимо референдум. Отримаємо відповідь. Скажуть нам люди: "довіряємо вам, продавайте українську землю", - тоді будемо продавати. А скажуть люди: "не чіпайте нашу землю рідну, не треба вам сьогодні це питання взагалі піднімати", - тоді ми і не будемо ніколи продавати українську землю. Тому що тільки люди на всеукраїнському референдумі, мають право приймати це рішення.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p7" xml:lang="uk">Наступне питання ставить з міста Дніпро Анатолій Доброгорський: "Що отримає Україна від продажу землі?" Шановні, що отримає Україна від продажу землі? Кредит МВФ вона отримає, який тут же розграбують та проїдять - і все. Не буде ні кредиту, ні землі. Ось що люди отримають.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p8" xml:lang="uk">А "Слуги народу" навіть не мають, що вам відповісти. Тому що вони розуміють, що їх останній шанс хоч щось ще продати: стратегічні підприємства, землю. І на цьому вони можуть вже назавжди піти з політики тому що після цього це вже будуть заможні люди.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p9" xml:lang="uk">Тому, коли у нас зараз кажуть, що немає у нас корупції, що немає у нас сьогодні глобальної корупції, то, шановні колеги, ось це і є корупція політична. Коли тут приймають рішення не за волею людей, а всупереч волі людей. І тому ми категорично сьогодні вимагаємо, щоб йшли до людей і питали, щоб люди вам надали відповідь.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p10" xml:lang="uk">В цьому залі парламенту було багато поколінь та багато созивів різних, але жодна команда, жодний созив парламенту, жодне скликання депутатське не підняло руку на українську землю. Тому що дуже добре розуміли: які б скрутні часи ми не переживали, як би важко не було Україні, які б кризи, лиха не проносились по нашій країні, але ніхто не чіпав українську землю. Тому що всі розуміли, це як золотий запас, це як на чорний день, це як бабулечка на поховання собі відкладає гроші та збирає їх кожен день.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p11" xml:lang="uk">Тому що люди дуже добре розуміють, що земля українська - це те, що треба передати наступним поколінням. Це те, що треба сьогодні вирішити дуже грамотно, професійно, щоб цю землю використовували, щоб там створювали сільськогосподарські підприємства, щоб була забезпечена соціальна структура, щоб на селі були робочі місця, щоб у нас була якісна переробка, щоб ми створювали додаткову стоимость. Щоб у нас в країні були високооплачувані робочі місця, щоб люди жили в країні та вірили в майбутнє та були впевнені, що наступні покоління не батрачити поїдуть в Європу, а вони будуть дійсно отримувати ті заробітні плати та пенсії, які люди сьогодні отримують в Європі. Тому що недостатньо одних гасел "Ми йдемо в Європу!", цього недостатньо. Ми повинні сьогодні своїми справами доводити, що йти в Європу – це тут, в Україні, створювати справедливу систему соціального захисту, систему правосуддя, систему фінансову, податкову, митну систему. Сьогодні тут побороти корупцію в нашій країні, а не відкривати наступні корупційні цілі гавані. Це ж гавань буде корупційна, рейдерська гавань. Хто зможе правильно сьогодні проконтролювати, щоб у бабулі. у яких даже є сьогодні пай, щоб цей пай не відібрали, щоб завтра бандити не поїхали по селам та не переписали собі цю землю безкоштовно або за копійки? Хто сьогодні зможе прогарантувати, що той кадастр, який є чи буде створений, що там буде відображений дійсний власник того паю, а не переписаний якийсь лист на якогось бандюгана?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p12" xml:lang="uk">Шановні, у нас з вами так багато викликів. У нас зараз з вами так багато справ. У нас з вами зараз ще так багато треба вирішити питань, а ми з вами зараз сваримося, сваримося, тому що ми не маємо права хоч крок назад відступити від цього рішення. Ми не маємо права сьогодні віддати українську землю. І тому ми вас просимо, шановні народні депутати, вас обрали люди, люди вам довірили, люди дали вам право представляти їх інтереси тут, в парламенті, приймати рішення. Але ж ви обіцяли, обіцяли, що ви всі важливі рішення будете приймати тільки через референдум. І люди не давали вам права приймати рішення щодо майбутнього української землі.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p13" xml:lang="uk">Ми підготували і завдяки Василю Німченко вже є підготовлений законопроект щодо проведення всеукраїнського референдуму. І наша команда наполягає на тому, щоб ми провели зараз закон, прийняли рішення, як проводити референдум, та пішли до людей. Іншого шляху немає. В іншому шляху, якщо ви будете брати на себе відповідальність та рухатись до продажу землі, ви должны розуміти, що ніколи люди не сприймуть це рішення, що це буде таке протистояння в суспільстві, що це буде хаос і безлад. Но цього ж нам сьогодні не потрібно. Ми ж повинні бути сильною, єдиною страной. Ми повинні сьогодні зробити все, щоб повернути до себе і Донецьк, і Луганськ, щоб нас поважали в усьому світі, щоб люди сьогодні отримали підтримку від нас, а ні в якому разі не створювати додаткові точки напруження, коли люди будуть повинні виходити на вулиці, щоб захистити своє право, своє право володіти українською своєю землею, щоб отримати своє право, отримати свій пай та захищати його, як захищали його наші батьки та пращури.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u141.p14" xml:lang="uk">Шановні колеги, ми сьогодні закінчуємо наш пленарний день. Ми сьогодні з вами багато разів спілкувалися, що треба вирішити це питання та відкласти вбік рішення щодо землі, що треба сьогодні терміново прийняти закон про референдум, який підготувала "Опозиційна платформа – За життя", йти та голосувати, та питати людей. А самим треба сьогодні відкладати землю вбік.</seg>
+            </u>
+            <note type="time">
+               <time when="2020-03-05T18:02:46">18:02:46</time>
+            </note>
+            <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України</note>
+            <note type="narrative">СТЕФАНЧУК Р.О.</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2020-03-05-m1.u142"
+               who="#РусланОлексійовичСтефанчук.1975"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u142.p1" xml:lang="uk">Дякую, Наталія Юріївна.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u142.p2" xml:lang="uk">Наталія Юріївна, я навіть не хочу сьогодні омрачати такий чудовий, завершальний фінальний спіч голосуванням.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u142.p3" xml:lang="uk">Тому шановні колеги, голосування перенесемо на завтра, а я закриваю вечірнє засідання Верховної Ради України. Дякую.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

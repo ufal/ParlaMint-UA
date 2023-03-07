@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-UA_2017-01-19-m1"
+     xml:lang="uk"
+     ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term 8, session 5, sitting day 2017-01-19, n1 [ParlaMint]</title>
+            <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 5 сесія, дата пленарного засідання 2017-01-19, номер засідання №1 [ParlaMint]</title>
+            <meeting ana="#parla.term #parla.uni" n="8" corresp="#ВРУ">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="5" corresp="#ВРУ">5</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2017-01-19" corresp="#ВРУ">2017-01-19</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Data retrieval</resp>
+               <resp xml:lang="uk">Збирання даних</resp>
+               <resp xml:lang="en">TEI XML corpus encoding</resp>
+               <resp xml:lang="uk">Програмування корпусу у форматі TEI XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Kryvenko</persName>
+               <resp xml:lang="en">Manual metadata retrieval</resp>
+               <resp xml:lang="uk">Ручне збирання метаданих</resp>
+               <resp xml:lang="en">Translations</resp>
+               <resp xml:lang="uk">Переклад</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">CLARIN ERIC</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+               <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="1" xml:lang="en">1 speeches</measure>
+            <measure unit="speeches" quantity="1" xml:lang="uk">1 виступів</measure>
+            <measure unit="words" quantity="357" xml:lang="en">357 words</measure>
+            <measure unit="words" quantity="357" xml:lang="uk">357 слів</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
+            </availability>
+            <date when="2023-03-07">2023-03-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="uk">Верховна Рада України</title>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/6408.html</idno>
+               <date when="2017-01-19">2017-01-19</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="uk">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівняльних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="9"/>
+               <tagUsage gi="seg" occurs="12"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="3"/>
+               <tagUsage gi="u" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Верховна Рада України</name>
+               <name type="address">вулиця Михайла Грушевського, 5</name>
+               <name type="city">Київ</name>
+               <name key="UA" type="country">Україна</name>
+               <date when="2017-01-19">2017-01-19</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 19 січня 2017</note>
+            <note type="comment">ЗАСІДАННЯ П'ЯТДЕСЯТ ДРУГЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="time">19 січня 2017 року, 16 година</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>
+            <note type="time">
+               <time when="2017-01-19T16:00:32">16:00:32</time>
+            </note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2017-01-19-m1.u1"
+               who="#АндрійВолодимировичПарубій.1971"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2017-01-19-m1.u1.p1" xml:lang="uk">Шановні колеги, прошу заходити в зал, підготуватись до реєстрації. Будь ласка, прошу голів фракцій запросити депутатів в зал.</seg>
+               <seg xml:id="ParlaMint-UA_2017-01-19-m1.u1.p2" xml:lang="uk">Отже, колеги, прошу підготуватись до реєстрації. Прошу провести реєстрацію, колеги, будь ласка.</seg>
+               <note type="time">
+                  <time when="2017-01-19T16:03:57">16:03:57</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2017-01-19-m1.u1.p3" xml:lang="uk">Зареєстровано 336 карточок. Вечірнє засідання Верховної Ради України оголошую відкритим.</seg>
+               <seg xml:id="ParlaMint-UA_2017-01-19-m1.u1.p4" xml:lang="uk">Але, колеги, у мене є підозра, що в залі не депутатів 336, а карточок 336. І я хочу вам сказати, що зараз я проведу рейтингове голосування на особисту присутність депутатів у залі колеги. У нас наступний проект закону – це Закон України "Про оцінку впливу на довкілля", який має велике міжнародне значення для України. І я не можу дозволити, щоб ми провалювали закони того рівня, які вдарять по авторитету нашої держави. Тому, шановні колеги, зараз я проведу персональне голосування на предмет присутності депутатів у залі. І я прошу усіх приготуватися до персонального рейтингового голосування на предмет присутності депутатів у залі. Прошу запросити депутатів у зал і прошу приготуватись до рейтингового голосування. Я почекаю 30 секунд. Прошу зайти і приготуватись.</seg>
+               <seg xml:id="ParlaMint-UA_2017-01-19-m1.u1.p5" xml:lang="uk">Отже, готові? Зараз я проводжу персональне рейтингове голосування. Якщо у залі буде недостатньо голосів для проведення сесії, я просто закрию засідання, колеги.</seg>
+               <seg xml:id="ParlaMint-UA_2017-01-19-m1.u1.p6" xml:lang="uk">Отже, займайте робочі місця. Вважаю, не прийнятним таке відношення до роботи. На Погоджувальній раді маса звернень стосовно того чи іншого законопроекту, а коли ми приходимо до прийняття рішень, в залі просто немає дисципліни необхідної для роботи. Я більше не буду вмовляти з трибуни, я просто закрию засідання, колеги.</seg>
+               <seg xml:id="ParlaMint-UA_2017-01-19-m1.u1.p7" xml:lang="uk">Отже, прошу взяти участь в рейтинговому голосуванні на предмет персональної присутності депутатів в залі. Прошу проголосувати і прошу взяти участь голосувати "за". Будь ласка, голосуємо, колеги.</seg>
+               <note type="time">
+                  <time when="2017-01-19T16:07:24">16:07:24</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2017-01-19-m1.u1.p8" xml:lang="uk">За-167</seg>
+               <seg xml:id="ParlaMint-UA_2017-01-19-m1.u1.p9" xml:lang="uk">167 – "за", 1 – "проти", 1 – "утримався". Таким чином, в залі 169.</seg>
+               <seg xml:id="ParlaMint-UA_2017-01-19-m1.u1.p10" xml:lang="uk">Включіть по фракціям, будь ласка. "Блок Петра Порошенка" – 56, "Народний фронт" – 43, "Опозиційний блок" – 13, "Самопоміч" – 16, Радикальна партія – 14, "Батьківщина" – 6, "Відродження" – 7, "Воля народу" – 1.</seg>
+               <seg xml:id="ParlaMint-UA_2017-01-19-m1.u1.p11" xml:lang="uk">Колеги, я більше не буду вмовляти. У зв'язку з тим, що немає необхідної кількості депутатів, я оголошую вечірнє засідання Верховної Ради України закритим, колеги.</seg>
+               <seg xml:id="ParlaMint-UA_2017-01-19-m1.u1.p12" xml:lang="uk">Завтра о 10 годині прошу всіх прибути в зал. Завтра буде заключний день нашої сесії. Завтра "година Уряду", після "години Уряду" будемо закривати сесію. Завтра о 10 годині прошу всіх прибути в сесійний зал для "години запитань до Уряду".</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

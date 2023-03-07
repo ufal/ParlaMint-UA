@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-UA_2017-03-15-m0"
+     xml:lang="uk"
+     ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term 8, session 6, sitting day 2017-03-15, n0 [ParlaMint]</title>
+            <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 6 сесія, дата пленарного засідання 2017-03-15, номер засідання №0 [ParlaMint]</title>
+            <meeting ana="#parla.term #parla.uni" n="8" corresp="#ВРУ">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="6" corresp="#ВРУ">6</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2017-03-15" corresp="#ВРУ">2017-03-15</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Data retrieval</resp>
+               <resp xml:lang="uk">Збирання даних</resp>
+               <resp xml:lang="en">TEI XML corpus encoding</resp>
+               <resp xml:lang="uk">Програмування корпусу у форматі TEI XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Kryvenko</persName>
+               <resp xml:lang="en">Manual metadata retrieval</resp>
+               <resp xml:lang="uk">Ручне збирання метаданих</resp>
+               <resp xml:lang="en">Translations</resp>
+               <resp xml:lang="uk">Переклад</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">CLARIN ERIC</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+               <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="6" xml:lang="en">6 speeches</measure>
+            <measure unit="speeches" quantity="6" xml:lang="uk">6 виступів</measure>
+            <measure unit="words" quantity="445" xml:lang="en">445 words</measure>
+            <measure unit="words" quantity="445" xml:lang="uk">445 слів</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
+            </availability>
+            <date when="2023-03-07">2023-03-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="uk">Верховна Рада України</title>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/6447.html</idno>
+               <date when="2017-03-15">2017-03-15</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="uk">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівняльних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="3"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="1"/>
+               <tagUsage gi="note" occurs="17"/>
+               <tagUsage gi="seg" occurs="15"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="4"/>
+               <tagUsage gi="u" occurs="6"/>
+               <tagUsage gi="vocal" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Верховна Рада України</name>
+               <name type="address">вулиця Михайла Грушевського, 5</name>
+               <name type="city">Київ</name>
+               <name key="UA" type="country">Україна</name>
+               <date when="2017-03-15">2017-03-15</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 15 березня 2017</note>
+            <note type="comment">ЗАСІДАННЯ П'ЯТНАДЦЯТЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="time">15 березня 2017 року, 10 година</note>
+            <note type="narrative">Веде засідання заступник Голови Верховної Ради України</note>
+            <note type="narrative">СИРОЇД О.І.</note>
+            <note type="time">
+               <time when="2017-03-15T10:01:48">10:01:48</time>
+            </note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2017-03-15-m0.u1"
+               who="#ОксанаІванівнаСироїд.1976"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u1.p1" xml:lang="uk">Доброго ранку, шановні народні депутати. Ми будемо розпочинати нашу роботу. Прошу підготуватися до реєстрації.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u1.p2" xml:lang="uk">Прошу народних депутатів зареєструватися.</seg>
+               <note type="time">
+                  <time when="2017-03-15T10:02:05">10:02:05</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u1.p3" xml:lang="uk">В залі зареєстровано 340 народних депутатів. Ранкове пленарне засідання Верховної Ради України оголошую відкритим.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u1.p4" xml:lang="uk">Сьогодні день народження народного депутата Наталії Володимирівни Кацер-Бучковської. Прошу привітати Наталію Володимирівну.</seg>
+               <kinesic type="applause">
+                  <desc>(Оплески)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u1.p5" xml:lang="uk">Шановні народні депутати, до головуючої надійшло звернення від двох депутатських фракцій, від депутатської фракції "Народний фронт" та депутатської фракції "Блоку Петра Порошенка", з проханням оголосити перерву в пленарному засіданні на 30 хвилин.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u1.p6" xml:lang="uk">Відповідно до частини сьомої статті 51 я оголошую перерву на 30 хвилин у ранковому засіданні, до 10 години 30 хвилин. Перерва до 10 години 30 хвилин.</seg>
+            </u>
+            <note type="time">
+               <time when="2017-03-15T10:33:10">10:33:10</time>
+            </note>
+            <note type="comment">(Після перерви)</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2017-03-15-m0.u2"
+               who="#ОксанаІванівнаСироїд.1976"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u2.p1" xml:lang="uk">Шановні народні депутати, продовжуємо нашу роботу. Народні депутати, які, вірніше, депутати від двох фракцій, які просили перерву, наполягають на тому, аби мати виступ з трибуни. І хоча це не відповідає нормам Регламенту, але за наполяганням двох фракцій я надаю слово народному депутату Юрію Березі. Прошу.</seg>
+            </u>
+            <note type="time">
+               <time when="2017-03-15T10:33:32">10:33:32</time>
+            </note>
+            <note type="speaker">БЕРЕЗА Ю.М.</note>
+            <u xml:id="ParlaMint-UA_2017-03-15-m0.u3"
+               who="#ЮрійМиколайовичБереза.1970"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u3.p1" xml:lang="uk">Шановні колеги, шановний український народ!</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u3.p2" xml:lang="uk">В моїй країні, в нашій країні, сьогодні ввечері, точніше вчора ввечері, відбулася подія, яку я не можу і ніхто з нормальних людей не може обійти стороною. Є люди, які не вчили історію України, і навіть ці люди знаходяться в стінах парламенту і не пам'ятають, що століття назад завдяки хаосу, махновщині і всім іншим подіям, які відбувались на території України, ми втратили державність і потрапили на 100 років в полон до східного сусіда.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u3.p3" xml:lang="uk">Вчора в Краматорську один народний депутат сказав, що начальник краматорської поліції Олександр Малиш, боєць полку "Дніпро-1", тяжко поранений в Іловайську, вилізши з того світу, повернувся до життя, пройшовши підготовку поліцейського, і очолив поліцію Краматорська – він є взірцем поліцейського. Народні депутати або народний депутат, який, прикриваючись своїм мандатом, своїм посвідченням, дозволив собі бити працівників поліції. Я не знаю, куди ми повинні далі падати і на яке дно. Я знаю чітко, що ні один народний депутат не має собі права дозволити розпускати руки до тих, хто не захищений перед ними. Скажіть, будь ласка, начальник поліції Малиш, поранений, зранений, як йому захиститься від народного депутата?</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u3.p4" xml:lang="uk">Зараз я хочу, звертаюсь до головуючого в залі, запросити поліцейських до цієї зали, щоб вони розповіли про те, що відбувалося вчора. Як народний депутат дозволяє собі вести себе до правоохоронців? Там всі люди, які пройшли війну, всі зранені і поранені.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u3.p5" xml:lang="uk">І тому я прошу, пані головуюча, допустити до зали і дати право на виступ бійцям Національної гвардії і представникам Національної поліції, я прошу. Я прошу.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2017-03-15-m0.u4"
+               who="#ОксанаІванівнаСироїд.1976"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u4.p1" xml:lang="uk">Будь ласка, 30 секунд.</seg>
+            </u>
+            <note type="speaker">БЕРЕЗА Ю.М.</note>
+            <u xml:id="ParlaMint-UA_2017-03-15-m0.u5"
+               who="#ЮрійМиколайовичБереза.1970"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u5.p1" xml:lang="uk">Це вимога трьох фракцій. Ми наголошуємо на тому, що на сьогоднішній день стоїть питання виживання держави, виживання української України, яку зараз терзають зовнішній ворог. Внутрішній ворог он радіє з цього, який сидить в цій залі! Радіє з цього! Ми з ними тут не розібралися.</seg>
+            </u>
+            <vocal type="noise">
+               <desc>(Шум у залі)</desc>
+            </vocal>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2017-03-15-m0.u6"
+               who="#ОксанаІванівнаСироїд.1976"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2017-03-15-m0.u6.p1" xml:lang="uk">Ранкове засідання оголошую закритим.</seg>
+            </u>
+            <vocal type="noise">
+               <desc>(Шум у залі)</desc>
+            </vocal>
+         </div>
+      </body>
+   </text>
+</TEI>
