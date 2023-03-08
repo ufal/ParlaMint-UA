@@ -166,7 +166,6 @@ tei-UD-last: $(tei-UD-RUN-LAST)
 tei-UD-all: $(tei-UD-RUN-ALL)
 
 $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
-	echo "TODO: preprocess with language detection"
 	mkdir -p $(DATADIR)/tei-UD/$*/
 	find $(DATADIR)/tei-text-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > $(DATADIR)/tei-UD/$*.fl
 	cp $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml $(DATADIR)/tei-UD/$*/
@@ -184,10 +183,28 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 
 
 
-
-
 TEI-UD_DATA_LAST := $(shell ls $(DATADIR)/tei-UD | grep -v '_'|grep -v '\.fl$$' | sort -r | head -n1)
 TEI-UD_DATA_ALL := $(shell ls $(DATADIR)/tei-UD | grep -v '\.fl$$')
+tei-NER-RUN-LAST = $(addprefix tei-NER-, $(TEI-UD_DATA_LAST))
+tei-NER-RUN-ALL = $(addprefix tei-NER-, $(TEI-UD_DATA_ALL))
+tei-NER: tei-NER-last
+tei-NER-last: $(tei-NER-RUN-LAST)
+tei-NER-all: $(tei-NER-RUN-ALL)
+
+$(tei-NER-RUN-ALL): tei-NER-%: lib nametag2
+	mkdir -p $(DATADIR)/tei-NER/$*/
+	find $(DATADIR)/tei-UD/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > $(DATADIR)/tei-NER/$*.fl
+	cp $(DATADIR)/tei-UD/$*/ParlaMint-UA.xml $(DATADIR)/tei-NER/$*/
+	perl -I lib nametag2/nametag2.pl $(TOKEN) \
+	                                 --model "uk:ukrainian-languk-230306" \
+	                                 --filelist $(DATADIR)/tei-NER/$*.fl \
+	                                 --input-dir $(DATADIR)/tei-UD/$*/ \
+	                                 --output-dir $(DATADIR)/tei-NER/$*/
+
+TEI-NER_DATA_LAST := $(shell ls $(DATADIR)/tei-NER | grep -v '_'|grep -v '\.fl$$' | sort -r | head -n1)
+TEI-NER_DATA_ALL := $(shell ls $(DATADIR)/tei-NER | grep -v '\.fl$$')
+
+
 speaker-calls-RUN-ALL = $(addprefix speaker-calls-, $(TEI-UD_DATA_ALL))
 speaker-calls-RUN-LAST = $(addprefix speaker-calls-, $(TEI-UD_DATA_LAST))
 ## speaker-calls ## speaker-callss
@@ -404,8 +421,8 @@ $(listPerson-affiliation-fix-RUN-LAST): listPerson-affiliation-fix-%:
 PARTICDESC_DATA_LAST := $(shell ls $(DATADIR)/tei-particDesc | grep -v '_' | sort -r | head -n1)
 
 
-TEI.ana-RUN-ALL = $(addprefix TEI.ana-, $(TEI-UD_DATA_ALL))
-TEI.ana-RUN-LAST = $(addprefix TEI.ana-, $(TEI-UD_DATA_LAST))
+TEI.ana-RUN-ALL = $(addprefix TEI.ana-, $(TEI-NER_DATA_ALL))
+TEI.ana-RUN-LAST = $(addprefix TEI.ana-, $(TEI-NER_DATA_LAST))
 ## TEI.ana ## TEI.anas
 TEI.ana: TEI.ana-last
 TEI.ana-last: $(TEI.ana-RUN-LAST)
@@ -421,11 +438,10 @@ $(TEI.ana-RUN-ALL): TEI.ana-%:
 	    inTaxonomiesDir=$(TAXONOMIES) \
 	    speakers=$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv \
 	    type=TEI.ana \
-	    $(DATADIR)/tei-UD/$*/ParlaMint-UA.xml
-	echo "TODO: change path when tei-NER is implemented"
+	    $(DATADIR)/tei-NER/$*/ParlaMint-UA.xml
 
-TEI-RUN-ALL = $(addprefix TEI-, $(TEI-UD_DATA_ALL))
-TEI-RUN-LAST = $(addprefix TEI-, $(TEI-UD_DATA_LAST))
+TEI-RUN-ALL = $(addprefix TEI-, $(TEI-NER_DATA_ALL))
+TEI-RUN-LAST = $(addprefix TEI-, $(TEI-NER_DATA_LAST))
 ## TEI.ana ## TEI.anas
 TEI: TEI-last
 TEI-last: $(TEI-RUN-LAST)
@@ -542,10 +558,12 @@ $(DEV-prepare-test-downdata): DEV-prepare-test-downdata-%:
 
 
 ######---------------
-prereq: udpipe2 lib
+prereq: udpipe2 nametag2 lib
 
 udpipe2:
 	svn checkout https://github.com/ufal/ParCzech/trunk/src/udpipe2
+nametag2:
+	svn checkout https://github.com/ufal/ParCzech/trunk/src/nametag2
 lib:
 	svn checkout https://github.com/ufal/ParCzech/trunk/src/lib
 ######---------------
