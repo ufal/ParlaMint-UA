@@ -205,6 +205,25 @@ TEI-NER_DATA_LAST := $(shell ls $(DATADIR)/tei-NER | grep -v '_'|grep -v '\.fl$$
 TEI-NER_DATA_ALL := $(shell ls $(DATADIR)/tei-NER | grep -v '\.fl$$')
 
 
+brat-NER-RUN-ALL = $(addprefix brat-NER-, $(TEI-NER_DATA_ALL))
+brat-NER-RUN-LAST = $(addprefix brat-NER-, $(TEI-NER_DATA_LAST))
+## brat-NER ## brat-NERs
+brat-NER: brat-NER-last
+brat-NER-last: $(brat-NER-RUN-LAST)
+brat-NER-all: $(brat-NER-RUN-ALL)
+
+## brat-NER-RUN ##
+$(brat-NER-RUN-ALL): brat-NER-%:
+	mkdir -p $(DATADIR)/brat-NER/$*
+	for xml in `cat $(DATADIR)/tei-NER/$*.fl`; \
+	do \
+	  $s -xsl:Scripts/ParlaMintNER2brat.xsl \
+	    outFilePrefix="$(DATADIR)/brat-NER/$*/$$xml" \
+	    tokenize=1 \
+	    $(DATADIR)/tei-NER/$*/$$xml ;\
+	done
+
+
 speaker-calls-RUN-ALL = $(addprefix speaker-calls-, $(TEI-UD_DATA_ALL))
 speaker-calls-RUN-LAST = $(addprefix speaker-calls-, $(TEI-UD_DATA_LAST))
 ## speaker-calls ## speaker-callss

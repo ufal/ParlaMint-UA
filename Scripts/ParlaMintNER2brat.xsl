@@ -7,13 +7,16 @@
   exclude-result-prefixes="xsl tei xs"
   version="2.0">
 
-  <xsl:param name="outDir">.</xsl:param>
+  <xsl:param name="outFilePrefix"><xsl:value-of select="base-uri()"/></xsl:param>
+  <xsl:param name="tokenize"/>
+  <xsl:variable name="tok">
+    <xsl:if test="$tokenize">.tok</xsl:if>
+  </xsl:variable>
   <xsl:output method="text"/>
 
   <xsl:variable name="fileIn" select="replace(base-uri(), '.*/', '')"/>
-  <xsl:variable name="fileOutPref" select="concat($outDir,'/',$fileIn)"/>
-  <xsl:variable name="fileOutTXT" select="concat($fileOutPref,'.txt')"/>
-  <xsl:variable name="fileOutANN" select="concat($fileOutPref,'.ann')"/>
+  <xsl:variable name="fileOutTXT" select="concat($outFilePrefix,$tok,'.txt')"/>
+  <xsl:variable name="fileOutANN" select="concat($outFilePrefix,$tok,'.ann')"/>
 
 
   <xsl:variable name="text">
@@ -28,7 +31,6 @@
     </xsl:result-document>
     <xsl:value-of select="concat('Saving ', $fileOutANN,'&#10;')"/>
     <xsl:result-document href="{$fileOutANN}">
-      <xsl:value-of select="$fileOutANN"/>
       <xsl:apply-templates select="$text/descendant-or-self::text()[1]" mode="ann">
         <xsl:with-param name="offset">0</xsl:with-param>
         <xsl:with-param name="ident">0</xsl:with-param>
@@ -44,7 +46,7 @@
   </xsl:template>
   <xsl:template match="tei:w | tei:pc" mode="clean">
     <xsl:value-of select="./text()[normalize-space(.)]"/>
-    <xsl:if test="not(@join) and ./following-sibling::tei:*/descendant-or-self::tei:*[name() = 'pc' or name() = 'w'] ">
+    <xsl:if test="(not(@join) or not($tok = '') ) and ./following-sibling::tei:*/descendant-or-self::tei:*[name() = 'pc' or name() = 'w'] ">
       <xsl:text> </xsl:text>
     </xsl:if>
   </xsl:template>
@@ -52,14 +54,14 @@
     <xsl:element name="{@type}">
       <xsl:apply-templates select="tei:*" mode="clean"/>
     </xsl:element>
-    <xsl:if test="not(./descendant::tei:*[name() = 'pc' or name() = 'w'][last()][@join]) and ./following-sibling::tei:*/descendant-or-self::tei:*[name() = 'pc' or name() = 'w']">
+    <xsl:if test="(not(./descendant::tei:*[name() = 'pc' or name() = 'w'][last()][@join]) or not($tok = '')) and ./following-sibling::tei:*/descendant-or-self::tei:*[name() = 'pc' or name() = 'w']">
       <xsl:text> </xsl:text>
     </xsl:if>
   </xsl:template>
 
   <xsl:template match="tei:*" mode="clean">
     <xsl:apply-templates select="tei:*" mode="clean"/>
-    <xsl:if test="not(./descendant::tei:*[name() = 'pc' or name() = 'w'][last()][@join]) and ./following-sibling::tei:*/descendant-or-self::tei:*[name() = 'pc' or name() = 'w']">
+    <xsl:if test="(not(./descendant::tei:*[name() = 'pc' or name() = 'w'][last()][@join]) or not($tok = '')) and ./following-sibling::tei:*/descendant-or-self::tei:*[name() = 'pc' or name() = 'w']">
       <xsl:text> </xsl:text>
     </xsl:if>
   </xsl:template>
