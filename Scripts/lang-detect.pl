@@ -19,6 +19,21 @@ my ($data_dir, $run_id, $config_path,$lang_stats,@langs);
 
 my $lang_translations = {};
 
+my @uk_words = qw/
+давайте
+добре
+дякую
+завершуйте
+продовжуйте
+прошу
+секунд
+спасибо
+хвилину
+яка
+яку
+/;
+my $uk_words = join('|',@uk_words);
+
 GetOptions (
             'data-dir=s' => \$data_dir,
             'id=s' => \$run_id,
@@ -75,25 +90,25 @@ for my $file (@file_list){
     my $text = $node->textContent();
     my $lng = detect_language($node,$text);
     my @check_context = ();
-    push @check_context, status_lang($lng,$text,"too short, checking for context") if length($text) < 20;
-    push @check_context, status_lang($lng,$text,"not confident") if $lng->{identify}->{conf}*1 < 0.8;
-    push @check_context, status_lang($lng,$text,"different from uk") if $lng->{identify}->{lang} ne 'uk';
-    if(not(defined $lng->{char}) and @check_context){
-      print STDERR "INFO: ",$node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')," ",$check_context[0],"\n";
-      $text = $node->parentNode->textContent();
-      $lng = detect_language($node,$text);
-      print STDERR "INFO: ",$node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')," ",status_lang($lng,$text, 'FIXED'),"\n";
+    unless (defined $lng->{char} or defined $lng->{word}) {
+      push @check_context, status_lang($lng,$text,"too short, checking for context '$text'") if length($text) < 20;
+      push @check_context, status_lang($lng,$text,"not confident") if $lng->{identify}->{conf}*1 < 0.8;
+      push @check_context, status_lang($lng,$text,"different from uk") if $lng->{identify}->{lang} ne 'uk';
+      if(@check_context){
+        print STDERR "INFO: ",$node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')," ",$check_context[0],"\n";
+        $text = $node->parentNode->textContent();
+        $lng = detect_language($node,$text);
+        print STDERR "INFO: ",$node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')," ",status_lang($lng,$text, 'FIXED'),"\n";
+      }
     }
-    my $lang = $lng->{char} // $lng->{identify}->{lang};
+print STDERR $node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id'),"\t",$lng->{char} ,'?', $lng->{identify}->{lang},"\t$text\n" if $lng->{char} && $lng->{char} ne $lng->{identify}->{lang};
+    my $lang = $lng->{char} // $lng->{word} // $lng->{identify}->{lang};
     unless($lang eq 'uk' or $lang eq 'ru'){
       print STDERR "WARN language[$lang]:$text\n";
       if(length($node->textContent())<100){
         print STDERR "WARN too short, setting uk\n";
         $lang = 'uk';
       }
-    }
-    if($lang eq 'ru' && length($node->textContent())<200 && $role eq '#chair'){
-      $lang = 'uk';
     }
     $usage_len{$lang} //= 0;
     $usage_len{$lang} += length($node->textContent());
@@ -165,11 +180,16 @@ sub detect_language {
   my ($node,$text) = @_;
   my %res;
   my $lng = detect_text_language(text => $text);
-  if($text =~ m/[іїєґ]/i){
-    $res{char} = 'uk';
-  } elsif($text =~ m/[ыэъ]/i){
-    $res{char} = 'ru';
-  }
+  my $uk = () = $text =~ m/([іїєґ])/gi;
+  my $ru = () = $text =~ m/([ыэъ])/gi;
+  my $dig = () = $text =~ m/([0-9])/g;
+  $res{char} = $uk >= $ru ? 'uk' : 'ru' if $uk || $ru;
+  $res{char} = 'uk' if 3 * $dig >= length($text); #set uk if text contains >= 1/3 digits
+
+  my $ukw = () = $text =~ m/\b($uk_words)\b/gi;
+  my $ruw = 0;
+  $res{word} = $ukw >= $ruw ? 'uk' : 'ru' if $ukw || $ruw;
+
   $res{identify} = {conf => $lng->[2]->{confidence}, lang => $lng->[2]->{lang_code}};
   return \%res;
 }
