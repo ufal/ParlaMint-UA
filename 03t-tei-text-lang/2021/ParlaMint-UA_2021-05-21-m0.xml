@@ -171,7 +171,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-05-21-m0.u13">
-               <seg xml:id="ParlaMint-UA_2021-05-21-m0.u13.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-05-21-m0.u13.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-05-21T10:30:23">10:30:23</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -365,7 +365,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-05-21-m0.u45">
-               <seg xml:id="ParlaMint-UA_2021-05-21-m0.u45.p1" xml:lang="uk">Гео Лерос. Гео Багратович Лерос.</seg>
+               <seg xml:id="ParlaMint-UA_2021-05-21-m0.u45.p1" xml:lang="ru">Гео Лерос. Гео Багратович Лерос.</seg>
             </u>
             <note type="time"><time when="2021-05-21T10:51:11">10:51:11</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -383,7 +383,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-05-21-m0.u48">
-               <seg xml:id="ParlaMint-UA_2021-05-21-m0.u48.p1" xml:lang="uk">Матусевич Олександр Борисович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-05-21-m0.u48.p1" xml:lang="ru">Матусевич Олександр Борисович.</seg>
             </u>
             <note type="time"><time when="2021-05-21T10:52:41">10:52:41</time></note>
             <note type="speaker">МАТУСЕВИЧ О.Б.</note>
@@ -506,7 +506,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-05-21-m0.u69">
-               <seg xml:id="ParlaMint-UA_2021-05-21-m0.u69.p1" xml:lang="uk">Лаба Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-05-21-m0.u69.p1" xml:lang="ru">Лаба Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-05-21T11:02:21">11:02:21</time></note>
             <note type="speaker">ЛАБА М.М.</note>

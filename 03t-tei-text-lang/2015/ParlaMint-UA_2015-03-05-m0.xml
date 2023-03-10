@@ -155,7 +155,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-05-m0.u17">
-               <seg xml:id="ParlaMint-UA_2015-03-05-m0.u17.p1" xml:lang="uk">Дякую. Нестор Шуфрич.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-05-m0.u17.p1" xml:lang="ru">Дякую. Нестор Шуфрич.</seg>
             </u>
             <note type="time"><time when="2015-03-05T10:32:13">10:32:13</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>
@@ -243,7 +243,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-05-m0.u29">
-               <seg xml:id="ParlaMint-UA_2015-03-05-m0.u29.p1" xml:lang="uk">Народний депутат Кондратюк, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-05-m0.u29.p1" xml:lang="ru">Народний депутат Кондратюк, прошу.</seg>
             </u>
             <note type="time"><time when="2015-03-05T10:46:46">10:46:46</time></note>
             <note type="speaker">КОНДРАТЮК О.К.</note>
@@ -962,7 +962,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-05-m0.u139">
-               <seg xml:id="ParlaMint-UA_2015-03-05-m0.u139.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-05-m0.u139.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2015-03-05-m0.u140">

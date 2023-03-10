@@ -120,7 +120,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u11">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u11.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u11.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">ЛИТВИН В.М.</note>
             <u who="ЛИТВИН В.М." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u12">
@@ -180,7 +180,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u21">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u21.p1" xml:lang="uk">Завершуйте. Дайте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u21.p1" xml:lang="ru">Завершуйте. Дайте.</seg>
             </u>
             <note type="speaker">ДЗОЗ В.О.</note>
             <u who="ДЗОЗ В.О." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u22">
@@ -204,7 +204,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u25">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u25.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u25.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">ГОНЧАРОВ А.Д.</note>
             <u who="ГОНЧАРОВ А.Д." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u26">
@@ -264,7 +264,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u33">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u33.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u33.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">ГОНЧАРОВ С.В.</note>
             <u who="ГОНЧАРОВ С.В." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u34">
@@ -418,7 +418,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u56">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u56.p1" xml:lang="uk">Да, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u56.p1" xml:lang="ru">Да, завершуйте.</seg>
             </u>
             <note type="speaker">ОДАРЧЕНКО Ю.В.</note>
             <u who="ОДАРЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u57">
@@ -519,7 +519,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u74">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u74.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u74.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">ЦИБЕНКО П.С.</note>
             <u who="ЦИБЕНКО П.С." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u75">
@@ -700,7 +700,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u102">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u102.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u102.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="time"><time when="2013-09-04T11:37:10">11:37:10</time></note>
             <note type="speaker">МІЩЕНКО С.Г.</note>
@@ -810,7 +810,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u118">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u118.p1" xml:lang="uk">Так, так, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u118.p1" xml:lang="ru">Так, так, прошу.</seg>
             </u>
             <note type="speaker">МАКЕЄНКО В.В.</note>
             <u who="МАКЕЄНКО В.В." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u119">

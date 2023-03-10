@@ -207,7 +207,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-02-28-m1.u23">
-               <seg xml:id="ParlaMint-UA_2019-02-28-m1.u23.p1" xml:lang="uk">30 секунд завершити дайте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-02-28-m1.u23.p1" xml:lang="ru">30 секунд завершити дайте, будь ласка.</seg>
             </u>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2019-02-28-m1.u24">
@@ -447,7 +447,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-02-28-m1.u57">
-               <seg xml:id="ParlaMint-UA_2019-02-28-m1.u57.p1" xml:lang="uk">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-02-28-m1.u57.p1" xml:lang="ru">10 секунд.</seg>
             </u>
             <note type="speaker">СЕМЕРАК О.М.</note>
             <u who="СЕМЕРАК О.М." ana="#regular" xml:id="ParlaMint-UA_2019-02-28-m1.u58">

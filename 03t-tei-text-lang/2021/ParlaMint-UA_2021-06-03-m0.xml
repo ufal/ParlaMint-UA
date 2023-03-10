@@ -173,7 +173,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u19">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u19.p1" xml:lang="uk">Антон Едуардович Поляков, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u19.p1" xml:lang="ru">Антон Едуардович Поляков, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-06-03T10:23:42">10:23:42</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -908,7 +908,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u117">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u117.p1" xml:lang="uk">Коваль?</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u117.p1" xml:lang="ru">Коваль?</seg>
             </u>
             <note type="speaker">МАРІКОВСЬКИЙ О.В.</note>
             <u who="МАРІКОВСЬКИЙ О.В." ana="#regular" xml:id="ParlaMint-UA_2021-06-03-m0.u118">
@@ -1079,7 +1079,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u142">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u142.p1" xml:lang="uk">18 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u142.p1" xml:lang="ru">18 правка.</seg>
             </u>
             <note type="time"><time when="2021-06-03T12:37:05">12:37:05</time></note>
             <note type="speaker">ПУЗІЙЧУК А.В.</note>
@@ -1272,7 +1272,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u168">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u168.p1" xml:lang="uk">47-а. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u168.p1" xml:lang="ru">47-а. Дякую.</seg>
             </u>
             <note type="speaker">ПУЗІЙЧУК А.В.</note>
             <u who="ПУЗІЙЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2021-06-03-m0.u169">
@@ -1691,7 +1691,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u223">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u223.p1" xml:lang="uk">26-а, 41-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u223.p1" xml:lang="ru">26-а, 41-а.</seg>
             </u>
             <note type="speaker">БАБЕНКО М.В.</note>
             <u who="БАБЕНКО М.В." ana="#regular" xml:id="ParlaMint-UA_2021-06-03-m0.u224">
@@ -1699,7 +1699,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u225">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u225.p1" xml:lang="uk">44-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u225.p1" xml:lang="ru">44-а.</seg>
             </u>
             <note type="speaker">БАБЕНКО М.В.</note>
             <u who="БАБЕНКО М.В." ana="#regular" xml:id="ParlaMint-UA_2021-06-03-m0.u226">
@@ -1707,7 +1707,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u227">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u227.p1" xml:lang="uk">46-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u227.p1" xml:lang="ru">46-а.</seg>
             </u>
             <note type="speaker">БАБЕНКО М.В.</note>
             <u who="БАБЕНКО М.В." ana="#regular" xml:id="ParlaMint-UA_2021-06-03-m0.u228">
@@ -1772,7 +1772,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u237">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u237.p1" xml:lang="uk">Ще раз, 53?</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u237.p1" xml:lang="ru">Ще раз, 53?</seg>
             </u>
             <note type="time"><time when="2021-06-03T13:35:04">13:35:04</time></note>
             <note type="speaker">ВЕЛЬМОЖНИЙ С.А.</note>
@@ -2285,7 +2285,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u306">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u306.p1" xml:lang="uk">Правка номер 16.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u306.p1" xml:lang="ru">Правка номер 16.</seg>
             </u>
             <note type="speaker">БАТЕНКО Т.І.</note>
             <u who="БАТЕНКО Т.І." ana="#regular" xml:id="ParlaMint-UA_2021-06-03-m0.u307">
@@ -2519,7 +2519,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u339">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u339.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u339.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2021-06-03T14:54:18">14:54:18</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>

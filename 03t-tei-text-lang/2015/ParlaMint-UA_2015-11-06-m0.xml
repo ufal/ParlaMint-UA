@@ -372,8 +372,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-11-06-m0.u49">
-               <seg xml:id="ParlaMint-UA_2015-11-06-m0.u49.p1" xml:lang="uk">Дякую вам.</seg>
-               <seg xml:id="ParlaMint-UA_2015-11-06-m0.u49.p2" xml:lang="uk">Макар'ян Давид Борисович, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-06-m0.u49.p1" xml:lang="ru">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-06-m0.u49.p2" xml:lang="ru">Макар'ян Давид Борисович, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2015-11-06T11:06:30">11:06:30</time></note>
             <note type="speaker">МАКАР’ЯН Д.Б.</note>
@@ -740,7 +740,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-11-06-m0.u81">
-               <seg xml:id="ParlaMint-UA_2015-11-06-m0.u81.p1" xml:lang="uk">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-06-m0.u81.p1" xml:lang="ru">10 секунд.</seg>
             </u>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-11-06-m0.u82">

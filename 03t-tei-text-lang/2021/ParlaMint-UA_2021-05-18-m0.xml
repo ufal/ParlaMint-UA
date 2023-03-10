@@ -473,7 +473,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-05-18-m0.u53">
-               <seg xml:id="ParlaMint-UA_2021-05-18-m0.u53.p1" xml:lang="uk">Цимбалюк, 460-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-05-18-m0.u53.p1" xml:lang="ru">Цимбалюк, 460-а.</seg>
             </u>
             <note type="time"><time when="2021-05-18T10:51:36">10:51:36</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -1886,7 +1886,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-05-18-m0.u235">
-               <seg xml:id="ParlaMint-UA_2021-05-18-m0.u235.p1" xml:lang="uk">Наступна правка Крулько, 767-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-05-18-m0.u235.p1" xml:lang="ru">Наступна правка Крулько, 767-а.</seg>
             </u>
             <note type="time"><time when="2021-05-18T13:36:34">13:36:34</time></note>
             <note type="speaker">КРУЛЬКО І.І.</note>

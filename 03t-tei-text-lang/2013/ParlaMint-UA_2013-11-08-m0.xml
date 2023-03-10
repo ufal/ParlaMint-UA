@@ -751,7 +751,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КАЛЄТНІК І.Г." ana="#chair" xml:id="ParlaMint-UA_2013-11-08-m0.u58">
-               <seg xml:id="ParlaMint-UA_2013-11-08-m0.u58.p1" xml:lang="uk">Дякую. Завершуйте, 10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-08-m0.u58.p1" xml:lang="ru">Дякую. Завершуйте, 10 секунд.</seg>
             </u>
             <note type="speaker">КАЛЕТНИК О.М.</note>
             <u who="КАЛЕТНИК О.М." ana="#regular" xml:id="ParlaMint-UA_2013-11-08-m0.u59">
@@ -850,7 +850,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-11-08-m0.u72">
-               <seg xml:id="ParlaMint-UA_2013-11-08-m0.u72.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-08-m0.u72.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">ТУРЧИНОВ О.В.</note>
             <u who="ТУРЧИНОВ О.В." ana="#regular" xml:id="ParlaMint-UA_2013-11-08-m0.u73">
@@ -888,7 +888,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-11-08-m0.u78">
-               <seg xml:id="ParlaMint-UA_2013-11-08-m0.u78.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-08-m0.u78.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">СИМОНЕНКО П.М.</note>
             <u who="СИМОНЕНКО П.М." ana="#regular" xml:id="ParlaMint-UA_2013-11-08-m0.u79">
@@ -1074,7 +1074,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-11-08-m0.u102">
-               <seg xml:id="ParlaMint-UA_2013-11-08-m0.u102.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-08-m0.u102.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">ПАРАСКІВ О.Д.</note>
             <u who="ПАРАСКІВ О.Д." ana="#regular" xml:id="ParlaMint-UA_2013-11-08-m0.u103">

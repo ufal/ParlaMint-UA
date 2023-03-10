@@ -345,7 +345,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-25-m1.u46">
-               <seg xml:id="ParlaMint-UA_2019-04-25-m1.u46.p1" xml:lang="uk">Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-25-m1.u46.p1" xml:lang="ru">Прошу.</seg>
             </u>
             <note type="time"><time when="2019-04-25T16:27:04">16:27:04</time></note>
             <note type="speaker">ДОМБРОВСЬКИЙ О.Г.</note>
@@ -1108,7 +1108,7 @@
             <note type="time"><time when="2019-04-25T18:00:50">18:00:50</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-25-m1.u160">
-               <seg xml:id="ParlaMint-UA_2019-04-25-m1.u160.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-25-m1.u160.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ДОМБРОВСЬКИЙ О.Г.</note>
             <u who="ДОМБРОВСЬКИЙ О.Г." ana="#regular" xml:id="ParlaMint-UA_2019-04-25-m1.u161">

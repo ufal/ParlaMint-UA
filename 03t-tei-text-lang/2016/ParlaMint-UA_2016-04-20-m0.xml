@@ -107,7 +107,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-20-m0.u7">
-               <seg xml:id="ParlaMint-UA_2016-04-20-m0.u7.p1" xml:lang="uk">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-20-m0.u7.p1" xml:lang="ru">10 секунд.</seg>
             </u>
             <note type="speaker">БАРНА О.С.</note>
             <u who="БАРНА О.С." ana="#regular" xml:id="ParlaMint-UA_2016-04-20-m0.u8">
@@ -1118,8 +1118,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-20-m0.u137">
-               <seg xml:id="ParlaMint-UA_2016-04-20-m0.u137.p1" xml:lang="uk">Дякую вам.</seg>
-               <seg xml:id="ParlaMint-UA_2016-04-20-m0.u137.p2" xml:lang="uk">Олександр Супруненко.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-20-m0.u137.p1" xml:lang="ru">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-20-m0.u137.p2" xml:lang="ru">Олександр Супруненко.</seg>
             </u>
             <note type="time"><time when="2016-04-20T13:23:53">13:23:53</time></note>
             <note type="speaker">СУПРУНЕНКО О.І.</note>

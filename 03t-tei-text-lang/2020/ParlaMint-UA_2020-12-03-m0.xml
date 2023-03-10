@@ -578,7 +578,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-03-m0.u66">
-               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u66.p1" xml:lang="uk">308-а?</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u66.p1" xml:lang="ru">308-а?</seg>
             </u>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
             <u who="ЦИМБАЛЮК М.М." ana="#regular" xml:id="ParlaMint-UA_2020-12-03-m0.u67">
@@ -945,7 +945,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-03-m0.u116">
-               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u116.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u116.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="time"><time when="2020-12-03T12:42:23">12:42:23</time></note>
             <note type="narrative">Веде засідання заступник Голови Верховної Ради України</note>
@@ -1000,7 +1000,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-03-m0.u126">
-               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u126.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u126.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="time"><time when="2020-12-03T12:44:55">12:44:55</time></note>
             <note type="speaker">ЗАБЛОЦЬКИЙ М.Б.</note>
@@ -1616,7 +1616,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-03-m0.u213">
-               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u213.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u213.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-12-03T13:49:08">13:49:08</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -2045,7 +2045,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-03-m0.u270">
-               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u270.p1" xml:lang="uk">Неклюдов Владлен Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u270.p1" xml:lang="ru">Неклюдов Владлен Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-12-03T14:40:40">14:40:40</time></note>
             <note type="speaker">НЕКЛЮДОВ В.М.</note>
@@ -2235,7 +2235,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-03-m0.u295">
-               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u295.p1" xml:lang="uk">Лаба Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u295.p1" xml:lang="ru">Лаба Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-12-03T15:00:35">15:00:35</time></note>
             <note type="speaker">ЛАБА М.М.</note>
@@ -2266,7 +2266,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-03-m0.u301">
-               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u301.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u301.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-12-03T15:02:48">15:02:48</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>

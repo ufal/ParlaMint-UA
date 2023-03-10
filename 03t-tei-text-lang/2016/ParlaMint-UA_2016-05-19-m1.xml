@@ -168,7 +168,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-05-19-m1.u15">
-               <seg xml:id="ParlaMint-UA_2016-05-19-m1.u15.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-19-m1.u15.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-05-19T16:26:05">16:26:05</time></note>
             <note type="speaker">КАПЛІН С.М.</note>
@@ -412,7 +412,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-05-19-m1.u52">
-               <seg xml:id="ParlaMint-UA_2016-05-19-m1.u52.p1" xml:lang="uk">Кишкар Павло Миколайович.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-19-m1.u52.p1" xml:lang="ru">Кишкар Павло Миколайович.</seg>
             </u>
             <note type="time"><time when="2016-05-19T17:05:54">17:05:54</time></note>
             <note type="speaker">КИШКАР П.М.</note>
@@ -582,7 +582,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-05-19-m1.u72">
-               <seg xml:id="ParlaMint-UA_2016-05-19-m1.u72.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-19-m1.u72.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-05-19T17:33:31">17:33:31</time></note>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
@@ -821,7 +821,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-05-19-m1.u113">
-               <seg xml:id="ParlaMint-UA_2016-05-19-m1.u113.p1" xml:lang="uk">Десять секунд, 10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-19-m1.u113.p1" xml:lang="ru">Десять секунд, 10 секунд.</seg>
             </u>
             <note type="time"><time when="2016-05-19T18:06:26">18:06:26</time></note>
             <note type="speaker">ЛОЗОВОЙ А.С.</note>

@@ -1243,7 +1243,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-09-02-m0.u184">
-               <seg xml:id="ParlaMint-UA_2014-09-02-m0.u184.p1" xml:lang="uk">Народний депутат Чечетов.</seg>
+               <seg xml:id="ParlaMint-UA_2014-09-02-m0.u184.p1" xml:lang="ru">Народний депутат Чечетов.</seg>
             </u>
             <note type="time"><time when="2014-09-02T13:48:48">13:48:48</time></note>
             <note type="speaker">ЧЕЧЕТОВ М.В.</note>

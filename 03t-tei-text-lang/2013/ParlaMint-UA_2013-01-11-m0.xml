@@ -193,7 +193,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-01-11-m0.u7">
-               <seg xml:id="ParlaMint-UA_2013-01-11-m0.u7.p1" xml:lang="uk">Продовжуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-01-11-m0.u7.p1" xml:lang="ru">Продовжуйте.</seg>
             </u>
             <note type="speaker">ТУРЧИНОВ О.В.</note>
             <u who="ТУРЧИНОВ О.В." ana="#regular" xml:id="ParlaMint-UA_2013-01-11-m0.u8">
@@ -359,7 +359,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-01-11-m0.u35">
-               <seg xml:id="ParlaMint-UA_2013-01-11-m0.u35.p1" xml:lang="uk">Прошу, народний депутат Турчинов.</seg>
+               <seg xml:id="ParlaMint-UA_2013-01-11-m0.u35.p1" xml:lang="ru">Прошу, народний депутат Турчинов.</seg>
             </u>
             <note type="time"><time when="2013-01-11T11:03:47">11:03:47</time></note>
             <note type="speaker">ТУРЧИНОВ О.В.</note>
@@ -685,7 +685,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-01-11-m0.u89">
-               <seg xml:id="ParlaMint-UA_2013-01-11-m0.u89.p1" xml:lang="uk">Олег Панькевич, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-01-11-m0.u89.p1" xml:lang="ru">Олег Панькевич, прошу.</seg>
             </u>
             <note type="time"><time when="2013-01-11T12:22:10">12:22:10</time></note>
             <note type="speaker">ПАНЬКЕВИЧ О.І.</note>
@@ -1117,7 +1117,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-01-11-m0.u156">
-               <seg xml:id="ParlaMint-UA_2013-01-11-m0.u156.p1" xml:lang="uk">Прекратите!</seg>
+               <seg xml:id="ParlaMint-UA_2013-01-11-m0.u156.p1" xml:lang="ru">Прекратите!</seg>
             </u>
             <note type="speaker">ШЕВЧЕНКО О.О.</note>
             <u who="ШЕВЧЕНКО О.О." ana="#regular" xml:id="ParlaMint-UA_2013-01-11-m0.u157">

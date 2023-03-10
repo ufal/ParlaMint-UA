@@ -161,7 +161,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-06-01-m0.u17">
-               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u17.p1" xml:lang="uk">10 секунд. Будь ласка, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u17.p1" xml:lang="ru">10 секунд. Будь ласка, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-06-01T10:22:48">10:22:48</time></note>
             <note type="speaker">БАРНА О.С.</note>
@@ -227,8 +227,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-06-01-m0.u29">
-               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u29.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u29.p2" xml:lang="uk">Запрошую до слова народного депутата Тараса Юрика, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u29.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u29.p2" xml:lang="ru">Запрошую до слова народного депутата Тараса Юрика, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2016-06-01T10:33:42">10:33:42</time></note>
             <note type="speaker">ЮРИК Т.З.</note>
@@ -434,8 +434,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-01-m0.u57">
-               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u57.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u57.p2" xml:lang="uk">Будь ласка, Барна Олег Степанович.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u57.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u57.p2" xml:lang="ru">Будь ласка, Барна Олег Степанович.</seg>
             </u>
             <note type="time"><time when="2016-06-01T11:06:10">11:06:10</time></note>
             <note type="speaker">БАРНА О.С.</note>
@@ -1123,7 +1123,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-01-m0.u149">
-               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u149.p1" xml:lang="uk">10 секунд, час вичерпаний.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u149.p1" xml:lang="ru">10 секунд, час вичерпаний.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2016-06-01-m0.u150">
@@ -1260,8 +1260,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-01-m0.u161">
-               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u161.p1" xml:lang="uk">Героям слава!</seg>
-               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u161.p2" xml:lang="uk">Сугоняко, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u161.p1" xml:lang="ru">Героям слава!</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u161.p2" xml:lang="ru">Сугоняко, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2016-06-01T13:57:28">13:57:28</time></note>
             <note type="speaker">СУГОНЯКО О.Л.</note>
@@ -1361,7 +1361,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-01-m0.u178">
-               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u178.p1" xml:lang="uk">Дякую. 10 секунд завершити, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-01-m0.u178.p1" xml:lang="ru">Дякую. 10 секунд завершити, будь ласка.</seg>
             </u>
             <note type="time"><time when="2016-06-01T14:08:53">14:08:53</time></note>
             <note type="speaker">КУЛІЧЕНКО І.І.</note>

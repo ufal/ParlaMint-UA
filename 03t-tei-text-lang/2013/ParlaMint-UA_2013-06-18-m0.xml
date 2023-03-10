@@ -537,7 +537,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-18-m0.u54">
-               <seg xml:id="ParlaMint-UA_2013-06-18-m0.u54.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-18-m0.u54.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">НЕТЕЦЬКА О.А.</note>
             <u who="НЕТЕЦЬКА О.А." ana="#regular" xml:id="ParlaMint-UA_2013-06-18-m0.u55">
@@ -1012,7 +1012,7 @@
             </gap>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-18-m0.u119">
-               <seg xml:id="ParlaMint-UA_2013-06-18-m0.u119.p1" xml:lang="uk">Так, поправка номер 3, народного депутата Долженкова.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-18-m0.u119.p1" xml:lang="ru">Так, поправка номер 3, народного депутата Долженкова.</seg>
             </u>
             <vocal type="shouting">
                <desc>ГОЛОС ІЗ ЗАЛУ.</desc>

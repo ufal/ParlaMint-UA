@@ -106,7 +106,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-16-m0.u9">
-               <seg xml:id="ParlaMint-UA_2020-12-16-m0.u9.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-16-m0.u9.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-12-16T10:16:25">10:16:25</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -444,7 +444,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-16-m0.u51">
-               <seg xml:id="ParlaMint-UA_2020-12-16-m0.u51.p1" xml:lang="uk">Давайте 2 хвилини.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-16-m0.u51.p1" xml:lang="ru">Давайте 2 хвилини.</seg>
             </u>
             <note type="speaker">ШКРУМ А.І.</note>
             <u who="ШКРУМ А.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-16-m0.u52">
@@ -678,7 +678,7 @@
                <seg xml:id="ParlaMint-UA_2020-12-16-m0.u81.p4" xml:lang="uk">Рішення не прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2020-12-16-m0.u81.p5" xml:lang="uk">Шановні колеги, закон відхилений.</seg>
                <seg xml:id="ParlaMint-UA_2020-12-16-m0.u81.p6" xml:lang="uk">Наступне питання – це Закон України "Про електронні комунікації" з пропозиціями.</seg>
-               <seg xml:id="ParlaMint-UA_2020-12-16-m0.u81.p7" xml:lang="uk">А хто в нас? В кого грошей не буде? Хто в нас тут свистить? Самый бедный народный депутат.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-16-m0.u81.p7" xml:lang="ru">А хто в нас? В кого грошей не буде? Хто в нас тут свистить? Самый бедный народный депутат.</seg>
                <seg xml:id="ParlaMint-UA_2020-12-16-m0.u81.p8" xml:lang="uk">Будь ласка, Закон України "Про електронні комунікації" з пропозиціями Президента України від 28.10.2020 (доопрацьований). До трибуни запрошується заступник голови Комітету з питань цифрової трансформації Федієнко Олександр Павлович. Дві хвилини на виступ і після цього переходимо до голосування.</seg>
             </u>
             <note type="time"><time when="2020-12-16T11:36:16">11:36:16</time></note>
@@ -815,7 +815,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-16-m0.u98">
-               <seg xml:id="ParlaMint-UA_2020-12-16-m0.u98.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-16-m0.u98.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-12-16T11:51:37">11:51:37</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -1337,7 +1337,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-16-m0.u176">
-               <seg xml:id="ParlaMint-UA_2020-12-16-m0.u176.p1" xml:lang="uk">Гео Багратович Лерос.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-16-m0.u176.p1" xml:lang="ru">Гео Багратович Лерос.</seg>
             </u>
             <note type="time"><time when="2020-12-16T13:23:58">13:23:58</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>

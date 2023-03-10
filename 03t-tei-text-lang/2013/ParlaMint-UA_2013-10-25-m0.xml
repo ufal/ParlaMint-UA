@@ -289,7 +289,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-25-m0.u25">
-               <seg xml:id="ParlaMint-UA_2013-10-25-m0.u25.p1" xml:lang="uk">Прошу, народний депутат Турчинов.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-25-m0.u25.p1" xml:lang="ru">Прошу, народний депутат Турчинов.</seg>
             </u>
             <note type="time"><time when="2013-10-25T10:50:51">10:50:51</time></note>
             <note type="speaker">ТУРЧИНОВ О.В.</note>
@@ -1159,7 +1159,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КАЛЄТНІК І.Г." ana="#chair" xml:id="ParlaMint-UA_2013-10-25-m0.u130">
-               <seg xml:id="ParlaMint-UA_2013-10-25-m0.u130.p1" xml:lang="uk">Ярослав Дубневич.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-25-m0.u130.p1" xml:lang="ru">Ярослав Дубневич.</seg>
             </u>
             <note type="time"><time when="2013-10-25T13:39:33">13:39:33</time></note>
             <note type="speaker">ДУБНЕВИЧ Я.В.</note>
@@ -1282,7 +1282,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КАЛЄТНІК І.Г." ana="#chair" xml:id="ParlaMint-UA_2013-10-25-m0.u144">
-               <seg xml:id="ParlaMint-UA_2013-10-25-m0.u144.p1" xml:lang="uk">Я дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-25-m0.u144.p1" xml:lang="ru">Я дякую.</seg>
             </u>
             <note type="speaker">МОМОТ О.І.</note>
             <u who="МОМОТ О.І." ana="#regular" xml:id="ParlaMint-UA_2013-10-25-m0.u145">

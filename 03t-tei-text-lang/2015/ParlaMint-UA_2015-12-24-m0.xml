@@ -117,7 +117,7 @@
                <seg xml:id="ParlaMint-UA_2015-12-24-m0.u5.p26" xml:lang="uk">Максим Юрійович! Максим Юрійович! Ваш колега зараз по фракції, маю надію, буде складати присягу. Будь ласка, тихіше.</seg>
                <seg xml:id="ParlaMint-UA_2015-12-24-m0.u5.p27" xml:lang="uk">Прошу. Андрій Володимирович, можна? Спасибі. Дякую.</seg>
                <seg xml:id="ParlaMint-UA_2015-12-24-m0.u5.p28" xml:lang="uk">Будь ласка, запрошую на трибуну Вадима Івановича Підберезняка, народного депутата України, політична партія "Народний фронт" для складення присяги. Увага і тиша, будь ласка.</seg>
-               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u5.p29" xml:lang="uk">Борислав Соломонович! Борислав Соломонович! Я знаю, что это вы, просто.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u5.p29" xml:lang="ru">Борислав Соломонович! Борислав Соломонович! Я знаю, что это вы, просто.</seg>
             </u>
             <note type="speaker">ПІДБЕРЕЗНЯК В.І.</note>
             <u who="ПІДБЕРЕЗНЯК В.І." ana="#regular" xml:id="ParlaMint-UA_2015-12-24-m0.u6">
@@ -703,7 +703,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-12-24-m0.u89">
-               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u89.p1" xml:lang="uk">Будь ласка, 20 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u89.p1" xml:lang="ru">Будь ласка, 20 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2015-12-24T11:56:55">11:56:55</time></note>
             <note type="speaker">ГІРШФЕЛЬД А.М.</note>
@@ -3366,7 +3366,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-12-24-m0.u463">
-               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u463.p1" xml:lang="uk">10 секунд завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u463.p1" xml:lang="ru">10 секунд завершуйте.</seg>
             </u>
             <note type="time"><time when="2015-12-24T03:11:41">03:11:41</time></note>
             <note type="speaker">МУШАК О.П.</note>
@@ -3622,7 +3622,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-12-24-m0.u504">
-               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u504.p1" xml:lang="uk">20 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u504.p1" xml:lang="ru">20 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-12-24-m0.u505">

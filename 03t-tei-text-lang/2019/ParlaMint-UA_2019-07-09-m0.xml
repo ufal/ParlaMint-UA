@@ -78,7 +78,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u3">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u3.p1" xml:lang="uk">На 30 секунд продовжити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u3.p1" xml:lang="ru">На 30 секунд продовжити.</seg>
             </u>
             <note type="speaker">ВІЛКУЛ О.Ю.</note>
             <u who="ВІЛКУЛ О.Ю." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u4">
@@ -119,7 +119,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u9">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u9.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u9.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>
             <u who="ГЕРАСИМОВ А.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u10">
@@ -174,7 +174,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u17">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u17.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u17.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u18">
@@ -905,7 +905,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u142">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u142.p1" xml:lang="uk">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u142.p1" xml:lang="ru">Да.</seg>
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u143">
@@ -1549,7 +1549,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u249">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u249.p1" xml:lang="uk">Чи 50-а? 3750-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u249.p1" xml:lang="ru">Чи 50-а? 3750-а.</seg>
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u250">
@@ -3274,7 +3274,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u538">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u538.p1" xml:lang="uk">3887-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u538.p1" xml:lang="ru">3887-а.</seg>
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u539">
@@ -3318,8 +3318,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u546">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u546.p1" xml:lang="uk">А, я пропустила, перепрошую.</seg>
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u546.p2" xml:lang="uk">3890.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u546.p1" xml:lang="ru">А, я пропустила, перепрошую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u546.p2" xml:lang="ru">3890.</seg>
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u547">
@@ -3551,7 +3551,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u585">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u585.p1" xml:lang="uk">Ну, о'кей, давайте 3908-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u585.p1" xml:lang="ru">Ну, о'кей, давайте 3908-а.</seg>
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u586">
@@ -4129,7 +4129,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u677">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u677.p1" xml:lang="uk">Вибачте, 3946. Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u677.p1" xml:lang="ru">Вибачте, 3946. Прошу.</seg>
             </u>
             <note type="time"><time when="2019-07-09T13:08:57">13:08:57</time></note>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
@@ -4853,7 +4853,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u788">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u788.p1" xml:lang="uk">А, перепрошую, 3999-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u788.p1" xml:lang="ru">А, перепрошую, 3999-а.</seg>
             </u>
             <note type="time"><time when="2019-07-09T13:42:18">13:42:18</time></note>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>

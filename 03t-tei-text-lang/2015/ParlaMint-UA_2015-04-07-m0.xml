@@ -420,7 +420,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-04-07-m0.u48">
-               <seg xml:id="ParlaMint-UA_2015-04-07-m0.u48.p1" xml:lang="uk">Я не почув, кому?</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-07-m0.u48.p1" xml:lang="ru">Я не почув, кому?</seg>
             </u>
             <note type="time"><time when="2015-04-07T11:13:36">11:13:36</time></note>
             <note type="speaker">КРИВОШЕЯ Г.Г.</note>
@@ -1084,7 +1084,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-04-07-m0.u146">
-               <seg xml:id="ParlaMint-UA_2015-04-07-m0.u146.p1" xml:lang="uk">Олег Медуниця.</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-07-m0.u146.p1" xml:lang="ru">Олег Медуниця.</seg>
             </u>
             <note type="time"><time when="2015-04-07T13:19:17">13:19:17</time></note>
             <note type="speaker">МЕДУНИЦЯ О.В.</note>
@@ -1156,8 +1156,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-04-07-m0.u160">
-               <seg xml:id="ParlaMint-UA_2015-04-07-m0.u160.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2015-04-07-m0.u160.p2" xml:lang="uk">Народний депутат Курячий, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-07-m0.u160.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-07-m0.u160.p2" xml:lang="ru">Народний депутат Курячий, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2015-04-07T13:25:21">13:25:21</time></note>
             <note type="speaker">КУРЯЧИЙ М.П.</note>

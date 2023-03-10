@@ -304,8 +304,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-07-25-m0.u17">
-               <seg xml:id="ParlaMint-UA_2014-07-25-m0.u17.p1" xml:lang="uk">306.</seg>
-               <seg xml:id="ParlaMint-UA_2014-07-25-m0.u17.p2" xml:lang="uk">Ми говоримо про 308-у?</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-25-m0.u17.p1" xml:lang="ru">306.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-25-m0.u17.p2" xml:lang="ru">Ми говоримо про 308-у?</seg>
             </u>
             <note type="speaker">ТЕРЬОХІН С.А.</note>
             <u who="ТЕРЬОХІН С.А." ana="#regular" xml:id="ParlaMint-UA_2014-07-25-m0.u18">
@@ -933,7 +933,7 @@
                </vocal>
                <seg xml:id="ParlaMint-UA_2014-07-25-m0.u117.p38" xml:lang="uk">Без перерви? Шановні колеги, без перерви "Різне"? Без перерви. Шановні колеги, я вибачаюсь, тобто одні – за перерву, другі - без перерви.</seg>
                <seg xml:id="ParlaMint-UA_2014-07-25-m0.u117.p39" xml:lang="uk">Будь ласка, півгодини перерва, будь ласка.</seg>
-               <seg xml:id="ParlaMint-UA_2014-07-25-m0.u117.p40" xml:lang="uk">Продовжимо роботу о 12 годины 40 хвилин.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-25-m0.u117.p40" xml:lang="ru">Продовжимо роботу о 12 годины 40 хвилин.</seg>
             </u>
             <note type="comment">ПІСЛЯ ПЕРЕРВИ</note>
             <note type="narrative">Веде засідання заступник Голови Верховної Ради України</note>
@@ -953,7 +953,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-07-25-m0.u120">
-               <seg xml:id="ParlaMint-UA_2014-07-25-m0.u120.p1" xml:lang="uk">Дякую. Якщо можна максимально коротко, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-25-m0.u120.p1" xml:lang="ru">Дякую. Якщо можна максимально коротко, будь ласка.</seg>
             </u>
             <note type="speaker">ОПАНАЩЕНКО М.В.</note>
             <u who="ОПАНАЩЕНКО М.В." ana="#regular" xml:id="ParlaMint-UA_2014-07-25-m0.u121">

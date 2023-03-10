@@ -159,8 +159,8 @@
             <note type="narrative">Веде засідання заступник Голови Верховної Ради України СИРОЇД О.І.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2018-11-21-m0.u15">
-               <seg xml:id="ParlaMint-UA_2018-11-21-m0.u15.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2018-11-21-m0.u15.p2" xml:lang="uk">Запрошую до слова народного депутатаШипка.</seg>
+               <seg xml:id="ParlaMint-UA_2018-11-21-m0.u15.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2018-11-21-m0.u15.p2" xml:lang="ru">Запрошую до слова народного депутатаШипка.</seg>
             </u>
             <note type="time"><time when="2018-11-21T10:24:01">10:24:01</time></note>
             <note type="speaker">ШИПКО А.Ф.</note>
@@ -250,7 +250,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-11-21-m0.u26">
-               <seg xml:id="ParlaMint-UA_2018-11-21-m0.u26.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2018-11-21-m0.u26.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">УНГУРЯН П.Я.</note>
             <u who="УНГУРЯН П.Я." ana="#regular" xml:id="ParlaMint-UA_2018-11-21-m0.u27">
@@ -550,7 +550,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-11-21-m0.u71">
-               <seg xml:id="ParlaMint-UA_2018-11-21-m0.u71.p1" xml:lang="uk">15 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2018-11-21-m0.u71.p1" xml:lang="ru">15 секунд завершити.</seg>
             </u>
             <note type="speaker">ЮРИНЕЦЬ О.В.</note>
             <u who="ЮРИНЕЦЬ О.В." ana="#regular" xml:id="ParlaMint-UA_2018-11-21-m0.u72">
@@ -1169,7 +1169,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-11-21-m0.u157">
-               <seg xml:id="ParlaMint-UA_2018-11-21-m0.u157.p1" xml:lang="uk">91-а.</seg>
+               <seg xml:id="ParlaMint-UA_2018-11-21-m0.u157.p1" xml:lang="ru">91-а.</seg>
             </u>
             <note type="speaker">ГЕРАЩЕНКО А.Ю.</note>
             <u who="ГЕРАЩЕНКО А.Ю." ana="#regular" xml:id="ParlaMint-UA_2018-11-21-m0.u158">

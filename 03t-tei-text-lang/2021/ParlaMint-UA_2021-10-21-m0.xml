@@ -3045,8 +3045,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-21-m0.u377">
-               <seg xml:id="ParlaMint-UA_2021-10-21-m0.u377.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-10-21-m0.u377.p2" xml:lang="uk">1319 поправка. Мороз.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-21-m0.u377.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-21-m0.u377.p2" xml:lang="ru">1319 поправка. Мороз.</seg>
             </u>
             <note type="time"><time when="2021-10-21T14:51:07">14:51:07</time></note>
             <note type="speaker">МОРОЗ В.В.</note>

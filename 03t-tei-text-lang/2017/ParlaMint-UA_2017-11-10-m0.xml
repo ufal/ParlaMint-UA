@@ -836,7 +836,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-10-m0.u88">
-               <seg xml:id="ParlaMint-UA_2017-11-10-m0.u88.p1" xml:lang="uk">Герасимов, будь ласка, Артур.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-10-m0.u88.p1" xml:lang="ru">Герасимов, будь ласка, Артур.</seg>
             </u>
             <note type="time"><time when="2017-11-10T12:40:50">12:40:50</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>
@@ -974,7 +974,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-10-m0.u104">
-               <seg xml:id="ParlaMint-UA_2017-11-10-m0.u104.p1" xml:lang="uk">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-10-m0.u104.p1" xml:lang="ru">10 секунд.</seg>
             </u>
             <note type="speaker">МАТКІВСЬКИЙ Б.М.</note>
             <u who="МАТКІВСЬКИЙ Б.М." ana="#regular" xml:id="ParlaMint-UA_2017-11-10-m0.u105">
@@ -1187,7 +1187,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-10-m0.u134">
-               <seg xml:id="ParlaMint-UA_2017-11-10-m0.u134.p1" xml:lang="uk">10 секунд, дайте завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-10-m0.u134.p1" xml:lang="ru">10 секунд, дайте завершити.</seg>
             </u>
             <note type="speaker">ОСТРІКОВА Т.Г.</note>
             <u who="ОСТРІКОВА Т.Г." ana="#regular" xml:id="ParlaMint-UA_2017-11-10-m0.u135">
@@ -1211,7 +1211,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-10-m0.u138">
-               <seg xml:id="ParlaMint-UA_2017-11-10-m0.u138.p1" xml:lang="uk">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-10-m0.u138.p1" xml:lang="ru">10 секунд.</seg>
             </u>
             <note type="speaker">ГОЛОВКО М.Й.</note>
             <u who="ГОЛОВКО М.Й." ana="#regular" xml:id="ParlaMint-UA_2017-11-10-m0.u139">

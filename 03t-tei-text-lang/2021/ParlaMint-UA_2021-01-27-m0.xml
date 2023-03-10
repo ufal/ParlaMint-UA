@@ -527,7 +527,7 @@
             <note type="narrative">СТЕФАНЧУК Р.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-27-m0.u65">
-               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u65.p1" xml:lang="uk">Народний депутат Шахов, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u65.p1" xml:lang="ru">Народний депутат Шахов, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-01-27T11:17:27">11:17:27</time></note>
             <note type="speaker">ШАХОВ С.В.</note>
@@ -719,7 +719,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-27-m0.u92">
-               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u92.p1" xml:lang="uk">Вибачте?</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u92.p1" xml:lang="ru">Вибачте?</seg>
             </u>
             <note type="speaker">УРБАНСЬКИЙ А.І.</note>
             <u who="УРБАНСЬКИЙ А.І." ana="#regular" xml:id="ParlaMint-UA_2021-01-27-m0.u93">
@@ -901,7 +901,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-27-m0.u119">
-               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u119.p1" xml:lang="uk">Вибачте, нечутно.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u119.p1" xml:lang="ru">Вибачте, нечутно.</seg>
             </u>
             <note type="speaker">ЧИЙГОЗ А.З.</note>
             <u who="ЧИЙГОЗ А.З." ana="#regular" xml:id="ParlaMint-UA_2021-01-27-m0.u120">
@@ -1297,8 +1297,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-27-m0.u176">
-               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u176.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u176.p2" xml:lang="uk">Гнатенко.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u176.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u176.p2" xml:lang="ru">Гнатенко.</seg>
             </u>
             <note type="time"><time when="2021-01-27T13:37:12">13:37:12</time></note>
             <note type="speaker">ГНАТЕНКО В.С.</note>

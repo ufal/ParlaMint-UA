@@ -406,7 +406,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-07-29-m0.u39">
-               <seg xml:id="ParlaMint-UA_2022-07-29-m0.u39.p1" xml:lang="uk">17-а чи 18-а?</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-29-m0.u39.p1" xml:lang="ru">17-а чи 18-а?</seg>
             </u>
             <note type="time"><time when="2022-07-29T10:58:41">10:58:41</time></note>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
@@ -1368,7 +1368,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-07-29-m0.u170">
-               <seg xml:id="ParlaMint-UA_2022-07-29-m0.u170.p1" xml:lang="uk">Передайте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-29-m0.u170.p1" xml:lang="ru">Передайте, будь ласка.</seg>
             </u>
             <note type="time"><time when="2022-07-29T12:40:01">12:40:01</time></note>
             <note type="speaker">АР’ЄВ В.І.</note>

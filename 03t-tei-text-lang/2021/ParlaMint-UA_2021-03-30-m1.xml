@@ -101,7 +101,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-30-m1.u7">
-               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u7.p1" xml:lang="uk">1 хвилину.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u7.p1" xml:lang="ru">1 хвилину.</seg>
             </u>
             <note type="speaker">БАБАК С.В.</note>
             <u who="БАБАК С.В." ana="#regular" xml:id="ParlaMint-UA_2021-03-30-m1.u8">
@@ -221,7 +221,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-30-m1.u27">
-               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u27.p1" xml:lang="uk">Номери?</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u27.p1" xml:lang="ru">Номери?</seg>
             </u>
             <note type="speaker">ШКРУМ А.І.</note>
             <u who="ШКРУМ А.І." ana="#regular" xml:id="ParlaMint-UA_2021-03-30-m1.u28">
@@ -401,7 +401,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-30-m1.u48">
-               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u48.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u48.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-03-30T14:47:24">14:47:24</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -1071,7 +1071,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-30-m1.u137">
-               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u137.p1" xml:lang="uk">2 хвилини.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u137.p1" xml:lang="ru">2 хвилини.</seg>
             </u>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
             <u who="ПОЛЯКОВ А.Е." ana="#regular" xml:id="ParlaMint-UA_2021-03-30-m1.u138">
@@ -1275,7 +1275,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-30-m1.u166">
-               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u166.p1" xml:lang="uk">Хвилину дайте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u166.p1" xml:lang="ru">Хвилину дайте, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-03-30T16:35:34">16:35:34</time></note>
             <note type="speaker">КОВАЛЬОВ О.І.</note>

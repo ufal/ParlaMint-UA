@@ -477,7 +477,7 @@
             <note type="narrative">СТЕФАНЧУК Р.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-02-m0.u60">
-               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u60.p1" xml:lang="uk">Роман Лозинський.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u60.p1" xml:lang="ru">Роман Лозинський.</seg>
             </u>
             <note type="time"><time when="2020-09-02T11:11:05">11:11:05</time></note>
             <note type="speaker">ЛОЗИНСЬКИЙ Р.М.</note>
@@ -538,8 +538,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-02-m0.u68">
-               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u68.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u68.p2" xml:lang="uk">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u68.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u68.p2" xml:lang="ru">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-09-02T11:18:31">11:18:31</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -628,7 +628,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-02-m0.u80">
-               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u80.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u80.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-09-02T11:27:58">11:27:58</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -682,8 +682,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-02-m0.u88">
-               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u88.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u88.p2" xml:lang="uk">Гетманцев Данило Олександрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u88.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u88.p2" xml:lang="ru">Гетманцев Данило Олександрович.</seg>
             </u>
             <note type="time"><time when="2020-09-02T11:33:46">11:33:46</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>

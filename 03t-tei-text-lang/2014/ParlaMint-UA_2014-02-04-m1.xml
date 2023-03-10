@@ -92,7 +92,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-04-m1.u7">
-               <seg xml:id="ParlaMint-UA_2014-02-04-m1.u7.p1" xml:lang="uk">Да, я хочу.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-04-m1.u7.p1" xml:lang="ru">Да, я хочу.</seg>
             </u>
             <note type="speaker">ЯЦЕНЮК А.П.</note>
             <u who="ЯЦЕНЮК А.П." ana="#regular" xml:id="ParlaMint-UA_2014-02-04-m1.u8">
@@ -180,7 +180,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-04-m1.u23">
-               <seg xml:id="ParlaMint-UA_2014-02-04-m1.u23.p1" xml:lang="uk">Да-да. Давайте.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-04-m1.u23.p1" xml:lang="ru">Да-да. Давайте.</seg>
             </u>
             <note type="speaker">ЛИТВИН В.М.</note>
             <u who="ЛИТВИН В.М." ana="#regular" xml:id="ParlaMint-UA_2014-02-04-m1.u24">

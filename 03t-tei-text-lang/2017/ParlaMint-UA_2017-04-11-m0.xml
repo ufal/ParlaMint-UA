@@ -92,7 +92,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-11-m0.u6">
-               <seg xml:id="ParlaMint-UA_2017-04-11-m0.u6.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-11-m0.u6.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">БЕРЕЗЮК О.Р.</note>
             <u who="БЕРЕЗЮК О.Р." ana="#regular" xml:id="ParlaMint-UA_2017-04-11-m0.u7">
@@ -149,7 +149,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-11-m0.u16">
-               <seg xml:id="ParlaMint-UA_2017-04-11-m0.u16.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-11-m0.u16.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-04-11-m0.u17">
@@ -172,7 +172,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-11-m0.u20">
-               <seg xml:id="ParlaMint-UA_2017-04-11-m0.u20.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-11-m0.u20.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">БУРБАК М.Ю.</note>
             <u who="БУРБАК М.Ю." ana="#regular" xml:id="ParlaMint-UA_2017-04-11-m0.u21">
@@ -237,7 +237,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-11-m0.u30">
-               <seg xml:id="ParlaMint-UA_2017-04-11-m0.u30.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-11-m0.u30.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2017-04-11-m0.u31">
@@ -372,7 +372,7 @@
             <note type="narrative">ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-11-m0.u48">
-               <seg xml:id="ParlaMint-UA_2017-04-11-m0.u48.p1" xml:lang="uk">Будь ласка, ваш коментар, пане голово.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-11-m0.u48.p1" xml:lang="ru">Будь ласка, ваш коментар, пане голово.</seg>
             </u>
             <note type="time"><time when="2017-04-11T10:49:50">10:49:50</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -1744,7 +1744,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-11-m0.u232">
-               <seg xml:id="ParlaMint-UA_2017-04-11-m0.u232.p1" xml:lang="uk">Князевич.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-11-m0.u232.p1" xml:lang="ru">Князевич.</seg>
             </u>
             <note type="time"><time when="2017-04-11T13:21:43">13:21:43</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

@@ -329,7 +329,7 @@
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України ПАРУБІЙ А.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-03-20-m0.u41">
-               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u41.p1" xml:lang="uk">Будь ласка, депутат Соловей, "Блок Петра Порошенка",</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u41.p1" xml:lang="ru">Будь ласка, депутат Соловей, "Блок Петра Порошенка",</seg>
             </u>
             <note type="time"><time when="2015-03-20T10:59:19">10:59:19</time></note>
             <note type="speaker">СОЛОВЕЙ Ю.І.</note>
@@ -717,7 +717,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-03-20-m0.u80">
-               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u80.p1" xml:lang="uk">10 секунд для завершення.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u80.p1" xml:lang="ru">10 секунд для завершення.</seg>
             </u>
             <note type="speaker">ДЕРЕВ’ЯНКО Ю.Б.</note>
             <u who="ДЕРЕВ’ЯНКО Ю.Б." ana="#regular" xml:id="ParlaMint-UA_2015-03-20-m0.u81">
@@ -830,7 +830,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-03-20-m0.u96">
-               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u96.p1" xml:lang="uk">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u96.p1" xml:lang="ru">10 секунд.</seg>
             </u>
             <note type="speaker">ШЕВЧЕНКО О.Л.</note>
             <u who="ШЕВЧЕНКО О.Л." ana="#regular" xml:id="ParlaMint-UA_2015-03-20-m0.u97">
@@ -909,7 +909,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-03-20-m0.u110">
-               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u110.p1" xml:lang="uk">10 секунд. Ви попробуйте сконцентруватись.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u110.p1" xml:lang="ru">10 секунд. Ви попробуйте сконцентруватись.</seg>
             </u>
             <note type="speaker">СИЛАНТЬЄВ Д.О.</note>
             <u who="СИЛАНТЬЄВ Д.О." ana="#regular" xml:id="ParlaMint-UA_2015-03-20-m0.u111">
@@ -933,7 +933,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-03-20-m0.u114">
-               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u114.p1" xml:lang="uk">Ще 10 секунд для щастя.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u114.p1" xml:lang="ru">Ще 10 секунд для щастя.</seg>
             </u>
             <note type="speaker">КОЛЄСНІКОВ Д.В.</note>
             <u who="КОЛЄСНІКОВ Д.В." ana="#regular" xml:id="ParlaMint-UA_2015-03-20-m0.u115">
@@ -1060,7 +1060,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-03-20-m0.u134">
-               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u134.p1" xml:lang="uk">Дякую дуже вам. Запрошую до слова Головка Михайла Йосифовича.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u134.p1" xml:lang="ru">Дякую дуже вам. Запрошую до слова Головка Михайла Йосифовича.</seg>
             </u>
             <note type="time"><time when="2015-03-20T13:19:31">13:19:31</time></note>
             <note type="speaker">ГОЛОВКО М.Й.</note>
@@ -1101,7 +1101,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-03-20-m0.u140">
-               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u140.p1" xml:lang="uk">10 секунд для завершення.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-20-m0.u140.p1" xml:lang="ru">10 секунд для завершення.</seg>
             </u>
             <note type="speaker">КРИВОШЕЯ Г.Г.</note>
             <u who="КРИВОШЕЯ Г.Г." ana="#regular" xml:id="ParlaMint-UA_2015-03-20-m0.u141">

@@ -372,7 +372,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2012-12-18-m0.u48">
-               <seg xml:id="ParlaMint-UA_2012-12-18-m0.u48.p1" xml:lang="uk">Прошу, хвилина у вас.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-18-m0.u48.p1" xml:lang="ru">Прошу, хвилина у вас.</seg>
             </u>
             <note type="time"><time when="2012-12-18T10:55:42">10:55:42</time></note>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
@@ -422,7 +422,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2012-12-18-m0.u58">
-               <seg xml:id="ParlaMint-UA_2012-12-18-m0.u58.p1" xml:lang="uk">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-18-m0.u58.p1" xml:lang="ru">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2012-12-18T10:59:25">10:59:25</time></note>
             <note type="speaker">МОХНИК А.В.</note>

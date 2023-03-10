@@ -215,7 +215,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-14-m0.u22">
-               <seg xml:id="ParlaMint-UA_2017-07-14-m0.u22.p1" xml:lang="uk">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-14-m0.u22.p1" xml:lang="ru">10 секунд.</seg>
             </u>
             <note type="speaker">ЯЦЕНКО А.В.</note>
             <u who="ЯЦЕНКО А.В." ana="#regular" xml:id="ParlaMint-UA_2017-07-14-m0.u23">
@@ -392,7 +392,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-14-m0.u51">
-               <seg xml:id="ParlaMint-UA_2017-07-14-m0.u51.p1" xml:lang="uk">Будь ласка, 30 секунд додайте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-14-m0.u51.p1" xml:lang="ru">Будь ласка, 30 секунд додайте.</seg>
             </u>
             <note type="speaker">КРИВОХАТЬКО В.В.</note>
             <u who="КРИВОХАТЬКО В.В." ana="#regular" xml:id="ParlaMint-UA_2017-07-14-m0.u52">
@@ -576,9 +576,9 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-14-m0.u79">
-               <seg xml:id="ParlaMint-UA_2017-07-14-m0.u79.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2017-07-14-m0.u79.p2" xml:lang="uk">Прошу провести запис: два – за, два – проти.</seg>
-               <seg xml:id="ParlaMint-UA_2017-07-14-m0.u79.p3" xml:lang="uk">Червакова Ольга, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-14-m0.u79.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-14-m0.u79.p2" xml:lang="ru">Прошу провести запис: два – за, два – проти.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-14-m0.u79.p3" xml:lang="ru">Червакова Ольга, будь ласка.</seg>
             </u>
             <note type="time"><time when="2017-07-14T11:26:03">11:26:03</time></note>
             <note type="speaker">ЧЕРВАКОВА О.В.</note>

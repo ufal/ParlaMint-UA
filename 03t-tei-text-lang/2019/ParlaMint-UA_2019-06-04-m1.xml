@@ -992,7 +992,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-06-04-m1.u156">
-               <seg xml:id="ParlaMint-UA_2019-06-04-m1.u156.p1" xml:lang="uk">Тобто.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-04-m1.u156.p1" xml:lang="ru">Тобто.</seg>
             </u>
             <note type="speaker">БУГЛАК Ю.О.</note>
             <u who="БУГЛАК Ю.О." ana="#regular" xml:id="ParlaMint-UA_2019-06-04-m1.u157">
@@ -1113,7 +1113,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-06-04-m1.u178">
-               <seg xml:id="ParlaMint-UA_2019-06-04-m1.u178.p1" xml:lang="uk">Будь ласка, завершуйте. 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-04-m1.u178.p1" xml:lang="ru">Будь ласка, завершуйте. 30 секунд.</seg>
             </u>
             <note type="speaker">КУПРІЄНКО О.В.</note>
             <u who="КУПРІЄНКО О.В." ana="#regular" xml:id="ParlaMint-UA_2019-06-04-m1.u179">
@@ -1357,7 +1357,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-06-04-m1.u217">
-               <seg xml:id="ParlaMint-UA_2019-06-04-m1.u217.p1" xml:lang="uk">По 310-й?</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-04-m1.u217.p1" xml:lang="ru">По 310-й?</seg>
             </u>
             <note type="speaker">БУГЛАК Ю.О.</note>
             <u who="БУГЛАК Ю.О." ana="#regular" xml:id="ParlaMint-UA_2019-06-04-m1.u218">
@@ -1532,7 +1532,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-06-04-m1.u244">
-               <seg xml:id="ParlaMint-UA_2019-06-04-m1.u244.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-04-m1.u244.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="time"><time when="2019-06-04T17:45:19">17:45:19</time></note>
             <note type="speaker">СОТНИК О.С.</note>

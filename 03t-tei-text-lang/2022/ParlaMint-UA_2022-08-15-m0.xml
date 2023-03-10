@@ -160,7 +160,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-08-15-m0.u15">
-               <seg xml:id="ParlaMint-UA_2022-08-15-m0.u15.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2022-08-15-m0.u15.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ЗІНКЕВИЧ Я.В.</note>
             <u who="ЗІНКЕВИЧ Я.В." ana="#regular" xml:id="ParlaMint-UA_2022-08-15-m0.u16">
@@ -253,7 +253,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-08-15-m0.u27">
-               <seg xml:id="ParlaMint-UA_2022-08-15-m0.u27.p1" xml:lang="uk">Дякую. До 5 хвилин, а у вас це перший тренировочный, да.</seg>
+               <seg xml:id="ParlaMint-UA_2022-08-15-m0.u27.p1" xml:lang="ru">Дякую. До 5 хвилин, а у вас це перший тренировочный, да.</seg>
                <seg xml:id="ParlaMint-UA_2022-08-15-m0.u27.p2" xml:lang="uk">Шановні колеги, як ми і говорили, зараз переходимо до виступів кандидатів. Ми їх запрошуємо в алфавітному порядку.</seg>
                <seg xml:id="ParlaMint-UA_2022-08-15-m0.u27.p3" xml:lang="uk">Тому до виступу запрошується кандидатка на посаду члена Вищої ради правосуддя Олена Вікторівна Заічко.</seg>
                <seg xml:id="ParlaMint-UA_2022-08-15-m0.u27.p4" xml:lang="uk">Будь ласка, Олено Вікторівно.</seg>

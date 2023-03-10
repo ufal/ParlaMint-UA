@@ -298,7 +298,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-16-m0.u29">
-               <seg xml:id="ParlaMint-UA_2021-03-16-m0.u29.p1" xml:lang="uk">Ще раз, вибачте. Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-16-m0.u29.p1" xml:lang="ru">Ще раз, вибачте. Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2021-03-16T10:49:47">10:49:47</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -328,7 +328,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-16-m0.u34">
-               <seg xml:id="ParlaMint-UA_2021-03-16-m0.u34.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-16-m0.u34.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2021-03-16T10:52:03">10:52:03</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -356,7 +356,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-16-m0.u39">
-               <seg xml:id="ParlaMint-UA_2021-03-16-m0.u39.p1" xml:lang="uk">Нечутно.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-16-m0.u39.p1" xml:lang="ru">Нечутно.</seg>
             </u>
             <note type="speaker">ФЕДІЄНКО О.П.</note>
             <u who="ФЕДІЄНКО О.П." ana="#regular" xml:id="ParlaMint-UA_2021-03-16-m0.u40">
@@ -510,7 +510,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-16-m0.u63">
-               <seg xml:id="ParlaMint-UA_2021-03-16-m0.u63.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-16-m0.u63.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2021-03-16T11:11:25">11:11:25</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

@@ -295,7 +295,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-06-04-m1.u33">
-               <seg xml:id="ParlaMint-UA_2015-06-04-m1.u33.p1" xml:lang="uk">Десять секунд – будь ласка, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-04-m1.u33.p1" xml:lang="ru">Десять секунд – будь ласка, завершуйте.</seg>
             </u>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
             <u who="ДОЛЖЕНКОВ О.В." ana="#regular" xml:id="ParlaMint-UA_2015-06-04-m1.u34">
@@ -814,7 +814,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-06-04-m1.u105">
-               <seg xml:id="ParlaMint-UA_2015-06-04-m1.u105.p1" xml:lang="uk">Прошу звершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-04-m1.u105.p1" xml:lang="ru">Прошу звершуйте.</seg>
             </u>
             <note type="speaker">БІЛОУС І.О.</note>
             <u who="БІЛОУС І.О." ana="#regular" xml:id="ParlaMint-UA_2015-06-04-m1.u106">

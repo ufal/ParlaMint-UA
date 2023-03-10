@@ -220,7 +220,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-09-06-m1.u25">
-               <seg xml:id="ParlaMint-UA_2016-09-06-m1.u25.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-06-m1.u25.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ПАВЛЕНКО Ю.О.</note>
             <u who="ПАВЛЕНКО Ю.О." ana="#regular" xml:id="ParlaMint-UA_2016-09-06-m1.u26">
@@ -965,7 +965,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-09-06-m1.u128">
-               <seg xml:id="ParlaMint-UA_2016-09-06-m1.u128.p1" xml:lang="uk">10 секунд, завершуйте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-06-m1.u128.p1" xml:lang="ru">10 секунд, завершуйте, будь ласка.</seg>
             </u>
             <note type="time"><time when="2016-09-06T17:58:37">17:58:37</time></note>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>

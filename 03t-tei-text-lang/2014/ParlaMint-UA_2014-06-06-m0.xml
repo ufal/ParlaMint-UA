@@ -494,7 +494,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-06-m0.u63">
-               <seg xml:id="ParlaMint-UA_2014-06-06-m0.u63.p1" xml:lang="uk">Прошу завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-06-m0.u63.p1" xml:lang="ru">Прошу завершити.</seg>
             </u>
             <note type="speaker">ПИЛИПЕНКО В.П.</note>
             <u who="ПИЛИПЕНКО В.П." ana="#regular" xml:id="ParlaMint-UA_2014-06-06-m0.u64">
@@ -763,7 +763,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-06-m0.u86">
-               <seg xml:id="ParlaMint-UA_2014-06-06-m0.u86.p1" xml:lang="uk">Якщо можна, завершуйте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-06-m0.u86.p1" xml:lang="ru">Якщо можна, завершуйте, будь ласка.</seg>
             </u>
             <note type="speaker">КАПЛІН С.М.</note>
             <u who="КАПЛІН С.М." ana="#regular" xml:id="ParlaMint-UA_2014-06-06-m0.u87">

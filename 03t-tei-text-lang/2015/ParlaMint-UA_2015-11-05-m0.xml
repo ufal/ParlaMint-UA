@@ -452,7 +452,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-11-05-m0.u50">
-               <seg xml:id="ParlaMint-UA_2015-11-05-m0.u50.p1" xml:lang="uk">Завершуйте, будь ласка, 20 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-05-m0.u50.p1" xml:lang="ru">Завершуйте, будь ласка, 20 секунд.</seg>
             </u>
             <note type="time"><time when="2015-11-05T10:57:29">10:57:29</time></note>
             <note type="speaker">ЧУБАРОВ Р.А.</note>
@@ -757,7 +757,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-11-05-m0.u93">
-               <seg xml:id="ParlaMint-UA_2015-11-05-m0.u93.p1" xml:lang="uk">Завершуйте, будь ласка, 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-05-m0.u93.p1" xml:lang="ru">Завершуйте, будь ласка, 30 секунд.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-11-05-m0.u94">
@@ -1114,7 +1114,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-11-05-m0.u144">
-               <seg xml:id="ParlaMint-UA_2015-11-05-m0.u144.p1" xml:lang="uk">Я перепрошую, 23 поправка, народного депутата Дроздик.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-05-m0.u144.p1" xml:lang="ru">Я перепрошую, 23 поправка, народного депутата Дроздик.</seg>
             </u>
             <note type="time"><time when="2015-11-05T13:15:10">13:15:10</time></note>
             <note type="speaker">ДЕНІСОВА Л.Л.</note>
@@ -1123,7 +1123,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-11-05-m0.u146">
-               <seg xml:id="ParlaMint-UA_2015-11-05-m0.u146.p1" xml:lang="uk">Я прошу вас.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-05-m0.u146.p1" xml:lang="ru">Я прошу вас.</seg>
             </u>
             <note type="speaker">ДЕНІСОВА Л.Л.</note>
             <u who="ДЕНІСОВА Л.Л." ana="#regular" xml:id="ParlaMint-UA_2015-11-05-m0.u147">
@@ -1247,7 +1247,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-11-05-m0.u165">
-               <seg xml:id="ParlaMint-UA_2015-11-05-m0.u165.p1" xml:lang="uk">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-05-m0.u165.p1" xml:lang="ru">Дякую вам.</seg>
             </u>
             <note type="time"><time when="2015-11-05T13:25:13">13:25:13</time></note>
             <note type="speaker">ДЕНІСОВА Л.Л.</note>

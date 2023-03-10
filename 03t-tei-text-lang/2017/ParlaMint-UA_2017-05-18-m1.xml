@@ -550,7 +550,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-05-18-m1.u73">
-               <seg xml:id="ParlaMint-UA_2017-05-18-m1.u73.p1" xml:lang="uk">30 секунд, пане Тарас, 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-05-18-m1.u73.p1" xml:lang="ru">30 секунд, пане Тарас, 30 секунд.</seg>
             </u>
             <note type="speaker">ПАСТУХ Т.Т.</note>
             <u who="ПАСТУХ Т.Т." ana="#regular" xml:id="ParlaMint-UA_2017-05-18-m1.u74">
@@ -697,7 +697,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-05-18-m1.u97">
-               <seg xml:id="ParlaMint-UA_2017-05-18-m1.u97.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-05-18-m1.u97.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ПАСТУХ Т.Т.</note>
             <u who="ПАСТУХ Т.Т." ana="#regular" xml:id="ParlaMint-UA_2017-05-18-m1.u98">

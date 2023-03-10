@@ -224,7 +224,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-03-m0.u17">
-               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u17.p1" xml:lang="uk">Дайте договорити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u17.p1" xml:lang="ru">Дайте договорити.</seg>
             </u>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2019-09-03-m0.u18">
@@ -274,7 +274,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-03-m0.u23">
-               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u23.p1" xml:lang="uk">Дайте договорити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u23.p1" xml:lang="ru">Дайте договорити.</seg>
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2019-09-03-m0.u24">
@@ -429,7 +429,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-03-m0.u39">
-               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u39.p1" xml:lang="uk">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u39.p1" xml:lang="ru">Да.</seg>
             </u>
             <note type="time"><time when="2019-09-03T11:02:47">11:02:47</time></note>
             <note type="speaker">СОВГИРЯ О.В.</note>
@@ -506,8 +506,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-03-m0.u53">
-               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u53.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u53.p2" xml:lang="uk">Святослав Вакарчук.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u53.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u53.p2" xml:lang="ru">Святослав Вакарчук.</seg>
             </u>
             <note type="time"><time when="2019-09-03T11:07:36">11:07:36</time></note>
             <note type="speaker">ВАКАРЧУК С.І.</note>

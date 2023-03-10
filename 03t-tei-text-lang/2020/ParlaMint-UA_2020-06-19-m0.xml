@@ -335,7 +335,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-19-m0.u40">
-               <seg xml:id="ParlaMint-UA_2020-06-19-m0.u40.p1" xml:lang="uk">Я не почув, кому?</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-19-m0.u40.p1" xml:lang="ru">Я не почув, кому?</seg>
             </u>
             <note type="speaker">СТЕФАНИШИНА О.А.</note>
             <u who="СТЕФАНИШИНА О.А." ana="#regular" xml:id="ParlaMint-UA_2020-06-19-m0.u41">
@@ -405,7 +405,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-19-m0.u52">
-               <seg xml:id="ParlaMint-UA_2020-06-19-m0.u52.p1" xml:lang="uk">Поляков.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-19-m0.u52.p1" xml:lang="ru">Поляков.</seg>
             </u>
             <note type="time"><time when="2020-06-19T11:03:26">11:03:26</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -623,7 +623,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-19-m0.u88">
-               <seg xml:id="ParlaMint-UA_2020-06-19-m0.u88.p1" xml:lang="uk">Ще раз. Я не почув.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-19-m0.u88.p1" xml:lang="ru">Ще раз. Я не почув.</seg>
             </u>
             <note type="time"><time when="2020-06-19T11:26:54">11:26:54</time></note>
             <note type="speaker">ПІПА Н.Р.</note>
@@ -996,7 +996,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-19-m0.u143">
-               <seg xml:id="ParlaMint-UA_2020-06-19-m0.u143.p1" xml:lang="uk">Вельможний.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-19-m0.u143.p1" xml:lang="ru">Вельможний.</seg>
             </u>
             <note type="time"><time when="2020-06-19T12:41:49">12:41:49</time></note>
             <note type="speaker">ВЕЛЬМОЖНИЙ С.А.</note>
@@ -1332,7 +1332,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-19-m0.u171">
-               <seg xml:id="ParlaMint-UA_2020-06-19-m0.u171.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-19-m0.u171.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-06-19T13:34:07">13:34:07</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>

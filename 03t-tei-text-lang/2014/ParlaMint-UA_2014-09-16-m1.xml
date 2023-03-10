@@ -442,7 +442,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-09-16-m1.u54">
-               <seg xml:id="ParlaMint-UA_2014-09-16-m1.u54.p1" xml:lang="uk">Будь ласка, народний депутат Головко.</seg>
+               <seg xml:id="ParlaMint-UA_2014-09-16-m1.u54.p1" xml:lang="ru">Будь ласка, народний депутат Головко.</seg>
             </u>
             <note type="time"><time when="2014-09-16T17:02:37">17:02:37</time></note>
             <note type="speaker">ГОЛОВКО М.Й.</note>

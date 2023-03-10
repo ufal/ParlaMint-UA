@@ -390,7 +390,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-18-m0.u52">
-               <seg xml:id="ParlaMint-UA_2021-06-18-m0.u52.p1" xml:lang="uk">Заремський Максим.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-18-m0.u52.p1" xml:lang="ru">Заремський Максим.</seg>
             </u>
             <note type="time"><time when="2021-06-18T10:51:10">10:51:10</time></note>
             <note type="speaker">ЗАРЕМСЬКИЙ М.В.</note>
@@ -433,7 +433,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-18-m0.u59">
-               <seg xml:id="ParlaMint-UA_2021-06-18-m0.u59.p1" xml:lang="uk">Лаба Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-18-m0.u59.p1" xml:lang="ru">Лаба Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-06-18T10:56:37">10:56:37</time></note>
             <note type="speaker">ЛАБА М.М.</note>
@@ -834,7 +834,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-18-m0.u116">
-               <seg xml:id="ParlaMint-UA_2021-06-18-m0.u116.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-18-m0.u116.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2021-06-18T11:52:54">11:52:54</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>

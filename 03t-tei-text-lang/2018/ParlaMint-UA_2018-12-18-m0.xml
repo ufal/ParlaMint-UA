@@ -70,7 +70,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-12-18-m0.u3">
-               <seg xml:id="ParlaMint-UA_2018-12-18-m0.u3.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-12-18-m0.u3.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2018-12-18-m0.u4">
@@ -93,7 +93,7 @@
             <note type="narrative">Веде засідання заступник Голови Верховної Ради України СИРОЇД О.І.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2018-12-18-m0.u7">
-               <seg xml:id="ParlaMint-UA_2018-12-18-m0.u7.p1" xml:lang="uk">30 секунд, будь ласка, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2018-12-18-m0.u7.p1" xml:lang="ru">30 секунд, будь ласка, завершуйте.</seg>
             </u>
             <note type="speaker">БОНДАР В.В.</note>
             <u who="БОНДАР В.В." ana="#regular" xml:id="ParlaMint-UA_2018-12-18-m0.u8">
@@ -288,7 +288,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-12-18-m0.u33">
-               <seg xml:id="ParlaMint-UA_2018-12-18-m0.u33.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-12-18-m0.u33.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ТЕТЕРУК А.А.</note>
             <u who="ТЕТЕРУК А.А." ana="#regular" xml:id="ParlaMint-UA_2018-12-18-m0.u34">
@@ -320,7 +320,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-12-18-m0.u39">
-               <seg xml:id="ParlaMint-UA_2018-12-18-m0.u39.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-12-18-m0.u39.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ТЕТЕРУК А.А.</note>
             <u who="ТЕТЕРУК А.А." ana="#regular" xml:id="ParlaMint-UA_2018-12-18-m0.u40">

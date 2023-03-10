@@ -349,7 +349,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-16-m0.u43">
-               <seg xml:id="ParlaMint-UA_2021-07-16-m0.u43.p1" xml:lang="uk">Синютка Олег.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-16-m0.u43.p1" xml:lang="ru">Синютка Олег.</seg>
             </u>
             <note type="time"><time when="2021-07-16T10:48:09">10:48:09</time></note>
             <note type="speaker">СИНЮТКА О.М.</note>
@@ -1022,7 +1022,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-16-m0.u116">
-               <seg xml:id="ParlaMint-UA_2021-07-16-m0.u116.p1" xml:lang="uk">Неклюдов Владлен Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-16-m0.u116.p1" xml:lang="ru">Неклюдов Владлен Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-07-16T12:12:33">12:12:33</time></note>
             <note type="speaker">НЕКЛЮДОВ В.М.</note>

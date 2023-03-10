@@ -486,7 +486,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-20-m0.u69">
-               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u69.p1" xml:lang="uk">Прошу, Павло Розенко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u69.p1" xml:lang="ru">Прошу, Павло Розенко.</seg>
             </u>
             <note type="time"><time when="2013-06-20T11:03:58">11:03:58</time></note>
             <note type="speaker">РОЗЕНКО П.В.</note>
@@ -523,7 +523,7 @@
                <seg xml:id="ParlaMint-UA_2013-06-20-m0.u73.p11" xml:lang="uk">Партія регіонів хоче працювати – 185 народних депутатів проголосувало. Ви це хочете, щоб я об'являв? "Батьківщина" – 0, "УДАР Віталія Кличка" – 0, "Свобода" – 0, Компартія – 32, позафракційні – 8.</seg>
                <seg xml:id="ParlaMint-UA_2013-06-20-m0.u73.p12" xml:lang="uk">Розглядається проект Закону (2342а) про внесення змін до Закону України "Про Державний бюджет України на 2013 рік" (щодо фінансування державної реєстрації суб'єктів підприємницької діяльності).</seg>
                <seg xml:id="ParlaMint-UA_2013-06-20-m0.u73.p13" xml:lang="uk">Будемо обговорювати чи ні? Будемо.</seg>
-               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u73.p14" xml:lang="uk">Вы мешаете работать! Я вас прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u73.p14" xml:lang="ru">Вы мешаете работать! Я вас прошу.</seg>
                <seg xml:id="ParlaMint-UA_2013-06-20-m0.u73.p15" xml:lang="uk">По скороченій процедурі це питання розглядається. Доповідає народний депутат України Пресман Олександр Семенович. Прошу доповідача. Доповідач.</seg>
             </u>
             <note type="time"><time when="2013-06-20T11:11:44">11:11:44</time></note>
@@ -707,7 +707,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-20-m0.u97">
-               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u97.p1" xml:lang="uk">Яку?</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u97.p1" xml:lang="ru">Яку?</seg>
             </u>
             <note type="speaker">ОДАРЧЕНКО Ю.В.</note>
             <u who="ОДАРЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2013-06-20-m0.u98">
@@ -771,7 +771,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-20-m0.u107">
-               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u107.p1" xml:lang="uk">Хорошо.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u107.p1" xml:lang="ru">Хорошо.</seg>
             </u>
             <note type="speaker">ШПЕНОВ Д.Ю.</note>
             <u who="ШПЕНОВ Д.Ю." ana="#regular" xml:id="ParlaMint-UA_2013-06-20-m0.u108">
@@ -993,7 +993,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-20-m0.u137">
-               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u137.p1" xml:lang="uk">29-у пройшли вже. А 36-а?</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u137.p1" xml:lang="ru">29-у пройшли вже. А 36-а?</seg>
             </u>
             <note type="speaker">ПРОДАН О.П.</note>
             <u who="ПРОДАН О.П." ana="#regular" xml:id="ParlaMint-UA_2013-06-20-m0.u138">
@@ -1236,7 +1236,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-20-m0.u170">
-               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u170.p1" xml:lang="uk">Ви почули?</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u170.p1" xml:lang="ru">Ви почули?</seg>
             </u>
             <note type="speaker">МАЙБОРОДА С.М.</note>
             <u who="МАЙБОРОДА С.М." ana="#regular" xml:id="ParlaMint-UA_2013-06-20-m0.u171">
@@ -1462,7 +1462,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-20-m0.u202">
-               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u202.p1" xml:lang="uk">Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u202.p1" xml:lang="ru">Прошу.</seg>
             </u>
             <note type="speaker">ГРИНЕВИЧ Л.М.</note>
             <u who="ГРИНЕВИЧ Л.М." ana="#regular" xml:id="ParlaMint-UA_2013-06-20-m0.u203">
@@ -1621,7 +1621,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-20-m0.u232">
-               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u232.p1" xml:lang="uk">Прошу, "Свобода".</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-20-m0.u232.p1" xml:lang="ru">Прошу, "Свобода".</seg>
             </u>
             <note type="time"><time when="2013-06-20T13:41:40">13:41:40</time></note>
             <note type="speaker">СИЧ О.М.</note>

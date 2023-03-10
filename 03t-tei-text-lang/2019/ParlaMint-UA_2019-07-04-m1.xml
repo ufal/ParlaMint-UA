@@ -184,7 +184,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-04-m1.u23">
-               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u23.p1" xml:lang="uk">78-а, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u23.p1" xml:lang="ru">78-а, прошу.</seg>
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-04-m1.u24">
@@ -1308,7 +1308,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-04-m1.u210">
-               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u210.p1" xml:lang="uk">Як?</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u210.p1" xml:lang="ru">Як?</seg>
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-04-m1.u211">

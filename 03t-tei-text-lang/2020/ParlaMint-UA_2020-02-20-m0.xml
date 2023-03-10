@@ -439,7 +439,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-20-m0.u57">
-               <seg xml:id="ParlaMint-UA_2020-02-20-m0.u57.p1" xml:lang="uk">672-а, Власенко.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-20-m0.u57.p1" xml:lang="ru">672-а, Власенко.</seg>
             </u>
             <note type="time"><time when="2020-02-20T10:40:14">10:40:14</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
@@ -856,8 +856,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-20-m0.u113">
-               <seg xml:id="ParlaMint-UA_2020-02-20-m0.u113.p1" xml:lang="uk">Вибачте.</seg>
-               <seg xml:id="ParlaMint-UA_2020-02-20-m0.u113.p2" xml:lang="uk">Красов, 700 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-20-m0.u113.p1" xml:lang="ru">Вибачте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-20-m0.u113.p2" xml:lang="ru">Красов, 700 правка.</seg>
             </u>
             <note type="time"><time when="2020-02-20T11:15:05">11:15:05</time></note>
             <note type="speaker">КРАСОВ О.І.</note>
@@ -1960,7 +1960,7 @@
             <note type="time"><time when="2020-02-20T13:25:26">13:25:26</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-20-m0.u261">
-               <seg xml:id="ParlaMint-UA_2020-02-20-m0.u261.p1" xml:lang="uk">Правка 1020, Шуфрич.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-20-m0.u261.p1" xml:lang="ru">Правка 1020, Шуфрич.</seg>
             </u>
             <note type="time"><time when="2020-02-20T13:25:30">13:25:30</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>

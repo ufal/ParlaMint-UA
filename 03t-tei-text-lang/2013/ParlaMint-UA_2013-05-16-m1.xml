@@ -159,7 +159,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-16-m1.u21">
-               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u21.p1" xml:lang="uk">Читайте Регламент.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u21.p1" xml:lang="ru">Читайте Регламент.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2013-05-16-m1.u22">
@@ -201,7 +201,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-16-m1.u31">
-               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u31.p1" xml:lang="uk">Маю.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u31.p1" xml:lang="ru">Маю.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2013-05-16-m1.u32">
@@ -212,7 +212,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-16-m1.u33">
-               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u33.p1" xml:lang="uk">Маю, друг мой.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u33.p1" xml:lang="ru">Маю, друг мой.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2013-05-16-m1.u34">
@@ -377,7 +377,7 @@
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u57.p4" xml:lang="uk">Я прошу, Александр Сергеевич, за кого голосовал Мироненко, есть этот депутат? Согласно закону, я должен установить и передать дальше. Говорят, Скосар (хто такий, я не знаю) голосував за Лукашука.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u57.p4" xml:lang="ru">Я прошу, Александр Сергеевич, за кого голосовал Мироненко, есть этот депутат? Согласно закону, я должен установить и передать дальше. Говорят, Скосар (хто такий, я не знаю) голосував за Лукашука.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
@@ -393,7 +393,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-16-m1.u59">
-               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u59.p1" xml:lang="uk">Ну, вы взяли ее? Кому дать? Шевченко, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u59.p1" xml:lang="ru">Ну, вы взяли ее? Кому дать? Шевченко, прошу.</seg>
             </u>
             <note type="time"><time when="2013-05-16T17:02:15">17:02:15</time></note>
             <note type="speaker">ШЕВЧЕНКО А.В.</note>
@@ -566,7 +566,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-16-m1.u83">
-               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u83.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u83.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">МІРОШНИЧЕНКО Ю.Р.</note>
             <u who="МІРОШНИЧЕНКО Ю.Р." ana="#regular" xml:id="ParlaMint-UA_2013-05-16-m1.u84">
@@ -672,7 +672,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-16-m1.u101">
-               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u101.p1" xml:lang="uk">Дякую. Давайте, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u101.p1" xml:lang="ru">Дякую. Давайте, завершуйте.</seg>
             </u>
             <note type="speaker">ЄМЕЛЬЯНОВА І.І.</note>
             <u who="ЄМЕЛЬЯНОВА І.І." ana="#regular" xml:id="ParlaMint-UA_2013-05-16-m1.u102">
@@ -705,7 +705,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-16-m1.u107">
-               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u107.p1" xml:lang="uk">Передайте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u107.p1" xml:lang="ru">Передайте.</seg>
             </u>
             <note type="time"><time when="2013-05-16T17:42:26">17:42:26</time></note>
             <note type="speaker">ОДАРЧЕНКО Ю.В.</note>

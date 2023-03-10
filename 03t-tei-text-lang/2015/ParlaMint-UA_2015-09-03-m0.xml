@@ -577,7 +577,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-09-03-m0.u58">
-               <seg xml:id="ParlaMint-UA_2015-09-03-m0.u58.p1" xml:lang="uk">10 секунд. Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-03-m0.u58.p1" xml:lang="ru">10 секунд. Завершуйте.</seg>
             </u>
             <note type="time"><time when="2015-09-03T12:47:49">12:47:49</time></note>
             <note type="speaker">ГРИНЕВИЧ Л.М.</note>
@@ -796,7 +796,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-09-03-m0.u95">
-               <seg xml:id="ParlaMint-UA_2015-09-03-m0.u95.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-03-m0.u95.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="time"><time when="2015-09-03T13:03:36">13:03:36</time></note>
             <note type="speaker">КУРЯЧИЙ М.П.</note>

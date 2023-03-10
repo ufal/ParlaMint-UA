@@ -832,7 +832,7 @@
             <note type="narrative">ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-04-19-m0.u80">
-               <seg xml:id="ParlaMint-UA_2018-04-19-m0.u80.p1" xml:lang="uk">30 секунд дайте, будь ласка, завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2018-04-19-m0.u80.p1" xml:lang="ru">30 секунд дайте, будь ласка, завершити.</seg>
             </u>
             <note type="speaker">ІВЧЕНКО В.Є.</note>
             <u who="ІВЧЕНКО В.Є." ana="#regular" xml:id="ParlaMint-UA_2018-04-19-m0.u81">
@@ -1366,7 +1366,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-04-19-m0.u155">
-               <seg xml:id="ParlaMint-UA_2018-04-19-m0.u155.p1" xml:lang="uk">10 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2018-04-19-m0.u155.p1" xml:lang="ru">10 секунд завершити.</seg>
             </u>
             <note type="speaker">КРИВОШЕЯ Г.Г.</note>
             <u who="КРИВОШЕЯ Г.Г." ana="#regular" xml:id="ParlaMint-UA_2018-04-19-m0.u156">

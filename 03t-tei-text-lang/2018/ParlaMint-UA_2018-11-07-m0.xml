@@ -145,7 +145,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-11-07-m0.u14">
-               <seg xml:id="ParlaMint-UA_2018-11-07-m0.u14.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-11-07-m0.u14.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ВІЛКУЛ О.Ю.</note>
             <u who="ВІЛКУЛ О.Ю." ana="#regular" xml:id="ParlaMint-UA_2018-11-07-m0.u15">
@@ -480,7 +480,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-11-07-m0.u65">
-               <seg xml:id="ParlaMint-UA_2018-11-07-m0.u65.p1" xml:lang="uk">30 секунд, завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2018-11-07-m0.u65.p1" xml:lang="ru">30 секунд, завершити.</seg>
             </u>
             <note type="speaker">КУЖЕЛЬ О.В.</note>
             <u who="КУЖЕЛЬ О.В." ana="#regular" xml:id="ParlaMint-UA_2018-11-07-m0.u66">
@@ -864,7 +864,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-11-07-m0.u118">
-               <seg xml:id="ParlaMint-UA_2018-11-07-m0.u118.p1" xml:lang="uk">30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2018-11-07-m0.u118.p1" xml:lang="ru">30 секунд завершити.</seg>
             </u>
             <note type="speaker">КОРЧИНСЬКА О.А.</note>
             <u who="КОРЧИНСЬКА О.А." ana="#regular" xml:id="ParlaMint-UA_2018-11-07-m0.u119">
@@ -1048,7 +1048,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-11-07-m0.u146">
-               <seg xml:id="ParlaMint-UA_2018-11-07-m0.u146.p1" xml:lang="uk">30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2018-11-07-m0.u146.p1" xml:lang="ru">30 секунд завершити.</seg>
             </u>
             <note type="speaker">ШУРМА І.М.</note>
             <u who="ШУРМА І.М." ana="#regular" xml:id="ParlaMint-UA_2018-11-07-m0.u147">

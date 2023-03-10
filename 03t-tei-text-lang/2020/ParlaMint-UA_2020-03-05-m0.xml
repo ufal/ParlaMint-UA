@@ -796,7 +796,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-05-m0.u89">
-               <seg xml:id="ParlaMint-UA_2020-03-05-m0.u89.p1" xml:lang="uk">Добавте хвилину.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m0.u89.p1" xml:lang="ru">Добавте хвилину.</seg>
             </u>
             <note type="time"><time when="2020-03-05T11:25:21">11:25:21</time></note>
             <note type="speaker">БУРМІЧ А.П.</note>
@@ -837,7 +837,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-05-m0.u97">
-               <seg xml:id="ParlaMint-UA_2020-03-05-m0.u97.p1" xml:lang="uk">48-а, да, дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m0.u97.p1" xml:lang="ru">48-а, да, дякую.</seg>
             </u>
             <note type="speaker">ПОНОМАРЬОВ О.С.</note>
             <u who="ПОНОМАРЬОВ О.С." ana="#regular" xml:id="ParlaMint-UA_2020-03-05-m0.u98">
@@ -1947,7 +1947,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-05-m0.u237">
-               <seg xml:id="ParlaMint-UA_2020-03-05-m0.u237.p1" xml:lang="uk">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m0.u237.p1" xml:lang="ru">Дякую вам.</seg>
             </u>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2020-03-05-m0.u238">

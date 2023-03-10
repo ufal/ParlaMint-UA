@@ -254,7 +254,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-20-m0.u29">
-               <seg xml:id="ParlaMint-UA_2014-06-20-m0.u29.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-20-m0.u29.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="speaker">ЛАЗОРИШИНЕЦЬ В.В.</note>
             <u who="ЛАЗОРИШИНЕЦЬ В.В." ana="#regular" xml:id="ParlaMint-UA_2014-06-20-m0.u30">
@@ -873,7 +873,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-20-m0.u136">
-               <seg xml:id="ParlaMint-UA_2014-06-20-m0.u136.p1" xml:lang="uk">Два слова, давайте.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-20-m0.u136.p1" xml:lang="ru">Два слова, давайте.</seg>
             </u>
             <note type="time"><time when="2014-06-20T11:49:21">11:49:21</time></note>
             <note type="speaker">РАЗВАДОВСЬКИЙ В.Й.</note>
@@ -1202,8 +1202,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-20-m0.u172">
-               <seg xml:id="ParlaMint-UA_2014-06-20-m0.u172.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2014-06-20-m0.u172.p2" xml:lang="uk">Прошу до слова народного депутата Момота.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-20-m0.u172.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-20-m0.u172.p2" xml:lang="ru">Прошу до слова народного депутата Момота.</seg>
             </u>
             <note type="time"><time when="2014-06-20T13:11:28">13:11:28</time></note>
             <note type="speaker">МОМОТ О.І.</note>
@@ -1235,7 +1235,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-20-m0.u178">
-               <seg xml:id="ParlaMint-UA_2014-06-20-m0.u178.p1" xml:lang="uk">Прошу до слова народного депутата Цибенка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-20-m0.u178.p1" xml:lang="ru">Прошу до слова народного депутата Цибенка.</seg>
             </u>
             <note type="time"><time when="2014-06-20T13:18:17">13:18:17</time></note>
             <note type="speaker">ЦИБЕНКО П.С.</note>
@@ -1298,7 +1298,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-20-m0.u188">
-               <seg xml:id="ParlaMint-UA_2014-06-20-m0.u188.p1" xml:lang="uk">Якщо можна, цитату дуже коротко.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-20-m0.u188.p1" xml:lang="ru">Якщо можна, цитату дуже коротко.</seg>
             </u>
             <note type="speaker">СЕХ І.І.</note>
             <u who="СЕХ І.І." ana="#regular" xml:id="ParlaMint-UA_2014-06-20-m0.u189">

@@ -497,7 +497,7 @@
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2016-10-18-m1.u63">
-               <seg xml:id="ParlaMint-UA_2016-10-18-m1.u63.p1" xml:lang="uk">Дайте завершити. 30 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-18-m1.u63.p1" xml:lang="ru">Дайте завершити. 30 секунд, будь ласка.</seg>
             </u>
             <note type="speaker">КОДОЛА О.М.</note>
             <u who="КОДОЛА О.М." ana="#regular" xml:id="ParlaMint-UA_2016-10-18-m1.u64">
@@ -506,7 +506,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2016-10-18-m1.u65">
-               <seg xml:id="ParlaMint-UA_2016-10-18-m1.u65.p1" xml:lang="uk">Ще 15 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-18-m1.u65.p1" xml:lang="ru">Ще 15 секунд.</seg>
             </u>
             <note type="time"><time when="2016-10-18T16:54:48">16:54:48</time></note>
             <note type="speaker">КОДОЛА О.М.</note>
@@ -805,7 +805,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-10-18-m1.u111">
-               <seg xml:id="ParlaMint-UA_2016-10-18-m1.u111.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-18-m1.u111.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">НОВАК Н.В.</note>
             <u who="НОВАК Н.В." ana="#regular" xml:id="ParlaMint-UA_2016-10-18-m1.u112">
@@ -900,7 +900,7 @@
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2016-10-18-m1.u125">
-               <seg xml:id="ParlaMint-UA_2016-10-18-m1.u125.p1" xml:lang="uk">Дайте 30 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-18-m1.u125.p1" xml:lang="ru">Дайте 30 секунд, будь ласка.</seg>
             </u>
             <note type="speaker">СТАШУК В.Ф.</note>
             <u who="СТАШУК В.Ф." ana="#regular" xml:id="ParlaMint-UA_2016-10-18-m1.u126">
@@ -1003,7 +1003,7 @@
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2016-10-18-m1.u143">
-               <seg xml:id="ParlaMint-UA_2016-10-18-m1.u143.p1" xml:lang="uk">Будь ласка, 30 секунд завершити. Дайте завершити 30 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-18-m1.u143.p1" xml:lang="ru">Будь ласка, 30 секунд завершити. Дайте завершити 30 секунд, будь ласка.</seg>
             </u>
             <note type="time"><time when="2016-10-18T17:54:43">17:54:43</time></note>
             <note type="speaker">БАБАК А.В.</note>

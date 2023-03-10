@@ -444,7 +444,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-15-m1.u61">
-               <seg xml:id="ParlaMint-UA_2021-04-15-m1.u61.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-15-m1.u61.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-04-15T16:49:42">16:49:42</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -474,7 +474,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-15-m1.u65">
-               <seg xml:id="ParlaMint-UA_2021-04-15-m1.u65.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-15-m1.u65.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2021-04-15T16:53:00">16:53:00</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -836,7 +836,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-15-m1.u113">
-               <seg xml:id="ParlaMint-UA_2021-04-15-m1.u113.p1" xml:lang="uk">Неклюдов, будь ласка. Владлен.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-15-m1.u113.p1" xml:lang="ru">Неклюдов, будь ласка. Владлен.</seg>
             </u>
             <note type="time"><time when="2021-04-15T17:33:49">17:33:49</time></note>
             <note type="speaker">НЕКЛЮДОВ В.М.</note>
@@ -895,7 +895,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-15-m1.u123">
-               <seg xml:id="ParlaMint-UA_2021-04-15-m1.u123.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-15-m1.u123.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2021-04-15T17:40:26">17:40:26</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -1755,7 +1755,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-15-m1.u234">
-               <seg xml:id="ParlaMint-UA_2021-04-15-m1.u234.p1" xml:lang="uk">Номер?</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-15-m1.u234.p1" xml:lang="ru">Номер?</seg>
             </u>
             <note type="speaker">ПУЗІЙЧУК А.В.</note>
             <u who="ПУЗІЙЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2021-04-15-m1.u235">
@@ -2032,7 +2032,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-15-m1.u273">
-               <seg xml:id="ParlaMint-UA_2021-04-15-m1.u273.p1" xml:lang="uk">Жмеренецький.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-15-m1.u273.p1" xml:lang="ru">Жмеренецький.</seg>
             </u>
             <note type="time"><time when="2021-04-15T19:43:10">19:43:10</time></note>
             <note type="speaker">ЖМЕРЕНЕЦЬКИЙ О.С.</note>

@@ -74,7 +74,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-13-m0.u3">
-               <seg xml:id="ParlaMint-UA_2021-04-13-m0.u3.p1" xml:lang="uk">Чорноморов Артем Олегович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-13-m0.u3.p1" xml:lang="ru">Чорноморов Артем Олегович.</seg>
             </u>
             <note type="time"><time when="2021-04-13T10:13:14">10:13:14</time></note>
             <note type="speaker">ЧОРНОМОРОВ А.О.</note>
@@ -280,7 +280,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-13-m0.u27">
-               <seg xml:id="ParlaMint-UA_2021-04-13-m0.u27.p1" xml:lang="uk">Давайте 1091.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-13-m0.u27.p1" xml:lang="ru">Давайте 1091.</seg>
             </u>
             <note type="speaker">ПУЗІЙЧУК А.В.</note>
             <u who="ПУЗІЙЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2021-04-13-m0.u28">

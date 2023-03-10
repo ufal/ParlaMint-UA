@@ -189,7 +189,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-12-m0.u19">
-               <seg xml:id="ParlaMint-UA_2015-05-12-m0.u19.p1" xml:lang="uk">Прошу, завершуйте, 10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-12-m0.u19.p1" xml:lang="ru">Прошу, завершуйте, 10 секунд.</seg>
             </u>
             <note type="speaker">ДЕРКАЧ А.Л.</note>
             <u who="ДЕРКАЧ А.Л." ana="#regular" xml:id="ParlaMint-UA_2015-05-12-m0.u20">
@@ -534,7 +534,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-12-m0.u65">
-               <seg xml:id="ParlaMint-UA_2015-05-12-m0.u65.p1" xml:lang="uk">Народний депутат Маркевич.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-12-m0.u65.p1" xml:lang="ru">Народний депутат Маркевич.</seg>
             </u>
             <note type="time"><time when="2015-05-12T11:18:12">11:18:12</time></note>
             <note type="speaker">МАРКЕВИЧ Я.В.</note>
@@ -1136,8 +1136,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-12-m0.u148">
-               <seg xml:id="ParlaMint-UA_2015-05-12-m0.u148.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2015-05-12-m0.u148.p2" xml:lang="uk">Артур Герасимов.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-12-m0.u148.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-12-m0.u148.p2" xml:lang="ru">Артур Герасимов.</seg>
             </u>
             <note type="time"><time when="2015-05-12T13:20:25">13:20:25</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>

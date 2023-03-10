@@ -628,7 +628,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-15-m0.u84">
-               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u84.p1" xml:lang="uk">Вибачаюсь.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u84.p1" xml:lang="ru">Вибачаюсь.</seg>
             </u>
             <note type="speaker">МАКАРОВ О.А.</note>
             <u who="МАКАРОВ О.А." ana="#regular" xml:id="ParlaMint-UA_2020-01-15-m0.u85">
@@ -1602,7 +1602,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-15-m0.u236">
-               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u236.p1" xml:lang="uk">Правка 148, Власенко.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u236.p1" xml:lang="ru">Правка 148, Власенко.</seg>
             </u>
             <note type="time"><time when="2020-01-15T13:00:02">13:00:02</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
@@ -1752,8 +1752,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-15-m0.u260">
-               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u260.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u260.p2" xml:lang="uk">159 правка, Макаров.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u260.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u260.p2" xml:lang="ru">159 правка, Макаров.</seg>
             </u>
             <note type="time"><time when="2020-01-15T13:12:03">13:12:03</time></note>
             <note type="speaker">МАКАРОВ О.А.</note>
@@ -2123,8 +2123,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-15-m0.u318">
-               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u318.p1" xml:lang="uk">209 правка.</seg>
-               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u318.p2" xml:lang="uk">Власенко, 205 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u318.p1" xml:lang="ru">209 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u318.p2" xml:lang="ru">Власенко, 205 правка.</seg>
             </u>
             <note type="time"><time when="2020-01-15T13:38:44">13:38:44</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
@@ -2482,7 +2482,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-15-m0.u369">
-               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u369.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u369.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="time"><time when="2020-01-15T14:04:40">14:04:40</time></note>
             <note type="speaker">МАКАРОВ О.А.</note>

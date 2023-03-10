@@ -161,7 +161,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-11-26-m0.u17">
-               <seg xml:id="ParlaMint-UA_2015-11-26-m0.u17.p1" xml:lang="uk">Ad hoc. Да.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-26-m0.u17.p1" xml:lang="ru">Ad hoc. Да.</seg>
             </u>
             <note type="time"><time when="2015-11-26T10:27:45">10:27:45</time></note>
             <note type="speaker">ГАЛАСЮК В.В.</note>
@@ -1091,7 +1091,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-11-26-m0.u130">
-               <seg xml:id="ParlaMint-UA_2015-11-26-m0.u130.p1" xml:lang="uk">Будь ласка. 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-26-m0.u130.p1" xml:lang="ru">Будь ласка. 30 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2015-11-26T13:07:37">13:07:37</time></note>
             <note type="speaker">ПРОДАН О.П.</note>
@@ -1523,7 +1523,7 @@
                <seg xml:id="ParlaMint-UA_2015-11-26-m0.u186.p11" xml:lang="uk">За-186</seg>
                <seg xml:id="ParlaMint-UA_2015-11-26-m0.u186.p12" xml:lang="uk">186, не набрала необхідної кількості голосів.</seg>
                <seg xml:id="ParlaMint-UA_2015-11-26-m0.u186.p13" xml:lang="uk">Шановні колеги, йдемо далі.</seg>
-               <seg xml:id="ParlaMint-UA_2015-11-26-m0.u186.p14" xml:lang="uk">Секунду, с кем мы договаривались.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-26-m0.u186.p14" xml:lang="ru">Секунду, с кем мы договаривались.</seg>
                <seg xml:id="ParlaMint-UA_2015-11-26-m0.u186.p15" xml:lang="uk">Шановні колеги, далі. Колеги, у нас є, ви пам'ятаєте, виступ нашої колеги Злати Огнєвич, проект Постанови про дострокове припинення повноважень народного депутата України Злати Огнєвич.</seg>
                <seg xml:id="ParlaMint-UA_2015-11-26-m0.u186.p16" xml:lang="uk">Павло Пинзеник, будь ласка, доповідайте.</seg>
             </u>

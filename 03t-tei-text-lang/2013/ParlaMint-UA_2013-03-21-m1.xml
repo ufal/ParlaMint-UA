@@ -295,7 +295,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-21-m1.u41">
-               <seg xml:id="ParlaMint-UA_2013-03-21-m1.u41.p1" xml:lang="uk">Кравчуку, народному депутату.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-21-m1.u41.p1" xml:lang="ru">Кравчуку, народному депутату.</seg>
             </u>
             <note type="time"><time when="2013-03-21T16:36:28">16:36:28</time></note>
             <note type="speaker">КРАВЧУК В.П.</note>
@@ -326,7 +326,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-21-m1.u47">
-               <seg xml:id="ParlaMint-UA_2013-03-21-m1.u47.p1" xml:lang="uk">Передать слово.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-21-m1.u47.p1" xml:lang="ru">Передать слово.</seg>
             </u>
             <note type="time"><time when="2013-03-21T16:39:00">16:39:00</time></note>
             <note type="speaker">САБІЙ І.М.</note>
@@ -471,7 +471,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-21-m1.u71">
-               <seg xml:id="ParlaMint-UA_2013-03-21-m1.u71.p1" xml:lang="uk">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-21-m1.u71.p1" xml:lang="ru">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-03-21T16:51:54">16:51:54</time></note>
             <note type="speaker">КУЧЕРУК М.Г.</note>
@@ -790,7 +790,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-21-m1.u121">
-               <seg xml:id="ParlaMint-UA_2013-03-21-m1.u121.p1" xml:lang="uk">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-21-m1.u121.p1" xml:lang="ru">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-03-21T17:32:06">17:32:06</time></note>
             <note type="speaker">ШВАЙКА І.О.</note>

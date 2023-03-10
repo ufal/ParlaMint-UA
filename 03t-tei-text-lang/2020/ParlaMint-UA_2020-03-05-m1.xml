@@ -235,8 +235,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-05-m1.u23">
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u23.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u23.p2" xml:lang="uk">2945, Шуфрич.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u23.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u23.p2" xml:lang="ru">2945, Шуфрич.</seg>
             </u>
             <note type="time"><time when="2020-03-05T16:24:10">16:24:10</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>
@@ -1168,7 +1168,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-05-m1.u140">
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u140.p1" xml:lang="uk">10 хвилин дайте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u140.p1" xml:lang="ru">10 хвилин дайте.</seg>
             </u>
             <note type="time"><time when="2020-03-05T17:52:40">17:52:40</time></note>
             <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>

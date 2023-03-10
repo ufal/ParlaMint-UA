@@ -75,7 +75,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-14-m0.u3">
-               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u3.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u3.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="time"><time when="2020-07-14T10:14:48">10:14:48</time></note>
             <note type="speaker">ШАХОВ С.В.</note>
@@ -240,7 +240,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-14-m0.u24">
-               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u24.p1" xml:lang="uk">Добре.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u24.p1" xml:lang="ru">Добре.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2020-07-14-m0.u25">
@@ -785,7 +785,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-14-m0.u73">
-               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u73.p1" xml:lang="uk">До слова.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u73.p1" xml:lang="ru">До слова.</seg>
             </u>
             <note type="time"><time when="2020-07-14T11:45:30">11:45:30</time></note>
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України</note>
@@ -1408,7 +1408,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-14-m0.u161">
-               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u161.p1" xml:lang="uk">Шуляк.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u161.p1" xml:lang="ru">Шуляк.</seg>
             </u>
             <note type="time"><time when="2020-07-14T13:55:16">13:55:16</time></note>
             <note type="speaker">ШУЛЯК О.О.</note>

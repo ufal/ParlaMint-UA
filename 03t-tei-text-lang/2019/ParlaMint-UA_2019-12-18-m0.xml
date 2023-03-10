@@ -1605,8 +1605,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-18-m0.u221">
-               <seg xml:id="ParlaMint-UA_2019-12-18-m0.u221.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2019-12-18-m0.u221.p2" xml:lang="uk">Наступна правка 217. Вельможний, да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-18-m0.u221.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-18-m0.u221.p2" xml:lang="ru">Наступна правка 217. Вельможний, да.</seg>
             </u>
             <note type="time"><time when="2019-12-18T13:34:18">13:34:18</time></note>
             <note type="speaker">ВЕЛЬМОЖНИЙ С.А.</note>
@@ -1670,7 +1670,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-18-m0.u233">
-               <seg xml:id="ParlaMint-UA_2019-12-18-m0.u233.p1" xml:lang="uk">234 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-18-m0.u233.p1" xml:lang="ru">234 правка.</seg>
             </u>
             <note type="time"><time when="2019-12-18T13:37:00">13:37:00</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
@@ -1791,7 +1791,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-18-m0.u251">
-               <seg xml:id="ParlaMint-UA_2019-12-18-m0.u251.p1" xml:lang="uk">22-а, Батенко.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-18-m0.u251.p1" xml:lang="ru">22-а, Батенко.</seg>
             </u>
             <note type="time"><time when="2019-12-18T13:46:33">13:46:33</time></note>
             <note type="speaker">БАТЕНКО Т.І.</note>

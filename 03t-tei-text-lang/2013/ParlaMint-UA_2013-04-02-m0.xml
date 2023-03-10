@@ -87,7 +87,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u4">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u4.p1" xml:lang="uk">Прошу дать закончить.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u4.p1" xml:lang="ru">Прошу дать закончить.</seg>
             </u>
             <note type="speaker">ДЕЙЧ Б.Д.</note>
             <u who="ДЕЙЧ Б.Д." ana="#regular" xml:id="ParlaMint-UA_2013-04-02-m0.u5">
@@ -241,7 +241,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u24">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u24.p1" xml:lang="uk">Прошу, народний депутат Петренко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u24.p1" xml:lang="ru">Прошу, народний депутат Петренко.</seg>
             </u>
             <note type="time"><time when="2013-04-02T10:45:15">10:45:15</time></note>
             <note type="speaker">ПЕТРЕНКО П.Д.</note>
@@ -288,7 +288,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u33">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u33.p1" xml:lang="uk">Прошу включити.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u33.p1" xml:lang="ru">Прошу включити.</seg>
             </u>
             <note type="time"><time when="2013-04-02T10:48:56">10:48:56</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -314,7 +314,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u39">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u39.p1" xml:lang="uk">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u39.p1" xml:lang="ru">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-04-02T10:50:02">10:50:02</time></note>
             <note type="speaker">СИРОТЮК Ю.М.</note>
@@ -404,7 +404,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u51">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u51.p1" xml:lang="uk">Ганно Герман, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u51.p1" xml:lang="ru">Ганно Герман, прошу.</seg>
             </u>
             <note type="time"><time when="2013-04-02T10:59:18">10:59:18</time></note>
             <note type="speaker">ГЕРМАН Г.М.</note>
@@ -1270,7 +1270,7 @@
                <note type="time"><time when="2013-04-02T13:38:29">13:38:29</time></note>
                <seg xml:id="ParlaMint-UA_2013-04-02-m0.u174.p12" xml:lang="uk">За-216</seg>
                <seg xml:id="ParlaMint-UA_2013-04-02-m0.u174.p13" xml:lang="uk">Рішення прийнято.</seg>
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u174.p14" xml:lang="uk">Мирошниченко, вы разберитесь сами.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u174.p14" xml:lang="ru">Мирошниченко, вы разберитесь сами.</seg>
                <seg xml:id="ParlaMint-UA_2013-04-02-m0.u174.p15" xml:lang="uk">Заступник міністра внутрішніх справ Сергій Іванович Лекарь. До 5 хвилин.</seg>
             </u>
             <note type="speaker">ЛЕКАРЬ С.І.</note>

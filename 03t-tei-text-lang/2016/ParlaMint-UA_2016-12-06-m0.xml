@@ -193,7 +193,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2016-12-06-m0.u21">
-               <seg xml:id="ParlaMint-UA_2016-12-06-m0.u21.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-12-06-m0.u21.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">КУЖЕЛЬ О.В.</note>
             <u who="КУЖЕЛЬ О.В." ana="#regular" xml:id="ParlaMint-UA_2016-12-06-m0.u22">
@@ -639,8 +639,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-12-06-m0.u91">
-               <seg xml:id="ParlaMint-UA_2016-12-06-m0.u91.p1" xml:lang="uk">Дякую вам.</seg>
-               <seg xml:id="ParlaMint-UA_2016-12-06-m0.u91.p2" xml:lang="uk">Пане Тарасе, прокоментуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-12-06-m0.u91.p1" xml:lang="ru">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2016-12-06-m0.u91.p2" xml:lang="ru">Пане Тарасе, прокоментуйте.</seg>
             </u>
             <note type="time"><time when="2016-12-06T11:34:58">11:34:58</time></note>
             <note type="speaker">ПАСТУХ Т.Т.</note>
@@ -1016,7 +1016,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-12-06-m0.u136">
-               <seg xml:id="ParlaMint-UA_2016-12-06-m0.u136.p1" xml:lang="uk">21-у.</seg>
+               <seg xml:id="ParlaMint-UA_2016-12-06-m0.u136.p1" xml:lang="ru">21-у.</seg>
             </u>
             <note type="speaker">ФЕДОРУК М.Т.</note>
             <u who="ФЕДОРУК М.Т." ana="#regular" xml:id="ParlaMint-UA_2016-12-06-m0.u137">

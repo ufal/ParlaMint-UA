@@ -190,7 +190,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-17-m0.u23">
-               <seg xml:id="ParlaMint-UA_2014-04-17-m0.u23.p1" xml:lang="uk">Будь ласка, народний депутат Долженков.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-17-m0.u23.p1" xml:lang="ru">Будь ласка, народний депутат Долженков.</seg>
             </u>
             <note type="time"><time when="2014-04-17T11:32:33">11:32:33</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
@@ -531,7 +531,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-17-m0.u75">
-               <seg xml:id="ParlaMint-UA_2014-04-17-m0.u75.p1" xml:lang="uk">А, ви не автор поправки. Я прошу вибачити.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-17-m0.u75.p1" xml:lang="ru">А, ви не автор поправки. Я прошу вибачити.</seg>
             </u>
             <note type="speaker">КОЖЕМ’ЯКІН А.А.</note>
             <u who="КОЖЕМ’ЯКІН А.А." ana="#regular" xml:id="ParlaMint-UA_2014-04-17-m0.u76">
@@ -625,7 +625,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-17-m0.u89">
-               <seg xml:id="ParlaMint-UA_2014-04-17-m0.u89.p1" xml:lang="uk">Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-17-m0.u89.p1" xml:lang="ru">Прошу.</seg>
             </u>
             <note type="speaker">ЛЯПІНА К.М.</note>
             <u who="ЛЯПІНА К.М." ana="#regular" xml:id="ParlaMint-UA_2014-04-17-m0.u90">

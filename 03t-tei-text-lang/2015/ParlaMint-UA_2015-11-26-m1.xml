@@ -433,7 +433,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-11-26-m1.u51">
-               <seg xml:id="ParlaMint-UA_2015-11-26-m1.u51.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-26-m1.u51.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>
             <u who="ГЕРАСИМОВ А.В." ana="#regular" xml:id="ParlaMint-UA_2015-11-26-m1.u52">
@@ -488,7 +488,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-11-26-m1.u61">
-               <seg xml:id="ParlaMint-UA_2015-11-26-m1.u61.p1" xml:lang="uk">Артур Герасимов.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-26-m1.u61.p1" xml:lang="ru">Артур Герасимов.</seg>
             </u>
             <note type="time"><time when="2015-11-26T17:05:32">17:05:32</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>
@@ -767,7 +767,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-11-26-m1.u93">
-               <seg xml:id="ParlaMint-UA_2015-11-26-m1.u93.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-26-m1.u93.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="time"><time when="2015-11-26T17:49:55">17:49:55</time></note>
             <note type="speaker">ГРИНЕВИЧ Л.М.</note>
@@ -948,7 +948,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-11-26-m1.u128">
-               <seg xml:id="ParlaMint-UA_2015-11-26-m1.u128.p1" xml:lang="uk">2 хвилини, оголошуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-26-m1.u128.p1" xml:lang="ru">2 хвилини, оголошуйте.</seg>
             </u>
             <note type="time"><time when="2015-11-26T18:02:06">18:02:06</time></note>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>

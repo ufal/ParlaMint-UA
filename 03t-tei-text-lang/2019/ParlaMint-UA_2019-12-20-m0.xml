@@ -102,7 +102,7 @@
             <note type="narrative">СТЕФАНЧУК Р.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-20-m0.u3">
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u3.p1" xml:lang="uk">Дайте, будь ласка, 30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u3.p1" xml:lang="ru">Дайте, будь ласка, 30 секунд завершити.</seg>
             </u>
             <note type="speaker">БОДНАР В.М.</note>
             <u who="БОДНАР В.М." ana="#regular" xml:id="ParlaMint-UA_2019-12-20-m0.u4">
@@ -241,7 +241,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-20-m0.u27">
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u27.p1" xml:lang="uk">Будь ласка, передайте.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u27.p1" xml:lang="ru">Будь ласка, передайте.</seg>
             </u>
             <note type="time"><time when="2019-12-20T10:30:27">10:30:27</time></note>
             <note type="speaker">БОБРОВСЬКА С.А.</note>
@@ -364,7 +364,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-20-m0.u47">
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u47.p1" xml:lang="uk">Будь ласка, передайте "Голос, передайте, да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u47.p1" xml:lang="ru">Будь ласка, передайте "Голос, передайте, да.</seg>
             </u>
             <note type="time"><time when="2019-12-20T10:40:39">10:40:39</time></note>
             <note type="speaker">ВАСИЛЕНКО Л.В.</note>
@@ -440,7 +440,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-20-m0.u57">
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u57.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u57.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="time"><time when="2019-12-20T10:55:23">10:55:23</time></note>
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
@@ -661,7 +661,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-20-m0.u92">
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u92.p1" xml:lang="uk">Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u92.p1" xml:lang="ru">Кому?</seg>
             </u>
             <note type="speaker">КУЗНЄЦОВ О.О.</note>
             <u who="КУЗНЄЦОВ О.О." ana="#regular" xml:id="ParlaMint-UA_2019-12-20-m0.u93">
@@ -1057,7 +1057,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-20-m0.u162">
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u162.p1" xml:lang="uk">Дайте до 3 хвилин.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u162.p1" xml:lang="ru">Дайте до 3 хвилин.</seg>
             </u>
             <note type="time"><time when="2019-12-20T12:01:50">12:01:50</time></note>
             <note type="speaker">СТЕФАНИШИНА О.А.</note>
@@ -1218,7 +1218,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-20-m0.u182">
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u182.p1" xml:lang="uk">Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u182.p1" xml:lang="ru">Кому?</seg>
             </u>
             <note type="speaker">ПАСІЧНИЙ О.С.</note>
             <u who="ПАСІЧНИЙ О.С." ana="#regular" xml:id="ParlaMint-UA_2019-12-20-m0.u183">
@@ -1226,7 +1226,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-20-m0.u184">
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u184.p1" xml:lang="uk">Прошу, Кирилл Нестеренко.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u184.p1" xml:lang="ru">Прошу, Кирилл Нестеренко.</seg>
             </u>
             <note type="time"><time when="2019-12-20T12:18:42">12:18:42</time></note>
             <note type="speaker">НЕСТЕРЕНКО К.О.</note>
@@ -2005,7 +2005,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-20-m0.u281">
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u281.p1" xml:lang="uk">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u281.p1" xml:lang="ru">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2019-12-20T13:44:32">13:44:32</time></note>
             <note type="speaker">БАБЕНКО М.В.</note>

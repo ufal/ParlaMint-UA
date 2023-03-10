@@ -510,7 +510,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-05-06-m0.u56">
-               <seg xml:id="ParlaMint-UA_2014-05-06-m0.u56.p1" xml:lang="uk">Дайте завершити. Чи уже все?</seg>
+               <seg xml:id="ParlaMint-UA_2014-05-06-m0.u56.p1" xml:lang="ru">Дайте завершити. Чи уже все?</seg>
             </u>
             <note type="speaker">ГЄЛЛЄР Є.Б.</note>
             <u who="ГЄЛЛЄР Є.Б." ana="#regular" xml:id="ParlaMint-UA_2014-05-06-m0.u57">
@@ -714,7 +714,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-05-06-m0.u95">
-               <seg xml:id="ParlaMint-UA_2014-05-06-m0.u95.p1" xml:lang="uk">Народний депутат Мартиняк.</seg>
+               <seg xml:id="ParlaMint-UA_2014-05-06-m0.u95.p1" xml:lang="ru">Народний депутат Мартиняк.</seg>
             </u>
             <note type="speaker">МАРТИНЯК С.В.</note>
             <u who="МАРТИНЯК С.В." ana="#regular" xml:id="ParlaMint-UA_2014-05-06-m0.u96">
@@ -835,7 +835,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-05-06-m0.u112">
-               <seg xml:id="ParlaMint-UA_2014-05-06-m0.u112.p1" xml:lang="uk">З 18.</seg>
+               <seg xml:id="ParlaMint-UA_2014-05-06-m0.u112.p1" xml:lang="ru">З 18.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2014-05-06-m0.u113">

@@ -111,7 +111,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u9">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u9.p1" xml:lang="uk">Гео Багратович Лерос.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u9.p1" xml:lang="ru">Гео Багратович Лерос.</seg>
             </u>
             <note type="time"><time when="2020-12-02T10:31:45">10:31:45</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -203,8 +203,8 @@
             <note type="narrative">КОНДРАТЮК О.К.</note>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u23">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u23.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u23.p2" xml:lang="uk">Колтунович Олександр, будь ласка. Колтунович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u23.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u23.p2" xml:lang="ru">Колтунович Олександр, будь ласка. Колтунович.</seg>
             </u>
             <note type="time"><time when="2020-12-02T10:47:06">10:47:06</time></note>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>
@@ -425,9 +425,9 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u55">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u55.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u55.p2" xml:lang="uk">Максим Саврасов.</seg>
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u55.p3" xml:lang="uk">Артур Герасимов. Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u55.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u55.p2" xml:lang="ru">Максим Саврасов.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u55.p3" xml:lang="ru">Артур Герасимов. Будь ласка.</seg>
             </u>
             <note type="time"><time when="2020-12-02T11:16:23">11:16:23</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>
@@ -630,7 +630,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u78">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u78.p1" xml:lang="uk">Ще раз.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u78.p1" xml:lang="ru">Ще раз.</seg>
             </u>
             <note type="speaker">СОЛЬСЬКИЙ М.Т.</note>
             <u who="СОЛЬСЬКИЙ М.Т." ana="#regular" xml:id="ParlaMint-UA_2020-12-02-m0.u79">
@@ -781,7 +781,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u91">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u91.p1" xml:lang="uk">Величкович Микола Романович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u91.p1" xml:lang="ru">Величкович Микола Романович.</seg>
             </u>
             <note type="time"><time when="2020-12-02T12:54:09">12:54:09</time></note>
             <note type="speaker">ВЕЛИЧКОВИЧ М.Р.</note>
@@ -976,7 +976,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u121">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u121.p1" xml:lang="uk">Вибачте, не чутно.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u121.p1" xml:lang="ru">Вибачте, не чутно.</seg>
             </u>
             <note type="speaker">ЗІНКЕВИЧ Я.В.</note>
             <u who="ЗІНКЕВИЧ Я.В." ana="#regular" xml:id="ParlaMint-UA_2020-12-02-m0.u122">
@@ -1090,8 +1090,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u139">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u139.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u139.p2" xml:lang="uk">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u139.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u139.p2" xml:lang="ru">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2020-12-02T13:28:55">13:28:55</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>

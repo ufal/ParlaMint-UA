@@ -216,7 +216,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-12-19-m1.u25">
-               <seg xml:id="ParlaMint-UA_2017-12-19-m1.u25.p1" xml:lang="uk">Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2017-12-19-m1.u25.p1" xml:lang="ru">Прошу.</seg>
             </u>
             <note type="time"><time when="2017-12-19T16:33:47">16:33:47</time></note>
             <note type="speaker">БАТЕНКО Т.І.</note>
@@ -256,7 +256,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-12-19-m1.u33">
-               <seg xml:id="ParlaMint-UA_2017-12-19-m1.u33.p1" xml:lang="uk">Три хвилини.</seg>
+               <seg xml:id="ParlaMint-UA_2017-12-19-m1.u33.p1" xml:lang="ru">Три хвилини.</seg>
             </u>
             <note type="speaker">ВОЙЦІЦЬКА В.М.</note>
             <u who="ВОЙЦІЦЬКА В.М." ana="#regular" xml:id="ParlaMint-UA_2017-12-19-m1.u34">

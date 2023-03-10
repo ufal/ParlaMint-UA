@@ -788,8 +788,8 @@
             <note type="time"><time when="2022-10-07T11:44:33">11:44:33</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-10-07-m0.u102">
-               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u102.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u102.p2" xml:lang="uk">Цабаль, "Голос".</seg>
+               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u102.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u102.p2" xml:lang="ru">Цабаль, "Голос".</seg>
             </u>
             <note type="time"><time when="2022-10-07T11:44:37">11:44:37</time></note>
             <note type="speaker">ЦАБАЛЬ В.В.</note>
@@ -1372,7 +1372,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-10-07-m0.u183">
-               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u183.p1" xml:lang="uk">Номер поправки.</seg>
+               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u183.p1" xml:lang="ru">Номер поправки.</seg>
             </u>
             <note type="time"><time when="2022-10-07T13:31:09">13:31:09</time></note>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
@@ -1858,7 +1858,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-10-07-m0.u262">
-               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u262.p1" xml:lang="uk">Не вдалося.</seg>
+               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u262.p1" xml:lang="ru">Не вдалося.</seg>
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2022-10-07-m0.u263">
@@ -2728,7 +2728,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-10-07-m0.u392">
-               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u392.p1" xml:lang="uk">270-а.</seg>
+               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u392.p1" xml:lang="ru">270-а.</seg>
             </u>
             <note type="speaker">ІОНОВА М.М.</note>
             <u who="ІОНОВА М.М." ana="#regular" xml:id="ParlaMint-UA_2022-10-07-m0.u393">

@@ -79,7 +79,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-15-m0.u4">
-               <seg xml:id="ParlaMint-UA_2020-09-15-m0.u4.p1" xml:lang="uk">Синютка Олег Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-15-m0.u4.p1" xml:lang="ru">Синютка Олег Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-09-15T10:16:47">10:16:47</time></note>
             <note type="speaker">СИНЮТКА О.М.</note>
@@ -191,7 +191,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-15-m0.u18">
-               <seg xml:id="ParlaMint-UA_2020-09-15-m0.u18.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-15-m0.u18.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="time"><time when="2020-09-15T10:39:25">10:39:25</time></note>
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
@@ -905,7 +905,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-15-m0.u104">
-               <seg xml:id="ParlaMint-UA_2020-09-15-m0.u104.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-15-m0.u104.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-09-15T13:31:25">13:31:25</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -1369,7 +1369,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-15-m0.u165">
-               <seg xml:id="ParlaMint-UA_2020-09-15-m0.u165.p1" xml:lang="uk">Правка 42.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-15-m0.u165.p1" xml:lang="ru">Правка 42.</seg>
             </u>
             <note type="time"><time when="2020-09-15T14:23:03">14:23:03</time></note>
             <note type="speaker">БАТЕНКО Т.І.</note>

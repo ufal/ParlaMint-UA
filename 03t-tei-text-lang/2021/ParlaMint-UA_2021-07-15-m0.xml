@@ -909,7 +909,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-15-m0.u118">
-               <seg xml:id="ParlaMint-UA_2021-07-15-m0.u118.p1" xml:lang="uk">Я не почув, кому?</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-15-m0.u118.p1" xml:lang="ru">Я не почув, кому?</seg>
             </u>
             <note type="speaker">КЛИМПУШ-ЦИНЦАДЗЕ І.О.</note>
             <u who="КЛИМПУШ-ЦИНЦАДЗЕ І.О." ana="#regular" xml:id="ParlaMint-UA_2021-07-15-m0.u119">
@@ -996,7 +996,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-15-m0.u132">
-               <seg xml:id="ParlaMint-UA_2021-07-15-m0.u132.p1" xml:lang="uk">Будь ласка, Артур Герасимов.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-15-m0.u132.p1" xml:lang="ru">Будь ласка, Артур Герасимов.</seg>
             </u>
             <note type="time"><time when="2021-07-15T12:42:12">12:42:12</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>
@@ -2233,7 +2233,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-15-m0.u295">
-               <seg xml:id="ParlaMint-UA_2021-07-15-m0.u295.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-15-m0.u295.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2021-07-15T14:48:42">14:48:42</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -2256,7 +2256,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-15-m0.u299">
-               <seg xml:id="ParlaMint-UA_2021-07-15-m0.u299.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-15-m0.u299.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-07-15T14:51:03">14:51:03</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>

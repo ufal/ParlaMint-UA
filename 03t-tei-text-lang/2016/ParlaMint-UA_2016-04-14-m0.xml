@@ -668,8 +668,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-04-14-m0.u70">
-               <seg xml:id="ParlaMint-UA_2016-04-14-m0.u70.p1" xml:lang="uk">Дякую. Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2016-04-14-m0.u70.p2" xml:lang="uk">Запрошую до слова народного депутата Миколу Федорука, "Народний фронт". Народний депутат Федорук.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-14-m0.u70.p1" xml:lang="ru">Дякую. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-14-m0.u70.p2" xml:lang="ru">Запрошую до слова народного депутата Миколу Федорука, "Народний фронт". Народний депутат Федорук.</seg>
             </u>
             <note type="time"><time when="2016-04-14T12:20:23">12:20:23</time></note>
             <note type="speaker">ФЕДОРУК М.Т.</note>
@@ -706,7 +706,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-04-14-m0.u76">
-               <seg xml:id="ParlaMint-UA_2016-04-14-m0.u76.p1" xml:lang="uk">Дякую. 10 секунд, прошу, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-14-m0.u76.p1" xml:lang="ru">Дякую. 10 секунд, прошу, завершуйте.</seg>
             </u>
             <note type="speaker">ДОБРОДОМОВ Д.Є.</note>
             <u who="ДОБРОДОМОВ Д.Є." ana="#regular" xml:id="ParlaMint-UA_2016-04-14-m0.u77">
@@ -965,7 +965,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-14-m0.u94">
-               <seg xml:id="ParlaMint-UA_2016-04-14-m0.u94.p1" xml:lang="uk">Тридцять секунд, будь ласка, 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-14-m0.u94.p1" xml:lang="ru">Тридцять секунд, будь ласка, 30 секунд.</seg>
             </u>
             <note type="time"><time when="2016-04-14T12:57:13">12:57:13</time></note>
             <note type="speaker">ОСТРІКОВА Т.Г.</note>
@@ -1389,8 +1389,8 @@
             <note type="narrative">СИРОЇД О.І.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-04-14-m0.u151">
-               <seg xml:id="ParlaMint-UA_2016-04-14-m0.u151.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2016-04-14-m0.u151.p2" xml:lang="uk">Народний депутат Олесь Довгий, "Воля народу".</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-14-m0.u151.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-14-m0.u151.p2" xml:lang="ru">Народний депутат Олесь Довгий, "Воля народу".</seg>
             </u>
             <note type="time"><time when="2016-04-14T14:01:35">14:01:35</time></note>
             <note type="speaker">ДОВГИЙ О.С.</note>

@@ -365,7 +365,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-16-m0.u38">
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u38.p1" xml:lang="uk">105-а, Павленко.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u38.p1" xml:lang="ru">105-а, Павленко.</seg>
             </u>
             <note type="time"><time when="2020-06-16T10:57:10">10:57:10</time></note>
             <note type="speaker">ПАВЛЕНКО Ю.О.</note>
@@ -375,7 +375,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-16-m0.u40">
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u40.p1" xml:lang="uk">110 правка. Княжицький.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u40.p1" xml:lang="ru">110 правка. Княжицький.</seg>
             </u>
             <note type="time"><time when="2020-06-16T10:57:51">10:57:51</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
@@ -518,7 +518,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-16-m0.u60">
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u60.p1" xml:lang="uk">Гетманцев Данило Олександрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u60.p1" xml:lang="ru">Гетманцев Данило Олександрович.</seg>
             </u>
             <note type="time"><time when="2020-06-16T11:16:41">11:16:41</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>
@@ -1126,7 +1126,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-16-m0.u143">
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u143.p1" xml:lang="uk">Костенко Роман.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u143.p1" xml:lang="ru">Костенко Роман.</seg>
             </u>
             <note type="time"><time when="2020-06-16T13:15:28">13:15:28</time></note>
             <note type="speaker">КОСТЕНКО Р.В.</note>
@@ -1253,7 +1253,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-16-m0.u161">
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u161.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u161.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-06-16T13:33:19">13:33:19</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -1306,8 +1306,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-16-m0.u169">
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u169.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u169.p2" xml:lang="uk">Будь ласка, народний депутат Шахов.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u169.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u169.p2" xml:lang="ru">Будь ласка, народний депутат Шахов.</seg>
             </u>
             <note type="time"><time when="2020-06-16T13:39:46">13:39:46</time></note>
             <note type="speaker">ШАХОВ С.В.</note>
@@ -1692,7 +1692,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-16-m0.u221">
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u221.p1" xml:lang="uk">55 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u221.p1" xml:lang="ru">55 правка.</seg>
             </u>
             <note type="speaker">КЛИМПУШ-ЦИНЦАДЗЕ І.О.</note>
             <u who="КЛИМПУШ-ЦИНЦАДЗЕ І.О." ana="#regular" xml:id="ParlaMint-UA_2020-06-16-m0.u222">

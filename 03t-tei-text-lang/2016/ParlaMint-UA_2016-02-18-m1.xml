@@ -111,7 +111,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-18-m1.u7">
-               <seg xml:id="ParlaMint-UA_2016-02-18-m1.u7.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-18-m1.u7.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">КОЖЕМ’ЯКІН А.А.</note>
             <u who="КОЖЕМ’ЯКІН А.А." ana="#regular" xml:id="ParlaMint-UA_2016-02-18-m1.u8">
@@ -1324,7 +1324,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-18-m1.u164">
-               <seg xml:id="ParlaMint-UA_2016-02-18-m1.u164.p1" xml:lang="uk">Читаю разом з вами.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-18-m1.u164.p1" xml:lang="ru">Читаю разом з вами.</seg>
             </u>
             <note type="speaker">ШКРУМ А.І.</note>
             <u who="ШКРУМ А.І." ana="#regular" xml:id="ParlaMint-UA_2016-02-18-m1.u165">
@@ -1365,7 +1365,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-18-m1.u172">
-               <seg xml:id="ParlaMint-UA_2016-02-18-m1.u172.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-18-m1.u172.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="speaker">ПЕТРЕНКО П.Д.</note>
             <u who="ПЕТРЕНКО П.Д." ana="#regular" xml:id="ParlaMint-UA_2016-02-18-m1.u173">
@@ -1627,7 +1627,7 @@
             </gap>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-18-m1.u207">
-               <seg xml:id="ParlaMint-UA_2016-02-18-m1.u207.p1" xml:lang="uk">Давайте ми пройдемо все правильно по Регламенту.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-18-m1.u207.p1" xml:lang="ru">Давайте ми пройдемо все правильно по Регламенту.</seg>
             </u>
             <vocal type="shouting">
                <desc>ГОЛОС ІЗ ЗАЛУ.</desc>
@@ -1650,7 +1650,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-18-m1.u210">
-               <seg xml:id="ParlaMint-UA_2016-02-18-m1.u210.p1" xml:lang="uk">10 секунд. Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-18-m1.u210.p1" xml:lang="ru">10 секунд. Завершуйте.</seg>
             </u>
             <note type="speaker">ДУБІНІН О.І.</note>
             <u who="ДУБІНІН О.І." ana="#regular" xml:id="ParlaMint-UA_2016-02-18-m1.u211">
@@ -1686,7 +1686,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-18-m1.u214">
-               <seg xml:id="ParlaMint-UA_2016-02-18-m1.u214.p1" xml:lang="uk">10 секунд. Завершуйте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-18-m1.u214.p1" xml:lang="ru">10 секунд. Завершуйте, будь ласка.</seg>
             </u>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2016-02-18-m1.u215">

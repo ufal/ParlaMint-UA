@@ -760,7 +760,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-06-m0.u100">
-               <seg xml:id="ParlaMint-UA_2020-02-06-m0.u100.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-06-m0.u100.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="speaker">ШАХОВ С.В.</note>
             <u who="ШАХОВ С.В." ana="#regular" xml:id="ParlaMint-UA_2020-02-06-m0.u101">
@@ -824,7 +824,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-06-m0.u111">
-               <seg xml:id="ParlaMint-UA_2020-02-06-m0.u111.p1" xml:lang="uk">10-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-06-m0.u111.p1" xml:lang="ru">10-а.</seg>
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2020-02-06-m0.u112">
@@ -832,7 +832,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-06-m0.u113">
-               <seg xml:id="ParlaMint-UA_2020-02-06-m0.u113.p1" xml:lang="uk">Правка 10, Клименко.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-06-m0.u113.p1" xml:lang="ru">Правка 10, Клименко.</seg>
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2020-02-06-m0.u114">
@@ -840,8 +840,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-06-m0.u115">
-               <seg xml:id="ParlaMint-UA_2020-02-06-m0.u115.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-02-06-m0.u115.p2" xml:lang="uk">Правка номер 11, Мороз.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-06-m0.u115.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-06-m0.u115.p2" xml:lang="ru">Правка номер 11, Мороз.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2020-02-06-m0.u116">
@@ -1005,7 +1005,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-06-m0.u141">
-               <seg xml:id="ParlaMint-UA_2020-02-06-m0.u141.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-06-m0.u141.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="speaker">СОЛЬСЬКИЙ М.Т.</note>
             <u who="СОЛЬСЬКИЙ М.Т." ana="#regular" xml:id="ParlaMint-UA_2020-02-06-m0.u142">

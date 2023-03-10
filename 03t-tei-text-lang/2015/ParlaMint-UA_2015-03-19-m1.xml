@@ -112,7 +112,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-19-m1.u9">
-               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u9.p1" xml:lang="uk">Будь ласка, народний депутат Побер, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u9.p1" xml:lang="ru">Будь ласка, народний депутат Побер, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2015-03-19T16:30:14">16:30:14</time></note>
             <note type="speaker">ПОБЕР І.М.</note>
@@ -121,7 +121,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-19-m1.u11">
-               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u11.p1" xml:lang="uk">Народний депутат Соловей. Заспокойтесь, колеги, уважно послухайте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u11.p1" xml:lang="ru">Народний депутат Соловей. Заспокойтесь, колеги, уважно послухайте.</seg>
             </u>
             <note type="time"><time when="2015-03-19T16:30:31">16:30:31</time></note>
             <note type="speaker">СОЛОВЕЙ Ю.І.</note>
@@ -148,7 +148,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-19-m1.u15">
-               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u15.p1" xml:lang="uk">Будь ласка, 10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u15.p1" xml:lang="ru">Будь ласка, 10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ВОРОПАЄВ Ю.М.</note>
             <u who="ВОРОПАЄВ Ю.М." ana="#regular" xml:id="ParlaMint-UA_2015-03-19-m1.u16">
@@ -575,7 +575,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-03-19-m1.u75">
-               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u75.p1" xml:lang="uk">Я вам дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u75.p1" xml:lang="ru">Я вам дякую.</seg>
             </u>
             <note type="speaker">СЮМАР В.П.</note>
             <u who="СЮМАР В.П." ana="#regular" xml:id="ParlaMint-UA_2015-03-19-m1.u76">
@@ -846,7 +846,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-19-m1.u119">
-               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u119.p1" xml:lang="uk">Народний депутат Рибак, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u119.p1" xml:lang="ru">Народний депутат Рибак, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2015-03-19T17:57:29">17:57:29</time></note>
             <note type="speaker">РИБАК І.П.</note>

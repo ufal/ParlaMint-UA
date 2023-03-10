@@ -665,7 +665,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-03-m0.u100">
-               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u100.p1" xml:lang="uk">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u100.p1" xml:lang="ru">Да.</seg>
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2020-07-03-m0.u101">
@@ -708,7 +708,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-03-m0.u108">
-               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u108.p1" xml:lang="uk">Ще раз, вибачте, номер правки.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u108.p1" xml:lang="ru">Ще раз, вибачте, номер правки.</seg>
             </u>
             <note type="time"><time when="2020-07-03T11:32:37">11:32:37</time></note>
             <note type="speaker">СОБОЛЄВ С.В.</note>
@@ -907,7 +907,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-03-m0.u138">
-               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u138.p1" xml:lang="uk">Номер який?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u138.p1" xml:lang="ru">Номер який?</seg>
             </u>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
             <u who="ВЛАСЕНКО С.В." ana="#regular" xml:id="ParlaMint-UA_2020-07-03-m0.u139">
@@ -931,7 +931,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-03-m0.u142">
-               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u142.p1" xml:lang="uk">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u142.p1" xml:lang="ru">Да.</seg>
             </u>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
             <u who="ВЛАСЕНКО С.В." ana="#regular" xml:id="ParlaMint-UA_2020-07-03-m0.u143">
@@ -1174,7 +1174,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-03-m0.u179">
-               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u179.p1" xml:lang="uk">Номер правки який?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u179.p1" xml:lang="ru">Номер правки який?</seg>
             </u>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
             <u who="ВЛАСЕНКО С.В." ana="#regular" xml:id="ParlaMint-UA_2020-07-03-m0.u180">
@@ -1344,7 +1344,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-03-m0.u204">
-               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u204.p1" xml:lang="uk">191-а. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u204.p1" xml:lang="ru">191-а. Дякую.</seg>
             </u>
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
@@ -1370,7 +1370,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-03-m0.u209">
-               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u209.p1" xml:lang="uk">85-а?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u209.p1" xml:lang="ru">85-а?</seg>
             </u>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>
             <u who="КОЛТУНОВИЧ О.С." ana="#regular" xml:id="ParlaMint-UA_2020-07-03-m0.u210">

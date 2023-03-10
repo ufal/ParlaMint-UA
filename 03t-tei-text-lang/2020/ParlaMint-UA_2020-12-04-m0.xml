@@ -190,7 +190,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-04-m0.u22">
-               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u22.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u22.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-12-04T10:23:19">10:23:19</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -861,12 +861,12 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2020-12-04-m0.u102">
-               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u102.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u102.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-04-m0.u103">
-               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u103.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u103.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-12-04T12:11:41">12:11:41</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -1038,8 +1038,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-04-m0.u127">
-               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u127.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u127.p2" xml:lang="uk">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u127.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u127.p2" xml:lang="ru">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2020-12-04T12:30:40">12:30:40</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>

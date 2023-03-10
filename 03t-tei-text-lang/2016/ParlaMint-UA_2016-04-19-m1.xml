@@ -94,8 +94,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-19-m1.u8">
-               <seg xml:id="ParlaMint-UA_2016-04-19-m1.u8.p1" xml:lang="uk">Дуже вам дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2016-04-19-m1.u8.p2" xml:lang="uk">Руслан Князевич.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-19-m1.u8.p1" xml:lang="ru">Дуже вам дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-19-m1.u8.p2" xml:lang="ru">Руслан Князевич.</seg>
             </u>
             <note type="time"><time when="2016-04-19T16:13:00">16:13:00</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -275,7 +275,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-19-m1.u31">
-               <seg xml:id="ParlaMint-UA_2016-04-19-m1.u31.p1" xml:lang="uk">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-19-m1.u31.p1" xml:lang="ru">Так.</seg>
             </u>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2016-04-19-m1.u32">

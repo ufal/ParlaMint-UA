@@ -164,8 +164,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-04-11-m1.u17">
-               <seg xml:id="ParlaMint-UA_2017-04-11-m1.u17.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2017-04-11-m1.u17.p2" xml:lang="uk">Прошу, пане голово.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-11-m1.u17.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-11-m1.u17.p2" xml:lang="ru">Прошу, пане голово.</seg>
             </u>
             <note type="time"><time when="2017-04-11T16:11:45">16:11:45</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -192,7 +192,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-04-11-m1.u21">
-               <seg xml:id="ParlaMint-UA_2017-04-11-m1.u21.p1" xml:lang="uk">Прошу, пане голово, прокоментуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-11-m1.u21.p1" xml:lang="ru">Прошу, пане голово, прокоментуйте.</seg>
             </u>
             <note type="time"><time when="2017-04-11T16:13:40">16:13:40</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -273,7 +273,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-11-m1.u32">
-               <seg xml:id="ParlaMint-UA_2017-04-11-m1.u32.p1" xml:lang="uk">Князевич.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-11-m1.u32.p1" xml:lang="ru">Князевич.</seg>
             </u>
             <note type="time"><time when="2017-04-11T16:20:52">16:20:52</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -429,7 +429,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-11-m1.u54">
-               <seg xml:id="ParlaMint-UA_2017-04-11-m1.u54.p1" xml:lang="uk">Руслан Князевич.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-11-m1.u54.p1" xml:lang="ru">Руслан Князевич.</seg>
             </u>
             <note type="time"><time when="2017-04-11T16:34:35">16:34:35</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -976,7 +976,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-11-m1.u131">
-               <seg xml:id="ParlaMint-UA_2017-04-11-m1.u131.p1" xml:lang="uk">Прошу, Руслан.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-11-m1.u131.p1" xml:lang="ru">Прошу, Руслан.</seg>
             </u>
             <note type="time"><time when="2017-04-11T17:26:32">17:26:32</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

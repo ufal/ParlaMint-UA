@@ -1203,7 +1203,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-01-m0.u158">
-               <seg xml:id="ParlaMint-UA_2021-06-01-m0.u158.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-01-m0.u158.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-06-01T13:07:52">13:07:52</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -1903,7 +1903,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-01-m0.u263">
-               <seg xml:id="ParlaMint-UA_2021-06-01-m0.u263.p1" xml:lang="uk">Гео Багратович Лерос, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-01-m0.u263.p1" xml:lang="ru">Гео Багратович Лерос, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-06-01T14:19:37">14:19:37</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -2023,7 +2023,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-01-m0.u284">
-               <seg xml:id="ParlaMint-UA_2021-06-01-m0.u284.p1" xml:lang="uk">Будь ласка, Лерос Гео Багратович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-01-m0.u284.p1" xml:lang="ru">Будь ласка, Лерос Гео Багратович.</seg>
             </u>
             <note type="time"><time when="2021-06-01T14:27:25">14:27:25</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -2258,7 +2258,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-01-m0.u317">
-               <seg xml:id="ParlaMint-UA_2021-06-01-m0.u317.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-01-m0.u317.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-06-01T14:50:34">14:50:34</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>

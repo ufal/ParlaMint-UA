@@ -412,8 +412,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-09-15-m1.u56">
-               <seg xml:id="ParlaMint-UA_2015-09-15-m1.u56.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2015-09-15-m1.u56.p2" xml:lang="uk">Медуниця Олег В'ячеславович.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-15-m1.u56.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-15-m1.u56.p2" xml:lang="ru">Медуниця Олег В'ячеславович.</seg>
             </u>
             <note type="time"><time when="2015-09-15T17:04:48">17:04:48</time></note>
             <note type="speaker">МЕДУНИЦЯ О.В.</note>
@@ -517,7 +517,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-09-15-m1.u68">
-               <seg xml:id="ParlaMint-UA_2015-09-15-m1.u68.p1" xml:lang="uk">Дайте, будь ласка, 30 секунд на завершення.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-15-m1.u68.p1" xml:lang="ru">Дайте, будь ласка, 30 секунд на завершення.</seg>
             </u>
             <note type="speaker">МЕХЕД П.М.</note>
             <u who="МЕХЕД П.М." ana="#regular" xml:id="ParlaMint-UA_2015-09-15-m1.u69">

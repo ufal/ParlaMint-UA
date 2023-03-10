@@ -157,7 +157,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-09-07-m0.u15">
-               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u15.p1" xml:lang="uk">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u15.p1" xml:lang="ru">10 секунд.</seg>
             </u>
             <note type="speaker">МУСІЙ О.С.</note>
             <u who="МУСІЙ О.С." ana="#regular" xml:id="ParlaMint-UA_2016-09-07-m0.u16">
@@ -184,7 +184,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-09-07-m0.u19">
-               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u19.p1" xml:lang="uk">Запрошую до слова народного депутата Шуфрича.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u19.p1" xml:lang="ru">Запрошую до слова народного депутата Шуфрича.</seg>
             </u>
             <note type="time"><time when="2016-09-07T10:25:00">10:25:00</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>
@@ -196,8 +196,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-09-07-m0.u21">
-               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u21.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u21.p2" xml:lang="uk">Запрошую до слова народного депутата Миколу Скорика.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u21.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u21.p2" xml:lang="ru">Запрошую до слова народного депутата Миколу Скорика.</seg>
             </u>
             <note type="time"><time when="2016-09-07T10:28:26">10:28:26</time></note>
             <note type="speaker">СКОРИК М.Л.</note>
@@ -214,7 +214,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-09-07-m0.u23">
-               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u23.p1" xml:lang="uk">10 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u23.p1" xml:lang="ru">10 секунд завершити.</seg>
             </u>
             <note type="speaker">СКОРИК М.Л.</note>
             <u who="СКОРИК М.Л." ana="#regular" xml:id="ParlaMint-UA_2016-09-07-m0.u24">
@@ -567,7 +567,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-09-07-m0.u71">
-               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u71.p1" xml:lang="uk">Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u71.p1" xml:lang="ru">Кому?</seg>
             </u>
             <note type="speaker">МІРОШНИЧЕНКО Ю.Р.</note>
             <u who="МІРОШНИЧЕНКО Ю.Р." ana="#regular" xml:id="ParlaMint-UA_2016-09-07-m0.u72">

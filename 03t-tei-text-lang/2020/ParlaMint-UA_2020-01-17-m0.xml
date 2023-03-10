@@ -221,7 +221,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-17-m0.u26">
-               <seg xml:id="ParlaMint-UA_2020-01-17-m0.u26.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-17-m0.u26.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-01-17T11:08:21">11:08:21</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -232,7 +232,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-17-m0.u28">
-               <seg xml:id="ParlaMint-UA_2020-01-17-m0.u28.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-17-m0.u28.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="time"><time when="2020-01-17T11:09:32">11:09:32</time></note>
             <note type="speaker">ПРИСТАЙКО В.В.</note>
@@ -978,7 +978,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-17-m0.u133">
-               <seg xml:id="ParlaMint-UA_2020-01-17-m0.u133.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-17-m0.u133.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-01-17T12:27:28">12:27:28</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

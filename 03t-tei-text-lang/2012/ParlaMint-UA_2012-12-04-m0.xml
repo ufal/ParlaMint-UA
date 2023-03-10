@@ -109,7 +109,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ЛИТВИН В.М." ana="#chair" xml:id="ParlaMint-UA_2012-12-04-m0.u7">
-               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u7.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u7.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ЯЦЕНЮК А.П.</note>
             <u who="ЯЦЕНЮК А.П." ana="#regular" xml:id="ParlaMint-UA_2012-12-04-m0.u8">
@@ -291,7 +291,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="МАРТИНЮК А.І." ana="#chair" xml:id="ParlaMint-UA_2012-12-04-m0.u30">
-               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u30.p1" xml:lang="uk">Степаненко.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u30.p1" xml:lang="ru">Степаненко.</seg>
             </u>
             <note type="time"><time when="2012-12-04T10:58:54">10:58:54</time></note>
             <note type="speaker">СТЕПАНЕНКО А.А.</note>
@@ -315,7 +315,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="МАРТИНЮК А.І." ana="#chair" xml:id="ParlaMint-UA_2012-12-04-m0.u35">
-               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u35.p1" xml:lang="uk">Ващук Катерина.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u35.p1" xml:lang="ru">Ващук Катерина.</seg>
             </u>
             <note type="time"><time when="2012-12-04T11:01:19">11:01:19</time></note>
             <note type="speaker">ВАЩУК К.Т.</note>
@@ -365,7 +365,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="МАРТИНЮК А.І." ana="#chair" xml:id="ParlaMint-UA_2012-12-04-m0.u44">
-               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u44.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u44.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">МЯРКОВСЬКИЙ А.І.</note>
             <u who="МЯРКОВСЬКИЙ А.І." ana="#regular" xml:id="ParlaMint-UA_2012-12-04-m0.u45">
@@ -560,7 +560,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ЛИТВИН В.М." ana="#chair" xml:id="ParlaMint-UA_2012-12-04-m0.u71">
-               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u71.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u71.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">ЦИБЕНКО П.С.</note>
             <u who="ЦИБЕНКО П.С." ana="#regular" xml:id="ParlaMint-UA_2012-12-04-m0.u72">

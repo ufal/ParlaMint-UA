@@ -187,7 +187,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-02-06-m1.u19">
-               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u19.p1" xml:lang="uk">30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u19.p1" xml:lang="ru">30 секунд завершити.</seg>
             </u>
             <note type="speaker">ІВАНЧУК А.В.</note>
             <u who="ІВАНЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2018-02-06-m1.u20">
@@ -288,7 +288,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-02-06-m1.u30">
-               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u30.p1" xml:lang="uk">Прокоментуйте коротко.</seg>
+               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u30.p1" xml:lang="ru">Прокоментуйте коротко.</seg>
             </u>
             <note type="time"><time when="2018-02-06T16:32:04">16:32:04</time></note>
             <note type="speaker">ДЕМЧАК Р.Є.</note>
@@ -297,7 +297,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-02-06-m1.u32">
-               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u32.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u32.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="speaker">ДЕМЧАК Р.Є.</note>
             <u who="ДЕМЧАК Р.Є." ana="#regular" xml:id="ParlaMint-UA_2018-02-06-m1.u33">
@@ -451,7 +451,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-02-06-m1.u49">
-               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u49.p1" xml:lang="uk">30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u49.p1" xml:lang="ru">30 секунд завершити.</seg>
             </u>
             <note type="speaker">ЛУЦЕНКО І.С.</note>
             <u who="ЛУЦЕНКО І.С." ana="#regular" xml:id="ParlaMint-UA_2018-02-06-m1.u50">
@@ -658,7 +658,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-02-06-m1.u78">
-               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u78.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u78.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ІВЧЕНКО В.Є.</note>
             <u who="ІВЧЕНКО В.Є." ana="#regular" xml:id="ParlaMint-UA_2018-02-06-m1.u79">
@@ -833,7 +833,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-02-06-m1.u106">
-               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u106.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u106.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ЗУБАЧ Л.Л.</note>
             <u who="ЗУБАЧ Л.Л." ana="#regular" xml:id="ParlaMint-UA_2018-02-06-m1.u107">

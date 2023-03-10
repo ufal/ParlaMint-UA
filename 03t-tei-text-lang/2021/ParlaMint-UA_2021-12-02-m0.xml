@@ -1263,7 +1263,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-12-02-m0.u167">
-               <seg xml:id="ParlaMint-UA_2021-12-02-m0.u167.p1" xml:lang="uk">Додайте часу, 334-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-12-02-m0.u167.p1" xml:lang="ru">Додайте часу, 334-а.</seg>
             </u>
             <note type="time"><time when="2021-12-02T13:29:45">13:29:45</time></note>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
@@ -2513,7 +2513,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-12-02-m0.u339">
-               <seg xml:id="ParlaMint-UA_2021-12-02-m0.u339.p1" xml:lang="uk">66 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-12-02-m0.u339.p1" xml:lang="ru">66 поправка.</seg>
             </u>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2021-12-02-m0.u340">

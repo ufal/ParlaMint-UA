@@ -162,7 +162,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-03-31-m1.u14">
-               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u14.p1" xml:lang="uk">30 секунд, будь ласка, завершуйте, 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u14.p1" xml:lang="ru">30 секунд, будь ласка, завершуйте, 30 секунд.</seg>
             </u>
             <note type="time"><time when="2016-03-31T16:29:20">16:29:20</time></note>
             <note type="speaker">КУЖЕЛЬ О.В.</note>
@@ -332,7 +332,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України ГРОЙСМАН В.Б.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-31-m1.u38">
-               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u38.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u38.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-03-31T16:57:34">16:57:34</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
@@ -445,7 +445,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-31-m1.u59">
-               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u59.p1" xml:lang="uk">Будь ласка, Максим Курячий, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u59.p1" xml:lang="ru">Будь ласка, Максим Курячий, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2016-03-31T17:09:04">17:09:04</time></note>
             <note type="speaker">КУРЯЧИЙ М.П.</note>
@@ -499,7 +499,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-31-m1.u70">
-               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u70.p1" xml:lang="uk">Будь ласка, 10 секунд. Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u70.p1" xml:lang="ru">Будь ласка, 10 секунд. Завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-03-31T17:14:14">17:14:14</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
@@ -579,7 +579,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-31-m1.u82">
-               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u82.p1" xml:lang="uk">Час. Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u82.p1" xml:lang="ru">Час. Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">БУРАН О.М.</note>
             <u who="БУРАН О.М." ana="#regular" xml:id="ParlaMint-UA_2016-03-31-m1.u83">
@@ -607,7 +607,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-31-m1.u88">
-               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u88.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u88.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2016-03-31-m1.u89">
@@ -814,7 +814,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-31-m1.u113">
-               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u113.p1" xml:lang="uk">30 секунд, завершуйте, 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u113.p1" xml:lang="ru">30 секунд, завершуйте, 30 секунд.</seg>
             </u>
             <note type="speaker">ГОРВАТ Р.І.</note>
             <u who="ГОРВАТ Р.І." ana="#regular" xml:id="ParlaMint-UA_2016-03-31-m1.u114">

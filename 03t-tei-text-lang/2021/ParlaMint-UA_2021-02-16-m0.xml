@@ -1085,8 +1085,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u137">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u137.p1" xml:lang="uk">Виключили.</seg>
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u137.p2" xml:lang="uk">612-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u137.p1" xml:lang="ru">Виключили.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u137.p2" xml:lang="ru">612-а.</seg>
             </u>
             <note type="speaker">КАЧУРА О.А.</note>
             <u who="КАЧУРА О.А." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u138">
@@ -1437,7 +1437,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u184">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u184.p1" xml:lang="uk">15-а, 18-а?</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u184.p1" xml:lang="ru">15-а, 18-а?</seg>
             </u>
             <note type="time"><time when="2021-02-16T14:02:43">14:02:43</time></note>
             <note type="speaker">ЧОРНИЙ Д.С.</note>
@@ -1454,7 +1454,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u188">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u188.p1" xml:lang="uk">Давайте. 15-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u188.p1" xml:lang="ru">Давайте. 15-а.</seg>
             </u>
             <note type="speaker">ЧОРНИЙ Д.С.</note>
             <u who="ЧОРНИЙ Д.С." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u189">
@@ -1502,7 +1502,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u197">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u197.p1" xml:lang="uk">Вас нечутно, Роман Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u197.p1" xml:lang="ru">Вас нечутно, Роман Михайлович.</seg>
             </u>
             <note type="speaker">ЛОЗИНСЬКИЙ Р.М.</note>
             <u who="ЛОЗИНСЬКИЙ Р.М." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u198">
@@ -1510,7 +1510,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u199">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u199.p1" xml:lang="uk">7-а, 32-а?</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u199.p1" xml:lang="ru">7-а, 32-а?</seg>
             </u>
             <note type="speaker">ЛОЗИНСЬКИЙ Р.М.</note>
             <u who="ЛОЗИНСЬКИЙ Р.М." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u200">
@@ -1797,7 +1797,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u249">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u249.p1" xml:lang="uk">Ще раз номер?</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u249.p1" xml:lang="ru">Ще раз номер?</seg>
             </u>
             <note type="speaker">КЛИМПУШ-ЦИНЦАДЗЕ І.О.</note>
             <u who="КЛИМПУШ-ЦИНЦАДЗЕ І.О." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u250">
@@ -1931,7 +1931,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u271">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u271.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u271.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="speaker">МАМКА Г.М.</note>
             <u who="МАМКА Г.М." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u272">

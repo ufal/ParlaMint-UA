@@ -883,7 +883,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-11-m0.u122">
-               <seg xml:id="ParlaMint-UA_2014-04-11-m0.u122.p1" xml:lang="uk">Прошу завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-11-m0.u122.p1" xml:lang="ru">Прошу завершити.</seg>
             </u>
             <note type="speaker">ФАРІОН І.Д.</note>
             <u who="ФАРІОН І.Д." ana="#regular" xml:id="ParlaMint-UA_2014-04-11-m0.u123">
@@ -936,7 +936,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-11-m0.u132">
-               <seg xml:id="ParlaMint-UA_2014-04-11-m0.u132.p1" xml:lang="uk">Прошу завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-11-m0.u132.p1" xml:lang="ru">Прошу завершити.</seg>
             </u>
             <note type="speaker">МЕДУНИЦЯ О.В.</note>
             <u who="МЕДУНИЦЯ О.В." ana="#regular" xml:id="ParlaMint-UA_2014-04-11-m0.u133">
@@ -956,7 +956,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-11-m0.u136">
-               <seg xml:id="ParlaMint-UA_2014-04-11-m0.u136.p1" xml:lang="uk">До слова запрошую народного депутата Мартинюка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-11-m0.u136.p1" xml:lang="ru">До слова запрошую народного депутата Мартинюка.</seg>
             </u>
             <note type="time"><time when="2014-04-11T12:41:52">12:41:52</time></note>
             <note type="speaker">СИМОНЕНКО П.М.</note>
@@ -1310,7 +1310,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-11-m0.u190">
-               <seg xml:id="ParlaMint-UA_2014-04-11-m0.u190.p1" xml:lang="uk">Прошу до слова народного депутата Ляшка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-11-m0.u190.p1" xml:lang="ru">Прошу до слова народного депутата Ляшка.</seg>
             </u>
             <note type="time"><time when="2014-04-11T13:39:49">13:39:49</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>

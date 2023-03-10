@@ -785,7 +785,7 @@
                <seg xml:id="ParlaMint-UA_2015-01-13-m1.u122.p3" xml:lang="uk">За-233</seg>
                <seg xml:id="ParlaMint-UA_2015-01-13-m1.u122.p4" xml:lang="uk">Рішення прийнято. За основу.</seg>
                <seg xml:id="ParlaMint-UA_2015-01-13-m1.u122.p5" xml:lang="uk">Наступне, шановні колеги. У нас є ряд постанов Верховної Ради. Перша постанова 1340, автор Гриневич Лілія Михайлівна, голова комітету доповідач. Я прошу за скороченою процедурою. Ставлю на голосування за скороченою процедурою? Є необхідність? Давайте. За скороченою процедурою: 1340 і 1013 – це дві постанови. Ставлю на голосування – за скороченою процедурою.</seg>
-               <seg xml:id="ParlaMint-UA_2015-01-13-m1.u122.p6" xml:lang="uk">Порядок должен быть.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-13-m1.u122.p6" xml:lang="ru">Порядок должен быть.</seg>
                <note type="time"><time when="2015-01-13T17:43:50">17:43:50</time></note>
                <seg xml:id="ParlaMint-UA_2015-01-13-m1.u122.p7" xml:lang="uk">За-207</seg>
                <seg xml:id="ParlaMint-UA_2015-01-13-m1.u122.p8" xml:lang="uk">Лілія Михайлівна, є необхідність доповідати? Верховна Рада хоче голосувати. Так я розумію? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Лілія Михайлівна, немає заперечень?</seg>
@@ -797,7 +797,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-13-m1.u124">
-               <seg xml:id="ParlaMint-UA_2015-01-13-m1.u124.p1" xml:lang="uk">Добре. Прошу. ваше право.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-13-m1.u124.p1" xml:lang="ru">Добре. Прошу. ваше право.</seg>
             </u>
             <note type="time"><time when="2015-01-13T17:44:09">17:44:09</time></note>
             <note type="speaker">ГРИНЕВИЧ Л.М.</note>

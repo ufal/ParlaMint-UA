@@ -186,8 +186,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-10-m0.u17">
-               <seg xml:id="ParlaMint-UA_2019-04-10-m0.u17.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2019-04-10-m0.u17.p2" xml:lang="uk">Запрошую до слова народного депутата Скорика.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-10-m0.u17.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-10-m0.u17.p2" xml:lang="ru">Запрошую до слова народного депутата Скорика.</seg>
             </u>
             <note type="time"><time when="2019-04-10T10:31:07">10:31:07</time></note>
             <note type="speaker">СКОРИК М.Л.</note>
@@ -225,7 +225,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-10-m0.u22">
-               <seg xml:id="ParlaMint-UA_2019-04-10-m0.u22.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-10-m0.u22.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">ЛАПІН І.О.</note>
             <u who="ЛАПІН І.О." ana="#regular" xml:id="ParlaMint-UA_2019-04-10-m0.u23">
@@ -1829,7 +1829,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-10-m0.u253">
-               <seg xml:id="ParlaMint-UA_2019-04-10-m0.u253.p1" xml:lang="uk">Наступна поправка - номер 1635. Прошу, народний депутат Олена Бойко.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-10-m0.u253.p1" xml:lang="ru">Наступна поправка - номер 1635. Прошу, народний депутат Олена Бойко.</seg>
             </u>
             <note type="time"><time when="2019-04-10T13:29:02">13:29:02</time></note>
             <note type="speaker">БОЙКО О.П.</note>
@@ -1993,7 +1993,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-10-m0.u280">
-               <seg xml:id="ParlaMint-UA_2019-04-10-m0.u280.p1" xml:lang="uk">15 секунд. Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-10-m0.u280.p1" xml:lang="ru">15 секунд. Завершуйте.</seg>
             </u>
             <note type="time"><time when="2019-04-10T13:40:34">13:40:34</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>

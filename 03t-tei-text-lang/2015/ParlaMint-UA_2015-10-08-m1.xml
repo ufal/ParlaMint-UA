@@ -98,7 +98,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-10-08-m1.u6">
-               <seg xml:id="ParlaMint-UA_2015-10-08-m1.u6.p1" xml:lang="uk">Будь ласка, 10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-10-08-m1.u6.p1" xml:lang="ru">Будь ласка, 10 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2015-10-08T16:26:38">16:26:38</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

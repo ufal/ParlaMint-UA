@@ -436,7 +436,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-02-23-m0.u53">
-               <seg xml:id="ParlaMint-UA_2022-02-23-m0.u53.p1" xml:lang="uk">"Голос", Клименко. Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-23-m0.u53.p1" xml:lang="ru">"Голос", Клименко. Будь ласка.</seg>
             </u>
             <note type="time"><time when="2022-02-23T11:05:39">11:05:39</time></note>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
@@ -870,7 +870,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-02-23-m0.u121">
-               <seg xml:id="ParlaMint-UA_2022-02-23-m0.u121.p1" xml:lang="uk">Юрчишин Ярослав Романович, "Голос".</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-23-m0.u121.p1" xml:lang="ru">Юрчишин Ярослав Романович, "Голос".</seg>
             </u>
             <note type="time"><time when="2022-02-23T11:52:15">11:52:15</time></note>
             <note type="speaker">ЮРЧИШИН Я.Р.</note>

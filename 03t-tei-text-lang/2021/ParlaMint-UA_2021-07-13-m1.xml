@@ -340,7 +340,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-13-m1.u39">
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u39.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u39.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-07-13T16:28:31">16:28:31</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -802,8 +802,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2021-07-13-m1.u100">
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u100.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u100.p2" xml:lang="uk">Наступна правка 453. Валентин Наливайченко, будь ласка. Валентин Наливайченко, 453-я. Валентин Наливайченко, 453 правка ваша.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u100.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u100.p2" xml:lang="ru">Наступна правка 453. Валентин Наливайченко, будь ласка. Валентин Наливайченко, 453-я. Валентин Наливайченко, 453 правка ваша.</seg>
             </u>
             <note type="time"><time when="2021-07-13T17:14:10">17:14:10</time></note>
             <note type="speaker">НАЛИВАЙЧЕНКО В.О.</note>
@@ -1077,7 +1077,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-13-m1.u141">
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u141.p1" xml:lang="uk">Правка 1074.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u141.p1" xml:lang="ru">Правка 1074.</seg>
             </u>
             <vocal type="shouting">
                <desc>ГОЛОС ІЗ ЗАЛУ. А хто.</desc>
@@ -1160,7 +1160,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-13-m1.u151">
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u151.p1" xml:lang="uk">Ще раз.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u151.p1" xml:lang="ru">Ще раз.</seg>
             </u>
             <note type="speaker">ВАСИЛЕВСЬКА-СМАГЛЮК О.М.</note>
             <u who="ВАСИЛЕВСЬКА-СМАГЛЮК О.М." ana="#regular" xml:id="ParlaMint-UA_2021-07-13-m1.u152">

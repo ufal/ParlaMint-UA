@@ -275,7 +275,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-11-01-m1.u34">
-               <seg xml:id="ParlaMint-UA_2016-11-01-m1.u34.p1" xml:lang="uk">30 секунд, будь ласка, 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-11-01-m1.u34.p1" xml:lang="ru">30 секунд, будь ласка, 30 секунд.</seg>
             </u>
             <note type="speaker">ЮРИНЕЦЬ О.В.</note>
             <u who="ЮРИНЕЦЬ О.В." ana="#regular" xml:id="ParlaMint-UA_2016-11-01-m1.u35">
@@ -375,7 +375,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-11-01-m1.u51">
-               <seg xml:id="ParlaMint-UA_2016-11-01-m1.u51.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-11-01-m1.u51.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="time"><time when="2016-11-01T16:47:49">16:47:49</time></note>
             <note type="speaker">ШИНЬКОВИЧ А.В.</note>
@@ -437,7 +437,7 @@
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2016-11-01-m1.u58">
-               <seg xml:id="ParlaMint-UA_2016-11-01-m1.u58.p1" xml:lang="uk">30 секунд, будь ласка, дайте завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2016-11-01-m1.u58.p1" xml:lang="ru">30 секунд, будь ласка, дайте завершити.</seg>
             </u>
             <note type="speaker">БЄЛЬКОВА О.В.</note>
             <u who="БЄЛЬКОВА О.В." ana="#regular" xml:id="ParlaMint-UA_2016-11-01-m1.u59">

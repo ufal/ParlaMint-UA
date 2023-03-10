@@ -120,7 +120,7 @@
             <note type="narrative">СИРОЇД О.І.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-09-05-m1.u9">
-               <seg xml:id="ParlaMint-UA_2017-09-05-m1.u9.p1" xml:lang="uk">Будь ласка, 30 секунд завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-05-m1.u9.p1" xml:lang="ru">Будь ласка, 30 секунд завершуйте.</seg>
             </u>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-09-05-m1.u10">
@@ -145,8 +145,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-09-05-m1.u13">
-               <seg xml:id="ParlaMint-UA_2017-09-05-m1.u13.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-05-m1.u13.p2" xml:lang="uk">Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-05-m1.u13.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-05-m1.u13.p2" xml:lang="ru">Прошу.</seg>
             </u>
             <note type="time"><time when="2017-09-05T16:12:27">16:12:27</time></note>
             <note type="speaker">СПІВАКОВСЬКИЙ О.В.</note>
@@ -1171,7 +1171,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-05-m1.u145">
-               <seg xml:id="ParlaMint-UA_2017-09-05-m1.u145.p1" xml:lang="uk">Хвилину дайте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-05-m1.u145.p1" xml:lang="ru">Хвилину дайте.</seg>
             </u>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-09-05-m1.u146">

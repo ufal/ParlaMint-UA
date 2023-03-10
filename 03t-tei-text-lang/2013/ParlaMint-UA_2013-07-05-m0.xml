@@ -240,7 +240,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-07-05-m0.u29">
-               <seg xml:id="ParlaMint-UA_2013-07-05-m0.u29.p1" xml:lang="uk">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-07-05-m0.u29.p1" xml:lang="ru">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-07-05T10:47:50">10:47:50</time></note>
             <note type="speaker">КІССЕ А.І.</note>
@@ -312,7 +312,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-07-05-m0.u45">
-               <seg xml:id="ParlaMint-UA_2013-07-05-m0.u45.p1" xml:lang="uk">Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-07-05-m0.u45.p1" xml:lang="ru">Прошу.</seg>
             </u>
             <note type="speaker">АРБУЗОВ С.Г.</note>
             <u who="АРБУЗОВ С.Г." ana="#regular" xml:id="ParlaMint-UA_2013-07-05-m0.u46">
@@ -378,7 +378,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-07-05-m0.u59">
-               <seg xml:id="ParlaMint-UA_2013-07-05-m0.u59.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-07-05-m0.u59.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">ТАБАЧНИК Д.В.</note>
             <u who="ТАБАЧНИК Д.В." ana="#regular" xml:id="ParlaMint-UA_2013-07-05-m0.u60">
@@ -457,7 +457,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-07-05-m0.u73">
-               <seg xml:id="ParlaMint-UA_2013-07-05-m0.u73.p1" xml:lang="uk">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-07-05-m0.u73.p1" xml:lang="ru">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-07-05T11:03:23">11:03:23</time></note>
             <note type="speaker">ЗАРУБІНСЬКИЙ О.О.</note>

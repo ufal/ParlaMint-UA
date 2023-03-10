@@ -355,7 +355,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u41">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u41.p1" xml:lang="uk">Гетманцев Данило Олександрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u41.p1" xml:lang="ru">Гетманцев Данило Олександрович.</seg>
             </u>
             <note type="time"><time when="2020-07-16T11:03:24">11:03:24</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>
@@ -720,7 +720,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u90">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u90.p1" xml:lang="uk">Гео Лерос.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u90.p1" xml:lang="ru">Гео Лерос.</seg>
             </u>
             <note type="time"><time when="2020-07-16T12:57:38">12:57:38</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -1033,7 +1033,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u128">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u128.p1" xml:lang="uk">Номер правок, ще раз?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u128.p1" xml:lang="ru">Номер правок, ще раз?</seg>
             </u>
             <note type="speaker">ПАВЛЮК М.В.</note>
             <u who="ПАВЛЮК М.В." ana="#regular" xml:id="ParlaMint-UA_2020-07-16-m0.u129">
@@ -1470,7 +1470,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u169">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u169.p1" xml:lang="uk">Номери правок?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u169.p1" xml:lang="ru">Номери правок?</seg>
             </u>
             <note type="time"><time when="2020-07-16T14:18:05">14:18:05</time></note>
             <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
@@ -1678,7 +1678,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u203">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u203.p1" xml:lang="uk">106-у ставлю.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u203.p1" xml:lang="ru">106-у ставлю.</seg>
             </u>
             <note type="speaker">ШАХОВ С.В.</note>
             <u who="ШАХОВ С.В." ana="#regular" xml:id="ParlaMint-UA_2020-07-16-m0.u204">
@@ -1729,7 +1729,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u211">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u211.p1" xml:lang="uk">Номери правок?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u211.p1" xml:lang="ru">Номери правок?</seg>
             </u>
             <note type="time"><time when="2020-07-16T14:36:54">14:36:54</time></note>
             <note type="speaker">КРУЛЬКО І.І.</note>
@@ -1788,7 +1788,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u223">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u223.p1" xml:lang="uk">498-а?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u223.p1" xml:lang="ru">498-а?</seg>
             </u>
             <note type="speaker">ЛОЗИНСЬКИЙ Р.М.</note>
             <u who="ЛОЗИНСЬКИЙ Р.М." ana="#regular" xml:id="ParlaMint-UA_2020-07-16-m0.u224">
@@ -1949,7 +1949,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u249">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u249.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u249.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2020-07-16-m0.u250">

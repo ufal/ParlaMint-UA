@@ -250,7 +250,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-29-m2.u30">
-               <seg xml:id="ParlaMint-UA_2021-04-29-m2.u30.p1" xml:lang="uk">Ще раз, кому?</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-29-m2.u30.p1" xml:lang="ru">Ще раз, кому?</seg>
             </u>
             <note type="time"><time when="2021-04-29T16:47:00">16:47:00</time></note>
             <note type="speaker">НЕКЛЮДОВ В.М.</note>
@@ -484,7 +484,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-29-m2.u65">
-               <seg xml:id="ParlaMint-UA_2021-04-29-m2.u65.p1" xml:lang="uk">Лерос Гео Багратович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-29-m2.u65.p1" xml:lang="ru">Лерос Гео Багратович.</seg>
             </u>
             <note type="time"><time when="2021-04-29T17:11:45">17:11:45</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -986,7 +986,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-29-m2.u133">
-               <seg xml:id="ParlaMint-UA_2021-04-29-m2.u133.p1" xml:lang="uk">28 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-29-m2.u133.p1" xml:lang="ru">28 правка.</seg>
             </u>
             <note type="time"><time when="2021-04-29T18:07:11">18:07:11</time></note>
             <note type="speaker">РАДІНА А.О.</note>

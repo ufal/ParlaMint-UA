@@ -220,7 +220,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-14-m0.u24">
-               <seg xml:id="ParlaMint-UA_2016-06-14-m0.u24.p1" xml:lang="uk">Будь ласка, 30 секунд завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-14-m0.u24.p1" xml:lang="ru">Будь ласка, 30 секунд завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-06-14T10:34:14">10:34:14</time></note>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
@@ -468,7 +468,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-14-m0.u66">
-               <seg xml:id="ParlaMint-UA_2016-06-14-m0.u66.p1" xml:lang="uk">Курячий Максим Павлович, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-14-m0.u66.p1" xml:lang="ru">Курячий Максим Павлович, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2016-06-14T11:05:38">11:05:38</time></note>
             <note type="speaker">КУРЯЧИЙ М.П.</note>
@@ -530,7 +530,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-14-m0.u76">
-               <seg xml:id="ParlaMint-UA_2016-06-14-m0.u76.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-14-m0.u76.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="time"><time when="2016-06-14T11:16:00">11:16:00</time></note>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
@@ -1142,7 +1142,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-14-m0.u165">
-               <seg xml:id="ParlaMint-UA_2016-06-14-m0.u165.p1" xml:lang="uk">Павло Кишкар.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-14-m0.u165.p1" xml:lang="ru">Павло Кишкар.</seg>
             </u>
             <note type="time"><time when="2016-06-14T13:06:09">13:06:09</time></note>
             <note type="speaker">КИШКАР П.М.</note>

@@ -493,8 +493,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-09-m0.u61">
-               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u61.p1" xml:lang="uk">Железняк Ярослав.</seg>
-               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u61.p2" xml:lang="uk">Ярослав Романович Юрчишин.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u61.p1" xml:lang="ru">Железняк Ярослав.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u61.p2" xml:lang="ru">Ярослав Романович Юрчишин.</seg>
             </u>
             <note type="time"><time when="2021-09-09T10:55:46">10:55:46</time></note>
             <note type="speaker">ЮРЧИШИН Я.Р.</note>
@@ -765,7 +765,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-09-m0.u99">
-               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u99.p1" xml:lang="uk">Лерос Гео Багратович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u99.p1" xml:lang="ru">Лерос Гео Багратович.</seg>
             </u>
             <note type="time"><time when="2021-09-09T11:24:29">11:24:29</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -1070,7 +1070,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-09-m0.u138">
-               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u138.p1" xml:lang="uk">Синютка Олег Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u138.p1" xml:lang="ru">Синютка Олег Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-09-09T12:33:05">12:33:05</time></note>
             <note type="speaker">СИНЮТКА О.М.</note>
@@ -1572,7 +1572,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-09-m0.u210">
-               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u210.p1" xml:lang="uk">Антон Едуардович, перепрошую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u210.p1" xml:lang="ru">Антон Едуардович, перепрошую.</seg>
             </u>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
             <u who="ПОЛЯКОВ А.Е." ana="#regular" xml:id="ParlaMint-UA_2021-09-09-m0.u211">
@@ -1697,7 +1697,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-09-m0.u228">
-               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u228.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u228.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2021-09-09T13:41:53">13:41:53</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -2003,7 +2003,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-09-m0.u271">
-               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u271.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u271.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2021-09-09T14:13:45">14:13:45</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -2107,7 +2107,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-09-m0.u285">
-               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u285.p1" xml:lang="uk">Народний депутат Шахов, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u285.p1" xml:lang="ru">Народний депутат Шахов, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-09-09T14:25:00">14:25:00</time></note>
             <note type="speaker">ШАХОВ С.В.</note>
@@ -2180,7 +2180,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-09-m0.u297">
-               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u297.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u297.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2021-09-09T14:33:56">14:33:56</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -2280,7 +2280,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-09-m0.u309">
-               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u309.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u309.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2021-09-09T14:44:39">14:44:39</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>

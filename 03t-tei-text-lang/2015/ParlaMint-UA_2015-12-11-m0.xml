@@ -229,7 +229,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-12-11-m0.u24">
-               <seg xml:id="ParlaMint-UA_2015-12-11-m0.u24.p1" xml:lang="uk">20 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-11-m0.u24.p1" xml:lang="ru">20 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2015-12-11T10:44:03">10:44:03</time></note>
             <note type="speaker">НАЙЄМ М.</note>
@@ -239,7 +239,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-12-11-m0.u26">
-               <seg xml:id="ParlaMint-UA_2015-12-11-m0.u26.p1" xml:lang="uk">Завершуйте, 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-11-m0.u26.p1" xml:lang="ru">Завершуйте, 30 секунд.</seg>
             </u>
             <note type="time"><time when="2015-12-11T10:44:32">10:44:32</time></note>
             <note type="speaker">НАЙЄМ М.І.</note>
@@ -256,7 +256,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-12-11-m0.u29">
-               <seg xml:id="ParlaMint-UA_2015-12-11-m0.u29.p1" xml:lang="uk">Все, все.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-11-m0.u29.p1" xml:lang="ru">Все, все.</seg>
             </u>
             <note type="time"><time when="2015-12-11T10:46:08">10:46:08</time></note>
             <note type="speaker">ЯЦЕНЮК А.П.</note>
@@ -366,7 +366,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-12-11-m0.u46">
-               <seg xml:id="ParlaMint-UA_2015-12-11-m0.u46.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-11-m0.u46.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2015-12-11T11:01:41">11:01:41</time></note>
             <note type="speaker">ЛУБІНЕЦЬ Д.В.</note>
@@ -375,7 +375,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-12-11-m0.u48">
-               <seg xml:id="ParlaMint-UA_2015-12-11-m0.u48.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-11-m0.u48.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="time"><time when="2015-12-11T11:02:07">11:02:07</time></note>
             <note type="speaker">ЯЦЕНЮК А.П.</note>

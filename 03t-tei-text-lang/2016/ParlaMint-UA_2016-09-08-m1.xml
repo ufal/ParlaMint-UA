@@ -409,7 +409,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-09-08-m1.u46">
-               <seg xml:id="ParlaMint-UA_2016-09-08-m1.u46.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-08-m1.u46.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">БЕРЕЗЮК О.Р.</note>
             <u who="БЕРЕЗЮК О.Р." ana="#regular" xml:id="ParlaMint-UA_2016-09-08-m1.u47">
@@ -709,8 +709,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-09-08-m1.u90">
-               <seg xml:id="ParlaMint-UA_2016-09-08-m1.u90.p1" xml:lang="uk">Дякую вам.</seg>
-               <seg xml:id="ParlaMint-UA_2016-09-08-m1.u90.p2" xml:lang="uk">Будь ласка, Барна Олег Степанович.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-08-m1.u90.p1" xml:lang="ru">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-08-m1.u90.p2" xml:lang="ru">Будь ласка, Барна Олег Степанович.</seg>
             </u>
             <note type="time"><time when="2016-09-08T17:41:21">17:41:21</time></note>
             <note type="speaker">БАРНА О.С.</note>

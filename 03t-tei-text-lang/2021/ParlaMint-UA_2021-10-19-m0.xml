@@ -1728,7 +1728,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u211">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u211.p1" xml:lang="uk">Добре. Давайте.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u211.p1" xml:lang="ru">Добре. Давайте.</seg>
             </u>
             <note type="time"><time when="2021-10-19T14:12:10">14:12:10</time></note>
             <note type="speaker">ПУЗІЙЧУК А.В.</note>
@@ -2760,7 +2760,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u344">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u344.p1" xml:lang="uk">Яка?</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u344.p1" xml:lang="ru">Яка?</seg>
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u345">
@@ -2768,7 +2768,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u346">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u346.p1" xml:lang="uk">59-а. Я ж сказав 59-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u346.p1" xml:lang="ru">59-а. Я ж сказав 59-а.</seg>
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u347">
@@ -2911,7 +2911,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u366">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u366.p1" xml:lang="uk">79-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u366.p1" xml:lang="ru">79-а.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u367">

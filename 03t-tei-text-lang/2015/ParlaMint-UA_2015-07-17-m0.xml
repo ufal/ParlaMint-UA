@@ -496,7 +496,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2015-07-17-m0.u20">
-               <seg xml:id="ParlaMint-UA_2015-07-17-m0.u20.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-17-m0.u20.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
             <u who="ВЛАСЕНКО С.В." ana="#regular" xml:id="ParlaMint-UA_2015-07-17-m0.u21">
@@ -723,7 +723,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2015-07-17-m0.u53">
-               <seg xml:id="ParlaMint-UA_2015-07-17-m0.u53.p1" xml:lang="uk">Десять секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-17-m0.u53.p1" xml:lang="ru">Десять секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ВЕСЕЛОВА Н.В.</note>
             <u who="ВЕСЕЛОВА Н.В." ana="#regular" xml:id="ParlaMint-UA_2015-07-17-m0.u54">
@@ -1183,7 +1183,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2015-07-17-m0.u117">
-               <seg xml:id="ParlaMint-UA_2015-07-17-m0.u117.p1" xml:lang="uk">Браво!</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-17-m0.u117.p1" xml:lang="ru">Браво!</seg>
             </u>
             <note type="speaker">СОБОЛЄВ Є.В.</note>
             <u who="СОБОЛЄВ Є.В." ana="#regular" xml:id="ParlaMint-UA_2015-07-17-m0.u118">
@@ -1700,7 +1700,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-17-m0.u188">
-               <seg xml:id="ParlaMint-UA_2015-07-17-m0.u188.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-17-m0.u188.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">УНГУРЯН П.Я.</note>
             <u who="УНГУРЯН П.Я." ana="#regular" xml:id="ParlaMint-UA_2015-07-17-m0.u189">

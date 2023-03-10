@@ -135,7 +135,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-22-m0.u7">
-               <seg xml:id="ParlaMint-UA_2017-09-22-m0.u7.p1" xml:lang="uk">Тридцять секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-22-m0.u7.p1" xml:lang="ru">Тридцять секунд.</seg>
             </u>
             <note type="speaker">АМЕЛЬЧЕНКО В.В.</note>
             <u who="АМЕЛЬЧЕНКО В.В." ana="#regular" xml:id="ParlaMint-UA_2017-09-22-m0.u8">
@@ -410,7 +410,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-22-m0.u52">
-               <seg xml:id="ParlaMint-UA_2017-09-22-m0.u52.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-22-m0.u52.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="time"><time when="2017-09-22T11:06:58">11:06:58</time></note>
             <note type="speaker">ДАНИЛЮК О.О.</note>
@@ -480,7 +480,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-22-m0.u62">
-               <seg xml:id="ParlaMint-UA_2017-09-22-m0.u62.p1" xml:lang="uk">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-22-m0.u62.p1" xml:lang="ru">10 секунд.</seg>
             </u>
             <note type="speaker">ОСТРІКОВА Т.Г.</note>
             <u who="ОСТРІКОВА Т.Г." ana="#regular" xml:id="ParlaMint-UA_2017-09-22-m0.u63">
@@ -599,7 +599,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-22-m0.u78">
-               <seg xml:id="ParlaMint-UA_2017-09-22-m0.u78.p1" xml:lang="uk">Я прошу по. поправкам говорити.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-22-m0.u78.p1" xml:lang="ru">Я прошу по. поправкам говорити.</seg>
             </u>
             <note type="speaker">ОДАРЧЕНКО Ю.В.</note>
             <u who="ОДАРЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-09-22-m0.u79">
@@ -638,7 +638,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-22-m0.u84">
-               <seg xml:id="ParlaMint-UA_2017-09-22-m0.u84.p1" xml:lang="uk">Добре.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-22-m0.u84.p1" xml:lang="ru">Добре.</seg>
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2017-09-22-m0.u85">

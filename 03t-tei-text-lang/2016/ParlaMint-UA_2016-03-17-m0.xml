@@ -124,7 +124,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-17-m0.u9">
-               <seg xml:id="ParlaMint-UA_2016-03-17-m0.u9.p1" xml:lang="uk">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-17-m0.u9.p1" xml:lang="ru">10 секунд.</seg>
             </u>
             <note type="speaker">ВІННИК І.Ю.</note>
             <u who="ВІННИК І.Ю." ana="#regular" xml:id="ParlaMint-UA_2016-03-17-m0.u10">
@@ -228,7 +228,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-17-m0.u21">
-               <seg xml:id="ParlaMint-UA_2016-03-17-m0.u21.p1" xml:lang="uk">Продовжуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-17-m0.u21.p1" xml:lang="ru">Продовжуйте.</seg>
             </u>
             <note type="speaker">ЛУЦЕНКО Ю.В.</note>
             <u who="ЛУЦЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2016-03-17-m0.u22">
@@ -393,7 +393,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-17-m0.u40">
-               <seg xml:id="ParlaMint-UA_2016-03-17-m0.u40.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-17-m0.u40.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="speaker">ЛУЦЕНКО Ю.В.</note>
             <u who="ЛУЦЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2016-03-17-m0.u41">
@@ -547,7 +547,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-17-m0.u65">
-               <seg xml:id="ParlaMint-UA_2016-03-17-m0.u65.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-17-m0.u65.p1" xml:lang="ru">Дякую.</seg>
             </u>
             <note type="speaker">ВІННИК І.Ю.</note>
             <u who="ВІННИК І.Ю." ana="#regular" xml:id="ParlaMint-UA_2016-03-17-m0.u66">

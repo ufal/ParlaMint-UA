@@ -677,7 +677,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-27-m0.u86">
-               <seg xml:id="ParlaMint-UA_2021-04-27-m0.u86.p1" xml:lang="uk">Колтунович, 2398.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-27-m0.u86.p1" xml:lang="ru">Колтунович, 2398.</seg>
             </u>
             <note type="time"><time when="2021-04-27T11:12:26">11:12:26</time></note>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>
@@ -2330,7 +2330,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-27-m0.u307">
-               <seg xml:id="ParlaMint-UA_2021-04-27-m0.u307.p1" xml:lang="uk">2833, Шкрум.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-27-m0.u307.p1" xml:lang="ru">2833, Шкрум.</seg>
             </u>
             <note type="time"><time when="2021-04-27T14:47:00">14:47:00</time></note>
             <note type="speaker">ШКРУМ А.І.</note>

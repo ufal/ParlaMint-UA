@@ -183,7 +183,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ЄФРЕМОВ О.С." ana="#chair" xml:id="ParlaMint-UA_2012-12-12-m2.u17">
-               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u17.p1" xml:lang="uk">Коллеги, у меня нет полномочия оглашать перерыв.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u17.p1" xml:lang="ru">Коллеги, у меня нет полномочия оглашать перерыв.</seg>
             </u>
             <vocal type="shouting">
                <desc>ГОЛОС ІЗ ЗАЛУ. Ви головуючий – оголошуйте перерву.</desc>
@@ -219,11 +219,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ЄФРЕМОВ О.С." ana="#chair" xml:id="ParlaMint-UA_2012-12-12-m2.u21">
-               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u21.p1" xml:lang="uk">Уважаемые коллеги, я предлагаю для того, чтобы выйти из этой ситуации, по одной минуте выступить от каждой фракции. Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u21.p1" xml:lang="ru">Уважаемые коллеги, я предлагаю для того, чтобы выйти из этой ситуации, по одной минуте выступить от каждой фракции. Спасибо.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u21.p2" xml:lang="uk">Пожалуйста, есть выступающие от фракции? Прошу выступающих от фракции записаться.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u21.p2" xml:lang="ru">Пожалуйста, есть выступающие от фракции? Прошу выступающих от фракции записаться.</seg>
             </u>
             <vocal type="shouting">
                <desc>ГОЛОС ІЗ ЗАЛУ.</desc>
@@ -317,7 +317,7 @@
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u31.p5" xml:lang="uk">Нет, вы говорите, что кто-то звонит, я просто поднял трубку, думал, может приемная звонит.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u31.p5" xml:lang="ru">Нет, вы говорите, что кто-то звонит, я просто поднял трубку, думал, может приемная звонит.</seg>
             </u>
             <vocal type="noise">
                <desc>(Шум у залі)</desc>
@@ -336,7 +336,7 @@
             <note type="comment">ПІСЛЯ ПЕРЕРВИ</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ЄФРЕМОВ О.С." ana="#chair" xml:id="ParlaMint-UA_2012-12-12-m2.u33">
-               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u33.p1" xml:lang="uk">Уважаемые коллеги, я членов президиума прошу занять места в президиуме.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u33.p1" xml:lang="ru">Уважаемые коллеги, я членов президиума прошу занять места в президиуме.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
@@ -381,7 +381,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ЄФРЕМОВ О.С." ana="#chair" xml:id="ParlaMint-UA_2012-12-12-m2.u37">
-               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u37.p1" xml:lang="uk">10 секунд, добавте.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u37.p1" xml:lang="ru">10 секунд, добавте.</seg>
             </u>
             <note type="time"><time when="2012-12-12T17:17:06">17:17:06</time></note>
             <note type="speaker">ТЯГНИБОК О.Я.</note>

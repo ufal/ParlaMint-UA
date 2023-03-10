@@ -498,7 +498,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-18-m1.u70">
-               <seg xml:id="ParlaMint-UA_2013-06-18-m1.u70.p1" xml:lang="uk">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-18-m1.u70.p1" xml:lang="ru">Завершуйте.</seg>
             </u>
             <note type="speaker">КОЛОБОВ Ю.В.</note>
             <u who="КОЛОБОВ Ю.В." ana="#regular" xml:id="ParlaMint-UA_2013-06-18-m1.u71">
@@ -551,7 +551,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-18-m1.u79">
-               <seg xml:id="ParlaMint-UA_2013-06-18-m1.u79.p1" xml:lang="uk">Добре.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-18-m1.u79.p1" xml:lang="ru">Добре.</seg>
             </u>
             <note type="time"><time when="2013-06-18T17:28:27">17:28:27</time></note>
             <note type="speaker">ТЕРЬОХІН С.А.</note>
@@ -573,8 +573,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-18-m1.u83">
-               <seg xml:id="ParlaMint-UA_2013-06-18-m1.u83.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2013-06-18-m1.u83.p2" xml:lang="uk">Прошу, народний депутат Олег Ляшко. Хвилина вам.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-18-m1.u83.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-18-m1.u83.p2" xml:lang="ru">Прошу, народний депутат Олег Ляшко. Хвилина вам.</seg>
             </u>
             <note type="time"><time when="2013-06-18T17:31:52">17:31:52</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>
@@ -724,7 +724,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-18-m1.u105">
-               <seg xml:id="ParlaMint-UA_2013-06-18-m1.u105.p1" xml:lang="uk">Прошу Головко народний депутат.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-18-m1.u105.p1" xml:lang="ru">Прошу Головко народний депутат.</seg>
             </u>
             <note type="time"><time when="2013-06-18T17:48:16">17:48:16</time></note>
             <note type="speaker">ГОЛОВКО М.Й.</note>

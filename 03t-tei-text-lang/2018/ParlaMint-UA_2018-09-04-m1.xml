@@ -71,7 +71,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-09-04-m1.u3">
-               <seg xml:id="ParlaMint-UA_2018-09-04-m1.u3.p1" xml:lang="uk">Будь ласка, 30 секунд додайте.</seg>
+               <seg xml:id="ParlaMint-UA_2018-09-04-m1.u3.p1" xml:lang="ru">Будь ласка, 30 секунд додайте.</seg>
             </u>
             <note type="time"><time when="2018-09-04T16:06:35">16:06:35</time></note>
             <note type="speaker">ОПАНАСЕНКО О.В.</note>
@@ -282,7 +282,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-09-04-m1.u25">
-               <seg xml:id="ParlaMint-UA_2018-09-04-m1.u25.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-09-04-m1.u25.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">БОГОМОЛЕЦЬ О.В.</note>
             <u who="БОГОМОЛЕЦЬ О.В." ana="#regular" xml:id="ParlaMint-UA_2018-09-04-m1.u26">
@@ -356,7 +356,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-09-04-m1.u35">
-               <seg xml:id="ParlaMint-UA_2018-09-04-m1.u35.p1" xml:lang="uk">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-09-04-m1.u35.p1" xml:lang="ru">30 секунд.</seg>
             </u>
             <note type="speaker">БАБАК А.В.</note>
             <u who="БАБАК А.В." ana="#regular" xml:id="ParlaMint-UA_2018-09-04-m1.u36">

@@ -252,7 +252,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-09-29-m0.u33">
-               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u33.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u33.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2016-09-29-m0.u34">
@@ -659,7 +659,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-09-29-m0.u96">
-               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u96.p1" xml:lang="uk">Сотник, вибачте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u96.p1" xml:lang="ru">Сотник, вибачте, будь ласка.</seg>
             </u>
             <note type="speaker">СОТНИК О.С.</note>
             <u who="СОТНИК О.С." ana="#regular" xml:id="ParlaMint-UA_2016-09-29-m0.u97">
@@ -1064,7 +1064,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-09-29-m0.u162">
-               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u162.p1" xml:lang="uk">Зарошую до слова народного депутата Парасюка, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u162.p1" xml:lang="ru">Зарошую до слова народного депутата Парасюка, прошу.</seg>
             </u>
             <note type="time"><time when="2016-09-29T11:50:18">11:50:18</time></note>
             <note type="speaker">ПАРАСЮК В.З.</note>
@@ -1607,8 +1607,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-09-29-m0.u216">
-               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u216.p1" xml:lang="uk">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u216.p2" xml:lang="uk">Наступна – Олег Ляшко.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u216.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u216.p2" xml:lang="ru">Наступна – Олег Ляшко.</seg>
             </u>
             <note type="time"><time when="2016-09-29T12:47:53">12:47:53</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>
@@ -1814,7 +1814,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-09-29-m0.u243">
-               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u243.p1" xml:lang="uk">30 секунд, будь ласка, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u243.p1" xml:lang="ru">30 секунд, будь ласка, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-09-29T13:12:48">13:12:48</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
