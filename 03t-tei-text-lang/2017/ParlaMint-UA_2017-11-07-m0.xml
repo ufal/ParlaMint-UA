@@ -178,7 +178,7 @@
             <note type="time"><time when="2017-11-07T10:29:12">10:29:12</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-07-m0.u19">
-               <seg xml:id="ParlaMint-UA_2017-11-07-m0.u19.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-07-m0.u19.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">МОСІЙЧУК І.В.</note>
             <u who="МОСІЙЧУК І.В." ana="#regular" xml:id="ParlaMint-UA_2017-11-07-m0.u20">
@@ -552,7 +552,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-07-m0.u76">
-               <seg xml:id="ParlaMint-UA_2017-11-07-m0.u76.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-07-m0.u76.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">МІРОШНИЧЕНКО Ю.Р.</note>
             <u who="МІРОШНИЧЕНКО Ю.Р." ana="#regular" xml:id="ParlaMint-UA_2017-11-07-m0.u77">

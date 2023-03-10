@@ -853,7 +853,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2018-07-12-m0.u99">
-               <seg xml:id="ParlaMint-UA_2018-07-12-m0.u99.p1" xml:lang="ru">Я слухаю вас, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2018-07-12-m0.u99.p1" xml:lang="uk">Я слухаю вас, прошу.</seg>
             </u>
             <note type="speaker">МЕЛЬНИЧУК І.І.</note>
             <u who="МЕЛЬНИЧУК І.І." ana="#regular" xml:id="ParlaMint-UA_2018-07-12-m0.u100">
@@ -1532,7 +1532,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-07-12-m0.u187">
-               <seg xml:id="ParlaMint-UA_2018-07-12-m0.u187.p1" xml:lang="ru">Завершуйте, будь ласка, 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-07-12-m0.u187.p1" xml:lang="uk">Завершуйте, будь ласка, 30 секунд.</seg>
             </u>
             <note type="speaker">ЄМЕЦЬ Л.О.</note>
             <u who="ЄМЕЦЬ Л.О." ana="#regular" xml:id="ParlaMint-UA_2018-07-12-m0.u188">
@@ -1642,7 +1642,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-07-12-m0.u203">
-               <seg xml:id="ParlaMint-UA_2018-07-12-m0.u203.p1" xml:lang="ru">Дайте 15 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2018-07-12-m0.u203.p1" xml:lang="uk">Дайте 15 секунд завершити.</seg>
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2018-07-12-m0.u204">
@@ -1685,7 +1685,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-07-12-m0.u209">
-               <seg xml:id="ParlaMint-UA_2018-07-12-m0.u209.p1" xml:lang="ru">Завершити 15 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-07-12-m0.u209.p1" xml:lang="uk">Завершити 15 секунд.</seg>
             </u>
             <note type="speaker">ПОМАЗАНОВ А.В.</note>
             <u who="ПОМАЗАНОВ А.В." ana="#regular" xml:id="ParlaMint-UA_2018-07-12-m0.u210">

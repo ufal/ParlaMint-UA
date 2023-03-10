@@ -506,8 +506,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-03-m0.u53">
-               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u53.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u53.p2" xml:lang="ru">Святослав Вакарчук.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u53.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-03-m0.u53.p2" xml:lang="uk">Святослав Вакарчук.</seg>
             </u>
             <note type="time"><time when="2019-09-03T11:07:36">11:07:36</time></note>
             <note type="speaker">ВАКАРЧУК С.І.</note>

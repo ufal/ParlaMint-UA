@@ -221,7 +221,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-16-m0.u21">
-               <seg xml:id="ParlaMint-UA_2017-11-16-m0.u21.p1" xml:lang="ru">30 секунд. Добре, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-16-m0.u21.p1" xml:lang="uk">30 секунд. Добре, завершуйте.</seg>
             </u>
             <note type="speaker">УНГУРЯН П.Я.</note>
             <u who="УНГУРЯН П.Я." ana="#regular" xml:id="ParlaMint-UA_2017-11-16-m0.u22">
@@ -729,7 +729,7 @@
             </u>
             <note type="speaker">ГРОЙСМАН В.Б.</note>
             <u who="ГРОЙСМАН В.Б." ana="#regular" xml:id="ParlaMint-UA_2017-11-16-m0.u87">
-               <seg xml:id="ParlaMint-UA_2017-11-16-m0.u87.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-16-m0.u87.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-16-m0.u88">
@@ -784,7 +784,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-16-m0.u96">
-               <seg xml:id="ParlaMint-UA_2017-11-16-m0.u96.p1" xml:lang="ru">30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-16-m0.u96.p1" xml:lang="uk">30 секунд завершити.</seg>
             </u>
             <note type="speaker">КОЖЕМ’ЯКІН А.А.</note>
             <u who="КОЖЕМ’ЯКІН А.А." ana="#regular" xml:id="ParlaMint-UA_2017-11-16-m0.u97">
@@ -1073,7 +1073,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-16-m0.u134">
-               <seg xml:id="ParlaMint-UA_2017-11-16-m0.u134.p1" xml:lang="ru">Дайте завершити, 30 секунд, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-16-m0.u134.p1" xml:lang="uk">Дайте завершити, 30 секунд, прошу.</seg>
             </u>
             <note type="speaker">ОСТРІКОВА Т.Г.</note>
             <u who="ОСТРІКОВА Т.Г." ana="#regular" xml:id="ParlaMint-UA_2017-11-16-m0.u135">

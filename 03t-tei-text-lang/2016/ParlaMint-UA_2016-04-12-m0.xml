@@ -75,7 +75,7 @@
             <note type="narrative">ПАРУБІЙ А.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-12-m0.u3">
-               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u3.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u3.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2016-04-12-m0.u4">
@@ -203,7 +203,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-12-m0.u23">
-               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u23.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u23.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">МОСКАЛЕНКО Я.М.</note>
             <u who="МОСКАЛЕНКО Я.М." ana="#regular" xml:id="ParlaMint-UA_2016-04-12-m0.u24">
@@ -498,7 +498,7 @@
             <note type="time"><time when="2016-04-12T11:16:24">11:16:24</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
             <u who="ДОЛЖЕНКОВ О.В." ana="#regular" xml:id="ParlaMint-UA_2016-04-12-m0.u66">
-               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u66.p1" xml:lang="ru">Спасибо, председательствующий.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u66.p1" xml:lang="uk">Спасибо, председательствующий.</seg>
                <seg xml:id="ParlaMint-UA_2016-04-12-m0.u66.p2" xml:lang="ru">Госпожа Маркарова, хотел задать вам два вопроса, но тогда три. Первый вопрос. Когда Владимирович Георгиевич задавал вам вопрос, он говорил "термин приостановки обязательств по внешним облигациям". То есть это не пролонгация действия закона – вы немножко неправильно отвечаете: умышленно либо по неосторожности, – а именно приоста. на какой термин будете приостанавливать обязательства, взятые государством в лице Минфина, органов местного самоуправления по обслуживанию облигаций.</seg>
                <seg xml:id="ParlaMint-UA_2016-04-12-m0.u66.p3" xml:lang="ru">Второй вопрос. Не считаете ли вы, что голосование за этот законопроект является формой шантажа перед кредиторами?</seg>
                <seg xml:id="ParlaMint-UA_2016-04-12-m0.u66.p4" xml:lang="ru">И третий вопрос. Не считаете ли вы, что голосование по этому законопроекту является дефолтом фактически, признанием дефолта государством на законодательном уровне?</seg>
@@ -564,7 +564,7 @@
             <note type="time"><time when="2016-04-12T11:22:55">11:22:55</time></note>
             <note type="speaker">ПАПІЄВ М.М.</note>
             <u who="ПАПІЄВ М.М." ana="#regular" xml:id="ParlaMint-UA_2016-04-12-m0.u77">
-               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u77.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u77.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-12-m0.u78">
@@ -673,7 +673,7 @@
             <note type="time"><time when="2016-04-12T11:39:54">11:39:54</time></note>
             <note type="speaker">ГАЛЬЧЕНКО А.В.</note>
             <u who="ГАЛЬЧЕНКО А.В." ana="#regular" xml:id="ParlaMint-UA_2016-04-12-m0.u95">
-               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u95.p1" xml:lang="ru">Прошу передать слово депутату Долженкову.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u95.p1" xml:lang="uk">Прошу передать слово депутату Долженкову.</seg>
             </u>
             <note type="time"><time when="2016-04-12T11:40:05">11:40:05</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
@@ -877,8 +877,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-12-m0.u125">
-               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u125.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u125.p2" xml:lang="ru">Олег Барна.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u125.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u125.p2" xml:lang="uk">Олег Барна.</seg>
             </u>
             <note type="time"><time when="2016-04-12T12:48:49">12:48:49</time></note>
             <note type="speaker">БАРНА О.С.</note>
@@ -1089,7 +1089,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-12-m0.u159">
-               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u159.p1" xml:lang="ru">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u159.p1" xml:lang="uk">10 секунд.</seg>
             </u>
             <note type="speaker">ГАЛАСЮК В.В.</note>
             <u who="ГАЛАСЮК В.В." ana="#regular" xml:id="ParlaMint-UA_2016-04-12-m0.u160">
@@ -1114,7 +1114,7 @@
             <note type="time"><time when="2016-04-12T13:21:04">13:21:04</time></note>
             <note type="speaker">БАЛИЦЬКИЙ Є.В.</note>
             <u who="БАЛИЦЬКИЙ Є.В." ana="#regular" xml:id="ParlaMint-UA_2016-04-12-m0.u164">
-               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u164.p1" xml:lang="ru">Евгений Балицкий, 80 округ. Прошу передать микрофон Матвиенкову.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u164.p1" xml:lang="uk">Евгений Балицкий, 80 округ. Прошу передать микрофон Матвиенкову.</seg>
             </u>
             <note type="time"><time when="2016-04-12T13:21:11">13:21:11</time></note>
             <note type="speaker">МАТВІЄНКОВ С.А.</note>

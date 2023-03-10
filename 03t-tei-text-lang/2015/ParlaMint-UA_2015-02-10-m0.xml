@@ -572,7 +572,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-10-m0.u82">
-               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u82.p1" xml:lang="ru">прошу дайте завершити. Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u82.p1" xml:lang="uk">прошу дайте завершити. Завершуйте.</seg>
             </u>
             <note type="speaker">ЯНЧУК А.В.</note>
             <u who="ЯНЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2015-02-10-m0.u83">
@@ -1028,7 +1028,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-10-m0.u149">
-               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u149.p1" xml:lang="ru">Дякую. Будь ласка, "Блок Петра Порошенка", народний депутат Соловей. Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u149.p1" xml:lang="uk">Дякую. Будь ласка, "Блок Петра Порошенка", народний депутат Соловей. Прошу.</seg>
             </u>
             <note type="time"><time when="2015-02-10T13:40:29">13:40:29</time></note>
             <note type="speaker">СОЛОВЕЙ Ю.І.</note>
@@ -1187,7 +1187,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-10-m0.u177">
-               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u177.p1" xml:lang="ru">Десять секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-10-m0.u177.p1" xml:lang="uk">Десять секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2015-02-10-m0.u178">

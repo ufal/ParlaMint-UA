@@ -1007,7 +1007,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-15-m1.u140">
-               <seg xml:id="ParlaMint-UA_2014-04-15-m1.u140.p1" xml:lang="ru">Дякую. Народний депутат Чумак.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-15-m1.u140.p1" xml:lang="uk">Дякую. Народний депутат Чумак.</seg>
             </u>
             <note type="time"><time when="2014-04-15T17:57:47">17:57:47</time></note>
             <note type="speaker">ЧУМАК В.В.</note>

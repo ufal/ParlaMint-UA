@@ -439,8 +439,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-09-02-m1.u60">
-               <seg xml:id="ParlaMint-UA_2014-09-02-m1.u60.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2014-09-02-m1.u60.p2" xml:lang="ru">Будь ласка, народний депутат Долженков.</seg>
+               <seg xml:id="ParlaMint-UA_2014-09-02-m1.u60.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-09-02-m1.u60.p2" xml:lang="uk">Будь ласка, народний депутат Долженков.</seg>
             </u>
             <note type="time"><time when="2014-09-02T17:14:20">17:14:20</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>

@@ -295,7 +295,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-04-m0.u23">
-               <seg xml:id="ParlaMint-UA_2014-12-04-m0.u23.p1" xml:lang="ru">Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-04-m0.u23.p1" xml:lang="uk">Прошу.</seg>
             </u>
             <note type="time"><time when="2014-12-04T17:08:00">17:08:00</time></note>
             <note type="speaker">БОЙКО Ю.А.</note>
@@ -329,7 +329,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-04-m0.u29">
-               <seg xml:id="ParlaMint-UA_2014-12-04-m0.u29.p1" xml:lang="ru">Дякую. Прошу до слова "Блок Петра Порошенка", Ольга Богомолець. Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-04-m0.u29.p1" xml:lang="uk">Дякую. Прошу до слова "Блок Петра Порошенка", Ольга Богомолець. Прошу.</seg>
             </u>
             <note type="time"><time when="2014-12-04T17:11:38">17:11:38</time></note>
             <note type="speaker">БОГОМОЛЕЦЬ О.В.</note>

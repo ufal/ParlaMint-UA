@@ -537,7 +537,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-18-m0.u54">
-               <seg xml:id="ParlaMint-UA_2013-06-18-m0.u54.p1" xml:lang="ru">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-18-m0.u54.p1" xml:lang="uk">Завершуйте.</seg>
             </u>
             <note type="speaker">НЕТЕЦЬКА О.А.</note>
             <u who="НЕТЕЦЬКА О.А." ana="#regular" xml:id="ParlaMint-UA_2013-06-18-m0.u55">
@@ -917,7 +917,7 @@
             <note type="time"><time when="2013-06-18T12:56:51">12:56:51</time></note>
             <note type="speaker">КІЛІНКАРОВ С.П.</note>
             <u who="КІЛІНКАРОВ С.П." ana="#regular" xml:id="ParlaMint-UA_2013-06-18-m0.u109">
-               <seg xml:id="ParlaMint-UA_2013-06-18-m0.u109.p1" xml:lang="ru">Владимир Васильевич, я прошу поставить на переголосование вопрос, карточка не сработала. Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-18-m0.u109.p1" xml:lang="uk">Владимир Васильевич, я прошу поставить на переголосование вопрос, карточка не сработала. Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-18-m0.u110">

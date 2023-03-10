@@ -933,7 +933,7 @@
             </u>
             <note type="speaker">БАРНА О.С.</note>
             <u who="БАРНА О.С." ana="#regular" xml:id="ParlaMint-UA_2014-12-02-m1.u120">
-               <seg xml:id="ParlaMint-UA_2014-12-02-m1.u120.p1" xml:lang="ru">Все. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-02-m1.u120.p1" xml:lang="uk">Все. Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-02-m1.u121">
@@ -1002,7 +1002,7 @@
             </u>
             <note type="speaker">АВАКОВ А.Б.</note>
             <u who="АВАКОВ А.Б." ana="#regular" xml:id="ParlaMint-UA_2014-12-02-m1.u130">
-               <seg xml:id="ParlaMint-UA_2014-12-02-m1.u130.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-02-m1.u130.p1" xml:lang="uk">Дякую.</seg>
                <seg xml:id="ParlaMint-UA_2014-12-02-m1.u130.p2" xml:lang="ru">Шановний Олегу Валерійовичу, напевно, ви знаєте, що за 9 місяців важко зробити те, що не було зроблено за багато-багато років до того. И как говорил не безызвестный Мао Цзедун: "Шаг за шагом – мы придем к успеху". Вот нам нужно взять эту стратегию – и шаг за шагом изменять ситуацию к лучшему. Уверен, что если мы здесь искренни в этом вопросе, нам это удастся. Дякую.</seg>
             </u>
             <kinesic type="applause">
@@ -1277,7 +1277,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-02-m1.u167">
-               <seg xml:id="ParlaMint-UA_2014-12-02-m1.u167.p1" xml:lang="ru">Народний депутат Головко, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-02-m1.u167.p1" xml:lang="uk">Народний депутат Головко, прошу.</seg>
             </u>
             <note type="time"><time when="2014-12-02T19:55:12">19:55:12</time></note>
             <note type="speaker">ГОЛОВКО М.Й.</note>
@@ -1309,7 +1309,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-02-m1.u173">
-               <seg xml:id="ParlaMint-UA_2014-12-02-m1.u173.p1" xml:lang="ru">Дякую. Прошу, 10 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-02-m1.u173.p1" xml:lang="uk">Дякую. Прошу, 10 секунд завершити.</seg>
             </u>
             <note type="time"><time when="2014-12-02T20:00:36">20:00:36</time></note>
             <note type="speaker">ХОМУТИННІК В.Ю.</note>

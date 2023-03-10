@@ -338,8 +338,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-14-m0.u40">
-               <seg xml:id="ParlaMint-UA_2020-01-14-m0.u40.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-01-14-m0.u40.p2" xml:lang="ru">Гетманцев Данило Олександрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-14-m0.u40.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-14-m0.u40.p2" xml:lang="uk">Гетманцев Данило Олександрович.</seg>
             </u>
             <note type="time"><time when="2020-01-14T13:00:41">13:00:41</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>

@@ -206,7 +206,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-22-m0.u21">
-               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u21.p1" xml:lang="ru">15 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u21.p1" xml:lang="uk">15 секунд.</seg>
             </u>
             <note type="speaker">КРИВЕНКО В.М.</note>
             <u who="КРИВЕНКО В.М." ana="#regular" xml:id="ParlaMint-UA_2017-02-22-m0.u22">
@@ -238,7 +238,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-22-m0.u27">
-               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u27.p1" xml:lang="ru">Дайте завершити, будь ласка, 15 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u27.p1" xml:lang="uk">Дайте завершити, будь ласка, 15 секунд.</seg>
             </u>
             <note type="speaker">ЛЕЩЕНКО С.А.</note>
             <u who="ЛЕЩЕНКО С.А." ana="#regular" xml:id="ParlaMint-UA_2017-02-22-m0.u28">
@@ -552,7 +552,7 @@
             <note type="time"><time when="2017-02-22T11:22:25">11:22:25</time></note>
             <note type="speaker">ПИНЗЕНИК В.М.</note>
             <u who="ПИНЗЕНИК В.М." ana="#regular" xml:id="ParlaMint-UA_2017-02-22-m0.u61">
-               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u61.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u61.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-22-m0.u62">
@@ -591,7 +591,7 @@
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-22-m0.u68">
-               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u68.p1" xml:lang="ru">Дайте завершити, 15 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u68.p1" xml:lang="uk">Дайте завершити, 15 секунд.</seg>
             </u>
             <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
@@ -601,7 +601,7 @@
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-22-m0.u70">
-               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u70.p1" xml:lang="ru">А, хвилину.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u70.p1" xml:lang="uk">А, хвилину.</seg>
             </u>
             <note type="speaker">СОЛОВЕЙ Ю.І.</note>
             <u who="СОЛОВЕЙ Ю.І." ana="#regular" xml:id="ParlaMint-UA_2017-02-22-m0.u71">
@@ -631,7 +631,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-22-m0.u76">
-               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u76.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u76.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">МЕЛЬНИЧУК С.П.</note>
             <u who="МЕЛЬНИЧУК С.П." ana="#regular" xml:id="ParlaMint-UA_2017-02-22-m0.u77">
@@ -916,7 +916,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-22-m0.u114">
-               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u114.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u114.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">РЯБЧИН О.М.</note>
             <u who="РЯБЧИН О.М." ana="#regular" xml:id="ParlaMint-UA_2017-02-22-m0.u115">
@@ -1118,7 +1118,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-22-m0.u147">
-               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u147.p1" xml:lang="ru">Дайте, будь ласка, 30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u147.p1" xml:lang="uk">Дайте, будь ласка, 30 секунд завершити.</seg>
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2017-02-22-m0.u148">

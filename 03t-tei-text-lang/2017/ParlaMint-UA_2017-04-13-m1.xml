@@ -127,7 +127,7 @@
             <note type="time"><time when="2017-04-13T16:21:31">16:21:31</time></note>
             <note type="speaker">ДАНЧЕНКО О.І.</note>
             <u who="ДАНЧЕНКО О.І." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m1.u8">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m1.u8.p1" xml:lang="ru">Прошу передати Олегу Березюку.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m1.u8.p1" xml:lang="uk">Прошу передати Олегу Березюку.</seg>
             </u>
             <note type="time"><time when="2017-04-13T16:21:36">16:21:36</time></note>
             <note type="speaker">БЕРЕЗЮК О.Р.</note>
@@ -954,7 +954,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-13-m1.u135">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m1.u135.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m1.u135.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m1.u136">

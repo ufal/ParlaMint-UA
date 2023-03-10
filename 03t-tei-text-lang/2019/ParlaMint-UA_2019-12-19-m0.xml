@@ -289,7 +289,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-19-m0.u35">
-               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u35.p1" xml:lang="ru">Добре. Правка номер 50.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u35.p1" xml:lang="uk">Добре. Правка номер 50.</seg>
             </u>
             <note type="speaker">БАТЕНКО Т.І.</note>
             <u who="БАТЕНКО Т.І." ana="#regular" xml:id="ParlaMint-UA_2019-12-19-m0.u36">
@@ -488,7 +488,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-19-m0.u65">
-               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u65.p1" xml:lang="ru">2, дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u65.p1" xml:lang="uk">2, дякую вам.</seg>
             </u>
             <note type="time"><time when="2019-12-19T12:25:40">12:25:40</time></note>
             <note type="speaker">КУЧЕРЕНКО О.Ю.</note>
@@ -565,8 +565,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-19-m0.u77">
-               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u77.p1" xml:lang="ru">Добре, дякую. Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u77.p2" xml:lang="ru">83-я, Гриб.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u77.p1" xml:lang="uk">Добре, дякую. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u77.p2" xml:lang="uk">83-я, Гриб.</seg>
             </u>
             <note type="time"><time when="2019-12-19T12:32:32">12:32:32</time></note>
             <note type="speaker">ГРИБ В.О.</note>

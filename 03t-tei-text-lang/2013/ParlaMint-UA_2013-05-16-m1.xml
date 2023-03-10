@@ -566,7 +566,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-16-m1.u83">
-               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u83.p1" xml:lang="ru">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u83.p1" xml:lang="uk">Завершуйте.</seg>
             </u>
             <note type="speaker">МІРОШНИЧЕНКО Ю.Р.</note>
             <u who="МІРОШНИЧЕНКО Ю.Р." ana="#regular" xml:id="ParlaMint-UA_2013-05-16-m1.u84">
@@ -672,7 +672,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-16-m1.u101">
-               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u101.p1" xml:lang="ru">Дякую. Давайте, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u101.p1" xml:lang="uk">Дякую. Давайте, завершуйте.</seg>
             </u>
             <note type="speaker">ЄМЕЛЬЯНОВА І.І.</note>
             <u who="ЄМЕЛЬЯНОВА І.І." ana="#regular" xml:id="ParlaMint-UA_2013-05-16-m1.u102">

@@ -802,8 +802,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2021-07-13-m1.u100">
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u100.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u100.p2" xml:lang="ru">Наступна правка 453. Валентин Наливайченко, будь ласка. Валентин Наливайченко, 453-я. Валентин Наливайченко, 453 правка ваша.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u100.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u100.p2" xml:lang="uk">Наступна правка 453. Валентин Наливайченко, будь ласка. Валентин Наливайченко, 453-я. Валентин Наливайченко, 453 правка ваша.</seg>
             </u>
             <note type="time"><time when="2021-07-13T17:14:10">17:14:10</time></note>
             <note type="speaker">НАЛИВАЙЧЕНКО В.О.</note>

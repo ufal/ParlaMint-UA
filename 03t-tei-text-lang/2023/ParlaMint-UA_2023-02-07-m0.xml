@@ -675,7 +675,7 @@
             <note type="time"><time when="2023-02-07T11:27:21">11:27:21</time></note>
             <note type="speaker">КЛИМЕНКО І.В.</note>
             <u who="КЛИМЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u87">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u87.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u87.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u88">
@@ -1074,7 +1074,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u143">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u143.p1" xml:lang="ru">Я перепрошую, якщо нема поправок, то яких 30 секунд?</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u143.p1" xml:lang="uk">Я перепрошую, якщо нема поправок, то яких 30 секунд?</seg>
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u144">
@@ -2902,7 +2902,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u455">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u455.p1" xml:lang="ru">Давайте.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u455.p1" xml:lang="uk">Давайте.</seg>
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u456">
@@ -3035,7 +3035,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u477">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u477.p1" xml:lang="ru">Давайте.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u477.p1" xml:lang="uk">Давайте.</seg>
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u478">
@@ -3043,7 +3043,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u479">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u479.p1" xml:lang="ru">А давайте вгадаю – 281 поправка?</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u479.p1" xml:lang="uk">А давайте вгадаю – 281 поправка?</seg>
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u480">

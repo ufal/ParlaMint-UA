@@ -788,8 +788,8 @@
             <note type="time"><time when="2022-10-07T11:44:33">11:44:33</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-10-07-m0.u102">
-               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u102.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u102.p2" xml:lang="ru">Цабаль, "Голос".</seg>
+               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u102.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u102.p2" xml:lang="uk">Цабаль, "Голос".</seg>
             </u>
             <note type="time"><time when="2022-10-07T11:44:37">11:44:37</time></note>
             <note type="speaker">ЦАБАЛЬ В.В.</note>

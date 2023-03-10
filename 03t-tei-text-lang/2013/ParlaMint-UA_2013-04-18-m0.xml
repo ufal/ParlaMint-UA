@@ -397,7 +397,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-18-m0.u51">
-               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u51.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u51.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-04-18T10:47:31">10:47:31</time></note>
             <note type="speaker">БЛАВАЦЬКИЙ М.В.</note>
@@ -437,7 +437,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-18-m0.u59">
-               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u59.p1" xml:lang="ru">Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u59.p1" xml:lang="uk">Прошу.</seg>
             </u>
             <note type="time"><time when="2013-04-18T10:50:44">10:50:44</time></note>
             <note type="speaker">ЧЕЧЕТОВ М.В.</note>
@@ -511,7 +511,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-18-m0.u71">
-               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u71.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u71.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-04-18T10:58:44">10:58:44</time></note>
             <note type="speaker">ЛУК’ЯНОВ В.В.</note>
@@ -568,7 +568,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-18-m0.u81">
-               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u81.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u81.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-04-18T11:05:29">11:05:29</time></note>
             <note type="speaker">ГОЛОВКО М.Й.</note>
@@ -616,11 +616,11 @@
             <note type="time"><time when="2013-04-18T11:10:03">11:10:03</time></note>
             <note type="speaker">ЧЕЧЕТОВ М.В.</note>
             <u who="ЧЕЧЕТОВ М.В." ana="#regular" xml:id="ParlaMint-UA_2013-04-18-m0.u90">
-               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u90.p1" xml:lang="ru">Прошу передать слово народному депутату Вечерко. Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u90.p1" xml:lang="uk">Прошу передать слово народному депутату Вечерко. Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-18-m0.u91">
-               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u91.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u91.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-04-18T11:10:11">11:10:11</time></note>
             <note type="speaker">ВЕЧЕРКО В.М.</note>
@@ -687,7 +687,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-18-m0.u101">
-               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u101.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u101.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-04-18T11:18:11">11:18:11</time></note>
             <note type="speaker">ЧУМАК В.В.</note>
@@ -720,7 +720,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-18-m0.u107">
-               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u107.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-18-m0.u107.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-04-18T11:21:17">11:21:17</time></note>
             <note type="speaker">МАХНІЦЬКИЙ О.І.</note>

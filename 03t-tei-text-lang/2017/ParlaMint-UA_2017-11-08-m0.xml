@@ -116,7 +116,7 @@
             <note type="narrative">Веде засідання Заступник Голови Верховної Ради України ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-08-m0.u9">
-               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u9.p1" xml:lang="ru">30 секунд дайте, будь ласка, завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u9.p1" xml:lang="uk">30 секунд дайте, будь ласка, завершити.</seg>
             </u>
             <note type="speaker">ВІЛКУЛ О.Ю.</note>
             <u who="ВІЛКУЛ О.Ю." ana="#regular" xml:id="ParlaMint-UA_2017-11-08-m0.u10">
@@ -331,7 +331,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-08-m0.u42">
-               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u42.p1" xml:lang="ru">Додайте, будь ласка, 10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u42.p1" xml:lang="uk">Додайте, будь ласка, 10 секунд.</seg>
             </u>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
             <u who="ДОЛЖЕНКОВ О.В." ana="#regular" xml:id="ParlaMint-UA_2017-11-08-m0.u43">
@@ -619,7 +619,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-08-m0.u78">
-               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u78.p1" xml:lang="ru">Тридцять секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u78.p1" xml:lang="uk">Тридцять секунд.</seg>
             </u>
             <note type="speaker">ЛУЦЕНКО І.С.</note>
             <u who="ЛУЦЕНКО І.С." ana="#regular" xml:id="ParlaMint-UA_2017-11-08-m0.u79">
@@ -1198,7 +1198,7 @@
             <note type="time"><time when="2017-11-08T13:17:23">13:17:23</time></note>
             <note type="speaker">КУЖЕЛЬ О.В.</note>
             <u who="КУЖЕЛЬ О.В." ana="#regular" xml:id="ParlaMint-UA_2017-11-08-m0.u159">
-               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u159.p1" xml:lang="ru">129. Я дуже прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u159.p1" xml:lang="uk">129. Я дуже прошу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-11-08-m0.u160">
@@ -1795,7 +1795,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-08-m0.u242">
-               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u242.p1" xml:lang="ru">Прошу, Олена Бабак.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u242.p1" xml:lang="uk">Прошу, Олена Бабак.</seg>
             </u>
             <note type="time"><time when="2017-11-08T14:07:50">14:07:50</time></note>
             <note type="speaker">БАБАК А.В.</note>

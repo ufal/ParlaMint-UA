@@ -135,7 +135,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-20-m0.u14">
-               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u14.p1" xml:lang="ru">Десять секунд – завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u14.p1" xml:lang="uk">Десять секунд – завершуйте.</seg>
             </u>
             <note type="speaker">ГУСАК В.Г.</note>
             <u who="ГУСАК В.Г." ana="#regular" xml:id="ParlaMint-UA_2015-05-20-m0.u15">
@@ -182,7 +182,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-20-m0.u22">
-               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u22.p1" xml:lang="ru">Будь ласка, 10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u22.p1" xml:lang="uk">Будь ласка, 10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ГАЛАСЮК В.В.</note>
             <u who="ГАЛАСЮК В.В." ana="#regular" xml:id="ParlaMint-UA_2015-05-20-m0.u23">
@@ -373,7 +373,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-20-m0.u52">
-               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u52.p1" xml:lang="ru">Дякую. Народний депутат Помазанов, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u52.p1" xml:lang="uk">Дякую. Народний депутат Помазанов, будь ласка.</seg>
             </u>
             <note type="time"><time when="2015-05-20T10:59:53">10:59:53</time></note>
             <note type="speaker">ПОМАЗАНОВ А.В.</note>
@@ -435,7 +435,7 @@
                <seg xml:id="ParlaMint-UA_2015-05-20-m0.u61.p2" xml:lang="ru">Сама постанова, сама по себе неплохая. Единственное, что, Сергей Алексеевич, я встречался с этими людьми в Виноградном. Это мой избирательный округ, я доказывал, что нельзя взять один населенный пункт и присоединить к Мариуполю, при этом оставляя рядом два населенных пункта с территориальным центром в Волновахе за 130 километров. Я доказывал, что если вы хотите забрать Мариуполь, нет вопросов. Но вы заберите тогда два, которые находятся рядом. К тому же у нас есть Закон об объединении громад, и люди на это шли.</seg>
                <seg xml:id="ParlaMint-UA_2015-05-20-m0.u61.p3" xml:lang="ru">А то, что они не получают заработной платы, это неправда. Слава Богу, мы привели в порядок, и Кабинет Министров по последней постанове. все выплаты социальные там производятся, мало того, выплачена вся заработная плата по школе и по медицине за несколько месяцев.</seg>
                <seg xml:id="ParlaMint-UA_2015-05-20-m0.u61.p4" xml:lang="ru">Поэтому я прошу эту постанову отправить на доопрацювання. И если присоединять этот населенный пункт к Мариуполю, то добавить туда еще два, которые находятся рядом.</seg>
-               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u61.p5" xml:lang="ru">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u61.p5" xml:lang="uk">Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-20-m0.u62">
@@ -620,8 +620,8 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України В.Б.ГРОЙСМАН</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-20-m0.u89">
-               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u89.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u89.p2" xml:lang="ru">Будь ласка, народний депутат Долженков.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u89.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u89.p2" xml:lang="uk">Будь ласка, народний депутат Долженков.</seg>
             </u>
             <note type="time"><time when="2015-05-20T11:30:50">11:30:50</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
@@ -1083,7 +1083,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-05-20-m0.u162">
-               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u162.p1" xml:lang="ru">Будь ласка, 20 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u162.p1" xml:lang="uk">Будь ласка, 20 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2015-05-20T13:02:10">13:02:10</time></note>
             <note type="speaker">МАТВІЄНКО А.С.</note>
@@ -1202,7 +1202,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-05-20-m0.u179">
-               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u179.p1" xml:lang="ru">Будь ласка, 10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u179.p1" xml:lang="uk">Будь ласка, 10 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2015-05-20T13:20:09">13:20:09</time></note>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
@@ -1233,7 +1233,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-05-20-m0.u185">
-               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u185.p1" xml:lang="ru">10 секунд, будь ласка, дайте завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-20-m0.u185.p1" xml:lang="uk">10 секунд, будь ласка, дайте завершити.</seg>
             </u>
             <note type="speaker">БАРНА О.С.</note>
             <u who="БАРНА О.С." ana="#regular" xml:id="ParlaMint-UA_2015-05-20-m0.u186">

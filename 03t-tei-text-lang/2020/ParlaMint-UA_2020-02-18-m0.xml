@@ -443,8 +443,8 @@
             <note type="time"><time when="2020-02-18T10:44:44">10:44:44</time></note>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2020-02-18-m0.u59">
-               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u59.p1" xml:lang="ru">Сюмар буде представляти нашу поправку.</seg>
-               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u59.p2" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u59.p1" xml:lang="uk">Сюмар буде представляти нашу поправку.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u59.p2" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-18-m0.u60">
@@ -1269,7 +1269,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-18-m0.u185">
-               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u185.p1" xml:lang="ru">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u185.p1" xml:lang="uk">Дякую вам.</seg>
             </u>
             <note type="time"><time when="2020-02-18T11:40:14">11:40:14</time></note>
             <note type="speaker">СОЛЬСЬКИЙ М.Т.</note>
@@ -2634,8 +2634,8 @@
             <note type="time"><time when="2020-02-18T13:51:09">13:51:09</time></note>
             <note type="speaker">ПАПІЄВ М.М.</note>
             <u who="ПАПІЄВ М.М." ana="#regular" xml:id="ParlaMint-UA_2020-02-18-m0.u386">
-               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u386.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u386.p2" xml:lang="ru">Шановний пане Голово.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u386.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u386.p2" xml:lang="uk">Шановний пане Голово.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-18-m0.u387">
@@ -2706,8 +2706,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-18-m0.u397">
-               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u397.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u397.p2" xml:lang="ru">Наступна правка 355, Цимбалюк.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u397.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-18-m0.u397.p2" xml:lang="uk">Наступна правка 355, Цимбалюк.</seg>
             </u>
             <note type="time"><time when="2020-02-18T13:56:45">13:56:45</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>

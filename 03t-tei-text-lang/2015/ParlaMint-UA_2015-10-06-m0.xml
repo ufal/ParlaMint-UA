@@ -78,7 +78,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-10-06-m0.u3">
-               <seg xml:id="ParlaMint-UA_2015-10-06-m0.u3.p1" xml:lang="ru">30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-10-06-m0.u3.p1" xml:lang="uk">30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2015-10-06-m0.u4">
@@ -130,7 +130,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-10-06-m0.u11">
-               <seg xml:id="ParlaMint-UA_2015-10-06-m0.u11.p1" xml:lang="ru">10 секунд, завершуйте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-10-06-m0.u11.p1" xml:lang="uk">10 секунд, завершуйте, будь ласка.</seg>
             </u>
             <note type="speaker">БОНДАР В.В.</note>
             <u who="БОНДАР В.В." ana="#regular" xml:id="ParlaMint-UA_2015-10-06-m0.u12">
@@ -181,7 +181,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-10-06-m0.u19">
-               <seg xml:id="ParlaMint-UA_2015-10-06-m0.u19.p1" xml:lang="ru">Будь ласка, 20 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-10-06-m0.u19.p1" xml:lang="uk">Будь ласка, 20 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">МОСКАЛЕНКО Я.М.</note>
             <u who="МОСКАЛЕНКО Я.М." ana="#regular" xml:id="ParlaMint-UA_2015-10-06-m0.u20">
@@ -865,7 +865,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-10-06-m0.u110">
-               <seg xml:id="ParlaMint-UA_2015-10-06-m0.u110.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-10-06-m0.u110.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2015-10-06T13:05:16">13:05:16</time></note>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>

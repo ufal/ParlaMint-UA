@@ -1272,7 +1272,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u168">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u168.p1" xml:lang="ru">47-а. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u168.p1" xml:lang="uk">47-а. Дякую.</seg>
             </u>
             <note type="speaker">ПУЗІЙЧУК А.В.</note>
             <u who="ПУЗІЙЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2021-06-03-m0.u169">
@@ -1793,7 +1793,7 @@
             </u>
             <note type="speaker">ВЕЛЬМОЖНИЙ С.А.</note>
             <u who="ВЕЛЬМОЖНИЙ С.А." ana="#regular" xml:id="ParlaMint-UA_2021-06-03-m0.u242">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u242.p1" xml:lang="ru">Дякую. 37, 54.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u242.p1" xml:lang="uk">Дякую. 37, 54.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u243">
@@ -2373,7 +2373,7 @@
             <note type="time"><time when="2021-06-03T14:37:28">14:37:28</time></note>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2021-06-03-m0.u319">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u319.p1" xml:lang="ru">Давайте 2 хвилини.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u319.p1" xml:lang="uk">Давайте 2 хвилини.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u320">
@@ -2515,7 +2515,7 @@
             <note type="time"><time when="2021-06-03T14:54:10">14:54:10</time></note>
             <note type="speaker">М’ЯЛИК В.Н.</note>
             <u who="М’ЯЛИК В.Н." ana="#regular" xml:id="ParlaMint-UA_2021-06-03-m0.u338">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u338.p1" xml:lang="ru">Прошу передати Полякову.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u338.p1" xml:lang="uk">Прошу передати Полякову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u339">

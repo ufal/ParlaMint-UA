@@ -214,7 +214,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-19-m1.u25">
-               <seg xml:id="ParlaMint-UA_2019-12-19-m1.u25.p1" xml:lang="ru">Дайте завершити. 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m1.u25.p1" xml:lang="uk">Дайте завершити. 30 секунд.</seg>
             </u>
             <note type="speaker">БЄЛЬКОВА О.В.</note>
             <u who="БЄЛЬКОВА О.В." ana="#regular" xml:id="ParlaMint-UA_2019-12-19-m1.u26">
@@ -927,7 +927,7 @@
             <note type="time"><time when="2019-12-19T18:15:01">18:15:01</time></note>
             <note type="speaker">МАМКА Г.М.</note>
             <u who="МАМКА Г.М." ana="#regular" xml:id="ParlaMint-UA_2019-12-19-m1.u115">
-               <seg xml:id="ParlaMint-UA_2019-12-19-m1.u115.p1" xml:lang="ru">Це добре.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m1.u115.p1" xml:lang="uk">Це добре.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-19-m1.u116">

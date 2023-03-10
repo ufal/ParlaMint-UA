@@ -203,7 +203,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m0.u14">
-               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u14.p1" xml:lang="ru">Олег Тягнибок, "Свобода". Я прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u14.p1" xml:lang="uk">Олег Тягнибок, "Свобода". Я прошу.</seg>
             </u>
             <note type="time"><time when="2013-03-19T10:34:19">10:34:19</time></note>
             <note type="speaker">ТЯГНИБОК О.Я.</note>
@@ -500,7 +500,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m0.u65">
-               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u65.p1" xml:lang="ru">Яценюк, я прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u65.p1" xml:lang="uk">Яценюк, я прошу.</seg>
             </u>
             <note type="time"><time when="2013-03-19T12:11:27">12:11:27</time></note>
             <note type="speaker">ЯЦЕНЮК А.П.</note>
@@ -650,7 +650,7 @@
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u88.p2" xml:lang="ru">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u88.p2" xml:lang="uk">Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m0.u89">
@@ -834,7 +834,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m0.u113">
-               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u113.p1" xml:lang="ru">Хвилину Ляшко дайте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u113.p1" xml:lang="uk">Хвилину Ляшко дайте.</seg>
             </u>
             <note type="time"><time when="2013-03-19T12:46:49">12:46:49</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>
@@ -945,7 +945,7 @@
                   <desc>(Шум у залі)</desc>
                </vocal>
                <seg xml:id="ParlaMint-UA_2013-03-19-m0.u126.p2" xml:lang="ru">И депутаты, которые сейчас в том числе кричат, они не голосуют, как это положено, согласно Основного закона нашего государства. Поэтому просил бы всех принимать участие в работе и выполнять Основной закон.</seg>
-               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u126.p3" xml:lang="ru">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u126.p3" xml:lang="uk">Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m0.u127">

@@ -84,7 +84,7 @@
             <note type="time"><time when="2014-06-04T10:06:55">10:06:55</time></note>
             <note type="speaker">КРАВЧУК В.П.</note>
             <u who="КРАВЧУК В.П." ana="#regular" xml:id="ParlaMint-UA_2014-06-04-m0.u4">
-               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u4.p1" xml:lang="ru">Ляшку. Прошу передати слово Олегу Ляшку.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u4.p1" xml:lang="uk">Ляшку. Прошу передати слово Олегу Ляшку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-04-m0.u5">
@@ -161,7 +161,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-04-m0.u17">
-               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u17.p1" xml:lang="ru">Прошу до слова народного депутата Левченко.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u17.p1" xml:lang="uk">Прошу до слова народного депутата Левченко.</seg>
             </u>
             <note type="time"><time when="2014-06-04T10:21:01">10:21:01</time></note>
             <note type="speaker">ЛЕВЧЕНКО М.О.</note>
@@ -246,8 +246,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-04-m0.u31">
-               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u31.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u31.p2" xml:lang="ru">Прошу до слова народного депутата Стойка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u31.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u31.p2" xml:lang="uk">Прошу до слова народного депутата Стойка.</seg>
             </u>
             <note type="time"><time when="2014-06-04T10:32:03">10:32:03</time></note>
             <note type="speaker">СТОЙКО І.М.</note>
@@ -871,7 +871,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-04-m0.u134">
-               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u134.p1" xml:lang="ru">Прошу до слова народний депутат Демедюка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u134.p1" xml:lang="uk">Прошу до слова народний депутат Демедюка.</seg>
             </u>
             <note type="time"><time when="2014-06-04T11:59:54">11:59:54</time></note>
             <note type="speaker">ДЕМЕДЮК В.Х.</note>
@@ -985,7 +985,7 @@
             <note type="speaker">КАЛЬЦЕВ С.Ф.</note>
             <u who="КАЛЬЦЕВ С.Ф." ana="#regular" xml:id="ParlaMint-UA_2014-06-04-m0.u152">
                <seg xml:id="ParlaMint-UA_2014-06-04-m0.u152.p1" xml:lang="ru">Уважаемые коллеги, в процессе обсуждения законопроекта мы пришли к тому, что предварительно практически все фракции и внефракционные депутаты поддерживают этот законопроект. Но у нас сложилась парадоксальная ситуация, прочем как обычно: все "за", а голосов нет. Поэтому предлагаю перенести голосование по законопроекту на второй день. Уверен в том, что мы завтра наберем необходимое количество голосов. Но а ко второму чтению мы постараемся учесть все поправки, потому что законопроект очень важный, нужен миллионам наших жителей – жителей Украины, и уверен в том, что Верховная Рада проголосует за этот законопроект.</seg>
-               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u152.p2" xml:lang="ru">Спасибо коллегам за понимание.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u152.p2" xml:lang="uk">Спасибо коллегам за понимание.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-04-m0.u153">
@@ -1012,7 +1012,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-04-m0.u157">
-               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u157.p1" xml:lang="ru">Прошу до слова народного депутата Федорука.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u157.p1" xml:lang="uk">Прошу до слова народного депутата Федорука.</seg>
             </u>
             <note type="time"><time when="2014-06-04T12:53:58">12:53:58</time></note>
             <note type="speaker">ФЕДОРУК М.Т.</note>
@@ -1256,7 +1256,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-04-m0.u203">
-               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u203.p1" xml:lang="ru">Прошу до слова народного депутата Ляшка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-04-m0.u203.p1" xml:lang="uk">Прошу до слова народного депутата Ляшка.</seg>
             </u>
             <note type="time"><time when="2014-06-04T13:31:37">13:31:37</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>

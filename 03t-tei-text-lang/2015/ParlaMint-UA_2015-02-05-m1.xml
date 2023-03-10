@@ -320,7 +320,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-05-m1.u43">
-               <seg xml:id="ParlaMint-UA_2015-02-05-m1.u43.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-05-m1.u43.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">КРИВОШЕЯ Г.Г.</note>
             <u who="КРИВОШЕЯ Г.Г." ana="#regular" xml:id="ParlaMint-UA_2015-02-05-m1.u44">
@@ -341,7 +341,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-05-m1.u47">
-               <seg xml:id="ParlaMint-UA_2015-02-05-m1.u47.p1" xml:lang="ru">Дякую. Народний депутат Соловей.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-05-m1.u47.p1" xml:lang="uk">Дякую. Народний депутат Соловей.</seg>
             </u>
             <note type="time"><time when="2015-02-05T16:49:52">16:49:52</time></note>
             <note type="speaker">СОЛОВЕЙ Ю.І.</note>

@@ -845,7 +845,7 @@
             <note type="time"><time when="2020-06-16T12:39:25">12:39:25</time></note>
             <note type="speaker">КОНСТАНКЕВИЧ І.М.</note>
             <u who="КОНСТАНКЕВИЧ І.М." ana="#regular" xml:id="ParlaMint-UA_2020-06-16-m0.u105">
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u105.p1" xml:lang="ru">Прошу передати Тарасу.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u105.p1" xml:lang="uk">Прошу передати Тарасу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-16-m0.u106">
@@ -1306,8 +1306,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-16-m0.u169">
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u169.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u169.p2" xml:lang="ru">Будь ласка, народний депутат Шахов.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u169.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u169.p2" xml:lang="uk">Будь ласка, народний депутат Шахов.</seg>
             </u>
             <note type="time"><time when="2020-06-16T13:39:46">13:39:46</time></note>
             <note type="speaker">ШАХОВ С.В.</note>

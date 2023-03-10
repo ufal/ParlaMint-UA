@@ -1121,7 +1121,7 @@
             <note type="time"><time when="2023-01-13T12:08:59">12:08:59</time></note>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2023-01-13-m0.u161">
-               <seg xml:id="ParlaMint-UA_2023-01-13-m0.u161.p1" xml:lang="ru">Яка?</seg>
+               <seg xml:id="ParlaMint-UA_2023-01-13-m0.u161.p1" xml:lang="uk">Яка?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-01-13-m0.u162">
@@ -1954,7 +1954,7 @@
             <note type="time"><time when="2023-01-13T13:25:34">13:25:34</time></note>
             <note type="speaker">КУЧЕРЕНКО О.Ю.</note>
             <u who="КУЧЕРЕНКО О.Ю." ana="#regular" xml:id="ParlaMint-UA_2023-01-13-m0.u297">
-               <seg xml:id="ParlaMint-UA_2023-01-13-m0.u297.p1" xml:lang="ru">Дякую. 10 правка, пане Голово.</seg>
+               <seg xml:id="ParlaMint-UA_2023-01-13-m0.u297.p1" xml:lang="uk">Дякую. 10 правка, пане Голово.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-01-13-m0.u298">

@@ -317,8 +317,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-01-m0.u31">
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u31.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u31.p2" xml:lang="ru">Цимбалюк Михайло Михайлович, 52 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u31.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u31.p2" xml:lang="uk">Цимбалюк Михайло Михайлович, 52 правка.</seg>
             </u>
             <note type="time"><time when="2020-07-01T10:58:34">10:58:34</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -885,11 +885,11 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-01-m0.u111">
                <seg xml:id="ParlaMint-UA_2020-07-01-m0.u111.p1" xml:lang="uk">1668, 2194, 2695, 3438. Правильно?</seg>
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u111.p2" xml:lang="ru">Давайте почнемо.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u111.p2" xml:lang="uk">Давайте почнемо.</seg>
             </u>
             <note type="speaker">КЛИМПУШ-ЦИНЦАДЗЕ І.О.</note>
             <u who="КЛИМПУШ-ЦИНЦАДЗЕ І.О." ana="#regular" xml:id="ParlaMint-UA_2020-07-01-m0.u112">
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u112.p1" xml:lang="ru">Да, давайте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u112.p1" xml:lang="uk">Да, давайте.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-01-m0.u113">
@@ -1501,7 +1501,7 @@
             <note type="time"><time when="2020-07-01T13:21:07">13:21:07</time></note>
             <note type="speaker">КРУЛЬКО І.І.</note>
             <u who="КРУЛЬКО І.І." ana="#regular" xml:id="ParlaMint-UA_2020-07-01-m0.u198">
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u198.p1" xml:lang="ru">Яка поправка, ще раз?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u198.p1" xml:lang="uk">Яка поправка, ще раз?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-01-m0.u199">

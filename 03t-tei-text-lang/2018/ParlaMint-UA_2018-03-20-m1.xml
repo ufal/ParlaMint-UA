@@ -246,11 +246,11 @@
             </u>
             <note type="speaker">ПАСТУХ Т.Т.</note>
             <u who="ПАСТУХ Т.Т." ana="#regular" xml:id="ParlaMint-UA_2018-03-20-m1.u27">
-               <seg xml:id="ParlaMint-UA_2018-03-20-m1.u27.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-03-20-m1.u27.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-03-20-m1.u28">
-               <seg xml:id="ParlaMint-UA_2018-03-20-m1.u28.p1" xml:lang="ru">30 секунд, я дав вже.</seg>
+               <seg xml:id="ParlaMint-UA_2018-03-20-m1.u28.p1" xml:lang="uk">30 секунд, я дав вже.</seg>
             </u>
             <note type="speaker">ПАСТУХ Т.Т.</note>
             <u who="ПАСТУХ Т.Т." ana="#regular" xml:id="ParlaMint-UA_2018-03-20-m1.u29">
@@ -538,7 +538,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-03-20-m1.u65">
-               <seg xml:id="ParlaMint-UA_2018-03-20-m1.u65.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2018-03-20-m1.u65.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2018-03-20-m1.u66">
@@ -547,8 +547,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-03-20-m1.u67">
-               <seg xml:id="ParlaMint-UA_2018-03-20-m1.u67.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2018-03-20-m1.u67.p2" xml:lang="ru">Голуб – одна хвилина.</seg>
+               <seg xml:id="ParlaMint-UA_2018-03-20-m1.u67.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2018-03-20-m1.u67.p2" xml:lang="uk">Голуб – одна хвилина.</seg>
             </u>
             <note type="time"><time when="2018-03-20T17:21:05">17:21:05</time></note>
             <note type="speaker">ГОЛУБ В.В.</note>

@@ -761,7 +761,7 @@
             <note type="time"><time when="2021-09-09T11:24:13">11:24:13</time></note>
             <note type="speaker">ЗІНКЕВИЧ Я.В.</note>
             <u who="ЗІНКЕВИЧ Я.В." ana="#regular" xml:id="ParlaMint-UA_2021-09-09-m0.u98">
-               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u98.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u98.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-09-m0.u99">
@@ -2162,7 +2162,7 @@
             <note type="time"><time when="2021-09-09T14:31:25">14:31:25</time></note>
             <note type="speaker">МАКАРЕНКО М.В.</note>
             <u who="МАКАРЕНКО М.В." ana="#regular" xml:id="ParlaMint-UA_2021-09-09-m0.u294">
-               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u294.p1" xml:lang="ru">Прошу передать слово Шуфричу.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-09-m0.u294.p1" xml:lang="uk">Прошу передать слово Шуфричу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-09-m0.u295">

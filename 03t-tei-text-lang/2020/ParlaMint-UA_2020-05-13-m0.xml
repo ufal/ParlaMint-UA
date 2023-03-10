@@ -346,7 +346,7 @@
             <note type="time"><time when="2020-05-13T11:09:58">11:09:58</time></note>
             <note type="speaker">СКОРОХОД А.К.</note>
             <u who="СКОРОХОД А.К." ana="#regular" xml:id="ParlaMint-UA_2020-05-13-m0.u41">
-               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u41.p1" xml:lang="ru">Прошу передати Антону Полякову.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u41.p1" xml:lang="uk">Прошу передати Антону Полякову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-13-m0.u42">
@@ -1315,7 +1315,7 @@
             </u>
             <note type="speaker">ГРИБ В.О.</note>
             <u who="ГРИБ В.О." ana="#regular" xml:id="ParlaMint-UA_2020-05-13-m0.u183">
-               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u183.p1" xml:lang="ru">Так, давайте 2 хвилини.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u183.p1" xml:lang="uk">Так, давайте 2 хвилини.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-13-m0.u184">
@@ -2481,7 +2481,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-13-m0.u337">
-               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u337.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u337.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="time"><time when="2020-05-13T18:04:11">18:04:11</time></note>
             <note type="speaker">ГЕРАЩЕНКО А.Ю.</note>
@@ -3155,8 +3155,8 @@
             </u>
             <note type="speaker">ТРЕТЬЯКОВА Г.М.</note>
             <u who="ТРЕТЬЯКОВА Г.М." ana="#regular" xml:id="ParlaMint-UA_2020-05-13-m0.u425">
-               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u425.p1" xml:lang="ru">Дякую. Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u425.p2" xml:lang="ru">Правку.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u425.p1" xml:lang="uk">Дякую. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u425.p2" xml:lang="uk">Правку.</seg>
                <gap reason="inaudible">
                   <desc>(Не чути)</desc>
                </gap>

@@ -120,7 +120,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u11">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u11.p1" xml:lang="ru">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u11.p1" xml:lang="uk">Завершуйте.</seg>
             </u>
             <note type="speaker">ЛИТВИН В.М.</note>
             <u who="ЛИТВИН В.М." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u12">
@@ -152,7 +152,7 @@
                <seg xml:id="ParlaMint-UA_2013-09-04-m0.u16.p3" xml:lang="ru">Мы являемся свидетелями насильственной украинизации. Как еще можно назвать тот факт, что в школах с украинским языком обучения, а таковых по Украине более 80 процентов, предмета "русский язык" нет ни в каком виде.</seg>
                <seg xml:id="ParlaMint-UA_2013-09-04-m0.u16.p4" xml:lang="ru">Инициатива Министерства образования Украины об обязательном изучении второго зарубежного языка во всех школах и разговоры о том, что этим языком станет русский, оказались настоящим пшыком. Только 23 процентов школ с украинским языком обучения выбрали иностранный русский язык, а 53 процента – немецкий. По словам главы Украинской ассоциации преподавателей русского языка и литературы Людмилы Кудрявцевой причина проста: преподаватель английского – это как правило выпускники романо-германского отделения, где в качестве второго языка чаще всего изучается немецкий. Директора школ просто пошли по пути наименьшего сопротивления: у них есть преподаватели английского языка, владеющие еще и немецким. Вот они и выбирают в качестве второго иностранного немецкий. А учителя русского языка у них нет, их, фактически, уничтожили как класс.</seg>
                <seg xml:id="ParlaMint-UA_2013-09-04-m0.u16.p5" xml:lang="ru">Фракция коммунистов требует от Кабмина и Министерства образования и науки Украины разработать комплексную программу развития русского языка, методику преподавания русского языка в школах, введения в школах с украинским языком обучения обязательного предмета – русский язык и литература. В стране необходимо создать комфорттные условия для обучения детей языкам, не ущемляя их национальные интересы.</seg>
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u16.p6" xml:lang="ru">Провозглашая идею гуманизма в образовании, нужно не только говорить о нем, но и применять на практике. Спасибо за внимание.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u16.p6" xml:lang="uk">Провозглашая идею гуманизма в образовании, нужно не только говорить о нем, но и применять на практике. Спасибо за внимание.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u17">
@@ -180,7 +180,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u21">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u21.p1" xml:lang="ru">Завершуйте. Дайте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u21.p1" xml:lang="uk">Завершуйте. Дайте.</seg>
             </u>
             <note type="speaker">ДЗОЗ В.О.</note>
             <u who="ДЗОЗ В.О." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u22">
@@ -204,7 +204,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u25">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u25.p1" xml:lang="ru">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u25.p1" xml:lang="uk">Завершуйте.</seg>
             </u>
             <note type="speaker">ГОНЧАРОВ А.Д.</note>
             <u who="ГОНЧАРОВ А.Д." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u26">
@@ -264,7 +264,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u33">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u33.p1" xml:lang="ru">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u33.p1" xml:lang="uk">Завершуйте.</seg>
             </u>
             <note type="speaker">ГОНЧАРОВ С.В.</note>
             <u who="ГОНЧАРОВ С.В." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u34">
@@ -301,7 +301,7 @@
             <note type="time"><time when="2013-09-04T10:46:46">10:46:46</time></note>
             <note type="speaker">ДОРОХОВ А.М.</note>
             <u who="ДОРОХОВ А.М." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u40">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u40.p1" xml:lang="ru">Прошу передать Бидевке, народному.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u40.p1" xml:lang="uk">Прошу передать Бидевке, народному.</seg>
             </u>
             <note type="time"><time when="2013-09-04T10:46:51">10:46:51</time></note>
             <note type="speaker">БІДЬОВКА В.А.</note>
@@ -418,7 +418,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u56">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u56.p1" xml:lang="ru">Да, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u56.p1" xml:lang="uk">Да, завершуйте.</seg>
             </u>
             <note type="speaker">ОДАРЧЕНКО Ю.В.</note>
             <u who="ОДАРЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u57">
@@ -519,7 +519,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u74">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u74.p1" xml:lang="ru">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u74.p1" xml:lang="uk">Завершуйте.</seg>
             </u>
             <note type="speaker">ЦИБЕНКО П.С.</note>
             <u who="ЦИБЕНКО П.С." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u75">
@@ -700,7 +700,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u102">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u102.p1" xml:lang="ru">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u102.p1" xml:lang="uk">Завершуйте.</seg>
             </u>
             <note type="time"><time when="2013-09-04T11:37:10">11:37:10</time></note>
             <note type="speaker">МІЩЕНКО С.Г.</note>
@@ -810,7 +810,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u118">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u118.p1" xml:lang="ru">Так, так, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u118.p1" xml:lang="uk">Так, так, прошу.</seg>
             </u>
             <note type="speaker">МАКЕЄНКО В.В.</note>
             <u who="МАКЕЄНКО В.В." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u119">
@@ -921,7 +921,7 @@
             <note type="time"><time when="2013-09-04T12:05:33">12:05:33</time></note>
             <note type="speaker">СМІТЮХ Г.Є.</note>
             <u who="СМІТЮХ Г.Є." ana="#regular" xml:id="ParlaMint-UA_2013-09-04-m0.u140">
-               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u140.p1" xml:lang="ru">Прошу слово передать Герман.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-04-m0.u140.p1" xml:lang="uk">Прошу слово передать Герман.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-04-m0.u141">

@@ -567,7 +567,7 @@
             </vocal>
             <note type="speaker">ПОРОШЕНКО П.О.</note>
             <u who="ПОРОШЕНКО П.О." ana="#regular" xml:id="ParlaMint-UA_2014-11-27-m1.u31">
-               <seg xml:id="ParlaMint-UA_2014-11-27-m1.u31.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-11-27-m1.u31.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <kinesic type="applause">
                <desc>(Оплески)</desc>

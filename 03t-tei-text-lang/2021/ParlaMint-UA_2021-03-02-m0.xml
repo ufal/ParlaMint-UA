@@ -477,8 +477,8 @@
             <note type="narrative">СТЕФАНЧУК Р.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-02-m0.u50">
-               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u50.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u50.p2" xml:lang="ru">Будь ласка, народний депутат Шахов.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u50.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u50.p2" xml:lang="uk">Будь ласка, народний депутат Шахов.</seg>
             </u>
             <note type="time"><time when="2021-03-02T11:41:50">11:41:50</time></note>
             <note type="speaker">ШАХОВ С.В.</note>

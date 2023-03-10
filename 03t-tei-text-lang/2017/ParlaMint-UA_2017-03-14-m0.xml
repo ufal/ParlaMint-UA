@@ -245,7 +245,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-14-m0.u28">
-               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u28.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u28.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">БЕРЕЗЮК О.Р.</note>
             <u who="БЕРЕЗЮК О.Р." ana="#regular" xml:id="ParlaMint-UA_2017-03-14-m0.u29">
@@ -294,7 +294,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-14-m0.u36">
-               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u36.p1" xml:lang="ru">10 секунд, завершити, але 10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u36.p1" xml:lang="uk">10 секунд, завершити, але 10 секунд.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-03-14-m0.u37">
@@ -458,7 +458,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-14-m0.u59">
-               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u59.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u59.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ІЛЛЄНКО А.Ю.</note>
             <u who="ІЛЛЄНКО А.Ю." ana="#regular" xml:id="ParlaMint-UA_2017-03-14-m0.u60">
@@ -590,7 +590,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-14-m0.u79">
-               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u79.p1" xml:lang="ru">10 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u79.p1" xml:lang="uk">10 секунд завершити.</seg>
             </u>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-03-14-m0.u80">
@@ -707,9 +707,9 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-14-m0.u91">
-               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u91.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u91.p2" xml:lang="ru">Будь ласка, прошу провести запис: два – за, два – проти.</seg>
-               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u91.p3" xml:lang="ru">Березюк Олег Романович.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u91.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u91.p2" xml:lang="uk">Будь ласка, прошу провести запис: два – за, два – проти.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u91.p3" xml:lang="uk">Березюк Олег Романович.</seg>
             </u>
             <note type="time"><time when="2017-03-14T11:40:03">11:40:03</time></note>
             <note type="speaker">БЕРЕЗЮК О.Р.</note>
@@ -1058,8 +1058,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-03-14-m0.u141">
-               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u141.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u141.p2" xml:lang="ru">Запрошую до слова народного депутата Антона Яценка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u141.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-14-m0.u141.p2" xml:lang="uk">Запрошую до слова народного депутата Антона Яценка.</seg>
             </u>
             <note type="time"><time when="2017-03-14T13:03:59">13:03:59</time></note>
             <note type="speaker">ЯЦЕНКО А.В.</note>

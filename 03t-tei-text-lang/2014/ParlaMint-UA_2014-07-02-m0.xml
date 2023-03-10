@@ -851,7 +851,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-07-02-m0.u128">
-               <seg xml:id="ParlaMint-UA_2014-07-02-m0.u128.p1" xml:lang="ru">Дякую. Народний депутат Мартинюк.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-02-m0.u128.p1" xml:lang="uk">Дякую. Народний депутат Мартинюк.</seg>
             </u>
             <note type="time"><time when="2014-07-02T11:49:35">11:49:35</time></note>
             <note type="speaker">МАРТИНЮК А.І.</note>
@@ -1384,7 +1384,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-07-02-m0.u225">
-               <seg xml:id="ParlaMint-UA_2014-07-02-m0.u225.p1" xml:lang="ru">Прошу до слова народного депутата Розенка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-02-m0.u225.p1" xml:lang="uk">Прошу до слова народного депутата Розенка.</seg>
             </u>
             <note type="time"><time when="2014-07-02T13:31:20">13:31:20</time></note>
             <note type="speaker">РОЗЕНКО П.В.</note>
@@ -1607,7 +1607,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-07-02-m0.u261">
-               <seg xml:id="ParlaMint-UA_2014-07-02-m0.u261.p1" xml:lang="ru">Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-02-m0.u261.p1" xml:lang="uk">Прошу.</seg>
             </u>
             <note type="time"><time when="2014-07-02T13:59:05">13:59:05</time></note>
             <note type="speaker">КИРИЛЕНКО В.А.</note>

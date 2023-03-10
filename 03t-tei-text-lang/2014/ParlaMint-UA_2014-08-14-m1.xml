@@ -618,7 +618,7 @@
             <note type="time"><time when="2014-08-14T17:08:53">17:08:53</time></note>
             <note type="speaker">СУШКЕВИЧ В.М.</note>
             <u who="СУШКЕВИЧ В.М." ana="#regular" xml:id="ParlaMint-UA_2014-08-14-m1.u94">
-               <seg xml:id="ParlaMint-UA_2014-08-14-m1.u94.p1" xml:lang="ru">Дякую. Дякую, Олександр Валентинович.</seg>
+               <seg xml:id="ParlaMint-UA_2014-08-14-m1.u94.p1" xml:lang="uk">Дякую. Дякую, Олександр Валентинович.</seg>
             </u>
             <vocal type="noise">
                <desc>(Шум у залі)</desc>

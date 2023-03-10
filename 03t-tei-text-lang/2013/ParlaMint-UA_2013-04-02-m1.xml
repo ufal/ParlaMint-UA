@@ -87,7 +87,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m1.u5">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m1.u5.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m1.u5.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="speaker">РОЗЕНКО П.В.</note>
             <u who="РОЗЕНКО П.В." ana="#regular" xml:id="ParlaMint-UA_2013-04-02-m1.u6">
@@ -194,7 +194,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m1.u25">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m1.u25.p1" xml:lang="ru">Прошу передати Карпунцову.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m1.u25.p1" xml:lang="uk">Прошу передати Карпунцову.</seg>
             </u>
             <note type="time"><time when="2013-04-02T16:16:46">16:16:46</time></note>
             <note type="speaker">КАРПУНЦОВ В.В.</note>

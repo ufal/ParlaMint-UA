@@ -945,7 +945,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-03-m0.u116">
-               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u116.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u116.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="time"><time when="2020-12-03T12:42:23">12:42:23</time></note>
             <note type="narrative">Веде засідання заступник Голови Верховної Ради України</note>
@@ -1000,7 +1000,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-03-m0.u126">
-               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u126.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-03-m0.u126.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="time"><time when="2020-12-03T12:44:55">12:44:55</time></note>
             <note type="speaker">ЗАБЛОЦЬКИЙ М.Б.</note>

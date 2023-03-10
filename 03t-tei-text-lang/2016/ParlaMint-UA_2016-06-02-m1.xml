@@ -307,7 +307,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-02-m1.u37">
-               <seg xml:id="ParlaMint-UA_2016-06-02-m1.u37.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-02-m1.u37.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-06-02T16:50:58">16:50:58</time></note>
             <note type="speaker">ПІДЛІСЕЦЬКИЙ Л.Т.</note>
@@ -659,7 +659,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-02-m1.u83">
-               <seg xml:id="ParlaMint-UA_2016-06-02-m1.u83.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-02-m1.u83.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-06-02T17:30:08">17:30:08</time></note>
             <note type="speaker">ІВЧЕНКО В.Є.</note>
@@ -692,7 +692,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-02-m1.u89">
-               <seg xml:id="ParlaMint-UA_2016-06-02-m1.u89.p1" xml:lang="ru">Будь ласка, 30 секунд. Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-02-m1.u89.p1" xml:lang="uk">Будь ласка, 30 секунд. Завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-06-02T17:33:20">17:33:20</time></note>
             <note type="speaker">ГУСАК В.Г.</note>
@@ -854,7 +854,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-06-02-m1.u111">
-               <seg xml:id="ParlaMint-UA_2016-06-02-m1.u111.p1" xml:lang="ru">Прошу народний депутат Курячий, автор поправки.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-02-m1.u111.p1" xml:lang="uk">Прошу народний депутат Курячий, автор поправки.</seg>
             </u>
             <note type="time"><time when="2016-06-02T17:50:02">17:50:02</time></note>
             <note type="speaker">КУРЯЧИЙ М.П.</note>

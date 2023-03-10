@@ -93,7 +93,7 @@
                <seg xml:id="ParlaMint-UA_2014-04-24-m0.u6.p1" xml:lang="ru">Незамедлительно приступить к конституционной реформе, в которой обязательно должны быть даны ответы на запросы людей, о которых я говорил выше.</seg>
                <seg xml:id="ParlaMint-UA_2014-04-24-m0.u6.p2" xml:lang="ru">Третье. Власти нужно перестать угрожать людям и войти с ними в диалог.</seg>
                <seg xml:id="ParlaMint-UA_2014-04-24-m0.u6.p3" xml:lang="ru">Четвертое. Правительству срочно разработать и предложить парламенту пакет законов по предотвращению надвигающейся катастрофы в экономике, финансовой системе. Делать это необходимо сегодня, так как завтра обстоятельства могут диктовать совершенно другую повестку дня.</seg>
-               <seg xml:id="ParlaMint-UA_2014-04-24-m0.u6.p4" xml:lang="ru">Спасибо за внимание.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-24-m0.u6.p4" xml:lang="uk">Спасибо за внимание.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-24-m0.u7">
@@ -456,8 +456,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-24-m0.u57">
-               <seg xml:id="ParlaMint-UA_2014-04-24-m0.u57.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2014-04-24-m0.u57.p2" xml:lang="ru">Будь ласка, народний депутат Опанащенко.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-24-m0.u57.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-24-m0.u57.p2" xml:lang="uk">Будь ласка, народний депутат Опанащенко.</seg>
             </u>
             <note type="time"><time when="2014-04-24T10:54:16">10:54:16</time></note>
             <note type="speaker">ОПАНАЩЕНКО М.В.</note>

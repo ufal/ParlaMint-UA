@@ -469,7 +469,7 @@
             <note type="time"><time when="2014-08-12T17:24:35">17:24:35</time></note>
             <note type="speaker">ГОНЧАРОВ А.Д.</note>
             <u who="ГОНЧАРОВ А.Д." ana="#regular" xml:id="ParlaMint-UA_2014-08-12-m1.u59">
-               <seg xml:id="ParlaMint-UA_2014-08-12-m1.u59.p1" xml:lang="ru">Дякую, прошу передать слово депутату Опанащенко.</seg>
+               <seg xml:id="ParlaMint-UA_2014-08-12-m1.u59.p1" xml:lang="uk">Дякую, прошу передать слово депутату Опанащенко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-08-12-m1.u60">
@@ -533,7 +533,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-08-12-m1.u72">
-               <seg xml:id="ParlaMint-UA_2014-08-12-m1.u72.p1" xml:lang="ru">Дякую. Сальдо народний депутат.</seg>
+               <seg xml:id="ParlaMint-UA_2014-08-12-m1.u72.p1" xml:lang="uk">Дякую. Сальдо народний депутат.</seg>
             </u>
             <note type="time"><time when="2014-08-12T17:27:55">17:27:55</time></note>
             <note type="speaker">САЛЬДО В.В.</note>

@@ -867,7 +867,7 @@
             <note type="time"><time when="2021-01-29T11:47:49">11:47:49</time></note>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>
             <u who="КОЛТУНОВИЧ О.С." ana="#regular" xml:id="ParlaMint-UA_2021-01-29-m0.u104">
-               <seg xml:id="ParlaMint-UA_2021-01-29-m0.u104.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-29-m0.u104.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-29-m0.u105">
@@ -1165,7 +1165,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-29-m0.u147">
-               <seg xml:id="ParlaMint-UA_2021-01-29-m0.u147.p1" xml:lang="ru">Правка номер 1. Добре.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-29-m0.u147.p1" xml:lang="uk">Правка номер 1. Добре.</seg>
             </u>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2021-01-29-m0.u148">

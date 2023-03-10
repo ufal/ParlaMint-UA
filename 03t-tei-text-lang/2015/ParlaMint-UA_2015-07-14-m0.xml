@@ -141,7 +141,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-14-m0.u11">
-               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u11.p1" xml:lang="ru">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u11.p1" xml:lang="uk">10 секунд.</seg>
             </u>
             <note type="speaker">ЛОЗОВОЙ А.С.</note>
             <u who="ЛОЗОВОЙ А.С." ana="#regular" xml:id="ParlaMint-UA_2015-07-14-m0.u12">
@@ -211,7 +211,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-14-m0.u23">
-               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u23.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u23.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-07-14-m0.u24">
@@ -506,7 +506,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-14-m0.u66">
-               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u66.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u66.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2015-07-14T11:32:27">11:32:27</time></note>
             <note type="speaker">ЧУМАК В.В.</note>
@@ -565,7 +565,7 @@
             <note type="time"><time when="2015-07-14T11:38:39">11:38:39</time></note>
             <note type="speaker">ЗГУЛАДЗЕ-ГЛУКСМАНН Е.</note>
             <u who="ЗГУЛАДЗЕ-ГЛУКСМАНН Е." ana="#regular" xml:id="ParlaMint-UA_2015-07-14-m0.u73">
-               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u73.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u73.p1" xml:lang="uk">Дякую.</seg>
                <seg xml:id="ParlaMint-UA_2015-07-14-m0.u73.p2" xml:lang="uk">Шановні депутати, здравствуйте.</seg>
                <seg xml:id="ParlaMint-UA_2015-07-14-m0.u73.p3" xml:lang="ru">После такого эмоционального утра, сложно мне говорить о таких скучных вещах, как МРЕО и борьба с коррупцией. Но эмоциональное утро было не только в парламенте.</seg>
                <seg xml:id="ParlaMint-UA_2015-07-14-m0.u73.p4" xml:lang="ru">Я не знаю, слышали ли вы или нет, во Львове сегодня, было, прозвучало 2 взрыва. Две "лимонки", две жертвы. Нам повезло, они оба живы, два участковых пришли на работу и подорвались.</seg>
@@ -673,7 +673,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-14-m0.u90">
-               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u90.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u90.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2015-07-14-m0.u91">
@@ -748,7 +748,7 @@
             <u who="ЗГУЛАДЗЕ-ГЛУКСМАНН Е." ana="#regular" xml:id="ParlaMint-UA_2015-07-14-m0.u99">
                <seg xml:id="ParlaMint-UA_2015-07-14-m0.u99.p1" xml:lang="ru">Спасибо, уважаемые депутаты, за доверие и за голосование нашего первого законопроекта на эту тему. Я хочу очень вкратце ответить комментариям, которые были. Большинство из них, фактуально неправы: ничего нового не создается. Наоборот, даже существующие центры будут сокращены до минимума, так что никакие миллионы и миллиарды в инфраструктуру либо еще не вкладываются. Наоборот, мы будем экономить очень большую часть бюджета Украины.</seg>
                <seg xml:id="ParlaMint-UA_2015-07-14-m0.u99.p2" xml:lang="ru">Законопроект, который я вам презентую сейчас, - это продолжение реформы сервисных услуг. Предлагается внесение изменений в статьи 29 и 64 Бюджетного кодекса. Суть в чем? Сегодня местные бюджеты отчасти финансируются от доходов из МРЭО. Чтобы эти доходы не пропали и чтобы местные бюджеты, наоборот, в перспективе получили еще больше, мы предлагаем, чтобы к списку источников формирования специального фонда местного бюджета, в части доходов платы за сервисные услуги, которые будут предоставлены центрами по оказанию сервисных услуг, Министерством внутренних дел минимум 10 процентов от доходов должны идти в местные бюджеты, это суть этого изменения.</seg>
-               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u99.p3" xml:lang="ru">Спасибо большое.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u99.p3" xml:lang="uk">Спасибо большое.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-14-m0.u100">
@@ -1043,7 +1043,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-07-14-m0.u141">
-               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u141.p1" xml:lang="ru">Будь ласка, 10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u141.p1" xml:lang="uk">Будь ласка, 10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">СОЛОВЕЙ Ю.І.</note>
             <u who="СОЛОВЕЙ Ю.І." ana="#regular" xml:id="ParlaMint-UA_2015-07-14-m0.u142">
@@ -1352,7 +1352,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-14-m0.u188">
-               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u188.p1" xml:lang="ru">20 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u188.p1" xml:lang="uk">20 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ГОЛОВКО М.Й.</note>
             <u who="ГОЛОВКО М.Й." ana="#regular" xml:id="ParlaMint-UA_2015-07-14-m0.u189">

@@ -194,7 +194,7 @@
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-07-m0.u16">
-               <seg xml:id="ParlaMint-UA_2017-02-07-m0.u16.p1" xml:lang="ru">Будь ласка, 30 секунд дайте, будь ласка, завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-07-m0.u16.p1" xml:lang="uk">Будь ласка, 30 секунд дайте, будь ласка, завершити.</seg>
             </u>
             <note type="speaker">БОНДАР В.В.</note>
             <u who="БОНДАР В.В." ana="#regular" xml:id="ParlaMint-UA_2017-02-07-m0.u17">
@@ -217,12 +217,12 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-07-m0.u20">
-               <seg xml:id="ParlaMint-UA_2017-02-07-m0.u20.p1" xml:lang="ru">Будь ласка, 30 секунд дайте завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-07-m0.u20.p1" xml:lang="uk">Будь ласка, 30 секунд дайте завершити.</seg>
             </u>
             <note type="speaker">ВІЛКУЛ О.Ю.</note>
             <u who="ВІЛКУЛ О.Ю." ana="#regular" xml:id="ParlaMint-UA_2017-02-07-m0.u21">
                <seg xml:id="ParlaMint-UA_2017-02-07-m0.u21.p1" xml:lang="ru">Уважаемые коллеги! Мы просим, мы требуем, и народ Украины требует, давайте отходить от простой риторики, от простых лозунгов, которые часто звучат с этой трибуны, ради одного, ради того, чтобы повысить сиюминутные рейтинги, и наконец-то украинский парламент должен начать работать на Украину.</seg>
-               <seg xml:id="ParlaMint-UA_2017-02-07-m0.u21.p2" xml:lang="ru">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-07-m0.u21.p2" xml:lang="uk">Спасибо.</seg>
             </u>
             <note type="time"><time when="2017-02-07T10:41:18">10:41:18</time></note>
             <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>

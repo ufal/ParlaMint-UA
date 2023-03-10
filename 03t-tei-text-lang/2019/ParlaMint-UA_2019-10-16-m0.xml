@@ -127,7 +127,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-16-m0.u11">
-               <seg xml:id="ParlaMint-UA_2019-10-16-m0.u11.p1" xml:lang="ru">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-16-m0.u11.p1" xml:lang="uk">10 секунд.</seg>
             </u>
             <note type="speaker">ШАХОВ С.В.</note>
             <u who="ШАХОВ С.В." ana="#regular" xml:id="ParlaMint-UA_2019-10-16-m0.u12">
@@ -164,7 +164,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-16-m0.u17">
-               <seg xml:id="ParlaMint-UA_2019-10-16-m0.u17.p1" xml:lang="ru">Десять секунд, будь ласка, дайте завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-16-m0.u17.p1" xml:lang="uk">Десять секунд, будь ласка, дайте завершити.</seg>
             </u>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2019-10-16-m0.u18">
@@ -244,7 +244,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-16-m0.u29">
-               <seg xml:id="ParlaMint-UA_2019-10-16-m0.u29.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-16-m0.u29.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="time"><time when="2019-10-16T10:49:28">10:49:28</time></note>
             <note type="speaker">ВЕНЕДІКТОВА І.В.</note>
@@ -491,7 +491,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-16-m0.u68">
-               <seg xml:id="ParlaMint-UA_2019-10-16-m0.u68.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-16-m0.u68.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="time"><time when="2019-10-16T11:08:21">11:08:21</time></note>
             <note type="speaker">ВЕНЕДІКТОВА І.В.</note>
@@ -939,7 +939,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-16-m0.u132">
-               <seg xml:id="ParlaMint-UA_2019-10-16-m0.u132.p1" xml:lang="ru">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-16-m0.u132.p1" xml:lang="uk">10 секунд.</seg>
             </u>
             <note type="time"><time when="2019-10-16T11:48:03">11:48:03</time></note>
             <note type="speaker">КРУЛЬКО І.І.</note>
@@ -1134,7 +1134,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-16-m0.u159">
-               <seg xml:id="ParlaMint-UA_2019-10-16-m0.u159.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-16-m0.u159.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ВЕНЕДІКТОВА І.В.</note>
             <u who="ВЕНЕДІКТОВА І.В." ana="#regular" xml:id="ParlaMint-UA_2019-10-16-m0.u160">

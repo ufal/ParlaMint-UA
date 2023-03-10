@@ -382,7 +382,7 @@
             </u>
             <note type="speaker">ІЩЕЙКІН К.Є.</note>
             <u who="ІЩЕЙКІН К.Є." ana="#regular" xml:id="ParlaMint-UA_2017-03-23-m0.u46">
-               <seg xml:id="ParlaMint-UA_2017-03-23-m0.u46.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-23-m0.u46.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-23-m0.u47">
@@ -1503,7 +1503,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-23-m0.u218">
-               <seg xml:id="ParlaMint-UA_2017-03-23-m0.u218.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-23-m0.u218.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">ШКРУМ А.І.</note>
             <u who="ШКРУМ А.І." ana="#regular" xml:id="ParlaMint-UA_2017-03-23-m0.u219">
@@ -1624,7 +1624,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-23-m0.u235">
-               <seg xml:id="ParlaMint-UA_2017-03-23-m0.u235.p1" xml:lang="ru">Будь ласка, 30 секунд додайте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-23-m0.u235.p1" xml:lang="uk">Будь ласка, 30 секунд додайте.</seg>
             </u>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
             <u who="КНЯЖИЦЬКИЙ М.Л." ana="#regular" xml:id="ParlaMint-UA_2017-03-23-m0.u236">
@@ -1773,7 +1773,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-23-m0.u263">
-               <seg xml:id="ParlaMint-UA_2017-03-23-m0.u263.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-23-m0.u263.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">СЮМАР В.П.</note>
             <u who="СЮМАР В.П." ana="#regular" xml:id="ParlaMint-UA_2017-03-23-m0.u264">

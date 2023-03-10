@@ -123,7 +123,7 @@
             <note type="time"><time when="2020-02-04T10:22:03">10:22:03</time></note>
             <note type="speaker">ЗАБРОДСЬКИЙ М.В.</note>
             <u who="ЗАБРОДСЬКИЙ М.В." ana="#regular" xml:id="ParlaMint-UA_2020-02-04-m0.u9">
-               <seg xml:id="ParlaMint-UA_2020-02-04-m0.u9.p1" xml:lang="ru">Дякую, пане Голово. Артур Герасимов.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-04-m0.u9.p1" xml:lang="uk">Дякую, пане Голово. Артур Герасимов.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-04-m0.u10">
@@ -1128,7 +1128,7 @@
             </u>
             <note type="speaker">ПАПІЄВ М.М.</note>
             <u who="ПАПІЄВ М.М." ana="#regular" xml:id="ParlaMint-UA_2020-02-04-m0.u154">
-               <seg xml:id="ParlaMint-UA_2020-02-04-m0.u154.p1" xml:lang="ru">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-04-m0.u154.p1" xml:lang="uk">10 секунд.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-04-m0.u155">

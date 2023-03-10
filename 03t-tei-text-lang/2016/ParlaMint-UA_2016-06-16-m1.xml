@@ -127,7 +127,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-16-m1.u13">
-               <seg xml:id="ParlaMint-UA_2016-06-16-m1.u13.p1" xml:lang="ru">Будь ласка, 30 секунд. Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-16-m1.u13.p1" xml:lang="uk">Будь ласка, 30 секунд. Завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-06-16T16:17:21">16:17:21</time></note>
             <note type="speaker">ПАПІЄВ М.М.</note>
@@ -205,7 +205,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-16-m1.u25">
-               <seg xml:id="ParlaMint-UA_2016-06-16-m1.u25.p1" xml:lang="ru">30 секунд. Будь ласка, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-16-m1.u25.p1" xml:lang="uk">30 секунд. Будь ласка, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-06-16T16:28:34">16:28:34</time></note>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
@@ -340,7 +340,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-16-m1.u48">
-               <seg xml:id="ParlaMint-UA_2016-06-16-m1.u48.p1" xml:lang="ru">Будь ласка, 30 секунд. Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-16-m1.u48.p1" xml:lang="uk">Будь ласка, 30 секунд. Завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-06-16T16:42:21">16:42:21</time></note>
             <note type="speaker">ПИНЗЕНИК В.М.</note>
@@ -493,7 +493,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-06-16-m1.u76">
-               <seg xml:id="ParlaMint-UA_2016-06-16-m1.u76.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-06-16-m1.u76.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-06-16T16:55:41">16:55:41</time></note>
             <note type="speaker">ЧУМАК В.В.</note>

@@ -735,7 +735,7 @@
             <note type="time"><time when="2020-07-16T12:58:25">12:58:25</time></note>
             <note type="speaker">ЮРЧИШИН Я.Р.</note>
             <u who="ЮРЧИШИН Я.Р." ana="#regular" xml:id="ParlaMint-UA_2020-07-16-m0.u93">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u93.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u93.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u94">
@@ -1949,7 +1949,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u249">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u249.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u249.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2020-07-16-m0.u250">

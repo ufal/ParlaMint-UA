@@ -398,7 +398,7 @@
             <note type="time"><time when="2019-12-12T17:47:01">17:47:01</time></note>
             <note type="speaker">ЯКИМЕНКО П.В.</note>
             <u who="ЯКИМЕНКО П.В." ana="#regular" xml:id="ParlaMint-UA_2019-12-12-m1.u46">
-               <seg xml:id="ParlaMint-UA_2019-12-12-m1.u46.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-12-m1.u46.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-12-m1.u47">

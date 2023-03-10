@@ -192,7 +192,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-29-m0.u19">
-               <seg xml:id="ParlaMint-UA_2016-03-29-m0.u19.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-29-m0.u19.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2016-03-29-m0.u20">
@@ -230,7 +230,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-29-m0.u25">
-               <seg xml:id="ParlaMint-UA_2016-03-29-m0.u25.p1" xml:lang="ru">30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-29-m0.u25.p1" xml:lang="uk">30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">БЕРЕЗЮК О.Р.</note>
             <u who="БЕРЕЗЮК О.Р." ana="#regular" xml:id="ParlaMint-UA_2016-03-29-m0.u26">
@@ -280,7 +280,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-29-m0.u33">
-               <seg xml:id="ParlaMint-UA_2016-03-29-m0.u33.p1" xml:lang="ru">30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-29-m0.u33.p1" xml:lang="uk">30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">СОБОЛЄВ Є.В.</note>
             <u who="СОБОЛЄВ Є.В." ana="#regular" xml:id="ParlaMint-UA_2016-03-29-m0.u34">
@@ -745,7 +745,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-29-m0.u103">
-               <seg xml:id="ParlaMint-UA_2016-03-29-m0.u103.p1" xml:lang="ru">А, 10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-29-m0.u103.p1" xml:lang="uk">А, 10 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-03-29T11:52:41">11:52:41</time></note>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>

@@ -94,7 +94,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-10-20-m0.u8">
-               <seg xml:id="ParlaMint-UA_2014-10-20-m0.u8.p1" xml:lang="ru">30 секунд, дайте завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2014-10-20-m0.u8.p1" xml:lang="uk">30 секунд, дайте завершити.</seg>
             </u>
             <note type="speaker">ДОНІЙ О.С.</note>
             <u who="ДОНІЙ О.С." ana="#regular" xml:id="ParlaMint-UA_2014-10-20-m0.u9">
@@ -405,7 +405,7 @@
             <note type="speaker">ГЄЛЛЄР Є.Б.</note>
             <u who="ГЄЛЛЄР Є.Б." ana="#regular" xml:id="ParlaMint-UA_2014-10-20-m0.u59">
                <seg xml:id="ParlaMint-UA_2014-10-20-m0.u59.p1" xml:lang="ru">Спасибо, Александр Валентинович. Уважаемые коллеги, я понимаю, что сейчас предвыборная у всех пора, поэтому прошу вести себя корректно. Фракция Партии регионов за нужные законы голосовать будет, и прошу не говорить, что кто-то голосует, кто-то – нет. Поэтому фракция Партии регионов за все законы, которые необходимы для нашего населения, голосовать будет.</seg>
-               <seg xml:id="ParlaMint-UA_2014-10-20-m0.u59.p2" xml:lang="ru">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2014-10-20-m0.u59.p2" xml:lang="uk">Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-10-20-m0.u60">

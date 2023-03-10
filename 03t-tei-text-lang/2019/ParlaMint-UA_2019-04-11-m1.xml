@@ -110,7 +110,7 @@
             <note type="narrative">Веде засідання заступник Голови Верховної Ради України СИРОЇД О.І.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-11-m1.u9">
-               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u9.p1" xml:lang="ru">Прошу, 30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u9.p1" xml:lang="uk">Прошу, 30 секунд завершити.</seg>
             </u>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-11-m1.u10">
@@ -485,7 +485,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-11-m1.u67">
-               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u67.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u67.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-11-m1.u68">
@@ -806,7 +806,7 @@
             <note type="narrative">Веде засідання заступник Голови Верховної Ради України СИРОЇД О.І.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-11-m1.u114">
-               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u114.p1" xml:lang="ru">30 секунд, будь ласка, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u114.p1" xml:lang="uk">30 секунд, будь ласка, завершуйте.</seg>
             </u>
             <note type="time"><time when="2019-04-11T17:05:26">17:05:26</time></note>
             <note type="speaker">НІМЧЕНКО В.І.</note>
@@ -999,7 +999,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-11-m1.u145">
-               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u145.p1" xml:lang="ru">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u145.p1" xml:lang="uk">10 секунд.</seg>
             </u>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-11-m1.u146">

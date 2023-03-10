@@ -476,7 +476,7 @@
             <note type="time"><time when="2022-07-19T11:13:47">11:13:47</time></note>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2022-07-19-m0.u47">
-               <seg xml:id="ParlaMint-UA_2022-07-19-m0.u47.p1" xml:lang="ru">Прошу передати Ярославу Железеняку.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-19-m0.u47.p1" xml:lang="uk">Прошу передати Ярославу Железеняку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-07-19-m0.u48">
@@ -1135,8 +1135,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-07-19-m0.u139">
-               <seg xml:id="ParlaMint-UA_2022-07-19-m0.u139.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2022-07-19-m0.u139.p2" xml:lang="ru">Данило Олександрович Гетманцев.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-19-m0.u139.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-19-m0.u139.p2" xml:lang="uk">Данило Олександрович Гетманцев.</seg>
             </u>
             <note type="time"><time when="2022-07-19T13:50:50">13:50:50</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>

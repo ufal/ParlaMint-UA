@@ -212,7 +212,7 @@
             </u>
             <note type="speaker">ЄФРЕМОВ О.С.</note>
             <u who="ЄФРЕМОВ О.С." ana="#regular" xml:id="ParlaMint-UA_2014-06-03-m0.u22">
-               <seg xml:id="ParlaMint-UA_2014-06-03-m0.u22.p1" xml:lang="ru">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-03-m0.u22.p1" xml:lang="uk">Спасибо.</seg>
             </u>
             <vocal type="noise">
                <desc>(Шум у залі)</desc>
@@ -561,7 +561,7 @@
             <note type="time"><time when="2014-06-03T12:23:43">12:23:43</time></note>
             <note type="speaker">БЕЗБАХ Я.Я.</note>
             <u who="БЕЗБАХ Я.Я." ana="#regular" xml:id="ParlaMint-UA_2014-06-03-m0.u68">
-               <seg xml:id="ParlaMint-UA_2014-06-03-m0.u68.p1" xml:lang="ru">Прошу передать слово Анне Герман, пожалуйста.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-03-m0.u68.p1" xml:lang="uk">Прошу передать слово Анне Герман, пожалуйста.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-03-m0.u69">

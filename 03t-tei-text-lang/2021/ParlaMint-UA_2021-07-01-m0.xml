@@ -379,8 +379,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-01-m0.u47">
-               <seg xml:id="ParlaMint-UA_2021-07-01-m0.u47.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-07-01-m0.u47.p2" xml:lang="ru">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-01-m0.u47.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-01-m0.u47.p2" xml:lang="uk">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2021-07-01T10:52:39">10:52:39</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>

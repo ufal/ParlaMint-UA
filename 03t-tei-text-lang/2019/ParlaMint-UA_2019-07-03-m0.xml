@@ -171,7 +171,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-03-m0.u15">
-               <seg xml:id="ParlaMint-UA_2019-07-03-m0.u15.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-03-m0.u15.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">ГОЛУБ В.В.</note>
             <u who="ГОЛУБ В.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-03-m0.u16">
@@ -213,7 +213,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-03-m0.u21">
-               <seg xml:id="ParlaMint-UA_2019-07-03-m0.u21.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-03-m0.u21.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">ШУРМА І.М.</note>
             <u who="ШУРМА І.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-03-m0.u22">
@@ -249,7 +249,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-03-m0.u27">
-               <seg xml:id="ParlaMint-UA_2019-07-03-m0.u27.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-03-m0.u27.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
             <u who="ДОЛЖЕНКОВ О.В." ana="#regular" xml:id="ParlaMint-UA_2019-07-03-m0.u28">
@@ -2673,7 +2673,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-03-m0.u431">
-               <seg xml:id="ParlaMint-UA_2019-07-03-m0.u431.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-03-m0.u431.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="time"><time when="2019-07-03T11:53:41">11:53:41</time></note>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>

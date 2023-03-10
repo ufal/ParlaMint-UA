@@ -138,7 +138,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-07-12-m1.u10">
-               <seg xml:id="ParlaMint-UA_2016-07-12-m1.u10.p1" xml:lang="ru">Дякую вам. Будь ласка, Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-12-m1.u10.p1" xml:lang="uk">Дякую вам. Будь ласка, Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2016-07-12T16:20:03">16:20:03</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -299,7 +299,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-07-12-m1.u31">
-               <seg xml:id="ParlaMint-UA_2016-07-12-m1.u31.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-12-m1.u31.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ПАВЛЕНКО Ю.О.</note>
             <u who="ПАВЛЕНКО Ю.О." ana="#regular" xml:id="ParlaMint-UA_2016-07-12-m1.u32">

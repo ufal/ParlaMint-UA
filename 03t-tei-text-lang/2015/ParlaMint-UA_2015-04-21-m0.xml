@@ -161,7 +161,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-04-21-m0.u17">
-               <seg xml:id="ParlaMint-UA_2015-04-21-m0.u17.p1" xml:lang="ru">30 секунд. Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-21-m0.u17.p1" xml:lang="uk">30 секунд. Завершуйте.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-04-21-m0.u18">
@@ -368,7 +368,7 @@
             <note type="time"><time when="2015-04-21T10:56:40">10:56:40</time></note>
             <note type="speaker">СИЛАНТЬЄВ Д.О.</note>
             <u who="СИЛАНТЬЄВ Д.О." ana="#regular" xml:id="ParlaMint-UA_2015-04-21-m0.u51">
-               <seg xml:id="ParlaMint-UA_2015-04-21-m0.u51.p1" xml:lang="ru">Прошу передать слово Оксане Корчинской.</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-21-m0.u51.p1" xml:lang="uk">Прошу передать слово Оксане Корчинской.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-04-21-m0.u52">
@@ -1172,8 +1172,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-04-21-m0.u191">
-               <seg xml:id="ParlaMint-UA_2015-04-21-m0.u191.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2015-04-21-m0.u191.p2" xml:lang="ru">Будь ласка, Артур Герасимов, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-21-m0.u191.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-21-m0.u191.p2" xml:lang="uk">Будь ласка, Артур Герасимов, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2015-04-21T13:19:00">13:19:00</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>
@@ -1410,7 +1410,7 @@
             <note type="time"><time when="2015-04-21T13:52:25">13:52:25</time></note>
             <note type="speaker">КІССЕ А.І.</note>
             <u who="КІССЕ А.І." ana="#regular" xml:id="ParlaMint-UA_2015-04-21-m0.u228">
-               <seg xml:id="ParlaMint-UA_2015-04-21-m0.u228.p1" xml:lang="ru">Прошу передать слово коллеге Яценко Антону.</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-21-m0.u228.p1" xml:lang="uk">Прошу передать слово коллеге Яценко Антону.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-04-21-m0.u229">

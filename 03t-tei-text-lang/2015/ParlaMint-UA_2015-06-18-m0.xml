@@ -74,7 +74,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-06-18-m0.u4">
-               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u4.p1" xml:lang="ru">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u4.p1" xml:lang="uk">10 секунд.</seg>
             </u>
             <note type="speaker">ГУЗЬ І.В.</note>
             <u who="ГУЗЬ І.В." ana="#regular" xml:id="ParlaMint-UA_2015-06-18-m0.u5">
@@ -162,11 +162,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-06-18-m0.u12">
-               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u12.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u12.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2015-06-18-m0.u13">
-               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u13.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u13.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-06-18-m0.u14">
@@ -1030,7 +1030,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-06-18-m0.u133">
-               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u133.p1" xml:lang="ru">Будь ласка, 10 секунд. Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u133.p1" xml:lang="uk">Будь ласка, 10 секунд. Завершуйте.</seg>
             </u>
             <note type="speaker">ДЕМЧИШИН В.В.</note>
             <u who="ДЕМЧИШИН В.В." ana="#regular" xml:id="ParlaMint-UA_2015-06-18-m0.u134">
@@ -1053,7 +1053,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-06-18-m0.u137">
-               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u137.p1" xml:lang="ru">10 секунд. Завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u137.p1" xml:lang="uk">10 секунд. Завершити.</seg>
             </u>
             <note type="speaker">МАРТОВИЦЬКИЙ А.В.</note>
             <u who="МАРТОВИЦЬКИЙ А.В." ana="#regular" xml:id="ParlaMint-UA_2015-06-18-m0.u138">
@@ -1108,7 +1108,7 @@
             <note type="time"><time when="2015-06-18T13:25:16">13:25:16</time></note>
             <note type="speaker">ВОРОПАЄВ Ю.М.</note>
             <u who="ВОРОПАЄВ Ю.М." ana="#regular" xml:id="ParlaMint-UA_2015-06-18-m0.u146">
-               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u146.p1" xml:lang="ru">Прошу передать слово Дмитрию Колесникову.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u146.p1" xml:lang="uk">Прошу передать слово Дмитрию Колесникову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-06-18-m0.u147">
@@ -1635,7 +1635,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-06-18-m0.u219">
-               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u219.p1" xml:lang="ru">Прошу 30 секунд для завершення.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u219.p1" xml:lang="uk">Прошу 30 секунд для завершення.</seg>
             </u>
             <note type="speaker">ЛУЦЕНКО Ю.В.</note>
             <u who="ЛУЦЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-06-18-m0.u220">
@@ -1807,7 +1807,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-06-18-m0.u247">
-               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u247.p1" xml:lang="ru">Дайте, будь ласка, 30 секунд завершити. 30 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u247.p1" xml:lang="uk">Дайте, будь ласка, 30 секунд завершити. 30 секунд, будь ласка.</seg>
             </u>
             <note type="time"><time when="2015-06-18T16:26:47">16:26:47</time></note>
             <note type="speaker">ЧОРНОВОЛ Т.М.</note>
@@ -1830,7 +1830,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-06-18-m0.u251">
-               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u251.p1" xml:lang="ru">10 секунд, 20 секунд дайте завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u251.p1" xml:lang="uk">10 секунд, 20 секунд дайте завершити.</seg>
             </u>
             <note type="speaker">ПАПІЄВ М.М.</note>
             <u who="ПАПІЄВ М.М." ana="#regular" xml:id="ParlaMint-UA_2015-06-18-m0.u252">
@@ -2459,7 +2459,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-06-18-m0.u340">
-               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u340.p1" xml:lang="ru">20 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u340.p1" xml:lang="uk">20 секунд.</seg>
             </u>
             <note type="speaker">КРУЛЬКО І.І.</note>
             <u who="КРУЛЬКО І.І." ana="#regular" xml:id="ParlaMint-UA_2015-06-18-m0.u341">
@@ -2531,7 +2531,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-06-18-m0.u350">
-               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u350.p1" xml:lang="ru">Будь ласка, 10 секунд. Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-18-m0.u350.p1" xml:lang="uk">Будь ласка, 10 секунд. Завершуйте.</seg>
             </u>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2015-06-18-m0.u351">

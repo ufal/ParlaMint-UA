@@ -412,7 +412,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-23-m0.u64">
-               <seg xml:id="ParlaMint-UA_2014-02-23-m0.u64.p1" xml:lang="ru">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-23-m0.u64.p1" xml:lang="uk">Завершуйте.</seg>
             </u>
             <note type="time"><time when="2014-02-23T11:42:29">11:42:29</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>
@@ -549,7 +549,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-23-m0.u92">
-               <seg xml:id="ParlaMint-UA_2014-02-23-m0.u92.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-23-m0.u92.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">АВАКОВ А.Б.</note>
             <u who="АВАКОВ А.Б." ana="#regular" xml:id="ParlaMint-UA_2014-02-23-m0.u93">
@@ -1339,7 +1339,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-23-m0.u210">
-               <seg xml:id="ParlaMint-UA_2014-02-23-m0.u210.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-23-m0.u210.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="narrative">Веде засідання Голова Верховної Ради України О.В.ТУРЧИНОВ</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>

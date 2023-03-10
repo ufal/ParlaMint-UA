@@ -632,7 +632,7 @@
             </u>
             <note type="speaker">КІНАХ А.К.</note>
             <u who="КІНАХ А.К." ana="#regular" xml:id="ParlaMint-UA_2014-05-20-m0.u83">
-               <seg xml:id="ParlaMint-UA_2014-05-20-m0.u83.p1" xml:lang="ru">Я не прошу слова.</seg>
+               <seg xml:id="ParlaMint-UA_2014-05-20-m0.u83.p1" xml:lang="uk">Я не прошу слова.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-05-20-m0.u84">
@@ -983,7 +983,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-05-20-m0.u134">
-               <seg xml:id="ParlaMint-UA_2014-05-20-m0.u134.p1" xml:lang="ru">Дякую. Народний депутат Стоян.</seg>
+               <seg xml:id="ParlaMint-UA_2014-05-20-m0.u134.p1" xml:lang="uk">Дякую. Народний депутат Стоян.</seg>
             </u>
             <note type="time"><time when="2014-05-20T13:32:54">13:32:54</time></note>
             <note type="speaker">СТОЯН О.М.</note>
@@ -1004,7 +1004,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-05-20-m0.u138">
-               <seg xml:id="ParlaMint-UA_2014-05-20-m0.u138.p1" xml:lang="ru">Дякую. Народний депутат Медуниця.</seg>
+               <seg xml:id="ParlaMint-UA_2014-05-20-m0.u138.p1" xml:lang="uk">Дякую. Народний депутат Медуниця.</seg>
             </u>
             <note type="time"><time when="2014-05-20T13:34:53">13:34:53</time></note>
             <note type="speaker">МЕДУНИЦЯ О.В.</note>

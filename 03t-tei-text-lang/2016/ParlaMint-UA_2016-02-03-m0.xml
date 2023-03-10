@@ -73,7 +73,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-03-m0.u3">
-               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u3.p1" xml:lang="ru">10 секунд завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u3.p1" xml:lang="uk">10 секунд завершуйте.</seg>
             </u>
             <note type="speaker">СОЛОВЕЙ Ю.І.</note>
             <u who="СОЛОВЕЙ Ю.І." ana="#regular" xml:id="ParlaMint-UA_2016-02-03-m0.u4">
@@ -96,7 +96,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-03-m0.u7">
-               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u7.p1" xml:lang="ru">10 секунд, завершуйте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u7.p1" xml:lang="uk">10 секунд, завершуйте, будь ласка.</seg>
             </u>
             <note type="speaker">БАРНА О.С.</note>
             <u who="БАРНА О.С." ana="#regular" xml:id="ParlaMint-UA_2016-02-03-m0.u8">
@@ -132,7 +132,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-03-m0.u13">
-               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u13.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u13.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">МАТВІЄНКОВ С.А.</note>
             <u who="МАТВІЄНКОВ С.А." ana="#regular" xml:id="ParlaMint-UA_2016-02-03-m0.u14">
@@ -282,7 +282,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-03-m0.u31">
-               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u31.p1" xml:lang="ru">30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u31.p1" xml:lang="uk">30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ЗУБКО Г.Г.</note>
             <u who="ЗУБКО Г.Г." ana="#regular" xml:id="ParlaMint-UA_2016-02-03-m0.u32">
@@ -708,7 +708,7 @@
             <note type="time"><time when="2016-02-03T11:41:55">11:41:55</time></note>
             <note type="speaker">НАЙЄМ М.</note>
             <u who="НАЙЄМ М." ana="#regular" xml:id="ParlaMint-UA_2016-02-03-m0.u88">
-               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u88.p1" xml:lang="ru">Владимир Борисович, давайте не дурить друг друга. Правда, я с большим уважением отношусь к вам и к нашим всем коллегам.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u88.p1" xml:lang="uk">Владимир Борисович, давайте не дурить друг друга. Правда, я с большим уважением отношусь к вам и к нашим всем коллегам.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-03-m0.u89">
@@ -955,7 +955,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-03-m0.u120">
-               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u120.p1" xml:lang="ru">30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u120.p1" xml:lang="uk">30 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-02-03T13:02:08">13:02:08</time></note>
             <note type="speaker">ТОМЕНКО М.В.</note>
@@ -1061,8 +1061,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-03-m0.u133">
-               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u133.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u133.p2" xml:lang="ru">Дмитро Голубов, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u133.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u133.p2" xml:lang="uk">Дмитро Голубов, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2016-02-03T13:16:50">13:16:50</time></note>
             <note type="speaker">ГОЛУБОВ Д.І.</note>
@@ -1073,7 +1073,7 @@
             <note type="speaker">ГОНЧАРЕНКО О.О.</note>
             <u who="ГОНЧАРЕНКО О.О." ana="#regular" xml:id="ParlaMint-UA_2016-02-03-m0.u135">
                <seg xml:id="ParlaMint-UA_2016-02-03-m0.u135.p1" xml:lang="ru">Уважаемые коллеги! На самом деле поддерживаю этот закон, и он действительно очень важен, в том числе и медицины и фармацевтики. Однако хотел бы сказать, что нам действительно нужно не забывать, что мы имеем мощную отечественную фармацевтическую промышленность. Когда нам докладывает Минздрав, как огромное достижение, что мы получили от Литвы 5 тысяч 400 доз "Тамифлю", а в это время, согласно тех данных, которые я получил, у нас на складах в Украине 240 тысяч доз, из которых 105 тысяч доз, у которых закончился срок годности. То есть государство закупило препараты, этот препарат не был использован, государственные средства были фактически выброшены, а сегодня замминистра здравоохранения предлагает утилизировать этот просроченный "Тамифлю" путем добровольного распространения в регионы для использования. То есть вместо того, чтобы утилизировать лекарственные средства согласно закону, его уничтожить, и предлагается его утилизировать в организмах украинцев. Вот такое мы допускать не можем.</seg>
-               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u135.p2" xml:lang="ru">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-03-m0.u135.p2" xml:lang="uk">Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-03-m0.u136">

@@ -149,8 +149,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-10-20-m0.u14">
-               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u14.p1" xml:lang="ru">Дякую вам.</seg>
-               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u14.p2" xml:lang="ru">Запрошую до слова народного депутата Борислава Розенблата.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u14.p1" xml:lang="uk">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u14.p2" xml:lang="uk">Запрошую до слова народного депутата Борислава Розенблата.</seg>
             </u>
             <note type="time"><time when="2016-10-20T10:21:02">10:21:02</time></note>
             <note type="speaker">РОЗЕНБЛАТ Б.С.</note>
@@ -744,7 +744,7 @@
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2016-10-20-m0.u88">
-               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u88.p1" xml:lang="ru">30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u88.p1" xml:lang="uk">30 секунд завершити.</seg>
             </u>
             <note type="speaker">КРИВЕНКО В.М.</note>
             <u who="КРИВЕНКО В.М." ana="#regular" xml:id="ParlaMint-UA_2016-10-20-m0.u89">
@@ -822,7 +822,7 @@
             <note type="time"><time when="2016-10-20T11:50:37">11:50:37</time></note>
             <note type="speaker">МАТВІЄНКОВ С.А.</note>
             <u who="МАТВІЄНКОВ С.А." ana="#regular" xml:id="ParlaMint-UA_2016-10-20-m0.u101">
-               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u101.p1" xml:lang="ru">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u101.p1" xml:lang="uk">Спасибо.</seg>
                <seg xml:id="ParlaMint-UA_2016-10-20-m0.u101.p2" xml:lang="ru">Матвиенков, 57-й округ, "Оппозиционный блок".</seg>
                <seg xml:id="ParlaMint-UA_2016-10-20-m0.u101.p3" xml:lang="ru">К сожалению, те депутаты, которые работали в реальном секторе экономики, сегодня констатируют, что у нас страна живет с протянутой рукой. И мы видим, что долговая яма, в которую мы все сегодня падаем, она растет с каждым днем, мы до конца этого года будем иметь 2 триллиона долгов в нашем бюджете. Следующий год нам планируют где-то порядка 2,3 триллиона долгов, мы будем иметь в нашем бюджете.</seg>
                <seg xml:id="ParlaMint-UA_2016-10-20-m0.u101.p4" xml:lang="ru">Целые отрасли на сегодняшний день лежат, не работают крупнейшие предприятия и это не может не настораживать. Такие отрасли как автомобилестроение, судостроение, машиностроение - они сегодня не имеют четкой программы развития, они не имеют перспектив. А такие предприятия как завод "АНТОНОВ" – это основа, костяк, когда-то составляющий нашу экономику. И мы прекрасно понимаем, что такие предприятия должны работать, они должны пополнять доходную часть бюджета, создавать рабочие места, платить налоги.</seg>
@@ -989,7 +989,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-10-20-m0.u126">
-               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u126.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u126.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">БОГОМОЛЕЦЬ О.В.</note>
             <u who="БОГОМОЛЕЦЬ О.В." ana="#regular" xml:id="ParlaMint-UA_2016-10-20-m0.u127">
@@ -1180,7 +1180,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2016-10-20-m0.u154">
-               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u154.p1" xml:lang="ru">30 секунд, будь ласка, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u154.p1" xml:lang="uk">30 секунд, будь ласка, завершуйте.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2016-10-20-m0.u155">
@@ -1210,7 +1210,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2016-10-20-m0.u160">
-               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u160.p1" xml:lang="ru">15 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-20-m0.u160.p1" xml:lang="uk">15 секунд завершити.</seg>
             </u>
             <note type="speaker">БАБАК А.В.</note>
             <u who="БАБАК А.В." ana="#regular" xml:id="ParlaMint-UA_2016-10-20-m0.u161">

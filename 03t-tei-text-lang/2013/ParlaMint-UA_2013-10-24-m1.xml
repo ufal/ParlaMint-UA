@@ -122,7 +122,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-24-m1.u9">
-               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u9.p1" xml:lang="ru">30 секунд. Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u9.p1" xml:lang="uk">30 секунд. Прошу.</seg>
             </u>
             <note type="speaker">КЛИЧКО В.В.</note>
             <u who="КЛИЧКО В.В." ana="#regular" xml:id="ParlaMint-UA_2013-10-24-m1.u10">
@@ -453,7 +453,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-24-m1.u55">
-               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u55.p1" xml:lang="ru">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u55.p1" xml:lang="uk">Завершуйте.</seg>
             </u>
             <note type="speaker">КУТОВИЙ Т.В.</note>
             <u who="КУТОВИЙ Т.В." ana="#regular" xml:id="ParlaMint-UA_2013-10-24-m1.u56">
@@ -542,11 +542,11 @@
             <note type="time"><time when="2013-10-24T17:41:10">17:41:10</time></note>
             <note type="speaker">ЗУБЧЕВСЬКИЙ О.П.</note>
             <u who="ЗУБЧЕВСЬКИЙ О.П." ana="#regular" xml:id="ParlaMint-UA_2013-10-24-m1.u72">
-               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u72.p1" xml:lang="ru">Александр Зубчевский, фракция коммунистов. Прошу передать слово моему коллеге Руслану Скарбовийчуку.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u72.p1" xml:lang="uk">Александр Зубчевский, фракция коммунистов. Прошу передать слово моему коллеге Руслану Скарбовийчуку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-24-m1.u73">
-               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u73.p1" xml:lang="ru">Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u73.p1" xml:lang="uk">Прошу.</seg>
             </u>
             <note type="time"><time when="2013-10-24T17:41:18">17:41:18</time></note>
             <note type="speaker">СКАРБОВІЙЧУК Р.В.</note>
@@ -653,7 +653,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-24-m1.u89">
-               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u89.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u89.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-10-24T17:57:56">17:57:56</time></note>
             <note type="speaker">БЛАВАЦЬКИЙ М.В.</note>
@@ -674,7 +674,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-24-m1.u93">
-               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u93.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u93.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-10-24T17:59:58">17:59:58</time></note>
             <note type="speaker">СУХИЙ Я.М.</note>
@@ -732,7 +732,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-24-m1.u99">
-               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u99.p1" xml:lang="ru">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u99.p1" xml:lang="uk">Завершуйте.</seg>
             </u>
             <note type="speaker">ГЄЛЛЄР Є.Б.</note>
             <u who="ГЄЛЛЄР Є.Б." ana="#regular" xml:id="ParlaMint-UA_2013-10-24-m1.u100">
@@ -772,7 +772,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-24-m1.u107">
-               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u107.p1" xml:lang="ru">Ярослав Сухий, прошу вас.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-24-m1.u107.p1" xml:lang="uk">Ярослав Сухий, прошу вас.</seg>
             </u>
             <note type="time"><time when="2013-10-24T18:09:33">18:09:33</time></note>
             <note type="speaker">СУХИЙ Я.М.</note>

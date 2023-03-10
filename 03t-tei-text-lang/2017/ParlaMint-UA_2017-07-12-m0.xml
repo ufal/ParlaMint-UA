@@ -121,8 +121,8 @@
             <note type="narrative">СИРОЇД О.І.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-07-12-m0.u11">
-               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u11.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u11.p2" xml:lang="ru">Запрошую до слова народного депутата Олега Березюка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u11.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u11.p2" xml:lang="uk">Запрошую до слова народного депутата Олега Березюка.</seg>
             </u>
             <note type="time"><time when="2017-07-12T10:18:36">10:18:36</time></note>
             <note type="speaker">БЕРЕЗЮК О.Р.</note>
@@ -135,8 +135,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-07-12-m0.u13">
-               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u13.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u13.p2" xml:lang="ru">Запрошую до слова народного депутата Оксану Юринець, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u13.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u13.p2" xml:lang="uk">Запрошую до слова народного депутата Оксану Юринець, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2017-07-12T10:21:46">10:21:46</time></note>
             <note type="speaker">ЮРИНЕЦЬ О.В.</note>
@@ -291,9 +291,9 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-12-m0.u34">
-               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u34.p1" xml:lang="ru">Дякую вам.</seg>
-               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u34.p2" xml:lang="ru">Прошу провести запис: два – "за", два – "проти".</seg>
-               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u34.p3" xml:lang="ru">Роман Семенуха.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u34.p1" xml:lang="uk">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u34.p2" xml:lang="uk">Прошу провести запис: два – "за", два – "проти".</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u34.p3" xml:lang="uk">Роман Семенуха.</seg>
             </u>
             <note type="time"><time when="2017-07-12T10:50:26">10:50:26</time></note>
             <note type="speaker">СЕМЕНУХА Р.С.</note>
@@ -1187,7 +1187,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-12-m0.u164">
-               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u164.p1" xml:lang="ru">30 секунд завершити. А, завершили, так?</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-12-m0.u164.p1" xml:lang="uk">30 секунд завершити. А, завершили, так?</seg>
             </u>
             <note type="speaker">КОРЧИНСЬКА О.А.</note>
             <u who="КОРЧИНСЬКА О.А." ana="#regular" xml:id="ParlaMint-UA_2017-07-12-m0.u165">

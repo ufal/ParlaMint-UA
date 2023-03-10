@@ -1022,7 +1022,7 @@
             <note type="time"><time when="2021-01-26T13:21:59">13:21:59</time></note>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2021-01-26-m0.u134">
-               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u134.p1" xml:lang="ru">Яка, 63 чи 58-а?</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u134.p1" xml:lang="uk">Яка, 63 чи 58-а?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-26-m0.u135">
@@ -1770,7 +1770,7 @@
             <note type="time"><time when="2021-01-26T14:35:06">14:35:06</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2021-01-26-m0.u236">
-               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u236.p1" xml:lang="ru">Яка? Яка правка?</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u236.p1" xml:lang="uk">Яка? Яка правка?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-26-m0.u237">

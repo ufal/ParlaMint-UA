@@ -636,7 +636,7 @@
             <note type="time"><time when="2021-04-13T17:17:14">17:17:14</time></note>
             <note type="speaker">ЯЦИК Ю.Г.</note>
             <u who="ЯЦИК Ю.Г." ana="#regular" xml:id="ParlaMint-UA_2021-04-13-m1.u77">
-               <seg xml:id="ParlaMint-UA_2021-04-13-m1.u77.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-13-m1.u77.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <vocal type="noise">
                <desc>(Шум у залі)</desc>

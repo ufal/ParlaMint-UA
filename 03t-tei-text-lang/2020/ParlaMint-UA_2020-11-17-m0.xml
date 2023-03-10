@@ -336,7 +336,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2020-11-17-m0.u34">
-               <seg xml:id="ParlaMint-UA_2020-11-17-m0.u34.p1" xml:lang="ru">Олег Синютка, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2020-11-17-m0.u34.p1" xml:lang="uk">Олег Синютка, прошу.</seg>
             </u>
             <note type="time"><time when="2020-11-17T11:16:01">11:16:01</time></note>
             <note type="speaker">СИНЮТКА О.М.</note>
@@ -1225,7 +1225,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2020-11-17-m0.u166">
-               <seg xml:id="ParlaMint-UA_2020-11-17-m0.u166.p1" xml:lang="ru">10 секунд давайте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-11-17-m0.u166.p1" xml:lang="uk">10 секунд давайте.</seg>
             </u>
             <note type="time"><time when="2020-11-17T15:01:06">15:01:06</time></note>
             <note type="speaker">ТРУХІН О.М.</note>

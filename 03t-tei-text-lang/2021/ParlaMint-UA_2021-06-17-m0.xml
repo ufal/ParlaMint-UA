@@ -1501,11 +1501,11 @@
             <note type="time"><time when="2021-06-17T12:52:00">12:52:00</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
             <u who="ПОЛЯКОВ А.Е." ana="#regular" xml:id="ParlaMint-UA_2021-06-17-m0.u187">
-               <seg xml:id="ParlaMint-UA_2021-06-17-m0.u187.p1" xml:lang="ru">57-у давайте правку.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-17-m0.u187.p1" xml:lang="uk">57-у давайте правку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-17-m0.u188">
-               <seg xml:id="ParlaMint-UA_2021-06-17-m0.u188.p1" xml:lang="ru">Давайте 57-у.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-17-m0.u188.p1" xml:lang="uk">Давайте 57-у.</seg>
             </u>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
             <u who="ПОЛЯКОВ А.Е." ana="#regular" xml:id="ParlaMint-UA_2021-06-17-m0.u189">

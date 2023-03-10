@@ -778,7 +778,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-05-28-m0.u84">
-               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u84.p1" xml:lang="ru">30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u84.p1" xml:lang="uk">30 секунд завершити.</seg>
             </u>
             <note type="speaker">КАПЛІН С.М.</note>
             <u who="КАПЛІН С.М." ana="#regular" xml:id="ParlaMint-UA_2019-05-28-m0.u85">
@@ -833,7 +833,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-05-28-m0.u95">
-               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u95.p1" xml:lang="ru">30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u95.p1" xml:lang="uk">30 секунд завершити.</seg>
             </u>
             <note type="speaker">КАПЛІН С.М.</note>
             <u who="КАПЛІН С.М." ana="#regular" xml:id="ParlaMint-UA_2019-05-28-m0.u96">
@@ -952,8 +952,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-05-28-m0.u112">
-               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u112.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u112.p2" xml:lang="ru">Запрошую до слова народного депутата Борислава Березу.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u112.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u112.p2" xml:lang="uk">Запрошую до слова народного депутата Борислава Березу.</seg>
             </u>
             <note type="time"><time when="2019-05-28T12:53:57">12:53:57</time></note>
             <note type="speaker">БЕРЕЗА Б.Ю.</note>
@@ -967,8 +967,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-05-28-m0.u114">
-               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u114.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u114.p2" xml:lang="ru">Запрошую до слова народного депутата Рудика.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u114.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u114.p2" xml:lang="uk">Запрошую до слова народного депутата Рудика.</seg>
             </u>
             <note type="time"><time when="2019-05-28T12:57:09">12:57:09</time></note>
             <note type="speaker">РУДИК С.Я.</note>
@@ -1173,7 +1173,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-05-28-m0.u137">
-               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u137.p1" xml:lang="ru">30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u137.p1" xml:lang="uk">30 секунд завершити.</seg>
             </u>
             <note type="speaker">КАПЛІН С.М.</note>
             <u who="КАПЛІН С.М." ana="#regular" xml:id="ParlaMint-UA_2019-05-28-m0.u138">

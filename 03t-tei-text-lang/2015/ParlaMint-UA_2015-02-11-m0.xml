@@ -191,7 +191,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-11-m0.u21">
-               <seg xml:id="ParlaMint-UA_2015-02-11-m0.u21.p1" xml:lang="ru">10 секунд. Завершуйте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-11-m0.u21.p1" xml:lang="uk">10 секунд. Завершуйте, будь ласка.</seg>
             </u>
             <note type="speaker">ЛИТВИН В.М.</note>
             <u who="ЛИТВИН В.М." ana="#regular" xml:id="ParlaMint-UA_2015-02-11-m0.u22">
@@ -1178,7 +1178,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-11-m0.u163">
-               <seg xml:id="ParlaMint-UA_2015-02-11-m0.u163.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-11-m0.u163.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
             <u who="КНЯЖИЦЬКИЙ М.Л." ana="#regular" xml:id="ParlaMint-UA_2015-02-11-m0.u164">

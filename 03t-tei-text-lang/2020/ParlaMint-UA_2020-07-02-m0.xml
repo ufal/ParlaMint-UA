@@ -1090,11 +1090,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-02-m0.u157">
-               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u157.p1" xml:lang="ru">169-а, добре.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u157.p1" xml:lang="uk">169-а, добре.</seg>
             </u>
             <note type="speaker">ЖЕЛЕЗНЯК Я.І.</note>
             <u who="ЖЕЛЕЗНЯК Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-07-02-m0.u158">
-               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u158.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u158.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-02-m0.u159">
@@ -1138,7 +1138,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-02-m0.u167">
-               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u167.p1" xml:lang="ru">10 правка? Добре.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u167.p1" xml:lang="uk">10 правка? Добре.</seg>
             </u>
             <note type="speaker">МАМКА Г.М.</note>
             <u who="МАМКА Г.М." ana="#regular" xml:id="ParlaMint-UA_2020-07-02-m0.u168">
@@ -2396,7 +2396,7 @@
             </u>
             <note type="speaker">ІВЧЕНКО В.Є.</note>
             <u who="ІВЧЕНКО В.Є." ana="#regular" xml:id="ParlaMint-UA_2020-07-02-m0.u358">
-               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u358.p1" xml:lang="ru">Добре, правка, 671. Добре!</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u358.p1" xml:lang="uk">Добре, правка, 671. Добре!</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-02-m0.u359">
@@ -2761,7 +2761,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-02-m0.u415">
-               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u415.p1" xml:lang="ru">Будь ласка, давайте, диктуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u415.p1" xml:lang="uk">Будь ласка, давайте, диктуйте.</seg>
             </u>
             <note type="time"><time when="2020-07-02T14:36:19">14:36:19</time></note>
             <note type="speaker">ГОНЧАРЕНКО О.О.</note>

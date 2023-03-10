@@ -988,7 +988,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-18-m0.u108">
-               <seg xml:id="ParlaMint-UA_2016-02-18-m0.u108.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-18-m0.u108.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">СОВСУН І.Р.</note>
             <u who="СОВСУН І.Р." ana="#regular" xml:id="ParlaMint-UA_2016-02-18-m0.u109">
@@ -1074,7 +1074,7 @@
             <note type="time"><time when="2016-02-18T13:04:04">13:04:04</time></note>
             <note type="speaker">МАТВІЄНКОВ С.А.</note>
             <u who="МАТВІЄНКОВ С.А." ana="#regular" xml:id="ParlaMint-UA_2016-02-18-m0.u123">
-               <seg xml:id="ParlaMint-UA_2016-02-18-m0.u123.p1" xml:lang="ru">Прошу передать слово Насалику, депутату.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-18-m0.u123.p1" xml:lang="uk">Прошу передать слово Насалику, депутату.</seg>
             </u>
             <note type="time"><time when="2016-02-18T13:04:09">13:04:09</time></note>
             <note type="speaker">НАСАЛИК І.С.</note>

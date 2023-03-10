@@ -187,7 +187,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-06-22-m0.u16">
-               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u16.p1" xml:lang="ru">30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u16.p1" xml:lang="uk">30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2017-06-22-m0.u17">
@@ -255,7 +255,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-06-22-m0.u26">
-               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u26.p1" xml:lang="ru">Завершуйте, 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u26.p1" xml:lang="uk">Завершуйте, 30 секунд.</seg>
             </u>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
             <u who="ВЛАСЕНКО С.В." ana="#regular" xml:id="ParlaMint-UA_2017-06-22-m0.u27">
@@ -657,7 +657,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-06-22-m0.u75">
-               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u75.p1" xml:lang="ru">Будь ласка, 10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u75.p1" xml:lang="uk">Будь ласка, 10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2017-06-22-m0.u76">
@@ -797,7 +797,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-06-22-m0.u92">
-               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u92.p1" xml:lang="ru">30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u92.p1" xml:lang="uk">30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2017-06-22-m0.u93">
@@ -1063,7 +1063,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-06-22-m0.u124">
-               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u124.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u124.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">КОНДРАТЮК О.К.</note>
             <u who="КОНДРАТЮК О.К." ana="#regular" xml:id="ParlaMint-UA_2017-06-22-m0.u125">
@@ -1171,7 +1171,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-06-22-m0.u143">
-               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u143.p1" xml:lang="ru">Додайте 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u143.p1" xml:lang="uk">Додайте 30 секунд.</seg>
             </u>
             <note type="speaker">ЛОЗОВОЙ А.С.</note>
             <u who="ЛОЗОВОЙ А.С." ana="#regular" xml:id="ParlaMint-UA_2017-06-22-m0.u144">
@@ -1417,7 +1417,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-06-22-m0.u180">
-               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u180.p1" xml:lang="ru">30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u180.p1" xml:lang="uk">30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ОСТРІКОВА Т.Г.</note>
             <u who="ОСТРІКОВА Т.Г." ana="#regular" xml:id="ParlaMint-UA_2017-06-22-m0.u181">
@@ -1435,7 +1435,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-06-22-m0.u184">
-               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u184.p1" xml:lang="ru">30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2017-06-22-m0.u184.p1" xml:lang="uk">30 секунд завершити.</seg>
             </u>
             <note type="speaker">ЯЦЕНКО А.В.</note>
             <u who="ЯЦЕНКО А.В." ana="#regular" xml:id="ParlaMint-UA_2017-06-22-m0.u185">

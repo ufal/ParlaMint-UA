@@ -102,7 +102,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-03-m0.u6">
-               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u6.p1" xml:lang="ru">Десять секунд, завершуйте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u6.p1" xml:lang="uk">Десять секунд, завершуйте, будь ласка.</seg>
             </u>
             <note type="speaker">БЕРЕЗЮК О.Р.</note>
             <u who="БЕРЕЗЮК О.Р." ana="#regular" xml:id="ParlaMint-UA_2015-02-03-m0.u7">
@@ -162,7 +162,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-03-m0.u14">
-               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u14.p1" xml:lang="ru">10 секунд. Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u14.p1" xml:lang="uk">10 секунд. Завершуйте.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-02-03-m0.u15">
@@ -182,11 +182,11 @@
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-02-03-m0.u19">
-               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u19.p1" xml:lang="ru">10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u19.p1" xml:lang="uk">10 секунд.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-03-m0.u20">
-               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u20.p1" xml:lang="ru">Ще, будь ласка, 10 секунд дайте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u20.p1" xml:lang="uk">Ще, будь ласка, 10 секунд дайте.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-02-03-m0.u21">
@@ -216,7 +216,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-03-m0.u26">
-               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u26.p1" xml:lang="ru">Дайте завершити, 10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u26.p1" xml:lang="uk">Дайте завершити, 10 секунд.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2015-02-03-m0.u27">
@@ -236,7 +236,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-03-m0.u30">
-               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u30.p1" xml:lang="ru">Я прошу, дайте завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u30.p1" xml:lang="uk">Я прошу, дайте завершити.</seg>
             </u>
             <note type="speaker">АР’ЄВ В.І.</note>
             <u who="АР’ЄВ В.І." ana="#regular" xml:id="ParlaMint-UA_2015-02-03-m0.u31">
@@ -391,7 +391,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-03-m0.u53">
-               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u53.p1" xml:lang="ru">Прошу, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u53.p1" xml:lang="uk">Прошу, завершуйте.</seg>
             </u>
             <note type="speaker">ПАШИНСЬКИЙ С.В.</note>
             <u who="ПАШИНСЬКИЙ С.В." ana="#regular" xml:id="ParlaMint-UA_2015-02-03-m0.u54">
@@ -399,7 +399,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-03-m0.u55">
-               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u55.p1" xml:lang="ru">Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u55.p1" xml:lang="uk">Прошу.</seg>
             </u>
             <note type="speaker">ПАШИНСЬКИЙ С.В.</note>
             <u who="ПАШИНСЬКИЙ С.В." ana="#regular" xml:id="ParlaMint-UA_2015-02-03-m0.u56">
@@ -613,8 +613,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-03-m0.u87">
-               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u87.p1" xml:lang="ru">Дякую!</seg>
-               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u87.p2" xml:lang="ru">Будь ласка, народний депутат Паламарчук, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u87.p1" xml:lang="uk">Дякую!</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u87.p2" xml:lang="uk">Будь ласка, народний депутат Паламарчук, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2015-02-03T11:29:04">11:29:04</time></note>
             <note type="speaker">ПАЛАМАРЧУК М.П.</note>
@@ -959,7 +959,7 @@
                <seg xml:id="ParlaMint-UA_2015-02-03-m0.u138.p2" xml:lang="ru">Во всех остальных законах, прокуратура, СБУ, милиция только законные требования работников правоохранительных органов выполняются. Здесь в данном случае, полное освобождение от любых ограничений. Это первое.</seg>
                <seg xml:id="ParlaMint-UA_2015-02-03-m0.u138.p3" xml:lang="ru">Второе. В том числе у них появляется право изымать имущество, не только принадлежащее преступнику, но в том числе любому близкому родственнику или его связи. Заметьте при этом, не только имущество, которое он подал, этому родственнику передал, любым договором, независимо того.назначение договора. Но также и имущество принадлежащее самому этому родственнику или самому тому знакомому. Но однако там один раз сел за руль этот преступник, рулем покрутил машины и это уже это имущество считается, что оно преступное. То есть, презумпция невиновности в этой стране с момента принятия этого закона она исчезает, у нас ее не будет.</seg>
                <seg xml:id="ParlaMint-UA_2015-02-03-m0.u138.p4" xml:lang="ru">И последнее, на что хотел бы ваше внимание обратить на требования по этому закону в отношении мониторинга банковых операций. Заметьте, пожалуйста, опять же в любого сотрудника Антикоррупционного бюро появляется право остановить любую операцию банковскую без суда и следствия, на трое суток. А за это время можно много чего сделать.</seg>
-               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u138.p5" xml:lang="ru">Спасибо большое, вскипело, пожалуйста, наливайте и пейте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-03-m0.u138.p5" xml:lang="uk">Спасибо большое, вскипело, пожалуйста, наливайте и пейте.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-02-03-m0.u139">

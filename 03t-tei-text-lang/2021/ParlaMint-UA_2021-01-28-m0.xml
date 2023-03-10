@@ -275,7 +275,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-28-m0.u33">
-               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u33.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u33.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="time"><time when="2021-01-28T10:45:10">10:45:10</time></note>
             <note type="speaker">ТАРАСЮК В.В.</note>
@@ -563,8 +563,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-28-m0.u71">
-               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u71.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u71.p2" xml:lang="ru">Руслан Петрович Князевич.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u71.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u71.p2" xml:lang="uk">Руслан Петрович Князевич.</seg>
             </u>
             <note type="time"><time when="2021-01-28T11:26:06">11:26:06</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -975,8 +975,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-28-m0.u130">
-               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u130.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u130.p2" xml:lang="ru">Павленко.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u130.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u130.p2" xml:lang="uk">Павленко.</seg>
             </u>
             <note type="time"><time when="2021-01-28T12:58:01">12:58:01</time></note>
             <note type="speaker">ПАВЛЕНКО Ю.О.</note>
@@ -1510,7 +1510,7 @@
             <note type="time"><time when="2021-01-28T13:59:31">13:59:31</time></note>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2021-01-28-m0.u200">
-               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u200.p1" xml:lang="ru">67-а. Я прошу мою 67-у.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u200.p1" xml:lang="uk">67-а. Я прошу мою 67-у.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-28-m0.u201">
@@ -2101,8 +2101,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-28-m0.u267">
-               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u267.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u267.p2" xml:lang="ru">Цимбалюк.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u267.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-28-m0.u267.p2" xml:lang="uk">Цимбалюк.</seg>
             </u>
             <note type="time"><time when="2021-01-28T15:00:27">15:00:27</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>

@@ -181,7 +181,7 @@
             </u>
             <note type="speaker">БОНДАР М.Л.</note>
             <u who="БОНДАР М.Л." ana="#regular" xml:id="ParlaMint-UA_2020-03-30-m2.u17">
-               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u17.p1" xml:lang="ru">Дуже дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u17.p1" xml:lang="uk">Дуже дякую.</seg>
             </u>
             <note type="time"><time when="2020-03-30T16:49:40">16:49:40</time></note>
             <note type="speaker">ПОРОШЕНКО П.О.</note>
@@ -1099,7 +1099,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-30-m2.u137">
-               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u137.p1" xml:lang="ru">Добре. Сейчас я подивлюся.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u137.p1" xml:lang="uk">Добре. Сейчас я подивлюся.</seg>
             </u>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2020-03-30-m2.u138">
@@ -1135,7 +1135,7 @@
             <note type="time"><time when="2020-03-30T18:17:38">18:17:38</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2020-03-30-m2.u144">
-               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u144.p1" xml:lang="ru">Прошу до 3391.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u144.p1" xml:lang="uk">Прошу до 3391.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-30-m2.u145">
@@ -1562,7 +1562,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-30-m2.u207">
-               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u207.p1" xml:lang="ru">Давайте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u207.p1" xml:lang="uk">Давайте.</seg>
             </u>
             <note type="time"><time when="2020-03-30T18:51:41">18:51:41</time></note>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>
@@ -2396,7 +2396,7 @@
             <note type="time"><time when="2020-03-30T21:06:15">21:06:15</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2020-03-30-m2.u300">
-               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u300.p1" xml:lang="ru">Дякую, шановний головуючий.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u300.p1" xml:lang="uk">Дякую, шановний головуючий.</seg>
                <seg xml:id="ParlaMint-UA_2020-03-30-m2.u300.p2" xml:lang="ru">Як прийнято у нас говорити: "и снова здрасте". Скажіть, будь ласка, насколько надо было сегодня. Насколько принципиально было сегодня пропихивать этот закон.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
@@ -3333,7 +3333,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-30-m2.u419">
-               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u419.p1" xml:lang="ru">Добре. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u419.p1" xml:lang="uk">Добре. Дякую.</seg>
             </u>
             <note type="speaker">ВОЛОШИН О.А.</note>
             <u who="ВОЛОШИН О.А." ana="#regular" xml:id="ParlaMint-UA_2020-03-30-m2.u420">
@@ -3367,7 +3367,7 @@
             <note type="time"><time when="2020-03-30T22:37:18">22:37:18</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2020-03-30-m2.u422">
-               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u422.p1" xml:lang="ru">Так, так, дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u422.p1" xml:lang="uk">Так, так, дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-30-m2.u423">
@@ -3540,7 +3540,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-30-m2.u447">
-               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u447.p1" xml:lang="ru">Десять. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u447.p1" xml:lang="uk">Десять. Дякую.</seg>
             </u>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2020-03-30-m2.u448">

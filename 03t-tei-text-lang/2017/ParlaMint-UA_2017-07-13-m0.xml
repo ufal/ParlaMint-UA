@@ -487,7 +487,7 @@
             </gap>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-13-m0.u46">
-               <seg xml:id="ParlaMint-UA_2017-07-13-m0.u46.p1" xml:lang="ru">Це Власенка поправка, вона не ваша. Яка?</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-13-m0.u46.p1" xml:lang="uk">Це Власенка поправка, вона не ваша. Яка?</seg>
             </u>
             <vocal type="shouting">
                <desc>ГОЛОС ІЗ ЗАЛУ.</desc>
@@ -1128,7 +1128,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-13-m0.u131">
-               <seg xml:id="ParlaMint-UA_2017-07-13-m0.u131.p1" xml:lang="ru">Додайте 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-13-m0.u131.p1" xml:lang="uk">Додайте 30 секунд.</seg>
             </u>
             <note type="time"><time when="2017-07-13T12:58:49">12:58:49</time></note>
             <note type="speaker">КУПРІЄНКО О.В.</note>
@@ -1809,7 +1809,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-13-m0.u238">
-               <seg xml:id="ParlaMint-UA_2017-07-13-m0.u238.p1" xml:lang="ru">30 секунд, 30 секунд, завершуйте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-13-m0.u238.p1" xml:lang="uk">30 секунд, 30 секунд, завершуйте, будь ласка.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2017-07-13-m0.u239">

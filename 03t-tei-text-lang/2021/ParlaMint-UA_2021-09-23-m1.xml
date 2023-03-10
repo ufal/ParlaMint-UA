@@ -330,7 +330,7 @@
             <note type="time"><time when="2021-09-23T16:47:29">16:47:29</time></note>
             <note type="speaker">ЛАБАЗЮК С.П.</note>
             <u who="ЛАБАЗЮК С.П." ana="#regular" xml:id="ParlaMint-UA_2021-09-23-m1.u42">
-               <seg xml:id="ParlaMint-UA_2021-09-23-m1.u42.p1" xml:lang="ru">Прошу передати Полякову.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-23-m1.u42.p1" xml:lang="uk">Прошу передати Полякову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-23-m1.u43">

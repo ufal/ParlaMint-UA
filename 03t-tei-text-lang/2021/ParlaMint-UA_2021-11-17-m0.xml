@@ -1421,8 +1421,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-11-17-m0.u194">
-               <seg xml:id="ParlaMint-UA_2021-11-17-m0.u194.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-11-17-m0.u194.p2" xml:lang="ru">Будь ласка, народний депутат Юрчишин.</seg>
+               <seg xml:id="ParlaMint-UA_2021-11-17-m0.u194.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-11-17-m0.u194.p2" xml:lang="uk">Будь ласка, народний депутат Юрчишин.</seg>
             </u>
             <note type="time"><time when="2021-11-17T13:14:36">13:14:36</time></note>
             <note type="speaker">ЮРЧИШИН Я.Р.</note>

@@ -259,7 +259,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-05-10-m0.u28">
-               <seg xml:id="ParlaMint-UA_2016-05-10-m0.u28.p1" xml:lang="ru">Пане Михайло, будь ласка, десять секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-10-m0.u28.p1" xml:lang="uk">Пане Михайло, будь ласка, десять секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-05-10T17:07:10">17:07:10</time></note>
             <note type="speaker">ХМІЛЬ М.М.</note>
@@ -359,7 +359,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-05-10-m0.u41">
-               <seg xml:id="ParlaMint-UA_2016-05-10-m0.u41.p1" xml:lang="ru">Будь ласка, 10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-10-m0.u41.p1" xml:lang="uk">Будь ласка, 10 секунд, завершуйте.</seg>
             </u>
             <note type="time"><time when="2016-05-10T17:22:25">17:22:25</time></note>
             <note type="speaker">СЮМАР В.П.</note>
@@ -636,7 +636,7 @@
             <u who="ГЄЛЛЄР Є.Б." ana="#regular" xml:id="ParlaMint-UA_2016-05-10-m0.u79">
                <seg xml:id="ParlaMint-UA_2016-05-10-m0.u79.p1" xml:lang="ru">50-й округ, Донецкая область. Я хочу сказать, так званая "оппозиция" в лице Радикальной партии, когда он рассказывает про таможню и прочее, я хочу ему напомнить про пожарные машины и про все остальное.</seg>
                <seg xml:id="ParlaMint-UA_2016-05-10-m0.u79.p2" xml:lang="ru">Поэтому вы посмотрите вначале на себя! Я не называл ни чьего имени, поэтому реплики можно не давать! Посмотрите вначале на себя, а потом будете тыкать остальным.</seg>
-               <seg xml:id="ParlaMint-UA_2016-05-10-m0.u79.p3" xml:lang="ru">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-10-m0.u79.p3" xml:lang="uk">Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-05-10-m0.u80">

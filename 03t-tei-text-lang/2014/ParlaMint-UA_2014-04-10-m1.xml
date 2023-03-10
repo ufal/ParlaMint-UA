@@ -875,8 +875,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-10-m1.u119">
-               <seg xml:id="ParlaMint-UA_2014-04-10-m1.u119.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2014-04-10-m1.u119.p2" xml:lang="ru">Будь ласка, Опанащенко, народний депутат, просить слово.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-10-m1.u119.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-10-m1.u119.p2" xml:lang="uk">Будь ласка, Опанащенко, народний депутат, просить слово.</seg>
             </u>
             <note type="time"><time when="2014-04-10T17:58:11">17:58:11</time></note>
             <note type="speaker">ОПАНАЩЕНКО М.В.</note>

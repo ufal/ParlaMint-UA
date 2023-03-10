@@ -215,7 +215,7 @@
             <note type="time"><time when="2014-06-19T10:34:55">10:34:55</time></note>
             <note type="speaker">БЕЗБАХ Я.Я.</note>
             <u who="БЕЗБАХ Я.Я." ana="#regular" xml:id="ParlaMint-UA_2014-06-19-m0.u18">
-               <seg xml:id="ParlaMint-UA_2014-06-19-m0.u18.p1" xml:lang="ru">Я прошу передать слово доктору наук Мартовицкому, пожалуйста.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-19-m0.u18.p1" xml:lang="uk">Я прошу передать слово доктору наук Мартовицкому, пожалуйста.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-19-m0.u19">
@@ -1520,7 +1520,7 @@
             <note type="time"><time when="2014-06-19T13:50:55">13:50:55</time></note>
             <note type="speaker">МОШЕНСЬКИЙ В.З.</note>
             <u who="МОШЕНСЬКИЙ В.З." ana="#regular" xml:id="ParlaMint-UA_2014-06-19-m0.u205">
-               <seg xml:id="ParlaMint-UA_2014-06-19-m0.u205.p1" xml:lang="ru">Прошу слово передать Еремееву.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-19-m0.u205.p1" xml:lang="uk">Прошу слово передать Еремееву.</seg>
             </u>
             <note type="time"><time when="2014-06-19T13:51:03">13:51:03</time></note>
             <note type="speaker">ЄРЕМЕЄВ І.М.</note>

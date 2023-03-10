@@ -586,7 +586,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2015-06-02-m1.u68">
-               <seg xml:id="ParlaMint-UA_2015-06-02-m1.u68.p1" xml:lang="ru">Прошу завершити. Да, 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-02-m1.u68.p1" xml:lang="uk">Прошу завершити. Да, 30 секунд.</seg>
             </u>
             <note type="speaker">ПАСТУХ Т.Т.</note>
             <u who="ПАСТУХ Т.Т." ana="#regular" xml:id="ParlaMint-UA_2015-06-02-m1.u69">
@@ -686,7 +686,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2015-06-02-m1.u84">
-               <seg xml:id="ParlaMint-UA_2015-06-02-m1.u84.p1" xml:lang="ru">Павло Кишкар, одну хвилину.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-02-m1.u84.p1" xml:lang="uk">Павло Кишкар, одну хвилину.</seg>
             </u>
             <note type="time"><time when="2015-06-02T17:53:06">17:53:06</time></note>
             <note type="speaker">КИШКАР П.М.</note>

@@ -164,7 +164,7 @@
             <note>(Перегляд відеоматеріалу)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-12-05-m1.u15">
-               <seg xml:id="ParlaMint-UA_2017-12-05-m1.u15.p1" xml:lang="ru">Колеги, через 30 секунд буде включений звук, через 30 секунд звук буде включений.</seg>
+               <seg xml:id="ParlaMint-UA_2017-12-05-m1.u15.p1" xml:lang="uk">Колеги, через 30 секунд буде включений звук, через 30 секунд звук буде включений.</seg>
             </u>
             <note>(Перегляд відеоматеріалу)</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
@@ -389,7 +389,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-12-05-m1.u50">
-               <seg xml:id="ParlaMint-UA_2017-12-05-m1.u50.p1" xml:lang="ru">30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2017-12-05-m1.u50.p1" xml:lang="uk">30 секунд завершити.</seg>
             </u>
             <note type="speaker">ЛУЦЕНКО Ю.В.</note>
             <u who="ЛУЦЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-12-05-m1.u51">

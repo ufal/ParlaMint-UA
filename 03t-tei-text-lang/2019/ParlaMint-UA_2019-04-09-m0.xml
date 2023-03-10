@@ -107,7 +107,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-09-m0.u8">
-               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u8.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u8.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">НОВИНСЬКИЙ В.В.</note>
             <u who="НОВИНСЬКИЙ В.В." ana="#regular" xml:id="ParlaMint-UA_2019-04-09-m0.u9">
@@ -156,7 +156,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-09-m0.u16">
-               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u16.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u16.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2019-04-09-m0.u17">
@@ -181,7 +181,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-09-m0.u20">
-               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u20.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u20.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">БЕРЕЗЮК О.Р.</note>
             <u who="БЕРЕЗЮК О.Р." ana="#regular" xml:id="ParlaMint-UA_2019-04-09-m0.u21">
@@ -353,8 +353,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-09-m0.u46">
-               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u46.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u46.p2" xml:lang="ru">Будь ласка, слово народному депутату Скрипнику, автору поправки.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u46.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u46.p2" xml:lang="uk">Будь ласка, слово народному депутату Скрипнику, автору поправки.</seg>
             </u>
             <note type="time"><time when="2019-04-09T10:43:03">10:43:03</time></note>
             <note type="speaker">СКРИПНИК О.О.</note>
@@ -505,8 +505,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-09-m0.u66">
-               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u66.p1" xml:lang="ru">Дякую. Поправка врахована.</seg>
-               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u66.p2" xml:lang="ru">Наступна поправка 1236, народний депутат Подоляк.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u66.p1" xml:lang="uk">Дякую. Поправка врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u66.p2" xml:lang="uk">Наступна поправка 1236, народний депутат Подоляк.</seg>
             </u>
             <note type="time"><time when="2019-04-09T10:55:09">10:55:09</time></note>
             <note type="speaker">ПОДОЛЯК І.І.</note>

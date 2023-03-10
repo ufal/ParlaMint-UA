@@ -275,7 +275,7 @@
             <note type="narrative">ГЕРАЩЕНКО І.В.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-08-m0.u31">
-               <seg xml:id="ParlaMint-UA_2017-02-08-m0.u31.p1" xml:lang="ru">Дайте завершити, 30 секунд, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-08-m0.u31.p1" xml:lang="uk">Дайте завершити, 30 секунд, будь ласка.</seg>
             </u>
             <note type="speaker">ПЕТУХОВ С.І.</note>
             <u who="ПЕТУХОВ С.І." ana="#regular" xml:id="ParlaMint-UA_2017-02-08-m0.u32">
@@ -447,7 +447,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-08-m0.u53">
-               <seg xml:id="ParlaMint-UA_2017-02-08-m0.u53.p1" xml:lang="ru">30 секунд, дайте завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-08-m0.u53.p1" xml:lang="uk">30 секунд, дайте завершити.</seg>
             </u>
             <note type="speaker">ДРАЮК С.Є.</note>
             <u who="ДРАЮК С.Є." ana="#regular" xml:id="ParlaMint-UA_2017-02-08-m0.u54">

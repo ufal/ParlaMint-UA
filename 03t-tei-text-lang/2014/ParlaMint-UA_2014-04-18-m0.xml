@@ -218,7 +218,7 @@
             <note type="time"><time when="2014-04-18T10:52:02">10:52:02</time></note>
             <note type="speaker">ЧЕЧЕТОВ М.В.</note>
             <u who="ЧЕЧЕТОВ М.В." ana="#regular" xml:id="ParlaMint-UA_2014-04-18-m0.u20">
-               <seg xml:id="ParlaMint-UA_2014-04-18-m0.u20.p1" xml:lang="ru">Прошу передать слово депутату Долженкову. Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-18-m0.u20.p1" xml:lang="uk">Прошу передать слово депутату Долженкову. Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-18-m0.u21">
@@ -353,7 +353,7 @@
             </kinesic>
             <note type="speaker">ЯЦЕНЮК А.П.</note>
             <u who="ЯЦЕНЮК А.П." ana="#regular" xml:id="ParlaMint-UA_2014-04-18-m0.u42">
-               <seg xml:id="ParlaMint-UA_2014-04-18-m0.u42.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-18-m0.u42.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-18-m0.u43">
@@ -771,7 +771,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-18-m0.u96">
-               <seg xml:id="ParlaMint-UA_2014-04-18-m0.u96.p1" xml:lang="ru">Прошу до слова народного депутата Головка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-18-m0.u96.p1" xml:lang="uk">Прошу до слова народного депутата Головка.</seg>
             </u>
             <note type="time"><time when="2014-04-18T13:32:27">13:32:27</time></note>
             <note type="speaker">ГОЛОВКО М.Й.</note>
@@ -826,7 +826,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-18-m0.u104">
-               <seg xml:id="ParlaMint-UA_2014-04-18-m0.u104.p1" xml:lang="ru">Прошу, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-18-m0.u104.p1" xml:lang="uk">Прошу, завершуйте.</seg>
             </u>
             <note type="speaker">ДЕМЕДЮК В.Х.</note>
             <u who="ДЕМЕДЮК В.Х." ana="#regular" xml:id="ParlaMint-UA_2014-04-18-m0.u105">

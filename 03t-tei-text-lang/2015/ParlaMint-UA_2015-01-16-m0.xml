@@ -227,7 +227,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-16-m0.u22">
-               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u22.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u22.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">СОБОЛЄВ Є.В.</note>
             <u who="СОБОЛЄВ Є.В." ana="#regular" xml:id="ParlaMint-UA_2015-01-16-m0.u23">
@@ -446,7 +446,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-16-m0.u65">
-               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u65.p1" xml:lang="ru">10 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u65.p1" xml:lang="uk">10 секунд завершити.</seg>
             </u>
             <note type="speaker">КУЖЕЛЬ О.В.</note>
             <u who="КУЖЕЛЬ О.В." ana="#regular" xml:id="ParlaMint-UA_2015-01-16-m0.u66">
@@ -484,7 +484,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-16-m0.u70">
-               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u70.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u70.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <kinesic type="applause">
                <desc>(Оплески)</desc>
@@ -1032,7 +1032,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2015-01-16-m0.u148">
-               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u148.p1" xml:lang="ru">Дякую. Народний депутат Максим Поляков.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u148.p1" xml:lang="uk">Дякую. Народний депутат Максим Поляков.</seg>
             </u>
             <note type="time"><time when="2015-01-16T13:47:17">13:47:17</time></note>
             <note type="speaker">ПОЛЯКОВ М.А.</note>
@@ -1062,7 +1062,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2015-01-16-m0.u153">
-               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u153.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u153.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОНТАРЕВА В.О.</note>
             <u who="ГОНТАРЕВА В.О." ana="#regular" xml:id="ParlaMint-UA_2015-01-16-m0.u154">
@@ -1202,7 +1202,7 @@
             <note type="time"><time when="2015-01-16T14:02:24">14:02:24</time></note>
             <note type="speaker">ТЕТЕРУК А.А.</note>
             <u who="ТЕТЕРУК А.А." ana="#regular" xml:id="ParlaMint-UA_2015-01-16-m0.u180">
-               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u180.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u180.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2015-01-16-m0.u181">

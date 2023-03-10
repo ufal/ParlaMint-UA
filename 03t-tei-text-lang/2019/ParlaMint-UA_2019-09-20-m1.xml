@@ -99,8 +99,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-20-m1.u9">
-               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u9.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u9.p2" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u9.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u9.p2" xml:lang="uk">Да.</seg>
             </u>
             <note type="time"><time when="2019-09-20T15:10:57">15:10:57</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>
@@ -212,7 +212,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-20-m1.u29">
-               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u29.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u29.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="time"><time when="2019-09-20T15:17:43">15:17:43</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>
@@ -437,7 +437,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-20-m1.u69">
-               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u69.p1" xml:lang="ru">Дайте 10 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u69.p1" xml:lang="uk">Дайте 10 секунд завершити.</seg>
             </u>
             <note type="speaker">БОНДАРЄВ К.А.</note>
             <u who="БОНДАРЄВ К.А." ana="#regular" xml:id="ParlaMint-UA_2019-09-20-m1.u70">
@@ -488,7 +488,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-20-m1.u79">
-               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u79.p1" xml:lang="ru">Давайте.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u79.p1" xml:lang="uk">Давайте.</seg>
             </u>
             <note type="time"><time when="2019-09-20T15:33:57">15:33:57</time></note>
             <note type="speaker">БОНДАРЄВ К.А.</note>
@@ -559,7 +559,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-20-m1.u91">
-               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u91.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u91.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="time"><time when="2019-09-20T15:39:33">15:39:33</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>
@@ -790,7 +790,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-20-m1.u133">
-               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u133.p1" xml:lang="ru">10 секунд дайте завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u133.p1" xml:lang="uk">10 секунд дайте завершити.</seg>
             </u>
             <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
             <u who="КОРОЛЕВСЬКА Н.Ю." ana="#regular" xml:id="ParlaMint-UA_2019-09-20-m1.u134">
@@ -836,7 +836,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-20-m1.u139">
-               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u139.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u139.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="time"><time when="2019-09-20T16:00:22">16:00:22</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>
@@ -902,7 +902,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-20-m1.u148">
-               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u148.p1" xml:lang="ru">Дайте. Дякую. Дайте договорити, 30 секунд дайте.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u148.p1" xml:lang="uk">Дайте. Дякую. Дайте договорити, 30 секунд дайте.</seg>
             </u>
             <note type="speaker">БЄЛЬКОВА О.В.</note>
             <u who="БЄЛЬКОВА О.В." ana="#regular" xml:id="ParlaMint-UA_2019-09-20-m1.u149">
@@ -932,7 +932,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-20-m1.u154">
-               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u154.p1" xml:lang="ru">Дайте йому хвилину.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-20-m1.u154.p1" xml:lang="uk">Дайте йому хвилину.</seg>
             </u>
             <note type="speaker">НІКОЛАЄНКО А.І.</note>
             <u who="НІКОЛАЄНКО А.І." ana="#regular" xml:id="ParlaMint-UA_2019-09-20-m1.u155">

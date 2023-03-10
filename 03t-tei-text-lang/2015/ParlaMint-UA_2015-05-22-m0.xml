@@ -233,7 +233,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України В.Б.ГРОЙСМАН</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-22-m0.u27">
-               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u27.p1" xml:lang="ru">10 секунд. Завершуйте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u27.p1" xml:lang="uk">10 секунд. Завершуйте, будь ласка.</seg>
             </u>
             <note type="time"><time when="2015-05-22T10:41:33">10:41:33</time></note>
             <note type="speaker">МАТВІЄНКОВ С.А.</note>
@@ -417,7 +417,7 @@
             <note type="time"><time when="2015-05-22T10:54:45">10:54:45</time></note>
             <note type="speaker">КВІТАШВІЛІ О.</note>
             <u who="КВІТАШВІЛІ О." ana="#regular" xml:id="ParlaMint-UA_2015-05-22-m0.u58">
-               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u58.p1" xml:lang="ru">Спасибо за вопрос.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u58.p1" xml:lang="uk">Спасибо за вопрос.</seg>
                <seg xml:id="ParlaMint-UA_2015-05-22-m0.u58.p2" xml:lang="ru">На следующем заседании Кабмина мы вносим весь пакет, который был завершен буквально вчера после консультаций валютного фонда и всемирного банка, они поддерживают эти законопроекты. Это было нужно, потому что они находятся в рамочном договоре с Международным валютным фондом. Так что у нас все готово и на следующее заседание Кабмина мы выносим, и сразу будем заносить в Верховную Раду на обсуждение. Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
@@ -453,7 +453,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-22-m0.u65">
-               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u65.p1" xml:lang="ru">Будь ласка, десять секунд завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u65.p1" xml:lang="uk">Будь ласка, десять секунд завершуйте.</seg>
             </u>
             <note type="time"><time when="2015-05-22T10:59:33">10:59:33</time></note>
             <note type="speaker">ДРОЗДИК О.В.</note>
@@ -1237,7 +1237,7 @@
             <note type="time"><time when="2015-05-22T12:53:24">12:53:24</time></note>
             <note type="speaker">ДЕНІСОВА Л.Л.</note>
             <u who="ДЕНІСОВА Л.Л." ana="#regular" xml:id="ParlaMint-UA_2015-05-22-m0.u178">
-               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u178.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u178.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-22-m0.u179">
@@ -1262,12 +1262,12 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-22-m0.u183">
-               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u183.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u183.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
             <u who="КОРОЛЕВСЬКА Н.Ю." ana="#regular" xml:id="ParlaMint-UA_2015-05-22-m0.u184">
                <seg xml:id="ParlaMint-UA_2015-05-22-m0.u184.p1" xml:lang="ru">справедливую единую систему и с ней выходить в зал. Поэтому комитет просит поддержать законопроект 2852 и принять его за основу и в целом.</seg>
-               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u184.p2" xml:lang="ru">Спасибо за внимание.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u184.p2" xml:lang="uk">Спасибо за внимание.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-22-m0.u185">
@@ -1509,7 +1509,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2015-05-22-m0.u202">
-               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u202.p1" xml:lang="ru">Прошу, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u202.p1" xml:lang="uk">Прошу, завершуйте.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2015-05-22-m0.u203">
@@ -1561,7 +1561,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2015-05-22-m0.u210">
-               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u210.p1" xml:lang="ru">Прошу завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-22-m0.u210.p1" xml:lang="uk">Прошу завершуйте.</seg>
             </u>
             <note type="speaker">ДЕРЕВ’ЯНКО Ю.Б.</note>
             <u who="ДЕРЕВ’ЯНКО Ю.Б." ana="#regular" xml:id="ParlaMint-UA_2015-05-22-m0.u211">

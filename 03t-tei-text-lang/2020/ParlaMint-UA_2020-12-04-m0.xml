@@ -861,7 +861,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2020-12-04-m0.u102">
-               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u102.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u102.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
@@ -1038,8 +1038,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-04-m0.u127">
-               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u127.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u127.p2" xml:lang="ru">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u127.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u127.p2" xml:lang="uk">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2020-12-04T12:30:40">12:30:40</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -1207,7 +1207,7 @@
             <note type="time"><time when="2020-12-04T12:51:59">12:51:59</time></note>
             <note type="speaker">ЦАБАЛЬ В.В.</note>
             <u who="ЦАБАЛЬ В.В." ana="#regular" xml:id="ParlaMint-UA_2020-12-04-m0.u146">
-               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u146.p1" xml:lang="ru">Прошу передати Осадчуку.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-04-m0.u146.p1" xml:lang="uk">Прошу передати Осадчуку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2020-12-04-m0.u147">

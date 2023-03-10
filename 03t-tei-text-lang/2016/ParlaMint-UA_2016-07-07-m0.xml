@@ -779,7 +779,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-07-07-m0.u95">
-               <seg xml:id="ParlaMint-UA_2016-07-07-m0.u95.p1" xml:lang="ru">Будь ласка, 10 секунд завершити, 10 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-07-m0.u95.p1" xml:lang="uk">Будь ласка, 10 секунд завершити, 10 секунд.</seg>
             </u>
             <note type="time"><time when="2016-07-07T12:51:32">12:51:32</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>
@@ -962,7 +962,7 @@
             <note type="time"><time when="2016-07-07T13:14:06">13:14:06</time></note>
             <note type="speaker">ВОРОПАЄВ Ю.М.</note>
             <u who="ВОРОПАЄВ Ю.М." ana="#regular" xml:id="ParlaMint-UA_2016-07-07-m0.u122">
-               <seg xml:id="ParlaMint-UA_2016-07-07-m0.u122.p1" xml:lang="ru">Прошу передать слово моему коллеге Мартовицкому.</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-07-m0.u122.p1" xml:lang="uk">Прошу передать слово моему коллеге Мартовицкому.</seg>
             </u>
             <note type="time"><time when="2016-07-07T13:14:15">13:14:15</time></note>
             <note type="speaker">МАРТОВИЦЬКИЙ А.В.</note>
@@ -1058,8 +1058,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-07-07-m0.u135">
-               <seg xml:id="ParlaMint-UA_2016-07-07-m0.u135.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2016-07-07-m0.u135.p2" xml:lang="ru">Прошу, народний депутат Роман Семенуха.</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-07-m0.u135.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-07-m0.u135.p2" xml:lang="uk">Прошу, народний депутат Роман Семенуха.</seg>
             </u>
             <note type="time"><time when="2016-07-07T13:25:43">13:25:43</time></note>
             <note type="speaker">СЕМЕНУХА Р.С.</note>
@@ -1140,7 +1140,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-07-07-m0.u149">
-               <seg xml:id="ParlaMint-UA_2016-07-07-m0.u149.p1" xml:lang="ru">Дякую. Запрошую до слова народного депутата Олександра Долженкова.</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-07-m0.u149.p1" xml:lang="uk">Дякую. Запрошую до слова народного депутата Олександра Долженкова.</seg>
             </u>
             <note type="time"><time when="2016-07-07T13:34:50">13:34:50</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>

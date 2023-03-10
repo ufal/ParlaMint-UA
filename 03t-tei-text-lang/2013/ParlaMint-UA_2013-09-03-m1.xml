@@ -118,7 +118,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-03-m1.u14">
-               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u14.p1" xml:lang="ru">Прошу, Чечетов, народний депутат.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u14.p1" xml:lang="uk">Прошу, Чечетов, народний депутат.</seg>
             </u>
             <note type="time"><time when="2013-09-03T16:09:21">16:09:21</time></note>
             <note type="speaker">ЧЕЧЕТОВ М.В.</note>
@@ -127,7 +127,7 @@
             </u>
             <note type="speaker">САБІЙ І.М.</note>
             <u who="САБІЙ І.М." ana="#regular" xml:id="ParlaMint-UA_2013-09-03-m1.u16">
-               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u16.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u16.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-03-m1.u17">
@@ -532,7 +532,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-03-m1.u79">
-               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u79.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u79.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-09-03T17:06:07">17:06:07</time></note>
             <note type="speaker">ЗЕЛИК Р.Б.</note>
@@ -606,7 +606,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-03-m1.u91">
-               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u91.p1" xml:lang="ru">Прошу, Гана Герман.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u91.p1" xml:lang="uk">Прошу, Гана Герман.</seg>
             </u>
             <note type="time"><time when="2013-09-03T17:17:39">17:17:39</time></note>
             <note type="speaker">ГЕРМАН Г.М.</note>

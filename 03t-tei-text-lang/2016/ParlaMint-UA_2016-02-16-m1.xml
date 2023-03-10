@@ -304,7 +304,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-16-m1.u16">
-               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u16.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u16.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ДОМБРОВСЬКИЙ О.Г.</note>
             <u who="ДОМБРОВСЬКИЙ О.Г." ana="#regular" xml:id="ParlaMint-UA_2016-02-16-m1.u17">
@@ -334,7 +334,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-16-m1.u22">
-               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u22.p1" xml:lang="ru">10 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u22.p1" xml:lang="uk">10 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ДУБНЕВИЧ Я.В.</note>
             <u who="ДУБНЕВИЧ Я.В." ana="#regular" xml:id="ParlaMint-UA_2016-02-16-m1.u23">
@@ -385,7 +385,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-16-m1.u30">
-               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u30.p1" xml:lang="ru">10 секунд, звершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u30.p1" xml:lang="uk">10 секунд, звершуйте.</seg>
             </u>
             <note type="speaker">ДЕНІСОВА Л.Л.</note>
             <u who="ДЕНІСОВА Л.Л." ana="#regular" xml:id="ParlaMint-UA_2016-02-16-m1.u31">
@@ -393,7 +393,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-16-m1.u32">
-               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u32.p1" xml:lang="ru">10 секунд, завершуйте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u32.p1" xml:lang="uk">10 секунд, завершуйте, будь ласка.</seg>
             </u>
             <note type="speaker">ДЕНІСОВА Л.Л.</note>
             <u who="ДЕНІСОВА Л.Л." ana="#regular" xml:id="ParlaMint-UA_2016-02-16-m1.u33">
@@ -417,7 +417,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-16-m1.u36">
-               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u36.p1" xml:lang="ru">10 секунд, завершуйте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u36.p1" xml:lang="uk">10 секунд, завершуйте, будь ласка.</seg>
             </u>
             <note type="speaker">БОГОМОЛЕЦЬ О.В.</note>
             <u who="БОГОМОЛЕЦЬ О.В." ana="#regular" xml:id="ParlaMint-UA_2016-02-16-m1.u37">
@@ -592,7 +592,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-16-m1.u64">
-               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u64.p1" xml:lang="ru">Будь ласка, 30 секунд, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u64.p1" xml:lang="uk">Будь ласка, 30 секунд, завершуйте.</seg>
             </u>
             <note type="speaker">ГРИНЕВИЧ Л.М.</note>
             <u who="ГРИНЕВИЧ Л.М." ana="#regular" xml:id="ParlaMint-UA_2016-02-16-m1.u65">
@@ -848,7 +848,7 @@
                <seg xml:id="ParlaMint-UA_2016-02-16-m1.u96.p1" xml:lang="ru">Арсений Борисович. Ой, извините, вы так вместе всегда, и Арсений Петрович, и Арсений Борисович, все вместе, я вас всех напутал.</seg>
                <seg xml:id="ParlaMint-UA_2016-02-16-m1.u96.p2" xml:lang="ru">Ладно, Арсений Петрович, а если серьезно, скажите, пожалуйста. У вас есть потрясающий проект "Стена", вы так им гордились, вы рассказывали столько интересного про этот проект, вы 400 миллионов закопали в этот проект. Но согласно результатам ответа господина Авакова, он не введен в эксплуатацию. 400 миллионов закопано в землю, 400 миллионов пенсий, 400 миллионов зарплат, 400 миллионов пособий по безработице, 400 миллионов выплаченных денег многодетным детям, семьям. Арсений Петрович, 400 миллионов, может, для вас небольшие деньги, для Украины – громадные.</seg>
                <seg xml:id="ParlaMint-UA_2016-02-16-m1.u96.p3" xml:lang="ru">У меня вопрос: а скажите, куда же делись деньги, где "Стена"? Ии это невидимая стена? А самое главное, Арсений Петрович, скажите самую главную вещь, вот вы же видите настроение в зале, вы видите настроение в обществе, так может быть не будет тянуть кота за хвост и вы скажите классические слова: спасибо, я ухожу.</seg>
-               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u96.p4" xml:lang="ru">Вам спасибо. Можете уходить.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u96.p4" xml:lang="uk">Вам спасибо. Можете уходить.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-16-m1.u97">
@@ -866,7 +866,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-16-m1.u99">
-               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u99.p1" xml:lang="ru">30 секунд завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m1.u99.p1" xml:lang="uk">30 секунд завершуйте.</seg>
             </u>
             <note type="speaker">НАЙЄМ М.</note>
             <u who="НАЙЄМ М." ana="#regular" xml:id="ParlaMint-UA_2016-02-16-m1.u100">

@@ -87,7 +87,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u4">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u4.p1" xml:lang="ru">Прошу дать закончить.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u4.p1" xml:lang="uk">Прошу дать закончить.</seg>
             </u>
             <note type="speaker">ДЕЙЧ Б.Д.</note>
             <u who="ДЕЙЧ Б.Д." ana="#regular" xml:id="ParlaMint-UA_2013-04-02-m0.u5">
@@ -241,7 +241,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u24">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u24.p1" xml:lang="ru">Прошу, народний депутат Петренко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u24.p1" xml:lang="uk">Прошу, народний депутат Петренко.</seg>
             </u>
             <note type="time"><time when="2013-04-02T10:45:15">10:45:15</time></note>
             <note type="speaker">ПЕТРЕНКО П.Д.</note>
@@ -288,7 +288,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u33">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u33.p1" xml:lang="ru">Прошу включити.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u33.p1" xml:lang="uk">Прошу включити.</seg>
             </u>
             <note type="time"><time when="2013-04-02T10:48:56">10:48:56</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -314,7 +314,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u39">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u39.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u39.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-04-02T10:50:02">10:50:02</time></note>
             <note type="speaker">СИРОТЮК Ю.М.</note>
@@ -404,7 +404,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u51">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u51.p1" xml:lang="ru">Ганно Герман, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u51.p1" xml:lang="uk">Ганно Герман, прошу.</seg>
             </u>
             <note type="time"><time when="2013-04-02T10:59:18">10:59:18</time></note>
             <note type="speaker">ГЕРМАН Г.М.</note>
@@ -600,7 +600,7 @@
             <note type="time"><time when="2013-04-02T11:22:13">11:22:13</time></note>
             <note type="speaker">ЧЕЧЕТОВ М.В.</note>
             <u who="ЧЕЧЕТОВ М.В." ana="#regular" xml:id="ParlaMint-UA_2013-04-02-m0.u82">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u82.p1" xml:lang="ru">Прошу передать слово Шуфричу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u82.p1" xml:lang="uk">Прошу передать слово Шуфричу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u83">
@@ -789,7 +789,7 @@
             <note type="time"><time when="2013-04-02T11:39:54">11:39:54</time></note>
             <note type="speaker">БОНДАРЕНКО О.А.</note>
             <u who="БОНДАРЕНКО О.А." ana="#regular" xml:id="ParlaMint-UA_2013-04-02-m0.u111">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u111.p1" xml:lang="ru">Прошу слово передать Кузьмуку Александру Ивановичу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u111.p1" xml:lang="uk">Прошу слово передать Кузьмуку Александру Ивановичу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u112">
@@ -1103,7 +1103,7 @@
             <note type="time"><time when="2013-04-02T13:19:54">13:19:54</time></note>
             <note type="speaker">ЧЕЧЕТОВ М.В.</note>
             <u who="ЧЕЧЕТОВ М.В." ana="#regular" xml:id="ParlaMint-UA_2013-04-02-m0.u149">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u149.p1" xml:lang="ru">Прошу передать слово Инне Богословской.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u149.p1" xml:lang="uk">Прошу передать слово Инне Богословской.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u150">
@@ -1248,7 +1248,7 @@
                <seg xml:id="ParlaMint-UA_2013-04-02-m0.u173.p2" xml:lang="ru">То, что касается заявлений некоторых депутатов, я бы ему рекомендовал тогда не собирать по 30 тысяч, а мы-то знаем, как он был избран и какие он платил барыши, взятки и сколько он не платит налогов на том, что занимается так называемым бизнесом.</seg>
                <seg xml:id="ParlaMint-UA_2013-04-02-m0.u173.p3" xml:lang="ru">Поэтому для нас ничего удивительного нет. Бизнес решил в очередной раз заблокировать принятие этого закона. И, уважаемые избиратели, вы должны знать, что они сегодня все делают для того, чтобы их барыши больше возрастали, а вы как можно меньше пенсию получали и как можно меньше жили в этой жизни.</seg>
                <seg xml:id="ParlaMint-UA_2013-04-02-m0.u173.p4" xml:lang="ru">Поэтому фракция Компартии обращается ко всем, кто здраво относится к своему гражданскому долгу как депутата и призывает проголосовать как за основу, так и в целом этот проект закону.</seg>
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u173.p5" xml:lang="ru">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u173.p5" xml:lang="uk">Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u174">

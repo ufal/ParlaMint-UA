@@ -405,8 +405,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-05-16-m1.u50">
-               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u50.p1" xml:lang="ru">Дякую вам.</seg>
-               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u50.p2" xml:lang="ru">Величкович Микола Романович.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u50.p1" xml:lang="uk">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u50.p2" xml:lang="uk">Величкович Микола Романович.</seg>
             </u>
             <note type="time"><time when="2019-05-16T16:57:58">16:57:58</time></note>
             <note type="speaker">ВЕЛИЧКОВИЧ М.Р.</note>
@@ -442,7 +442,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-05-16-m1.u56">
-               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u56.p1" xml:lang="ru">30 секунд завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u56.p1" xml:lang="uk">30 секунд завершити.</seg>
             </u>
             <note type="speaker">КРИВЕНКО В.М.</note>
             <u who="КРИВЕНКО В.М." ana="#regular" xml:id="ParlaMint-UA_2019-05-16-m1.u57">
@@ -463,7 +463,7 @@
             </u>
             <note type="speaker">КРИВЕНКО В.М.</note>
             <u who="КРИВЕНКО В.М." ana="#regular" xml:id="ParlaMint-UA_2019-05-16-m1.u61">
-               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u61.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u61.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-05-16-m1.u62">
@@ -471,7 +471,7 @@
             </u>
             <note type="speaker">КРИВЕНКО В.М.</note>
             <u who="КРИВЕНКО В.М." ana="#regular" xml:id="ParlaMint-UA_2019-05-16-m1.u63">
-               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u63.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u63.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-05-16-m1.u64">
@@ -487,7 +487,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-05-16-m1.u66">
-               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u66.p1" xml:lang="ru">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u66.p1" xml:lang="uk">Дякую вам.</seg>
             </u>
             <note type="speaker">КРИВЕНКО В.М.</note>
             <u who="КРИВЕНКО В.М." ana="#regular" xml:id="ParlaMint-UA_2019-05-16-m1.u67">
@@ -495,7 +495,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-05-16-m1.u68">
-               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u68.p1" xml:lang="ru">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u68.p1" xml:lang="uk">Дякую вам.</seg>
             </u>
             <note type="speaker">КРИВЕНКО В.М.</note>
             <u who="КРИВЕНКО В.М." ana="#regular" xml:id="ParlaMint-UA_2019-05-16-m1.u69">
@@ -668,8 +668,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-05-16-m1.u92">
-               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u92.p1" xml:lang="ru">Дякую вам.</seg>
-               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u92.p2" xml:lang="ru">30 секунд, будь ласка, 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u92.p1" xml:lang="uk">Дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-16-m1.u92.p2" xml:lang="uk">30 секунд, будь ласка, 30 секунд.</seg>
             </u>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2019-05-16-m1.u93">

@@ -931,7 +931,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-11-m1.u136">
-               <seg xml:id="ParlaMint-UA_2017-07-11-m1.u136.p1" xml:lang="ru">30 секунд, завершити дайте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-11-m1.u136.p1" xml:lang="uk">30 секунд, завершити дайте.</seg>
             </u>
             <note type="speaker">ОСТРІКОВА Т.Г.</note>
             <u who="ОСТРІКОВА Т.Г." ana="#regular" xml:id="ParlaMint-UA_2017-07-11-m1.u137">
@@ -1246,7 +1246,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-11-m1.u182">
-               <seg xml:id="ParlaMint-UA_2017-07-11-m1.u182.p1" xml:lang="ru">30 секунд. Будь ласка, дайте завершити.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-11-m1.u182.p1" xml:lang="uk">30 секунд. Будь ласка, дайте завершити.</seg>
             </u>
             <note type="speaker">ЧУМАК В.В.</note>
             <u who="ЧУМАК В.В." ana="#regular" xml:id="ParlaMint-UA_2017-07-11-m1.u183">
@@ -1525,11 +1525,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-11-m1.u221">
-               <seg xml:id="ParlaMint-UA_2017-07-11-m1.u221.p1" xml:lang="ru">30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-11-m1.u221.p1" xml:lang="uk">30 секунд.</seg>
             </u>
             <note type="speaker">БУРБАК М.Ю.</note>
             <u who="БУРБАК М.Ю." ana="#regular" xml:id="ParlaMint-UA_2017-07-11-m1.u222">
-               <seg xml:id="ParlaMint-UA_2017-07-11-m1.u222.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-11-m1.u222.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-11-m1.u223">

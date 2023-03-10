@@ -1086,8 +1086,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-18-m0.u134">
-               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u134.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u134.p2" xml:lang="ru">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u134.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u134.p2" xml:lang="uk">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2020-06-18T13:51:48">13:51:48</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -1335,7 +1335,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-18-m0.u161">
-               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u161.p1" xml:lang="ru">3 хвилини, давайте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u161.p1" xml:lang="uk">3 хвилини, давайте.</seg>
             </u>
             <note type="time"><time when="2020-06-18T14:33:23">14:33:23</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>

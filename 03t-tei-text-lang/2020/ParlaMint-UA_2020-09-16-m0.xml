@@ -686,7 +686,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-16-m0.u88">
-               <seg xml:id="ParlaMint-UA_2020-09-16-m0.u88.p1" xml:lang="ru">Все. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-16-m0.u88.p1" xml:lang="uk">Все. Дякую.</seg>
             </u>
             <note type="time"><time when="2020-09-16T11:43:50">11:43:50</time></note>
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
@@ -991,7 +991,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-16-m0.u130">
-               <seg xml:id="ParlaMint-UA_2020-09-16-m0.u130.p1" xml:lang="ru">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-16-m0.u130.p1" xml:lang="uk">Дякую.</seg>
             </u>
             <note type="time"><time when="2020-09-16T13:00:35">13:00:35</time></note>
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України</note>

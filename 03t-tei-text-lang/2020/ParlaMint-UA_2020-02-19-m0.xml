@@ -1337,7 +1337,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-19-m0.u171">
-               <seg xml:id="ParlaMint-UA_2020-02-19-m0.u171.p1" xml:lang="ru">Добавте 5 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-19-m0.u171.p1" xml:lang="uk">Добавте 5 секунд.</seg>
             </u>
             <note type="speaker">ПАВЛЕНКО Ю.О.</note>
             <u who="ПАВЛЕНКО Ю.О." ana="#regular" xml:id="ParlaMint-UA_2020-02-19-m0.u172">
@@ -1780,7 +1780,7 @@
             <note type="time"><time when="2020-02-19T13:22:38">13:22:38</time></note>
             <note type="speaker">ПОНОМАРЬОВ О.С.</note>
             <u who="ПОНОМАРЬОВ О.С." ana="#regular" xml:id="ParlaMint-UA_2020-02-19-m0.u231">
-               <seg xml:id="ParlaMint-UA_2020-02-19-m0.u231.p1" xml:lang="ru">Давайте уже пройдемся.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-19-m0.u231.p1" xml:lang="uk">Давайте уже пройдемся.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-19-m0.u232">

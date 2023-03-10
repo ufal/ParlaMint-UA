@@ -2283,8 +2283,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-11-04-m0.u318">
-               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u318.p1" xml:lang="ru">Дякую, дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u318.p2" xml:lang="ru">Наступна 64 поправка. Народна депутатка Плачкова, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u318.p1" xml:lang="uk">Дякую, дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u318.p2" xml:lang="uk">Наступна 64 поправка. Народна депутатка Плачкова, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-11-04T15:35:39">15:35:39</time></note>
             <note type="speaker">ПЛАЧКОВА Т.М.</note>
@@ -2880,7 +2880,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-11-04-m0.u384">
-               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u384.p1" xml:lang="ru">Добре.</seg>
+               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u384.p1" xml:lang="uk">Добре.</seg>
             </u>
             <note type="speaker">КАБАЧЕНКО В.В.</note>
             <u who="КАБАЧЕНКО В.В." ana="#regular" xml:id="ParlaMint-UA_2021-11-04-m0.u385">

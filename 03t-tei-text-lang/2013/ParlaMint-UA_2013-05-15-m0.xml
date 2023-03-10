@@ -63,7 +63,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-15-m0.u3">
-               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u3.p1" xml:lang="ru">Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u3.p1" xml:lang="uk">Прошу.</seg>
             </u>
             <note type="time"><time when="2013-05-15T10:07:41">10:07:41</time></note>
             <note type="speaker">ПРОДАН О.П.</note>
@@ -294,7 +294,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КАЛЄТНІК І.Г." ana="#chair" xml:id="ParlaMint-UA_2013-05-15-m0.u34">
-               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u34.p1" xml:lang="ru">Давайте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u34.p1" xml:lang="uk">Давайте, будь ласка.</seg>
             </u>
             <note type="speaker">МІРОШНИЧЕНКО Ю.Р.</note>
             <u who="МІРОШНИЧЕНКО Ю.Р." ana="#regular" xml:id="ParlaMint-UA_2013-05-15-m0.u35">
@@ -562,7 +562,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-15-m0.u76">
-               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u76.p1" xml:lang="ru">Прошу, Валентин Наливайченко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u76.p1" xml:lang="uk">Прошу, Валентин Наливайченко.</seg>
             </u>
             <note type="time"><time when="2013-05-15T12:02:03">12:02:03</time></note>
             <note type="speaker">НАЛИВАЙЧЕНКО В.О.</note>
@@ -653,7 +653,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-15-m0.u94">
-               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u94.p1" xml:lang="ru">Розенко, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u94.p1" xml:lang="uk">Розенко, прошу.</seg>
             </u>
             <note type="time"><time when="2013-05-15T12:10:57">12:10:57</time></note>
             <note type="speaker">РОЗЕНКО П.В.</note>
@@ -702,7 +702,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-15-m0.u104">
-               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u104.p1" xml:lang="ru">Прошу, Олена Бондаренко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u104.p1" xml:lang="uk">Прошу, Олена Бондаренко.</seg>
             </u>
             <note type="time"><time when="2013-05-15T12:15:42">12:15:42</time></note>
             <note type="speaker">БОНДАРЕНКО О.А.</note>
@@ -919,7 +919,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-15-m0.u139">
-               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u139.p1" xml:lang="ru">Прошу Петро Миколайович.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u139.p1" xml:lang="uk">Прошу Петро Миколайович.</seg>
             </u>
             <note type="time"><time when="2013-05-15T12:44:51">12:44:51</time></note>
             <note type="speaker">СИМОНЕНКО П.М.</note>
@@ -992,7 +992,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-15-m0.u151">
-               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u151.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u151.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-05-15T12:54:38">12:54:38</time></note>
             <note type="speaker">ГЕЛЕВЕЙ О.І.</note>
@@ -1079,7 +1079,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-15-m0.u167">
-               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u167.p1" xml:lang="ru">Завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u167.p1" xml:lang="uk">Завершуйте.</seg>
             </u>
             <note type="time"><time when="2013-05-15T13:05:17">13:05:17</time></note>
             <note type="speaker">ЛАБУНСЬКА А.В.</note>
@@ -1173,7 +1173,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-15-m0.u182">
-               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u182.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u182.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-05-15T13:14:56">13:14:56</time></note>
             <note type="speaker">ГОЛОВКО М.Й.</note>
@@ -1507,7 +1507,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-15-m0.u234">
-               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u234.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u234.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-05-15T13:59:11">13:59:11</time></note>
             <note type="speaker">ЛЯПІНА К.М.</note>
@@ -1527,7 +1527,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-15-m0.u238">
-               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u238.p1" xml:lang="ru">Прошу передати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-15-m0.u238.p1" xml:lang="uk">Прошу передати.</seg>
             </u>
             <note type="time"><time when="2013-05-15T14:00:18">14:00:18</time></note>
             <note type="speaker">ЗЕЛИК Р.Б.</note>

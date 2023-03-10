@@ -111,7 +111,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-15-m1.u10">
-               <seg xml:id="ParlaMint-UA_2015-01-15-m1.u10.p1" xml:lang="ru">Дякую. Народний депутат Заболотний.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-15-m1.u10.p1" xml:lang="uk">Дякую. Народний депутат Заболотний.</seg>
             </u>
             <note type="time"><time when="2015-01-15T16:17:35">16:17:35</time></note>
             <note type="speaker">ЗАБОЛОТНИЙ Г.М.</note>
@@ -349,7 +349,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-15-m1.u49">
-               <seg xml:id="ParlaMint-UA_2015-01-15-m1.u49.p1" xml:lang="ru">Дякую. Народний депутат Пацкан.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-15-m1.u49.p1" xml:lang="uk">Дякую. Народний депутат Пацкан.</seg>
             </u>
             <note type="time"><time when="2015-01-15T16:44:40">16:44:40</time></note>
             <note type="speaker">ПАЦКАН В.В.</note>

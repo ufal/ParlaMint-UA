@@ -606,8 +606,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-08-m0.u76">
-               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u76.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u76.p2" xml:lang="ru">Жмеренецький.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u76.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u76.p2" xml:lang="uk">Жмеренецький.</seg>
             </u>
             <note type="time"><time when="2021-09-08T11:30:09">11:30:09</time></note>
             <note type="speaker">ЖМЕРЕНЕЦЬКИЙ О.С.</note>
@@ -676,8 +676,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-08-m0.u86">
-               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u86.p1" xml:lang="ru">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u86.p2" xml:lang="ru">Наступна правка 7, Мамка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u86.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u86.p2" xml:lang="uk">Наступна правка 7, Мамка.</seg>
             </u>
             <note type="time"><time when="2021-09-08T11:36:28">11:36:28</time></note>
             <note type="speaker">МАМКА Г.М.</note>
@@ -1162,7 +1162,7 @@
             <note type="time"><time when="2021-09-08T13:10:43">13:10:43</time></note>
             <note type="speaker">ЖЕЛЕЗНЯК Я.І.</note>
             <u who="ЖЕЛЕЗНЯК Я.І." ana="#regular" xml:id="ParlaMint-UA_2021-09-08-m0.u155">
-               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u155.p1" xml:lang="ru">Давайте 2 хвилини.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u155.p1" xml:lang="uk">Давайте 2 хвилини.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-08-m0.u156">
