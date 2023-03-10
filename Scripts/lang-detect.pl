@@ -20,6 +20,7 @@ my ($data_dir, $run_id, $config_path,$lang_stats,@langs);
 my $lang_translations = {};
 
 my @uk_words = qw/
+врахувати
 давайте
 добре
 дякую
@@ -30,6 +31,7 @@ my @uk_words = qw/
 спасибо
 хвилину
 яка
+яке
 яку
 /;
 my $uk_words = join('|',@uk_words);
