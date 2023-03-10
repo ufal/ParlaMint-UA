@@ -492,7 +492,7 @@
             </u>
             <note type="speaker">КРУЛЬКО І.І.</note>
             <u who="КРУЛЬКО І.І." ana="#regular" xml:id="ParlaMint-UA_2022-07-28-m0.u31">
-               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u31.p1" xml:lang="ru">128, так.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u31.p1" xml:lang="uk">128, так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-07-28-m0.u32">
@@ -673,15 +673,15 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-07-28-m0.u60">
-               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u60.p1" xml:lang="ru">121-а?</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u60.p1" xml:lang="uk">121-а?</seg>
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2022-07-28-m0.u61">
-               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u61.p1" xml:lang="ru">521-а.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u61.p1" xml:lang="uk">521-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-07-28-m0.u62">
-               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u62.p1" xml:lang="ru">521-а.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u62.p1" xml:lang="uk">521-а.</seg>
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2022-07-28-m0.u63">
@@ -1233,7 +1233,7 @@
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2022-07-28-m0.u145">
-               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u145.p1" xml:lang="ru">378-а.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u145.p1" xml:lang="uk">378-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-07-28-m0.u146">
@@ -1337,7 +1337,7 @@
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2022-07-28-m0.u159">
-               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u159.p1" xml:lang="ru">285-а.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u159.p1" xml:lang="uk">285-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-07-28-m0.u160">

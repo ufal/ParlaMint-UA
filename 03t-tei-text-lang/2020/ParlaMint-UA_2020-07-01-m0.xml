@@ -884,7 +884,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-01-m0.u111">
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u111.p1" xml:lang="ru">1668, 2194, 2695, 3438. Правильно?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u111.p1" xml:lang="uk">1668, 2194, 2695, 3438. Правильно?</seg>
                <seg xml:id="ParlaMint-UA_2020-07-01-m0.u111.p2" xml:lang="ru">Давайте почнемо.</seg>
             </u>
             <note type="speaker">КЛИМПУШ-ЦИНЦАДЗЕ І.О.</note>
@@ -1015,11 +1015,11 @@
             <note type="time"><time when="2020-07-01T12:37:53">12:37:53</time></note>
             <note type="speaker">ШКРУМ А.І.</note>
             <u who="ШКРУМ А.І." ana="#regular" xml:id="ParlaMint-UA_2020-07-01-m0.u129">
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u129.p1" xml:lang="ru">76-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u129.p1" xml:lang="uk">76-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-01-m0.u130">
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u130.p1" xml:lang="ru">766-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u130.p1" xml:lang="uk">766-а.</seg>
             </u>
             <note type="speaker">ШКРУМ А.І.</note>
             <u who="ШКРУМ А.І." ana="#regular" xml:id="ParlaMint-UA_2020-07-01-m0.u131">

@@ -1942,7 +1942,7 @@
             <note type="time"><time when="2019-04-23T13:19:43">13:19:43</time></note>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-23-m0.u308">
-               <seg xml:id="ParlaMint-UA_2019-04-23-m0.u308.p1" xml:lang="uk">Пане Миколо, я хотів би вам сказати, що. язиком оригінала. Остроумие – это еще не ум. Чтоб вы вообще-то привыкали и к русскоязычным материям. Поэтому я хотел бы быть услышан и на русском языке, который люди понимают.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-23-m0.u308.p1" xml:lang="ru">Пане Миколо, я хотів би вам сказати, що. язиком оригінала. Остроумие – это еще не ум. Чтоб вы вообще-то привыкали и к русскоязычным материям. Поэтому я хотел бы быть услышан и на русском языке, который люди понимают.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-23-m0.u309">
@@ -2018,7 +2018,7 @@
             </u>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-23-m0.u322">
-               <seg xml:id="ParlaMint-UA_2019-04-23-m0.u322.p1" xml:lang="ru">А 901-а?</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-23-m0.u322.p1" xml:lang="uk">А 901-а?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-23-m0.u323">
@@ -2136,7 +2136,7 @@
             <note type="time"><time when="2019-04-23T13:32:38">13:32:38</time></note>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-23-m0.u342">
-               <seg xml:id="ParlaMint-UA_2019-04-23-m0.u342.p1" xml:lang="ru">А 905-а?</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-23-m0.u342.p1" xml:lang="uk">А 905-а?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-23-m0.u343">

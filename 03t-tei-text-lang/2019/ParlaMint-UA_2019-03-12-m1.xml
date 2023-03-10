@@ -790,7 +790,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-03-12-m1.u117">
                <seg xml:id="ParlaMint-UA_2019-03-12-m1.u117.p1" xml:lang="ru">Дякую вам.</seg>
-               <seg xml:id="ParlaMint-UA_2019-03-12-m1.u117.p2" xml:lang="ru">74-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-03-12-m1.u117.p2" xml:lang="uk">74-а.</seg>
                <seg xml:id="ParlaMint-UA_2019-03-12-m1.u117.p3" xml:lang="ru">73-а. Так, Долженков.</seg>
             </u>
             <note type="time"><time when="2019-03-12T17:01:07">17:01:07</time></note>

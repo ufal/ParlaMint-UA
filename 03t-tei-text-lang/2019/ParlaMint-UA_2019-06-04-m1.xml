@@ -1357,7 +1357,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-06-04-m1.u217">
-               <seg xml:id="ParlaMint-UA_2019-06-04-m1.u217.p1" xml:lang="ru">По 310-й?</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-04-m1.u217.p1" xml:lang="uk">По 310-й?</seg>
             </u>
             <note type="speaker">БУГЛАК Ю.О.</note>
             <u who="БУГЛАК Ю.О." ana="#regular" xml:id="ParlaMint-UA_2019-06-04-m1.u218">
@@ -1683,7 +1683,7 @@
             </u>
             <note type="speaker">КУПРІЄНКО О.В.</note>
             <u who="КУПРІЄНКО О.В." ana="#regular" xml:id="ParlaMint-UA_2019-06-04-m1.u266">
-               <seg xml:id="ParlaMint-UA_2019-06-04-m1.u266.p1" xml:lang="ru">97-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-04-m1.u266.p1" xml:lang="uk">97-а.</seg>
             </u>
             <note type="time"><time when="2019-06-04T17:58:58">17:58:58</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>

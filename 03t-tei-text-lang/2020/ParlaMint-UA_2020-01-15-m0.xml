@@ -828,7 +828,7 @@
             <note type="time"><time when="2020-01-15T11:29:47">11:29:47</time></note>
             <note type="speaker">ФРІС І.П.</note>
             <u who="ФРІС І.П." ana="#regular" xml:id="ParlaMint-UA_2020-01-15-m0.u114">
-               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u114.p1" xml:lang="ru">176-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u114.p1" xml:lang="uk">176-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-15-m0.u115">
@@ -2094,7 +2094,7 @@
             </u>
             <note type="speaker">ПАВЛІШ П.В.</note>
             <u who="ПАВЛІШ П.В." ana="#regular" xml:id="ParlaMint-UA_2020-01-15-m0.u313">
-               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u313.p1" xml:lang="ru">177-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-15-m0.u313.p1" xml:lang="uk">177-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-15-m0.u314">

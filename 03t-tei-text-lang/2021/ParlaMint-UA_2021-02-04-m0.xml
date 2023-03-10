@@ -852,7 +852,7 @@
             <note type="time"><time when="2021-02-04T11:51:37">11:51:37</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
             <u who="ВЛАСЕНКО С.В." ana="#regular" xml:id="ParlaMint-UA_2021-02-04-m0.u121">
-               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u121.p1" xml:lang="ru">54-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u121.p1" xml:lang="uk">54-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-04-m0.u122">
@@ -890,7 +890,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-04-m0.u128">
-               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u128.p1" xml:lang="ru">56-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u128.p1" xml:lang="uk">56-а.</seg>
             </u>
             <note type="time"><time when="2021-02-04T11:53:29">11:53:29</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
@@ -981,7 +981,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-04-m0.u144">
-               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u144.p1" xml:lang="ru">64-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u144.p1" xml:lang="uk">64-а.</seg>
             </u>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
             <u who="ВЛАСЕНКО С.В." ana="#regular" xml:id="ParlaMint-UA_2021-02-04-m0.u145">
@@ -1125,7 +1125,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-04-m0.u167">
-               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u167.p1" xml:lang="ru">79-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u167.p1" xml:lang="uk">79-а.</seg>
             </u>
             <note type="time"><time when="2021-02-04T12:40:43">12:40:43</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
@@ -1149,7 +1149,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-04-m0.u171">
-               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u171.p1" xml:lang="ru">81-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u171.p1" xml:lang="uk">81-а.</seg>
             </u>
             <note type="time"><time when="2021-02-04T12:42:18">12:42:18</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
@@ -1550,11 +1550,11 @@
             <note type="time"><time when="2021-02-04T13:27:17">13:27:17</time></note>
             <note type="speaker">ОВЧИННИКОВА Ю.Ю.</note>
             <u who="ОВЧИННИКОВА Ю.Ю." ana="#regular" xml:id="ParlaMint-UA_2021-02-04-m0.u225">
-               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u225.p1" xml:lang="ru">59-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u225.p1" xml:lang="uk">59-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-04-m0.u226">
-               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u226.p1" xml:lang="ru">59-а?</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u226.p1" xml:lang="uk">59-а?</seg>
             </u>
             <note type="speaker">ОВЧИННИКОВА Ю.Ю.</note>
             <u who="ОВЧИННИКОВА Ю.Ю." ana="#regular" xml:id="ParlaMint-UA_2021-02-04-m0.u227">
@@ -2324,7 +2324,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-04-m0.u339">
-               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u339.p1" xml:lang="ru">34-у?</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u339.p1" xml:lang="uk">34-у?</seg>
             </u>
             <note type="speaker">БОНДАР Г.В.</note>
             <u who="БОНДАР Г.В." ana="#regular" xml:id="ParlaMint-UA_2021-02-04-m0.u340">

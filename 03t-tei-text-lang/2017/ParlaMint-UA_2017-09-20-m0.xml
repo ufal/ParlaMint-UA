@@ -293,7 +293,7 @@
             </u>
             <note type="speaker">КРУЛЬКО І.І.</note>
             <u who="КРУЛЬКО І.І." ana="#regular" xml:id="ParlaMint-UA_2017-09-20-m0.u32">
-               <seg xml:id="ParlaMint-UA_2017-09-20-m0.u32.p1" xml:lang="ru">232-а.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-20-m0.u32.p1" xml:lang="uk">232-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-20-m0.u33">
@@ -353,7 +353,7 @@
             <note type="time"><time when="2017-09-20T10:48:25">10:48:25</time></note>
             <note type="speaker">ЄВТУШОК С.М.</note>
             <u who="ЄВТУШОК С.М." ana="#regular" xml:id="ParlaMint-UA_2017-09-20-m0.u40">
-               <seg xml:id="ParlaMint-UA_2017-09-20-m0.u40.p1" xml:lang="ru">247-а.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-20-m0.u40.p1" xml:lang="uk">247-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-09-20-m0.u41">
@@ -1343,7 +1343,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2017-09-20-m0.u164">
-               <seg xml:id="ParlaMint-UA_2017-09-20-m0.u164.p1" xml:lang="ru">Це 69.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-20-m0.u164.p1" xml:lang="uk">Це 69.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-09-20-m0.u165">
@@ -1624,7 +1624,7 @@
             <note type="time"><time when="2017-09-20T13:09:03">13:09:03</time></note>
             <note type="speaker">ОДАРЧЕНКО Ю.В.</note>
             <u who="ОДАРЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-09-20-m0.u201">
-               <seg xml:id="ParlaMint-UA_2017-09-20-m0.u201.p1" xml:lang="ru">823-я.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-20-m0.u201.p1" xml:lang="uk">823-я.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-20-m0.u202">

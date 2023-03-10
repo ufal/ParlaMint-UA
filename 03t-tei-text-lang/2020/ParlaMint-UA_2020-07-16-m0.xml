@@ -1037,7 +1037,7 @@
             </u>
             <note type="speaker">ПАВЛЮК М.В.</note>
             <u who="ПАВЛЮК М.В." ana="#regular" xml:id="ParlaMint-UA_2020-07-16-m0.u129">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u129.p1" xml:lang="ru">1739 та 1826.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u129.p1" xml:lang="uk">1739 та 1826.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u130">
@@ -1475,7 +1475,7 @@
             <note type="time"><time when="2020-07-16T14:18:05">14:18:05</time></note>
             <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
             <u who="КОРОЛЕВСЬКА Н.Ю." ana="#regular" xml:id="ParlaMint-UA_2020-07-16-m0.u170">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u170.p1" xml:lang="ru">4047 та 4051.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u170.p1" xml:lang="uk">4047 та 4051.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u171">
@@ -1627,7 +1627,7 @@
             </u>
             <note type="speaker">ВЕЛЬМОЖНИЙ С.А.</note>
             <u who="ВЕЛЬМОЖНИЙ С.А." ana="#regular" xml:id="ParlaMint-UA_2020-07-16-m0.u194">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u194.p1" xml:lang="ru">561-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u194.p1" xml:lang="uk">561-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u195">
@@ -1788,7 +1788,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-16-m0.u223">
-               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u223.p1" xml:lang="ru">498-а?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-16-m0.u223.p1" xml:lang="uk">498-а?</seg>
             </u>
             <note type="speaker">ЛОЗИНСЬКИЙ Р.М.</note>
             <u who="ЛОЗИНСЬКИЙ Р.М." ana="#regular" xml:id="ParlaMint-UA_2020-07-16-m0.u224">

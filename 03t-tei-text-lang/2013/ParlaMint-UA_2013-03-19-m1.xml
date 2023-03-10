@@ -843,7 +843,7 @@
             <note type="time"><time when="2013-03-19T17:44:04">17:44:04</time></note>
             <note type="speaker">СИМОНЕНКО П.М.</note>
             <u who="СИМОНЕНКО П.М." ana="#regular" xml:id="ParlaMint-UA_2013-03-19-m1.u128">
-               <seg xml:id="ParlaMint-UA_2013-03-19-m1.u128.p1" xml:lang="uk">Вы знаете, уважаемые колеги, есть такое прислів'я "Йому хоч глаза – йому Божья роса".</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m1.u128.p1" xml:lang="ru">Вы знаете, уважаемые колеги, есть такое прислів'я "Йому хоч глаза – йому Божья роса".</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>

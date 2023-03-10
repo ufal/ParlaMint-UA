@@ -184,7 +184,7 @@
             <note type="time"><time when="2021-03-17T10:29:11">10:29:11</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2021-03-17-m0.u18">
-               <seg xml:id="ParlaMint-UA_2021-03-17-m0.u18.p1" xml:lang="uk">Слышите, "слуги", я рекомендую вопрос и слово "терроризм" поправочный, особенно от членов регламентного комитета, забыть в этом зале навсегда! Доказательства – і в суд ідіть.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-17-m0.u18.p1" xml:lang="ru">Слышите, "слуги", я рекомендую вопрос и слово "терроризм" поправочный, особенно от членов регламентного комитета, забыть в этом зале навсегда! Доказательства – і в суд ідіть.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
@@ -1346,11 +1346,11 @@
             <note type="time"><time when="2021-03-17T12:47:35">12:47:35</time></note>
             <note type="speaker">КОВАЛЬОВ О.І.</note>
             <u who="КОВАЛЬОВ О.І." ana="#regular" xml:id="ParlaMint-UA_2021-03-17-m0.u165">
-               <seg xml:id="ParlaMint-UA_2021-03-17-m0.u165.p1" xml:lang="ru">286-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-17-m0.u165.p1" xml:lang="uk">286-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-17-m0.u166">
-               <seg xml:id="ParlaMint-UA_2021-03-17-m0.u166.p1" xml:lang="ru">285-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-17-m0.u166.p1" xml:lang="uk">285-а.</seg>
             </u>
             <note type="speaker">КОВАЛЬОВ О.І.</note>
             <u who="КОВАЛЬОВ О.І." ana="#regular" xml:id="ParlaMint-UA_2021-03-17-m0.u167">

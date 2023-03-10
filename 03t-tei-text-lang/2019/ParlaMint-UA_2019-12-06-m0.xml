@@ -1153,7 +1153,7 @@
             </u>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2019-12-06-m0.u166">
-               <seg xml:id="ParlaMint-UA_2019-12-06-m0.u166.p1" xml:lang="ru">81-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-06-m0.u166.p1" xml:lang="uk">81-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-06-m0.u167">
@@ -1217,7 +1217,7 @@
             </u>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2019-12-06-m0.u178">
-               <seg xml:id="ParlaMint-UA_2019-12-06-m0.u178.p1" xml:lang="ru">143-я, 157-а, 158-а, 161-а, 162-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-06-m0.u178.p1" xml:lang="uk">143-я, 157-а, 158-а, 161-а, 162-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-06-m0.u179">
@@ -1406,7 +1406,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-06-m0.u210">
-               <seg xml:id="ParlaMint-UA_2019-12-06-m0.u210.p1" xml:lang="ru">143-я</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-06-m0.u210.p1" xml:lang="uk">143-я</seg>
             </u>
             <note type="speaker">КОРНІЄНКО О.С.</note>
             <u who="КОРНІЄНКО О.С." ana="#regular" xml:id="ParlaMint-UA_2019-12-06-m0.u211">
@@ -2285,7 +2285,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-06-m0.u341">
                <seg xml:id="ParlaMint-UA_2019-12-06-m0.u341.p1" xml:lang="ru">88 правка, Власенко.</seg>
-               <seg xml:id="ParlaMint-UA_2019-12-06-m0.u341.p2" xml:lang="ru">80-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-06-m0.u341.p2" xml:lang="uk">80-а.</seg>
             </u>
             <note type="time"><time when="2019-12-06T13:28:43">13:28:43</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>

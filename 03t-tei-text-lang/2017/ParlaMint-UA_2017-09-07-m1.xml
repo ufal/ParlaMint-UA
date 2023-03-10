@@ -339,7 +339,7 @@
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-07-m1.u32">
                <seg xml:id="ParlaMint-UA_2017-09-07-m1.u32.p1" xml:lang="ru">Рейтингове голосування 272 поправки. Прошу, будь ласка. Голосуйте. Хорошо.</seg>
                <note type="time"><time when="2017-09-07T16:27:40">16:27:40</time></note>
-               <seg xml:id="ParlaMint-UA_2017-09-07-m1.u32.p2" xml:lang="ru">За-54</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-07-m1.u32.p2" xml:lang="uk">За-54</seg>
                <seg xml:id="ParlaMint-UA_2017-09-07-m1.u32.p3" xml:lang="ru">Будь ласка, Сидорович. Олена Сотник. Да-да-да, я бачу, я бачу.</seg>
                <seg xml:id="ParlaMint-UA_2017-09-07-m1.u32.p4" xml:lang="ru">276-а, Олена Сотник. Будь ласка.</seg>
             </u>

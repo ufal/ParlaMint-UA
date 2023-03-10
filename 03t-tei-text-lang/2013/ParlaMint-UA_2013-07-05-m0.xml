@@ -437,7 +437,7 @@
             <note type="time"><time when="2013-07-05T11:02:15">11:02:15</time></note>
             <note type="speaker">БІДЬОВКА В.А.</note>
             <u who="БІДЬОВКА В.А." ana="#regular" xml:id="ParlaMint-UA_2013-07-05-m0.u70">
-               <seg xml:id="ParlaMint-UA_2013-07-05-m0.u70.p1" xml:lang="uk">Не буду я украинской мовой.</seg>
+               <seg xml:id="ParlaMint-UA_2013-07-05-m0.u70.p1" xml:lang="ru">Не буду я украинской мовой.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>

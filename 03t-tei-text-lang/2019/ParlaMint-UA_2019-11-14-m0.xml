@@ -198,7 +198,7 @@
             <note type="time"><time when="2019-11-14T10:25:15">10:25:15</time></note>
             <note type="speaker">АНДРІЙОВИЧ З.М.</note>
             <u who="АНДРІЙОВИЧ З.М." ana="#regular" xml:id="ParlaMint-UA_2019-11-14-m0.u16">
-               <seg xml:id="ParlaMint-UA_2019-11-14-m0.u16.p1" xml:lang="ru">209-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-11-14-m0.u16.p1" xml:lang="uk">209-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-11-14-m0.u17">
@@ -638,7 +638,7 @@
             <note type="time"><time when="2019-11-14T12:35:30">12:35:30</time></note>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2019-11-14-m0.u82">
-               <seg xml:id="ParlaMint-UA_2019-11-14-m0.u82.p1" xml:lang="ru">171-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-11-14-m0.u82.p1" xml:lang="uk">171-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-11-14-m0.u83">
@@ -646,7 +646,7 @@
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2019-11-14-m0.u84">
-               <seg xml:id="ParlaMint-UA_2019-11-14-m0.u84.p1" xml:lang="ru">171-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-11-14-m0.u84.p1" xml:lang="uk">171-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-11-14-m0.u85">
@@ -662,7 +662,7 @@
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2019-11-14-m0.u88">
-               <seg xml:id="ParlaMint-UA_2019-11-14-m0.u88.p1" xml:lang="ru">171-а. 171-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-11-14-m0.u88.p1" xml:lang="uk">171-а. 171-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-11-14-m0.u89">

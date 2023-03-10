@@ -435,7 +435,7 @@
             <note type="speaker">МОЛОТОК І.Ф.</note>
             <u who="МОЛОТОК І.Ф." ana="#regular" xml:id="ParlaMint-UA_2014-07-22-m0.u68">
                <seg xml:id="ParlaMint-UA_2014-07-22-m0.u68.p1" xml:lang="ru">Добрый день, Андрей Николаевич. Молоток, 160 округ. Андрей Николаевич, вот здесь, я здесь нахожусь, да.</seg>
-               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u68.p2" xml:lang="uk">Смотрите, я относительно батальона "Суммы", 15 батальона, который находится у нас в Луганской области на границе с Россией. Я ездил туда и слышал такое возмущение от людей, что, находясь на Донбассе, они не находятся в зоне АТО. В связи с этим они как неучастники АТО не попадают под Распоряжение Кабинета Министров о льготных каникулах по кредитам, по процентам. Во-первых. И, во-вторых, нету материального отношения, как к участникам АТО. Находясь практически в боевых действиях, они имеют заработную плату такую, как в городе Суммы. Я прошу вас, разберитесь. Это 15 батальон, называется "батальйон територіальної."</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u68.p2" xml:lang="ru">Смотрите, я относительно батальона "Суммы", 15 батальона, который находится у нас в Луганской области на границе с Россией. Я ездил туда и слышал такое возмущение от людей, что, находясь на Донбассе, они не находятся в зоне АТО. В связи с этим они как неучастники АТО не попадают под Распоряжение Кабинета Министров о льготных каникулах по кредитам, по процентам. Во-первых. И, во-вторых, нету материального отношения, как к участникам АТО. Находясь практически в боевых действиях, они имеют заработную плату такую, как в городе Суммы. Я прошу вас, разберитесь. Это 15 батальон, называется "батальйон територіальної."</seg>
             </u>
             <note type="speaker">ПАРУБІЙ А.В.</note>
             <u who="ПАРУБІЙ А.В." ana="#regular" xml:id="ParlaMint-UA_2014-07-22-m0.u69">
@@ -816,7 +816,7 @@
             </u>
             <note type="speaker">КОВАЛЬЧУК В.А.</note>
             <u who="КОВАЛЬЧУК В.А." ana="#regular" xml:id="ParlaMint-UA_2014-07-22-m0.u124">
-               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u124.p1" xml:lang="ru">4255а.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u124.p1" xml:lang="uk">4255а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-07-22-m0.u125">
@@ -824,11 +824,11 @@
             </u>
             <note type="speaker">КОВАЛЬЧУК В.А.</note>
             <u who="КОВАЛЬЧУК В.А." ana="#regular" xml:id="ParlaMint-UA_2014-07-22-m0.u126">
-               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u126.p1" xml:lang="ru">4184а.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u126.p1" xml:lang="uk">4184а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-07-22-m0.u127">
-               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u127.p1" xml:lang="ru">84а.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u127.p1" xml:lang="uk">84а.</seg>
             </u>
             <note type="speaker">КОВАЛЬЧУК В.А.</note>
             <u who="КОВАЛЬЧУК В.А." ana="#regular" xml:id="ParlaMint-UA_2014-07-22-m0.u128">
@@ -848,16 +848,16 @@
             </u>
             <note type="speaker">КОВАЛЬЧУК В.А.</note>
             <u who="КОВАЛЬЧУК В.А." ana="#regular" xml:id="ParlaMint-UA_2014-07-22-m0.u132">
-               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u132.p1" xml:lang="ru">4172а.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u132.p1" xml:lang="uk">4172а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-07-22-m0.u133">
-               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u133.p1" xml:lang="ru">4172а.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u133.p1" xml:lang="uk">4172а.</seg>
             </u>
             <note type="speaker">КОВАЛЬЧУК В.А.</note>
             <u who="КОВАЛЬЧУК В.А." ana="#regular" xml:id="ParlaMint-UA_2014-07-22-m0.u134">
-               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u134.p1" xml:lang="ru">4921.</seg>
-               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u134.p2" xml:lang="ru">4173а. 4132.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u134.p1" xml:lang="uk">4921.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-22-m0.u134.p2" xml:lang="uk">4173а. 4132.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-07-22-m0.u135">

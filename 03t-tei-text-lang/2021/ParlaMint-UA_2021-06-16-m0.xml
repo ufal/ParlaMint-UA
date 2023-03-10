@@ -809,7 +809,7 @@
             <note type="time"><time when="2021-06-16T11:29:06">11:29:06</time></note>
             <note type="speaker">ПАВЛЕНКО Ю.О.</note>
             <u who="ПАВЛЕНКО Ю.О." ana="#regular" xml:id="ParlaMint-UA_2021-06-16-m0.u104">
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u104.p1" xml:lang="ru">245-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u104.p1" xml:lang="uk">245-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-16-m0.u105">
@@ -1039,7 +1039,7 @@
             </u>
             <note type="speaker">СТЕФАНЧУК Р.О.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#regular" xml:id="ParlaMint-UA_2021-06-16-m0.u138">
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u138.p1" xml:lang="ru">279-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u138.p1" xml:lang="uk">279-а.</seg>
             </u>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2021-06-16-m0.u139">

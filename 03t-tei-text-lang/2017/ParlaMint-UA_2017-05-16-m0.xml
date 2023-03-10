@@ -967,7 +967,7 @@
             <note type="time"><time when="2017-05-16T12:00:32">12:00:32</time></note>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-05-16-m0.u130">
-               <seg xml:id="ParlaMint-UA_2017-05-16-m0.u130.p1" xml:lang="ru">97-а.</seg>
+               <seg xml:id="ParlaMint-UA_2017-05-16-m0.u130.p1" xml:lang="uk">97-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-05-16-m0.u131">

@@ -2690,7 +2690,7 @@
             <note type="time"><time when="2021-10-19T15:34:06">15:34:06</time></note>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u334">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u334.p1" xml:lang="ru">59-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u334.p1" xml:lang="uk">59-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u335">
@@ -2756,7 +2756,7 @@
             <note type="time"><time when="2021-10-19T15:37:46">15:37:46</time></note>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u343">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u343.p1" xml:lang="ru">59-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u343.p1" xml:lang="uk">59-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u344">
@@ -2764,7 +2764,7 @@
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u345">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u345.p1" xml:lang="ru">59-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u345.p1" xml:lang="uk">59-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u346">
@@ -2797,7 +2797,7 @@
             <note type="time"><time when="2021-10-19T15:39:55">15:39:55</time></note>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u349">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u349.p1" xml:lang="ru">71-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u349.p1" xml:lang="uk">71-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u350">
@@ -2911,7 +2911,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u366">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u366.p1" xml:lang="ru">79-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u366.p1" xml:lang="uk">79-а.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u367">
@@ -3068,7 +3068,7 @@
             <note type="time"><time when="2021-10-19T16:02:48">16:02:48</time></note>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u389">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u389.p1" xml:lang="ru">126-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u389.p1" xml:lang="uk">126-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u390">
@@ -3502,7 +3502,7 @@
             <note type="time"><time when="2021-10-19T16:52:52">16:52:52</time></note>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u440">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u440.p1" xml:lang="ru">405-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u440.p1" xml:lang="uk">405-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u441">
@@ -3560,7 +3560,7 @@
             <note type="time"><time when="2021-10-19T16:55:40">16:55:40</time></note>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u446">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u446.p1" xml:lang="ru">389-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u446.p1" xml:lang="uk">389-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u447">
@@ -3745,7 +3745,7 @@
             <note type="time"><time when="2021-10-19T17:10:38">17:10:38</time></note>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u472">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u472.p1" xml:lang="ru">520-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u472.p1" xml:lang="uk">520-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u473">

@@ -636,7 +636,7 @@
             <note type="time"><time when="2020-07-03T11:29:28">11:29:28</time></note>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2020-07-03-m0.u93">
-               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u93.p1" xml:lang="ru">Правка 1804.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u93.p1" xml:lang="uk">Правка 1804.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-03-m0.u94">
@@ -1366,11 +1366,11 @@
             </u>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>
             <u who="КОЛТУНОВИЧ О.С." ana="#regular" xml:id="ParlaMint-UA_2020-07-03-m0.u208">
-               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u208.p1" xml:lang="ru">85-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u208.p1" xml:lang="uk">85-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-03-m0.u209">
-               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u209.p1" xml:lang="ru">85-а?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-03-m0.u209.p1" xml:lang="uk">85-а?</seg>
             </u>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>
             <u who="КОЛТУНОВИЧ О.С." ana="#regular" xml:id="ParlaMint-UA_2020-07-03-m0.u210">

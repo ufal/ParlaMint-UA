@@ -874,7 +874,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2018-10-17-m0.u112">
-               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u112.p1" xml:lang="ru">693-а.</seg>
+               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u112.p1" xml:lang="uk">693-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-10-17-m0.u113">
@@ -935,7 +935,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-10-17-m0.u122">
-               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u122.p1" xml:lang="ru">754-а.</seg>
+               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u122.p1" xml:lang="uk">754-а.</seg>
             </u>
             <note type="speaker">ЄВТУШОК С.М.</note>
             <u who="ЄВТУШОК С.М." ana="#regular" xml:id="ParlaMint-UA_2018-10-17-m0.u123">
@@ -1008,7 +1008,7 @@
             </u>
             <note type="speaker">ІВАНЧУК А.В.</note>
             <u who="ІВАНЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2018-10-17-m0.u135">
-               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u135.p1" xml:lang="ru">742-а?</seg>
+               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u135.p1" xml:lang="uk">742-а?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-10-17-m0.u136">
@@ -2470,7 +2470,7 @@
             </u>
             <note type="speaker">ІВАНЧУК А.В.</note>
             <u who="ІВАНЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2018-10-17-m0.u361">
-               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u361.p1" xml:lang="ru">1293-я.</seg>
+               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u361.p1" xml:lang="uk">1293-я.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-10-17-m0.u362">
@@ -2478,15 +2478,15 @@
             </u>
             <note type="speaker">ІВАНЧУК А.В.</note>
             <u who="ІВАНЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2018-10-17-m0.u363">
-               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u363.p1" xml:lang="ru">98-а.</seg>
+               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u363.p1" xml:lang="uk">98-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-10-17-m0.u364">
-               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u364.p1" xml:lang="ru">98-а.</seg>
+               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u364.p1" xml:lang="uk">98-а.</seg>
             </u>
             <note type="speaker">ІВАНЧУК А.В.</note>
             <u who="ІВАНЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2018-10-17-m0.u365">
-               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u365.p1" xml:lang="ru">1298-а.</seg>
+               <seg xml:id="ParlaMint-UA_2018-10-17-m0.u365.p1" xml:lang="uk">1298-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-10-17-m0.u366">

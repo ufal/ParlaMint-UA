@@ -129,11 +129,11 @@
             <note type="time"><time when="2020-12-17T10:21:59">10:21:59</time></note>
             <note type="speaker">КУЛІНІЧ О.І.</note>
             <u who="КУЛІНІЧ О.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u10">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u10.p1" xml:lang="ru">22-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u10.p1" xml:lang="uk">22-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-17-m0.u11">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u11.p1" xml:lang="ru">22-а?</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u11.p1" xml:lang="uk">22-а?</seg>
             </u>
             <note type="speaker">КУЛІНІЧ О.І.</note>
             <u who="КУЛІНІЧ О.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u12">
@@ -564,7 +564,7 @@
             <note type="time"><time when="2020-12-17T10:56:54">10:56:54</time></note>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u76">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u76.p1" xml:lang="ru">63-я.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u76.p1" xml:lang="uk">63-я.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-17-m0.u77">
@@ -629,11 +629,11 @@
             <note type="time"><time when="2020-12-17T11:00:11">11:00:11</time></note>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u88">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u88.p1" xml:lang="ru">94-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u88.p1" xml:lang="uk">94-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-17-m0.u89">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u89.p1" xml:lang="ru">94-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u89.p1" xml:lang="uk">94-а.</seg>
             </u>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u90">
@@ -691,7 +691,7 @@
             <note type="time"><time when="2020-12-17T11:02:25">11:02:25</time></note>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u100">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u100.p1" xml:lang="ru">165-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u100.p1" xml:lang="uk">165-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-17-m0.u101">
@@ -713,11 +713,11 @@
             <note type="time"><time when="2020-12-17T11:03:45">11:03:45</time></note>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u104">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u104.p1" xml:lang="ru">211-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u104.p1" xml:lang="uk">211-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-17-m0.u105">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u105.p1" xml:lang="ru">211-а?</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u105.p1" xml:lang="uk">211-а?</seg>
             </u>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u106">
@@ -737,17 +737,17 @@
             </u>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u110">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u110.p1" xml:lang="ru">242-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u110.p1" xml:lang="uk">242-а.</seg>
             </u>
             <note type="narrative">Веде засідання заступник Голови Верховної Ради України</note>
             <note type="narrative">КОНДРАТЮК О.К.</note>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2020-12-17-m0.u111">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u111.p1" xml:lang="ru">240-а?</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u111.p1" xml:lang="uk">240-а?</seg>
             </u>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u112">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u112.p1" xml:lang="ru">242-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u112.p1" xml:lang="uk">242-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2020-12-17-m0.u113">
@@ -814,11 +814,11 @@
             <note type="time"><time when="2020-12-17T11:06:32">11:06:32</time></note>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u125">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u125.p1" xml:lang="ru">386-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u125.p1" xml:lang="uk">386-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-17-m0.u126">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u126.p1" xml:lang="ru">386-а?</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u126.p1" xml:lang="uk">386-а?</seg>
             </u>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u127">
@@ -835,7 +835,7 @@
             <note type="time"><time when="2020-12-17T11:07:36">11:07:36</time></note>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u129">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u129.p1" xml:lang="ru">395-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u129.p1" xml:lang="uk">395-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-17-m0.u130">
@@ -858,7 +858,7 @@
             <note type="time"><time when="2020-12-17T11:08:43">11:08:43</time></note>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u133">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u133.p1" xml:lang="ru">399-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u133.p1" xml:lang="uk">399-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-17-m0.u134">
@@ -896,7 +896,7 @@
             <note type="time"><time when="2020-12-17T11:10:48">11:10:48</time></note>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u139">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u139.p1" xml:lang="ru">521-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u139.p1" xml:lang="uk">521-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-17-m0.u140">
@@ -924,7 +924,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-17-m0.u146">
-               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u146.p1" xml:lang="ru">592-а.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-17-m0.u146.p1" xml:lang="uk">592-а.</seg>
             </u>
             <note type="speaker">РУЩИШИН Я.І.</note>
             <u who="РУЩИШИН Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-17-m0.u147">
