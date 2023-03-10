@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA_2013-12-17-m0" xml:lang="uk">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- TODO -->
+            <meeting ana="#parla.term #parla.uni" n="7">7</meeting>
+            <meeting ana="#parla.session #parla.uni" n="3">3</meeting>
+            <!-- TODO: meeting type: regular -->
+            <!-- TODO -->
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <!-- TODO -->
+         </extent>
+         <publicationStmt>
+            <!-- TODO -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <!-- TODO -->
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5131.html</idno>
+               <date when="2013-12-17">2013-12-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- TODO -->
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- TODO -->
+               <date when="2013-12-17">2013-12-17</date>
+            </setting>
+         </settingDesc>
+         <!-- TODO -->
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 17 грудня 2013</note>
+            <note type="comment">ЗАСІДАННЯ ТРИДЦЯТЬ ШОСТЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="time">17 грудня 2013 року, 10.05 година</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України В.В.РИБАК</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-12-17-m0.u1">
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2013-12-17-m0.u1.p1" xml:lang="uk">Шановні народні депутати! Я прошу зареєструватися. Прошу всіх народних депутатів зареєструватися. Увімкніть систему "Рада".</seg>
+               <note type="time"><time when="2013-12-17T10:05:47">10:05:47</time></note>
+               <seg xml:id="ParlaMint-UA_2013-12-17-m0.u1.p2" xml:lang="uk">В залі зареєструвалося 258 народних депутатів. Ранкове засідання Верховної Ради України оголошую відкритим.</seg>
+               <seg xml:id="ParlaMint-UA_2013-12-17-m0.u1.p3" xml:lang="uk">Я пройшов по залу, спитав у всіх депутатів. Всі депутати кажуть: ми хочемо працювати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-12-17-m0.u1.p4" xml:lang="uk">Шановні народні депутати! Я хочу оголошення зробити. Що в четвер в сесійній залі ми розглянемо бюджет держави на 2014 рік. Перед цим ми приймемо постанову всі разом, щоб ми могли бюджет розглянути по скороченій процедурі. Така практика в парламенті була. Я взяв Постанову Верховної Ради України, яку підписував спікер Арсеній Яценюк. Я точно таку постанову запропоную вам. Ми її приймемо. І в четвер ми розглянемо бюджет, приймемо бюджет.</seg>
+               <seg xml:id="ParlaMint-UA_2013-12-17-m0.u1.p5" xml:lang="uk">Я хочу звернутися до депутатів. Верховна Рада – це не клуб по інтересам, а це вищий законодавчий орган нашої держави. Тому у Верховній Раді всім депутатам треба працювати, а не "хочу" чи "не хочу". Але блокування, воно не несе пользи для наших виборців.</seg>
+               <seg xml:id="ParlaMint-UA_2013-12-17-m0.u1.p6" xml:lang="uk">Тому я прошу, даю доручення Комітету по бюджету підготувати разом з урядом бюджет, щоб ми його могли розглянути в сесійній залі.</seg>
+               <seg xml:id="ParlaMint-UA_2013-12-17-m0.u1.p7" xml:lang="uk">Я бажаю всім плідної роботи, шановні народні депутати.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2013-12-17-m0.u1.p8" xml:lang="uk">Постанову подготовят, я внесу, щоб народні депутати проголосували за ці постанови. Я думаю, що всі депутати згодні зі мною, що Верховна Рада повинна працювати. Так чи ні? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Я не бачу, ті, хто на трибуні, згодні ви? Згодні. Ну, добре.</seg>
+               <seg xml:id="ParlaMint-UA_2013-12-17-m0.u1.p9" xml:lang="uk">Ранкове засідання Верховної Ради України оголошую закритим. Всім у комітетах депутатам працювати.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

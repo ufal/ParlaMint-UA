@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA_2013-12-18-m0" xml:lang="uk">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- TODO -->
+            <meeting ana="#parla.term #parla.uni" n="7">7</meeting>
+            <meeting ana="#parla.session #parla.uni" n="3">3</meeting>
+            <!-- TODO: meeting type: regular -->
+            <!-- TODO -->
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <!-- TODO -->
+         </extent>
+         <publicationStmt>
+            <!-- TODO -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <!-- TODO -->
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5133.html</idno>
+               <date when="2013-12-18">2013-12-18</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- TODO -->
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- TODO -->
+               <date when="2013-12-18">2013-12-18</date>
+            </setting>
+         </settingDesc>
+         <!-- TODO -->
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 18 грудня 2013</note>
+            <note type="comment">ЗАСІДАННЯ ТРИДЦЯТЬ СЬОМЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="time">18 грудня 2013 року, 10.10 година</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України В.В.РИБАК</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-12-18-m0.u1">
+               <seg xml:id="ParlaMint-UA_2013-12-18-m0.u1.p1" xml:lang="uk">Доброго ранку, шановні народні депутати, запрошені, гості Верховної Ради України! Прошу народних депутатів підготуватися для реєстрації. Увімкніть систему "Рада".</seg>
+               <note type="time"><time when="2013-12-18T10:11:10">10:11:10</time></note>
+               <seg xml:id="ParlaMint-UA_2013-12-18-m0.u1.p2" xml:lang="uk">В залі зареєструвалося 217 народних депутатів України. Ранкове засідання Верховної Ради України оголошую відкритим. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Відкритим.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2013-12-18-m0.u1.p3" xml:lang="uk">Шановні народні депутати! Шановні народні депутати! Я прошу, я прошу заспокоїтися. Прошу керівників фракцій для консультацій зайти в кабінет Голови Верховної Ради України.</seg>
+               <seg xml:id="ParlaMint-UA_2013-12-18-m0.u1.p4" xml:lang="uk">А з неможливістю працювати я ранкове засідання Верховної Ради України оголошую закритим. А керівників фракцій. ми проведемо консультацію.</seg>
+               <seg xml:id="ParlaMint-UA_2013-12-18-m0.u1.p5" xml:lang="uk">А у депутатів є можливість поздравити з днем народження народного депутата України пана Рудьковського. Давайте поздоровимо його.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA_2013-06-06-m0" xml:lang="uk">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- TODO -->
+            <meeting ana="#parla.term #parla.uni" n="7">7</meeting>
+            <meeting ana="#parla.session #parla.uni" n="2">2</meeting>
+            <!-- TODO: meeting type: regular -->
+            <!-- TODO -->
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <!-- TODO -->
+         </extent>
+         <publicationStmt>
+            <!-- TODO -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <!-- TODO -->
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5005.html</idno>
+               <date when="2013-06-06">2013-06-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- TODO -->
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- TODO -->
+               <date when="2013-06-06">2013-06-06</date>
+            </setting>
+         </settingDesc>
+         <!-- TODO -->
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 06 червня 2013</note>
+            <note type="comment">ЗАСІДАННЯ ТРИДЦЯТЬ ДРУГЕ</note>
+            <note type="comment">Сесійна зала Верховної Ради України</note>
+            <note type="time">06 червня 2013 року, 10 година</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України В.В.РИБАК</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-06-m0.u1">
+               <seg xml:id="ParlaMint-UA_2013-06-06-m0.u1.p1" xml:lang="uk">Доброго ранку, шановні народні депутати! Запрошені, гості Верховної Ради України! Я прошу всіх сідати, я все, я все зроблю. Прошу народних депутатів зареєструватися.</seg>
+               <note type="time"><time when="2013-06-06T10:02:38">10:02:38</time></note>
+               <seg xml:id="ParlaMint-UA_2013-06-06-m0.u1.p2" xml:lang="uk">В залі зареєструвалося -371 народний депутат. Шановні депутати! Сьогодні День журналіста, тому давайте ми разом привітаємо журналістів з професійним святом!</seg>
+               <kinesic type="applause">
+                  <desc>(Оплески)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-UA_2013-06-06-m0.u1.p3" xml:lang="uk">І в цей святковий день бажаємо вам всім міцного здоров'я, сімейного благополаччя, професійних і життєвих успіхів, натхнення. Творчих здобутків у вашій благородній справі! І нехай ваша праця завжди знаходить любов та повагу в серцях людей. Ви бачите, що народні депутати стоя вас поздоровляють.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-06-m0.u1.p4" xml:lang="uk">Сьогодні день народження народного депутата Рябікіна Павла Борисовича. Давайте привітаємо його з днем народження. І відповідно до пункту 15 частини першої Регламенту до Верховної Ради України вимагаємо оголосити перерву для проведення консультацій з питань порядку денного та виголошення заяви. Дві фракції: фракція "УДАР" Віталія Кличка" і фракція ""Батьківщина".</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-06-m0.u1.p5" xml:lang="uk">Я оголошую перерву до 10-ї години 30 хвилин. В 10.30 продовжимо нашу роботу. Керівників фракцій я прошу зайти в кабінет Голови Верховної Ради України.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

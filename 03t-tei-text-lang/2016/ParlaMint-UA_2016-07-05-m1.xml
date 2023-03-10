@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA_2016-07-05-m1" xml:lang="uk">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- TODO -->
+            <meeting ana="#parla.term #parla.uni" n="8">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="4">4</meeting>
+            <!-- TODO: meeting type: regular -->
+            <!-- TODO -->
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <!-- TODO -->
+         </extent>
+         <publicationStmt>
+            <!-- TODO -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <!-- TODO -->
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/6257.html</idno>
+               <date when="2016-07-05">2016-07-05</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- TODO -->
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- TODO -->
+               <date when="2016-07-05">2016-07-05</date>
+            </setting>
+         </settingDesc>
+         <!-- TODO -->
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 05 липня 2016</note>
+            <note type="comment">ЗАСІДАННЯ П'ЯТДЕСЯТ ДЕВ'ЯТЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="time">05 липня 2016 року, 16 година 24 хвилини</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>
+            <note type="time"><time when="2016-07-05T16:24:49">16:24:49</time></note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-07-05-m1.u1">
+               <seg xml:id="ParlaMint-UA_2016-07-05-m1.u1.p1" xml:lang="uk">Шановні колеги народні депутати, у нас сьогодні був дуже важливий визначальний день українського парламенту, ми продемонстрували здатність боротися з корупцією. Але після обіду, на жаль, трибуна Верховної Ради України жорстко заблокована "Батьківщиною", Радикальною партією, "Народним контролем", "Свободою" і позафракційними. Нам необхідні консультації для того, щоб. "Воля", "Воля".</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-05-m1.u1.p2" xml:lang="uk">Нам необхідно провести політичні консультації для того, щоб ми могли розблокувати роботу Верховної Ради України. І тому я хочу подякувати всім колегам за сьогоднішні важливі, принципові рішення по боротьбі з мафією. І хочу відразу і оголосити про відкриття вечірнього засідання, і відразу хочу оголосити, що у зв'язку з політичними консультаціями оголошую вечірнє засідання Верховної Ради України закритим.</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-05-m1.u1.p3" xml:lang="uk">Ще раз, колеги, вітаю із сьогоднішнім днем. Слава Україні!</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-05-m1.u1.p4" xml:lang="uk">Голів фракцій запрошую в зал на третій поверх для проведення консультацій. Будь ласка.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA_2016-07-06-m0" xml:lang="uk">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- TODO -->
+            <meeting ana="#parla.term #parla.uni" n="8">8</meeting>
+            <meeting ana="#parla.session #parla.uni" n="4">4</meeting>
+            <!-- TODO: meeting type: regular -->
+            <!-- TODO -->
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <!-- TODO -->
+         </extent>
+         <publicationStmt>
+            <!-- TODO -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <!-- TODO -->
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/6260.html</idno>
+               <date when="2016-07-06">2016-07-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- TODO -->
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- TODO -->
+               <date when="2016-07-06">2016-07-06</date>
+            </setting>
+         </settingDesc>
+         <!-- TODO -->
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 06 липня 2016</note>
+            <note type="comment">ЗАСІДАННЯ ШІСТДЕСЯТЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="time">06 липня 2016 року, 10 година 24 хвилина</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В.</note>
+            <note type="time"><time when="2016-07-06T10:24:46">10:24:46</time></note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-07-06-m0.u1">
+               <seg xml:id="ParlaMint-UA_2016-07-06-m0.u1.p1" xml:lang="uk">Доброго дня, шановні колеги!</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-06-m0.u1.p2" xml:lang="uk">Вчора в нас до пізньої ночі тривали політичні консультації, і вони продовжують тривати, політичні консультації. У зв'язку з тим, що для того необхідна і розмова, і зустріч з фракціями, щоб ми змогли вийти на рішення, які розблокують нашу роботу, продовження нашої роботи відбудеться завтра о 10 годині ранку у Верховній Раді України.</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-06-m0.u1.p3" xml:lang="uk">Шановні колеги, завтра відповідальний і важливий день. У нас велика кількість законів, необхідних для зміцнення національної безпеки і оборони, для виведення країни. Ми – воюючий парламент, який має працювати і захищати Україну. Завтра о 10 годині ранку усіх колег народних депутатів чекаю в залі.</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-06-m0.u1.p4" xml:lang="uk">Зараз привітаю з днем народження. Денісову вітаю з днем народження, шановні колеги.</seg>
+               <kinesic type="applause">
+                  <desc>(Оплески)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-UA_2016-07-06-m0.u1.p5" xml:lang="uk">Я бажаю плідної роботи в комітетах, активної, дієвої роботи, щоб завтра, в четвер, ми змогли провести повноцінний робочий день. Дякую. Плідної роботи в комітетах. До завтра.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
