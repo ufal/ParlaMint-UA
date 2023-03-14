@@ -64,7 +64,7 @@
             <note type="time"><time when="2016-10-05T10:05:50">10:05:50</time></note>
             <note type="speaker">ШЕНЦЕВ Д.О.</note>
             <u who="ШЕНЦЕВ Д.О." ana="#regular" xml:id="ParlaMint-UA_2016-10-05-m0.u2">
-               <seg xml:id="ParlaMint-UA_2016-10-05-m0.u2.p1" xml:lang="uk">Прошу передать слово Балицкому Евгению.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-05-m0.u2.p1" xml:lang="ru">Прошу передать слово Балицкому Евгению.</seg>
             </u>
             <note type="time"><time when="2016-10-05T10:06:05">10:06:05</time></note>
             <note type="speaker">БАЛИЦЬКИЙ Є.В.</note>

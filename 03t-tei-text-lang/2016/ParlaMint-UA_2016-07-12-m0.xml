@@ -621,7 +621,7 @@
             <note type="time"><time when="2016-07-12T11:33:39">11:33:39</time></note>
             <note type="speaker">МОРОКО Ю.М.</note>
             <u who="МОРОКО Ю.М." ana="#regular" xml:id="ParlaMint-UA_2016-07-12-m0.u82">
-               <seg xml:id="ParlaMint-UA_2016-07-12-m0.u82.p1" xml:lang="uk">Прошу передать Гусаку слово.</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-12-m0.u82.p1" xml:lang="ru">Прошу передать Гусаку слово.</seg>
             </u>
             <note type="time"><time when="2016-07-12T11:33:45">11:33:45</time></note>
             <note type="speaker">ГУСАК В.Г.</note>

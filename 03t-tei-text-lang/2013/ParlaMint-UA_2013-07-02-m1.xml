@@ -1835,7 +1835,7 @@
             <note type="time"><time when="2013-07-02T21:20:14">21:20:14</time></note>
             <note type="speaker">ПАРАСКІВ О.Д.</note>
             <u who="ПАРАСКІВ О.Д." ana="#regular" xml:id="ParlaMint-UA_2013-07-02-m1.u281">
-               <seg xml:id="ParlaMint-UA_2013-07-02-m1.u281.p1" xml:lang="uk">Прошу передать слово коллеге Журавскому.</seg>
+               <seg xml:id="ParlaMint-UA_2013-07-02-m1.u281.p1" xml:lang="ru">Прошу передать слово коллеге Журавскому.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-07-02-m1.u282">

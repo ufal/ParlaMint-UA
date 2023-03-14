@@ -193,7 +193,7 @@
             <note type="time"><time when="2014-04-11T10:37:42">10:37:42</time></note>
             <note type="speaker">ТУРМАНОВ В.І.</note>
             <u who="ТУРМАНОВ В.І." ana="#regular" xml:id="ParlaMint-UA_2014-04-11-m0.u21">
-               <seg xml:id="ParlaMint-UA_2014-04-11-m0.u21.p1" xml:lang="uk">Прошу передать слово Гончарову.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-11-m0.u21.p1" xml:lang="ru">Прошу передать слово Гончарову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-11-m0.u22">
@@ -1193,7 +1193,7 @@
             </u>
             <note type="speaker">ЯВОРІВСЬКИЙ В.О.</note>
             <u who="ЯВОРІВСЬКИЙ В.О." ana="#regular" xml:id="ParlaMint-UA_2014-04-11-m0.u173">
-               <seg xml:id="ParlaMint-UA_2014-04-11-m0.u173.p1" xml:lang="ru">Два рядки ще.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-11-m0.u173.p1" xml:lang="uk">Два рядки ще.</seg>
                <seg xml:id="ParlaMint-UA_2014-04-11-m0.u173.p2" xml:lang="ru">"У вас дома молчанье – золото,</seg>
                <seg xml:id="ParlaMint-UA_2014-04-11-m0.u173.p3" xml:lang="ru">А у нас жгут "коктейли Молотова".</seg>
                <seg xml:id="ParlaMint-UA_2014-04-11-m0.u173.p4" xml:lang="ru">Да, у нас в сердце кровь горячая.</seg>

@@ -377,7 +377,7 @@
             <note type="time"><time when="2016-09-29T10:45:35">10:45:35</time></note>
             <note type="speaker">ДУБІНІН О.І.</note>
             <u who="ДУБІНІН О.І." ana="#regular" xml:id="ParlaMint-UA_2016-09-29-m0.u52">
-               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u52.p1" xml:lang="uk">Прошу слово передать Куприю.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u52.p1" xml:lang="ru">Прошу слово передать Куприю.</seg>
             </u>
             <note type="time"><time when="2016-09-29T10:45:43">10:45:43</time></note>
             <note type="speaker">КУПРІЙ В.М.</note>
@@ -1064,7 +1064,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-09-29-m0.u162">
-               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u162.p1" xml:lang="uk">Зарошую до слова народного депутата Парасюка, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-29-m0.u162.p1" xml:lang="ru">Зарошую до слова народного депутата Парасюка, прошу.</seg>
             </u>
             <note type="time"><time when="2016-09-29T11:50:18">11:50:18</time></note>
             <note type="speaker">ПАРАСЮК В.З.</note>

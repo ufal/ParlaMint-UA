@@ -86,7 +86,7 @@
             <note type="time"><time when="2015-05-13T10:13:30">10:13:30</time></note>
             <note type="speaker">МОРОКО Ю.М.</note>
             <u who="МОРОКО Ю.М." ana="#regular" xml:id="ParlaMint-UA_2015-05-13-m0.u5">
-               <seg xml:id="ParlaMint-UA_2015-05-13-m0.u5.p1" xml:lang="uk">Прошу передать слово Вилкулу Александру Юрьевичу.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-13-m0.u5.p1" xml:lang="ru">Прошу передать слово Вилкулу Александру Юрьевичу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-05-13-m0.u6">

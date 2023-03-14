@@ -388,7 +388,7 @@
             <note type="time"><time when="2017-02-21T16:58:22">16:58:22</time></note>
             <note type="speaker">ФРІЗ І.В.</note>
             <u who="ФРІЗ І.В." ana="#regular" xml:id="ParlaMint-UA_2017-02-21-m1.u44">
-               <seg xml:id="ParlaMint-UA_2017-02-21-m1.u44.p1" xml:lang="uk">Прошу передать слово коллеге Кудлаенко.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-21-m1.u44.p1" xml:lang="ru">Прошу передать слово коллеге Кудлаенко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-21-m1.u45">

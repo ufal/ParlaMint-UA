@@ -254,7 +254,7 @@
             <note type="time"><time when="2013-05-24T10:47:10">10:47:10</time></note>
             <note type="speaker">ГОРОХОВ С.О.</note>
             <u who="ГОРОХОВ С.О." ana="#regular" xml:id="ParlaMint-UA_2013-05-24-m0.u25">
-               <seg xml:id="ParlaMint-UA_2013-05-24-m0.u25.p1" xml:lang="uk">Я прошу передать слово коллеге Герман.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-24-m0.u25.p1" xml:lang="ru">Я прошу передать слово коллеге Герман.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-24-m0.u26">
@@ -327,7 +327,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-24-m0.u40">
-               <seg xml:id="ParlaMint-UA_2013-05-24-m0.u40.p1" xml:lang="uk">Говорите. Я прошу говорить.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-24-m0.u40.p1" xml:lang="ru">Говорите. Я прошу говорить.</seg>
             </u>
             <note type="speaker">ПРАСОЛОВ І.М.</note>
             <u who="ПРАСОЛОВ І.М." ana="#regular" xml:id="ParlaMint-UA_2013-05-24-m0.u41">

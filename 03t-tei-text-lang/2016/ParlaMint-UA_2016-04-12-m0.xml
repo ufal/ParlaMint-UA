@@ -673,7 +673,7 @@
             <note type="time"><time when="2016-04-12T11:39:54">11:39:54</time></note>
             <note type="speaker">ГАЛЬЧЕНКО А.В.</note>
             <u who="ГАЛЬЧЕНКО А.В." ana="#regular" xml:id="ParlaMint-UA_2016-04-12-m0.u95">
-               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u95.p1" xml:lang="uk">Прошу передать слово депутату Долженкову.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u95.p1" xml:lang="ru">Прошу передать слово депутату Долженкову.</seg>
             </u>
             <note type="time"><time when="2016-04-12T11:40:05">11:40:05</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
@@ -1114,7 +1114,7 @@
             <note type="time"><time when="2016-04-12T13:21:04">13:21:04</time></note>
             <note type="speaker">БАЛИЦЬКИЙ Є.В.</note>
             <u who="БАЛИЦЬКИЙ Є.В." ana="#regular" xml:id="ParlaMint-UA_2016-04-12-m0.u164">
-               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u164.p1" xml:lang="uk">Евгений Балицкий, 80 округ. Прошу передать микрофон Матвиенкову.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-12-m0.u164.p1" xml:lang="ru">Евгений Балицкий, 80 округ. Прошу передать микрофон Матвиенкову.</seg>
             </u>
             <note type="time"><time when="2016-04-12T13:21:11">13:21:11</time></note>
             <note type="speaker">МАТВІЄНКОВ С.А.</note>

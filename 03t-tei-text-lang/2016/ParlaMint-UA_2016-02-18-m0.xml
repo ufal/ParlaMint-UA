@@ -367,7 +367,7 @@
             <note type="time"><time when="2016-02-18T11:00:35">11:00:35</time></note>
             <note type="speaker">ВОРОПАЄВ Ю.М.</note>
             <u who="ВОРОПАЄВ Ю.М." ana="#regular" xml:id="ParlaMint-UA_2016-02-18-m0.u37">
-               <seg xml:id="ParlaMint-UA_2016-02-18-m0.u37.p1" xml:lang="uk">Прошу передать слово Матвиенкову.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-18-m0.u37.p1" xml:lang="ru">Прошу передать слово Матвиенкову.</seg>
             </u>
             <note type="time"><time when="2016-02-18T11:00:42">11:00:42</time></note>
             <note type="speaker">МАТВІЄНКОВ С.А.</note>
@@ -1074,7 +1074,7 @@
             <note type="time"><time when="2016-02-18T13:04:04">13:04:04</time></note>
             <note type="speaker">МАТВІЄНКОВ С.А.</note>
             <u who="МАТВІЄНКОВ С.А." ana="#regular" xml:id="ParlaMint-UA_2016-02-18-m0.u123">
-               <seg xml:id="ParlaMint-UA_2016-02-18-m0.u123.p1" xml:lang="uk">Прошу передать слово Насалику, депутату.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-18-m0.u123.p1" xml:lang="ru">Прошу передать слово Насалику, депутату.</seg>
             </u>
             <note type="time"><time when="2016-02-18T13:04:09">13:04:09</time></note>
             <note type="speaker">НАСАЛИК І.С.</note>

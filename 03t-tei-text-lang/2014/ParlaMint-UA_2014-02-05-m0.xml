@@ -90,7 +90,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-05-m0.u7">
-               <seg xml:id="ParlaMint-UA_2014-02-05-m0.u7.p1" xml:lang="uk">Та принципове! Ну, треба. Виступайте, не втрачайте час. Виступайте, прошу вас.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-05-m0.u7.p1" xml:lang="ru">Та принципове! Ну, треба. Виступайте, не втрачайте час. Виступайте, прошу вас.</seg>
             </u>
             <note type="speaker">ПИНЗЕНИК В.М.</note>
             <u who="ПИНЗЕНИК В.М." ana="#regular" xml:id="ParlaMint-UA_2014-02-05-m0.u8">
@@ -121,7 +121,7 @@
             <note type="time"><time when="2014-02-05T10:37:29">10:37:29</time></note>
             <note type="speaker">КУНЧЕНКО О.П.</note>
             <u who="КУНЧЕНКО О.П." ana="#regular" xml:id="ParlaMint-UA_2014-02-05-m0.u12">
-               <seg xml:id="ParlaMint-UA_2014-02-05-m0.u12.p1" xml:lang="uk">Я прошу слово передать Нестору Ивановичу Шуфричу.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-05-m0.u12.p1" xml:lang="ru">Я прошу слово передать Нестору Ивановичу Шуфричу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-05-m0.u13">

@@ -66,7 +66,7 @@
             <note type="time"><time when="2013-06-04T10:05:49">10:05:49</time></note>
             <note type="speaker">ГОРОХОВ С.О.</note>
             <u who="ГОРОХОВ С.О." ana="#regular" xml:id="ParlaMint-UA_2013-06-04-m0.u2">
-               <seg xml:id="ParlaMint-UA_2013-06-04-m0.u2.p1" xml:lang="uk">Прошу передать слово Тигипко, коллеге Тигипко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-04-m0.u2.p1" xml:lang="ru">Прошу передать слово Тигипко, коллеге Тигипко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-04-m0.u3">

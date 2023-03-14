@@ -87,7 +87,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u4">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u4.p1" xml:lang="uk">Прошу дать закончить.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u4.p1" xml:lang="ru">Прошу дать закончить.</seg>
             </u>
             <note type="speaker">ДЕЙЧ Б.Д.</note>
             <u who="ДЕЙЧ Б.Д." ana="#regular" xml:id="ParlaMint-UA_2013-04-02-m0.u5">
@@ -600,7 +600,7 @@
             <note type="time"><time when="2013-04-02T11:22:13">11:22:13</time></note>
             <note type="speaker">ЧЕЧЕТОВ М.В.</note>
             <u who="ЧЕЧЕТОВ М.В." ana="#regular" xml:id="ParlaMint-UA_2013-04-02-m0.u82">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u82.p1" xml:lang="uk">Прошу передать слово Шуфричу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u82.p1" xml:lang="ru">Прошу передать слово Шуфричу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u83">
@@ -789,7 +789,7 @@
             <note type="time"><time when="2013-04-02T11:39:54">11:39:54</time></note>
             <note type="speaker">БОНДАРЕНКО О.А.</note>
             <u who="БОНДАРЕНКО О.А." ana="#regular" xml:id="ParlaMint-UA_2013-04-02-m0.u111">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u111.p1" xml:lang="uk">Прошу слово передать Кузьмуку Александру Ивановичу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u111.p1" xml:lang="ru">Прошу слово передать Кузьмуку Александру Ивановичу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u112">
@@ -1103,7 +1103,7 @@
             <note type="time"><time when="2013-04-02T13:19:54">13:19:54</time></note>
             <note type="speaker">ЧЕЧЕТОВ М.В.</note>
             <u who="ЧЕЧЕТОВ М.В." ana="#regular" xml:id="ParlaMint-UA_2013-04-02-m0.u149">
-               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u149.p1" xml:lang="uk">Прошу передать слово Инне Богословской.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-02-m0.u149.p1" xml:lang="ru">Прошу передать слово Инне Богословской.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-02-m0.u150">

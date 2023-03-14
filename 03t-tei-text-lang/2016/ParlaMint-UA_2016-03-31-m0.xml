@@ -1026,7 +1026,7 @@
             <note type="time"><time when="2016-03-31T13:13:50">13:13:50</time></note>
             <note type="speaker">ДУНАЄВ С.В.</note>
             <u who="ДУНАЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2016-03-31-m0.u131">
-               <seg xml:id="ParlaMint-UA_2016-03-31-m0.u131.p1" xml:lang="uk">Прошу передать слово Матвиенкову.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-31-m0.u131.p1" xml:lang="ru">Прошу передать слово Матвиенкову.</seg>
             </u>
             <note type="time"><time when="2016-03-31T13:14:04">13:14:04</time></note>
             <note type="speaker">МАТВІЄНКОВ С.А.</note>

@@ -97,7 +97,7 @@
             <note type="time"><time when="2013-04-18T16:12:02">16:12:02</time></note>
             <note type="speaker">КІЛІНКАРОВ С.П.</note>
             <u who="КІЛІНКАРОВ С.П." ana="#regular" xml:id="ParlaMint-UA_2013-04-18-m1.u8">
-               <seg xml:id="ParlaMint-UA_2013-04-18-m1.u8.p1" xml:lang="uk">Прошу передать слово Мармазову Евгению Васильевичу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-18-m1.u8.p1" xml:lang="ru">Прошу передать слово Мармазову Евгению Васильевичу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-18-m1.u9">

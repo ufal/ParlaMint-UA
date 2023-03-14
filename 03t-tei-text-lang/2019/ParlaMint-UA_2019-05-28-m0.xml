@@ -900,8 +900,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-05-28-m0.u104">
-               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u104.p1" xml:lang="ru">Запрошую до слова народного депутата Гулака.</seg>
-               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u104.p2" xml:lang="ru">Будь ласка, народний депутат Заружко.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u104.p1" xml:lang="uk">Запрошую до слова народного депутата Гулака.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-28-m0.u104.p2" xml:lang="uk">Будь ласка, народний депутат Заружко.</seg>
             </u>
             <note type="time"><time when="2019-05-28T12:45:12">12:45:12</time></note>
             <note type="speaker">ЗАРУЖКО В.Л.</note>

@@ -154,7 +154,7 @@
             <note type="time"><time when="2016-05-19T10:20:21">10:20:21</time></note>
             <note type="speaker">ДЕЙДЕЙ Є.С.</note>
             <u who="ДЕЙДЕЙ Є.С." ana="#regular" xml:id="ParlaMint-UA_2016-05-19-m0.u8">
-               <seg xml:id="ParlaMint-UA_2016-05-19-m0.u8.p1" xml:lang="uk">Прошу передать слово Елене Бойко.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-19-m0.u8.p1" xml:lang="ru">Прошу передать слово Елене Бойко.</seg>
             </u>
             <note type="time"><time when="2016-05-19T10:20:29">10:20:29</time></note>
             <note type="speaker">БОЙКО О.П.</note>

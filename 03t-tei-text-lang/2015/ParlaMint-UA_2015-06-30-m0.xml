@@ -946,7 +946,7 @@
             <note type="time"><time when="2015-06-30T13:05:01">13:05:01</time></note>
             <note type="speaker">ІЛЬЮК А.О.</note>
             <u who="ІЛЬЮК А.О." ana="#regular" xml:id="ParlaMint-UA_2015-06-30-m0.u121">
-               <seg xml:id="ParlaMint-UA_2015-06-30-m0.u121.p1" xml:lang="uk">Прошу передать слово народному депутату Олегу Кулиничу.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-30-m0.u121.p1" xml:lang="ru">Прошу передать слово народному депутату Олегу Кулиничу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-06-30-m0.u122">

@@ -603,7 +603,7 @@
             <note type="time"><time when="2014-12-25T11:32:20">11:32:20</time></note>
             <note type="speaker">ДУНАЄВ С.В.</note>
             <u who="ДУНАЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2014-12-25-m0.u80">
-               <seg xml:id="ParlaMint-UA_2014-12-25-m0.u80.p1" xml:lang="uk">Прошу передать слово Долженкову.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-25-m0.u80.p1" xml:lang="ru">Прошу передать слово Долженкову.</seg>
             </u>
             <note type="time"><time when="2014-12-25T11:32:25">11:32:25</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>

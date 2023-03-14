@@ -1241,7 +1241,7 @@
             <note type="time"><time when="2017-03-23T18:01:44">18:01:44</time></note>
             <note type="speaker">БАЛИЦЬКИЙ Є.В.</note>
             <u who="БАЛИЦЬКИЙ Є.В." ana="#regular" xml:id="ParlaMint-UA_2017-03-23-m1.u181">
-               <seg xml:id="ParlaMint-UA_2017-03-23-m1.u181.p1" xml:lang="uk">Прошу передать слово Долженкову.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-23-m1.u181.p1" xml:lang="ru">Прошу передать слово Долженкову.</seg>
             </u>
             <note type="time"><time when="2017-03-23T18:01:46">18:01:46</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>

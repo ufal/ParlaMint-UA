@@ -365,7 +365,7 @@
             <note type="time"><time when="2014-06-05T16:45:58">16:45:58</time></note>
             <note type="speaker">ЛЕВЧЕНКО О.В.</note>
             <u who="ЛЕВЧЕНКО О.В." ana="#regular" xml:id="ParlaMint-UA_2014-06-05-m1.u60">
-               <seg xml:id="ParlaMint-UA_2014-06-05-m1.u60.p1" xml:lang="uk">Прошу передать слово коллеге Гончарову.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-05-m1.u60.p1" xml:lang="ru">Прошу передать слово коллеге Гончарову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-05-m1.u61">
@@ -599,7 +599,7 @@
             <note type="time"><time when="2014-06-05T17:19:51">17:19:51</time></note>
             <note type="speaker">ФІРСОВ Є.П.</note>
             <u who="ФІРСОВ Є.П." ana="#regular" xml:id="ParlaMint-UA_2014-06-05-m1.u100">
-               <seg xml:id="ParlaMint-UA_2014-06-05-m1.u100.p1" xml:lang="uk">Прошу передать слово Бельковой Ольге.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-05-m1.u100.p1" xml:lang="ru">Прошу передать слово Бельковой Ольге.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-05-m1.u101">

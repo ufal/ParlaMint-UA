@@ -580,7 +580,7 @@
             <note type="time"><time when="2016-05-18T11:55:48">11:55:48</time></note>
             <note type="speaker">КОЛЄСНІКОВ Д.В.</note>
             <u who="КОЛЄСНІКОВ Д.В." ana="#regular" xml:id="ParlaMint-UA_2016-05-18-m0.u82">
-               <seg xml:id="ParlaMint-UA_2016-05-18-m0.u82.p1" xml:lang="uk">Андрей Владимирович, прошу передать слово Александру Долженкову.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-18-m0.u82.p1" xml:lang="ru">Андрей Владимирович, прошу передать слово Александру Долженкову.</seg>
             </u>
             <note type="time"><time when="2016-05-18T11:55:56">11:55:56</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>

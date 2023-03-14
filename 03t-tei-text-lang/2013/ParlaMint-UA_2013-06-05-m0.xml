@@ -485,7 +485,7 @@
             <note type="time"><time when="2013-06-05T11:07:10">11:07:10</time></note>
             <note type="speaker">КОЛЕСНІЧЕНКО В.В.</note>
             <u who="КОЛЕСНІЧЕНКО В.В." ana="#regular" xml:id="ParlaMint-UA_2013-06-05-m0.u70">
-               <seg xml:id="ParlaMint-UA_2013-06-05-m0.u70.p1" xml:lang="uk">Я прошу передать слово Ярославу Сухому.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-05-m0.u70.p1" xml:lang="ru">Я прошу передать слово Ярославу Сухому.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-05-m0.u71">
@@ -576,7 +576,7 @@
             <note type="time"><time when="2013-06-05T11:18:32">11:18:32</time></note>
             <note type="speaker">ФАБРИКАНТ С.С.</note>
             <u who="ФАБРИКАНТ С.С." ana="#regular" xml:id="ParlaMint-UA_2013-06-05-m0.u84">
-               <seg xml:id="ParlaMint-UA_2013-06-05-m0.u84.p1" xml:lang="uk">Я прошу передать слово Михаилу Васильевичу Чечетову.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-05-m0.u84.p1" xml:lang="ru">Я прошу передать слово Михаилу Васильевичу Чечетову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-05-m0.u85">
@@ -1167,7 +1167,7 @@
             <note type="time"><time when="2013-06-05T13:07:23">13:07:23</time></note>
             <note type="speaker">БІДЬОВКА В.А.</note>
             <u who="БІДЬОВКА В.А." ana="#regular" xml:id="ParlaMint-UA_2013-06-05-m0.u178">
-               <seg xml:id="ParlaMint-UA_2013-06-05-m0.u178.p1" xml:lang="uk">Прошу передать слово Петру Степановичу Цибенко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-05-m0.u178.p1" xml:lang="ru">Прошу передать слово Петру Степановичу Цибенко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-05-m0.u179">
@@ -1598,7 +1598,7 @@
             <note type="time"><time when="2013-06-05T13:59:27">13:59:27</time></note>
             <note type="speaker">ЧЕЧЕТОВ М.В.</note>
             <u who="ЧЕЧЕТОВ М.В." ana="#regular" xml:id="ParlaMint-UA_2013-06-05-m0.u249">
-               <seg xml:id="ParlaMint-UA_2013-06-05-m0.u249.p1" xml:lang="uk">Я прошу "Свободу" голос подать. Голос, "Свобода"! Подавайте голос!</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-05-m0.u249.p1" xml:lang="ru">Я прошу "Свободу" голос подать. Голос, "Свобода"! Подавайте голос!</seg>
                <seg xml:id="ParlaMint-UA_2013-06-05-m0.u249.p2" xml:lang="ru">Уважаемый Владимир Васильевич! Уважаемые коллеги! Мы рассмотрели вопрос. Сейчас начинаются комитеты, заседания комитетов. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Большая просьба.</seg>
                <seg xml:id="ParlaMint-UA_2013-06-05-m0.u249.p3" xml:lang="ru">Хорошо, хорошо. Еще голос!</seg>
                <vocal type="noise">

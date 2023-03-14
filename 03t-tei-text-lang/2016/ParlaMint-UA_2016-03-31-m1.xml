@@ -445,7 +445,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-31-m1.u59">
-               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u59.p1" xml:lang="ru">Будь ласка, Максим Курячий, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-31-m1.u59.p1" xml:lang="uk">Будь ласка, Максим Курячий, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2016-03-31T17:09:04">17:09:04</time></note>
             <note type="speaker">КУРЯЧИЙ М.П.</note>

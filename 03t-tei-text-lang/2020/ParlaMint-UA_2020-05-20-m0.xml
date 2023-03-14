@@ -1048,8 +1048,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-20-m0.u136">
-               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u136.p1" xml:lang="ru">А, Князевич Руслан Петрович.</seg>
-               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u136.p2" xml:lang="ru">Будь ласка, Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u136.p1" xml:lang="uk">А, Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u136.p2" xml:lang="uk">Будь ласка, Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-05-20T13:29:08">13:29:08</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

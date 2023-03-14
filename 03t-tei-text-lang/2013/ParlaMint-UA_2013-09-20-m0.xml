@@ -639,7 +639,7 @@
             <note type="time"><time when="2013-09-20T11:43:34">11:43:34</time></note>
             <note type="speaker">БАЛИЦЬКИЙ Є.В.</note>
             <u who="БАЛИЦЬКИЙ Є.В." ana="#regular" xml:id="ParlaMint-UA_2013-09-20-m0.u72">
-               <seg xml:id="ParlaMint-UA_2013-09-20-m0.u72.p1" xml:lang="uk">Депутат Балицкий. Прошу передать слово Попеску.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-20-m0.u72.p1" xml:lang="ru">Депутат Балицкий. Прошу передать слово Попеску.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КАЛЄТНІК І.Г." ana="#chair" xml:id="ParlaMint-UA_2013-09-20-m0.u73">
@@ -666,7 +666,7 @@
             <note type="speaker">КОЛЕСНІЧЕНКО В.В.</note>
             <u who="КОЛЕСНІЧЕНКО В.В." ana="#regular" xml:id="ParlaMint-UA_2013-09-20-m0.u77">
                <seg xml:id="ParlaMint-UA_2013-09-20-m0.u77.p1" xml:lang="ru">Фракция Партии регионов, Колесниченко.</seg>
-               <seg xml:id="ParlaMint-UA_2013-09-20-m0.u77.p2" xml:lang="uk">Прошу передать слово моему коллеге Журавскому.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-20-m0.u77.p2" xml:lang="ru">Прошу передать слово моему коллеге Журавскому.</seg>
             </u>
             <note type="time"><time when="2013-09-20T11:45:59">11:45:59</time></note>
             <note type="speaker">ЖУРАВСЬКИЙ В.С.</note>
@@ -726,8 +726,8 @@
             <note type="time"><time when="2013-09-20T11:57:15">11:57:15</time></note>
             <note type="speaker">КОЛЕСНІЧЕНКО В.В.</note>
             <u who="КОЛЕСНІЧЕНКО В.В." ana="#regular" xml:id="ParlaMint-UA_2013-09-20-m0.u86">
-               <seg xml:id="ParlaMint-UA_2013-09-20-m0.u86.p1" xml:lang="uk">Фракция Партии регионов, Колесниченко, Севастополь.</seg>
-               <seg xml:id="ParlaMint-UA_2013-09-20-m0.u86.p2" xml:lang="uk">Слово прошу передать своему коллеге по фракции Ярославу Сухому.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-20-m0.u86.p1" xml:lang="ru">Фракция Партии регионов, Колесниченко, Севастополь.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-20-m0.u86.p2" xml:lang="ru">Слово прошу передать своему коллеге по фракции Ярославу Сухому.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КАЛЄТНІК І.Г." ana="#chair" xml:id="ParlaMint-UA_2013-09-20-m0.u87">

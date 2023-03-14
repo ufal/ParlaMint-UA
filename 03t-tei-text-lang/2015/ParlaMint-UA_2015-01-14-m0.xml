@@ -658,7 +658,7 @@
             <note type="time"><time when="2015-01-14T11:39:06">11:39:06</time></note>
             <note type="speaker">ГАЛЬЧЕНКО А.В.</note>
             <u who="ГАЛЬЧЕНКО А.В." ana="#regular" xml:id="ParlaMint-UA_2015-01-14-m0.u96">
-               <seg xml:id="ParlaMint-UA_2015-01-14-m0.u96.p1" xml:lang="uk">Прошу передать слово депутату Долженкову.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-14-m0.u96.p1" xml:lang="ru">Прошу передать слово депутату Долженкову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-14-m0.u97">

@@ -445,7 +445,7 @@
             <note type="time"><time when="2015-12-22T11:16:35">11:16:35</time></note>
             <note type="speaker">ПРЕСМАН О.С.</note>
             <u who="ПРЕСМАН О.С." ana="#regular" xml:id="ParlaMint-UA_2015-12-22-m0.u54">
-               <seg xml:id="ParlaMint-UA_2015-12-22-m0.u54.p1" xml:lang="uk">Прошу передать слово Валерию Писаренко.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-22-m0.u54.p1" xml:lang="ru">Прошу передать слово Валерию Писаренко.</seg>
             </u>
             <note type="time"><time when="2015-12-22T11:16:40">11:16:40</time></note>
             <note type="speaker">ПИСАРЕНКО В.В.</note>

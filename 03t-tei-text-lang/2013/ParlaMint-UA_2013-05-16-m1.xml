@@ -381,7 +381,7 @@
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u57.p5" xml:lang="uk">Прошу, Александр Сергеевич Ефремов.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-16-m1.u57.p5" xml:lang="ru">Прошу, Александр Сергеевич Ефремов.</seg>
             </u>
             <note type="time"><time when="2013-05-16T17:01:18">17:01:18</time></note>
             <note type="speaker">ЄФРЕМОВ О.С.</note>

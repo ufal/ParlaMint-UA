@@ -856,7 +856,7 @@
             <note type="time"><time when="2016-04-12T18:07:33">18:07:33</time></note>
             <note type="speaker">ТРЕТЬЯКОВ О.Ю.</note>
             <u who="ТРЕТЬЯКОВ О.Ю." ana="#regular" xml:id="ParlaMint-UA_2016-04-12-m1.u124">
-               <seg xml:id="ParlaMint-UA_2016-04-12-m1.u124.p1" xml:lang="uk">Прошу передать слово Олегу Барне.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-12-m1.u124.p1" xml:lang="ru">Прошу передать слово Олегу Барне.</seg>
             </u>
             <note type="time"><time when="2016-04-12T18:07:40">18:07:40</time></note>
             <note type="speaker">БАРНА О.С.</note>

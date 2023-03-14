@@ -363,7 +363,7 @@
             <note type="time"><time when="2015-04-24T11:15:41">11:15:41</time></note>
             <note type="speaker">МОРОКО Ю.М.</note>
             <u who="МОРОКО Ю.М." ana="#regular" xml:id="ParlaMint-UA_2015-04-24-m0.u44">
-               <seg xml:id="ParlaMint-UA_2015-04-24-m0.u44.p1" xml:lang="uk">Прошу передать слово Матвеенкову.</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-24-m0.u44.p1" xml:lang="ru">Прошу передать слово Матвеенкову.</seg>
             </u>
             <note type="time"><time when="2015-04-24T11:15:51">11:15:51</time></note>
             <note type="speaker">МАТВІЄНКОВ С.А.</note>

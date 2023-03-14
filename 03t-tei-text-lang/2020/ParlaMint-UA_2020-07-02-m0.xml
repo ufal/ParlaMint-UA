@@ -201,7 +201,7 @@
             <note type="narrative">СТЕФАНЧУК Р.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-02-m0.u21">
-               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u21.p1" xml:lang="ru">Поправка 2222. Народний депутат Макаров, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u21.p1" xml:lang="uk">Поправка 2222. Народний депутат Макаров, будь ласка.</seg>
             </u>
             <note type="time"><time when="2020-07-02T10:24:56">10:24:56</time></note>
             <note type="speaker">МАКАРОВ О.А.</note>
@@ -1057,7 +1057,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-02-m0.u151">
-               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u151.p1" xml:lang="ru">Добавте 4 хвилини, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u151.p1" xml:lang="uk">Добавте 4 хвилини, будь ласка.</seg>
             </u>
             <note type="time"><time when="2020-07-02T11:44:14">11:44:14</time></note>
             <note type="speaker">ЖЕЛЕЗНЯК Я.І.</note>

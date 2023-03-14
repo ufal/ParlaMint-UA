@@ -1430,7 +1430,7 @@
             <note type="narrative">СТЕФАНЧУК Р.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-16-m0.u197">
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u197.p1" xml:lang="ru">Наступна поправка 325. Народний депутат Гнатенко, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u197.p1" xml:lang="uk">Наступна поправка 325. Народний депутат Гнатенко, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-06-16T12:47:24">12:47:24</time></note>
             <note type="speaker">ГНАТЕНКО В.С.</note>

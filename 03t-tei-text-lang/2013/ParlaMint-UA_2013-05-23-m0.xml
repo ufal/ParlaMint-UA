@@ -392,7 +392,7 @@
             <note type="time"><time when="2013-05-23T10:53:00">10:53:00</time></note>
             <note type="speaker">ЗУБЧЕВСЬКИЙ О.П.</note>
             <u who="ЗУБЧЕВСЬКИЙ О.П." ana="#regular" xml:id="ParlaMint-UA_2013-05-23-m0.u50">
-               <seg xml:id="ParlaMint-UA_2013-05-23-m0.u50.p1" xml:lang="uk">Прошу передать слово Петру Николаевичу Симоненко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-23-m0.u50.p1" xml:lang="ru">Прошу передать слово Петру Николаевичу Симоненко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-23-m0.u51">
@@ -528,7 +528,7 @@
             <note type="time"><time when="2013-05-23T11:10:32">11:10:32</time></note>
             <note type="speaker">ШПЕНОВ Д.Ю.</note>
             <u who="ШПЕНОВ Д.Ю." ana="#regular" xml:id="ParlaMint-UA_2013-05-23-m0.u68">
-               <seg xml:id="ParlaMint-UA_2013-05-23-m0.u68.p1" xml:lang="uk">Прошу передать слово Чечетову.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-23-m0.u68.p1" xml:lang="ru">Прошу передать слово Чечетову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-23-m0.u69">

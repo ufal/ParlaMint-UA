@@ -681,7 +681,7 @@
             <note type="time"><time when="2015-06-04T17:34:01">17:34:01</time></note>
             <note type="speaker">МАРКЕВИЧ Я.В.</note>
             <u who="МАРКЕВИЧ Я.В." ana="#regular" xml:id="ParlaMint-UA_2015-06-04-m1.u86">
-               <seg xml:id="ParlaMint-UA_2015-06-04-m1.u86.p1" xml:lang="uk">Прошу передать слово коллеге Пидлисецкому.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-04-m1.u86.p1" xml:lang="ru">Прошу передать слово коллеге Пидлисецкому.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-06-04-m1.u87">

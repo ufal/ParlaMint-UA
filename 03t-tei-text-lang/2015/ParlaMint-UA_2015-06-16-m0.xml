@@ -419,7 +419,7 @@
             <note type="time"><time when="2015-06-16T11:04:34">11:04:34</time></note>
             <note type="speaker">СЕМЕНЧЕНКО С.І.</note>
             <u who="СЕМЕНЧЕНКО С.І." ana="#regular" xml:id="ParlaMint-UA_2015-06-16-m0.u58">
-               <seg xml:id="ParlaMint-UA_2015-06-16-m0.u58.p1" xml:lang="uk">Олегу Березюку передать прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-16-m0.u58.p1" xml:lang="ru">Олегу Березюку передать прошу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-06-16-m0.u59">
@@ -784,7 +784,7 @@
             <note type="time"><time when="2015-06-16T11:39:30">11:39:30</time></note>
             <note type="speaker">КИРИЧЕНКО О.М.</note>
             <u who="КИРИЧЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2015-06-16-m0.u123">
-               <seg xml:id="ParlaMint-UA_2015-06-16-m0.u123.p1" xml:lang="uk">Прошу передать Амельченку Василию Васильевичу слово.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-16-m0.u123.p1" xml:lang="ru">Прошу передать Амельченку Василию Васильевичу слово.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-06-16-m0.u124">

@@ -140,7 +140,7 @@
             <note type="time"><time when="2014-06-18T10:18:58">10:18:58</time></note>
             <note type="speaker">ДЗАРДАНОВ М.С.</note>
             <u who="ДЗАРДАНОВ М.С." ana="#regular" xml:id="ParlaMint-UA_2014-06-18-m0.u14">
-               <seg xml:id="ParlaMint-UA_2014-06-18-m0.u14.p1" xml:lang="uk">Прошу передать слово коллеге Спириной.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-18-m0.u14.p1" xml:lang="ru">Прошу передать слово коллеге Спириной.</seg>
             </u>
             <note type="time"><time when="2014-06-18T10:19:06">10:19:06</time></note>
             <note type="speaker">СПІРІНА І.Д.</note>
@@ -212,7 +212,7 @@
             <note type="time"><time when="2014-06-18T10:32:51">10:32:51</time></note>
             <note type="speaker">ДОРОХОВ А.М.</note>
             <u who="ДОРОХОВ А.М." ana="#regular" xml:id="ParlaMint-UA_2014-06-18-m0.u26">
-               <seg xml:id="ParlaMint-UA_2014-06-18-m0.u26.p1" xml:lang="uk">Прошу передать слово моему товарищу Гончарову.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-18-m0.u26.p1" xml:lang="ru">Прошу передать слово моему товарищу Гончарову.</seg>
             </u>
             <note type="time"><time when="2014-06-18T10:33:05">10:33:05</time></note>
             <note type="speaker">ГОНЧАРОВ С.В.</note>
@@ -733,7 +733,7 @@
             <note type="time"><time when="2014-06-18T11:51:26">11:51:26</time></note>
             <note type="speaker">ПОНОМАРЬОВ А.В.</note>
             <u who="ПОНОМАРЬОВ А.В." ana="#regular" xml:id="ParlaMint-UA_2014-06-18-m0.u100">
-               <seg xml:id="ParlaMint-UA_2014-06-18-m0.u100.p1" xml:lang="uk">Прошу передать слово Морозенко Евгению Вадимовичу.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-18-m0.u100.p1" xml:lang="ru">Прошу передать слово Морозенко Евгению Вадимовичу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-18-m0.u101">
@@ -921,7 +921,7 @@
             <note type="time"><time when="2014-06-18T12:48:27">12:48:27</time></note>
             <note type="speaker">ДОРОХОВ А.М.</note>
             <u who="ДОРОХОВ А.М." ana="#regular" xml:id="ParlaMint-UA_2014-06-18-m0.u133">
-               <seg xml:id="ParlaMint-UA_2014-06-18-m0.u133.p1" xml:lang="uk">Прошу передать слово Цибенко.</seg>
+               <seg xml:id="ParlaMint-UA_2014-06-18-m0.u133.p1" xml:lang="ru">Прошу передать слово Цибенко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-06-18-m0.u134">

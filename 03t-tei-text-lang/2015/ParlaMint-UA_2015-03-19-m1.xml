@@ -112,7 +112,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-19-m1.u9">
-               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u9.p1" xml:lang="ru">Будь ласка, народний депутат Побер, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u9.p1" xml:lang="uk">Будь ласка, народний депутат Побер, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2015-03-19T16:30:14">16:30:14</time></note>
             <note type="speaker">ПОБЕР І.М.</note>
@@ -121,7 +121,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-19-m1.u11">
-               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u11.p1" xml:lang="ru">Народний депутат Соловей. Заспокойтесь, колеги, уважно послухайте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-19-m1.u11.p1" xml:lang="uk">Народний депутат Соловей. Заспокойтесь, колеги, уважно послухайте.</seg>
             </u>
             <note type="time"><time when="2015-03-19T16:30:31">16:30:31</time></note>
             <note type="speaker">СОЛОВЕЙ Ю.І.</note>
