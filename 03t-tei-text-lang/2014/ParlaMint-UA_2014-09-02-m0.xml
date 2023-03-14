@@ -193,7 +193,7 @@
                <incident type="action">
                   <desc>(Хвилина мовчання)</desc>
                </incident>
-               <seg xml:id="ParlaMint-UA_2014-09-02-m0.u20.p2" xml:lang="uk">Спасибо большое.</seg>
+               <seg xml:id="ParlaMint-UA_2014-09-02-m0.u20.p2" xml:lang="ru">Спасибо большое.</seg>
                <seg xml:id="ParlaMint-UA_2014-09-02-m0.u20.p3" xml:lang="ru">Именно этот факт мне позволяет говорить о том, что власть, которая сейчас здесь находится, делит людей на украинцев и "неукраинцев", власть, которая посылает армию бомбить мирные города, преступна, власть, которая отнимает право на обучение детей.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
@@ -432,7 +432,7 @@
             <note type="time"><time when="2014-09-02T11:13:47">11:13:47</time></note>
             <note type="speaker">БЕЗБАХ Я.Я.</note>
             <u who="БЕЗБАХ Я.Я." ana="#regular" xml:id="ParlaMint-UA_2014-09-02-m0.u54">
-               <seg xml:id="ParlaMint-UA_2014-09-02-m0.u54.p1" xml:lang="uk">Прошу передать слово Анне Герман, пожалуйста. Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2014-09-02-m0.u54.p1" xml:lang="ru">Прошу передать слово Анне Герман, пожалуйста. Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-09-02-m0.u55">

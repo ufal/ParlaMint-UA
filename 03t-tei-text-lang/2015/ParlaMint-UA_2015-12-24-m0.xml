@@ -3267,7 +3267,7 @@
             <note type="speaker">МАРТОВИЦЬКИЙ А.В.</note>
             <u who="МАРТОВИЦЬКИЙ А.В." ana="#regular" xml:id="ParlaMint-UA_2015-12-24-m0.u446">
                <seg xml:id="ParlaMint-UA_2015-12-24-m0.u446.p1" xml:lang="ru">Прошу передать слово Наталье Королевской.</seg>
-               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u446.p2" xml:lang="uk">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u446.p2" xml:lang="ru">Спасибо.</seg>
             </u>
             <note type="time"><time when="2015-12-24T03:03:10">03:03:10</time></note>
             <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>

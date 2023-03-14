@@ -650,7 +650,7 @@
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u88.p2" xml:lang="uk">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u88.p2" xml:lang="ru">Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m0.u89">
@@ -945,7 +945,7 @@
                   <desc>(Шум у залі)</desc>
                </vocal>
                <seg xml:id="ParlaMint-UA_2013-03-19-m0.u126.p2" xml:lang="ru">И депутаты, которые сейчас в том числе кричат, они не голосуют, как это положено, согласно Основного закона нашего государства. Поэтому просил бы всех принимать участие в работе и выполнять Основной закон.</seg>
-               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u126.p3" xml:lang="uk">Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u126.p3" xml:lang="ru">Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m0.u127">

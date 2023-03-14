@@ -690,7 +690,7 @@
             <note type="time"><time when="2018-03-15T12:00:39">12:00:39</time></note>
             <note type="speaker">ІВЧЕНКО В.Є.</note>
             <u who="ІВЧЕНКО В.Є." ana="#regular" xml:id="ParlaMint-UA_2018-03-15-m0.u77">
-               <seg xml:id="ParlaMint-UA_2018-03-15-m0.u77.p1" xml:lang="uk">Спасибо. Всех дождемся.</seg>
+               <seg xml:id="ParlaMint-UA_2018-03-15-m0.u77.p1" xml:lang="ru">Спасибо. Всех дождемся.</seg>
             </u>
             <vocal type="noise">
                <desc>(Шум у залі)</desc>

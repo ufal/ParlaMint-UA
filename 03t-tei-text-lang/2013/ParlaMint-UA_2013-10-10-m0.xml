@@ -793,7 +793,7 @@
                <kinesic type="applause">
                   <desc>(Оплески)</desc>
                </kinesic>
-               <seg xml:id="ParlaMint-UA_2013-10-10-m0.u103.p2" xml:lang="uk">. Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-10-m0.u103.p2" xml:lang="ru">. Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-10-m0.u104">
@@ -1255,7 +1255,7 @@
             <note type="speaker">ЦАРЬОВ О.А.</note>
             <u who="ЦАРЬОВ О.А." ana="#regular" xml:id="ParlaMint-UA_2013-10-10-m0.u161">
                <seg xml:id="ParlaMint-UA_2013-10-10-m0.u161.p1" xml:lang="ru">И мы должны принять закон для того, чтобы привести де-факто к де-юре, создать акционерное общество, которое сможет выпустить ценные бумаги, создать свой бюджет и работать на рынке, как работают компании на рынке Австралии, Канады и многих других зарубежных стран.</seg>
-               <seg xml:id="ParlaMint-UA_2013-10-10-m0.u161.p2" xml:lang="uk">Комитет поддержал в первом чтении. Просим поддержать всех в первом чтении. Спасибо.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-10-m0.u161.p2" xml:lang="ru">Комитет поддержал в первом чтении. Просим поддержать всех в первом чтении. Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-10-m0.u162">
