@@ -1106,7 +1106,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-14-m0.u163">
-               <seg xml:id="ParlaMint-UA_2015-01-14-m0.u163.p1" xml:lang="ru">Будь ласка, Герасимов.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-14-m0.u163.p1" xml:lang="uk">Будь ласка, Герасимов.</seg>
             </u>
             <note type="time"><time when="2015-01-14T13:16:57">13:16:57</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>

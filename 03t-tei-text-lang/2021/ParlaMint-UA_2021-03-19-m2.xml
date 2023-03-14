@@ -195,7 +195,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-19-m2.u18">
-               <seg xml:id="ParlaMint-UA_2021-03-19-m2.u18.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-19-m2.u18.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2021-03-19T14:14:35">14:14:35</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -220,7 +220,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-19-m2.u22">
-               <seg xml:id="ParlaMint-UA_2021-03-19-m2.u22.p1" xml:lang="ru">Гетманцев Данило Олександрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-19-m2.u22.p1" xml:lang="uk">Гетманцев Данило Олександрович.</seg>
             </u>
             <note type="time"><time when="2021-03-19T14:17:38">14:17:38</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>

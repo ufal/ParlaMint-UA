@@ -540,7 +540,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-07-28-m0.u38">
-               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u38.p1" xml:lang="ru">49 поправка, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u38.p1" xml:lang="uk">49 поправка, будь ласка.</seg>
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2022-07-28-m0.u39">
@@ -1513,7 +1513,7 @@
             <note type="time"><time when="2022-07-28T14:41:22">14:41:22</time></note>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2022-07-28-m0.u183">
-               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u183.p1" xml:lang="ru">Наступна, вибачте, я пропустила, 202-а.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-28-m0.u183.p1" xml:lang="uk">Наступна, вибачте, я пропустила, 202-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-07-28-m0.u184">

@@ -936,7 +936,7 @@
             <note type="time"><time when="2019-12-19T18:17:13">18:17:13</time></note>
             <note type="speaker">МАМКА Г.М.</note>
             <u who="МАМКА Г.М." ana="#regular" xml:id="ParlaMint-UA_2019-12-19-m1.u117">
-               <seg xml:id="ParlaMint-UA_2019-12-19-m1.u117.p1" xml:lang="ru">А в мене три правочки, я по-бистренькому пройду.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m1.u117.p1" xml:lang="uk">А в мене три правочки, я по-бистренькому пройду.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-19-m1.u118">
@@ -1029,7 +1029,7 @@
             </u>
             <note type="speaker">ПАПІЄВ М.М.</note>
             <u who="ПАПІЄВ М.М." ana="#regular" xml:id="ParlaMint-UA_2019-12-19-m1.u131">
-               <seg xml:id="ParlaMint-UA_2019-12-19-m1.u131.p1" xml:lang="ru">В 54-й, я вам кажу, 54 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m1.u131.p1" xml:lang="uk">В 54-й, я вам кажу, 54 поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-19-m1.u132">

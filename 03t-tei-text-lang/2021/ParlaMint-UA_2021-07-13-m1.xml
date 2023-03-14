@@ -336,11 +336,11 @@
             <note type="time"><time when="2021-07-13T16:28:26">16:28:26</time></note>
             <note type="speaker">ЄВТУШОК С.М.</note>
             <u who="ЄВТУШОК С.М." ana="#regular" xml:id="ParlaMint-UA_2021-07-13-m1.u38">
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u38.p1" xml:lang="ru">Цимбалюк. Михайло Цимбалюк.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u38.p1" xml:lang="uk">Цимбалюк. Михайло Цимбалюк.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-13-m1.u39">
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u39.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u39.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-07-13T16:28:31">16:28:31</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>

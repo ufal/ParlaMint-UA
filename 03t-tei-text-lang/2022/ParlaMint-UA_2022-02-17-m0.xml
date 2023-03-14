@@ -442,7 +442,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-02-17-m0.u59">
-               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u59.p1" xml:lang="ru">Артем Чорноморов, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u59.p1" xml:lang="uk">Артем Чорноморов, будь ласка.</seg>
             </u>
             <note type="time"><time when="2022-02-17T10:56:56">10:56:56</time></note>
             <note type="speaker">ЧОРНОМОРОВ А.О.</note>
@@ -1142,7 +1142,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-02-17-m0.u164">
-               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u164.p1" xml:lang="ru">Передайте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u164.p1" xml:lang="uk">Передайте, будь ласка.</seg>
             </u>
             <note type="time"><time when="2022-02-17T12:59:50">12:59:50</time></note>
             <note type="speaker">МАСЛОВ Д.В.</note>

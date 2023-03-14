@@ -228,7 +228,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-02-02-m1.u22">
-               <seg xml:id="ParlaMint-UA_2016-02-02-m1.u22.p1" xml:lang="ru">"Блок Петра Порошенка", Оксана Продан.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-02-m1.u22.p1" xml:lang="uk">"Блок Петра Порошенка", Оксана Продан.</seg>
             </u>
             <note type="time"><time when="2016-02-02T16:34:35">16:34:35</time></note>
             <note type="speaker">ПРОДАН О.П.</note>

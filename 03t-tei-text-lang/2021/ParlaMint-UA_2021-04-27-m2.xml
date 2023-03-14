@@ -609,7 +609,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-27-m2.u72">
-               <seg xml:id="ParlaMint-UA_2021-04-27-m2.u72.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-27-m2.u72.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-04-27T17:40:19">17:40:19</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -863,7 +863,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-27-m2.u104">
-               <seg xml:id="ParlaMint-UA_2021-04-27-m2.u104.p1" xml:lang="ru">Чорноморов Артем Олегович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-27-m2.u104.p1" xml:lang="uk">Чорноморов Артем Олегович.</seg>
             </u>
             <note type="time"><time when="2021-04-27T18:11:32">18:11:32</time></note>
             <note type="speaker">ЧОРНОМОРОВ А.О.</note>

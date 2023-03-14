@@ -1177,7 +1177,7 @@
             </u>
             <note type="speaker">ГНАТЕНКО В.С.</note>
             <u who="ГНАТЕНКО В.С." ana="#regular" xml:id="ParlaMint-UA_2021-06-16-m0.u157">
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u157.p1" xml:lang="ru">292 правка, пропустили.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u157.p1" xml:lang="uk">292 правка, пропустили.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-16-m0.u158">
@@ -1185,7 +1185,7 @@
             </u>
             <note type="speaker">ГНАТЕНКО В.С.</note>
             <u who="ГНАТЕНКО В.С." ana="#regular" xml:id="ParlaMint-UA_2021-06-16-m0.u159">
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u159.p1" xml:lang="ru">Пропустили 292-у, хвилинку. Лукашева.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u159.p1" xml:lang="uk">Пропустили 292-у, хвилинку. Лукашева.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-16-m0.u160">
@@ -1226,7 +1226,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-16-m0.u166">
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u166.p1" xml:lang="ru">Вона врахована, 297-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u166.p1" xml:lang="uk">Вона врахована, 297-а.</seg>
             </u>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>
             <u who="КОЛТУНОВИЧ О.С." ana="#regular" xml:id="ParlaMint-UA_2021-06-16-m0.u167">
@@ -1262,7 +1262,7 @@
             </u>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>
             <u who="КОЛТУНОВИЧ О.С." ana="#regular" xml:id="ParlaMint-UA_2021-06-16-m0.u175">
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u175.p1" xml:lang="ru">Пане Голово, пропустили.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u175.p1" xml:lang="uk">Пане Голово, пропустили.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-16-m0.u176">
@@ -1707,7 +1707,7 @@
             <note type="time"><time when="2021-06-16T13:11:28">13:11:28</time></note>
             <note type="speaker">МОРОЗ В.В.</note>
             <u who="МОРОЗ В.В." ana="#regular" xml:id="ParlaMint-UA_2021-06-16-m0.u234">
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u234.p1" xml:lang="ru">Лукашеву передайте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u234.p1" xml:lang="uk">Лукашеву передайте, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-06-16T13:11:32">13:11:32</time></note>
             <note type="speaker">ЛУКАШЕВ О.А.</note>
@@ -1797,7 +1797,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-16-m0.u247">
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u247.p1" xml:lang="ru">Колтунович, 370 правка, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u247.p1" xml:lang="uk">Колтунович, 370 правка, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-06-16T13:19:15">13:19:15</time></note>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>

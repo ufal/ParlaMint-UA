@@ -401,7 +401,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-30-m1.u48">
-               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u48.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u48.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-03-30T14:47:24">14:47:24</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>

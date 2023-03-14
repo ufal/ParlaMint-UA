@@ -510,7 +510,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-19-m0.u66">
-               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u66.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u66.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-05-19T11:17:22">11:17:22</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -1483,7 +1483,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-19-m0.u205">
-               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u205.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u205.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-05-19T13:56:47">13:56:47</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -1705,7 +1705,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-19-m0.u237">
-               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u237.p1" xml:lang="ru">Клименко, будь ласка, передайте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u237.p1" xml:lang="uk">Клименко, будь ласка, передайте.</seg>
             </u>
             <note type="time"><time when="2020-05-19T14:25:03">14:25:03</time></note>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
@@ -1897,7 +1897,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-19-m0.u262">
-               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u262.p1" xml:lang="ru">Будь ласка, передайте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u262.p1" xml:lang="uk">Будь ласка, передайте.</seg>
             </u>
             <note type="time"><time when="2020-05-19T14:47:48">14:47:48</time></note>
             <note type="speaker">ВЕЛИЧКОВИЧ М.Р.</note>
@@ -2021,7 +2021,7 @@
             <note type="narrative">СТЕФАНЧУК Р.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-19-m0.u280">
-               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u280.p1" xml:lang="ru">Владлен Неклюдов, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u280.p1" xml:lang="uk">Владлен Неклюдов, будь ласка.</seg>
             </u>
             <note type="time"><time when="2020-05-19T15:02:24">15:02:24</time></note>
             <note type="speaker">НЕКЛЮДОВ В.М.</note>

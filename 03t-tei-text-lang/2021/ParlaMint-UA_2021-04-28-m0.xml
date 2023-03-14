@@ -345,8 +345,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-28-m0.u41">
-               <seg xml:id="ParlaMint-UA_2021-04-28-m0.u41.p1" xml:lang="ru">Так, вибачте.</seg>
-               <seg xml:id="ParlaMint-UA_2021-04-28-m0.u41.p2" xml:lang="ru">2961, Шуфрич.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-28-m0.u41.p1" xml:lang="uk">Так, вибачте.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-28-m0.u41.p2" xml:lang="uk">2961, Шуфрич.</seg>
             </u>
             <note type="time"><time when="2021-04-28T10:50:39">10:50:39</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>
@@ -800,7 +800,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-28-m0.u109">
-               <seg xml:id="ParlaMint-UA_2021-04-28-m0.u109.p1" xml:lang="ru">Передайте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-28-m0.u109.p1" xml:lang="uk">Передайте, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-04-28T11:30:44">11:30:44</time></note>
             <note type="speaker">НІМЧЕНКО В.І.</note>

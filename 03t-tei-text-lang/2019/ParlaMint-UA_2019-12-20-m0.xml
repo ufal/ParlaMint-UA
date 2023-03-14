@@ -241,7 +241,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-20-m0.u27">
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u27.p1" xml:lang="ru">Будь ласка, передайте.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u27.p1" xml:lang="uk">Будь ласка, передайте.</seg>
             </u>
             <note type="time"><time when="2019-12-20T10:30:27">10:30:27</time></note>
             <note type="speaker">БОБРОВСЬКА С.А.</note>
@@ -364,7 +364,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-20-m0.u47">
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u47.p1" xml:lang="ru">Будь ласка, передайте "Голос, передайте, да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u47.p1" xml:lang="uk">Будь ласка, передайте "Голос, передайте, да.</seg>
             </u>
             <note type="time"><time when="2019-12-20T10:40:39">10:40:39</time></note>
             <note type="speaker">ВАСИЛЕНКО Л.В.</note>

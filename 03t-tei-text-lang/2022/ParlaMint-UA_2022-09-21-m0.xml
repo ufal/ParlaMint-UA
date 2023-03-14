@@ -809,7 +809,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-09-21-m0.u103">
-               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u103.p1" xml:lang="ru">Номер поправки, Михайло Якович.</seg>
+               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u103.p1" xml:lang="uk">Номер поправки, Михайло Якович.</seg>
             </u>
             <note type="speaker">ВОЛИНЕЦЬ М.Я.</note>
             <u who="ВОЛИНЕЦЬ М.Я." ana="#regular" xml:id="ParlaMint-UA_2022-09-21-m0.u104">
@@ -943,7 +943,7 @@
             </u>
             <note type="speaker">ВОЛИНЕЦЬ М.Я.</note>
             <u who="ВОЛИНЕЦЬ М.Я." ana="#regular" xml:id="ParlaMint-UA_2022-09-21-m0.u128">
-               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u128.p1" xml:lang="ru">Наступна моя правка 275.</seg>
+               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u128.p1" xml:lang="uk">Наступна моя правка 275.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-09-21-m0.u129">

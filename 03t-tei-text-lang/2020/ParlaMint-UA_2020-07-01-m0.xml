@@ -183,7 +183,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-01-m0.u15">
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u15.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u15.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2020-07-01T10:34:39">10:34:39</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -1363,8 +1363,8 @@
             <note type="time"><time when="2020-07-01T13:09:16">13:09:16</time></note>
             <note type="speaker">КРУЛЬКО І.І.</note>
             <u who="КРУЛЬКО І.І." ana="#regular" xml:id="ParlaMint-UA_2020-07-01-m0.u178">
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u178.p1" xml:lang="ru">Ви пропустили 684 поправку.</seg>
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u178.p2" xml:lang="ru">708 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u178.p1" xml:lang="uk">Ви пропустили 684 поправку.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u178.p2" xml:lang="uk">708 поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-01-m0.u179">

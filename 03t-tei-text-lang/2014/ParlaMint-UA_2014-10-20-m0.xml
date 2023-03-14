@@ -276,7 +276,7 @@
             <note type="time"><time when="2014-10-20T11:43:01">11:43:01</time></note>
             <note type="speaker">БЛАГОДИР Ю.А.</note>
             <u who="БЛАГОДИР Ю.А." ana="#regular" xml:id="ParlaMint-UA_2014-10-20-m0.u38">
-               <seg xml:id="ParlaMint-UA_2014-10-20-m0.u38.p1" xml:lang="ru">Ляшку Олегу, будь ласка, передайте слово.</seg>
+               <seg xml:id="ParlaMint-UA_2014-10-20-m0.u38.p1" xml:lang="uk">Ляшку Олегу, будь ласка, передайте слово.</seg>
             </u>
             <note type="time"><time when="2014-10-20T11:43:05">11:43:05</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>

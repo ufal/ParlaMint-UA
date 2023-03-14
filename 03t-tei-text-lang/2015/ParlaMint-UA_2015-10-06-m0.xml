@@ -459,7 +459,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-10-06-m0.u63">
-               <seg xml:id="ParlaMint-UA_2015-10-06-m0.u63.p1" xml:lang="ru">Народний депутат Чумак, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2015-10-06-m0.u63.p1" xml:lang="uk">Народний депутат Чумак, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2015-10-06T11:09:00">11:09:00</time></note>
             <note type="speaker">ЧУМАК В.В.</note>

@@ -478,7 +478,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-12-m1.u64">
-               <seg xml:id="ParlaMint-UA_2019-09-12-m1.u64.p1" xml:lang="ru">Олег Макаров, "Голос".</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-12-m1.u64.p1" xml:lang="uk">Олег Макаров, "Голос".</seg>
             </u>
             <note type="time"><time when="2019-09-12T16:51:09">16:51:09</time></note>
             <note type="speaker">МАКАРОВ О.А.</note>
@@ -935,7 +935,7 @@
             <note type="time"><time when="2019-09-12T17:46:23">17:46:23</time></note>
             <note type="speaker">ЮРАШ С.А.</note>
             <u who="ЮРАШ С.А." ana="#regular" xml:id="ParlaMint-UA_2019-09-12-m1.u131">
-               <seg xml:id="ParlaMint-UA_2019-09-12-m1.u131.p1" xml:lang="ru">Передаю Павлу Фролову.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-12-m1.u131.p1" xml:lang="uk">Передаю Павлу Фролову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-12-m1.u132">

@@ -257,7 +257,7 @@
             <note type="time"><time when="2015-10-08T10:36:10">10:36:10</time></note>
             <note type="speaker">НЕЧАЄВ О.І.</note>
             <u who="НЕЧАЄВ О.І." ana="#regular" xml:id="ParlaMint-UA_2015-10-08-m0.u32">
-               <seg xml:id="ParlaMint-UA_2015-10-08-m0.u32.p1" xml:lang="ru">Будь ласка, слова передайте Долженкову Олександру.</seg>
+               <seg xml:id="ParlaMint-UA_2015-10-08-m0.u32.p1" xml:lang="uk">Будь ласка, слова передайте Долженкову Олександру.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-10-08-m0.u33">

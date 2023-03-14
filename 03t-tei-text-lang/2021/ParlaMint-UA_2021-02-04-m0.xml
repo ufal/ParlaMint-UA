@@ -1965,7 +1965,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-04-m0.u288">
-               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u288.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u288.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2021-02-04T14:08:29">14:08:29</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -2012,7 +2012,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-04-m0.u294">
-               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u294.p1" xml:lang="ru">З процедури – Гетманцев.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-04-m0.u294.p1" xml:lang="uk">З процедури – Гетманцев.</seg>
             </u>
             <note type="time"><time when="2021-02-04T14:15:32">14:15:32</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>

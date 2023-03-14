@@ -1332,7 +1332,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-19-m0.u171">
-               <seg xml:id="ParlaMint-UA_2020-06-19-m0.u171.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-19-m0.u171.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-06-19T13:34:07">13:34:07</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>

@@ -254,7 +254,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-04-09-m1.u37">
-               <seg xml:id="ParlaMint-UA_2015-04-09-m1.u37.p1" xml:lang="ru">Який номер поправки, ще раз, народний депутат?</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-09-m1.u37.p1" xml:lang="uk">Який номер поправки, ще раз, народний депутат?</seg>
             </u>
             <note type="speaker">САБАШУК П.П.</note>
             <u who="САБАШУК П.П." ana="#regular" xml:id="ParlaMint-UA_2015-04-09-m1.u38">
@@ -894,7 +894,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-04-09-m1.u135">
-               <seg xml:id="ParlaMint-UA_2015-04-09-m1.u135.p1" xml:lang="ru">Олена Сотник, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-09-m1.u135.p1" xml:lang="uk">Олена Сотник, будь ласка.</seg>
             </u>
             <note type="time"><time when="2015-04-09T17:41:43">17:41:43</time></note>
             <note type="speaker">СОТНИК О.С.</note>

@@ -675,7 +675,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-04-m0.u85">
-               <seg xml:id="ParlaMint-UA_2020-09-04-m0.u85.p1" xml:lang="ru">Величкович Микола Романович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-04-m0.u85.p1" xml:lang="uk">Величкович Микола Романович.</seg>
             </u>
             <note type="time"><time when="2020-09-04T11:34:51">11:34:51</time></note>
             <note type="speaker">ВЕЛИЧКОВИЧ М.Р.</note>
@@ -872,7 +872,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-04-m0.u112">
-               <seg xml:id="ParlaMint-UA_2020-09-04-m0.u112.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-04-m0.u112.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2020-09-04T11:55:51">11:55:51</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>

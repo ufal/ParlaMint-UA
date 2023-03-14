@@ -390,7 +390,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-15-m0.u47">
-               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u47.p1" xml:lang="ru">Олена Сотник, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u47.p1" xml:lang="uk">Олена Сотник, будь ласка.</seg>
             </u>
             <note type="time"><time when="2015-01-15T10:52:54">10:52:54</time></note>
             <note type="speaker">СОТНИК О.С.</note>
@@ -524,7 +524,7 @@
             </u>
             <note type="speaker">ТУРЧИНОВ О.В.</note>
             <u who="ТУРЧИНОВ О.В." ana="#regular" xml:id="ParlaMint-UA_2015-01-15-m0.u61">
-               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u61.p1" xml:lang="ru">Я думаю, до 7 хвилин достатньо.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u61.p1" xml:lang="uk">Я думаю, до 7 хвилин достатньо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-15-m0.u62">
@@ -1392,7 +1392,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-15-m0.u197">
-               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u197.p1" xml:lang="ru">Олена Сотник, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u197.p1" xml:lang="uk">Олена Сотник, будь ласка.</seg>
             </u>
             <note type="time"><time when="2015-01-15T13:43:24">13:43:24</time></note>
             <note type="speaker">СОТНИК О.С.</note>

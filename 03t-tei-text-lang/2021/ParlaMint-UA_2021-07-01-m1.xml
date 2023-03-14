@@ -504,7 +504,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-01-m1.u64">
-               <seg xml:id="ParlaMint-UA_2021-07-01-m1.u64.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-01-m1.u64.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-07-01T17:05:15">17:05:15</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -639,7 +639,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-01-m1.u85">
-               <seg xml:id="ParlaMint-UA_2021-07-01-m1.u85.p1" xml:lang="ru">Чийгоз Ахтем Зейтуллайович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-01-m1.u85.p1" xml:lang="uk">Чийгоз Ахтем Зейтуллайович.</seg>
             </u>
             <note type="time"><time when="2021-07-01T17:19:11">17:19:11</time></note>
             <note type="speaker">ЧИЙГОЗ А.З.</note>
@@ -792,7 +792,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-01-m1.u105">
-               <seg xml:id="ParlaMint-UA_2021-07-01-m1.u105.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-01-m1.u105.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2021-07-01T17:37:35">17:37:35</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -1054,11 +1054,11 @@
             <note type="time"><time when="2021-07-01T18:12:38">18:12:38</time></note>
             <note type="speaker">ІВАНОВ В.І.</note>
             <u who="ІВАНОВ В.І." ana="#regular" xml:id="ParlaMint-UA_2021-07-01-m1.u142">
-               <seg xml:id="ParlaMint-UA_2021-07-01-m1.u142.p1" xml:lang="ru">Гетманцеву, Данилу Гетманцеву. Гетманцеву.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-01-m1.u142.p1" xml:lang="uk">Гетманцеву, Данилу Гетманцеву. Гетманцеву.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-01-m1.u143">
-               <seg xml:id="ParlaMint-UA_2021-07-01-m1.u143.p1" xml:lang="ru">Гетманцев Данило Олександрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-01-m1.u143.p1" xml:lang="uk">Гетманцев Данило Олександрович.</seg>
             </u>
             <note type="time"><time when="2021-07-01T18:12:45">18:12:45</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>

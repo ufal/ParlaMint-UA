@@ -902,7 +902,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-01-m0.u127">
-               <seg xml:id="ParlaMint-UA_2014-04-01-m0.u127.p1" xml:lang="ru">Будь ласка, прокоментуйте, Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-01-m0.u127.p1" xml:lang="uk">Будь ласка, прокоментуйте, Руслан Петрович.</seg>
             </u>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2014-04-01-m0.u128">
@@ -980,7 +980,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-01-m0.u143">
-               <seg xml:id="ParlaMint-UA_2014-04-01-m0.u143.p1" xml:lang="ru">Прокоментуйте, Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-01-m0.u143.p1" xml:lang="uk">Прокоментуйте, Руслан Петрович.</seg>
             </u>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2014-04-01-m0.u144">
@@ -1091,7 +1091,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-01-m0.u165">
-               <seg xml:id="ParlaMint-UA_2014-04-01-m0.u165.p1" xml:lang="ru">Руслан Петрович, будь ласка, прокоментуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-01-m0.u165.p1" xml:lang="uk">Руслан Петрович, будь ласка, прокоментуйте.</seg>
             </u>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2014-04-01-m0.u166">
@@ -1156,7 +1156,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-01-m0.u175">
-               <seg xml:id="ParlaMint-UA_2014-04-01-m0.u175.p1" xml:lang="ru">Руслан Петрович, прокоментуйте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-01-m0.u175.p1" xml:lang="uk">Руслан Петрович, прокоментуйте, будь ласка.</seg>
             </u>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2014-04-01-m0.u176">

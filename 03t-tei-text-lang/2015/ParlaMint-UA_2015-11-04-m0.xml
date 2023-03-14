@@ -980,7 +980,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-11-04-m0.u116">
-               <seg xml:id="ParlaMint-UA_2015-11-04-m0.u116.p1" xml:lang="ru">Будь ласка, народний депутат Червакова.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-04-m0.u116.p1" xml:lang="uk">Будь ласка, народний депутат Червакова.</seg>
             </u>
             <note type="time"><time when="2015-11-04T12:51:10">12:51:10</time></note>
             <note type="speaker">ЧЕРВАКОВА О.В.</note>

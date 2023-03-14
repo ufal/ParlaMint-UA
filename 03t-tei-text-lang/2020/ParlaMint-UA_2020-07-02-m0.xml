@@ -419,7 +419,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-02-m0.u54">
-               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u54.p1" xml:lang="ru">Вас не чутно, Олег Романович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u54.p1" xml:lang="uk">Вас не чутно, Олег Романович.</seg>
             </u>
             <note type="speaker">МАРУСЯК О.Р.</note>
             <u who="МАРУСЯК О.Р." ana="#regular" xml:id="ParlaMint-UA_2020-07-02-m0.u55">
@@ -1678,7 +1678,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-02-m0.u249">
-               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u249.p1" xml:lang="ru">Номер правки? Починайте, будь ласка, з номера.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u249.p1" xml:lang="uk">Номер правки? Починайте, будь ласка, з номера.</seg>
             </u>
             <note type="speaker">ЖЕЛЕЗНЯК Я.І.</note>
             <u who="ЖЕЛЕЗНЯК Я.І." ana="#regular" xml:id="ParlaMint-UA_2020-07-02-m0.u250">
@@ -2558,7 +2558,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-02-m0.u385">
-               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u385.p1" xml:lang="ru">Ви перед цим говорили про 40 поправок.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-02-m0.u385.p1" xml:lang="uk">Ви перед цим говорили про 40 поправок.</seg>
             </u>
             <note type="speaker">ІВЧЕНКО В.Є.</note>
             <u who="ІВЧЕНКО В.Є." ana="#regular" xml:id="ParlaMint-UA_2020-07-02-m0.u386">

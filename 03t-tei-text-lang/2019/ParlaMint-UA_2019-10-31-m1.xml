@@ -1255,7 +1255,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-31-m1.u187">
-               <seg xml:id="ParlaMint-UA_2019-10-31-m1.u187.p1" xml:lang="ru">Правка 148, народний депутат Скороход.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-31-m1.u187.p1" xml:lang="uk">Правка 148, народний депутат Скороход.</seg>
             </u>
             <note type="speaker">СКОРОХОД А.К.</note>
             <u who="СКОРОХОД А.К." ana="#regular" xml:id="ParlaMint-UA_2019-10-31-m1.u188">
@@ -1717,7 +1717,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-31-m1.u266">
-               <seg xml:id="ParlaMint-UA_2019-10-31-m1.u266.p1" xml:lang="ru">Повернемося, повернемося.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-31-m1.u266.p1" xml:lang="uk">Повернемося, повернемося.</seg>
             </u>
             <note type="speaker">БАТЕНКО Т.І.</note>
             <u who="БАТЕНКО Т.І." ana="#regular" xml:id="ParlaMint-UA_2019-10-31-m1.u267">

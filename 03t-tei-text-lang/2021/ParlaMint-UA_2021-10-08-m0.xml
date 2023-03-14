@@ -488,7 +488,7 @@
             <note type="time"><time when="2021-10-08T11:04:03">11:04:03</time></note>
             <note type="speaker">МАКАРОВ О.А.</note>
             <u who="МАКАРОВ О.А." ana="#regular" xml:id="ParlaMint-UA_2021-10-08-m0.u70">
-               <seg xml:id="ParlaMint-UA_2021-10-08-m0.u70.p1" xml:lang="ru">Железняку, будь ласка, передайте.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-08-m0.u70.p1" xml:lang="uk">Железняку, будь ласка, передайте.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-08-m0.u71">

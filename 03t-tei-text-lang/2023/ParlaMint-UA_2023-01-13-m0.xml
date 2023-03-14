@@ -967,7 +967,7 @@
             <note type="time"><time when="2023-01-13T11:57:33">11:57:33</time></note>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2023-01-13-m0.u135">
-               <seg xml:id="ParlaMint-UA_2023-01-13-m0.u135.p1" xml:lang="ru">Наступна правка 66, правильно?</seg>
+               <seg xml:id="ParlaMint-UA_2023-01-13-m0.u135.p1" xml:lang="uk">Наступна правка 66, правильно?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-01-13-m0.u136">
@@ -1222,7 +1222,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-01-13-m0.u178">
-               <seg xml:id="ParlaMint-UA_2023-01-13-m0.u178.p1" xml:lang="ru">А, 106-а. 106-а, перепрошую.</seg>
+               <seg xml:id="ParlaMint-UA_2023-01-13-m0.u178.p1" xml:lang="uk">А, 106-а. 106-а, перепрошую.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2023-01-13-m0.u179">

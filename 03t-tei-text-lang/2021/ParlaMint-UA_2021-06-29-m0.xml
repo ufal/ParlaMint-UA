@@ -645,7 +645,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m0.u77">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u77.p1" xml:lang="ru">Наступна правка, Власенко, 103-я.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u77.p1" xml:lang="uk">Наступна правка, Власенко, 103-я.</seg>
             </u>
             <note type="time"><time when="2021-06-29T11:12:53">11:12:53</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
@@ -2340,7 +2340,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m0.u316">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u316.p1" xml:lang="ru">Гео Багратович Лерос, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u316.p1" xml:lang="uk">Гео Багратович Лерос, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-06-29T14:30:35">14:30:35</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>

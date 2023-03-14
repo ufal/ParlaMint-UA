@@ -510,7 +510,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-11-04-m0.u67">
-               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u67.p1" xml:lang="ru">Будь ласка, Гео Багратович Лерос.</seg>
+               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u67.p1" xml:lang="uk">Будь ласка, Гео Багратович Лерос.</seg>
             </u>
             <note type="time"><time when="2021-11-04T11:00:59">11:00:59</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -2215,7 +2215,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-11-04-m0.u308">
-               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u308.p1" xml:lang="ru">Артем Олегович, можете пояснити. Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u308.p1" xml:lang="uk">Артем Олегович, можете пояснити. Будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-11-04T15:27:06">15:27:06</time></note>
             <note type="speaker">ЧОРНОМОРОВ А.О.</note>

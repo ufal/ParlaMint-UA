@@ -189,7 +189,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-20-m0.u21">
-               <seg xml:id="ParlaMint-UA_2021-10-20-m0.u21.p1" xml:lang="ru">Владлен Неклюдов, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-20-m0.u21.p1" xml:lang="uk">Владлен Неклюдов, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-10-20T10:27:19">10:27:19</time></note>
             <note type="speaker">НЕКЛЮДОВ В.М.</note>
@@ -581,7 +581,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-20-m0.u81">
-               <seg xml:id="ParlaMint-UA_2021-10-20-m0.u81.p1" xml:lang="ru">Передайте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-20-m0.u81.p1" xml:lang="uk">Передайте, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-10-20T11:17:27">11:17:27</time></note>
             <note type="speaker">СОВСУН І.Р.</note>
@@ -1184,7 +1184,7 @@
             <note type="time"><time when="2021-10-20T13:14:12">13:14:12</time></note>
             <note type="speaker">ІОНОВА М.М.</note>
             <u who="ІОНОВА М.М." ana="#regular" xml:id="ParlaMint-UA_2021-10-20-m0.u160">
-               <seg xml:id="ParlaMint-UA_2021-10-20-m0.u160.p1" xml:lang="ru">Вибачте, в мене чотири поправки.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-20-m0.u160.p1" xml:lang="uk">Вибачте, в мене чотири поправки.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-20-m0.u161">

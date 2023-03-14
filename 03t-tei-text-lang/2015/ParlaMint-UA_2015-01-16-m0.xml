@@ -178,7 +178,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-16-m0.u13">
-               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u13.p1" xml:lang="ru">Народний депутат Головко.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u13.p1" xml:lang="uk">Народний депутат Головко.</seg>
             </u>
             <note type="time"><time when="2015-01-16T10:51:29">10:51:29</time></note>
             <note type="speaker">ГОЛОВКО М.Й.</note>
@@ -717,7 +717,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-16-m0.u102">
-               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u102.p1" xml:lang="ru">Народний депутат Головко.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u102.p1" xml:lang="uk">Народний депутат Головко.</seg>
             </u>
             <note type="time"><time when="2015-01-16T12:50:48">12:50:48</time></note>
             <note type="speaker">ГОЛОВКО М.Й.</note>
@@ -983,7 +983,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2015-01-16-m0.u138">
-               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u138.p1" xml:lang="ru">Народний депутат Альона Бабак.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-16-m0.u138.p1" xml:lang="uk">Народний депутат Альона Бабак.</seg>
             </u>
             <note type="time"><time when="2015-01-16T13:42:57">13:42:57</time></note>
             <note type="speaker">БАБАК А.В.</note>

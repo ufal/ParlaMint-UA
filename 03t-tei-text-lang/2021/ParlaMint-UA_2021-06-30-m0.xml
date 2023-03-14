@@ -159,7 +159,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-30-m0.u14">
-               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u14.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u14.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-06-30T10:23:36">10:23:36</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -1707,7 +1707,7 @@
             <note type="time"><time when="2021-06-30T13:29:15">13:29:15</time></note>
             <note type="speaker">УСТІНОВА О.Ю.</note>
             <u who="УСТІНОВА О.Ю." ana="#regular" xml:id="ParlaMint-UA_2021-06-30-m0.u240">
-               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u240.p1" xml:lang="ru">Передайте Юрчишину, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u240.p1" xml:lang="uk">Передайте Юрчишину, будь ласка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-30-m0.u241">

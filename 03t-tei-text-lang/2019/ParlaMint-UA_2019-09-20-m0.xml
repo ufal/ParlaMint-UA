@@ -654,7 +654,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-20-m0.u83">
-               <seg xml:id="ParlaMint-UA_2019-09-20-m0.u83.p1" xml:lang="ru">Ви не можете передавати. Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-20-m0.u83.p1" xml:lang="uk">Ви не можете передавати. Будь ласка.</seg>
             </u>
             <note type="time"><time when="2019-09-20T11:33:10">11:33:10</time></note>
             <note type="speaker">АРАХАМІЯ Д.Г.</note>
@@ -699,7 +699,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-20-m0.u91">
-               <seg xml:id="ParlaMint-UA_2019-09-20-m0.u91.p1" xml:lang="ru">У мене просто написано.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-20-m0.u91.p1" xml:lang="uk">У мене просто написано.</seg>
             </u>
             <note type="time"><time when="2019-09-20T11:37:37">11:37:37</time></note>
             <note type="speaker">ЮРЧИШИН Я.Р.</note>

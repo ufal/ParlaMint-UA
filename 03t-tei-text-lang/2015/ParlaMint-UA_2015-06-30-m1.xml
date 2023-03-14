@@ -241,7 +241,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-06-30-m1.u35">
-               <seg xml:id="ParlaMint-UA_2015-06-30-m1.u35.p1" xml:lang="ru">Олег Барна, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-30-m1.u35.p1" xml:lang="uk">Олег Барна, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2015-06-30T16:32:33">16:32:33</time></note>
             <note type="speaker">БАРНА О.С.</note>
@@ -562,7 +562,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-06-30-m1.u90">
-               <seg xml:id="ParlaMint-UA_2015-06-30-m1.u90.p1" xml:lang="ru">Олена Сотник, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-30-m1.u90.p1" xml:lang="uk">Олена Сотник, будь ласка.</seg>
             </u>
             <note type="time"><time when="2015-06-30T17:11:34">17:11:34</time></note>
             <note type="speaker">СОТНИК О.С.</note>

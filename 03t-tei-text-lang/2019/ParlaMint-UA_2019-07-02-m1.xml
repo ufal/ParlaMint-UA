@@ -322,7 +322,7 @@
             </u>
             <note type="speaker">ЄМЕЦЬ Л.О.</note>
             <u who="ЄМЕЦЬ Л.О." ana="#regular" xml:id="ParlaMint-UA_2019-07-02-m1.u49">
-               <seg xml:id="ParlaMint-UA_2019-07-02-m1.u49.p1" xml:lang="ru">Це моя правка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-02-m1.u49.p1" xml:lang="uk">Це моя правка.</seg>
                <note type="time"><time when="2019-07-02T16:12:38">16:12:38</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-02-m1.u49.p2" xml:lang="uk">За-15</seg>
                <seg xml:id="ParlaMint-UA_2019-07-02-m1.u49.p3" xml:lang="uk">2012-а.</seg>
@@ -1741,7 +1741,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-02-m1.u309">
-               <seg xml:id="ParlaMint-UA_2019-07-02-m1.u309.p1" xml:lang="ru">Да, 2136-а, я сказала.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-02-m1.u309.p1" xml:lang="uk">Да, 2136-а, я сказала.</seg>
             </u>
             <note type="speaker">ЄМЕЦЬ Л.О.</note>
             <u who="ЄМЕЦЬ Л.О." ana="#regular" xml:id="ParlaMint-UA_2019-07-02-m1.u310">

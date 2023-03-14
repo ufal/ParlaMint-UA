@@ -404,7 +404,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-02-m0.u58">
-               <seg xml:id="ParlaMint-UA_2019-07-02-m0.u58.p1" xml:lang="ru">1537-а. Будь ласка, народний депутат Рудик.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-02-m0.u58.p1" xml:lang="uk">1537-а. Будь ласка, народний депутат Рудик.</seg>
             </u>
             <note type="time"><time when="2019-07-02T10:52:59">10:52:59</time></note>
             <note type="speaker">РУДИК С.Я.</note>
@@ -4187,7 +4187,7 @@
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-02-m0.u751">
-               <seg xml:id="ParlaMint-UA_2019-07-02-m0.u751.p1" xml:lang="ru">Врахована так само поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-02-m0.u751.p1" xml:lang="uk">Врахована так само поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-02-m0.u752">
@@ -5000,7 +5000,7 @@
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-02-m0.u900">
-               <seg xml:id="ParlaMint-UA_2019-07-02-m0.u900.p1" xml:lang="ru">Врахована дана поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-02-m0.u900.p1" xml:lang="uk">Врахована дана поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-02-m0.u901">
@@ -5221,7 +5221,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-02-m0.u942">
-               <seg xml:id="ParlaMint-UA_2019-07-02-m0.u942.p1" xml:lang="ru">1938-а. Повернемося назад.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-02-m0.u942.p1" xml:lang="uk">1938-а. Повернемося назад.</seg>
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-02-m0.u943">

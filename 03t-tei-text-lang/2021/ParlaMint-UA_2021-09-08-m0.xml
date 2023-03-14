@@ -230,7 +230,7 @@
             <note type="time"><time when="2021-09-08T10:40:39">10:40:39</time></note>
             <note type="speaker">СОЛЬСЬКИЙ М.Т.</note>
             <u who="СОЛЬСЬКИЙ М.Т." ana="#regular" xml:id="ParlaMint-UA_2021-09-08-m0.u24">
-               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u24.p1" xml:lang="ru">Якщо можна, 4 хвилини.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u24.p1" xml:lang="uk">Якщо можна, 4 хвилини.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-08-m0.u25">
@@ -1425,7 +1425,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-08-m0.u198">
-               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u198.p1" xml:lang="ru">Правка 61, Колтунович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-08-m0.u198.p1" xml:lang="uk">Правка 61, Колтунович.</seg>
             </u>
             <note type="time"><time when="2021-09-08T13:34:22">13:34:22</time></note>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>

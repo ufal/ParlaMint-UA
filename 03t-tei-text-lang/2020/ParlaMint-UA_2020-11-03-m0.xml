@@ -263,7 +263,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-11-03-m0.u29">
-               <seg xml:id="ParlaMint-UA_2020-11-03-m0.u29.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-11-03-m0.u29.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2020-11-03T10:53:04">10:53:04</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -1328,7 +1328,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-11-03-m0.u174">
-               <seg xml:id="ParlaMint-UA_2020-11-03-m0.u174.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-11-03-m0.u174.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-11-03T14:13:44">14:13:44</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

@@ -1454,7 +1454,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-13-m0.u192">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u192.p1" xml:lang="ru">Будь ласка, Герасимов, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u192.p1" xml:lang="uk">Будь ласка, Герасимов, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2017-04-13T13:33:59">13:33:59</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>

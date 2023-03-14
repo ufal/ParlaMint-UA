@@ -1000,7 +1000,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-05-m0.u149">
-               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u149.p1" xml:lang="ru">Березюк, одна хвилина.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u149.p1" xml:lang="uk">Березюк, одна хвилина.</seg>
             </u>
             <note type="time"><time when="2017-04-05T12:04:22">12:04:22</time></note>
             <note type="speaker">БЕРЕЗЮК О.Р.</note>
@@ -1229,7 +1229,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-05-m0.u181">
-               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u181.p1" xml:lang="ru">Колеги, заспокойтесь! Ви.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u181.p1" xml:lang="uk">Колеги, заспокойтесь! Ви.</seg>
             </u>
             <note type="speaker">КОРЧАК Н.М.</note>
             <u who="КОРЧАК Н.М." ana="#regular" xml:id="ParlaMint-UA_2017-04-05-m0.u182">
@@ -1620,7 +1620,7 @@
             <note type="time"><time when="2017-04-05T13:45:30">13:45:30</time></note>
             <note type="speaker">МАТЕЙЧЕНКО К.В.</note>
             <u who="МАТЕЙЧЕНКО К.В." ana="#regular" xml:id="ParlaMint-UA_2017-04-05-m0.u253">
-               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u253.p1" xml:lang="ru">Слово передается Максиму Бурбаку.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u253.p1" xml:lang="uk">Слово передается Максиму Бурбаку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-04-05-m0.u254">

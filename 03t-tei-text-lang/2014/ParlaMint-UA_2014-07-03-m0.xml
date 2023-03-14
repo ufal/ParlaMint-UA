@@ -708,7 +708,7 @@
             <note type="time"><time when="2014-07-03T13:46:59">13:46:59</time></note>
             <note type="speaker">КАНІВЕЦЬ О.Л.</note>
             <u who="КАНІВЕЦЬ О.Л." ana="#regular" xml:id="ParlaMint-UA_2014-07-03-m0.u91">
-               <seg xml:id="ParlaMint-UA_2014-07-03-m0.u91.p1" xml:lang="ru">Я передаю слово Олегу Ляшку.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-03-m0.u91.p1" xml:lang="uk">Я передаю слово Олегу Ляшку.</seg>
             </u>
             <vocal type="noise">
                <desc>(Шум у залі)</desc>

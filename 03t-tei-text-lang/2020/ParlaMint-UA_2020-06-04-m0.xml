@@ -376,7 +376,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-04-m0.u43">
-               <seg xml:id="ParlaMint-UA_2020-06-04-m0.u43.p1" xml:lang="ru">Величкович Микола Романович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-04-m0.u43.p1" xml:lang="uk">Величкович Микола Романович.</seg>
             </u>
             <note type="time"><time when="2020-06-04T11:07:15">11:07:15</time></note>
             <note type="speaker">ВЕЛИЧКОВИЧ М.Р.</note>
@@ -1278,7 +1278,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-04-m0.u178">
-               <seg xml:id="ParlaMint-UA_2020-06-04-m0.u178.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-04-m0.u178.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-06-04T13:14:16">13:14:16</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -1491,7 +1491,7 @@
             <note type="time"><time when="2020-06-04T13:37:07">13:37:07</time></note>
             <note type="speaker">БОНДАР М.Л.</note>
             <u who="БОНДАР М.Л." ana="#regular" xml:id="ParlaMint-UA_2020-06-04-m0.u209">
-               <seg xml:id="ParlaMint-UA_2020-06-04-m0.u209.p1" xml:lang="ru">Передайте, будь ласка, Павленку Ростиславу.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-04-m0.u209.p1" xml:lang="uk">Передайте, будь ласка, Павленку Ростиславу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-04-m0.u210">
@@ -1743,7 +1743,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-04-m0.u244">
-               <seg xml:id="ParlaMint-UA_2020-06-04-m0.u244.p1" xml:lang="ru">Синютка Олег Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-04-m0.u244.p1" xml:lang="uk">Синютка Олег Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-06-04T14:15:03">14:15:03</time></note>
             <note type="speaker">СИНЮТКА О.М.</note>

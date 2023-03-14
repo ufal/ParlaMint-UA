@@ -334,7 +334,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-23-m1.u43">
-               <seg xml:id="ParlaMint-UA_2021-09-23-m1.u43.p1" xml:lang="ru">Поляков Антон Едуардович, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-23-m1.u43.p1" xml:lang="uk">Поляков Антон Едуардович, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-09-23T16:47:49">16:47:49</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -611,7 +611,7 @@
             <note type="time"><time when="2021-09-23T17:30:42">17:30:42</time></note>
             <note type="speaker">МОРОЗ В.В.</note>
             <u who="МОРОЗ В.В." ana="#regular" xml:id="ParlaMint-UA_2021-09-23-m1.u76">
-               <seg xml:id="ParlaMint-UA_2021-09-23-m1.u76.p1" xml:lang="ru">Будь ласка, Лукашеву передайте.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-23-m1.u76.p1" xml:lang="uk">Будь ласка, Лукашеву передайте.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-23-m1.u77">
@@ -629,7 +629,7 @@
             </u>
             <note type="speaker">ЛУКАШЕВ О.А.</note>
             <u who="ЛУКАШЕВ О.А." ana="#regular" xml:id="ParlaMint-UA_2021-09-23-m1.u80">
-               <seg xml:id="ParlaMint-UA_2021-09-23-m1.u80.p1" xml:lang="ru">Так, так, саме до вас.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-23-m1.u80.p1" xml:lang="uk">Так, так, саме до вас.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-23-m1.u81">

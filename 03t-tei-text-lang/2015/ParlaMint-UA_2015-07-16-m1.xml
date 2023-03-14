@@ -294,7 +294,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-16-m1.u29">
-               <seg xml:id="ParlaMint-UA_2015-07-16-m1.u29.p1" xml:lang="ru">Олена Бабак, 4 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-16-m1.u29.p1" xml:lang="uk">Олена Бабак, 4 поправка.</seg>
             </u>
             <note type="time"><time when="2015-07-16T16:44:22">16:44:22</time></note>
             <note type="speaker">БАБАК А.В.</note>
@@ -1192,7 +1192,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-07-16-m1.u156">
-               <seg xml:id="ParlaMint-UA_2015-07-16-m1.u156.p1" xml:lang="ru">Олена Сотник, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-16-m1.u156.p1" xml:lang="uk">Олена Сотник, будь ласка.</seg>
             </u>
             <note type="time"><time when="2015-07-16T18:25:49">18:25:49</time></note>
             <note type="speaker">СОТНИК О.С.</note>

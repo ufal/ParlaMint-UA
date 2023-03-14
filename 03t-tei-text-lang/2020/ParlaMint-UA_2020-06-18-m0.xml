@@ -130,7 +130,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-18-m0.u11">
-               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u11.p1" xml:lang="ru">Лаба Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u11.p1" xml:lang="uk">Лаба Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-06-18T10:21:09">10:21:09</time></note>
             <note type="speaker">ЛАБА М.М.</note>
@@ -318,7 +318,7 @@
             <note type="time"><time when="2020-06-18T10:56:14">10:56:14</time></note>
             <note type="speaker">МАКАРОВ О.А.</note>
             <u who="МАКАРОВ О.А." ana="#regular" xml:id="ParlaMint-UA_2020-06-18-m0.u38">
-               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u38.p1" xml:lang="ru">Будь ласка, Юрчишину передайте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u38.p1" xml:lang="uk">Будь ласка, Юрчишину передайте.</seg>
             </u>
             <note type="time"><time when="2020-06-18T10:56:27">10:56:27</time></note>
             <note type="speaker">ЮРЧИШИН Я.Р.</note>
@@ -916,7 +916,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-18-m0.u111">
-               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u111.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u111.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-06-18T13:19:02">13:19:02</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -1413,7 +1413,7 @@
             <note type="time"><time when="2020-06-18T14:43:03">14:43:03</time></note>
             <note type="speaker">ЛАБУНСЬКА А.В.</note>
             <u who="ЛАБУНСЬКА А.В." ana="#regular" xml:id="ParlaMint-UA_2020-06-18-m0.u172">
-               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u172.p1" xml:lang="ru">У мене одна правка. Так, 3 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u172.p1" xml:lang="uk">У мене одна правка. Так, 3 правка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-18-m0.u173">

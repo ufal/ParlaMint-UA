@@ -384,7 +384,7 @@
             <note type="time"><time when="2015-02-03T16:50:17">16:50:17</time></note>
             <note type="speaker">БЕРЕЗЮК О.Р.</note>
             <u who="БЕРЕЗЮК О.Р." ana="#regular" xml:id="ParlaMint-UA_2015-02-03-m1.u55">
-               <seg xml:id="ParlaMint-UA_2015-02-03-m1.u55.p1" xml:lang="ru">Олена Сотник, будь ласка, передайте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-03-m1.u55.p1" xml:lang="uk">Олена Сотник, будь ласка, передайте.</seg>
             </u>
             <note type="time"><time when="2015-02-03T16:50:23">16:50:23</time></note>
             <note type="speaker">СОТНИК О.С.</note>

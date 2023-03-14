@@ -225,7 +225,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-26-m0.u22">
-               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u22.p1" xml:lang="ru">Ще раз, Антону Полякову? Антон Едуардович Поляков.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u22.p1" xml:lang="uk">Ще раз, Антону Полякову? Антон Едуардович Поляков.</seg>
             </u>
             <note type="time"><time when="2021-01-26T10:41:29">10:41:29</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -299,7 +299,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-26-m0.u35">
-               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u35.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u35.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-01-26T10:47:25">10:47:25</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -1491,7 +1491,7 @@
             <note type="time"><time when="2021-01-26T14:02:35">14:02:35</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2021-01-26-m0.u203">
-               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u203.p1" xml:lang="ru">Вибачте, можна попросити номер поправки повторити?</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u203.p1" xml:lang="uk">Вибачте, можна попросити номер поправки повторити?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-26-m0.u204">

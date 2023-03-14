@@ -967,7 +967,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-06-07-m0.u122">
-               <seg xml:id="ParlaMint-UA_2019-06-07-m0.u122.p1" xml:lang="ru">Запрошую до слова народного депутата Арешонкова.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-07-m0.u122.p1" xml:lang="uk">Запрошую до слова народного депутата Арешонкова.</seg>
             </u>
             <note type="time"><time when="2019-06-07T12:59:21">12:59:21</time></note>
             <note type="speaker">АРЕШОНКОВ В.Ю.</note>
@@ -1165,7 +1165,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-06-07-m0.u150">
-               <seg xml:id="ParlaMint-UA_2019-06-07-m0.u150.p1" xml:lang="ru">Запрошую до слова народного депутата Рудика.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-07-m0.u150.p1" xml:lang="uk">Запрошую до слова народного депутата Рудика.</seg>
             </u>
             <note type="time"><time when="2019-06-07T13:39:04">13:39:04</time></note>
             <note type="speaker">РУДИК С.Я.</note>
@@ -1186,7 +1186,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-06-07-m0.u154">
-               <seg xml:id="ParlaMint-UA_2019-06-07-m0.u154.p1" xml:lang="ru">Запрошую до слова народного депутата Кривенка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-07-m0.u154.p1" xml:lang="uk">Запрошую до слова народного депутата Кривенка.</seg>
             </u>
             <note type="time"><time when="2019-06-07T13:42:41">13:42:41</time></note>
             <note type="speaker">КРИВЕНКО В.М.</note>

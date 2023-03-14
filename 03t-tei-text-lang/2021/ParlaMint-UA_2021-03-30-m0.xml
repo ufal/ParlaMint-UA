@@ -242,7 +242,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-30-m0.u25">
-               <seg xml:id="ParlaMint-UA_2021-03-30-m0.u25.p1" xml:lang="ru">Гетманцев Данило Олександрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-30-m0.u25.p1" xml:lang="uk">Гетманцев Данило Олександрович.</seg>
             </u>
             <note type="time"><time when="2021-03-30T13:38:44">13:38:44</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>

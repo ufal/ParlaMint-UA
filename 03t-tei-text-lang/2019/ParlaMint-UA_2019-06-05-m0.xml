@@ -507,7 +507,7 @@
             </u>
             <note type="speaker">КУПРІЄНКО О.В.</note>
             <u who="КУПРІЄНКО О.В." ana="#regular" xml:id="ParlaMint-UA_2019-06-05-m0.u70">
-               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u70.p1" xml:lang="ru">То поправка не ваша, а Луценко.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u70.p1" xml:lang="uk">То поправка не ваша, а Луценко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-06-05-m0.u71">
@@ -1036,7 +1036,7 @@
             <note type="time"><time when="2019-06-05T11:46:13">11:46:13</time></note>
             <note type="speaker">КУПРІЄНКО О.В.</note>
             <u who="КУПРІЄНКО О.В." ana="#regular" xml:id="ParlaMint-UA_2019-06-05-m0.u162">
-               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u162.p1" xml:lang="ru">Ну, поправка, дана поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u162.p1" xml:lang="uk">Ну, поправка, дана поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-06-05-m0.u163">
@@ -2044,7 +2044,7 @@
             </u>
             <note type="speaker">КУПРІЄНКО О.В.</note>
             <u who="КУПРІЄНКО О.В." ana="#regular" xml:id="ParlaMint-UA_2019-06-05-m0.u321">
-               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u321.p1" xml:lang="ru">Це була правка номер 642.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u321.p1" xml:lang="uk">Це була правка номер 642.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-06-05-m0.u322">

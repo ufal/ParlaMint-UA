@@ -3200,7 +3200,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-03-m0.u520">
-               <seg xml:id="ParlaMint-UA_2019-07-03-m0.u520.p1" xml:lang="ru">Народний депутат Рудик.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-03-m0.u520.p1" xml:lang="uk">Народний депутат Рудик.</seg>
             </u>
             <note type="time"><time when="2019-07-03T12:40:35">12:40:35</time></note>
             <note type="speaker">РУДИК С.Я.</note>
@@ -4845,7 +4845,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-03-m0.u795">
-               <seg xml:id="ParlaMint-UA_2019-07-03-m0.u795.p1" xml:lang="ru">А, 2666-а, народний депутат Рудик. Так?</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-03-m0.u795.p1" xml:lang="uk">А, 2666-а, народний депутат Рудик. Так?</seg>
             </u>
             <note type="speaker">ЄМЕЦЬ Л.О.</note>
             <u who="ЄМЕЦЬ Л.О." ana="#regular" xml:id="ParlaMint-UA_2019-07-03-m0.u796">

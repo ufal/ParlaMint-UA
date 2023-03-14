@@ -350,7 +350,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-02-06-m0.u48">
-               <seg xml:id="ParlaMint-UA_2015-02-06-m0.u48.p1" xml:lang="ru">Будь ласка, народний депутат Лозовой.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-06-m0.u48.p1" xml:lang="uk">Будь ласка, народний депутат Лозовой.</seg>
             </u>
             <note type="time"><time when="2015-02-06T10:52:41">10:52:41</time></note>
             <note type="speaker">ЛОЗОВОЙ А.С.</note>
@@ -872,7 +872,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-02-06-m0.u135">
-               <seg xml:id="ParlaMint-UA_2015-02-06-m0.u135.p1" xml:lang="ru">Народний депутат Долженков.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-06-m0.u135.p1" xml:lang="uk">Народний депутат Долженков.</seg>
             </u>
             <note type="time"><time when="2015-02-06T11:57:42">11:57:42</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>

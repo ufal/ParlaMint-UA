@@ -901,7 +901,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-06-21-m0.u118">
-               <seg xml:id="ParlaMint-UA_2019-06-21-m0.u118.p1" xml:lang="ru">Запрошу до слова народного депутата Кривохатька.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-21-m0.u118.p1" xml:lang="uk">Запрошу до слова народного депутата Кривохатька.</seg>
             </u>
             <note type="time"><time when="2019-06-21T13:01:53">13:01:53</time></note>
             <note type="speaker">КРИВОХАТЬКО В.В.</note>
@@ -923,7 +923,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-06-21-m0.u122">
-               <seg xml:id="ParlaMint-UA_2019-06-21-m0.u122.p1" xml:lang="ru">Запрошую до слова народного депутата Солов'я.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-21-m0.u122.p1" xml:lang="uk">Запрошую до слова народного депутата Солов'я.</seg>
             </u>
             <note type="time"><time when="2019-06-21T13:05:51">13:05:51</time></note>
             <note type="speaker">СОЛОВЕЙ Ю.І.</note>
@@ -1018,7 +1018,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-06-21-m0.u138">
-               <seg xml:id="ParlaMint-UA_2019-06-21-m0.u138.p1" xml:lang="ru">Запрошую до слова народного депутата Шурму.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-21-m0.u138.p1" xml:lang="uk">Запрошую до слова народного депутата Шурму.</seg>
             </u>
             <note type="time"><time when="2019-06-21T13:21:08">13:21:08</time></note>
             <note type="speaker">ШУРМА І.М.</note>

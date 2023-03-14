@@ -1207,7 +1207,7 @@
             <note type="time"><time when="2016-07-12T13:25:10">13:25:10</time></note>
             <note type="speaker">ДЕМЧАК Р.Є.</note>
             <u who="ДЕМЧАК Р.Є." ana="#regular" xml:id="ParlaMint-UA_2016-07-12-m0.u166">
-               <seg xml:id="ParlaMint-UA_2016-07-12-m0.u166.p1" xml:lang="ru">Максиму Курячому передаю.</seg>
+               <seg xml:id="ParlaMint-UA_2016-07-12-m0.u166.p1" xml:lang="uk">Максиму Курячому передаю.</seg>
             </u>
             <note type="time"><time when="2016-07-12T13:25:16">13:25:16</time></note>
             <note type="speaker">КУРЯЧИЙ М.П.</note>

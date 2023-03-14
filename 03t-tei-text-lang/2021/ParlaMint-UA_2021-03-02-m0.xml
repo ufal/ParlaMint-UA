@@ -529,8 +529,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-02-m0.u56">
-               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u56.p1" xml:lang="ru">Князевичу?</seg>
-               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u56.p2" xml:lang="ru">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u56.p1" xml:lang="uk">Князевичу?</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u56.p2" xml:lang="uk">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2021-03-02T11:48:14">11:48:14</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -685,7 +685,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-02-m0.u73">
-               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u73.p1" xml:lang="ru">Почекайте. Ще раз, 8-у?</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u73.p1" xml:lang="uk">Почекайте. Ще раз, 8-у?</seg>
             </u>
             <note type="speaker">ПУЗІЙЧУК А.В.</note>
             <u who="ПУЗІЙЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2021-03-02-m0.u74">
@@ -857,7 +857,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-02-m0.u97">
-               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u97.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u97.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2021-03-02T13:04:13">13:04:13</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -1003,7 +1003,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-02-m0.u116">
-               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u116.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-02-m0.u116.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2021-03-02T13:54:41">13:54:41</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

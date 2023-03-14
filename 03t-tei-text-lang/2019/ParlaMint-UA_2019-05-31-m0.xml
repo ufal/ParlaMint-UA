@@ -1008,7 +1008,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-05-31-m0.u136">
-               <seg xml:id="ParlaMint-UA_2019-05-31-m0.u136.p1" xml:lang="ru">Запрошую до слова народного депутата Бондаря.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-31-m0.u136.p1" xml:lang="uk">Запрошую до слова народного депутата Бондаря.</seg>
             </u>
             <note type="time"><time when="2019-05-31T12:54:56">12:54:56</time></note>
             <note type="speaker">БОНДАР М.Л.</note>
@@ -1022,7 +1022,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-05-31-m0.u138">
-               <seg xml:id="ParlaMint-UA_2019-05-31-m0.u138.p1" xml:lang="ru">Запрошую до слова народного депутата Вовка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-31-m0.u138.p1" xml:lang="uk">Запрошую до слова народного депутата Вовка.</seg>
             </u>
             <note type="time"><time when="2019-05-31T12:58:06">12:58:06</time></note>
             <note type="speaker">ВОВК В.І.</note>
@@ -1106,7 +1106,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-05-31-m0.u150">
-               <seg xml:id="ParlaMint-UA_2019-05-31-m0.u150.p1" xml:lang="ru">Запрошую до слова народного депутата Савку.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-31-m0.u150.p1" xml:lang="uk">Запрошую до слова народного депутата Савку.</seg>
             </u>
             <note type="time"><time when="2019-05-31T13:18:22">13:18:22</time></note>
             <note type="speaker">САВКА І.І.</note>
@@ -1196,7 +1196,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-05-31-m0.u164">
-               <seg xml:id="ParlaMint-UA_2019-05-31-m0.u164.p1" xml:lang="ru">Запрошую до слова народного депутата Левченка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-31-m0.u164.p1" xml:lang="uk">Запрошую до слова народного депутата Левченка.</seg>
             </u>
             <note type="time"><time when="2019-05-31T13:34:27">13:34:27</time></note>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
@@ -1256,7 +1256,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-05-31-m0.u174">
-               <seg xml:id="ParlaMint-UA_2019-05-31-m0.u174.p1" xml:lang="ru">Запрошую до слова народного депутата Арешонкова.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-31-m0.u174.p1" xml:lang="uk">Запрошую до слова народного депутата Арешонкова.</seg>
             </u>
             <note type="time"><time when="2019-05-31T13:45:14">13:45:14</time></note>
             <note type="speaker">АРЕШОНКОВ В.Ю.</note>
@@ -1303,7 +1303,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-05-31-m0.u182">
-               <seg xml:id="ParlaMint-UA_2019-05-31-m0.u182.p1" xml:lang="ru">Запрошую до слова народного депутата Солов'я.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-31-m0.u182.p1" xml:lang="uk">Запрошую до слова народного депутата Солов'я.</seg>
             </u>
             <note type="time"><time when="2019-05-31T13:52:49">13:52:49</time></note>
             <note type="speaker">СОЛОВЕЙ Ю.І.</note>

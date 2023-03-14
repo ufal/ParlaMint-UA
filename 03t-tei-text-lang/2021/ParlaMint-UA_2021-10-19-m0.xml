@@ -2768,7 +2768,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-19-m0.u346">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u346.p1" xml:lang="ru">59-а. Я ж сказав 59-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u346.p1" xml:lang="uk">59-а. Я ж сказав 59-а.</seg>
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u347">
@@ -3288,7 +3288,7 @@
             <note type="time"><time when="2021-10-19T16:36:11">16:36:11</time></note>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2021-10-19-m0.u414">
-               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u414.p1" xml:lang="ru">10 правок.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-19-m0.u414.p1" xml:lang="uk">10 правок.</seg>
                <gap reason="inaudible">
                   <desc>(Не чути)</desc>
                </gap>

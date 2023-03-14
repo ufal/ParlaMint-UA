@@ -735,7 +735,7 @@
             </vocal>
             <note type="speaker">КОЖЕМ’ЯКІН А.А.</note>
             <u who="КОЖЕМ’ЯКІН А.А." ana="#regular" xml:id="ParlaMint-UA_2015-02-05-m0.u102">
-               <seg xml:id="ParlaMint-UA_2015-02-05-m0.u102.p1" xml:lang="ru">Голосуйте. За, за.</seg>
+               <seg xml:id="ParlaMint-UA_2015-02-05-m0.u102.p1" xml:lang="uk">Голосуйте. За, за.</seg>
                <note type="time"><time when="2015-02-05T13:11:31">13:11:31</time></note>
                <seg xml:id="ParlaMint-UA_2015-02-05-m0.u102.p2" xml:lang="uk">За-171</seg>
             </u>

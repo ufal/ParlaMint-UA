@@ -475,7 +475,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-17-m0.u54">
-               <seg xml:id="ParlaMint-UA_2021-03-17-m0.u54.p1" xml:lang="ru">Вибачте, правка номер 193.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-17-m0.u54.p1" xml:lang="uk">Вибачте, правка номер 193.</seg>
             </u>
             <note type="time"><time when="2021-03-17T10:59:13">10:59:13</time></note>
             <note type="speaker">ПАВЛЕНКО Ю.О.</note>
@@ -495,7 +495,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-17-m0.u57">
-               <seg xml:id="ParlaMint-UA_2021-03-17-m0.u57.p1" xml:lang="ru">Наступна правка – правка Батенка, 194-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-17-m0.u57.p1" xml:lang="uk">Наступна правка – правка Батенка, 194-а.</seg>
             </u>
             <note type="time"><time when="2021-03-17T11:00:40">11:00:40</time></note>
             <note type="speaker">БАТЕНКО Т.І.</note>
@@ -908,7 +908,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-17-m0.u109">
-               <seg xml:id="ParlaMint-UA_2021-03-17-m0.u109.p1" xml:lang="ru">Наступна правка Наливайченка 238-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-17-m0.u109.p1" xml:lang="uk">Наступна правка Наливайченка 238-а.</seg>
             </u>
             <note type="time"><time when="2021-03-17T11:39:07">11:39:07</time></note>
             <note type="speaker">НАЛИВАЙЧЕНКО В.О.</note>

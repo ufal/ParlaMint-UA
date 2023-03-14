@@ -208,7 +208,7 @@
             <note type="time"><time when="2020-02-05T10:38:02">10:38:02</time></note>
             <note type="speaker">ОСАДЧУК А.П.</note>
             <u who="ОСАДЧУК А.П." ana="#regular" xml:id="ParlaMint-UA_2020-02-05-m0.u22">
-               <seg xml:id="ParlaMint-UA_2020-02-05-m0.u22.p1" xml:lang="ru">Будь ласка, Юрчишину передайте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-05-m0.u22.p1" xml:lang="uk">Будь ласка, Юрчишину передайте.</seg>
             </u>
             <note type="time"><time when="2020-02-05T10:38:13">10:38:13</time></note>
             <note type="speaker">ЮРЧИШИН Я.Р.</note>

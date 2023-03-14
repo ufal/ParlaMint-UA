@@ -369,7 +369,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-03-m0.u42">
-               <seg xml:id="ParlaMint-UA_2021-03-03-m0.u42.p1" xml:lang="ru">Народний депутат Гео Лерос, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-03-m0.u42.p1" xml:lang="uk">Народний депутат Гео Лерос, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-03-03T10:59:52">10:59:52</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -431,7 +431,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-03-m0.u53">
-               <seg xml:id="ParlaMint-UA_2021-03-03-m0.u53.p1" xml:lang="ru">Владлен Михайлович Неклюдов, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-03-m0.u53.p1" xml:lang="uk">Владлен Михайлович Неклюдов, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-03-03T11:04:34">11:04:34</time></note>
             <note type="speaker">НЕКЛЮДОВ В.М.</note>

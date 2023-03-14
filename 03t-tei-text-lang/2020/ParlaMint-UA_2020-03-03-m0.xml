@@ -782,7 +782,7 @@
             <note type="narrative">СТЕФАНЧУК Р.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-03-m0.u98">
-               <seg xml:id="ParlaMint-UA_2020-03-03-m0.u98.p1" xml:lang="ru">Наступна правка 1958, народний депутат Мороз.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-03-m0.u98.p1" xml:lang="uk">Наступна правка 1958, народний депутат Мороз.</seg>
             </u>
             <note type="time"><time when="2020-03-03T11:25:32">11:25:32</time></note>
             <note type="speaker">МОРОЗ В.В.</note>

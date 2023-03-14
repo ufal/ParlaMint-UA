@@ -184,7 +184,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-09-07-m0.u19">
-               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u19.p1" xml:lang="ru">Запрошую до слова народного депутата Шуфрича.</seg>
+               <seg xml:id="ParlaMint-UA_2016-09-07-m0.u19.p1" xml:lang="uk">Запрошую до слова народного депутата Шуфрича.</seg>
             </u>
             <note type="time"><time when="2016-09-07T10:25:00">10:25:00</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>

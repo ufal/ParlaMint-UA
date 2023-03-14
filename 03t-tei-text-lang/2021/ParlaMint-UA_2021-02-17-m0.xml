@@ -1454,7 +1454,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-17-m0.u198">
-               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u198.p1" xml:lang="ru">Синютка Олег Миколайович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u198.p1" xml:lang="uk">Синютка Олег Миколайович.</seg>
             </u>
             <note type="time"><time when="2021-02-17T13:49:49">13:49:49</time></note>
             <note type="speaker">СИНЮТКА О.М.</note>
@@ -1477,7 +1477,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-17-m0.u202">
-               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u202.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-17-m0.u202.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2021-02-17T13:51:52">13:51:52</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>

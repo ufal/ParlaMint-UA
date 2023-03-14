@@ -1438,7 +1438,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-08-m0.u192">
-               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u192.p1" xml:lang="ru">Дуже коротко, Олена Бабак.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u192.p1" xml:lang="uk">Дуже коротко, Олена Бабак.</seg>
             </u>
             <note type="time"><time when="2017-11-08T13:37:39">13:37:39</time></note>
             <note type="speaker">БАБАК А.В.</note>

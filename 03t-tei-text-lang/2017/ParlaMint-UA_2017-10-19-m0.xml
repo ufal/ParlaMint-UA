@@ -1011,7 +1011,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-10-19-m0.u133">
-               <seg xml:id="ParlaMint-UA_2017-10-19-m0.u133.p1" xml:lang="ru">Будь ласка, народний депутат Долженков.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-19-m0.u133.p1" xml:lang="uk">Будь ласка, народний депутат Долженков.</seg>
             </u>
             <note type="time"><time when="2017-10-19T11:52:02">11:52:02</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
@@ -1347,7 +1347,7 @@
             </u>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-10-19-m0.u181">
-               <seg xml:id="ParlaMint-UA_2017-10-19-m0.u181.p1" xml:lang="ru">Це не нецензурна лексика.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-19-m0.u181.p1" xml:lang="uk">Це не нецензурна лексика.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-10-19-m0.u182">

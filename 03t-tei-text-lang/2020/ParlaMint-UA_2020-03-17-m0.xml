@@ -100,7 +100,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-17-m0.u7">
-               <seg xml:id="ParlaMint-UA_2020-03-17-m0.u7.p1" xml:lang="ru">Лаба Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-17-m0.u7.p1" xml:lang="uk">Лаба Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-03-17T08:18:02">08:18:02</time></note>
             <note type="speaker">ЛАБА М.М.</note>
@@ -308,7 +308,7 @@
             </u>
             <note type="speaker">РАДУЦЬКИЙ М.Б.</note>
             <u who="РАДУЦЬКИЙ М.Б." ana="#regular" xml:id="ParlaMint-UA_2020-03-17-m0.u38">
-               <seg xml:id="ParlaMint-UA_2020-03-17-m0.u38.p1" xml:lang="ru">11-а.Ззараз, хвилинку, я так.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-17-m0.u38.p1" xml:lang="uk">11-а.Ззараз, хвилинку, я так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-17-m0.u39">

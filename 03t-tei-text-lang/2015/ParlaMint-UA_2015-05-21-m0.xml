@@ -784,7 +784,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-21-m0.u106">
-               <seg xml:id="ParlaMint-UA_2015-05-21-m0.u106.p1" xml:lang="ru">Микола Трохимович Федорук, "Народний фронт".</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-21-m0.u106.p1" xml:lang="uk">Микола Трохимович Федорук, "Народний фронт".</seg>
             </u>
             <note type="time"><time when="2015-05-21T11:55:12">11:55:12</time></note>
             <note type="speaker">ФЕДОРУК М.Т.</note>

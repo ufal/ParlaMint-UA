@@ -132,7 +132,7 @@
             <note type="time"><time when="2020-09-02T10:21:22">10:21:22</time></note>
             <note type="speaker">ПРИХОДЬКО Н.І.</note>
             <u who="ПРИХОДЬКО Н.І." ana="#regular" xml:id="ParlaMint-UA_2020-09-02-m0.u12">
-               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u12.p1" xml:lang="ru">Морозу, передайте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u12.p1" xml:lang="uk">Морозу, передайте, будь ласка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-02-m0.u13">
@@ -628,7 +628,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-02-m0.u80">
-               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u80.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-02-m0.u80.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-09-02T11:27:58">11:27:58</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

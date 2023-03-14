@@ -451,7 +451,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-15-m0.u59">
-               <seg xml:id="ParlaMint-UA_2020-07-15-m0.u59.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-15-m0.u59.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2020-07-15T11:17:40">11:17:40</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -725,7 +725,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-15-m0.u100">
-               <seg xml:id="ParlaMint-UA_2020-07-15-m0.u100.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-15-m0.u100.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-07-15T11:51:03">11:51:03</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

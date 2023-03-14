@@ -856,8 +856,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-20-m0.u113">
-               <seg xml:id="ParlaMint-UA_2020-02-20-m0.u113.p1" xml:lang="ru">Вибачте.</seg>
-               <seg xml:id="ParlaMint-UA_2020-02-20-m0.u113.p2" xml:lang="ru">Красов, 700 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-20-m0.u113.p1" xml:lang="uk">Вибачте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-20-m0.u113.p2" xml:lang="uk">Красов, 700 правка.</seg>
             </u>
             <note type="time"><time when="2020-02-20T11:15:05">11:15:05</time></note>
             <note type="speaker">КРАСОВ О.І.</note>

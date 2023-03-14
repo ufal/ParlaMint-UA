@@ -973,7 +973,7 @@
             <note type="time"><time when="2020-02-07T11:55:16">11:55:16</time></note>
             <note type="speaker">БЄЛЬКОВА О.В.</note>
             <u who="БЄЛЬКОВА О.В." ana="#regular" xml:id="ParlaMint-UA_2020-02-07-m0.u127">
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u127.p1" xml:lang="ru">194 моя за номером. Я просто помилилась.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u127.p1" xml:lang="uk">194 моя за номером. Я просто помилилась.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-07-m0.u128">
@@ -1698,7 +1698,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-07-m0.u232">
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u232.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u232.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-02-07T13:52:50">13:52:50</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>

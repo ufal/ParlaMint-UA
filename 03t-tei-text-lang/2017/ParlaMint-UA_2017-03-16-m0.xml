@@ -677,7 +677,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-16-m0.u87">
-               <seg xml:id="ParlaMint-UA_2017-03-16-m0.u87.p1" xml:lang="ru">Будь ласка, одна хвилина, Сотник.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-16-m0.u87.p1" xml:lang="uk">Будь ласка, одна хвилина, Сотник.</seg>
             </u>
             <note type="time"><time when="2017-03-16T11:55:11">11:55:11</time></note>
             <note type="speaker">СОТНИК О.С.</note>
@@ -812,7 +812,7 @@
             </u>
             <note type="speaker">ВІННИК І.Ю.</note>
             <u who="ВІННИК І.Ю." ana="#regular" xml:id="ParlaMint-UA_2017-03-16-m0.u107">
-               <seg xml:id="ParlaMint-UA_2017-03-16-m0.u107.p1" xml:lang="ru">Це поправки до першого.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-16-m0.u107.p1" xml:lang="uk">Це поправки до першого.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-16-m0.u108">
@@ -1050,7 +1050,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-16-m0.u150">
-               <seg xml:id="ParlaMint-UA_2017-03-16-m0.u150.p1" xml:lang="ru">15 поправка, Одарченко.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-16-m0.u150.p1" xml:lang="uk">15 поправка, Одарченко.</seg>
             </u>
             <note type="time"><time when="2017-03-16T13:04:06">13:04:06</time></note>
             <note type="speaker">ОДАРЧЕНКО Ю.В.</note>

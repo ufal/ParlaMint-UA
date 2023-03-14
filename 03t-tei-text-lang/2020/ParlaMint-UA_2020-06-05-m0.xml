@@ -289,7 +289,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-05-m0.u33">
-               <seg xml:id="ParlaMint-UA_2020-06-05-m0.u33.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-05-m0.u33.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2020-06-05T10:51:21">10:51:21</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -551,7 +551,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-05-m0.u79">
-               <seg xml:id="ParlaMint-UA_2020-06-05-m0.u79.p1" xml:lang="ru">Олександр Владиславович Ткаченко.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-05-m0.u79.p1" xml:lang="uk">Олександр Владиславович Ткаченко.</seg>
             </u>
             <note type="time"><time when="2020-06-05T11:08:43">11:08:43</time></note>
             <note type="speaker">ТКАЧЕНКО О.В.</note>
@@ -1590,7 +1590,7 @@
             <note type="narrative">СТЕФАНЧУК Р.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-05-m0.u227">
-               <seg xml:id="ParlaMint-UA_2020-06-05-m0.u227.p1" xml:lang="ru">Народний депутат Чорноморов Артем Олегович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-05-m0.u227.p1" xml:lang="uk">Народний депутат Чорноморов Артем Олегович.</seg>
             </u>
             <note type="time"><time when="2020-06-05T12:59:05">12:59:05</time></note>
             <note type="speaker">ЧОРНОМОРОВ А.О.</note>
@@ -1599,7 +1599,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-05-m0.u229">
-               <seg xml:id="ParlaMint-UA_2020-06-05-m0.u229.p1" xml:lang="ru">Кому-кому? Я не почув, перепрошую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-05-m0.u229.p1" xml:lang="uk">Кому-кому? Я не почув, перепрошую.</seg>
             </u>
             <note type="speaker">ЧОРНОМОРОВ А.О.</note>
             <u who="ЧОРНОМОРОВ А.О." ana="#regular" xml:id="ParlaMint-UA_2020-06-05-m0.u230">

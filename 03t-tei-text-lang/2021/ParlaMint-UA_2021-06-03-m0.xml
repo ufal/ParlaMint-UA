@@ -173,7 +173,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u19">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u19.p1" xml:lang="ru">Антон Едуардович Поляков, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u19.p1" xml:lang="uk">Антон Едуардович Поляков, будь ласка.</seg>
             </u>
             <note type="time"><time when="2021-06-03T10:23:42">10:23:42</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -2519,7 +2519,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-03-m0.u339">
-               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u339.p1" xml:lang="ru">Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-03-m0.u339.p1" xml:lang="uk">Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2021-06-03T14:54:18">14:54:18</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>

@@ -153,7 +153,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-11-13-m0.u13">
-               <seg xml:id="ParlaMint-UA_2015-11-13-m0.u13.p1" xml:lang="ru">Будь ласка, народний депутат Долженков.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-13-m0.u13.p1" xml:lang="uk">Будь ласка, народний депутат Долженков.</seg>
             </u>
             <note type="time"><time when="2015-11-13T10:33:01">10:33:01</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>

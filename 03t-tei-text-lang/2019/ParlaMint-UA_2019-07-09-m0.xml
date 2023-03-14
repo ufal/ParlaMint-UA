@@ -1570,7 +1570,7 @@
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u254">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u254.p1" xml:lang="ru">Да, врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u254.p1" xml:lang="uk">Да, врахована.</seg>
                <note type="time"><time when="2019-07-09T11:05:17">11:05:17</time></note>
                <seg xml:id="ParlaMint-UA_2019-07-09-m0.u254.p2" xml:lang="uk">За-26</seg>
             </u>
@@ -3318,7 +3318,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u546">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u546.p1" xml:lang="ru">А, я пропустила, перепрошую.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u546.p1" xml:lang="uk">А, я пропустила, перепрошую.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-09-m0.u546.p2" xml:lang="uk">3890.</seg>
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
@@ -3547,7 +3547,7 @@
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u584">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u584.p1" xml:lang="ru">Восьма. Сьому щойно ми. 3908-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u584.p1" xml:lang="uk">Восьма. Сьому щойно ми. 3908-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u585">
@@ -4853,7 +4853,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u788">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u788.p1" xml:lang="ru">А, перепрошую, 3999-а.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u788.p1" xml:lang="uk">А, перепрошую, 3999-а.</seg>
             </u>
             <note type="time"><time when="2019-07-09T13:42:18">13:42:18</time></note>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>

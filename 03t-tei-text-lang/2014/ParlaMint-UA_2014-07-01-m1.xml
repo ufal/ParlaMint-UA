@@ -631,7 +631,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-07-01-m1.u92">
-               <seg xml:id="ParlaMint-UA_2014-07-01-m1.u92.p1" xml:lang="ru">Народний депутат Пилипишин, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-01-m1.u92.p1" xml:lang="uk">Народний депутат Пилипишин, будь ласка.</seg>
             </u>
             <note type="time"><time when="2014-07-01T17:20:56">17:20:56</time></note>
             <note type="speaker">ПИЛИПИШИН В.П.</note>

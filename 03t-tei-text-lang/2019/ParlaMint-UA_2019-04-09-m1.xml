@@ -335,7 +335,7 @@
             <note type="time"><time when="2019-04-09T16:26:04">16:26:04</time></note>
             <note type="speaker">ПОДОЛЯК І.І.</note>
             <u who="ПОДОЛЯК І.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-09-m1.u44">
-               <seg xml:id="ParlaMint-UA_2019-04-09-m1.u44.p1" xml:lang="ru">Хвилиночку, хвилиночку, хвилиночку, хвилиночку.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-09-m1.u44.p1" xml:lang="uk">Хвилиночку, хвилиночку, хвилиночку, хвилиночку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-09-m1.u45">
@@ -1170,7 +1170,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-09-m1.u174">
-               <seg xml:id="ParlaMint-UA_2019-04-09-m1.u174.p1" xml:lang="ru">Я вас не лякаю, я констатую факт. Я ж гуманно.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-09-m1.u174.p1" xml:lang="uk">Я вас не лякаю, я констатую факт. Я ж гуманно.</seg>
             </u>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-09-m1.u175">

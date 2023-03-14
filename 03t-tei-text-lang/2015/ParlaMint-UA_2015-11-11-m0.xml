@@ -737,7 +737,7 @@
             <note type="time"><time when="2015-11-11T11:49:42">11:49:42</time></note>
             <note type="speaker">ЧИЖМАРЬ Ю.В.</note>
             <u who="ЧИЖМАРЬ Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-11-11-m0.u97">
-               <seg xml:id="ParlaMint-UA_2015-11-11-m0.u97.p1" xml:lang="ru">Передаю слово Олегу Ляшку.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-11-m0.u97.p1" xml:lang="uk">Передаю слово Олегу Ляшку.</seg>
             </u>
             <note type="time"><time when="2015-11-11T11:49:45">11:49:45</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>

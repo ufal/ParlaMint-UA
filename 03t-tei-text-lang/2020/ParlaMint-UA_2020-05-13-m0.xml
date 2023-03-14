@@ -350,7 +350,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-13-m0.u42">
-               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u42.p1" xml:lang="ru">Антон Едуардович Поляков.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u42.p1" xml:lang="uk">Антон Едуардович Поляков.</seg>
             </u>
             <note type="time"><time when="2020-05-13T11:10:03">11:10:03</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -495,7 +495,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-13-m0.u68">
-               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u68.p1" xml:lang="ru">Антон Едуардович Поляков.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u68.p1" xml:lang="uk">Антон Едуардович Поляков.</seg>
             </u>
             <note type="time"><time when="2020-05-13T11:25:52">11:25:52</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
@@ -985,7 +985,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-13-m0.u133">
-               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u133.p1" xml:lang="ru">Данило Олександрович Гетманцев.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u133.p1" xml:lang="uk">Данило Олександрович Гетманцев.</seg>
             </u>
             <note type="time"><time when="2020-05-13T12:42:37">12:42:37</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>
@@ -1977,7 +1977,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-13-m0.u271">
-               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u271.p1" xml:lang="ru">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u271.p1" xml:lang="uk">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-05-13T16:53:48">16:53:48</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -2098,7 +2098,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-13-m0.u287">
-               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u287.p1" xml:lang="ru">Величкович. Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u287.p1" xml:lang="uk">Величкович. Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-05-13T17:09:37">17:09:37</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -2250,7 +2250,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-13-m0.u308">
-               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u308.p1" xml:lang="ru">Цимбалюк Михайло Михайлович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u308.p1" xml:lang="uk">Цимбалюк Михайло Михайлович.</seg>
             </u>
             <note type="time"><time when="2020-05-13T17:31:17">17:31:17</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -2881,7 +2881,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-13-m0.u389">
-               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u389.p1" xml:lang="ru">Ще раз, вибачте, кому?</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-13-m0.u389.p1" xml:lang="uk">Ще раз, вибачте, кому?</seg>
             </u>
             <note type="time"><time when="2020-05-13T18:50:47">18:50:47</time></note>
             <note type="speaker">ВАСИЛЬЧЕНКО Г.І.</note>

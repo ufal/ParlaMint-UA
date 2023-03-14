@@ -510,7 +510,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-10-m0.u66">
-               <seg xml:id="ParlaMint-UA_2019-09-10-m0.u66.p1" xml:lang="ru">Гетманцев - з процедури.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-10-m0.u66.p1" xml:lang="uk">Гетманцев - з процедури.</seg>
             </u>
             <note type="time"><time when="2019-09-10T11:02:14">11:02:14</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>

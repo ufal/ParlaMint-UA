@@ -480,7 +480,7 @@
             <note type="time"><time when="2021-06-29T16:51:21">16:51:21</time></note>
             <note type="speaker">БОНДАР М.Л.</note>
             <u who="БОНДАР М.Л." ana="#regular" xml:id="ParlaMint-UA_2021-06-29-m1.u60">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u60.p1" xml:lang="ru">Так, передайте, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u60.p1" xml:lang="uk">Так, передайте, будь ласка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m1.u61">
@@ -632,7 +632,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m1.u79">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u79.p1" xml:lang="ru">Гетманцев Данило Олександрович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u79.p1" xml:lang="uk">Гетманцев Данило Олександрович.</seg>
             </u>
             <note type="time"><time when="2021-06-29T17:09:09">17:09:09</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>
@@ -666,7 +666,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m1.u85">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u85.p1" xml:lang="ru">Величкович Микола Романович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u85.p1" xml:lang="uk">Величкович Микола Романович.</seg>
             </u>
             <note type="time"><time when="2021-06-29T17:12:26">17:12:26</time></note>
             <note type="speaker">ВЕЛИЧКОВИЧ М.Р.</note>

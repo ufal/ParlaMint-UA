@@ -200,7 +200,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-07-03-m1.u26">
-               <seg xml:id="ParlaMint-UA_2014-07-03-m1.u26.p1" xml:lang="ru">Народний депутат Долженков.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-03-m1.u26.p1" xml:lang="uk">Народний депутат Долженков.</seg>
             </u>
             <note type="time"><time when="2014-07-03T16:26:42">16:26:42</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>

@@ -288,7 +288,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-02-06-m1.u30">
-               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u30.p1" xml:lang="ru">Прокоментуйте коротко.</seg>
+               <seg xml:id="ParlaMint-UA_2018-02-06-m1.u30.p1" xml:lang="uk">Прокоментуйте коротко.</seg>
             </u>
             <note type="time"><time when="2018-02-06T16:32:04">16:32:04</time></note>
             <note type="speaker">ДЕМЧАК Р.Є.</note>

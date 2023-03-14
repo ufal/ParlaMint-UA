@@ -782,7 +782,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-30-m2.u95">
-               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u95.p1" xml:lang="ru">Перепрошую. Я просто. Так, 59, перепрошую.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u95.p1" xml:lang="uk">Перепрошую. Я просто. Так, 59, перепрошую.</seg>
             </u>
             <note type="speaker">СКОРИК М.Л.</note>
             <u who="СКОРИК М.Л." ana="#regular" xml:id="ParlaMint-UA_2020-03-30-m2.u96">
@@ -2009,7 +2009,7 @@
             <note type="time"><time when="2020-03-30T20:20:33">20:20:33</time></note>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>
             <u who="КОЛТУНОВИЧ О.С." ana="#regular" xml:id="ParlaMint-UA_2020-03-30-m2.u251">
-               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u251.p1" xml:lang="ru">Ви пропустили колегу Королевську. 87.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-30-m2.u251.p1" xml:lang="uk">Ви пропустили колегу Королевську. 87.</seg>
             </u>
             <vocal type="noise">
                <desc>(Шум у залі)</desc>
