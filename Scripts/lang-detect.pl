@@ -33,10 +33,16 @@ my @uk_words = qw/
 яка
 яке
 яку
+передати
 /;
 my $uk_words = join('|',@uk_words);
 
 my @ru_words = qw/
+и
+передать
+всем
+начать
+коллеге
 или
 спасибо
 пожалуйста
@@ -194,10 +200,10 @@ for my $file (@file_list){
         print STDERR "INFO: ",$node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')," ",$check_context[0],"\n";
         $text = $node->parentNode->textContent();
         $lng = detect_language($node,$text);
-        print STDERR "INFO: ",$node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')," ",status_lang($lng,$text, 'FIXED'),"\n";
+        print STDERR "INFO: ",$node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')," ",status_lang($lng,$text, 'FIXED'),"\t'$text'\n";
       }
     }
-print STDERR $node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id'),"\t",$lng->{char} ,'?', $lng->{identify}->{lang},"\t$text\n" if $lng->{char} && $lng->{char} ne $lng->{identify}->{lang};
+print STDERR $node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id'),"\t",$lng->{char}//'-','?', $lng->{word}//'-','?', $lng->{length}//'-','?', $lng->{identify}->{lang},"\n";
     my $lang = $lng->{char} // $lng->{word} // $lng->{length} // $lng->{identify}->{lang};
     unless($lang eq 'uk' or $lang eq 'ru'){
       print STDERR "WARN language[$lang]:$text\n";
@@ -274,6 +280,8 @@ sub status_lang  {
 
 sub detect_language {
   my ($node,$text) = @_;
+  $text =~ s/\s+/ /g;
+  $text =~ s/^\s+|\s+$//g;
   my %res;
   my $lng = detect_text_language(text => $text);
   my $uk = () = $text =~ m/([іїєґ])/gi;
