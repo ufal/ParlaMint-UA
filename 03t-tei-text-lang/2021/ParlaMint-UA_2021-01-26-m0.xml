@@ -61,7 +61,7 @@
             <note type="time"><time when="2021-01-26T10:08:46">10:08:46</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2021-01-26-m0.u2">
-               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u2.p1" xml:lang="ru">Я ж говорю, говорю!</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u2.p1" xml:lang="uk">Я ж говорю, говорю!</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-26-m0.u3">
@@ -336,7 +336,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-26-m0.u42">
-               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u42.p1" xml:lang="ru">Почекайте. Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u42.p1" xml:lang="uk">Почекайте. Кому?</seg>
             </u>
             <note type="speaker">ШМИГАЛЬ Д.А.</note>
             <u who="ШМИГАЛЬ Д.А." ana="#regular" xml:id="ParlaMint-UA_2021-01-26-m0.u43">
@@ -1499,7 +1499,7 @@
             </u>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2021-01-26-m0.u205">
-               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u205.p1" xml:lang="ru">445-а, так?</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u205.p1" xml:lang="uk">445-а, так?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-26-m0.u206">
@@ -1714,7 +1714,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-26-m0.u229">
-               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u229.p1" xml:lang="ru">12 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-26-m0.u229.p1" xml:lang="uk">12 правка.</seg>
             </u>
             <note type="time"><time when="2021-01-26T14:31:11">14:31:11</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

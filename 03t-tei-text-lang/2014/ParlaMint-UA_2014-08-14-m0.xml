@@ -754,7 +754,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-08-14-m0.u99">
-               <seg xml:id="ParlaMint-UA_2014-08-14-m0.u99.p1" xml:lang="ru">Озвучте цю поправку.</seg>
+               <seg xml:id="ParlaMint-UA_2014-08-14-m0.u99.p1" xml:lang="uk">Озвучте цю поправку.</seg>
             </u>
             <note type="time"><time when="2014-08-14T13:13:53">13:13:53</time></note>
             <note type="speaker">МИРНИЙ О.Б.</note>

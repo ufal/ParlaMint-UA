@@ -1053,7 +1053,7 @@
             <note type="time"><time when="2018-02-28T13:40:44">13:40:44</time></note>
             <note type="speaker">СПОРИШ І.Д.</note>
             <u who="СПОРИШ І.Д." ana="#regular" xml:id="ParlaMint-UA_2018-02-28-m0.u133">
-               <seg xml:id="ParlaMint-UA_2018-02-28-m0.u133.p1" xml:lang="ru">Все, все, включили.</seg>
+               <seg xml:id="ParlaMint-UA_2018-02-28-m0.u133.p1" xml:lang="uk">Все, все, включили.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-02-28-m0.u134">

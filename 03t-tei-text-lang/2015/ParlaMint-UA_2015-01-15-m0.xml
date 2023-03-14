@@ -1154,7 +1154,7 @@
             <note type="time"><time when="2015-01-15T13:13:03">13:13:03</time></note>
             <note type="speaker">ОСТРІКОВА Т.Г.</note>
             <u who="ОСТРІКОВА Т.Г." ana="#regular" xml:id="ParlaMint-UA_2015-01-15-m0.u158">
-               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u158.p1" xml:lang="ru">Березюку.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u158.p1" xml:lang="uk">Березюку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-15-m0.u159">
@@ -1289,7 +1289,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-15-m0.u179">
-               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u179.p1" xml:lang="ru">Уважно послухайте!</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u179.p1" xml:lang="uk">Уважно послухайте!</seg>
             </u>
             <note type="speaker">ПРОДАН О.П.</note>
             <u who="ПРОДАН О.П." ana="#regular" xml:id="ParlaMint-UA_2015-01-15-m0.u180">
@@ -1322,7 +1322,7 @@
             </u>
             <note type="speaker">РОЗЕНКО П.В.</note>
             <u who="РОЗЕНКО П.В." ana="#regular" xml:id="ParlaMint-UA_2015-01-15-m0.u186">
-               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u186.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u186.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-15-m0.u187">
@@ -1465,7 +1465,7 @@
             </u>
             <note type="speaker">ДУБНЕВИЧ Я.В.</note>
             <u who="ДУБНЕВИЧ Я.В." ana="#regular" xml:id="ParlaMint-UA_2015-01-15-m0.u210">
-               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u210.p1" xml:lang="ru">В уряд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-01-15-m0.u210.p1" xml:lang="uk">В уряд.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-01-15-m0.u211">

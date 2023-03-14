@@ -1760,7 +1760,7 @@
             <note type="time"><time when="2017-04-06T13:29:11">13:29:11</time></note>
             <note type="speaker">МАРТОВИЦЬКИЙ А.В.</note>
             <u who="МАРТОВИЦЬКИЙ А.В." ana="#regular" xml:id="ParlaMint-UA_2017-04-06-m0.u204">
-               <seg xml:id="ParlaMint-UA_2017-04-06-m0.u204.p1" xml:lang="ru">954 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-06-m0.u204.p1" xml:lang="uk">954 поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-04-06-m0.u205">
@@ -1848,7 +1848,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-06-m0.u214">
-               <seg xml:id="ParlaMint-UA_2017-04-06-m0.u214.p1" xml:lang="ru">Ще раз номер.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-06-m0.u214.p1" xml:lang="uk">Ще раз номер.</seg>
             </u>
             <note type="speaker">РЯБЧИН О.М.</note>
             <u who="РЯБЧИН О.М." ana="#regular" xml:id="ParlaMint-UA_2017-04-06-m0.u215">

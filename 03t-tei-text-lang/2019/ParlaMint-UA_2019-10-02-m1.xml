@@ -293,7 +293,7 @@
             <note type="time"><time when="2019-10-02T16:30:53">16:30:53</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
             <u who="КНЯЗЕВИЧ Р.П." ana="#regular" xml:id="ParlaMint-UA_2019-10-02-m1.u39">
-               <seg xml:id="ParlaMint-UA_2019-10-02-m1.u39.p1" xml:lang="ru">Да, якщо можна.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-02-m1.u39.p1" xml:lang="uk">Да, якщо можна.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-02-m1.u40">
@@ -705,7 +705,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-02-m1.u91">
-               <seg xml:id="ParlaMint-UA_2019-10-02-m1.u91.p1" xml:lang="ru">Ще раз, кому слово?</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-02-m1.u91.p1" xml:lang="uk">Ще раз, кому слово?</seg>
             </u>
             <note type="speaker">ПАВЛЮК М.В.</note>
             <u who="ПАВЛЮК М.В." ana="#regular" xml:id="ParlaMint-UA_2019-10-02-m1.u92">

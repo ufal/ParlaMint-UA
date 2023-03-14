@@ -359,7 +359,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-16-m0.u49">
-               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u49.p1" xml:lang="ru">Павло Петренко.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u49.p1" xml:lang="uk">Павло Петренко.</seg>
             </u>
             <note type="time"><time when="2016-02-16T10:55:45">10:55:45</time></note>
             <note type="speaker">ПЕТРЕНКО П.Д.</note>
@@ -729,7 +729,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-16-m0.u98">
-               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u98.p1" xml:lang="ru">Хвилина.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u98.p1" xml:lang="uk">Хвилина.</seg>
             </u>
             <note type="time"><time when="2016-02-16T11:53:41">11:53:41</time></note>
             <note type="speaker">ШКРУМ А.І.</note>
@@ -1127,7 +1127,7 @@
             </u>
             <note type="speaker">ІВАНЧУК А.В.</note>
             <u who="ІВАНЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2016-02-16-m0.u162">
-               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u162.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u162.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-16-m0.u163">

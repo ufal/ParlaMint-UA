@@ -1090,7 +1090,7 @@
             </u>
             <note type="speaker">БУРБАК М.Ю.</note>
             <u who="БУРБАК М.Ю." ana="#regular" xml:id="ParlaMint-UA_2019-01-16-m0.u144">
-               <seg xml:id="ParlaMint-UA_2019-01-16-m0.u144.p1" xml:lang="ru">Закону, так.</seg>
+               <seg xml:id="ParlaMint-UA_2019-01-16-m0.u144.p1" xml:lang="uk">Закону, так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-01-16-m0.u145">
@@ -1138,7 +1138,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-01-16-m0.u151">
-               <seg xml:id="ParlaMint-UA_2019-01-16-m0.u151.p1" xml:lang="ru">Вибачте, 265-а?</seg>
+               <seg xml:id="ParlaMint-UA_2019-01-16-m0.u151.p1" xml:lang="uk">Вибачте, 265-а?</seg>
             </u>
             <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
             <u who="КОРОЛЕВСЬКА Н.Ю." ana="#regular" xml:id="ParlaMint-UA_2019-01-16-m0.u152">
@@ -1550,7 +1550,7 @@
             <note type="time"><time when="2019-01-16T13:50:55">13:50:55</time></note>
             <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
             <u who="КОРОЛЕВСЬКА Н.Ю." ana="#regular" xml:id="ParlaMint-UA_2019-01-16-m0.u216">
-               <seg xml:id="ParlaMint-UA_2019-01-16-m0.u216.p1" xml:lang="ru">442 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-01-16-m0.u216.p1" xml:lang="uk">442 поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-01-16-m0.u217">

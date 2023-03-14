@@ -426,7 +426,7 @@
             <note type="time"><time when="2022-12-13T13:14:49">13:14:49</time></note>
             <note type="speaker">В’ЯТРОВИЧ В.М.</note>
             <u who="В’ЯТРОВИЧ В.М." ana="#regular" xml:id="ParlaMint-UA_2022-12-13-m0.u44">
-               <seg xml:id="ParlaMint-UA_2022-12-13-m0.u44.p1" xml:lang="ru">2-а, 3-я. 2, 3.</seg>
+               <seg xml:id="ParlaMint-UA_2022-12-13-m0.u44.p1" xml:lang="uk">2-а, 3-я. 2, 3.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-12-13-m0.u45">
@@ -434,7 +434,7 @@
             </u>
             <note type="speaker">В’ЯТРОВИЧ В.М.</note>
             <u who="В’ЯТРОВИЧ В.М." ana="#regular" xml:id="ParlaMint-UA_2022-12-13-m0.u46">
-               <seg xml:id="ParlaMint-UA_2022-12-13-m0.u46.p1" xml:lang="ru">Окей, 2-у.</seg>
+               <seg xml:id="ParlaMint-UA_2022-12-13-m0.u46.p1" xml:lang="uk">Окей, 2-у.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-12-13-m0.u47">
@@ -1542,7 +1542,7 @@
                <seg xml:id="ParlaMint-UA_2022-12-13-m0.u165.p51" xml:lang="uk">За-287</seg>
                <seg xml:id="ParlaMint-UA_2022-12-13-m0.u165.p52" xml:lang="uk">Рішення прийнято.</seg>
                <seg xml:id="ParlaMint-UA_2022-12-13-m0.u165.p53" xml:lang="uk">Дякую, шановні колеги.</seg>
-               <seg xml:id="ParlaMint-UA_2022-12-13-m0.u165.p54" xml:lang="uk">Будь ласка, Микита Русланович, дальше.</seg>
+               <seg xml:id="ParlaMint-UA_2022-12-13-m0.u165.p54" xml:lang="ru">Будь ласка, Микита Русланович, дальше.</seg>
             </u>
             <note type="time"><time when="2022-12-13T17:16:10">17:16:10</time></note>
             <note type="speaker">ПОТУРАЄВ М.Р.</note>

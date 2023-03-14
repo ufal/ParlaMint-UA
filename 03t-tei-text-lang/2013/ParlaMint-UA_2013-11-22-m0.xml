@@ -94,7 +94,7 @@
             <note type="speaker">АЗАРОВ М.Я.</note>
             <u who="АЗАРОВ М.Я." ana="#regular" xml:id="ParlaMint-UA_2013-11-22-m0.u4">
                <seg xml:id="ParlaMint-UA_2013-11-22-m0.u4.p1" xml:lang="uk">Який ти фахівець – відомо всім. Головним приводом.</seg>
-               <seg xml:id="ParlaMint-UA_2013-11-22-m0.u4.p2" xml:lang="uk">Орет тут мне на ухо! Что я должен молчать что ли?</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-22-m0.u4.p2" xml:lang="ru">Орет тут мне на ухо! Что я должен молчать что ли?</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>

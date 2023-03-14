@@ -221,11 +221,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-30-m1.u27">
-               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u27.p1" xml:lang="ru">Номери?</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u27.p1" xml:lang="uk">Номери?</seg>
             </u>
             <note type="speaker">ШКРУМ А.І.</note>
             <u who="ШКРУМ А.І." ana="#regular" xml:id="ParlaMint-UA_2021-03-30-m1.u28">
-               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u28.p1" xml:lang="ru">1-а та 146-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u28.p1" xml:lang="uk">1-а та 146-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-30-m1.u29">
@@ -1067,11 +1067,11 @@
             <note type="time"><time when="2021-03-30T16:15:32">16:15:32</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
             <u who="ПОЛЯКОВ А.Е." ana="#regular" xml:id="ParlaMint-UA_2021-03-30-m1.u136">
-               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u136.p1" xml:lang="ru">Ще раз?</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u136.p1" xml:lang="uk">Ще раз?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-30-m1.u137">
-               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u137.p1" xml:lang="ru">2 хвилини.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-30-m1.u137.p1" xml:lang="uk">2 хвилини.</seg>
             </u>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
             <u who="ПОЛЯКОВ А.Е." ana="#regular" xml:id="ParlaMint-UA_2021-03-30-m1.u138">

@@ -138,7 +138,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-12-m1.u15">
-               <seg xml:id="ParlaMint-UA_2019-09-12-m1.u15.p1" xml:lang="ru">Микола Величкович.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-12-m1.u15.p1" xml:lang="uk">Микола Величкович.</seg>
             </u>
             <note type="time"><time when="2019-09-12T16:10:57">16:10:57</time></note>
             <note type="speaker">ВЕЛИЧКОВИЧ М.Р.</note>
@@ -950,7 +950,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-12-m1.u134">
-               <seg xml:id="ParlaMint-UA_2019-09-12-m1.u134.p1" xml:lang="ru">Не можна.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-12-m1.u134.p1" xml:lang="uk">Не можна.</seg>
             </u>
             <note type="time"><time when="2019-09-12T17:46:59">17:46:59</time></note>
             <note type="speaker">СОВГИРЯ О.В.</note>

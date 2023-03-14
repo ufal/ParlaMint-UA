@@ -87,7 +87,7 @@
             <note type="time"><time when="2016-05-11T10:10:57">10:10:57</time></note>
             <note type="speaker">ПИСАРЕНКО В.В.</note>
             <u who="ПИСАРЕНКО В.В." ana="#regular" xml:id="ParlaMint-UA_2016-05-11-m0.u4">
-               <seg xml:id="ParlaMint-UA_2016-05-11-m0.u4.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-11-m0.u4.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-05-11-m0.u5">
@@ -553,7 +553,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-05-11-m0.u71">
-               <seg xml:id="ParlaMint-UA_2016-05-11-m0.u71.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-11-m0.u71.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ПИНЗЕНИК П.В.</note>
             <u who="ПИНЗЕНИК П.В." ana="#regular" xml:id="ParlaMint-UA_2016-05-11-m0.u72">

@@ -766,7 +766,7 @@
             </u>
             <note type="speaker">КОЖЕМ’ЯКІН А.А.</note>
             <u who="КОЖЕМ’ЯКІН А.А." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m1.u105">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m1.u105.p1" xml:lang="ru">42-а – врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m1.u105.p1" xml:lang="uk">42-а – врахована.</seg>
             </u>
             <note type="speaker">СОТНИК О.С.</note>
             <u who="СОТНИК О.С." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m1.u106">
@@ -822,7 +822,7 @@
             </u>
             <note type="speaker">КОЖЕМ’ЯКІН А.А.</note>
             <u who="КОЖЕМ’ЯКІН А.А." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m1.u114">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m1.u114.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m1.u114.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-13-m1.u115">
@@ -1045,7 +1045,7 @@
             </u>
             <note type="speaker">ІВАНЧУК А.В.</note>
             <u who="ІВАНЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m1.u151">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m1.u151.p1" xml:lang="ru">Да!</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m1.u151.p1" xml:lang="uk">Да!</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-13-m1.u152">

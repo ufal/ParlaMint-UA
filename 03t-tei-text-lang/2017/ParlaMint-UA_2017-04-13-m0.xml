@@ -916,7 +916,7 @@
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m0.u117">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u117.p1" xml:lang="ru">А? Ще не почав.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u117.p1" xml:lang="uk">А? Ще не почав.</seg>
             </u>
             <note type="speaker">ДОМБРОВСЬКИЙ О.Г.</note>
             <u who="ДОМБРОВСЬКИЙ О.Г." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m0.u118">
@@ -1655,7 +1655,7 @@
             <note type="time"><time when="2017-04-13T13:47:50">13:47:50</time></note>
             <note type="speaker">ПІДЛІСЕЦЬКИЙ Л.Т.</note>
             <u who="ПІДЛІСЕЦЬКИЙ Л.Т." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m0.u227">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u227.p1" xml:lang="ru">Наступна правка 95.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u227.p1" xml:lang="uk">Наступна правка 95.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-13-m0.u228">
@@ -1663,7 +1663,7 @@
             </u>
             <note type="speaker">ПІДЛІСЕЦЬКИЙ Л.Т.</note>
             <u who="ПІДЛІСЕЦЬКИЙ Л.Т." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m0.u229">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u229.p1" xml:lang="ru">Наступна 98-а.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u229.p1" xml:lang="uk">Наступна 98-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-13-m0.u230">
@@ -1808,7 +1808,7 @@
             <note type="time"><time when="2017-04-13T13:58:00">13:58:00</time></note>
             <note type="speaker">ПІДЛІСЕЦЬКИЙ Л.Т.</note>
             <u who="ПІДЛІСЕЦЬКИЙ Л.Т." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m0.u255">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u255.p1" xml:lang="ru">Наступна 146 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u255.p1" xml:lang="uk">Наступна 146 правка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-13-m0.u256">
@@ -1827,7 +1827,7 @@
             </u>
             <note type="speaker">ПІДЛІСЕЦЬКИЙ Л.Т.</note>
             <u who="ПІДЛІСЕЦЬКИЙ Л.Т." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m0.u259">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u259.p1" xml:lang="ru">Тимошенко.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u259.p1" xml:lang="uk">Тимошенко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-13-m0.u260">
@@ -1850,7 +1850,7 @@
             <note type="time"><time when="2017-04-13T14:00:02">14:00:02</time></note>
             <note type="speaker">ПІДЛІСЕЦЬКИЙ Л.Т.</note>
             <u who="ПІДЛІСЕЦЬКИЙ Л.Т." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m0.u263">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u263.p1" xml:lang="ru">146-а. Не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u263.p1" xml:lang="uk">146-а. Не врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-13-m0.u264">
@@ -1913,7 +1913,7 @@
             <note type="time"><time when="2017-04-13T14:03:34">14:03:34</time></note>
             <note type="speaker">ПІДЛІСЕЦЬКИЙ Л.Т.</note>
             <u who="ПІДЛІСЕЦЬКИЙ Л.Т." ana="#regular" xml:id="ParlaMint-UA_2017-04-13-m0.u275">
-               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u275.p1" xml:lang="ru">Була 150-а.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-13-m0.u275.p1" xml:lang="uk">Була 150-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-13-m0.u276">

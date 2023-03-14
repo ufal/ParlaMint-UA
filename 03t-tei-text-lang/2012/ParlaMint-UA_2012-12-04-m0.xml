@@ -291,7 +291,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="МАРТИНЮК А.І." ana="#chair" xml:id="ParlaMint-UA_2012-12-04-m0.u30">
-               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u30.p1" xml:lang="ru">Степаненко.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u30.p1" xml:lang="uk">Степаненко.</seg>
             </u>
             <note type="time"><time when="2012-12-04T10:58:54">10:58:54</time></note>
             <note type="speaker">СТЕПАНЕНКО А.А.</note>
@@ -315,7 +315,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="МАРТИНЮК А.І." ana="#chair" xml:id="ParlaMint-UA_2012-12-04-m0.u35">
-               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u35.p1" xml:lang="ru">Ващук Катерина.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-04-m0.u35.p1" xml:lang="uk">Ващук Катерина.</seg>
             </u>
             <note type="time"><time when="2012-12-04T11:01:19">11:01:19</time></note>
             <note type="speaker">ВАЩУК К.Т.</note>

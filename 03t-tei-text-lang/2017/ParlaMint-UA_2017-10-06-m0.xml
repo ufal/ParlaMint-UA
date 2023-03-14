@@ -519,7 +519,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-10-06-m0.u68">
-               <seg xml:id="ParlaMint-UA_2017-10-06-m0.u68.p1" xml:lang="ru">У вас був шанс.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-06-m0.u68.p1" xml:lang="uk">У вас був шанс.</seg>
             </u>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-10-06-m0.u69">
@@ -647,7 +647,7 @@
             </gap>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-10-06-m0.u89">
-               <seg xml:id="ParlaMint-UA_2017-10-06-m0.u89.p1" xml:lang="ru">Я перепрошую.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-06-m0.u89.p1" xml:lang="uk">Я перепрошую.</seg>
             </u>
             <note type="time"><time when="2017-10-06T11:11:10">11:11:10</time></note>
             <note type="speaker">СОТНИК О.С.</note>

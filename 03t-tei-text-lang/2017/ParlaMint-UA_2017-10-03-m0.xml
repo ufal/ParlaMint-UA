@@ -1674,11 +1674,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-10-03-m0.u207">
-               <seg xml:id="ParlaMint-UA_2017-10-03-m0.u207.p1" xml:lang="ru">Ще 5 хвилин?</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-03-m0.u207.p1" xml:lang="uk">Ще 5 хвилин?</seg>
             </u>
             <note type="speaker">ДЕНИСОВА Л.Л.</note>
             <u who="ДЕНИСОВА Л.Л." ana="#regular" xml:id="ParlaMint-UA_2017-10-03-m0.u208">
-               <seg xml:id="ParlaMint-UA_2017-10-03-m0.u208.p1" xml:lang="ru">Так, де 5.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-03-m0.u208.p1" xml:lang="uk">Так, де 5.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-10-03-m0.u209">
@@ -2095,7 +2095,7 @@
             </u>
             <note type="speaker">ДЕНІСОВА Л.Л.</note>
             <u who="ДЕНІСОВА Л.Л." ana="#regular" xml:id="ParlaMint-UA_2017-10-03-m0.u261">
-               <seg xml:id="ParlaMint-UA_2017-10-03-m0.u261.p1" xml:lang="ru">Так-так.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-03-m0.u261.p1" xml:lang="uk">Так-так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-10-03-m0.u262">
@@ -3684,7 +3684,7 @@
             <note type="time"><time when="2017-10-03T16:48:02">16:48:02</time></note>
             <note type="speaker">КОРОЛЕВСЬКА Н.Ю.</note>
             <u who="КОРОЛЕВСЬКА Н.Ю." ana="#regular" xml:id="ParlaMint-UA_2017-10-03-m0.u454">
-               <seg xml:id="ParlaMint-UA_2017-10-03-m0.u454.p1" xml:lang="ru">1766 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-03-m0.u454.p1" xml:lang="uk">1766 поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-10-03-m0.u455">
@@ -4184,7 +4184,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-10-03-m0.u529">
-               <seg xml:id="ParlaMint-UA_2017-10-03-m0.u529.p1" xml:lang="ru">48, так.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-03-m0.u529.p1" xml:lang="uk">48, так.</seg>
             </u>
             <note type="speaker">ДЕНІСОВА Л.Л.</note>
             <u who="ДЕНІСОВА Л.Л." ana="#regular" xml:id="ParlaMint-UA_2017-10-03-m0.u530">
@@ -4304,7 +4304,7 @@
             </u>
             <note type="speaker">ДЕНІСОВА Л.Л.</note>
             <u who="ДЕНІСОВА Л.Л." ana="#regular" xml:id="ParlaMint-UA_2017-10-03-m0.u549">
-               <seg xml:id="ParlaMint-UA_2017-10-03-m0.u549.p1" xml:lang="ru">Ну, а що ви.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-03-m0.u549.p1" xml:lang="uk">Ну, а що ви.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2017-10-03-m0.u550">

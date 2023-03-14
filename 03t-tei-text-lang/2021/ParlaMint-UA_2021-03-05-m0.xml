@@ -449,11 +449,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-05-m0.u57">
-               <seg xml:id="ParlaMint-UA_2021-03-05-m0.u57.p1" xml:lang="ru">Ще раз.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-05-m0.u57.p1" xml:lang="uk">Ще раз.</seg>
             </u>
             <note type="speaker">КОПИТІН І.В.</note>
             <u who="КОПИТІН І.В." ana="#regular" xml:id="ParlaMint-UA_2021-03-05-m0.u58">
-               <seg xml:id="ParlaMint-UA_2021-03-05-m0.u58.p1" xml:lang="ru">Михайлюк.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-05-m0.u58.p1" xml:lang="uk">Михайлюк.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-05-m0.u59">
@@ -896,7 +896,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-05-m0.u125">
-               <seg xml:id="ParlaMint-UA_2021-03-05-m0.u125.p1" xml:lang="ru">Я не чую, кому?</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-05-m0.u125.p1" xml:lang="uk">Я не чую, кому?</seg>
             </u>
             <note type="speaker">КУЛІНІЧ О.І.</note>
             <u who="КУЛІНІЧ О.І." ana="#regular" xml:id="ParlaMint-UA_2021-03-05-m0.u126">
@@ -1350,7 +1350,7 @@
             </u>
             <note type="speaker">ЧОРНИЙ Д.С.</note>
             <u who="ЧОРНИЙ Д.С." ana="#regular" xml:id="ParlaMint-UA_2021-03-05-m0.u162">
-               <seg xml:id="ParlaMint-UA_2021-03-05-m0.u162.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-05-m0.u162.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-05-m0.u163">

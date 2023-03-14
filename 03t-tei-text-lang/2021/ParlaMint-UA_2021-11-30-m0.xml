@@ -1212,7 +1212,7 @@
             <note type="time"><time when="2021-11-30T13:01:02">13:01:02</time></note>
             <note type="speaker">ГНАТЕНКО В.С.</note>
             <u who="ГНАТЕНКО В.С." ana="#regular" xml:id="ParlaMint-UA_2021-11-30-m0.u169">
-               <seg xml:id="ParlaMint-UA_2021-11-30-m0.u169.p1" xml:lang="ru">Качний.</seg>
+               <seg xml:id="ParlaMint-UA_2021-11-30-m0.u169.p1" xml:lang="uk">Качний.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-11-30-m0.u170">
@@ -2220,7 +2220,7 @@
             <note type="time"><time when="2021-11-30T14:40:56">14:40:56</time></note>
             <note type="speaker">В’ЯТРОВИЧ В.М.</note>
             <u who="В’ЯТРОВИЧ В.М." ana="#regular" xml:id="ParlaMint-UA_2021-11-30-m0.u235">
-               <seg xml:id="ParlaMint-UA_2021-11-30-m0.u235.p1" xml:lang="ru">Ще раз?</seg>
+               <seg xml:id="ParlaMint-UA_2021-11-30-m0.u235.p1" xml:lang="uk">Ще раз?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-11-30-m0.u236">

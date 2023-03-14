@@ -490,7 +490,7 @@
             </u>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>
             <u who="КОЛТУНОВИЧ О.С." ana="#regular" xml:id="ParlaMint-UA_2020-07-14-m0.u40">
-               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u40.p1" xml:lang="ru">Ще раз?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u40.p1" xml:lang="uk">Ще раз?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-14-m0.u41">
@@ -785,7 +785,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-14-m0.u73">
-               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u73.p1" xml:lang="ru">До слова.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u73.p1" xml:lang="uk">До слова.</seg>
             </u>
             <note type="time"><time when="2020-07-14T11:45:30">11:45:30</time></note>
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України</note>
@@ -1026,7 +1026,7 @@
             <note type="time"><time when="2020-07-14T13:13:14">13:13:14</time></note>
             <note type="speaker">АБДУЛЛІН О.Р.</note>
             <u who="АБДУЛЛІН О.Р." ana="#regular" xml:id="ParlaMint-UA_2020-07-14-m0.u109">
-               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u109.p1" xml:lang="ru">Цимбалюк.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u109.p1" xml:lang="uk">Цимбалюк.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-14-m0.u110">
@@ -1408,7 +1408,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-14-m0.u161">
-               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u161.p1" xml:lang="ru">Шуляк.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u161.p1" xml:lang="uk">Шуляк.</seg>
             </u>
             <note type="time"><time when="2020-07-14T13:55:16">13:55:16</time></note>
             <note type="speaker">ШУЛЯК О.О.</note>
@@ -1967,7 +1967,7 @@
             </u>
             <note type="speaker">МАЗУРАШУ Г.Г.</note>
             <u who="МАЗУРАШУ Г.Г." ana="#regular" xml:id="ParlaMint-UA_2020-07-14-m0.u226">
-               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u226.p1" xml:lang="ru">Можу я сказати?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-14-m0.u226.p1" xml:lang="uk">Можу я сказати?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-14-m0.u227">

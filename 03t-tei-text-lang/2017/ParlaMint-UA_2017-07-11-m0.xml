@@ -460,11 +460,11 @@
             <note type="narrative">Веде засідання заступник Голови Верховної Ради України СИРОЇД О.І.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-07-11-m0.u47">
-               <seg xml:id="ParlaMint-UA_2017-07-11-m0.u47.p1" xml:lang="ru">Ви завершили, так?</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-11-m0.u47.p1" xml:lang="uk">Ви завершили, так?</seg>
             </u>
             <note type="speaker">РИБАК І.П.</note>
             <u who="РИБАК І.П." ana="#regular" xml:id="ParlaMint-UA_2017-07-11-m0.u48">
-               <seg xml:id="ParlaMint-UA_2017-07-11-m0.u48.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-11-m0.u48.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-07-11-m0.u49">

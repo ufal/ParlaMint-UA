@@ -367,7 +367,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-20-m0.u43">
-               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u43.p1" xml:lang="ru">Вибачте, кому?</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u43.p1" xml:lang="uk">Вибачте, кому?</seg>
             </u>
             <note type="time"><time when="2020-05-20T11:12:29">11:12:29</time></note>
             <note type="speaker">КОСТЕНКО Р.В.</note>
@@ -843,7 +843,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-20-m0.u104">
-               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u104.p1" xml:lang="ru">Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u104.p1" xml:lang="uk">Кому?</seg>
             </u>
             <note type="speaker">АР’ЄВ В.І.</note>
             <u who="АР’ЄВ В.І." ana="#regular" xml:id="ParlaMint-UA_2020-05-20-m0.u105">
@@ -1202,11 +1202,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-20-m0.u160">
-               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u160.p1" xml:lang="ru">Ще раз, кому?</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u160.p1" xml:lang="uk">Ще раз, кому?</seg>
             </u>
             <note type="speaker">АР’ЄВ В.І.</note>
             <u who="АР’ЄВ В.І." ana="#regular" xml:id="ParlaMint-UA_2020-05-20-m0.u161">
-               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u161.p1" xml:lang="ru">Бондарю Михайлу.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u161.p1" xml:lang="uk">Бондарю Михайлу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-20-m0.u162">
@@ -1231,7 +1231,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-20-m0.u166">
-               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u166.p1" xml:lang="ru">Колтунович Олександр.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-20-m0.u166.p1" xml:lang="uk">Колтунович Олександр.</seg>
             </u>
             <note type="time"><time when="2020-05-20T13:45:23">13:45:23</time></note>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>

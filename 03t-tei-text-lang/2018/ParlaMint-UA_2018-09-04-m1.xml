@@ -341,7 +341,7 @@
             <note type="time"><time when="2018-09-04T16:54:49">16:54:49</time></note>
             <note type="speaker">ДАНЧЕНКО О.І.</note>
             <u who="ДАНЧЕНКО О.І." ana="#regular" xml:id="ParlaMint-UA_2018-09-04-m1.u32">
-               <seg xml:id="ParlaMint-UA_2018-09-04-m1.u32.p1" xml:lang="ru">Бабак.</seg>
+               <seg xml:id="ParlaMint-UA_2018-09-04-m1.u32.p1" xml:lang="uk">Бабак.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-09-04-m1.u33">

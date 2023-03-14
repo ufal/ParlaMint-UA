@@ -1157,7 +1157,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-10-m1.u168">
-               <seg xml:id="ParlaMint-UA_2019-09-10-m1.u168.p1" xml:lang="ru">Не перебивайте.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-10-m1.u168.p1" xml:lang="uk">Не перебивайте.</seg>
             </u>
             <vocal type="noise">
                <desc>(Шум у залі)</desc>
@@ -1172,7 +1172,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-10-m1.u170">
-               <seg xml:id="ParlaMint-UA_2019-09-10-m1.u170.p1" xml:lang="ru">Дайте договорити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-10-m1.u170.p1" xml:lang="uk">Дайте договорити.</seg>
             </u>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2019-09-10-m1.u171">

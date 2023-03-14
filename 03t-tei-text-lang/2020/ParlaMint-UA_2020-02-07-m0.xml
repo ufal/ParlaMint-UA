@@ -863,7 +863,7 @@
             </u>
             <note type="speaker">МАЗУРАШУ Г.Г.</note>
             <u who="МАЗУРАШУ Г.Г." ana="#regular" xml:id="ParlaMint-UA_2020-02-07-m0.u105">
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u105.p1" xml:lang="ru">У мене 9 правок.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u105.p1" xml:lang="uk">У мене 9 правок.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-07-m0.u106">
@@ -907,7 +907,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-07-m0.u114">
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u114.p1" xml:lang="ru">Слухаю вас.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u114.p1" xml:lang="uk">Слухаю вас.</seg>
             </u>
             <note type="speaker">ПУЗІЙЧУК А.В.</note>
             <u who="ПУЗІЙЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2020-02-07-m0.u115">
@@ -1297,7 +1297,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-07-m0.u176">
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u176.p1" xml:lang="ru">Вибачте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u176.p1" xml:lang="uk">Вибачте.</seg>
             </u>
             <note type="speaker">БОНДАРЄВ К.А.</note>
             <u who="БОНДАРЄВ К.А." ana="#regular" xml:id="ParlaMint-UA_2020-02-07-m0.u177">
@@ -1719,7 +1719,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-07-m0.u236">
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u236.p1" xml:lang="ru">Да, мабуть.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u236.p1" xml:lang="uk">Да, мабуть.</seg>
             </u>
             <note type="time"><time when="2020-02-07T13:57:00">13:57:00</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>

@@ -210,7 +210,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2017-09-21-m0.u22">
-               <seg xml:id="ParlaMint-UA_2017-09-21-m0.u22.p1" xml:lang="ru">69 – наступна.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-21-m0.u22.p1" xml:lang="uk">69 – наступна.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-21-m0.u23">
@@ -2062,7 +2062,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-21-m0.u257">
-               <seg xml:id="ParlaMint-UA_2017-09-21-m0.u257.p1" xml:lang="ru">326-а. Сотник.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-21-m0.u257.p1" xml:lang="uk">326-а. Сотник.</seg>
             </u>
             <note type="time"><time when="2017-09-21T13:44:46">13:44:46</time></note>
             <note type="speaker">СОТНИК О.С.</note>
@@ -2160,7 +2160,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-21-m0.u271">
-               <seg xml:id="ParlaMint-UA_2017-09-21-m0.u271.p1" xml:lang="ru">Князевич.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-21-m0.u271.p1" xml:lang="uk">Князевич.</seg>
             </u>
             <note type="time"><time when="2017-09-21T13:54:29">13:54:29</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

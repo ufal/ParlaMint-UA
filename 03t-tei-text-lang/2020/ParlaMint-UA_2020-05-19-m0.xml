@@ -269,7 +269,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-19-m0.u29">
-               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u29.p1" xml:lang="ru">Чийгоз Ахтем.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u29.p1" xml:lang="uk">Чийгоз Ахтем.</seg>
             </u>
             <note type="time"><time when="2020-05-19T10:45:47">10:45:47</time></note>
             <note type="speaker">ЧИЙГОЗ А.З.</note>
@@ -278,7 +278,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-19-m0.u31">
-               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u31.p1" xml:lang="ru">Геращенко.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u31.p1" xml:lang="uk">Геращенко.</seg>
             </u>
             <note type="time"><time when="2020-05-19T10:45:52">10:45:52</time></note>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
@@ -1079,7 +1079,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-19-m0.u141">
-               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u141.p1" xml:lang="ru">2 хвилини залишайте.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u141.p1" xml:lang="uk">2 хвилини залишайте.</seg>
             </u>
             <note type="time"><time when="2020-05-19T13:09:56">13:09:56</time></note>
             <note type="speaker">ВАСИЛЕВСЬКА-СМАГЛЮК О.М.</note>
@@ -1576,7 +1576,7 @@
             <note type="time"><time when="2020-05-19T14:08:31">14:08:31</time></note>
             <note type="speaker">ЦАБАЛЬ В.В.</note>
             <u who="ЦАБАЛЬ В.В." ana="#regular" xml:id="ParlaMint-UA_2020-05-19-m0.u218">
-               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u218.p1" xml:lang="ru">Осадчук.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u218.p1" xml:lang="uk">Осадчук.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-19-m0.u219">
@@ -1651,7 +1651,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-19-m0.u231">
-               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u231.p1" xml:lang="ru">Гео Багратович Лерос.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u231.p1" xml:lang="uk">Гео Багратович Лерос.</seg>
             </u>
             <note type="time"><time when="2020-05-19T14:18:55">14:18:55</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -1744,7 +1744,7 @@
             <note type="time"><time when="2020-05-19T14:28:13">14:28:13</time></note>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2020-05-19-m0.u244">
-               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u244.p1" xml:lang="ru">Павленко Ростислав.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u244.p1" xml:lang="uk">Павленко Ростислав.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-19-m0.u245">

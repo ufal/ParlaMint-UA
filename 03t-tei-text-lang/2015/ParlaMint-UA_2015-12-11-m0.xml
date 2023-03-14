@@ -256,7 +256,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-12-11-m0.u29">
-               <seg xml:id="ParlaMint-UA_2015-12-11-m0.u29.p1" xml:lang="ru">Все, все.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-11-m0.u29.p1" xml:lang="uk">Все, все.</seg>
             </u>
             <note type="time"><time when="2015-12-11T10:46:08">10:46:08</time></note>
             <note type="speaker">ЯЦЕНЮК А.П.</note>

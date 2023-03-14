@@ -1146,11 +1146,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-25-m0.u169">
-               <seg xml:id="ParlaMint-UA_2014-12-25-m0.u169.p1" xml:lang="ru">У вас 2 хвилини.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-25-m0.u169.p1" xml:lang="uk">У вас 2 хвилини.</seg>
             </u>
             <note type="speaker">КУЖЕЛЬ О.В.</note>
             <u who="КУЖЕЛЬ О.В." ana="#regular" xml:id="ParlaMint-UA_2014-12-25-m0.u170">
-               <seg xml:id="ParlaMint-UA_2014-12-25-m0.u170.p1" xml:lang="ru">Три?</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-25-m0.u170.p1" xml:lang="uk">Три?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-25-m0.u171">
@@ -1323,7 +1323,7 @@
             </u>
             <note type="speaker">ЯРЕСЬКО Н.</note>
             <u who="ЯРЕСЬКО Н." ana="#regular" xml:id="ParlaMint-UA_2014-12-25-m0.u203">
-               <seg xml:id="ParlaMint-UA_2014-12-25-m0.u203.p1" xml:lang="ru">Без вилучення.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-25-m0.u203.p1" xml:lang="uk">Без вилучення.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-25-m0.u204">
@@ -1895,7 +1895,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-25-m0.u293">
-               <seg xml:id="ParlaMint-UA_2014-12-25-m0.u293.p1" xml:lang="ru">1573 ви хочете.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-25-m0.u293.p1" xml:lang="uk">1573 ви хочете.</seg>
             </u>
             <note type="speaker">МАТВІЙЧУК В.М.</note>
             <u who="МАТВІЙЧУК В.М." ana="#regular" xml:id="ParlaMint-UA_2014-12-25-m0.u294">
@@ -2410,7 +2410,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-25-m0.u381">
-               <seg xml:id="ParlaMint-UA_2014-12-25-m0.u381.p1" xml:lang="ru">Це правильно.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-25-m0.u381.p1" xml:lang="uk">Це правильно.</seg>
             </u>
             <note type="speaker">ПИНЗЕНИК В.М.</note>
             <u who="ПИНЗЕНИК В.М." ana="#regular" xml:id="ParlaMint-UA_2014-12-25-m0.u382">

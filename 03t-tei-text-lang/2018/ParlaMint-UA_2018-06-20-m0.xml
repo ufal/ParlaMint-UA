@@ -309,7 +309,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-06-20-m0.u37">
-               <seg xml:id="ParlaMint-UA_2018-06-20-m0.u37.p1" xml:lang="ru">Олена Сотник.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-20-m0.u37.p1" xml:lang="uk">Олена Сотник.</seg>
             </u>
             <note type="time"><time when="2018-06-20T10:53:51">10:53:51</time></note>
             <note type="speaker">СОТНИК О.С.</note>
@@ -1247,11 +1247,11 @@
             </u>
             <note type="speaker">ВІННИК І.Ю.</note>
             <u who="ВІННИК І.Ю." ana="#regular" xml:id="ParlaMint-UA_2018-06-20-m0.u165">
-               <seg xml:id="ParlaMint-UA_2018-06-20-m0.u165.p1" xml:lang="ru">А який номер?</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-20-m0.u165.p1" xml:lang="uk">А який номер?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-06-20-m0.u166">
-               <seg xml:id="ParlaMint-UA_2018-06-20-m0.u166.p1" xml:lang="ru">47-а. 47 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-20-m0.u166.p1" xml:lang="uk">47-а. 47 поправка.</seg>
             </u>
             <note type="time"><time when="2018-06-20T13:21:11">13:21:11</time></note>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>

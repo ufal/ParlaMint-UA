@@ -849,7 +849,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-08-29-m1.u91">
-               <seg xml:id="ParlaMint-UA_2019-08-29-m1.u91.p1" xml:lang="ru">Волошин.</seg>
+               <seg xml:id="ParlaMint-UA_2019-08-29-m1.u91.p1" xml:lang="uk">Волошин.</seg>
             </u>
             <note type="time"><time when="2019-08-29T15:54:29">15:54:29</time></note>
             <note type="speaker">ВОЛОШИН О.А.</note>
@@ -1476,7 +1476,7 @@
             </u>
             <note type="speaker">ЗЕЛЕНСЬКИЙ В.О.</note>
             <u who="ЗЕЛЕНСЬКИЙ В.О." ana="#regular" xml:id="ParlaMint-UA_2019-08-29-m1.u173">
-               <seg xml:id="ParlaMint-UA_2019-08-29-m1.u173.p1" xml:lang="ru">Правильно.</seg>
+               <seg xml:id="ParlaMint-UA_2019-08-29-m1.u173.p1" xml:lang="uk">Правильно.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-08-29-m1.u174">
@@ -3356,7 +3356,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-08-29-m1.u433">
-               <seg xml:id="ParlaMint-UA_2019-08-29-m1.u433.p1" xml:lang="ru">Дайте договорити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-08-29-m1.u433.p1" xml:lang="uk">Дайте договорити.</seg>
             </u>
             <note type="speaker">ЛУЦЕНКО Ю.В.</note>
             <u who="ЛУЦЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2019-08-29-m1.u434">
@@ -3393,7 +3393,7 @@
             </u>
             <note type="speaker">ЗЕЛЕНСЬКИЙ В.О.</note>
             <u who="ЗЕЛЕНСЬКИЙ В.О." ana="#regular" xml:id="ParlaMint-UA_2019-08-29-m1.u438">
-               <seg xml:id="ParlaMint-UA_2019-08-29-m1.u438.p1" xml:lang="ru">А коротше не можна?</seg>
+               <seg xml:id="ParlaMint-UA_2019-08-29-m1.u438.p1" xml:lang="uk">А коротше не можна?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-08-29-m1.u439">
@@ -3631,7 +3631,7 @@
             </u>
             <note type="speaker">БУЖАНСЬКИЙ М.А.</note>
             <u who="БУЖАНСЬКИЙ М.А." ana="#regular" xml:id="ParlaMint-UA_2019-08-29-m1.u475">
-               <seg xml:id="ParlaMint-UA_2019-08-29-m1.u475.p1" xml:lang="ru">О'кей. О'кей. О'кей.</seg>
+               <seg xml:id="ParlaMint-UA_2019-08-29-m1.u475.p1" xml:lang="uk">О'кей. О'кей. О'кей.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-08-29-m1.u476">
@@ -4063,7 +4063,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-08-29-m1.u526">
-               <seg xml:id="ParlaMint-UA_2019-08-29-m1.u526.p1" xml:lang="ru">Тиша, тиша.</seg>
+               <seg xml:id="ParlaMint-UA_2019-08-29-m1.u526.p1" xml:lang="uk">Тиша, тиша.</seg>
             </u>
             <note type="speaker">ПАПІЄВ М.М.</note>
             <u who="ПАПІЄВ М.М." ana="#regular" xml:id="ParlaMint-UA_2019-08-29-m1.u527">

@@ -993,11 +993,11 @@
             <note type="time"><time when="2015-05-21T18:03:33">18:03:33</time></note>
             <note type="speaker">РИБАЛКА С.В.</note>
             <u who="РИБАЛКА С.В." ana="#regular" xml:id="ParlaMint-UA_2015-05-21-m1.u139">
-               <seg xml:id="ParlaMint-UA_2015-05-21-m1.u139.p1" xml:lang="ru">Минуточку.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-21-m1.u139.p1" xml:lang="uk">Минуточку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-05-21-m1.u140">
-               <seg xml:id="ParlaMint-UA_2015-05-21-m1.u140.p1" xml:lang="ru">10 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-21-m1.u140.p1" xml:lang="uk">10 поправка.</seg>
             </u>
             <note type="time"><time when="2015-05-21T18:03:54">18:03:54</time></note>
             <note type="speaker">РИБАЛКА С.В.</note>
@@ -1095,7 +1095,7 @@
             </u>
             <note type="speaker">РИБАЛКА С.В.</note>
             <u who="РИБАЛКА С.В." ana="#regular" xml:id="ParlaMint-UA_2015-05-21-m1.u159">
-               <seg xml:id="ParlaMint-UA_2015-05-21-m1.u159.p1" xml:lang="ru">Кужель.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-21-m1.u159.p1" xml:lang="uk">Кужель.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-21-m1.u160">

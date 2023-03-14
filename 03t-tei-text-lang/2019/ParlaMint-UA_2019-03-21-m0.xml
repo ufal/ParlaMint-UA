@@ -1346,7 +1346,7 @@
             </u>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
             <u who="КНЯЖИЦЬКИЙ М.Л." ana="#regular" xml:id="ParlaMint-UA_2019-03-21-m0.u189">
-               <seg xml:id="ParlaMint-UA_2019-03-21-m0.u189.p1" xml:lang="ru">Я дуже коротко.</seg>
+               <seg xml:id="ParlaMint-UA_2019-03-21-m0.u189.p1" xml:lang="uk">Я дуже коротко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-03-21-m0.u190">
@@ -1582,7 +1582,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-03-21-m0.u221">
-               <seg xml:id="ParlaMint-UA_2019-03-21-m0.u221.p1" xml:lang="ru">Коротко, пане Микола.</seg>
+               <seg xml:id="ParlaMint-UA_2019-03-21-m0.u221.p1" xml:lang="uk">Коротко, пане Микола.</seg>
             </u>
             <note type="time"><time when="2019-03-21T12:43:36">12:43:36</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>

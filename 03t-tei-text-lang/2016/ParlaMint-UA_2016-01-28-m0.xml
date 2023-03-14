@@ -1370,7 +1370,7 @@
             <note type="time"><time when="2016-01-28T13:52:34">13:52:34</time></note>
             <note type="speaker">ПОДОЛЯК І.І.</note>
             <u who="ПОДОЛЯК І.І." ana="#regular" xml:id="ParlaMint-UA_2016-01-28-m0.u184">
-               <seg xml:id="ParlaMint-UA_2016-01-28-m0.u184.p1" xml:lang="ru">Я не маю заперечень.</seg>
+               <seg xml:id="ParlaMint-UA_2016-01-28-m0.u184.p1" xml:lang="uk">Я не маю заперечень.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-01-28-m0.u185">

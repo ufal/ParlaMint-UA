@@ -217,7 +217,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-01-m0.u23">
-               <seg xml:id="ParlaMint-UA_2021-07-01-m0.u23.p1" xml:lang="ru">Юрчишин.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-01-m0.u23.p1" xml:lang="uk">Юрчишин.</seg>
             </u>
             <note type="time"><time when="2021-07-01T10:32:26">10:32:26</time></note>
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
@@ -232,7 +232,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-01-m0.u26">
-               <seg xml:id="ParlaMint-UA_2021-07-01-m0.u26.p1" xml:lang="ru">Гео Багратович Лерос.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-01-m0.u26.p1" xml:lang="uk">Гео Багратович Лерос.</seg>
             </u>
             <note type="time"><time when="2021-07-01T10:32:49">10:32:49</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -706,7 +706,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-01-m0.u93">
-               <seg xml:id="ParlaMint-UA_2021-07-01-m0.u93.p1" xml:lang="ru">А, 84-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-01-m0.u93.p1" xml:lang="uk">А, 84-а.</seg>
             </u>
             <note type="speaker">ПУЗІЙЧУК А.В.</note>
             <u who="ПУЗІЙЧУК А.В." ana="#regular" xml:id="ParlaMint-UA_2021-07-01-m0.u94">

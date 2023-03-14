@@ -785,7 +785,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-13-m1.u100">
-               <seg xml:id="ParlaMint-UA_2017-07-13-m1.u100.p1" xml:lang="ru">Номер? Тетяна, номер?</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-13-m1.u100.p1" xml:lang="uk">Номер? Тетяна, номер?</seg>
             </u>
             <note type="speaker">ОСТРІКОВА Т.Г.</note>
             <u who="ОСТРІКОВА Т.Г." ana="#regular" xml:id="ParlaMint-UA_2017-07-13-m1.u101">
@@ -2051,7 +2051,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-13-m1.u298">
-               <seg xml:id="ParlaMint-UA_2017-07-13-m1.u298.p1" xml:lang="ru">Шурма, одна хвилина.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-13-m1.u298.p1" xml:lang="uk">Шурма, одна хвилина.</seg>
             </u>
             <note type="time"><time when="2017-07-13T19:58:02">19:58:02</time></note>
             <note type="speaker">ШУРМА І.М.</note>

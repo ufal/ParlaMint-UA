@@ -770,7 +770,7 @@
             </u>
             <note type="speaker">ЛУЦЕНКО Ю.В.</note>
             <u who="ЛУЦЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-11-10-m0.u109">
-               <seg xml:id="ParlaMint-UA_2015-11-10-m0.u109.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-10-m0.u109.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-11-10-m0.u110">
@@ -862,7 +862,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-11-10-m0.u125">
-               <seg xml:id="ParlaMint-UA_2015-11-10-m0.u125.p1" xml:lang="ru">Коментуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-10-m0.u125.p1" xml:lang="uk">Коментуйте.</seg>
             </u>
             <note type="time"><time when="2015-11-10T11:58:22">11:58:22</time></note>
             <note type="speaker">ЛУЦЕНКО Ю.В.</note>
@@ -1007,7 +1007,7 @@
             </u>
             <note type="speaker">ЛУЦЕНКО Ю.В.</note>
             <u who="ЛУЦЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-11-10-m0.u148">
-               <seg xml:id="ParlaMint-UA_2015-11-10-m0.u148.p1" xml:lang="ru">Так точно.</seg>
+               <seg xml:id="ParlaMint-UA_2015-11-10-m0.u148.p1" xml:lang="uk">Так точно.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-11-10-m0.u149">

@@ -114,7 +114,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-18-m0.u8">
-               <seg xml:id="ParlaMint-UA_2015-03-18-m0.u8.p1" xml:lang="ru">Михайло Головко.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-18-m0.u8.p1" xml:lang="uk">Михайло Головко.</seg>
             </u>
             <note type="time"><time when="2015-03-18T10:17:20">10:17:20</time></note>
             <note type="speaker">ГОЛОВКО М.Й.</note>

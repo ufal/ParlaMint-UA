@@ -597,7 +597,7 @@
             </u>
             <note type="speaker">ЗГУЛАДЗЕ-ГЛУКСМАНН Е.</note>
             <u who="ЗГУЛАДЗЕ-ГЛУКСМАНН Е." ana="#regular" xml:id="ParlaMint-UA_2015-07-14-m0.u79">
-               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u79.p1" xml:lang="ru">Все, я ушла?</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u79.p1" xml:lang="uk">Все, я ушла?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-14-m0.u80">
@@ -631,7 +631,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-14-m0.u84">
-               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u84.p1" xml:lang="ru">Яценко Антон.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m0.u84.p1" xml:lang="uk">Яценко Антон.</seg>
             </u>
             <note type="time"><time when="2015-07-14T11:46:40">11:46:40</time></note>
             <note type="speaker">ЯЦЕНКО А.В.</note>

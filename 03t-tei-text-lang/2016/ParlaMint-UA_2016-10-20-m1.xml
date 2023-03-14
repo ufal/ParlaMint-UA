@@ -567,7 +567,7 @@
             <note type="time"><time when="2016-10-20T17:24:35">17:24:35</time></note>
             <note type="speaker">КОСТЕНКО П.П.</note>
             <u who="КОСТЕНКО П.П." ana="#regular" xml:id="ParlaMint-UA_2016-10-20-m1.u78">
-               <seg xml:id="ParlaMint-UA_2016-10-20-m1.u78.p1" xml:lang="ru">Альона Бабак.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-20-m1.u78.p1" xml:lang="uk">Альона Бабак.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2016-10-20-m1.u79">
@@ -969,7 +969,7 @@
             <note type="time"><time when="2016-10-20T18:18:00">18:18:00</time></note>
             <note type="speaker">СИСОЄНКО І.В.</note>
             <u who="СИСОЄНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2016-10-20-m1.u131">
-               <seg xml:id="ParlaMint-UA_2016-10-20-m1.u131.p1" xml:lang="ru">444 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-20-m1.u131.p1" xml:lang="uk">444 поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-10-20-m1.u132">

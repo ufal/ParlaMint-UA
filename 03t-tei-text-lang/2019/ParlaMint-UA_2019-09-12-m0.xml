@@ -573,7 +573,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-12-m0.u77">
-               <seg xml:id="ParlaMint-UA_2019-09-12-m0.u77.p1" xml:lang="ru">Дубневич Ярослав.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-12-m0.u77.p1" xml:lang="uk">Дубневич Ярослав.</seg>
             </u>
             <note type="time"><time when="2019-09-12T11:05:16">11:05:16</time></note>
             <note type="speaker">ДУБНЕВИЧ Я.В.</note>
@@ -1223,7 +1223,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-12-m0.u174">
-               <seg xml:id="ParlaMint-UA_2019-09-12-m0.u174.p1" xml:lang="ru">Данило Гетманцев.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-12-m0.u174.p1" xml:lang="uk">Данило Гетманцев.</seg>
             </u>
             <note type="time"><time when="2019-09-12T12:56:18">12:56:18</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>

@@ -680,7 +680,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-03-m1.u94">
-               <seg xml:id="ParlaMint-UA_2019-12-03-m1.u94.p1" xml:lang="ru">Ще раз, кого?</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-03-m1.u94.p1" xml:lang="uk">Ще раз, кого?</seg>
             </u>
             <note type="speaker">В’ЯТРОВИЧ В.М.</note>
             <u who="В’ЯТРОВИЧ В.М." ana="#regular" xml:id="ParlaMint-UA_2019-12-03-m1.u95">
@@ -852,11 +852,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-03-m1.u120">
-               <seg xml:id="ParlaMint-UA_2019-12-03-m1.u120.p1" xml:lang="ru">Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-03-m1.u120.p1" xml:lang="uk">Кому?</seg>
             </u>
             <note type="speaker">СОВСУН І.Р.</note>
             <u who="СОВСУН І.Р." ana="#regular" xml:id="ParlaMint-UA_2019-12-03-m1.u121">
-               <seg xml:id="ParlaMint-UA_2019-12-03-m1.u121.p1" xml:lang="ru">Макарову.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-03-m1.u121.p1" xml:lang="uk">Макарову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-03-m1.u122">
@@ -1034,7 +1034,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-03-m1.u148">
-               <seg xml:id="ParlaMint-UA_2019-12-03-m1.u148.p1" xml:lang="ru">Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-03-m1.u148.p1" xml:lang="uk">Кому?</seg>
             </u>
             <note type="speaker">ВЕНІСЛАВСЬКИЙ Ф.В.</note>
             <u who="ВЕНІСЛАВСЬКИЙ Ф.В." ana="#regular" xml:id="ParlaMint-UA_2019-12-03-m1.u149">
@@ -1449,7 +1449,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-03-m1.u215">
-               <seg xml:id="ParlaMint-UA_2019-12-03-m1.u215.p1" xml:lang="ru">Кабаченко.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-03-m1.u215.p1" xml:lang="uk">Кабаченко.</seg>
             </u>
             <note type="time"><time when="2019-12-03T18:41:41">18:41:41</time></note>
             <note type="speaker">КАБАЧЕНКО В.В.</note>

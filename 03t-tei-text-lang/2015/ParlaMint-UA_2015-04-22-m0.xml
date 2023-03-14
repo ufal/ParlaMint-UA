@@ -94,7 +94,7 @@
             <note type="time"><time when="2015-04-22T10:13:29">10:13:29</time></note>
             <note type="speaker">ВЕСЕЛОВА Н.В.</note>
             <u who="ВЕСЕЛОВА Н.В." ana="#regular" xml:id="ParlaMint-UA_2015-04-22-m0.u6">
-               <seg xml:id="ParlaMint-UA_2015-04-22-m0.u6.p1" xml:lang="ru">Передаю слово Бабак.</seg>
+               <seg xml:id="ParlaMint-UA_2015-04-22-m0.u6.p1" xml:lang="uk">Передаю слово Бабак.</seg>
             </u>
             <note type="time"><time when="2015-04-22T10:13:43">10:13:43</time></note>
             <note type="speaker">БАБАК А.В.</note>

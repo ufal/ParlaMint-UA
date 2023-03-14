@@ -850,7 +850,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-06-m0.u105">
-               <seg xml:id="ParlaMint-UA_2020-03-06-m0.u105.p1" xml:lang="ru">5 хвилин.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-06-m0.u105.p1" xml:lang="uk">5 хвилин.</seg>
             </u>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2020-03-06-m0.u106">
@@ -858,7 +858,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-06-m0.u107">
-               <seg xml:id="ParlaMint-UA_2020-03-06-m0.u107.p1" xml:lang="ru">П'ять.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-06-m0.u107.p1" xml:lang="uk">П'ять.</seg>
             </u>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2020-03-06-m0.u108">
@@ -1232,7 +1232,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-06-m0.u153">
-               <seg xml:id="ParlaMint-UA_2020-03-06-m0.u153.p1" xml:lang="ru">Я слухаю вас.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-06-m0.u153.p1" xml:lang="uk">Я слухаю вас.</seg>
             </u>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2020-03-06-m0.u154">

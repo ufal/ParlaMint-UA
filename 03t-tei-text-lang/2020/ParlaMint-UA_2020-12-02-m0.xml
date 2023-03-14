@@ -111,7 +111,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u9">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u9.p1" xml:lang="ru">Гео Багратович Лерос.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u9.p1" xml:lang="uk">Гео Багратович Лерос.</seg>
             </u>
             <note type="time"><time when="2020-12-02T10:31:45">10:31:45</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -270,7 +270,7 @@
             <note type="time"><time when="2020-12-02T10:59:02">10:59:02</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
             <u who="ЦИМБАЛЮК М.М." ana="#regular" xml:id="ParlaMint-UA_2020-12-02-m0.u32">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u32.p1" xml:lang="ru">Правка за номером 33.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u32.p1" xml:lang="uk">Правка за номером 33.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u33">
@@ -278,7 +278,7 @@
             </u>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
             <u who="ЦИМБАЛЮК М.М." ana="#regular" xml:id="ParlaMint-UA_2020-12-02-m0.u34">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u34.p1" xml:lang="ru">Правка за номером 33.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u34.p1" xml:lang="uk">Правка за номером 33.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u35">
@@ -630,7 +630,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u78">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u78.p1" xml:lang="ru">Ще раз.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u78.p1" xml:lang="uk">Ще раз.</seg>
             </u>
             <note type="speaker">СОЛЬСЬКИЙ М.Т.</note>
             <u who="СОЛЬСЬКИЙ М.Т." ana="#regular" xml:id="ParlaMint-UA_2020-12-02-m0.u79">
@@ -642,7 +642,7 @@
             </u>
             <note type="speaker">СОЛЬСЬКИЙ М.Т.</note>
             <u who="СОЛЬСЬКИЙ М.Т." ana="#regular" xml:id="ParlaMint-UA_2020-12-02-m0.u81">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u81.p1" xml:lang="ru">Правильно.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u81.p1" xml:lang="uk">Правильно.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u82">
@@ -976,11 +976,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u121">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u121.p1" xml:lang="ru">Вибачте, не чутно.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u121.p1" xml:lang="uk">Вибачте, не чутно.</seg>
             </u>
             <note type="speaker">ЗІНКЕВИЧ Я.В.</note>
             <u who="ЗІНКЕВИЧ Я.В." ana="#regular" xml:id="ParlaMint-UA_2020-12-02-m0.u122">
-               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u122.p1" xml:lang="ru">Климпуш-Цинцадзе.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-02-m0.u122.p1" xml:lang="uk">Климпуш-Цинцадзе.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-02-m0.u123">

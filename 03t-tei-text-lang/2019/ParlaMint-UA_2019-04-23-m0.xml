@@ -388,7 +388,7 @@
             </u>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
             <u who="КНЯЖИЦЬКИЙ М.Л." ana="#regular" xml:id="ParlaMint-UA_2019-04-23-m0.u50">
-               <seg xml:id="ParlaMint-UA_2019-04-23-m0.u50.p1" xml:lang="ru">Завершив.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-23-m0.u50.p1" xml:lang="uk">Завершив.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-23-m0.u51">
@@ -1568,7 +1568,7 @@
             <note type="time"><time when="2019-04-23T12:50:38">12:50:38</time></note>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-23-m0.u243">
-               <seg xml:id="ParlaMint-UA_2019-04-23-m0.u243.p1" xml:lang="ru">Шановний пане.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-23-m0.u243.p1" xml:lang="uk">Шановний пане.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-23-m0.u244">
@@ -2254,7 +2254,7 @@
             <note type="time"><time when="2019-04-23T13:41:38">13:41:38</time></note>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-23-m0.u362">
-               <seg xml:id="ParlaMint-UA_2019-04-23-m0.u362.p1" xml:lang="ru">Десять! Десять!</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-23-m0.u362.p1" xml:lang="uk">Десять! Десять!</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-23-m0.u363">

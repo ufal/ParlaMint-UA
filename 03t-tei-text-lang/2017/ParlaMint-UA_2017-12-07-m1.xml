@@ -1778,7 +1778,7 @@
             </u>
             <note type="speaker">СЮМАР В.П.</note>
             <u who="СЮМАР В.П." ana="#regular" xml:id="ParlaMint-UA_2017-12-07-m1.u247">
-               <seg xml:id="ParlaMint-UA_2017-12-07-m1.u247.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2017-12-07-m1.u247.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-12-07-m1.u248">
@@ -2229,7 +2229,7 @@
             <note type="time"><time when="2017-12-07T20:39:14">20:39:14</time></note>
             <note type="speaker">МІРОШНІЧЕНКО І.В.</note>
             <u who="МІРОШНІЧЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2017-12-07-m1.u303">
-               <seg xml:id="ParlaMint-UA_2017-12-07-m1.u303.p1" xml:lang="ru">Да. Звертаюсь до.</seg>
+               <seg xml:id="ParlaMint-UA_2017-12-07-m1.u303.p1" xml:lang="uk">Да. Звертаюсь до.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-12-07-m1.u304">

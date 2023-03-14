@@ -488,7 +488,7 @@
             <note type="time"><time when="2013-10-22T12:26:59">12:26:59</time></note>
             <note type="speaker">ЛЕВЧЕНКО О.В.</note>
             <u who="ЛЕВЧЕНКО О.В." ana="#regular" xml:id="ParlaMint-UA_2013-10-22-m0.u65">
-               <seg xml:id="ParlaMint-UA_2013-10-22-m0.u65.p1" xml:lang="ru">Михайленко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-22-m0.u65.p1" xml:lang="uk">Михайленко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-22-m0.u66">

@@ -896,7 +896,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-23-m0.u124">
-               <seg xml:id="ParlaMint-UA_2017-03-23-m0.u124.p1" xml:lang="ru">Шуфрич – 1 хвилина.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-23-m0.u124.p1" xml:lang="uk">Шуфрич – 1 хвилина.</seg>
             </u>
             <note type="time"><time when="2017-03-23T11:52:42">11:52:42</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>
@@ -1160,7 +1160,7 @@
             </u>
             <note type="speaker">МЕЛЬНИЦУК І.І.</note>
             <u who="МЕЛЬНИЦУК І.І." ana="#regular" xml:id="ParlaMint-UA_2017-03-23-m0.u166">
-               <seg xml:id="ParlaMint-UA_2017-03-23-m0.u166.p1" xml:lang="ru">Так, 26-у.</seg>
+               <seg xml:id="ParlaMint-UA_2017-03-23-m0.u166.p1" xml:lang="uk">Так, 26-у.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-03-23-m0.u167">

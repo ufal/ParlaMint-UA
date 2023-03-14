@@ -719,7 +719,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-03-18-m0.u77">
-               <seg xml:id="ParlaMint-UA_2016-03-18-m0.u77.p1" xml:lang="ru">Все, ви завершили?</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-18-m0.u77.p1" xml:lang="uk">Все, ви завершили?</seg>
             </u>
             <note type="time"><time when="2016-03-18T12:36:11">12:36:11</time></note>
             <note type="speaker">САБАШУК П.П.</note>
@@ -1200,7 +1200,7 @@
             </u>
             <note type="speaker">ШУРМА І.М.</note>
             <u who="ШУРМА І.М." ana="#regular" xml:id="ParlaMint-UA_2016-03-18-m0.u154">
-               <seg xml:id="ParlaMint-UA_2016-03-18-m0.u154.p1" xml:lang="ru">Завершую. Я завершую.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-18-m0.u154.p1" xml:lang="uk">Завершую. Я завершую.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-03-18-m0.u155">

@@ -1450,7 +1450,7 @@
             </u>
             <note type="speaker">ЧОРНИЙ Д.С.</note>
             <u who="ЧОРНИЙ Д.С." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u187">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u187.p1" xml:lang="ru">Хвилини достатньо.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u187.p1" xml:lang="uk">Хвилини достатньо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u188">
@@ -1473,7 +1473,7 @@
             </u>
             <note type="speaker">КОРНІЄНКО О.С.</note>
             <u who="КОРНІЄНКО О.С." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u192">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u192.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u192.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u193">
@@ -1485,7 +1485,7 @@
             </u>
             <note type="speaker">КОРНІЄНКО О.С.</note>
             <u who="КОРНІЄНКО О.С." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u194">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u194.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u194.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u195">
@@ -1510,7 +1510,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u199">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u199.p1" xml:lang="ru">7-а, 32-а?</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u199.p1" xml:lang="uk">7-а, 32-а?</seg>
             </u>
             <note type="speaker">ЛОЗИНСЬКИЙ Р.М.</note>
             <u who="ЛОЗИНСЬКИЙ Р.М." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u200">
@@ -1575,7 +1575,7 @@
             </u>
             <note type="speaker">КОРНІЄНКО О.С.</note>
             <u who="КОРНІЄНКО О.С." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u212">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u212.p1" xml:lang="ru">Так, врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u212.p1" xml:lang="uk">Так, врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u213">
@@ -1797,7 +1797,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u249">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u249.p1" xml:lang="ru">Ще раз номер?</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u249.p1" xml:lang="uk">Ще раз номер?</seg>
             </u>
             <note type="speaker">КЛИМПУШ-ЦИНЦАДЗЕ І.О.</note>
             <u who="КЛИМПУШ-ЦИНЦАДЗЕ І.О." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u250">
@@ -1927,7 +1927,7 @@
             <note type="time"><time when="2021-02-16T14:29:27">14:29:27</time></note>
             <note type="speaker">МАМКА Г.М.</note>
             <u who="МАМКА Г.М." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u270">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u270.p1" xml:lang="ru">Правка номер 67.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u270.p1" xml:lang="uk">Правка номер 67.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u271">
@@ -2083,7 +2083,7 @@
             <note type="time"><time when="2021-02-16T14:42:52">14:42:52</time></note>
             <note type="speaker">КОРНІЄНКО О.С.</note>
             <u who="КОРНІЄНКО О.С." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u292">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u292.p1" xml:lang="ru">Врахована правка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u292.p1" xml:lang="uk">Врахована правка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u293">
@@ -2109,7 +2109,7 @@
             <note type="time"><time when="2021-02-16T14:44:52">14:44:52</time></note>
             <note type="speaker">КОРНІЄНКО О.С.</note>
             <u who="КОРНІЄНКО О.С." ana="#regular" xml:id="ParlaMint-UA_2021-02-16-m0.u296">
-               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u296.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-16-m0.u296.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-16-m0.u297">

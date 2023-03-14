@@ -64,7 +64,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-22-m0.u2">
-               <seg xml:id="ParlaMint-UA_2014-02-22-m0.u2.p1" xml:lang="ru">Щойно.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-22-m0.u2.p1" xml:lang="uk">Щойно.</seg>
             </u>
             <vocal type="shouting">
                <desc>ГОЛОС ІЗ ЗАЛУ Де Голова? Де Голова?</desc>
@@ -1172,7 +1172,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-22-m0.u169">
-               <seg xml:id="ParlaMint-UA_2014-02-22-m0.u169.p1" xml:lang="ru">Саме так!</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-22-m0.u169.p1" xml:lang="uk">Саме так!</seg>
             </u>
             <note type="speaker">МІРОШНИЧЕНКО Ю.Р.</note>
             <u who="МІРОШНИЧЕНКО Ю.Р." ana="#regular" xml:id="ParlaMint-UA_2014-02-22-m0.u170">

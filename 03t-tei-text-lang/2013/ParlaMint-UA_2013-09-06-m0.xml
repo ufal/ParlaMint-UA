@@ -208,7 +208,7 @@
             <note type="time"><time when="2013-09-06T10:48:17">10:48:17</time></note>
             <note type="speaker">ПАНЬКЕВИЧ О.І.</note>
             <u who="ПАНЬКЕВИЧ О.І." ana="#regular" xml:id="ParlaMint-UA_2013-09-06-m0.u17">
-               <seg xml:id="ParlaMint-UA_2013-09-06-m0.u17.p1" xml:lang="ru">Швайка.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-06-m0.u17.p1" xml:lang="uk">Швайка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КАЛЄТНІК І.Г." ana="#chair" xml:id="ParlaMint-UA_2013-09-06-m0.u18">

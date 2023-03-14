@@ -484,7 +484,7 @@
             </u>
             <note type="speaker">КЛЮЄВ С.П.</note>
             <u who="КЛЮЄВ С.П." ana="#regular" xml:id="ParlaMint-UA_2015-06-03-m0.u71">
-               <seg xml:id="ParlaMint-UA_2015-06-03-m0.u71.p1" xml:lang="uk">а политическая целесообразность.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-03-m0.u71.p1" xml:lang="ru">а политическая целесообразность.</seg>
                <seg xml:id="ParlaMint-UA_2015-06-03-m0.u71.p2" xml:lang="uk">Спасибо большое.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
@@ -773,7 +773,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-06-03-m0.u117">
-               <seg xml:id="ParlaMint-UA_2015-06-03-m0.u117.p1" xml:lang="ru">Семен Семенченко.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-03-m0.u117.p1" xml:lang="uk">Семен Семенченко.</seg>
             </u>
             <note type="time"><time when="2015-06-03T12:09:35">12:09:35</time></note>
             <note type="speaker">СЕМЕНЧЕНКО С.І.</note>

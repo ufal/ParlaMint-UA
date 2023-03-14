@@ -585,7 +585,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-04-m0.u77">
-               <seg xml:id="ParlaMint-UA_2020-02-04-m0.u77.p1" xml:lang="ru">Олег Макаров.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-04-m0.u77.p1" xml:lang="uk">Олег Макаров.</seg>
             </u>
             <note type="time"><time when="2020-02-04T11:30:55">11:30:55</time></note>
             <note type="speaker">МАКАРОВ О.А.</note>
@@ -1082,7 +1082,7 @@
             <note type="time"><time when="2020-02-04T13:19:59">13:19:59</time></note>
             <note type="speaker">ЦАБАЛЬ В.В.</note>
             <u who="ЦАБАЛЬ В.В." ana="#regular" xml:id="ParlaMint-UA_2020-02-04-m0.u147">
-               <seg xml:id="ParlaMint-UA_2020-02-04-m0.u147.p1" xml:lang="ru">Макаров Олег.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-04-m0.u147.p1" xml:lang="uk">Макаров Олег.</seg>
             </u>
             <note type="time"><time when="2020-02-04T13:20:11">13:20:11</time></note>
             <note type="speaker">МАКАРОВ О.А.</note>

@@ -736,7 +736,7 @@
             <note type="time"><time when="2015-07-14T17:12:07">17:12:07</time></note>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-07-14-m1.u90">
-               <seg xml:id="ParlaMint-UA_2015-07-14-m1.u90.p1" xml:lang="ru">Левченко, ВО.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m1.u90.p1" xml:lang="uk">Левченко, ВО.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-14-m1.u91">
@@ -1189,7 +1189,7 @@
             </u>
             <note type="speaker">ГЕРАЩЕНКО А.Ю.</note>
             <u who="ГЕРАЩЕНКО А.Ю." ana="#regular" xml:id="ParlaMint-UA_2015-07-14-m1.u154">
-               <seg xml:id="ParlaMint-UA_2015-07-14-m1.u154.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m1.u154.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-07-14-m1.u155">
@@ -1363,7 +1363,7 @@
             <u who="ГРОЙСАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-14-m1.u176">
                <seg xml:id="ParlaMint-UA_2015-07-14-m1.u176.p1" xml:lang="uk">Шановні колеги народні депутати, будь ласка, свої місця. Займіть, будь ласка, свої місця і заспокойтесь, давайте на півтону тихіше!</seg>
                <seg xml:id="ParlaMint-UA_2015-07-14-m1.u176.p2" xml:lang="uk">Будь ласка, заключне слово Згуладзе.</seg>
-               <seg xml:id="ParlaMint-UA_2015-07-14-m1.u176.p3" xml:lang="uk">Есть необходимость? Пожалуйста, Ека Згуладзе.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-14-m1.u176.p3" xml:lang="ru">Есть необходимость? Пожалуйста, Ека Згуладзе.</seg>
             </u>
             <note type="time"><time when="2015-07-14T17:58:51">17:58:51</time></note>
             <note type="speaker">ЗГУЛАДЗЕ-ГЛУКСМАНН Е.</note>

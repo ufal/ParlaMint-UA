@@ -1587,7 +1587,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-08-m0.u210">
-               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u210.p1" xml:lang="ru">Дуже коротко, Бабак.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u210.p1" xml:lang="uk">Дуже коротко, Бабак.</seg>
             </u>
             <note type="time"><time when="2017-11-08T13:50:10">13:50:10</time></note>
             <note type="speaker">БАБАК А.В.</note>
@@ -1676,7 +1676,7 @@
             </u>
             <note type="speaker">МАРТОВИЦЬКИЙ А.В.</note>
             <u who="МАРТОВИЦЬКИЙ А.В." ana="#regular" xml:id="ParlaMint-UA_2017-11-08-m0.u223">
-               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u223.p1" xml:lang="ru">Так-так.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-08-m0.u223.p1" xml:lang="uk">Так-так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-08-m0.u224">

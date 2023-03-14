@@ -1419,7 +1419,7 @@
             </u>
             <note type="speaker">КЛИМПУШ-ЦИНЦАДЗЕ І.О.</note>
             <u who="КЛИМПУШ-ЦИНЦАДЗЕ І.О." ana="#regular" xml:id="ParlaMint-UA_2021-10-20-m0.u200">
-               <seg xml:id="ParlaMint-UA_2021-10-20-m0.u200.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-20-m0.u200.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-20-m0.u201">
@@ -1725,7 +1725,7 @@
             </u>
             <note type="speaker">ГОНЧАРЕНКО О.О.</note>
             <u who="ГОНЧАРЕНКО О.О." ana="#regular" xml:id="ParlaMint-UA_2021-10-20-m0.u246">
-               <seg xml:id="ParlaMint-UA_2021-10-20-m0.u246.p1" xml:lang="ru">Вибачте, 49-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-10-20-m0.u246.p1" xml:lang="uk">Вибачте, 49-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-10-20-m0.u247">

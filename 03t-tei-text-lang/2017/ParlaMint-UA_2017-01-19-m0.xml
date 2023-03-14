@@ -779,7 +779,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-01-19-m0.u99">
-               <seg xml:id="ParlaMint-UA_2017-01-19-m0.u99.p1" xml:lang="ru">Курило, одна хвилина.</seg>
+               <seg xml:id="ParlaMint-UA_2017-01-19-m0.u99.p1" xml:lang="uk">Курило, одна хвилина.</seg>
             </u>
             <note type="time"><time when="2017-01-19T11:56:58">11:56:58</time></note>
             <note type="speaker">КУРИЛО В.С.</note>

@@ -1125,7 +1125,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-09-17-m0.u159">
-               <seg xml:id="ParlaMint-UA_2015-09-17-m0.u159.p1" xml:lang="uk">Александр, одну минуту, еще будет вопрос.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-17-m0.u159.p1" xml:lang="ru">Александр, одну минуту, еще будет вопрос.</seg>
                <seg xml:id="ParlaMint-UA_2015-09-17-m0.u159.p2" xml:lang="uk">Будь ласка, питання, Ольга Богомолець від комітету, хвилина. І потім 2 хвилини на відповіді і голосуємо. Будь ласка, займаєте свої місця, прошу.</seg>
             </u>
             <note type="time"><time when="2015-09-17T12:55:23">12:55:23</time></note>
@@ -1196,7 +1196,7 @@
                <vocal type="shouting">
                   <desc>ГОЛОС ІЗ ЗАЛУ. Хай говорить фамілії, не скривайте мафію. Говоріть, говоріть, включіть мікрофон міністра.</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2015-09-17-m0.u169.p4" xml:lang="uk">Хай говорить.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-17-m0.u169.p4" xml:lang="ru">Хай говорить.</seg>
             </u>
             <vocal type="noise">
                <desc>(Шум у залі)</desc>

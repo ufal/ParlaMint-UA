@@ -810,7 +810,7 @@
             <note type="time"><time when="2013-04-17T11:45:01">11:45:01</time></note>
             <note type="speaker">ВАНЗУРЯК Р.С.</note>
             <u who="ВАНЗУРЯК Р.С." ana="#regular" xml:id="ParlaMint-UA_2013-04-17-m0.u128">
-               <seg xml:id="ParlaMint-UA_2013-04-17-m0.u128.p1" xml:lang="ru">Передаю Розенко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-17-m0.u128.p1" xml:lang="uk">Передаю Розенко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-17-m0.u129">

@@ -357,7 +357,7 @@
             </u>
             <note type="speaker">СОБОЛЄВ Є.В.</note>
             <u who="СОБОЛЄВ Є.В." ana="#regular" xml:id="ParlaMint-UA_2018-12-19-m0.u43">
-               <seg xml:id="ParlaMint-UA_2018-12-19-m0.u43.p1" xml:lang="ru">правосуддя.</seg>
+               <seg xml:id="ParlaMint-UA_2018-12-19-m0.u43.p1" xml:lang="uk">правосуддя.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-12-19-m0.u44">
@@ -728,7 +728,7 @@
             </u>
             <note type="speaker">КУЛІНІЧ О.І.</note>
             <u who="КУЛІНІЧ О.І." ana="#regular" xml:id="ParlaMint-UA_2018-12-19-m0.u96">
-               <seg xml:id="ParlaMint-UA_2018-12-19-m0.u96.p1" xml:lang="ru">Вона врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2018-12-19-m0.u96.p1" xml:lang="uk">Вона врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2018-12-19-m0.u97">
@@ -1244,7 +1244,7 @@
             </u>
             <note type="speaker">КУЛІНІЧ О.І.</note>
             <u who="КУЛІНІЧ О.І." ana="#regular" xml:id="ParlaMint-UA_2018-12-19-m0.u176">
-               <seg xml:id="ParlaMint-UA_2018-12-19-m0.u176.p1" xml:lang="ru">Вона врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2018-12-19-m0.u176.p1" xml:lang="uk">Вона врахована.</seg>
             </u>
             <note type="time"><time when="2018-12-19T13:22:07">13:22:07</time></note>
             <note type="speaker">МАРТОВИЦЬКИЙ А.В.</note>
@@ -1401,7 +1401,7 @@
             </u>
             <note type="speaker">КУЛІНІЧ О.І.</note>
             <u who="КУЛІНІЧ О.І." ana="#regular" xml:id="ParlaMint-UA_2018-12-19-m0.u201">
-               <seg xml:id="ParlaMint-UA_2018-12-19-m0.u201.p1" xml:lang="ru">Те саме ж.</seg>
+               <seg xml:id="ParlaMint-UA_2018-12-19-m0.u201.p1" xml:lang="uk">Те саме ж.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2018-12-19-m0.u202">

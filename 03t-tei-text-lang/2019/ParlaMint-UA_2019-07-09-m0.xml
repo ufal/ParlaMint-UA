@@ -74,7 +74,7 @@
                <seg xml:id="ParlaMint-UA_2019-07-09-m0.u2.p4" xml:lang="uk">Друге. Необхідно відновити справедливість по відношенню до людей. У центрі державної політики повинна бути людина, українець, а не власні інтереси українських нардепів та політиків. Україна опустилась на останнє місце в Європі за рівнем зарплат і пенсій, при цьому коаліція проголосувала за збільшення окладів депутатам у три рази. Новий парламент і проголосований ним Кабмін повинні знизити тарифи, стабілізувати ціни і забезпечити реальне зростання зарплат і пенсій людям, а не лише собі.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-09-m0.u2.p5" xml:lang="uk">Для цього - третє – забезпечити зростання економіки. І це теж можуть зробити тільки ті, хто розбирається в промисловості, хто вже створював робочі місця з гідною заробітною платою. І головне – треба припинити війну.</seg>
                <seg xml:id="ParlaMint-UA_2019-07-09-m0.u2.p6" xml:lang="uk">Під всі ці завдання у нас є розроблені законопроекти. "Опозиційний блок" подав 1 тисячу 321 законопроект, з яких тільки 52 прийнято. Провладним "партіям війни" не були потрібні наші конкретні рішення, спрямовані на відновлення миру, розвиток підприємств та гідне життя людей, на об'єднання країни. Але вони потрібні народу України. І ми це зробимо в новому парламенті.</seg>
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u2.p7" xml:lang="uk">Просьба добавить.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u2.p7" xml:lang="ru">Просьба добавить.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u3">
@@ -905,7 +905,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u142">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u142.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u142.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u143">
@@ -1243,7 +1243,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u198">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u198.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u198.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u199">
@@ -1255,7 +1255,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u200">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u200.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u200.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u201">
@@ -1267,7 +1267,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u202">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u202.p1" xml:lang="ru">Враховано.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u202.p1" xml:lang="uk">Враховано.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u203">
@@ -1279,7 +1279,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u204">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u204.p1" xml:lang="ru">Враховано.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u204.p1" xml:lang="uk">Враховано.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u205">
@@ -1291,7 +1291,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u206">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u206.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u206.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u207">
@@ -1315,7 +1315,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u210">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u210.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u210.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u211">
@@ -1351,7 +1351,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u216">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u216.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u216.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u217">
@@ -1363,7 +1363,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u218">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u218.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u218.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u219">
@@ -1375,7 +1375,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u220">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u220.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u220.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u221">
@@ -1387,7 +1387,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u222">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u222.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u222.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u223">
@@ -1399,7 +1399,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u224">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u224.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u224.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u225">
@@ -1411,7 +1411,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u226">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u226.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u226.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u227">
@@ -1423,7 +1423,7 @@
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u228">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u228.p1" xml:lang="ru">Врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u228.p1" xml:lang="uk">Врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u229">
@@ -1553,7 +1553,7 @@
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u250">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u250.p1" xml:lang="ru">50-а – врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u250.p1" xml:lang="uk">50-а – врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u251">
@@ -1562,7 +1562,7 @@
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u252">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u252.p1" xml:lang="ru">Так, врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u252.p1" xml:lang="uk">Так, врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u253">
@@ -3667,7 +3667,7 @@
             </u>
             <note type="speaker">ЧЕРНЕНКО О.М.</note>
             <u who="ЧЕРНЕНКО О.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-09-m0.u605">
-               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u605.p1" xml:lang="ru">Абсолютно.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-09-m0.u605.p1" xml:lang="uk">Абсолютно.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-09-m0.u606">

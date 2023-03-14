@@ -245,7 +245,7 @@
             </u>
             <note type="speaker">ВЕЛЬМОЖНИЙ С.А.</note>
             <u who="ВЕЛЬМОЖНИЙ С.А." ana="#regular" xml:id="ParlaMint-UA_2021-06-15-m0.u27">
-               <seg xml:id="ParlaMint-UA_2021-06-15-m0.u27.p1" xml:lang="ru">Ви пропустили.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-15-m0.u27.p1" xml:lang="uk">Ви пропустили.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-15-m0.u28">
@@ -983,7 +983,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-15-m0.u132">
-               <seg xml:id="ParlaMint-UA_2021-06-15-m0.u132.p1" xml:lang="ru">Гео Багратович Лерос.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-15-m0.u132.p1" xml:lang="uk">Гео Багратович Лерос.</seg>
             </u>
             <note type="time"><time when="2021-06-15T11:43:21">11:43:21</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>
@@ -2637,7 +2637,7 @@
             <note type="time"><time when="2021-06-15T14:47:01">14:47:01</time></note>
             <note type="speaker">ГНАТЕНКО В.С.</note>
             <u who="ГНАТЕНКО В.С." ana="#regular" xml:id="ParlaMint-UA_2021-06-15-m0.u342">
-               <seg xml:id="ParlaMint-UA_2021-06-15-m0.u342.p1" xml:lang="ru">Шановний головуючий!</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-15-m0.u342.p1" xml:lang="uk">Шановний головуючий!</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-15-m0.u343">

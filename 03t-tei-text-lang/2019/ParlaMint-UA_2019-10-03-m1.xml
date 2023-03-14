@@ -216,7 +216,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-03-m1.u25">
-               <seg xml:id="ParlaMint-UA_2019-10-03-m1.u25.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-03-m1.u25.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="time"><time when="2019-10-03T16:24:16">16:24:16</time></note>
             <note type="speaker">КАЛЬЧЕНКО С.В.</note>
@@ -396,7 +396,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-03-m1.u47">
-               <seg xml:id="ParlaMint-UA_2019-10-03-m1.u47.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-03-m1.u47.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
             <u who="КНЯЖИЦЬКИЙ М.Л." ana="#regular" xml:id="ParlaMint-UA_2019-10-03-m1.u48">
@@ -496,7 +496,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-03-m1.u65">
-               <seg xml:id="ParlaMint-UA_2019-10-03-m1.u65.p1" xml:lang="ru">Княжицький.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-03-m1.u65.p1" xml:lang="uk">Княжицький.</seg>
             </u>
             <note type="time"><time when="2019-10-03T16:54:16">16:54:16</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
@@ -720,7 +720,7 @@
             </u>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-10-03-m1.u101">
-               <seg xml:id="ParlaMint-UA_2019-10-03-m1.u101.p1" xml:lang="ru">Да?</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-03-m1.u101.p1" xml:lang="uk">Да?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-03-m1.u102">

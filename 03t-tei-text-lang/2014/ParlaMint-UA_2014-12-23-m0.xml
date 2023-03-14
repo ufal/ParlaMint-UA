@@ -766,7 +766,7 @@
             </u>
             <note type="speaker">ЄФІМОВ М.В.</note>
             <u who="ЄФІМОВ М.В." ana="#regular" xml:id="ParlaMint-UA_2014-12-23-m0.u122">
-               <seg xml:id="ParlaMint-UA_2014-12-23-m0.u122.p1" xml:lang="ru">31-а – теж.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-23-m0.u122.p1" xml:lang="uk">31-а – теж.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-23-m0.u123">
@@ -1063,7 +1063,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-23-m0.u167">
-               <seg xml:id="ParlaMint-UA_2014-12-23-m0.u167.p1" xml:lang="ru">Правильно.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-23-m0.u167.p1" xml:lang="uk">Правильно.</seg>
             </u>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2014-12-23-m0.u168">
@@ -1768,7 +1768,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-23-m0.u269">
-               <seg xml:id="ParlaMint-UA_2014-12-23-m0.u269.p1" xml:lang="ru">Долженков.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-23-m0.u269.p1" xml:lang="uk">Долженков.</seg>
             </u>
             <note type="time"><time when="2014-12-23T15:00:26">15:00:26</time></note>
             <note type="speaker">ДОЛЖЕНКОВ О.В.</note>
@@ -1821,7 +1821,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2014-12-23-m0.u279">
-               <seg xml:id="ParlaMint-UA_2014-12-23-m0.u279.p1" xml:lang="ru">Михайло Головко.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-23-m0.u279.p1" xml:lang="uk">Михайло Головко.</seg>
             </u>
             <note type="time"><time when="2014-12-23T15:03:38">15:03:38</time></note>
             <note type="speaker">ГОЛОВКО М.Й.</note>

@@ -840,7 +840,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-04-28-m0.u114">
-               <seg xml:id="ParlaMint-UA_2021-04-28-m0.u114.p1" xml:lang="ru">3034, Колтунович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-04-28-m0.u114.p1" xml:lang="uk">3034, Колтунович.</seg>
             </u>
             <note type="time"><time when="2021-04-28T11:33:46">11:33:46</time></note>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>

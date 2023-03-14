@@ -223,7 +223,7 @@
             <note type="time"><time when="2014-07-02T10:28:23">10:28:23</time></note>
             <note type="speaker">БОНДАРЕНКО О.А.</note>
             <u who="БОНДАРЕНКО О.А." ana="#regular" xml:id="ParlaMint-UA_2014-07-02-m0.u29">
-               <seg xml:id="ParlaMint-UA_2014-07-02-m0.u29.p1" xml:lang="ru">Герман, Герман.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-02-m0.u29.p1" xml:lang="uk">Герман, Герман.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-07-02-m0.u30">

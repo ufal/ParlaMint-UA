@@ -1208,7 +1208,7 @@
             </u>
             <note type="speaker">МАГОМЕДОВ Р.С.</note>
             <u who="МАГОМЕДОВ Р.С." ana="#regular" xml:id="ParlaMint-UA_2022-02-17-m0.u170">
-               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u170.p1" xml:lang="ru">Так, так.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u170.p1" xml:lang="uk">Так, так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-02-17-m0.u171">
@@ -1969,7 +1969,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-02-17-m0.u263">
-               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u263.p1" xml:lang="ru">Микола Величкович.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-17-m0.u263.p1" xml:lang="uk">Микола Величкович.</seg>
             </u>
             <note type="time"><time when="2022-02-17T14:39:13">14:39:13</time></note>
             <note type="speaker">ВЕЛИЧКОВИЧ М.Р.</note>

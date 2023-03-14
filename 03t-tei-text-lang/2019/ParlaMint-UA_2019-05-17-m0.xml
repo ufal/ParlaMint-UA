@@ -408,11 +408,11 @@
             <note type="time"><time when="2019-05-17T10:49:40">10:49:40</time></note>
             <note type="speaker">БОНДАР В.В.</note>
             <u who="БОНДАР В.В." ana="#regular" xml:id="ParlaMint-UA_2019-05-17-m0.u54">
-               <seg xml:id="ParlaMint-UA_2019-05-17-m0.u54.p1" xml:lang="ru">Шипко.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-17-m0.u54.p1" xml:lang="uk">Шипко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-05-17-m0.u55">
-               <seg xml:id="ParlaMint-UA_2019-05-17-m0.u55.p1" xml:lang="ru">Шипко.</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-17-m0.u55.p1" xml:lang="uk">Шипко.</seg>
             </u>
             <note type="time"><time when="2019-05-17T10:49:47">10:49:47</time></note>
             <note type="speaker">ШИПКО А.Ф.</note>

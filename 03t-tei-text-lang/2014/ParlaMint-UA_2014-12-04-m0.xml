@@ -752,7 +752,7 @@
             <note type="time"><time when="2014-12-04T17:55:07">17:55:07</time></note>
             <note type="speaker">КУБІВ С.І.</note>
             <u who="КУБІВ С.І." ana="#regular" xml:id="ParlaMint-UA_2014-12-04-m0.u91">
-               <seg xml:id="ParlaMint-UA_2014-12-04-m0.u91.p1" xml:lang="ru">словом.</seg>
+               <seg xml:id="ParlaMint-UA_2014-12-04-m0.u91.p1" xml:lang="uk">словом.</seg>
             </u>
             <kinesic type="applause">
                <desc>(Оплески)</desc>

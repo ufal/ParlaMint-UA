@@ -402,11 +402,11 @@
             <note type="time"><time when="2022-07-29T10:58:41">10:58:41</time></note>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2022-07-29-m0.u38">
-               <seg xml:id="ParlaMint-UA_2022-07-29-m0.u38.p1" xml:lang="ru">17 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-29-m0.u38.p1" xml:lang="uk">17 поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-07-29-m0.u39">
-               <seg xml:id="ParlaMint-UA_2022-07-29-m0.u39.p1" xml:lang="ru">17-а чи 18-а?</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-29-m0.u39.p1" xml:lang="uk">17-а чи 18-а?</seg>
             </u>
             <note type="time"><time when="2022-07-29T10:58:41">10:58:41</time></note>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
@@ -1016,7 +1016,7 @@
             <note type="time"><time when="2022-07-29T12:03:45">12:03:45</time></note>
             <note type="speaker">ШВАЧКО А.О.</note>
             <u who="ШВАЧКО А.О." ana="#regular" xml:id="ParlaMint-UA_2022-07-29-m0.u125">
-               <seg xml:id="ParlaMint-UA_2022-07-29-m0.u125.p1" xml:lang="ru">Загоруйко.</seg>
+               <seg xml:id="ParlaMint-UA_2022-07-29-m0.u125.p1" xml:lang="uk">Загоруйко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-07-29-m0.u126">

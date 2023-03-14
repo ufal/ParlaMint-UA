@@ -186,7 +186,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u9">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u9.p1" xml:lang="ru">Артур Герасимов.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u9.p1" xml:lang="uk">Артур Герасимов.</seg>
             </u>
             <note type="time"><time when="2023-02-07T10:37:19">10:37:19</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>
@@ -1094,7 +1094,7 @@
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u148">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u148.p1" xml:lang="ru">Перша, номер 1.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u148.p1" xml:lang="uk">Перша, номер 1.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u149">
@@ -1454,11 +1454,11 @@
             <note type="time"><time when="2023-02-07T12:50:17">12:50:17</time></note>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u199">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u199.p1" xml:lang="ru">Перша. номер 3.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u199.p1" xml:lang="uk">Перша. номер 3.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u200">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u200.p1" xml:lang="ru">Номер 3.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u200.p1" xml:lang="uk">Номер 3.</seg>
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u201">
@@ -1705,7 +1705,7 @@
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u241">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u241.p1" xml:lang="ru">Правка 69.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u241.p1" xml:lang="uk">Правка 69.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u242">
@@ -1761,7 +1761,7 @@
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u251">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u251.p1" xml:lang="ru">Правка номер 71.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u251.p1" xml:lang="uk">Правка номер 71.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u252">
@@ -1997,7 +1997,7 @@
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u294">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u294.p1" xml:lang="ru">112 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u294.p1" xml:lang="uk">112 правка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u295">
@@ -2051,7 +2051,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u303">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u303.p1" xml:lang="ru">Коротко.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u303.p1" xml:lang="uk">Коротко.</seg>
             </u>
             <note type="time"><time when="2023-02-07T13:35:26">13:35:26</time></note>
             <note type="speaker">МОВЧАН О.В.</note>
@@ -2139,11 +2139,11 @@
             <note type="time"><time when="2023-02-07T13:41:49">13:41:49</time></note>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u318">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u318.p1" xml:lang="ru">142 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u318.p1" xml:lang="uk">142 правка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u319">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u319.p1" xml:lang="ru">Та сама.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u319.p1" xml:lang="uk">Та сама.</seg>
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u320">
@@ -2169,7 +2169,7 @@
             <note type="time"><time when="2023-02-07T13:43:23">13:43:23</time></note>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u324">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u324.p1" xml:lang="ru">144 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u324.p1" xml:lang="uk">144 правка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u325">
@@ -2252,7 +2252,7 @@
             <note type="time"><time when="2023-02-07T13:50:47">13:50:47</time></note>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u336">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u336.p1" xml:lang="ru">Правка 162.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u336.p1" xml:lang="uk">Правка 162.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u337">
@@ -2442,7 +2442,7 @@
             <note type="time"><time when="2023-02-07T14:06:47">14:06:47</time></note>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u368">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u368.p1" xml:lang="ru">Правка 188-а.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u368.p1" xml:lang="uk">Правка 188-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u369">
@@ -2701,7 +2701,7 @@
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u412">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u412.p1" xml:lang="ru">А чому так?</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u412.p1" xml:lang="uk">А чому так?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u413">
@@ -2710,7 +2710,7 @@
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u414">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u414.p1" xml:lang="ru">Моя поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u414.p1" xml:lang="uk">Моя поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u415">
@@ -2759,7 +2759,7 @@
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2023-02-07-m0.u426">
-               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u426.p1" xml:lang="ru">Я не позбавляю права.</seg>
+               <seg xml:id="ParlaMint-UA_2023-02-07-m0.u426.p1" xml:lang="uk">Я не позбавляю права.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-02-07-m0.u427">

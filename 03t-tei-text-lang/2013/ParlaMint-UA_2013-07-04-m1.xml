@@ -601,7 +601,7 @@
             </u>
             <note type="speaker">ХОМУТИННІК В.Ю.</note>
             <u who="ХОМУТИННІК В.Ю." ana="#regular" xml:id="ParlaMint-UA_2013-07-04-m1.u73">
-               <seg xml:id="ParlaMint-UA_2013-07-04-m1.u73.p1" xml:lang="ru">Так, так.</seg>
+               <seg xml:id="ParlaMint-UA_2013-07-04-m1.u73.p1" xml:lang="uk">Так, так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-07-04-m1.u74">
@@ -1407,7 +1407,7 @@
             <note type="time"><time when="2013-07-04T18:17:35">18:17:35</time></note>
             <note type="speaker">АГАФОНОВА Н.В.</note>
             <u who="АГАФОНОВА Н.В." ana="#regular" xml:id="ParlaMint-UA_2013-07-04-m1.u190">
-               <seg xml:id="ParlaMint-UA_2013-07-04-m1.u190.p1" xml:lang="ru">Те саме.</seg>
+               <seg xml:id="ParlaMint-UA_2013-07-04-m1.u190.p1" xml:lang="uk">Те саме.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КАЛЄТНІК І.Г." ana="#chair" xml:id="ParlaMint-UA_2013-07-04-m1.u191">
@@ -2157,7 +2157,7 @@
             </u>
             <note type="speaker">ХОМУТИННІК В.Ю.</note>
             <u who="ХОМУТИННІК В.Ю." ana="#regular" xml:id="ParlaMint-UA_2013-07-04-m1.u274">
-               <seg xml:id="ParlaMint-UA_2013-07-04-m1.u274.p1" xml:lang="ru">Хвилинку.</seg>
+               <seg xml:id="ParlaMint-UA_2013-07-04-m1.u274.p1" xml:lang="uk">Хвилинку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-07-04-m1.u275">
@@ -2165,7 +2165,7 @@
             </u>
             <note type="speaker">ХОМУТИННІК В.Ю.</note>
             <u who="ХОМУТИННІК В.Ю." ana="#regular" xml:id="ParlaMint-UA_2013-07-04-m1.u276">
-               <seg xml:id="ParlaMint-UA_2013-07-04-m1.u276.p1" xml:lang="ru">Дайте я подивлюся.</seg>
+               <seg xml:id="ParlaMint-UA_2013-07-04-m1.u276.p1" xml:lang="uk">Дайте я подивлюся.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-07-04-m1.u277">

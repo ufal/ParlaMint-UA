@@ -607,7 +607,7 @@
             </u>
             <note type="speaker">ВОЛИНЕЦЬ М.Я.</note>
             <u who="ВОЛИНЕЦЬ М.Я." ana="#regular" xml:id="ParlaMint-UA_2019-12-19-m0.u82">
-               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u82.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u82.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-19-m0.u83">
@@ -650,7 +650,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-19-m0.u89">
-               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u89.p1" xml:lang="ru">99-а. Гриб.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u89.p1" xml:lang="uk">99-а. Гриб.</seg>
             </u>
             <note type="time"><time when="2019-12-19T12:38:06">12:38:06</time></note>
             <note type="speaker">ГРИБ В.О.</note>
@@ -732,7 +732,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-19-m0.u101">
-               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u101.p1" xml:lang="ru">112-а, Гриб.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u101.p1" xml:lang="uk">112-а, Гриб.</seg>
             </u>
             <note type="speaker">ГРИБ В.О.</note>
             <u who="ГРИБ В.О." ana="#regular" xml:id="ParlaMint-UA_2019-12-19-m0.u102">
@@ -778,7 +778,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-19-m0.u109">
-               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u109.p1" xml:lang="uk">Добавте час.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u109.p1" xml:lang="ru">Добавте час.</seg>
             </u>
             <note type="time"><time when="2019-12-19T12:46:21">12:46:21</time></note>
             <note type="speaker">ШАХОВ С.В.</note>
@@ -832,7 +832,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-19-m0.u117">
-               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u117.p1" xml:lang="ru">121-а, Батенко.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-19-m0.u117.p1" xml:lang="uk">121-а, Батенко.</seg>
             </u>
             <note type="time"><time when="2019-12-19T12:51:40">12:51:40</time></note>
             <note type="speaker">БАТЕНКО Т.І.</note>

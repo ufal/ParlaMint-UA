@@ -730,7 +730,7 @@
             <note type="time"><time when="2018-12-05T11:56:05">11:56:05</time></note>
             <note type="speaker">КУЧЕР М.І.</note>
             <u who="КУЧЕР М.І." ana="#regular" xml:id="ParlaMint-UA_2018-12-05-m0.u99">
-               <seg xml:id="ParlaMint-UA_2018-12-05-m0.u99.p1" xml:lang="ru">Шиньковичу.</seg>
+               <seg xml:id="ParlaMint-UA_2018-12-05-m0.u99.p1" xml:lang="uk">Шиньковичу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-12-05-m0.u100">
@@ -914,7 +914,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-12-05-m0.u127">
-               <seg xml:id="ParlaMint-UA_2018-12-05-m0.u127.p1" xml:lang="ru">Кривенко.</seg>
+               <seg xml:id="ParlaMint-UA_2018-12-05-m0.u127.p1" xml:lang="uk">Кривенко.</seg>
             </u>
             <note type="time"><time when="2018-12-05T13:03:20">13:03:20</time></note>
             <note type="speaker">КРИВЕНКО В.М.</note>

@@ -792,7 +792,7 @@
             <note type="time"><time when="2019-09-19T11:21:28">11:21:28</time></note>
             <note type="speaker">КОЖЕМ’ЯКІН А.А.</note>
             <u who="КОЖЕМ’ЯКІН А.А." ana="#regular" xml:id="ParlaMint-UA_2019-09-19-m0.u106">
-               <seg xml:id="ParlaMint-UA_2019-09-19-m0.u106.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-19-m0.u106.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-19-m0.u107">
@@ -950,7 +950,7 @@
             </u>
             <note type="speaker">МОНАСТИРСЬКИЙ Д.А.</note>
             <u who="МОНАСТИРСЬКИЙ Д.А." ana="#regular" xml:id="ParlaMint-UA_2019-09-19-m0.u130">
-               <seg xml:id="ParlaMint-UA_2019-09-19-m0.u130.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-19-m0.u130.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-19-m0.u131">
@@ -2032,7 +2032,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-19-m0.u284">
-               <seg xml:id="ParlaMint-UA_2019-09-19-m0.u284.p1" xml:lang="ru">Дайте три хвилини.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-19-m0.u284.p1" xml:lang="uk">Дайте три хвилини.</seg>
             </u>
             <note type="time"><time when="2019-09-19T13:49:20">13:49:20</time></note>
             <note type="speaker">ЛОЗИНСЬКИЙ Р.М.</note>
@@ -2058,7 +2058,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-19-m0.u288">
-               <seg xml:id="ParlaMint-UA_2019-09-19-m0.u288.p1" xml:lang="ru">Дайте 2 хвилини.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-19-m0.u288.p1" xml:lang="uk">Дайте 2 хвилини.</seg>
             </u>
             <note type="speaker">ШКРУМ А.І.</note>
             <u who="ШКРУМ А.І." ana="#regular" xml:id="ParlaMint-UA_2019-09-19-m0.u289">

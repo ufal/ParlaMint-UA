@@ -386,7 +386,7 @@
             </u>
             <note type="speaker">СЮМАР В.П.</note>
             <u who="СЮМАР В.П." ana="#regular" xml:id="ParlaMint-UA_2015-09-03-m1.u40">
-               <seg xml:id="ParlaMint-UA_2015-09-03-m1.u40.p1" xml:lang="ru">Так-так.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-03-m1.u40.p1" xml:lang="uk">Так-так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-09-03-m1.u41">
@@ -569,7 +569,7 @@
             </u>
             <note type="speaker">СЮМАР В.П.</note>
             <u who="СЮМАР В.П." ana="#regular" xml:id="ParlaMint-UA_2015-09-03-m1.u65">
-               <seg xml:id="ParlaMint-UA_2015-09-03-m1.u65.p1" xml:lang="ru">Оля, зняти поправку.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-03-m1.u65.p1" xml:lang="uk">Оля, зняти поправку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-09-03-m1.u66">
@@ -646,7 +646,7 @@
             </u>
             <note type="speaker">МОРОКО Ю.М.</note>
             <u who="МОРОКО Ю.М." ana="#regular" xml:id="ParlaMint-UA_2015-09-03-m1.u77">
-               <seg xml:id="ParlaMint-UA_2015-09-03-m1.u77.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-03-m1.u77.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-09-03-m1.u78">

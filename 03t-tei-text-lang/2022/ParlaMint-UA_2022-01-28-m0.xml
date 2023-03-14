@@ -745,7 +745,7 @@
             <note type="time"><time when="2022-01-28T11:51:39">11:51:39</time></note>
             <note type="speaker">ШМИГАЛЬ Д.А.</note>
             <u who="ШМИГАЛЬ Д.А." ana="#regular" xml:id="ParlaMint-UA_2022-01-28-m0.u92">
-               <seg xml:id="ParlaMint-UA_2022-01-28-m0.u92.p1" xml:lang="ru">Ще моя частинка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-01-28-m0.u92.p1" xml:lang="uk">Ще моя частинка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-01-28-m0.u93">

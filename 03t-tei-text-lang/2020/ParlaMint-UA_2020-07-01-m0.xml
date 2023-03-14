@@ -378,7 +378,7 @@
             </u>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
             <u who="КНЯЖИЦЬКИЙ М.Л." ana="#regular" xml:id="ParlaMint-UA_2020-07-01-m0.u40">
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u40.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u40.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-01-m0.u41">
@@ -408,7 +408,7 @@
             <note type="time"><time when="2020-07-01T11:08:36">11:08:36</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
             <u who="КНЯЖИЦЬКИЙ М.Л." ana="#regular" xml:id="ParlaMint-UA_2020-07-01-m0.u44">
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u44.p1" xml:lang="ru">Це правка 1119.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u44.p1" xml:lang="uk">Це правка 1119.</seg>
             </u>
             <note type="time"><time when="2020-07-01T11:08:54">11:08:54</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
@@ -880,7 +880,7 @@
             </u>
             <note type="speaker">КЛИМПУШ-ЦИНЦАДЗЕ І.О.</note>
             <u who="КЛИМПУШ-ЦИНЦАДЗЕ І.О." ana="#regular" xml:id="ParlaMint-UA_2020-07-01-m0.u110">
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u110.p1" xml:lang="ru">Номер 604.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u110.p1" xml:lang="uk">Номер 604.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-01-m0.u111">
@@ -994,7 +994,7 @@
             <note type="time"><time when="2020-07-01T12:35:37">12:35:37</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-01-m0.u126">
-               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u126.p1" xml:lang="ru">665 правка, Шкрум.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-01-m0.u126.p1" xml:lang="uk">665 правка, Шкрум.</seg>
             </u>
             <note type="time"><time when="2020-07-01T12:35:40">12:35:40</time></note>
             <note type="speaker">ШКРУМ А.І.</note>

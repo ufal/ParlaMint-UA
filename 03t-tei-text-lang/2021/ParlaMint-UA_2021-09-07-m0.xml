@@ -71,7 +71,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-07-m0.u2">
-               <seg xml:id="ParlaMint-UA_2021-09-07-m0.u2.p1" xml:lang="ru">Героям слава!</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-07-m0.u2.p1" xml:lang="uk">Героям слава!</seg>
             </u>
             <note type="time"><time when="2021-09-07T11:03:40">11:03:40</time></note>
             <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України</note>
@@ -1657,7 +1657,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-07-m0.u201">
-               <seg xml:id="ParlaMint-UA_2021-09-07-m0.u201.p1" xml:lang="ru">Лопушанський.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-07-m0.u201.p1" xml:lang="uk">Лопушанський.</seg>
             </u>
             <note type="time"><time when="2021-09-07T14:30:42">14:30:42</time></note>
             <note type="speaker">ЛОПУШАНСЬКИЙ А.Я.</note>
@@ -1753,15 +1753,15 @@
             <note type="time"><time when="2021-09-07T14:39:30">14:39:30</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
             <u who="ЦИМБАЛЮК М.М." ana="#regular" xml:id="ParlaMint-UA_2021-09-07-m0.u214">
-               <seg xml:id="ParlaMint-UA_2021-09-07-m0.u214.p1" xml:lang="ru">Номер правки – 9.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-07-m0.u214.p1" xml:lang="uk">Номер правки – 9.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-07-m0.u215">
-               <seg xml:id="ParlaMint-UA_2021-09-07-m0.u215.p1" xml:lang="ru">9-а?</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-07-m0.u215.p1" xml:lang="uk">9-а?</seg>
             </u>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
             <u who="ЦИМБАЛЮК М.М." ana="#regular" xml:id="ParlaMint-UA_2021-09-07-m0.u216">
-               <seg xml:id="ParlaMint-UA_2021-09-07-m0.u216.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-07-m0.u216.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-07-m0.u217">
@@ -1836,7 +1836,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-09-07-m0.u229">
-               <seg xml:id="ParlaMint-UA_2021-09-07-m0.u229.p1" xml:lang="ru">Шахов.</seg>
+               <seg xml:id="ParlaMint-UA_2021-09-07-m0.u229.p1" xml:lang="uk">Шахов.</seg>
             </u>
             <note type="time"><time when="2021-09-07T14:44:01">14:44:01</time></note>
             <note type="speaker">ШАХОВ С.В.</note>

@@ -832,7 +832,7 @@
             <note type="time"><time when="2017-11-10T12:40:44">12:40:44</time></note>
             <note type="speaker">КИШКАР П.М.</note>
             <u who="КИШКАР П.М." ana="#regular" xml:id="ParlaMint-UA_2017-11-10-m0.u87">
-               <seg xml:id="ParlaMint-UA_2017-11-10-m0.u87.p1" xml:lang="ru">Герасимову.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-10-m0.u87.p1" xml:lang="uk">Герасимову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-11-10-m0.u88">

@@ -934,7 +934,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-02-m0.u142">
-               <seg xml:id="ParlaMint-UA_2015-03-02-m0.u142.p1" xml:lang="ru">Правильно-правильно.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-02-m0.u142.p1" xml:lang="uk">Правильно-правильно.</seg>
             </u>
             <note type="speaker">РОЗЕНКО П.В.</note>
             <u who="РОЗЕНКО П.В." ana="#regular" xml:id="ParlaMint-UA_2015-03-02-m0.u143">
@@ -1244,7 +1244,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-02-m0.u185">
-               <seg xml:id="ParlaMint-UA_2015-03-02-m0.u185.p1" xml:lang="ru">Моя була.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-02-m0.u185.p1" xml:lang="uk">Моя була.</seg>
             </u>
             <note type="speaker">ЯЦЕНЮК А.П.</note>
             <u who="ЯЦЕНЮК А.П." ana="#regular" xml:id="ParlaMint-UA_2015-03-02-m0.u186">
@@ -1665,7 +1665,7 @@
             </u>
             <note type="speaker">ЯЦЕНЮК А.П.</note>
             <u who="ЯЦЕНЮК А.П." ana="#regular" xml:id="ParlaMint-UA_2015-03-02-m0.u251">
-               <seg xml:id="ParlaMint-UA_2015-03-02-m0.u251.p1" xml:lang="ru">Один коментар, ну,.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-02-m0.u251.p1" xml:lang="uk">Один коментар, ну,.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-02-m0.u252">
@@ -1744,7 +1744,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-03-02-m0.u266">
-               <seg xml:id="ParlaMint-UA_2015-03-02-m0.u266.p1" xml:lang="ru">Це правильно.</seg>
+               <seg xml:id="ParlaMint-UA_2015-03-02-m0.u266.p1" xml:lang="uk">Це правильно.</seg>
             </u>
             <note type="speaker">ЯЦЕНЮК А.П.</note>
             <u who="ЯЦЕНЮК А.П." ana="#regular" xml:id="ParlaMint-UA_2015-03-02-m0.u267">

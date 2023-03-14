@@ -724,7 +724,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-02-m1.u96">
-               <seg xml:id="ParlaMint-UA_2015-07-02-m1.u96.p1" xml:lang="ru">38 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-02-m1.u96.p1" xml:lang="uk">38 поправка.</seg>
             </u>
             <note type="speaker">ЛУЦЕНКО Ю.В.</note>
             <u who="ЛУЦЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-07-02-m1.u97">
@@ -752,7 +752,7 @@
             </u>
             <note type="speaker">ЛУЦЕНКО Ю.В.</note>
             <u who="ЛУЦЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-07-02-m1.u102">
-               <seg xml:id="ParlaMint-UA_2015-07-02-m1.u102.p1" xml:lang="ru">42-а врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-02-m1.u102.p1" xml:lang="uk">42-а врахована.</seg>
             </u>
             <note type="speaker">ПИНЗЕНИК В.М.</note>
             <u who="ПИНЗЕНИК В.М." ana="#regular" xml:id="ParlaMint-UA_2015-07-02-m1.u103">
@@ -765,7 +765,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-02-m1.u105">
-               <seg xml:id="ParlaMint-UA_2015-07-02-m1.u105.p1" xml:lang="ru">Врахована?</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-02-m1.u105.p1" xml:lang="uk">Врахована?</seg>
             </u>
             <note type="speaker">ЛУЦЕНКО Ю.В.</note>
             <u who="ЛУЦЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-07-02-m1.u106">
@@ -1094,7 +1094,7 @@
             </u>
             <note type="speaker">ЛУЦЕНКО Ю.В.</note>
             <u who="ЛУЦЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2015-07-02-m1.u164">
-               <seg xml:id="ParlaMint-UA_2015-07-02-m1.u164.p1" xml:lang="ru">Так точно.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-02-m1.u164.p1" xml:lang="uk">Так точно.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-02-m1.u165">
@@ -1390,7 +1390,7 @@
                <seg xml:id="ParlaMint-UA_2015-07-02-m1.u214.p7" xml:lang="uk">Будь ласка, займіть свої місця, шановні колеги. Я вношу пропозицію від фракції "Блоку Петра Порошенка", "Народний фронт" повернутися до Закону 2667, для того щоб продовжити його розгляд, колеги. І прошу підтримати це. Будь ласка, голосуємо за повернення, друзі, повернення, тільки на повернення! Голосуємо, колеги! За повернення 2667, прошу підтримати.</seg>
                <note type="time"><time when="2015-07-02T18:36:13">18:36:13</time></note>
                <seg xml:id="ParlaMint-UA_2015-07-02-m1.u214.p8" xml:lang="uk">За-225</seg>
-               <seg xml:id="ParlaMint-UA_2015-07-02-m1.u214.p9" xml:lang="uk">Есть потенциал!</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-02-m1.u214.p9" xml:lang="ru">Есть потенциал!</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
@@ -2504,7 +2504,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-07-02-m1.u370">
-               <seg xml:id="ParlaMint-UA_2015-07-02-m1.u370.p1" xml:lang="ru">Антон Яценко.</seg>
+               <seg xml:id="ParlaMint-UA_2015-07-02-m1.u370.p1" xml:lang="uk">Антон Яценко.</seg>
             </u>
             <note type="time"><time when="2015-07-02T21:11:11">21:11:11</time></note>
             <note type="speaker">ЯЦЕНКО А.В.</note>

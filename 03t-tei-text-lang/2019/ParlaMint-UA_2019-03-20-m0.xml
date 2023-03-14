@@ -396,7 +396,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-03-20-m0.u48">
-               <seg xml:id="ParlaMint-UA_2019-03-20-m0.u48.p1" xml:lang="ru">Княжицький.</seg>
+               <seg xml:id="ParlaMint-UA_2019-03-20-m0.u48.p1" xml:lang="uk">Княжицький.</seg>
             </u>
             <note type="time"><time when="2019-03-20T11:01:04">11:01:04</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
@@ -750,7 +750,7 @@
             </u>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
             <u who="КНЯЖИЦЬКИЙ М.Л." ana="#regular" xml:id="ParlaMint-UA_2019-03-20-m0.u101">
-               <seg xml:id="ParlaMint-UA_2019-03-20-m0.u101.p1" xml:lang="ru">Вона врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-03-20-m0.u101.p1" xml:lang="uk">Вона врахована.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-03-20-m0.u102">
@@ -1609,7 +1609,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-03-20-m0.u231">
-               <seg xml:id="ParlaMint-UA_2019-03-20-m0.u231.p1" xml:lang="ru">Пан Княжицький.</seg>
+               <seg xml:id="ParlaMint-UA_2019-03-20-m0.u231.p1" xml:lang="uk">Пан Княжицький.</seg>
             </u>
             <note type="time"><time when="2019-03-20T13:11:10">13:11:10</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
@@ -2332,7 +2332,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-03-20-m0.u339">
-               <seg xml:id="ParlaMint-UA_2019-03-20-m0.u339.p1" xml:lang="ru">Княжицький.</seg>
+               <seg xml:id="ParlaMint-UA_2019-03-20-m0.u339.p1" xml:lang="uk">Княжицький.</seg>
             </u>
             <note type="time"><time when="2019-03-20T14:11:07">14:11:07</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>

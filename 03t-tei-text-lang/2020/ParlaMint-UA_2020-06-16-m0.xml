@@ -365,7 +365,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-16-m0.u38">
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u38.p1" xml:lang="ru">105-а, Павленко.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u38.p1" xml:lang="uk">105-а, Павленко.</seg>
             </u>
             <note type="time"><time when="2020-06-16T10:57:10">10:57:10</time></note>
             <note type="speaker">ПАВЛЕНКО Ю.О.</note>
@@ -1126,7 +1126,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-16-m0.u143">
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u143.p1" xml:lang="ru">Костенко Роман.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u143.p1" xml:lang="uk">Костенко Роман.</seg>
             </u>
             <note type="time"><time when="2020-06-16T13:15:28">13:15:28</time></note>
             <note type="speaker">КОСТЕНКО Р.В.</note>
@@ -1692,7 +1692,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-16-m0.u221">
-               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u221.p1" xml:lang="ru">55 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-16-m0.u221.p1" xml:lang="uk">55 правка.</seg>
             </u>
             <note type="speaker">КЛИМПУШ-ЦИНЦАДЗЕ І.О.</note>
             <u who="КЛИМПУШ-ЦИНЦАДЗЕ І.О." ana="#regular" xml:id="ParlaMint-UA_2020-06-16-m0.u222">

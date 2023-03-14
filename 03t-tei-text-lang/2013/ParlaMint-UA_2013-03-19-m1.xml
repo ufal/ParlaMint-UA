@@ -112,7 +112,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m1.u9">
-               <seg xml:id="ParlaMint-UA_2013-03-19-m1.u9.p1" xml:lang="ru">Депутат Швайка.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m1.u9.p1" xml:lang="uk">Депутат Швайка.</seg>
             </u>
             <note type="speaker">ШВАЙКА І.О.</note>
             <u who="ШВАЙКА І.О." ana="#regular" xml:id="ParlaMint-UA_2013-03-19-m1.u10">
@@ -262,7 +262,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m1.u34">
-               <seg xml:id="ParlaMint-UA_2013-03-19-m1.u34.p1" xml:lang="ru">Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m1.u34.p1" xml:lang="uk">Кому?</seg>
             </u>
             <note type="speaker">АБДУЛЛІН О.Р.</note>
             <u who="АБДУЛЛІН О.Р." ana="#regular" xml:id="ParlaMint-UA_2013-03-19-m1.u35">

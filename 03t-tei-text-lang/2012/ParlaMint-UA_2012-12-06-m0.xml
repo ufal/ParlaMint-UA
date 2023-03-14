@@ -675,11 +675,11 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України В.М.ЛИТВИН</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ЛИТВИН В.М." ana="#chair" xml:id="ParlaMint-UA_2012-12-06-m0.u81">
-               <seg xml:id="ParlaMint-UA_2012-12-06-m0.u81.p1" xml:lang="ru">Все у вас, да?</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-06-m0.u81.p1" xml:lang="uk">Все у вас, да?</seg>
             </u>
             <note type="speaker">МАКЕЄНКО В.В.</note>
             <u who="МАКЕЄНКО В.В." ana="#regular" xml:id="ParlaMint-UA_2012-12-06-m0.u82">
-               <seg xml:id="ParlaMint-UA_2012-12-06-m0.u82.p1" xml:lang="ru">Все.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-06-m0.u82.p1" xml:lang="uk">Все.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ЛИТВИН В.М." ana="#chair" xml:id="ParlaMint-UA_2012-12-06-m0.u83">

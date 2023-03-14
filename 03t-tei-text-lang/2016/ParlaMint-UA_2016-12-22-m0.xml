@@ -453,7 +453,7 @@
             </vocal>
             <note type="speaker">НЕДАВА О.А.</note>
             <u who="НЕДАВА О.А." ana="#regular" xml:id="ParlaMint-UA_2016-12-22-m0.u48">
-               <seg xml:id="ParlaMint-UA_2016-12-22-m0.u48.p1" xml:lang="ru">Ну, ви бачили це.</seg>
+               <seg xml:id="ParlaMint-UA_2016-12-22-m0.u48.p1" xml:lang="uk">Ну, ви бачили це.</seg>
             </u>
             <note type="time"><time when="2016-12-22T11:09:42">11:09:42</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>

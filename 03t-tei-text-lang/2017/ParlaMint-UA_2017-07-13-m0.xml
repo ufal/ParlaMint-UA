@@ -952,7 +952,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-13-m0.u108">
-               <seg xml:id="ParlaMint-UA_2017-07-13-m0.u108.p1" xml:lang="ru">Наступна.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-13-m0.u108.p1" xml:lang="uk">Наступна.</seg>
             </u>
             <note type="time"><time when="2017-07-13T12:47:35">12:47:35</time></note>
             <note type="speaker">ОДАРЧЕНКО Ю.В.</note>
@@ -1384,7 +1384,7 @@
             <note type="time"><time when="2017-07-13T13:21:16">13:21:16</time></note>
             <note type="speaker">РЯБЧИН О.М.</note>
             <u who="РЯБЧИН О.М." ana="#regular" xml:id="ParlaMint-UA_2017-07-13-m0.u167">
-               <seg xml:id="ParlaMint-UA_2017-07-13-m0.u167.p1" xml:lang="ru">410 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-13-m0.u167.p1" xml:lang="uk">410 правка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-13-m0.u168">
@@ -1655,7 +1655,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-07-13-m0.u210">
-               <seg xml:id="ParlaMint-UA_2017-07-13-m0.u210.p1" xml:lang="ru">547-а, Юзькова.</seg>
+               <seg xml:id="ParlaMint-UA_2017-07-13-m0.u210.p1" xml:lang="uk">547-а, Юзькова.</seg>
             </u>
             <note type="time"><time when="2017-07-13T13:42:38">13:42:38</time></note>
             <note type="speaker">ЮЗЬКОВА Т.Л.</note>

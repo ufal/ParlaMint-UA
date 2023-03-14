@@ -568,7 +568,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-11-m1.u80">
-               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u80.p1" xml:lang="ru">Княжицький.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u80.p1" xml:lang="uk">Княжицький.</seg>
             </u>
             <note type="time"><time when="2019-04-11T16:48:36">16:48:36</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
@@ -759,7 +759,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-11-m1.u107">
-               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u107.p1" xml:lang="ru">Княжицький.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u107.p1" xml:lang="uk">Княжицький.</seg>
             </u>
             <note type="time"><time when="2019-04-11T17:02:09">17:02:09</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
@@ -1358,7 +1358,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-11-m1.u202">
-               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u202.p1" xml:lang="ru">Княжицький.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u202.p1" xml:lang="uk">Княжицький.</seg>
             </u>
             <note type="time"><time when="2019-04-11T17:45:37">17:45:37</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
@@ -1435,7 +1435,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-11-m1.u213">
-               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u213.p1" xml:lang="ru">Княжицький.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u213.p1" xml:lang="uk">Княжицький.</seg>
             </u>
             <note type="time"><time when="2019-04-11T17:51:44">17:51:44</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
@@ -1460,7 +1460,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-11-m1.u217">
-               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u217.p1" xml:lang="ru">Княжицький.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-11-m1.u217.p1" xml:lang="uk">Княжицький.</seg>
             </u>
             <note type="time"><time when="2019-04-11T17:53:51">17:53:51</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>

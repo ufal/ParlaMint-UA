@@ -99,7 +99,7 @@
             <note type="time"><time when="2021-06-29T16:08:54">16:08:54</time></note>
             <note type="speaker">БУРМІЧ А.П.</note>
             <u who="БУРМІЧ А.П." ana="#regular" xml:id="ParlaMint-UA_2021-06-29-m1.u6">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u6.p1" xml:lang="ru">Скорику.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u6.p1" xml:lang="uk">Скорику.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m1.u7">
@@ -792,11 +792,11 @@
             <note type="time"><time when="2021-06-29T17:25:21">17:25:21</time></note>
             <note type="speaker">УСТІНОВА О.Ю.</note>
             <u who="УСТІНОВА О.Ю." ana="#regular" xml:id="ParlaMint-UA_2021-06-29-m1.u103">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u103.p1" xml:lang="ru">Моя 11 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u103.p1" xml:lang="uk">Моя 11 правка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m1.u104">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u104.p1" xml:lang="ru">11 правка?</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u104.p1" xml:lang="uk">11 правка?</seg>
             </u>
             <note type="speaker">УСТІНОВА О.Ю.</note>
             <u who="УСТІНОВА О.Ю." ana="#regular" xml:id="ParlaMint-UA_2021-06-29-m1.u105">
@@ -836,7 +836,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m1.u111">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u111.p1" xml:lang="ru">82 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u111.p1" xml:lang="uk">82 правка.</seg>
             </u>
             <note type="speaker">УСТІНОВА О.Ю.</note>
             <u who="УСТІНОВА О.Ю." ana="#regular" xml:id="ParlaMint-UA_2021-06-29-m1.u112">
@@ -1082,7 +1082,7 @@
             <note type="time"><time when="2021-06-29T17:47:21">17:47:21</time></note>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2021-06-29-m1.u145">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u145.p1" xml:lang="ru">Правка 91.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u145.p1" xml:lang="uk">Правка 91.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m1.u146">
@@ -1208,16 +1208,16 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m1.u163">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u163.p1" xml:lang="ru">194 правка, Клименко.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u163.p1" xml:lang="uk">194 правка, Клименко.</seg>
             </u>
             <note type="time"><time when="2021-06-29T17:59:39">17:59:39</time></note>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2021-06-29-m1.u164">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u164.p1" xml:lang="ru">195 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u164.p1" xml:lang="uk">195 правка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m1.u165">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u165.p1" xml:lang="ru">195 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m1.u165.p1" xml:lang="uk">195 правка.</seg>
             </u>
             <note type="speaker">КЛИМЕНКО Ю.Л.</note>
             <u who="КЛИМЕНКО Ю.Л." ana="#regular" xml:id="ParlaMint-UA_2021-06-29-m1.u166">

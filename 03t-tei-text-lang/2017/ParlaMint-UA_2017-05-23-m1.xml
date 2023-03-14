@@ -228,7 +228,7 @@
             </u>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-05-23-m1.u30">
-               <seg xml:id="ParlaMint-UA_2017-05-23-m1.u30.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2017-05-23-m1.u30.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-05-23-m1.u31">
@@ -999,11 +999,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-05-23-m1.u120">
-               <seg xml:id="ParlaMint-UA_2017-05-23-m1.u120.p1" xml:lang="ru">Яке?</seg>
+               <seg xml:id="ParlaMint-UA_2017-05-23-m1.u120.p1" xml:lang="uk">Яке?</seg>
             </u>
             <note type="speaker">ФЕДОРУК М.Т.</note>
             <u who="ФЕДОРУК М.Т." ana="#regular" xml:id="ParlaMint-UA_2017-05-23-m1.u121">
-               <seg xml:id="ParlaMint-UA_2017-05-23-m1.u121.p1" xml:lang="ru">Ленське.</seg>
+               <seg xml:id="ParlaMint-UA_2017-05-23-m1.u121.p1" xml:lang="uk">Ленське.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-05-23-m1.u122">

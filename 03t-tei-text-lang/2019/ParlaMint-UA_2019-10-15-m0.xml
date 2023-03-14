@@ -179,7 +179,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-15-m0.u18">
-               <seg xml:id="ParlaMint-UA_2019-10-15-m0.u18.p1" xml:lang="ru">Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-15-m0.u18.p1" xml:lang="uk">Кому?</seg>
             </u>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-10-15-m0.u19">
@@ -420,7 +420,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-15-m0.u52">
-               <seg xml:id="ParlaMint-UA_2019-10-15-m0.u52.p1" xml:lang="ru">Дайте договорити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-15-m0.u52.p1" xml:lang="uk">Дайте договорити.</seg>
             </u>
             <note type="speaker">ДАНІШЕВСЬКА В.І.</note>
             <u who="ДАНІШЕВСЬКА В.І." ana="#regular" xml:id="ParlaMint-UA_2019-10-15-m0.u53">
@@ -963,11 +963,11 @@
             <note type="time"><time when="2019-10-15T13:58:42">13:58:42</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
             <u who="ВЛАСЕНКО С.В." ana="#regular" xml:id="ParlaMint-UA_2019-10-15-m0.u135">
-               <seg xml:id="ParlaMint-UA_2019-10-15-m0.u135.p1" xml:lang="ru">А можна таймер назад?</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-15-m0.u135.p1" xml:lang="uk">А можна таймер назад?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-15-m0.u136">
-               <seg xml:id="ParlaMint-UA_2019-10-15-m0.u136.p1" xml:lang="ru">Вибачте?</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-15-m0.u136.p1" xml:lang="uk">Вибачте?</seg>
             </u>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
             <u who="ВЛАСЕНКО С.В." ana="#regular" xml:id="ParlaMint-UA_2019-10-15-m0.u137">

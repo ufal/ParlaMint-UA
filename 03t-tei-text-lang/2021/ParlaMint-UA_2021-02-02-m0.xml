@@ -859,11 +859,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-02-m0.u114">
-               <seg xml:id="ParlaMint-UA_2021-02-02-m0.u114.p1" xml:lang="ru">Скороход?</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-02-m0.u114.p1" xml:lang="uk">Скороход?</seg>
             </u>
             <note type="speaker">БАТЕНКО Т.І.</note>
             <u who="БАТЕНКО Т.І." ana="#regular" xml:id="ParlaMint-UA_2021-02-02-m0.u115">
-               <seg xml:id="ParlaMint-UA_2021-02-02-m0.u115.p1" xml:lang="ru">Скороход.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-02-m0.u115.p1" xml:lang="uk">Скороход.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-02-m0.u116">
@@ -990,7 +990,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-02-m0.u136">
-               <seg xml:id="ParlaMint-UA_2021-02-02-m0.u136.p1" xml:lang="ru">Дубневич.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-02-m0.u136.p1" xml:lang="uk">Дубневич.</seg>
             </u>
             <note type="time"><time when="2021-02-02T12:53:15">12:53:15</time></note>
             <note type="speaker">ДУБНЕВИЧ Я.В.</note>
@@ -1633,11 +1633,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-02-m0.u223">
-               <seg xml:id="ParlaMint-UA_2021-02-02-m0.u223.p1" xml:lang="ru">Ще раз.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-02-m0.u223.p1" xml:lang="uk">Ще раз.</seg>
             </u>
             <note type="speaker">ОСАДЧУК А.П.</note>
             <u who="ОСАДЧУК А.П." ana="#regular" xml:id="ParlaMint-UA_2021-02-02-m0.u224">
-               <seg xml:id="ParlaMint-UA_2021-02-02-m0.u224.p1" xml:lang="ru">Ярославу Рущишину.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-02-m0.u224.p1" xml:lang="uk">Ярославу Рущишину.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-02-m0.u225">

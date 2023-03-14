@@ -515,7 +515,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-09-m0.u68">
-               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u68.p1" xml:lang="ru">Врахувати.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u68.p1" xml:lang="uk">Врахувати.</seg>
             </u>
             <note type="speaker">ПОДОЛЯК І.І.</note>
             <u who="ПОДОЛЯК І.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-09-m0.u69">
@@ -708,7 +708,7 @@
             <note type="time"><time when="2019-04-09T11:09:24">11:09:24</time></note>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-09-m0.u96">
-               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u96.p1" xml:lang="ru">Шуфрич буде.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-09-m0.u96.p1" xml:lang="uk">Шуфрич буде.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-04-09-m0.u97">

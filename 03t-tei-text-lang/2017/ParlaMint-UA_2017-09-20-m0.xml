@@ -297,7 +297,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-20-m0.u33">
-               <seg xml:id="ParlaMint-UA_2017-09-20-m0.u33.p1" xml:lang="ru">232-а. Крулько.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-20-m0.u33.p1" xml:lang="uk">232-а. Крулько.</seg>
             </u>
             <note type="time"><time when="2017-09-20T10:43:40">10:43:40</time></note>
             <note type="speaker">КРУЛЬКО І.І.</note>
@@ -1787,7 +1787,7 @@
             </u>
             <note type="speaker">ОДАРЧЕНКО Ю.В.</note>
             <u who="ОДАРЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2017-09-20-m0.u223">
-               <seg xml:id="ParlaMint-UA_2017-09-20-m0.u223.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-20-m0.u223.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-09-20-m0.u224">

@@ -1152,13 +1152,13 @@
             <note type="narrative">СТЕФАНЧУК Р.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-17-m0.u136">
-               <seg xml:id="ParlaMint-UA_2021-06-17-m0.u136.p1" xml:lang="ru">Ви завершили, да?</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-17-m0.u136.p1" xml:lang="uk">Ви завершили, да?</seg>
             </u>
             <note type="time"><time when="2021-06-17T11:55:27">11:55:27</time></note>
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-17-m0.u137">
-               <seg xml:id="ParlaMint-UA_2021-06-17-m0.u137.p1" xml:lang="ru">14 правка, Скороход.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-17-m0.u137.p1" xml:lang="uk">14 правка, Скороход.</seg>
             </u>
             <note type="time"><time when="2021-06-17T11:55:32">11:55:32</time></note>
             <note type="speaker">СКОРОХОД А.К.</note>
@@ -1247,7 +1247,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-17-m0.u150">
-               <seg xml:id="ParlaMint-UA_2021-06-17-m0.u150.p1" xml:lang="ru">Ще раз?</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-17-m0.u150.p1" xml:lang="uk">Ще раз?</seg>
             </u>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
             <u who="ПОЛЯКОВ А.Е." ana="#regular" xml:id="ParlaMint-UA_2021-06-17-m0.u151">
@@ -1310,7 +1310,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-17-m0.u162">
-               <seg xml:id="ParlaMint-UA_2021-06-17-m0.u162.p1" xml:lang="ru">27 правка. Поляков.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-17-m0.u162.p1" xml:lang="uk">27 правка. Поляков.</seg>
             </u>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>
             <u who="ПОЛЯКОВ А.Е." ana="#regular" xml:id="ParlaMint-UA_2021-06-17-m0.u163">

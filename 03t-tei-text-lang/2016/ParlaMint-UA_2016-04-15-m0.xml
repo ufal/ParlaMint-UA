@@ -601,7 +601,7 @@
             </u>
             <note type="speaker">ГРОЙСМАН В.Б.</note>
             <u who="ГРОЙСМАН В.Б." ana="#regular" xml:id="ParlaMint-UA_2016-04-15-m0.u84">
-               <seg xml:id="ParlaMint-UA_2016-04-15-m0.u84.p1" xml:lang="ru">Тому я готовий.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-15-m0.u84.p1" xml:lang="uk">Тому я готовий.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-15-m0.u85">
@@ -1059,7 +1059,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-15-m0.u129">
-               <seg xml:id="ParlaMint-UA_2016-04-15-m0.u129.p1" xml:lang="ru">Марченко Олександр.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-15-m0.u129.p1" xml:lang="uk">Марченко Олександр.</seg>
             </u>
             <note type="time"><time when="2016-04-15T13:30:22">13:30:22</time></note>
             <note type="speaker">МАРЧЕНКО О.О.</note>

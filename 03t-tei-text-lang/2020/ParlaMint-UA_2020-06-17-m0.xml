@@ -880,15 +880,15 @@
             <note type="time"><time when="2020-06-17T12:49:54">12:49:54</time></note>
             <note type="speaker">ЦАБАЛЬ В.В.</note>
             <u who="ЦАБАЛЬ В.В." ana="#regular" xml:id="ParlaMint-UA_2020-06-17-m0.u118">
-               <seg xml:id="ParlaMint-UA_2020-06-17-m0.u118.p1" xml:lang="ru">Лозинський Роман.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-17-m0.u118.p1" xml:lang="uk">Лозинський Роман.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-17-m0.u119">
-               <seg xml:id="ParlaMint-UA_2020-06-17-m0.u119.p1" xml:lang="ru">Кому, я не почув?</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-17-m0.u119.p1" xml:lang="uk">Кому, я не почув?</seg>
             </u>
             <note type="speaker">ЦАБАЛЬ В.В.</note>
             <u who="ЦАБАЛЬ В.В." ana="#regular" xml:id="ParlaMint-UA_2020-06-17-m0.u120">
-               <seg xml:id="ParlaMint-UA_2020-06-17-m0.u120.p1" xml:lang="ru">Лозинський Роман.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-17-m0.u120.p1" xml:lang="uk">Лозинський Роман.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-17-m0.u121">

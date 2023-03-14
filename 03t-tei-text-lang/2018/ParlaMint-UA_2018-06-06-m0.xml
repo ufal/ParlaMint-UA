@@ -380,7 +380,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-06-06-m0.u45">
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u45.p1" xml:lang="ru">Руслан Князевич.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u45.p1" xml:lang="uk">Руслан Князевич.</seg>
             </u>
             <note type="time"><time when="2018-06-06T10:59:48">10:59:48</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -510,7 +510,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-06-06-m0.u65">
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u65.p1" xml:lang="ru">Князевич.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u65.p1" xml:lang="uk">Князевич.</seg>
             </u>
             <note type="time"><time when="2018-06-06T11:12:47">11:12:47</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>
@@ -537,7 +537,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-06-06-m0.u69">
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u69.p1" xml:lang="ru">Пане Руслан!</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u69.p1" xml:lang="uk">Пане Руслан!</seg>
             </u>
             <note type="time"><time when="2018-06-06T11:15:27">11:15:27</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

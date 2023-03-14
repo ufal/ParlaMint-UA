@@ -1228,7 +1228,7 @@
             <note type="time"><time when="2020-01-16T12:54:03">12:54:03</time></note>
             <note type="speaker">ГОНЧАРЕНКО О.О.</note>
             <u who="ГОНЧАРЕНКО О.О." ana="#regular" xml:id="ParlaMint-UA_2020-01-16-m0.u169">
-               <seg xml:id="ParlaMint-UA_2020-01-16-m0.u169.p1" xml:lang="ru">Третя, ви сказали.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-16-m0.u169.p1" xml:lang="uk">Третя, ви сказали.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-16-m0.u170">
@@ -1760,7 +1760,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-16-m0.u254">
-               <seg xml:id="ParlaMint-UA_2020-01-16-m0.u254.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-16-m0.u254.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ГОНЧАРЕНКО О.О.</note>
             <u who="ГОНЧАРЕНКО О.О." ana="#regular" xml:id="ParlaMint-UA_2020-01-16-m0.u255">
@@ -1989,11 +1989,11 @@
             </u>
             <note type="speaker">ГОНЧАРЕНКО О.О.</note>
             <u who="ГОНЧАРЕНКО О.О." ana="#regular" xml:id="ParlaMint-UA_2020-01-16-m0.u289">
-               <seg xml:id="ParlaMint-UA_2020-01-16-m0.u289.p1" xml:lang="ru">Я не чую вас.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-16-m0.u289.p1" xml:lang="uk">Я не чую вас.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-16-m0.u290">
-               <seg xml:id="ParlaMint-UA_2020-01-16-m0.u290.p1" xml:lang="ru">1351 ваша правка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-16-m0.u290.p1" xml:lang="uk">1351 ваша правка.</seg>
             </u>
             <note type="speaker">ГОНЧАРЕНКО О.О.</note>
             <u who="ГОНЧАРЕНКО О.О." ana="#regular" xml:id="ParlaMint-UA_2020-01-16-m0.u291">
@@ -2027,7 +2027,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-16-m0.u295">
-               <seg xml:id="ParlaMint-UA_2020-01-16-m0.u295.p1" xml:lang="ru">1364, Гончаренко.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-16-m0.u295.p1" xml:lang="uk">1364, Гончаренко.</seg>
             </u>
             <note type="time"><time when="2020-01-16T13:50:13">13:50:13</time></note>
             <note type="speaker">ГОНЧАРЕНКО О.О.</note>
@@ -2164,7 +2164,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-16-m0.u317">
-               <seg xml:id="ParlaMint-UA_2020-01-16-m0.u317.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-16-m0.u317.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ГОНЧАРЕНКО О.О.</note>
             <u who="ГОНЧАРЕНКО О.О." ana="#regular" xml:id="ParlaMint-UA_2020-01-16-m0.u318">

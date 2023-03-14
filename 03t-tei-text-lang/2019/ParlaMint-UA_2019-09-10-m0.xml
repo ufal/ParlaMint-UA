@@ -78,7 +78,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-10-m0.u5">
-               <seg xml:id="ParlaMint-UA_2019-09-10-m0.u5.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-10-m0.u5.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="time"><time when="2019-09-10T10:07:23">10:07:23</time></note>
             <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>
@@ -140,7 +140,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-10-m0.u15">
-               <seg xml:id="ParlaMint-UA_2019-09-10-m0.u15.p1" xml:lang="ru">Дайте договорити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-10-m0.u15.p1" xml:lang="uk">Дайте договорити.</seg>
             </u>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2019-09-10-m0.u16">
@@ -411,7 +411,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-10-m0.u53">
-               <seg xml:id="ParlaMint-UA_2019-09-10-m0.u53.p1" xml:lang="ru">Роман Лозинський.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-10-m0.u53.p1" xml:lang="uk">Роман Лозинський.</seg>
             </u>
             <note type="time"><time when="2019-09-10T10:51:55">10:51:55</time></note>
             <note type="speaker">ЛОЗИНСЬКИЙ Р.М.</note>
@@ -683,7 +683,7 @@
             <note type="time"><time when="2019-09-10T12:44:00">12:44:00</time></note>
             <note type="speaker">ОСАДЧУК А.П.</note>
             <u who="ОСАДЧУК А.П." ana="#regular" xml:id="ParlaMint-UA_2019-09-10-m0.u91">
-               <seg xml:id="ParlaMint-UA_2019-09-10-m0.u91.p1" xml:lang="ru">Передаю.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-10-m0.u91.p1" xml:lang="uk">Передаю.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-10-m0.u92">

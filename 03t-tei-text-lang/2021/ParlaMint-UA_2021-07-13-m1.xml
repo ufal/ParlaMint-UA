@@ -227,7 +227,7 @@
             <note type="time"><time when="2021-07-13T16:19:13">16:19:13</time></note>
             <note type="speaker">ІВЧЕНКО В.Є.</note>
             <u who="ІВЧЕНКО В.Є." ana="#regular" xml:id="ParlaMint-UA_2021-07-13-m1.u24">
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u24.p1" xml:lang="ru">Наступна.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u24.p1" xml:lang="uk">Наступна.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-13-m1.u25">
@@ -1064,7 +1064,7 @@
             </u>
             <note type="speaker">ЗАВІТНЕВИЧ О.М.</note>
             <u who="ЗАВІТНЕВИЧ О.М." ana="#regular" xml:id="ParlaMint-UA_2021-07-13-m1.u138">
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u138.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u138.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-13-m1.u139">
@@ -1160,11 +1160,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-13-m1.u151">
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u151.p1" xml:lang="ru">Ще раз.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u151.p1" xml:lang="uk">Ще раз.</seg>
             </u>
             <note type="speaker">ВАСИЛЕВСЬКА-СМАГЛЮК О.М.</note>
             <u who="ВАСИЛЕВСЬКА-СМАГЛЮК О.М." ana="#regular" xml:id="ParlaMint-UA_2021-07-13-m1.u152">
-               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u152.p1" xml:lang="ru">Холодову.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-13-m1.u152.p1" xml:lang="uk">Холодову.</seg>
             </u>
             <note type="time"><time when="2021-07-13T17:51:09">17:51:09</time></note>
             <note type="speaker">ХОЛОДОВ А.І.</note>

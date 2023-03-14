@@ -78,7 +78,7 @@
             <note type="time"><time when="2019-05-14T10:11:13">10:11:13</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>
             <u who="ЛЯШКО О.В." ana="#regular" xml:id="ParlaMint-UA_2019-05-14-m0.u4">
-               <seg xml:id="ParlaMint-UA_2019-05-14-m0.u4.p1" xml:lang="ru">Христос Воскрес!</seg>
+               <seg xml:id="ParlaMint-UA_2019-05-14-m0.u4.p1" xml:lang="uk">Христос Воскрес!</seg>
             </u>
             <vocal type="shouting">
                <desc>ГОЛОСИ ІЗ ЗАЛУ. Воістину Воскрес!</desc>

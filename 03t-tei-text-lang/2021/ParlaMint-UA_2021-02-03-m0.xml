@@ -418,11 +418,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-03-m0.u53">
-               <seg xml:id="ParlaMint-UA_2021-02-03-m0.u53.p1" xml:lang="ru">Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-03-m0.u53.p1" xml:lang="uk">Кому?</seg>
             </u>
             <note type="speaker">УРБАНСЬКИЙ А.І.</note>
             <u who="УРБАНСЬКИЙ А.І." ana="#regular" xml:id="ParlaMint-UA_2021-02-03-m0.u54">
-               <seg xml:id="ParlaMint-UA_2021-02-03-m0.u54.p1" xml:lang="ru">Полякову.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-03-m0.u54.p1" xml:lang="uk">Полякову.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-03-m0.u55">
@@ -841,7 +841,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-02-03-m0.u109">
-               <seg xml:id="ParlaMint-UA_2021-02-03-m0.u109.p1" xml:lang="ru">Гео Багратович Лерос.</seg>
+               <seg xml:id="ParlaMint-UA_2021-02-03-m0.u109.p1" xml:lang="uk">Гео Багратович Лерос.</seg>
             </u>
             <note type="time"><time when="2021-02-03T11:47:24">11:47:24</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>

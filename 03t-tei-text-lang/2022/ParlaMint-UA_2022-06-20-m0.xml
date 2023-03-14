@@ -305,7 +305,7 @@
             </u>
             <note type="speaker">МАРІКОВСЬКИЙ О.В.</note>
             <u who="МАРІКОВСЬКИЙ О.В." ana="#regular" xml:id="ParlaMint-UA_2022-06-20-m0.u22">
-               <seg xml:id="ParlaMint-UA_2022-06-20-m0.u22.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2022-06-20-m0.u22.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-06-20-m0.u23">
@@ -314,7 +314,7 @@
             <note type="time"><time when="2022-06-20T13:17:10">13:17:10</time></note>
             <note type="speaker">МАРІКОВСЬКИЙ О.В.</note>
             <u who="МАРІКОВСЬКИЙ О.В." ana="#regular" xml:id="ParlaMint-UA_2022-06-20-m0.u24">
-               <seg xml:id="ParlaMint-UA_2022-06-20-m0.u24.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2022-06-20-m0.u24.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-06-20-m0.u25">
@@ -539,7 +539,7 @@
             <note type="time"><time when="2022-06-20T13:36:49">13:36:49</time></note>
             <note type="speaker">ГРИБ В.О.</note>
             <u who="ГРИБ В.О." ana="#regular" xml:id="ParlaMint-UA_2022-06-20-m0.u58">
-               <seg xml:id="ParlaMint-UA_2022-06-20-m0.u58.p1" xml:lang="ru">Перша - 106-а.</seg>
+               <seg xml:id="ParlaMint-UA_2022-06-20-m0.u58.p1" xml:lang="uk">Перша - 106-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-06-20-m0.u59">
@@ -604,7 +604,7 @@
             </u>
             <note type="speaker">ГРИБ В.О.</note>
             <u who="ГРИБ В.О." ana="#regular" xml:id="ParlaMint-UA_2022-06-20-m0.u70">
-               <seg xml:id="ParlaMint-UA_2022-06-20-m0.u70.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2022-06-20-m0.u70.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-06-20-m0.u71">
@@ -626,7 +626,7 @@
             </u>
             <note type="speaker">ГРИБ В.О.</note>
             <u who="ГРИБ В.О." ana="#regular" xml:id="ParlaMint-UA_2022-06-20-m0.u74">
-               <seg xml:id="ParlaMint-UA_2022-06-20-m0.u74.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2022-06-20-m0.u74.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-06-20-m0.u75">

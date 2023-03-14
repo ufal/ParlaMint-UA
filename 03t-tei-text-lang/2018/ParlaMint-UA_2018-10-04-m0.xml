@@ -855,7 +855,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-10-04-m0.u118">
-               <seg xml:id="ParlaMint-UA_2018-10-04-m0.u118.p1" xml:lang="ru">Ваш?</seg>
+               <seg xml:id="ParlaMint-UA_2018-10-04-m0.u118.p1" xml:lang="uk">Ваш?</seg>
             </u>
             <note type="speaker">ЛЕСЮК Я.В.</note>
             <u who="ЛЕСЮК Я.В." ana="#regular" xml:id="ParlaMint-UA_2018-10-04-m0.u119">
@@ -1227,7 +1227,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2018-10-04-m0.u171">
-               <seg xml:id="ParlaMint-UA_2018-10-04-m0.u171.p1" xml:lang="ru">Порошу.</seg>
+               <seg xml:id="ParlaMint-UA_2018-10-04-m0.u171.p1" xml:lang="uk">Порошу.</seg>
             </u>
             <note type="time"><time when="2018-10-04T13:20:16">13:20:16</time></note>
             <note type="speaker">ШЕВЧЕНКО О.Л.</note>

@@ -332,7 +332,7 @@
             </u>
             <note type="speaker">ЯЦИК Ю.Г.</note>
             <u who="ЯЦИК Ю.Г." ana="#regular" xml:id="ParlaMint-UA_2019-09-19-m1.u42">
-               <seg xml:id="ParlaMint-UA_2019-09-19-m1.u42.p1" xml:lang="ru">Така сама.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-19-m1.u42.p1" xml:lang="uk">Така сама.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-19-m1.u43">
@@ -1038,7 +1038,7 @@
             <note type="time"><time when="2019-09-19T18:05:04">18:05:04</time></note>
             <note type="speaker">КОЖЕМ’ЯКІН А.А.</note>
             <u who="КОЖЕМ’ЯКІН А.А." ana="#regular" xml:id="ParlaMint-UA_2019-09-19-m1.u136">
-               <seg xml:id="ParlaMint-UA_2019-09-19-m1.u136.p1" xml:lang="ru">Шановний Дмитро.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-19-m1.u136.p1" xml:lang="uk">Шановний Дмитро.</seg>
             </u>
             <note type="time"><time when="2019-09-19T18:05:17">18:05:17</time></note>
             <note type="speaker">УСТІНОВА О.Ю.</note>

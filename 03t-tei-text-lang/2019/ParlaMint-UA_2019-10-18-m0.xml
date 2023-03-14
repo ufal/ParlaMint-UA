@@ -691,7 +691,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-18-m0.u105">
-               <seg xml:id="ParlaMint-UA_2019-10-18-m0.u105.p1" xml:lang="ru">Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-18-m0.u105.p1" xml:lang="uk">Кому?</seg>
             </u>
             <note type="speaker">СУХОВ О.С.</note>
             <u who="СУХОВ О.С." ana="#regular" xml:id="ParlaMint-UA_2019-10-18-m0.u106">
@@ -1034,7 +1034,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-18-m0.u138">
-               <seg xml:id="ParlaMint-UA_2019-10-18-m0.u138.p1" xml:lang="ru">Дайте договорити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-18-m0.u138.p1" xml:lang="uk">Дайте договорити.</seg>
             </u>
             <note type="speaker">КУЗБИТ Ю.М.</note>
             <u who="КУЗБИТ Ю.М." ana="#regular" xml:id="ParlaMint-UA_2019-10-18-m0.u139">
@@ -1086,7 +1086,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-18-m0.u148">
-               <seg xml:id="ParlaMint-UA_2019-10-18-m0.u148.p1" xml:lang="ru">Ще раз, кому?</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-18-m0.u148.p1" xml:lang="uk">Ще раз, кому?</seg>
             </u>
             <note type="speaker">ЦАБАЛЬ В.В.</note>
             <u who="ЦАБАЛЬ В.В." ana="#regular" xml:id="ParlaMint-UA_2019-10-18-m0.u149">
@@ -1216,7 +1216,7 @@
             </u>
             <note type="speaker">ТУХІН О.М.</note>
             <u who="ТУХІН О.М." ana="#regular" xml:id="ParlaMint-UA_2019-10-18-m0.u165">
-               <seg xml:id="ParlaMint-UA_2019-10-18-m0.u165.p1" xml:lang="ru">Я завершив.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-18-m0.u165.p1" xml:lang="uk">Я завершив.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-18-m0.u166">
@@ -1237,7 +1237,7 @@
             </u>
             <note type="speaker">МАМКА Г.М.</note>
             <u who="МАМКА Г.М." ana="#regular" xml:id="ParlaMint-UA_2019-10-18-m0.u169">
-               <seg xml:id="ParlaMint-UA_2019-10-18-m0.u169.p1" xml:lang="ru">Колтунович.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-18-m0.u169.p1" xml:lang="uk">Колтунович.</seg>
             </u>
             <note type="time"><time when="2019-10-18T14:29:15">14:29:15</time></note>
             <note type="speaker">КОЛТУНОВИЧ О.С.</note>
@@ -1813,7 +1813,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-10-18-m0.u253">
-               <seg xml:id="ParlaMint-UA_2019-10-18-m0.u253.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2019-10-18-m0.u253.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ГОНЧАРУК О.В.</note>
             <u who="ГОНЧАРУК О.В." ana="#regular" xml:id="ParlaMint-UA_2019-10-18-m0.u254">

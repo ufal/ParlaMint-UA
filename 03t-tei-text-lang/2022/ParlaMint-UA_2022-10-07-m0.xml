@@ -1372,7 +1372,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-10-07-m0.u183">
-               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u183.p1" xml:lang="ru">Номер поправки.</seg>
+               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u183.p1" xml:lang="uk">Номер поправки.</seg>
             </u>
             <note type="time"><time when="2022-10-07T13:31:09">13:31:09</time></note>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
@@ -1858,7 +1858,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-10-07-m0.u262">
-               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u262.p1" xml:lang="ru">Не вдалося.</seg>
+               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u262.p1" xml:lang="uk">Не вдалося.</seg>
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2022-10-07-m0.u263">
@@ -2217,7 +2217,7 @@
             </u>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2022-10-07-m0.u317">
-               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u317.p1" xml:lang="ru">898 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u317.p1" xml:lang="uk">898 поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-10-07-m0.u318">
@@ -3020,7 +3020,7 @@
             <note type="time"><time when="2022-10-07T15:35:09">15:35:09</time></note>
             <note type="speaker">ГЕРАСИМОВ А.В.</note>
             <u who="ГЕРАСИМОВ А.В." ana="#regular" xml:id="ParlaMint-UA_2022-10-07-m0.u433">
-               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u433.p1" xml:lang="ru">Наступна поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-10-07-m0.u433.p1" xml:lang="uk">Наступна поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-10-07-m0.u434">

@@ -495,7 +495,7 @@
             <note type="time"><time when="2016-04-13T11:25:01">11:25:01</time></note>
             <note type="speaker">ПАВЕЛКО А.В.</note>
             <u who="ПАВЕЛКО А.В." ana="#regular" xml:id="ParlaMint-UA_2016-04-13-m0.u58">
-               <seg xml:id="ParlaMint-UA_2016-04-13-m0.u58.p1" xml:lang="uk">Передаю слово Куличенко Ивану Ивановичу.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-13-m0.u58.p1" xml:lang="ru">Передаю слово Куличенко Ивану Ивановичу.</seg>
             </u>
             <note type="time"><time when="2016-04-13T11:25:07">11:25:07</time></note>
             <note type="speaker">КУЛІЧЕНКО І.І.</note>

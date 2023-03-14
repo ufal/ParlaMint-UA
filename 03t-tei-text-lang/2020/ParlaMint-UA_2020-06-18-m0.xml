@@ -688,7 +688,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-18-m0.u79">
-               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u79.p1" xml:lang="ru">Грищук Роман.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u79.p1" xml:lang="uk">Грищук Роман.</seg>
             </u>
             <note type="time"><time when="2020-06-18T12:49:30">12:49:30</time></note>
             <note type="speaker">ГРИЩУК Р.П.</note>
@@ -993,7 +993,7 @@
             <note type="time"><time when="2020-06-18T13:34:37">13:34:37</time></note>
             <note type="speaker">НАЛИВАЙЧЕНКО В.О.</note>
             <u who="НАЛИВАЙЧЕНКО В.О." ana="#regular" xml:id="ParlaMint-UA_2020-06-18-m0.u120">
-               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u120.p1" xml:lang="ru">Власенку.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u120.p1" xml:lang="uk">Власенку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-18-m0.u121">
@@ -1451,7 +1451,7 @@
             </u>
             <note type="speaker">БОНДАРЕНКО О.В.</note>
             <u who="БОНДАРЕНКО О.В." ana="#regular" xml:id="ParlaMint-UA_2020-06-18-m0.u180">
-               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u180.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2020-06-18-m0.u180.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-06-18-m0.u181">

@@ -1361,7 +1361,7 @@
             </u>
             <note type="speaker">ПАРУБІЙ А.В.</note>
             <u who="ПАРУБІЙ А.В." ana="#regular" xml:id="ParlaMint-UA_2015-12-24-m0.u174">
-               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u174.p1" xml:lang="ru">Три секунди.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u174.p1" xml:lang="uk">Три секунди.</seg>
             </u>
             <note type="speaker">ЧУМАК В.В.</note>
             <u who="ЧУМАК В.В." ana="#regular" xml:id="ParlaMint-UA_2015-12-24-m0.u175">
@@ -1512,7 +1512,7 @@
             <note type="time"><time when="2015-12-24T17:45:40">17:45:40</time></note>
             <note type="speaker">НЕМИРЯ Г.М.</note>
             <u who="НЕМИРЯ Г.М." ana="#regular" xml:id="ParlaMint-UA_2015-12-24-m0.u195">
-               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u195.p1" xml:lang="ru">Тимошенко.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u195.p1" xml:lang="uk">Тимошенко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-12-24-m0.u196">

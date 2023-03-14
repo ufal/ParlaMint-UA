@@ -866,7 +866,7 @@
             </u>
             <note type="speaker">ІЩЕЙКІН К.Є.</note>
             <u who="ІЩЕЙКІН К.Є." ana="#regular" xml:id="ParlaMint-UA_2018-11-22-m0.u95">
-               <seg xml:id="ParlaMint-UA_2018-11-22-m0.u95.p1" xml:lang="ru">Шоста була.</seg>
+               <seg xml:id="ParlaMint-UA_2018-11-22-m0.u95.p1" xml:lang="uk">Шоста була.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-11-22-m0.u96">
@@ -993,7 +993,7 @@
             <note type="time"><time when="2018-11-22T12:39:22">12:39:22</time></note>
             <note type="speaker">ЛЕВЧЕНКО Ю.В.</note>
             <u who="ЛЕВЧЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2018-11-22-m0.u112">
-               <seg xml:id="ParlaMint-UA_2018-11-22-m0.u112.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2018-11-22-m0.u112.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-11-22-m0.u113">

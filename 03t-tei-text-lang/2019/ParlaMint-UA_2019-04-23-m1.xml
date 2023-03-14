@@ -268,7 +268,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-23-m1.u37">
-               <seg xml:id="ParlaMint-UA_2019-04-23-m1.u37.p1" xml:lang="ru">Я сказала.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-23-m1.u37.p1" xml:lang="uk">Я сказала.</seg>
             </u>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-23-m1.u38">
@@ -1144,7 +1144,7 @@
             </u>
             <note type="speaker">НІМЧЕНКО В.І.</note>
             <u who="НІМЧЕНКО В.І." ana="#regular" xml:id="ParlaMint-UA_2019-04-23-m1.u189">
-               <seg xml:id="ParlaMint-UA_2019-04-23-m1.u189.p1" xml:lang="ru">Не почув.</seg>
+               <seg xml:id="ParlaMint-UA_2019-04-23-m1.u189.p1" xml:lang="uk">Не почув.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-04-23-m1.u190">

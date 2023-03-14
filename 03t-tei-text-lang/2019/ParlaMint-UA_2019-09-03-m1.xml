@@ -403,7 +403,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-03-m1.u54">
-               <seg xml:id="ParlaMint-UA_2019-09-03-m1.u54.p1" xml:lang="ru">Дайте договорити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-03-m1.u54.p1" xml:lang="uk">Дайте договорити.</seg>
             </u>
             <note type="speaker">ПАПІЄВ М.М.</note>
             <u who="ПАПІЄВ М.М." ana="#regular" xml:id="ParlaMint-UA_2019-09-03-m1.u55">
@@ -649,7 +649,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-03-m1.u93">
-               <seg xml:id="ParlaMint-UA_2019-09-03-m1.u93.p1" xml:lang="ru">Ольга.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-03-m1.u93.p1" xml:lang="uk">Ольга.</seg>
             </u>
             <note type="time"><time when="2019-09-03T17:17:58">17:17:58</time></note>
             <note type="speaker">СОВГИРЯ О.В.</note>
@@ -1199,7 +1199,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-03-m1.u180">
-               <seg xml:id="ParlaMint-UA_2019-09-03-m1.u180.p1" xml:lang="ru">Дайте договорити.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-03-m1.u180.p1" xml:lang="uk">Дайте договорити.</seg>
             </u>
             <note type="speaker">ШУФРИЧ Н.І.</note>
             <u who="ШУФРИЧ Н.І." ana="#regular" xml:id="ParlaMint-UA_2019-09-03-m1.u181">
@@ -1799,7 +1799,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-09-03-m1.u274">
-               <seg xml:id="ParlaMint-UA_2019-09-03-m1.u274.p1" xml:lang="ru">Руслан Князевич.</seg>
+               <seg xml:id="ParlaMint-UA_2019-09-03-m1.u274.p1" xml:lang="uk">Руслан Князевич.</seg>
             </u>
             <note type="time"><time when="2019-09-03T19:47:06">19:47:06</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

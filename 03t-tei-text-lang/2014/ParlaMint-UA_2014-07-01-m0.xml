@@ -456,7 +456,7 @@
             <note type="time"><time when="2014-07-01T11:09:52">11:09:52</time></note>
             <note type="speaker">РОЗЕНКО П.В.</note>
             <u who="РОЗЕНКО П.В." ana="#regular" xml:id="ParlaMint-UA_2014-07-01-m0.u52">
-               <seg xml:id="ParlaMint-UA_2014-07-01-m0.u52.p1" xml:lang="ru">Геращенко.</seg>
+               <seg xml:id="ParlaMint-UA_2014-07-01-m0.u52.p1" xml:lang="uk">Геращенко.</seg>
             </u>
             <note type="time"><time when="2014-07-01T11:09:54">11:09:54</time></note>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>

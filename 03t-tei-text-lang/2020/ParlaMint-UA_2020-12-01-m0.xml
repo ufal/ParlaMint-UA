@@ -1540,7 +1540,7 @@
             </u>
             <note type="speaker">БАТЕНКО Т.І.</note>
             <u who="БАТЕНКО Т.І." ana="#regular" xml:id="ParlaMint-UA_2020-12-01-m0.u195">
-               <seg xml:id="ParlaMint-UA_2020-12-01-m0.u195.p1" xml:lang="ru">Поправка номер 327.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-01-m0.u195.p1" xml:lang="uk">Поправка номер 327.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧА.</note>
             <u who="КОНДРАТЮК О.К." ana="#chair" xml:id="ParlaMint-UA_2020-12-01-m0.u196">
@@ -1677,7 +1677,7 @@
             <note type="time"><time when="2020-12-01T14:49:59">14:49:59</time></note>
             <note type="speaker">ЮЖАНІНА Н.П.</note>
             <u who="ЮЖАНІНА Н.П." ana="#regular" xml:id="ParlaMint-UA_2020-12-01-m0.u216">
-               <seg xml:id="ParlaMint-UA_2020-12-01-m0.u216.p1" xml:lang="ru">92 поправка.</seg>
+               <seg xml:id="ParlaMint-UA_2020-12-01-m0.u216.p1" xml:lang="uk">92 поправка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-12-01-m0.u217">

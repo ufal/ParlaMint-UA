@@ -719,11 +719,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-27-m0.u92">
-               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u92.p1" xml:lang="ru">Вибачте?</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u92.p1" xml:lang="uk">Вибачте?</seg>
             </u>
             <note type="speaker">УРБАНСЬКИЙ А.І.</note>
             <u who="УРБАНСЬКИЙ А.І." ana="#regular" xml:id="ParlaMint-UA_2021-01-27-m0.u93">
-               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u93.p1" xml:lang="ru">Рудику.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u93.p1" xml:lang="uk">Рудику.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-27-m0.u94">
@@ -901,7 +901,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-27-m0.u119">
-               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u119.p1" xml:lang="ru">Вибачте, нечутно.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u119.p1" xml:lang="uk">Вибачте, нечутно.</seg>
             </u>
             <note type="speaker">ЧИЙГОЗ А.З.</note>
             <u who="ЧИЙГОЗ А.З." ana="#regular" xml:id="ParlaMint-UA_2021-01-27-m0.u120">
@@ -1077,7 +1077,7 @@
             <note type="time"><time when="2021-01-27T13:12:44">13:12:44</time></note>
             <note type="speaker">ЧИЙГОЗ А.З.</note>
             <u who="ЧИЙГОЗ А.З." ana="#regular" xml:id="ParlaMint-UA_2021-01-27-m0.u144">
-               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u144.p1" xml:lang="ru">Княжицькому.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u144.p1" xml:lang="uk">Княжицькому.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-27-m0.u145">
@@ -1239,7 +1239,7 @@
             <note type="time"><time when="2021-01-27T13:31:19">13:31:19</time></note>
             <note type="speaker">БОНДАРЄВ К.А.</note>
             <u who="БОНДАРЄВ К.А." ana="#regular" xml:id="ParlaMint-UA_2021-01-27-m0.u165">
-               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u165.p1" xml:lang="ru">Крулько передайте.</seg>
+               <seg xml:id="ParlaMint-UA_2021-01-27-m0.u165.p1" xml:lang="uk">Крулько передайте.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-01-27-m0.u166">

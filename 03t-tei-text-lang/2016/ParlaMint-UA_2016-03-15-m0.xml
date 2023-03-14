@@ -303,7 +303,7 @@
             <note type="time"><time when="2016-03-15T10:49:16">10:49:16</time></note>
             <note type="speaker">ЛЕНСЬКИЙ О.О.</note>
             <u who="ЛЕНСЬКИЙ О.О." ana="#regular" xml:id="ParlaMint-UA_2016-03-15-m0.u35">
-               <seg xml:id="ParlaMint-UA_2016-03-15-m0.u35.p1" xml:lang="ru">Олегу Ляшку.</seg>
+               <seg xml:id="ParlaMint-UA_2016-03-15-m0.u35.p1" xml:lang="uk">Олегу Ляшку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-03-15-m0.u36">

@@ -195,7 +195,7 @@
             <note type="time"><time when="2015-06-19T10:39:00">10:39:00</time></note>
             <note type="speaker">КОЗАК Т.Р.</note>
             <u who="КОЗАК Т.Р." ana="#regular" xml:id="ParlaMint-UA_2015-06-19-m0.u18">
-               <seg xml:id="ParlaMint-UA_2015-06-19-m0.u18.p1" xml:lang="ru">Да, да, да. Здесь.</seg>
+               <seg xml:id="ParlaMint-UA_2015-06-19-m0.u18.p1" xml:lang="uk">Да, да, да. Здесь.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2015-06-19-m0.u19">

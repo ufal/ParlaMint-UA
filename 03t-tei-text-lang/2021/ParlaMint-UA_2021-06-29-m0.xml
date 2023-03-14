@@ -455,7 +455,7 @@
             <note type="time"><time when="2021-06-29T10:53:43">10:53:43</time></note>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2021-06-29-m0.u51">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u51.p1" xml:lang="ru">Цимбалюк.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u51.p1" xml:lang="uk">Цимбалюк.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m0.u52">
@@ -669,7 +669,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m0.u81">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u81.p1" xml:lang="ru">105 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u81.p1" xml:lang="uk">105 правка.</seg>
             </u>
             <note type="speaker">МАКАРОВ О.А.</note>
             <u who="МАКАРОВ О.А." ana="#regular" xml:id="ParlaMint-UA_2021-06-29-m0.u82">
@@ -1377,11 +1377,11 @@
             <note type="time"><time when="2021-06-29T12:53:59">12:53:59</time></note>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2021-06-29-m0.u179">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u179.p1" xml:lang="ru">Цимбалюк.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u179.p1" xml:lang="uk">Цимбалюк.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m0.u180">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u180.p1" xml:lang="ru">Цимбалюк.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u180.p1" xml:lang="uk">Цимбалюк.</seg>
             </u>
             <note type="time"><time when="2021-06-29T12:54:02">12:54:02</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
@@ -1630,11 +1630,11 @@
             <note type="time"><time when="2021-06-29T13:19:31">13:19:31</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
             <u who="ВЛАСЕНКО С.В." ana="#regular" xml:id="ParlaMint-UA_2021-06-29-m0.u214">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u214.p1" xml:lang="ru">Пане Голово, 422-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u214.p1" xml:lang="uk">Пане Голово, 422-а.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m0.u215">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u215.p1" xml:lang="ru">Вибачте, 422-а.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u215.p1" xml:lang="uk">Вибачте, 422-а.</seg>
             </u>
             <note type="time"><time when="2021-06-29T13:19:44">13:19:44</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>
@@ -2291,7 +2291,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-29-m0.u308">
-               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u308.p1" xml:lang="ru">Гео Багратович Лерос.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-29-m0.u308.p1" xml:lang="uk">Гео Багратович Лерос.</seg>
             </u>
             <note type="time"><time when="2021-06-29T14:25:04">14:25:04</time></note>
             <note type="speaker">ЛЕРОС Г.Б.</note>

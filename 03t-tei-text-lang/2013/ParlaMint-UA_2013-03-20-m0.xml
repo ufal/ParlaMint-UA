@@ -195,11 +195,11 @@
             </u>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#regular" xml:id="ParlaMint-UA_2013-03-20-m0.u22">
-               <seg xml:id="ParlaMint-UA_2013-03-20-m0.u22.p1" xml:lang="ru">Уже сказали.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-20-m0.u22.p1" xml:lang="uk">Уже сказали.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-20-m0.u23">
-               <seg xml:id="ParlaMint-UA_2013-03-20-m0.u23.p1" xml:lang="ru">Ну, так передавайте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-20-m0.u23.p1" xml:lang="uk">Ну, так передавайте.</seg>
             </u>
             <note type="time"><time when="2013-03-20T10:29:16">10:29:16</time></note>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>

@@ -311,7 +311,7 @@
             </u>
             <note type="speaker">РАЗУМКОВ Д.О.</note>
             <u who="РАЗУМКОВ Д.О." ana="#regular" xml:id="ParlaMint-UA_2022-09-21-m0.u34">
-               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u34.p1" xml:lang="ru">Номери правок?</seg>
+               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u34.p1" xml:lang="uk">Номери правок?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-09-21-m0.u35">
@@ -432,7 +432,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-09-21-m0.u51">
-               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u51.p1" xml:lang="ru">1057-а правильно?</seg>
+               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u51.p1" xml:lang="uk">1057-а правильно?</seg>
             </u>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
             <u who="КНЯЖИЦЬКИЙ М.Л." ana="#regular" xml:id="ParlaMint-UA_2022-09-21-m0.u52">
@@ -821,7 +821,7 @@
             </u>
             <note type="speaker">ВОЛИНЕЦЬ М.Я.</note>
             <u who="ВОЛИНЕЦЬ М.Я." ana="#regular" xml:id="ParlaMint-UA_2022-09-21-m0.u106">
-               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u106.p1" xml:lang="ru">Поправка номер 6.</seg>
+               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u106.p1" xml:lang="uk">Поправка номер 6.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-09-21-m0.u107">
@@ -914,7 +914,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-09-21-m0.u121">
-               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u121.p1" xml:lang="ru">Вже включений.</seg>
+               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u121.p1" xml:lang="uk">Вже включений.</seg>
             </u>
             <note type="speaker">ВОЛИНЕЦЬ М.Я.</note>
             <u who="ВОЛИНЕЦЬ М.Я." ana="#regular" xml:id="ParlaMint-UA_2022-09-21-m0.u122">
@@ -1107,7 +1107,7 @@
             <note type="time"><time when="2022-09-21T12:15:03">12:15:03</time></note>
             <note type="speaker">ЦИМБАЛЮК М.М.</note>
             <u who="ЦИМБАЛЮК М.М." ana="#regular" xml:id="ParlaMint-UA_2022-09-21-m0.u154">
-               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u154.p1" xml:lang="ru">183 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u154.p1" xml:lang="uk">183 правка.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-09-21-m0.u155">
@@ -1501,7 +1501,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2022-09-21-m0.u208">
-               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u208.p1" xml:lang="ru">Павловський.</seg>
+               <seg xml:id="ParlaMint-UA_2022-09-21-m0.u208.p1" xml:lang="uk">Павловський.</seg>
             </u>
             <note type="time"><time when="2022-09-21T12:57:59">12:57:59</time></note>
             <note type="speaker">ПАВЛОВСЬКИЙ П.І.</note>

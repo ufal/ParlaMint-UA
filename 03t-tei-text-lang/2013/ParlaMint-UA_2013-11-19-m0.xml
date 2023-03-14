@@ -379,7 +379,7 @@
             </u>
             <note type="speaker">ВОРОПАЄВ Ю.М.</note>
             <u who="ВОРОПАЄВ Ю.М." ana="#regular" xml:id="ParlaMint-UA_2013-11-19-m0.u43">
-               <seg xml:id="ParlaMint-UA_2013-11-19-m0.u43.p1" xml:lang="ru">Да.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-19-m0.u43.p1" xml:lang="uk">Да.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-11-19-m0.u44">
@@ -894,7 +894,7 @@
             </u>
             <note type="speaker">ВОРОПАЄВ Ю.М.</note>
             <u who="ВОРОПАЄВ Ю.М." ana="#regular" xml:id="ParlaMint-UA_2013-11-19-m0.u120">
-               <seg xml:id="ParlaMint-UA_2013-11-19-m0.u120.p1" xml:lang="uk">Хочу всем вам напомнить, что.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-19-m0.u120.p1" xml:lang="ru">Хочу всем вам напомнить, что.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
@@ -912,7 +912,7 @@
             </u>
             <note type="speaker">ВОРОПАЄВ Ю.М.</note>
             <u who="ВОРОПАЄВ Ю.М." ana="#regular" xml:id="ParlaMint-UA_2013-11-19-m0.u122">
-               <seg xml:id="ParlaMint-UA_2013-11-19-m0.u122.p1" xml:lang="ru">Голосуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-19-m0.u122.p1" xml:lang="uk">Голосуйте.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-11-19-m0.u123">

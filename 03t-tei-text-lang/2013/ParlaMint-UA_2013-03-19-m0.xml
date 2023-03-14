@@ -326,7 +326,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m0.u30">
-               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u30.p1" xml:lang="ru">Який номер? 2297.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u30.p1" xml:lang="uk">Який номер? 2297.</seg>
             </u>
             <note type="time"><time when="2013-03-19T12:00:00">12:00:00</time></note>
             <note type="speaker">ХОМУТИННІК В.Ю.</note>
@@ -481,7 +481,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m0.u61">
-               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u61.p1" xml:lang="ru">Стоян.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u61.p1" xml:lang="uk">Стоян.</seg>
             </u>
             <note type="time"><time when="2013-03-19T12:09:55">12:09:55</time></note>
             <note type="speaker">СТОЯН О.М.</note>
@@ -575,7 +575,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m0.u79">
-               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u79.p1" xml:lang="ru">Тягнибок.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u79.p1" xml:lang="uk">Тягнибок.</seg>
             </u>
             <note type="time"><time when="2013-03-19T12:17:52">12:17:52</time></note>
             <note type="speaker">ТЯГНИБОК О.Я.</note>

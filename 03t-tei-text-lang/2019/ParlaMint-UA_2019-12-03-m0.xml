@@ -197,7 +197,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-03-m0.u22">
-               <seg xml:id="ParlaMint-UA_2019-12-03-m0.u22.p1" xml:lang="ru">Я сказав.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-03-m0.u22.p1" xml:lang="uk">Я сказав.</seg>
             </u>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>
             <u who="ТИМОШЕНКО Ю.В." ana="#regular" xml:id="ParlaMint-UA_2019-12-03-m0.u23">
@@ -976,7 +976,7 @@
             </u>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>
             <u who="КНЯЖИЦЬКИЙ М.Л." ana="#regular" xml:id="ParlaMint-UA_2019-12-03-m0.u149">
-               <seg xml:id="ParlaMint-UA_2019-12-03-m0.u149.p1" xml:lang="ru">Так-так.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-03-m0.u149.p1" xml:lang="uk">Так-так.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-03-m0.u150">
@@ -1263,7 +1263,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-03-m0.u194">
-               <seg xml:id="ParlaMint-UA_2019-12-03-m0.u194.p1" xml:lang="ru">Так.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-03-m0.u194.p1" xml:lang="uk">Так.</seg>
             </u>
             <note type="speaker">КОЖЕМ’ЯКІН А.А.</note>
             <u who="КОЖЕМ’ЯКІН А.А." ana="#regular" xml:id="ParlaMint-UA_2019-12-03-m0.u195">
@@ -1796,15 +1796,15 @@
             <note type="time"><time when="2019-12-03T13:31:08">13:31:08</time></note>
             <note type="speaker">ВАСИЛЕНКО Л.В.</note>
             <u who="ВАСИЛЕНКО Л.В." ana="#regular" xml:id="ParlaMint-UA_2019-12-03-m0.u264">
-               <seg xml:id="ParlaMint-UA_2019-12-03-m0.u264.p1" xml:lang="ru">Ярославу.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-03-m0.u264.p1" xml:lang="uk">Ярославу.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-03-m0.u265">
-               <seg xml:id="ParlaMint-UA_2019-12-03-m0.u265.p1" xml:lang="ru">Кому?</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-03-m0.u265.p1" xml:lang="uk">Кому?</seg>
             </u>
             <note type="speaker">ВАСИЛЕНКО Л.В.</note>
             <u who="ВАСИЛЕНКО Л.В." ana="#regular" xml:id="ParlaMint-UA_2019-12-03-m0.u266">
-               <seg xml:id="ParlaMint-UA_2019-12-03-m0.u266.p1" xml:lang="ru">Ярославу Железняку.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-03-m0.u266.p1" xml:lang="uk">Ярославу Железняку.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-03-m0.u267">
