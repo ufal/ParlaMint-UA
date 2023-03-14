@@ -36,6 +36,100 @@ my @uk_words = qw/
 /;
 my $uk_words = join('|',@uk_words);
 
+my @ru_words = qw/
+или
+спасибо
+пожалуйста
+хорошо
+конечно
+дальше
+согласно
+только
+что
+как
+когда
+еще
+также
+сразу
+вот
+благодарить благодарю благодарите
+здравствуйте здравствуй
+говорить
+дать давать
+действовать действую
+добавить добавте
+договариваться
+есть
+занять
+закончить закончу заканчивайте
+надеяться надеюсь надеемся надейтесь
+настаивать
+начать
+передать
+подать подавать
+продолжать продолжает
+подготовиться подготовились подготовтесь
+подтвердить
+поддержать поддержите поддерживаем поддерживать
+предлагать предлагаю
+поставить
+применять применяю
+работать
+сказать
+тратить
+внимание внимания вниманием
+понимание понимания
+прощение прощения
+уважение уважением
+вопрос вопроса
+диалог диалоге диалога
+замечание замечания замечаний замечаниями
+чтение чтении
+сессия сессии
+партия партии
+регионов регионам
+фракция фракции
+коллега коллеги коллеге коллегам
+коллектив коллективу коллектива
+работа работу
+деятельность деятельности
+администрация администрации
+господин госпожа
+Председательствующий
+меня мне
+тебя тебе
+всех всем
+их им
+большой большое большая большие большим больше
+политический политическая
+главное главная главного главному
+последний последнее последнего
+уверен уверена
+благодарен благодарна
+нужен нужна нужно
+Александр Александру
+Евгений Евгению
+Михаил Михаилу
+Николай Николаю
+Юрий Юрию
+Сергей Сергею
+Иван Ивану
+Татьяна Татьяне
+Инна Инне
+Ирина Ирине
+Раиса Раисе
+Наталья Наталье
+Матвиенков Матвиенкову
+Балицкий
+Мариуполь
+Мелитополь
+Украина Украине
+/;
+my $ru_words = join('|',@ru_words);
+my $ru_words_max_text_length = 50;
+
+my $short_text_length = 50;
+
 GetOptions (
             'data-dir=s' => \$data_dir,
             'id=s' => \$run_id,
@@ -93,7 +187,7 @@ for my $file (@file_list){
     my $lng = detect_language($node,$text);
     my @check_context = ();
     unless (defined $lng->{char} or defined $lng->{word}) {
-      push @check_context, status_lang($lng,$text,"too short, checking for context '$text'") if length($text) < 20;
+      push @check_context, status_lang($lng,$text,"too short, checking for context '$text'") if length($text) < 100;
       push @check_context, status_lang($lng,$text,"not confident") if $lng->{identify}->{conf}*1 < 0.8;
       push @check_context, status_lang($lng,$text,"different from uk") if $lng->{identify}->{lang} ne 'uk';
       if(@check_context){
@@ -104,7 +198,7 @@ for my $file (@file_list){
       }
     }
 print STDERR $node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id'),"\t",$lng->{char} ,'?', $lng->{identify}->{lang},"\t$text\n" if $lng->{char} && $lng->{char} ne $lng->{identify}->{lang};
-    my $lang = $lng->{char} // $lng->{word} // $lng->{identify}->{lang};
+    my $lang = $lng->{char} // $lng->{word} // $lng->{length} // $lng->{identify}->{lang};
     unless($lang eq 'uk' or $lang eq 'ru'){
       print STDERR "WARN language[$lang]:$text\n";
       if(length($node->textContent())<100){
@@ -189,9 +283,14 @@ sub detect_language {
   $res{char} = 'uk' if 3 * $dig >= length($text); #set uk if text contains >= 1/3 digits
 
   my $ukw = () = $text =~ m/\b($uk_words)\b/gi;
-  my $ruw = 0;
-  $res{word} = $ukw >= $ruw ? 'uk' : 'ru' if $ukw || $ruw;
+  my $ruw = () = $text =~ m/\b($ru_words)\b/gi;
+  if($ukw){
+    $res{word} = 'uk';
+  } elsif (length($text) <= $ru_words_max_text_length && $ruw){
+    $res{word} = 'ru';
+  }
 
+  $res{length} = 'uk' if length($text) <= $short_text_length;
   $res{identify} = {conf => $lng->[2]->{confidence}, lang => $lng->[2]->{lang_code}};
   return \%res;
 }
