@@ -296,8 +296,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-14-m0.u34">
-               <seg xml:id="ParlaMint-UA_2020-01-14-m0.u34.p1" xml:lang="ru">Величкович Микола Романович.</seg>
-               <seg xml:id="ParlaMint-UA_2020-01-14-m0.u34.p2" xml:lang="ru">Князевич Руслан Петрович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-14-m0.u34.p1" xml:lang="uk">Величкович Микола Романович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-14-m0.u34.p2" xml:lang="uk">Князевич Руслан Петрович.</seg>
             </u>
             <note type="time"><time when="2020-01-14T12:53:55">12:53:55</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

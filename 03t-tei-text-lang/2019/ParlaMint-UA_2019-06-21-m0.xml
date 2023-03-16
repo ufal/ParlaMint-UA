@@ -681,7 +681,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-06-21-m0.u83">
-               <seg xml:id="ParlaMint-UA_2019-06-21-m0.u83.p1" xml:lang="ru">Я запрошую до слова народного депутата Оксану Корчинську.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-21-m0.u83.p1" xml:lang="uk">Я запрошую до слова народного депутата Оксану Корчинську.</seg>
             </u>
             <note type="time"><time when="2019-06-21T11:35:40">11:35:40</time></note>
             <note type="speaker">КОРЧИНСЬКА О.А.</note>
@@ -872,7 +872,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-06-21-m0.u114">
-               <seg xml:id="ParlaMint-UA_2019-06-21-m0.u114.p1" xml:lang="ru">Запрошую до слова народного депутата Борислава Березу.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-21-m0.u114.p1" xml:lang="uk">Запрошую до слова народного депутата Борислава Березу.</seg>
             </u>
             <note type="time"><time when="2019-06-21T12:56:34">12:56:34</time></note>
             <note type="speaker">БЕРЕЗА Б.Ю.</note>

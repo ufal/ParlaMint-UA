@@ -467,7 +467,7 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2016-05-12-m1.u63">
-               <seg xml:id="ParlaMint-UA_2016-05-12-m1.u63.p1" xml:lang="ru">Хорошо. Вже поставили на голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-12-m1.u63.p1" xml:lang="uk">Хорошо. Вже поставили на голосування.</seg>
                <note type="time"><time when="2016-05-12T16:47:40">16:47:40</time></note>
                <seg xml:id="ParlaMint-UA_2016-05-12-m1.u63.p2" xml:lang="uk">За-82</seg>
                <seg xml:id="ParlaMint-UA_2016-05-12-m1.u63.p3" xml:lang="uk">Так, ідемо далі, шановні колеги. 82 народних депутати, поправка не прийнята.</seg>

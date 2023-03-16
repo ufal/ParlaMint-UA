@@ -590,7 +590,7 @@
             <note type="time"><time when="2013-05-21T17:19:24">17:19:24</time></note>
             <note type="speaker">ШАТВОРЯН В.Г.</note>
             <u who="ШАТВОРЯН В.Г." ana="#regular" xml:id="ParlaMint-UA_2013-05-21-m1.u75">
-               <seg xml:id="ParlaMint-UA_2013-05-21-m1.u75.p1" xml:lang="uk">Владимир Васильевич, Омельченко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-21-m1.u75.p1" xml:lang="ru">Владимир Васильевич, Омельченко.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-21-m1.u76">

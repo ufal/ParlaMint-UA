@@ -766,7 +766,7 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-14-m0.u106">
-               <seg xml:id="ParlaMint-UA_2013-05-14-m0.u106.p1" xml:lang="ru">Я запрошую до слова Ганну Герман, народного депутата.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-14-m0.u106.p1" xml:lang="uk">Я запрошую до слова Ганну Герман, народного депутата.</seg>
             </u>
             <note type="time"><time when="2013-05-14T12:01:14">12:01:14</time></note>
             <note type="speaker">ГЕРМАН Г.М.</note>
