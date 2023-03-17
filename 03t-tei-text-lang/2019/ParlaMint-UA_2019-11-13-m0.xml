@@ -157,7 +157,7 @@
             <note type="speaker">РАБІНОВИЧ В.З.</note>
             <u who="РАБІНОВИЧ В.З." ana="#regular" xml:id="ParlaMint-UA_2019-11-13-m0.u11">
                <seg xml:id="ParlaMint-UA_2019-11-13-m0.u11.p1" xml:lang="ru">Можна? Спасибо.</seg>
-               <seg xml:id="ParlaMint-UA_2019-11-13-m0.u11.p2" xml:lang="ru">Шановні друзі і от этот ишак, который сейчас выступал, у меня только одно гражданство, подонок, гражданство Украины. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> А ты – ишак, продающий землю. Подонки, продающие землю Украины, подонки!</seg>
+               <seg xml:id="ParlaMint-UA_2019-11-13-m0.u11.p2" xml:lang="ru">Шановні друзі і от этот ишак, который сейчас выступал, у меня только одно гражданство, подонок, гражданство Украины. <vocal type="noise"><desc xml:lang="uk">(Шум у залі)</desc></vocal> А ты – ишак, продающий землю. Подонки, продающие землю Украины, подонки!</seg>
                <seg xml:id="ParlaMint-UA_2019-11-13-m0.u11.p3" xml:lang="ru">Спасибо.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
