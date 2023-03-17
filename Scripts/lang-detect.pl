@@ -305,7 +305,7 @@ sub detect_language {
   $text =~ s/^\s+|\s+$//g;
   my %res;
   my $lng = detect_text_language(text => $text);
-  my $len = length($text); ### text contains spaces !!!
+  my $len = length(only_letters($text)) || 1; ### avoid division by zero
   # expected freqencies: 6.23 %(і) + 0.84 %(ї) + 0.39 %(є) + 0.01 %(ґ) = 7.47 %
   my $uk = () = $text =~ m/([іїєґ])/gi;
   my $exp_uk_freq = 0.0747;
@@ -347,6 +347,11 @@ sub to_string {
   return $doc->toString();
 }
 
+sub only_letters{
+  my $t = shift;
+  $t =~ s/[^-\p{Lu}\p{Lt}\p{Ll}\d'’`]//g;
+  return $t;
+}
 
 sub print_xml {
   my $doc = shift;
