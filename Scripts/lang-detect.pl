@@ -253,6 +253,12 @@ for my $file (@file_list){
     $usage_len{$lang} //= 0;
     $usage_len{$lang} += length($node->textContent());
     $node->setAttributeNS('http://www.w3.org/XML/1998/namespace','lang',$lang);
+    unless($lang eq 'uk'){
+      # set xml lang uk for notes
+      for my $nd ($node->findnodes('.//*[local-name() = "note" or local-name() = "desc"]')){
+        $nd->setAttributeNS('http://www.w3.org/XML/1998/namespace','lang', 'uk');
+      }
+    }
     my $u = $node->parentNode;
     $stat->{$u->getAttribute('who')} //= {};
     $stat->{$u->getAttribute('who')}->{$u->getAttribute('ana')} //= {};
