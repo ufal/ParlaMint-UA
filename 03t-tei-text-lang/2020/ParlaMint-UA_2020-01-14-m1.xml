@@ -421,7 +421,7 @@
             <note type="time"><time when="2020-01-14T16:53:49">16:53:49</time></note>
             <note type="speaker">КИВА І.В.</note>
             <u who="КИВА І.В." ana="#regular" xml:id="ParlaMint-UA_2020-01-14-m1.u50">
-               <seg xml:id="ParlaMint-UA_2020-01-14-m1.u50.p1" xml:lang="uk">Я считаю, что в сложившейся ситуации с гибелью. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Я считаю, что в сложившейся ситуации с авиакатастрофой в Тегеране.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-14-m1.u50.p1" xml:lang="ru">Я считаю, что в сложившейся ситуации с гибелью. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Я считаю, что в сложившейся ситуации с авиакатастрофой в Тегеране.</seg>
             </u>
             <vocal type="noise">
                <desc>(Шум у залі)</desc>

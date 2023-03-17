@@ -842,8 +842,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-05-18-m1.u117">
-               <seg xml:id="ParlaMint-UA_2021-05-18-m1.u117.p1" xml:lang="uk">Сухов Олександр Сергійович.</seg>
-               <seg xml:id="ParlaMint-UA_2021-05-18-m1.u117.p2" xml:lang="uk">Бакунець? Бакунець Павло Андрійович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-05-18-m1.u117.p1" xml:lang="ru">Сухов Олександр Сергійович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-05-18-m1.u117.p2" xml:lang="ru">Бакунець? Бакунець Павло Андрійович.</seg>
             </u>
             <note type="time"><time when="2021-05-18T17:52:42">17:52:42</time></note>
             <note type="speaker">БАКУНЕЦЬ П.А.</note>

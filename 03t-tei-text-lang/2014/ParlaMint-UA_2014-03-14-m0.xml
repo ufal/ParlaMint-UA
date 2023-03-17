@@ -997,7 +997,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-03-14-m0.u132">
-               <seg xml:id="ParlaMint-UA_2014-03-14-m0.u132.p1" xml:lang="uk">Прошу до слова народного депутата Сиротюка Юрія Миколайовича.</seg>
+               <seg xml:id="ParlaMint-UA_2014-03-14-m0.u132.p1" xml:lang="ru">Прошу до слова народного депутата Сиротюка Юрія Миколайовича.</seg>
             </u>
             <note type="time"><time when="2014-03-14T13:03:47">13:03:47</time></note>
             <note type="speaker">СИРОТЮК Ю.М.</note>
@@ -1074,7 +1074,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-03-14-m0.u142">
-               <seg xml:id="ParlaMint-UA_2014-03-14-m0.u142.p1" xml:lang="uk">Прошу до слова народного депутата Мартинюка Леонтія Святославовича. Передає слово народному депутату Михальчишину.</seg>
+               <seg xml:id="ParlaMint-UA_2014-03-14-m0.u142.p1" xml:lang="ru">Прошу до слова народного депутата Мартинюка Леонтія Святославовича. Передає слово народному депутату Михальчишину.</seg>
             </u>
             <note type="time"><time when="2014-03-14T13:18:14">13:18:14</time></note>
             <note type="speaker">МИХАЛЬЧИШИН Ю.А.</note>
@@ -1108,7 +1108,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-03-14-m0.u148">
-               <seg xml:id="ParlaMint-UA_2014-03-14-m0.u148.p1" xml:lang="uk">Прошу до слова народного депутата Чернякова. Передає слово народному депутату Головку.</seg>
+               <seg xml:id="ParlaMint-UA_2014-03-14-m0.u148.p1" xml:lang="ru">Прошу до слова народного депутата Чернякова. Передає слово народному депутату Головку.</seg>
             </u>
             <note type="time"><time when="2014-03-14T13:25:12">13:25:12</time></note>
             <note type="speaker">ГОЛОВКО М.Й.</note>

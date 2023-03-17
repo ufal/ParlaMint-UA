@@ -285,7 +285,7 @@
             <note type="time"><time when="2019-02-26T16:31:42">16:31:42</time></note>
             <note type="speaker">БАРНА О.С.</note>
             <u who="БАРНА О.С." ana="#regular" xml:id="ParlaMint-UA_2019-02-26-m1.u39">
-               <seg xml:id="ParlaMint-UA_2019-02-26-m1.u39.p1" xml:lang="uk">Олег. Прошу пробачення. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Передаю Павлу Кишкарю.</seg>
+               <seg xml:id="ParlaMint-UA_2019-02-26-m1.u39.p1" xml:lang="ru">Олег. Прошу пробачення. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Передаю Павлу Кишкарю.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-02-26-m1.u40">

@@ -216,7 +216,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2016-05-18-m0.u27">
-               <seg xml:id="ParlaMint-UA_2016-05-18-m0.u27.p1" xml:lang="uk">Прошу до слова народного депутат Євгена Балицького.</seg>
+               <seg xml:id="ParlaMint-UA_2016-05-18-m0.u27.p1" xml:lang="ru">Прошу до слова народного депутат Євгена Балицького.</seg>
             </u>
             <note type="time"><time when="2016-05-18T10:27:32">10:27:32</time></note>
             <note type="speaker">БАЛИЦЬКИЙ Є.В.</note>

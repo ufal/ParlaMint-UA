@@ -947,7 +947,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-05-19-m0.u123">
-               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u123.p1" xml:lang="uk">Стефанишина Ольга Анатолівна.</seg>
+               <seg xml:id="ParlaMint-UA_2020-05-19-m0.u123.p1" xml:lang="ru">Стефанишина Ольга Анатолівна.</seg>
                <seg xml:id="ParlaMint-UA_2020-05-19-m0.u123.p2" xml:lang="uk">Ярослав Іванович Железняк.</seg>
             </u>
             <note type="time"><time when="2020-05-19T12:53:38">12:53:38</time></note>

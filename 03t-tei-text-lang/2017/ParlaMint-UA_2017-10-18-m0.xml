@@ -235,8 +235,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-10-18-m0.u27">
-               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u27.p1" xml:lang="uk">Прошу до слова народного депутата Олега Ляшка.</seg>
-               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u27.p2" xml:lang="uk">Олеже Валерійовичу, прошу, ваш.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u27.p1" xml:lang="ru">Прошу до слова народного депутата Олега Ляшка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u27.p2" xml:lang="ru">Олеже Валерійовичу, прошу, ваш.</seg>
             </u>
             <note type="time"><time when="2017-10-18T10:38:46">10:38:46</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>

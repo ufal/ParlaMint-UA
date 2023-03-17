@@ -547,7 +547,7 @@
             <note type="time"><time when="2013-11-19T12:33:31">12:33:31</time></note>
             <note type="speaker">ГІРШФЕЛЬД А.М.</note>
             <u who="ГІРШФЕЛЬД А.М." ana="#regular" xml:id="ParlaMint-UA_2013-11-19-m0.u71">
-               <seg xml:id="ParlaMint-UA_2013-11-19-m0.u71.p1" xml:lang="ru">Владимир Васильевич, по тексту не понятно, як враховано частково эта поправка 13?</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-19-m0.u71.p1" xml:lang="uk">Владимир Васильевич, по тексту не понятно, як враховано частково эта поправка 13?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-11-19-m0.u72">
@@ -555,7 +555,7 @@
             </u>
             <note type="speaker">ГІРШФЕЛЬД А.М.</note>
             <u who="ГІРШФЕЛЬД А.М." ana="#regular" xml:id="ParlaMint-UA_2013-11-19-m0.u73">
-               <seg xml:id="ParlaMint-UA_2013-11-19-m0.u73.p1" xml:lang="ru">13 поправка, як враховано частково? Можно дать точные комментарии, як враховано вона частково?</seg>
+               <seg xml:id="ParlaMint-UA_2013-11-19-m0.u73.p1" xml:lang="uk">13 поправка, як враховано частково? Можно дать точные комментарии, як враховано вона частково?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-11-19-m0.u74">

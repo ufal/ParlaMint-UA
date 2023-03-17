@@ -1466,7 +1466,7 @@
             <note type="time"><time when="2013-09-19T13:01:56">13:01:56</time></note>
             <note type="speaker">КОЛЕСНІЧЕНКО В.В.</note>
             <u who="КОЛЕСНІЧЕНКО В.В." ana="#regular" xml:id="ParlaMint-UA_2013-09-19-m0.u224">
-               <seg xml:id="ParlaMint-UA_2013-09-19-m0.u224.p1" xml:lang="uk">Я прошу <vocal type="noise"><desc>(Шум у залі)</desc></vocal> в соответствии с Регламентом, лишить фракцию "Свобода" слова и запретить им посещение парламента, это требование Регламента. Чего ж дураков слушать?</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-19-m0.u224.p1" xml:lang="ru">Я прошу <vocal type="noise"><desc>(Шум у залі)</desc></vocal> в соответствии с Регламентом, лишить фракцию "Свобода" слова и запретить им посещение парламента, это требование Регламента. Чего ж дураков слушать?</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-19-m0.u225">
