@@ -306,7 +306,7 @@ sub detect_language {
   my %res;
   my $lng = detect_text_language(text => $text);
   my $uk = () = $text =~ m/([іїєґ])/gi;
-  my $ru = () = $text =~ m/([ыэъ])/gi;
+  my $ru = () = $text =~ m/([ыэъё])/gi;
   my $dig = () = $text =~ m/([0-9])/g;
   $res{char} = $uk >= $ru ? 'uk' : 'ru' if $uk || $ru;
   $res{char} = 'uk' if 3 * $dig >= length($text); #set uk if text contains >= 1/3 digits
