@@ -4804,11 +4804,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-12-20-m1.u577">
-               <seg xml:id="ParlaMint-UA_2016-12-20-m1.u577.p1" xml:lang="uk">Прошу повернутись до поправки 51. Прошу проголосувати, колеги. Прошу повернутись до поправки 51.</seg>
+               <seg xml:id="ParlaMint-UA_2016-12-20-m1.u577.p1" xml:lang="ru">Прошу повернутись до поправки 51. Прошу проголосувати, колеги. Прошу повернутись до поправки 51.</seg>
                <note type="time"><time when="2016-12-20T02:27:09">02:27:09</time></note>
                <seg xml:id="ParlaMint-UA_2016-12-20-m1.u577.p2" xml:lang="uk">За-233</seg>
                <seg xml:id="ParlaMint-UA_2016-12-20-m1.u577.p3" xml:lang="uk">Рішення прийняте.</seg>
-               <seg xml:id="ParlaMint-UA_2016-12-20-m1.u577.p4" xml:lang="uk">Прошу підтвердити поправку 51. Прошу проголосувати, прошу проголосувати, колеги.</seg>
+               <seg xml:id="ParlaMint-UA_2016-12-20-m1.u577.p4" xml:lang="ru">Прошу підтвердити поправку 51. Прошу проголосувати, прошу проголосувати, колеги.</seg>
                <note type="time"><time when="2016-12-20T02:27:28">02:27:28</time></note>
                <seg xml:id="ParlaMint-UA_2016-12-20-m1.u577.p5" xml:lang="uk">За-235</seg>
                <seg xml:id="ParlaMint-UA_2016-12-20-m1.u577.p6" xml:lang="uk">Підтверджена.</seg>
