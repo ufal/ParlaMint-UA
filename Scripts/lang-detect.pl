@@ -153,7 +153,7 @@ my @ru_words = qw/
 Юрий Юрию
 /;
 my $ru_words = join('|',@ru_words);
-my $ru_words_max_text_length = 50;
+my $ru_words_max_text_length = 100;
 
 my $short_text_length = 50;
 
@@ -214,6 +214,7 @@ for my $file (@file_list){
     my $lng = detect_language($node,$text);
     my @check_context = ();
     unless (defined $lng->{char} or defined $lng->{word}) {
+      print STDERR $node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id'),"\t",$lng->{char}//'-','?', $lng->{word}//'-','?', $lng->{length}//'-','?', $lng->{identify}->{lang},"\n";
       push @check_context, status_lang($lng,$text,"too short, checking for context '$text'") if length($text) < 100;
       push @check_context, status_lang($lng,$text,"not confident") if $lng->{identify}->{conf}*1 < 0.8;
       push @check_context, status_lang($lng,$text,"different from uk") if $lng->{identify}->{lang} ne 'uk';
@@ -224,7 +225,7 @@ for my $file (@file_list){
         print STDERR "INFO: ",$node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id')," ",status_lang($lng,$text, 'FIXED'),"\t'$text'\n";
       }
     }
-print STDERR $node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id'),"\t",$lng->{char}//'-','?', $lng->{word}//'-','?', $lng->{length}//'-','?', $lng->{identify}->{lang},"\n";
+    print STDERR $node->getAttributeNS('http://www.w3.org/XML/1998/namespace','id'),"\t",$lng->{char}//'-','?', $lng->{word}//'-','?', $lng->{length}//'-','?', $lng->{identify}->{lang},"\n";
     my $lang = $lng->{char} // $lng->{word} // $lng->{length} // $lng->{identify}->{lang};
     unless($lang eq 'uk' or $lang eq 'ru'){
       print STDERR "WARN language[$lang]:$text\n";
