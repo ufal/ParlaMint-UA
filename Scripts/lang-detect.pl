@@ -305,10 +305,17 @@ sub detect_language {
   $text =~ s/^\s+|\s+$//g;
   my %res;
   my $lng = detect_text_language(text => $text);
+  my $len = length($text); ### text contains spaces !!!
+  # expected freqencies: 6.23 %(і) + 0.84 %(ї) + 0.39 %(є) + 0.01 %(ґ) = 7.47 %
   my $uk = () = $text =~ m/([іїєґ])/gi;
+  my $exp_uk_freq = 0.0747;
+  my $uk_freq = $uk / $len;
+  # expected freqencies: 2.36 %(ы) + 0.36 %(э) + 0.2 % (ё)+ 0.02 %(ъ) = 2.94%
   my $ru = () = $text =~ m/([ыэъё])/gi;
+  my $exp_ru_freq = 0.0294;
+  my $ru_freq = $ru / $len;
   my $dig = () = $text =~ m/([0-9])/g;
-  $res{char} = $uk >= $ru ? 'uk' : 'ru' if $uk || $ru;
+  $res{char} = $uk_freq >= $ru_freq ? 'uk' : 'ru' if ($uk_freq >= 0.5*$exp_uk_freq) || ($ru_freq >= 0.5*$exp_ru_freq);
   $res{char} = 'uk' if 3 * $dig >= length($text); #set uk if text contains >= 1/3 digits
 
   my $ukw = () = $text =~ m/\b($uk_words)\b/gi;
