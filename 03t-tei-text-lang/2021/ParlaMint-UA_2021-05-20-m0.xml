@@ -1173,7 +1173,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-05-20-m0.u162">
                <seg xml:id="ParlaMint-UA_2021-05-20-m0.u162.p1" xml:lang="uk">Бакунець Павло Андрійович.</seg>
-               <seg xml:id="ParlaMint-UA_2021-05-20-m0.u162.p2" xml:lang="ru">Приходько Борис Вікторович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-05-20-m0.u162.p2" xml:lang="uk">Приходько Борис Вікторович.</seg>
             </u>
             <note type="time"><time when="2021-05-20T13:08:31">13:08:31</time></note>
             <note type="speaker">ПРИХОДЬКО Б.В.</note>

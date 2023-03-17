@@ -336,7 +336,7 @@
             <note type="comment">ПІСЛЯ ПЕРЕРВИ</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ЄФРЕМОВ О.С." ana="#chair" xml:id="ParlaMint-UA_2012-12-12-m2.u33">
-               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u33.p1" xml:lang="uk">Уважаемые коллеги, я членов президиума прошу занять места в президиуме.</seg>
+               <seg xml:id="ParlaMint-UA_2012-12-12-m2.u33.p1" xml:lang="ru">Уважаемые коллеги, я членов президиума прошу занять места в президиуме.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>

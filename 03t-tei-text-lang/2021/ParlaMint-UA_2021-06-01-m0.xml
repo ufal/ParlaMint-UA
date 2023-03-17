@@ -1180,7 +1180,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-01-m0.u154">
-               <seg xml:id="ParlaMint-UA_2021-06-01-m0.u154.p1" xml:lang="ru">Колтунович Олександр Сергійович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-01-m0.u154.p1" xml:lang="uk">Колтунович Олександр Сергійович.</seg>
                <seg xml:id="ParlaMint-UA_2021-06-01-m0.u154.p2" xml:lang="uk">Шуфрич Нестор Іванович.</seg>
             </u>
             <note type="time"><time when="2021-06-01T13:05:41">13:05:41</time></note>

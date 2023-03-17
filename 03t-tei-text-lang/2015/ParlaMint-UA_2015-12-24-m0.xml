@@ -206,7 +206,7 @@
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-12-24-m0.u19">
                <seg xml:id="ParlaMint-UA_2015-12-24-m0.u19.p1" xml:lang="uk">Юрій Соловей.</seg>
-               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u19.p2" xml:lang="ru">Ірина Геращенко, "Блок Петра Порошенка".</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-24-m0.u19.p2" xml:lang="uk">Ірина Геращенко, "Блок Петра Порошенка".</seg>
             </u>
             <note type="time"><time when="2015-12-24T10:41:06">10:41:06</time></note>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>

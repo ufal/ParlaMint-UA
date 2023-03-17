@@ -1398,7 +1398,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-01-m0.u186">
-               <seg xml:id="ParlaMint-UA_2021-07-01-m0.u186.p1" xml:lang="ru">Скороход Анна Костянтинівна. Рудик?</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-01-m0.u186.p1" xml:lang="uk">Скороход Анна Костянтинівна. Рудик?</seg>
                <seg xml:id="ParlaMint-UA_2021-07-01-m0.u186.p2" xml:lang="uk">Рудик Сергій Ярославович.</seg>
             </u>
             <note type="time"><time when="2021-07-01T13:23:37">13:23:37</time></note>

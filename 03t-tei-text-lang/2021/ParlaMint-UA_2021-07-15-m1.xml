@@ -437,7 +437,7 @@
             <note type="narrative">Веде засідання Голова Верховної Ради України РАЗУМКОВ Д.О.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-07-15-m1.u54">
-               <seg xml:id="ParlaMint-UA_2021-07-15-m1.u54.p1" xml:lang="ru">Констанкевич Ірина Мирославівна. Поляков Антон Едуардович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-07-15-m1.u54.p1" xml:lang="uk">Констанкевич Ірина Мирославівна. Поляков Антон Едуардович.</seg>
             </u>
             <note type="time"><time when="2021-07-15T16:50:22">16:50:22</time></note>
             <note type="speaker">ПОЛЯКОВ А.Е.</note>

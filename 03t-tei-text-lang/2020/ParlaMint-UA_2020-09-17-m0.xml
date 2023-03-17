@@ -1897,7 +1897,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-09-17-m0.u243">
-               <seg xml:id="ParlaMint-UA_2020-09-17-m0.u243.p1" xml:lang="ru">Приходько Борис Вікторович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-09-17-m0.u243.p1" xml:lang="uk">Приходько Борис Вікторович.</seg>
                <seg xml:id="ParlaMint-UA_2020-09-17-m0.u243.p2" xml:lang="uk">Бакунець Павло Андрійович.</seg>
             </u>
             <note type="time"><time when="2020-09-17T14:50:43">14:50:43</time></note>
