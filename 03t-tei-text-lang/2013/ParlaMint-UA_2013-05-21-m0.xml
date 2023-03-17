@@ -751,7 +751,7 @@
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2013-05-21-m0.u87.p2" xml:lang="uk">Говорите, Юрий Витальевич. Микрофон включен. Юрий Витальевич! Виталий Юрьевич.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-21-m0.u87.p2" xml:lang="ru">Говорите, Юрий Витальевич. Микрофон включен. Юрий Витальевич! Виталий Юрьевич.</seg>
             </u>
             <note type="speaker">ЗАХАРЧЕНКО В.Ю.</note>
             <u who="ЗАХАРЧЕНКО В.Ю." ana="#regular" xml:id="ParlaMint-UA_2013-05-21-m0.u88">
