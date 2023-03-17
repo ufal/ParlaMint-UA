@@ -62,6 +62,8 @@ my @uk_words = qw/
 який яка яке якого якому яку
 /;
 my $uk_words = join('|',@uk_words);
+my $uk_words_max_text_length = 250;
+
 
 my @ru_words = qw/
 администрация администрации
@@ -331,7 +333,7 @@ sub detect_language {
 
   my $ukw = () = $text =~ m/\b($uk_words)\b/gi;
   my $ruw = () = $text =~ m/\b($ru_words)\b/gi;
-  if($ukw){
+  if(length($text) <= $uk_words_max_text_length && $ukw){
     $res{word} = 'uk';
   } elsif (length($text) <= $ru_words_max_text_length && $ruw){
     $res{word} = 'ru';
