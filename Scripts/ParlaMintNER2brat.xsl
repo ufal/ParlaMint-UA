@@ -8,6 +8,7 @@
   version="2.0">
 
   <xsl:param name="outFilePrefix"><xsl:value-of select="base-uri()"/></xsl:param>
+  <xsl:param name="lang"/>
   <xsl:param name="tokenize"/>
   <xsl:variable name="tok">
     <xsl:if test="$tokenize">.tok</xsl:if>
@@ -20,7 +21,7 @@
 
 
   <xsl:variable name="text">
-    <xsl:apply-templates select="/tei:TEI/tei:text//tei:s" mode="clean"/>
+    <xsl:apply-templates select="/tei:TEI/tei:text//tei:s[not($lang) or ./ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang]" mode="clean"/>
   </xsl:variable>
 
   <xsl:template match="/">

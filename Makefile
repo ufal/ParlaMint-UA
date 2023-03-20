@@ -220,6 +220,7 @@ $(brat-NER-RUN-ALL): brat-NER-%:
 	  $s -xsl:Scripts/ParlaMintNER2brat.xsl \
 	    outFilePrefix="$(DATADIR)/brat-NER/$*/$$xml" \
 	    tokenize=1 \
+	    lang=uk \
 	    $(DATADIR)/tei-NER/$*/$$xml ;\
 	done
 
