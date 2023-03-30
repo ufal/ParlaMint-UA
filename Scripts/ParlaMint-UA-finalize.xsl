@@ -39,12 +39,12 @@
 
   <xsl:variable name="languages">
     <item xml:lang="uk">
-      <language xml:lang="en">ukrainian</language>
-      <language xml:lang="uk">українська</language>
+      <language xml:lang="en">Ukrainian</language>
+      <language xml:lang="uk">Українська</language>
     </item>
     <item xml:lang="ru">
-      <language xml:lang="en">russian</language>
-      <language xml:lang="uk">російська</language>
+      <language xml:lang="en">Russian</language>
+      <language xml:lang="uk">Російська</language>
     </item>
   </xsl:variable>
 
@@ -649,8 +649,8 @@
               </language>
             </xsl:for-each>
           </xsl:for-each>
-          <language xml:lang="en" ident="en" usage="0">english</language>
-          <language xml:lang="uk" ident="en" usage="0">aнглійська</language>
+          <language xml:lang="en" ident="en" usage="0">English</language>
+          <language xml:lang="uk" ident="en" usage="0">Aнглійська</language>
         </xsl:copy>
       </xsl:otherwise>
     </xsl:choose>
