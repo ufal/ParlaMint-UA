@@ -82,7 +82,7 @@ prepare-annotation-task: prepare-annotation-task-brat
 
 
 annotation-task-stat:
-	@for d in `find Data/brat -mindepth 1 -type d|sort`; do \
+	@for d in `find Data/Annotation -mindepth 1 -type d|sort`; do \
 	  echo -n "$$d\nwords:\t" ; \
 	  cat $$d/*.txt|wc -w ;\
 	  echo -n "NEs:\t" ;\
@@ -98,9 +98,9 @@ annotation-task-stat:
 	done
 	@echo '------- $(NERtaskSeed) $(NERtaskMinW) $(NERtaskMaxW)'
 	@echo -n "train words:\t"
-	@cat Data/brat/train*/*.txt|wc -w
+	@cat Data/Annotation/train*/*.txt|wc -w
 	@echo -n "test words:\t"
-	@cat Data/brat/test*/*.txt|wc -w
+	@cat Data/Annotation/test*/*.txt|wc -w
 
 
 
