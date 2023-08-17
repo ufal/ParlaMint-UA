@@ -121,8 +121,8 @@ if($speaker_aliases_file){
     $aliases->{uc $al->{alias}} //= {};
     $aliases->{uc $al->{alias}}->{$al->{id}} //= [];
     if($al->{org}){ # if organization is not defined, then no period is used
-      my $from = convert_to_days($al->{from} || '1970-01-01');
-      my $to = convert_to_days($al->{to} || '2070-12-12');
+      my $from = convert_to_days($al->{from} || '1970-01-01','-01-01');
+      my $to = convert_to_days($al->{to} || '2070-12-12','-12-31');
       push @{$aliases->{uc $al->{alias}}->{$al->{id}}},[$from,$to]
     }
   }
@@ -390,7 +390,8 @@ sub is_in_date_interval {
 
 sub convert_to_days {
   my $dt = shift;
-  my ($y,$m,$d) = split('-',$dt);
+  my $default_month_day = shift // '-01-01';
+  my ($y,$m,$d) = split('-',"$dt$default_month_day");
   return DateTime->new(year=>$y, month=>$m, day=>$d)->epoch / 60 / 60 / 24;
 }
 ##-----------------------------
