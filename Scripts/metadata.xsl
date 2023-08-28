@@ -254,12 +254,28 @@
           </xsl:if>
           </xsl:for-each>
           <xsl:for-each select="tokenize($occupation,' *; *')">
-            <xsl:variable name="occ" select="normalize-space(.)"/>
+            <xsl:variable name="occlang">
+              <xsl:if test="matches(normalize-space(.),'^\[([a-z]*)\]')">
+                <xsl:value-of  select="replace(normalize-space(.),'^\[([a-z]*)\].*','$1')"/>
+              </xsl:if>
+            </xsl:variable>
+            <xsl:variable name="occ" select="normalize-space(replace(normalize-space(.),'^\[[a-z]*\]',''))"/>
             <xsl:if test="$occ">
-              <xsl:element name="occupation" xmlns="http://www.tei-c.org/ns/1.0">
-                <xsl:value-of select="$occ"/>
-              </xsl:element>
+              <xsl:choose>
+                <xsl:when test="$occ = 'MP'">
+                  <xsl:comment><xsl:value-of select="$occ"/></xsl:comment>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:element name="occupation" xmlns="http://www.tei-c.org/ns/1.0">
+                    <xsl:if test="not($occlang='')">
+                      <xsl:attribute name="xml:lang" select="$occlang"/>
+                    </xsl:if>
+                    <xsl:value-of select="$occ"/>
+                  </xsl:element>
+                </xsl:otherwise>
+              </xsl:choose>
             </xsl:if>
+
           </xsl:for-each>
           <xsl:for-each select="$gov-affiliation/table/row[./col[@name='PersonID'] = $id]">
             <xsl:variable name="aff" select="."/>
