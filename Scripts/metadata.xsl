@@ -288,8 +288,13 @@
             <xsl:variable name="role-en" select="$aff/col[@name='RoleName_en']"/>
             <xsl:variable name="role-uk" select="$aff/col[@name='RoleName_uk']"/>
             <xsl:choose>
+              <!--
               <xsl:when test="$role = 'MP'">
                 <xsl:message select="concat('INFO: skipping MP role: ',$id,' ',$org,' ',$from,' ',$to,' ***',$role)"/>
+              </xsl:when>
+            -->
+              <xsl:when test="$role = 'MP' and not(matches($from, '^\d{4}-\d{2}-\d{2}$')) and  '3' &lt; substring-after($event,'.')">
+                <xsl:message select="concat('INFO: skipping MP role (inaccurate from date): ',$id,' ',$org,' ',$from,' ',$to,' ***',$role)"/>
               </xsl:when>
               <xsl:when test="not($gov-org/table/row[./col[@name='OrgID'] = $org])">
                 <xsl:message select="concat('INFO: skipping unknown organization: ',$id,' ***',$org,' ',$from,' ',$to,' ',$role)"/>
@@ -297,7 +302,12 @@
               <xsl:otherwise>
                 <xsl:element name="affiliation" xmlns="http://www.tei-c.org/ns/1.0">
                   <xsl:attribute name="ref" select="concat('#',$org)"/>
-                  <xsl:attribute name="role" select="$role"/>
+                  <xsl:attribute name="role">
+                    <xsl:choose>
+                      <xsl:when test="$role = 'MP'">member</xsl:when>
+                      <xsl:otherwise><xsl:value-of  select="$role"/></xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:attribute>
                   <xsl:if test="matches($from, '^\d{4}(-\d{2}-\d{2})?$')">
                     <xsl:attribute name="from" select="$from"/>
                   </xsl:if>
