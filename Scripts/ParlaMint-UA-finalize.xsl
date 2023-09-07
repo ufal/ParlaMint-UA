@@ -50,6 +50,7 @@
 
   <xsl:variable name="taxonomies">
     <item>ParlaMint-taxonomy-parla.legislature.xml</item>
+    <item>ParlaMint-taxonomy-politicalOrientation.xml</item>
     <item>ParlaMint-taxonomy-speaker_types.xml</item>
     <item>ParlaMint-taxonomy-subcorpus.xml</item>
     <item>ParlaMint-UA-taxonomy-affiliation.roles.xml</item>
