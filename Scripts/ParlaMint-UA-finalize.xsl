@@ -522,7 +522,9 @@
             <xsl:variable name="term" select="."/>
             <xsl:apply-templates select="($terms//tei:meeting[@n=$term])[1]"/>
           </xsl:for-each>
-          <xsl:call-template name="add-respStmt"/>
+          <xsl:call-template name="add-respStmt">
+            <xsl:with-param name="context">teiCorpus</xsl:with-param>
+          </xsl:call-template>
           <xsl:call-template name="add-funder"/>
         </xsl:element>
         <editionStmt>
@@ -715,6 +717,7 @@
   </xsl:template>
 
   <xsl:template name="add-respStmt">
+    <xsl:param name="context"/>
     <respStmt>
       <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
       <resp xml:lang="en">Data retrieval</resp>
@@ -727,7 +730,12 @@
       </xsl:if>
     </respStmt>
     <xsl:element name="respStmt">
-      <persName>Anna Kryvenko</persName>
+      <persName>
+        <xsl:if test="$context='teiCorpus'">
+          <xsl:attribute name="xml:id">AnnaKryvenko</xsl:attribute>
+        </xsl:if>
+        <xsl:text>Anna Kryvenko</xsl:text>
+      </persName>
       <resp xml:lang="en">Manual metadata retrieval</resp>
       <resp xml:lang="uk">Ручне збирання метаданих</resp>
       <resp xml:lang="en">Translations</resp>
