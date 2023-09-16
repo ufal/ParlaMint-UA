@@ -26,6 +26,7 @@ GSIDrelation := 1419083904
 GSIDguest := 636463819
 GSIDrename := 480487169
 GSIDspeakers := 542098680
+GSIDaffiliationExtra := 1624172527
 
 -include Makefile.env
 
@@ -326,6 +327,7 @@ $(tei-particDesc-gov-RUN-LAST): tei-particDesc-gov$(ISUPDATE)-%:
 	@echo "downloading gov persons and manually added organizations $(ISUPDATE)"
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDperson)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-person.tsv
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDaffiliation)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-affiliation.tsv
+	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDaffiliationExtra)&single=true&output=tsv" | tail +2 >> $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-affiliation.tsv
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDorg)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-org.tsv
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDevent)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-event.tsv
 	curl -L "https://docs.google.com/spreadsheets/d/e/$(GSID)/pub?gid=$(GSIDrelation)&single=true&output=tsv" > $(DATADIR)/tei-particDesc-preprocess$(ISUPDATE)/$*/gov-relation.tsv
