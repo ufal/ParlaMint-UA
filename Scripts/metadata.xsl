@@ -173,6 +173,7 @@
                 <xsl:with-param name="from" select="@from"/>
                 <xsl:with-param name="to" select="@to"/>
                 <xsl:with-param name="name" select="$frac_name"/>
+                <xsl:with-param name="output">comment</xsl:with-param>
               </xsl:call-template>
             </xsl:for-each>
             <!-- if @type='fraction' and @from is missing -->
@@ -182,6 +183,7 @@
                 <xsl:with-param name="from" select="$from"/>
                 <xsl:with-param name="to" select="$to"/>
                 <xsl:with-param name="name" select="$fractions-without-timespan/@org_name"/>
+                <xsl:with-param name="output">comment</xsl:with-param>
               </xsl:call-template>
             </xsl:if>
           </xsl:for-each>
@@ -634,6 +636,7 @@
     <xsl:param name="from"/>
     <xsl:param name="to"/>
     <xsl:param name="name"/>
+    <xsl:param name="output"/>
     <xsl:variable name="org_by_id" select="$gov-org/table/row[$id and ./col[@name='RadaIDs']//text() = $id]"/>
     <xsl:variable name="org_by_radaName" select="$gov-org/table/row[$name and ./col[@name='RadaName']//text() = $name]"/>
     <xsl:variable name="org_by_fullName" select="$gov-org/table/row[$name and ./col[@name='Role'] = 'parliamentaryGroup' and lower-case(./col[@name='OrgNameFull_uk']) = lower-case($name)]"/>
@@ -646,6 +649,13 @@
     </xsl:variable>
     <xsl:choose>
       <xsl:when test="count($ref/*) = 1">
+        <xsl:call-template name="affiliation-print">
+          <xsl:with-param name="ref" select="concat('#', $ref/*/col[@name='OrgID']/text())"/>
+          <xsl:with-param name="from" select="$from"/>
+          <xsl:with-param name="to" select="$to"/>
+          <xsl:with-param name="output" select="$output"/>
+        </xsl:call-template>
+        <!--
         <xsl:element name="affiliation" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:attribute name="ref" select="concat('#', $ref/*/col[@name='OrgID']/text())"/>
           <xsl:attribute name="role">member</xsl:attribute>
@@ -656,11 +666,19 @@
             <xsl:attribute name="to" select="$to"/>
           </xsl:if>
         </xsl:element>
+      -->
       </xsl:when>
       <xsl:when test="count($ref/*) > 1">
         <xsl:message terminate="no">TODO multipe affiliations !!!: |<xsl:value-of select="$ref/text()"/>| '<xsl:copy-of select="$ref"/>'</xsl:message>
         <xsl:comment>multiple fraction affiliation at the same time:</xsl:comment>
         <xsl:for-each select="$ref/*">
+          <xsl:call-template name="affiliation-print">
+            <xsl:with-param name="ref" select="concat('#', ./col[@name='OrgID']/text())"/>
+            <xsl:with-param name="from" select="$from"/>
+            <xsl:with-param name="to" select="$to"/>
+            <xsl:with-param name="output" select="$output"/>
+          </xsl:call-template>
+          <!--
           <xsl:element name="affiliation" xmlns="http://www.tei-c.org/ns/1.0">
             <xsl:attribute name="ref" select="concat('#', ./col[@name='OrgID']/text())"/>
             <xsl:attribute name="role">member</xsl:attribute>
@@ -671,6 +689,7 @@
               <xsl:attribute name="to" select="$to"/>
             </xsl:if>
           </xsl:element>
+        -->
         </xsl:for-each>
       </xsl:when>
       <xsl:otherwise>
@@ -681,6 +700,30 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template name="affiliation-print">
+    <xsl:param name="ref"/>
+    <xsl:param name="from"/>
+    <xsl:param name="to"/>
+    <xsl:param name="role">member</xsl:param>
+    <xsl:param name="output"/>
+    <xsl:choose>
+      <xsl:when test="$output = 'comment'">
+        <xsl:comment>[source=data.rada.gov.ua] affiliation ref="<xsl:value-of select="$ref"/>" role="<xsl:value-of select="$role"/>" from="<xsl:value-of select="$from"/>" to="<xsl:value-of select="$to"/>"/</xsl:comment>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:element name="affiliation" xmlns="http://www.tei-c.org/ns/1.0">
+          <xsl:attribute name="ref" select="$ref"/>
+          <xsl:attribute name="role" select="$role"/>
+          <xsl:if test="$from">
+            <xsl:attribute name="from" select="$from"/>
+          </xsl:if>
+          <xsl:if test="$to">
+            <xsl:attribute name="to" select="$to"/>
+          </xsl:if>
+        </xsl:element>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
   <xsl:function name="mk:use-id-or-find-alternative">
     <xsl:param name="cur-id"/>
     <xsl:variable name="rename-person" select="$gov-rename/table/row[./col[@name='NameID'] = $cur-id ]/col[@name='PersonID']"/>
