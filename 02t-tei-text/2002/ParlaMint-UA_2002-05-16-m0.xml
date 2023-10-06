@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA_2002-05-16-m0" xml:lang="uk">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- TODO -->
+            <meeting ana="#parla.term #parla.uni" n="4">4</meeting>
+            <meeting ana="#parla.session #parla.uni" n="1">1</meeting>
+            <!-- TODO: meeting type: regular -->
+            <!-- TODO -->
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <!-- TODO -->
+         </extent>
+         <publicationStmt>
+            <!-- TODO -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <!-- TODO -->
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/1469.html</idno>
+               <date when="2002-05-16">2002-05-16</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- TODO -->
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- TODO -->
+               <date when="2002-05-16">2002-05-16</date>
+            </setting>
+         </settingDesc>
+         <!-- TODO -->
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 16 травня 2002</note>
+            <note type="comment">ЗАСІДАННЯ П'ЯТЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України.</note>
+            <note type="comment">16 травня 2002 року. 10 година.</note>
+            <note type="narrative">Веде засідання член Президії першої сесії Верховної Ради України МУСІЯКА В.Л.</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="МУСІЯКА В.Л." ana="#chair" xml:id="ParlaMint-UA_2002-05-16-m0.u1">
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u1.p1">Доброго ранку, шановні народні депутати,</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u1.p2">запрошені, гості. Народних депутатів України прошу підготуватися до реєстрації.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u1.p3">Так, будь ласка, включіть реєстрацію. Прохання реєструватися.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u1.p4">У залі зареєстровано 310 народних депутатів. Ранкове засідання оголошується відкритим.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u1.p5">Як ми вчора домовилися, зараз я оголошу перерву до 12.30. З 12.30 ми продовжимо розгляд питання про обрання Голови Верховної Ради, Першого заступника і заступника Голови Верховної Ради.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u1.p6">Керівників фракцій я прошу зараз підійти в ложу уряду.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u1.p7">Оголошується перерва до 12.30.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u1.p8">(Після перерви)</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="МУСІЯКА В.Л." ana="#chair" xml:id="ParlaMint-UA_2002-05-16-m0.u2">
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u2.p1">Прошу увімкнути систему "Рада". Прошу народних депутатів зареєструватися.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u2.p2">Дякую, 328 народних депутатів у залі.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u2.p3">Шановні народні депутати, слово надається народному депутату Мішурі, голові Лічильної комісії, для довідки.</seg>
+            </u>
+            <note type="speaker">МІШУРА В.Д.</note>
+            <u who="МІШУРА В.Д." ana="#regular" xml:id="ParlaMint-UA_2002-05-16-m0.u3">
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u3.p1">голова тимчасової Лічильної комісії Верховної Ради України (багатомандатний загальнодержавний виборчий округ,</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u3.p2">КПУ). Шановні народні депутати! Я хочу зробити довідку невеличку.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u3.p3">Учора я зробив обмовку, бо назвав одну графу, а цифру дав зовсім не ту. У нас не 447 депутатів отримали бюлетені (ви розумієте, що це не так), а 294, і взяли участь у голосуванні 214 народних депутатів. Усі ці дані відображено у протоколі.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u3.p4">Прошу вибачити мене, це була просто обмовка.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="МУСІЯКА В.Л." ana="#chair" xml:id="ParlaMint-UA_2002-05-16-m0.u4">
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u4.p1">Дякую, Валерію Дмитровичу.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u4.p2">-----------</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u4.p3">Оголошення. Згідно зі статтею 13 Закону України про статус народного депутата України та статтею 4.2.2 Регламенту Верховної Ради України інформую про вихід народного депутата України Горбачова Віктора Сергійовича із складу депутатської фракції</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u4.p4">"Єдина Україна".</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u4.p5">Шановні народні депутати! На прохання керівників шести фракцій я оголошую перерву до 16 години. Ще раз повторюю: на прохання керівників шести фракцій оголошується перерва до 16 години. Немає пакетів, ні з чим працювати.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-16-m0.u4.p6">Дякую. Перерва.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

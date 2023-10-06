@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA_2009-05-14-m0" xml:lang="uk">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- TODO -->
+            <meeting ana="#parla.term #parla.uni" n="6">6</meeting>
+            <meeting ana="#parla.session #parla.uni" n="4">4</meeting>
+            <!-- TODO: meeting type: regular -->
+            <!-- TODO -->
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <!-- TODO -->
+         </extent>
+         <publicationStmt>
+            <!-- TODO -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <!-- TODO -->
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/688.html</idno>
+               <date when="2009-05-14">2009-05-14</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- TODO -->
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- TODO -->
+               <date when="2009-05-14">2009-05-14</date>
+            </setting>
+         </settingDesc>
+         <!-- TODO -->
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 14 травня 2009</note>
+            <note type="speaker">ТРИДЦЯТЬ ЧЕТВЕРТЕ</note>
+            <note type="time">14 травня 2009 року, 10:20 година</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України О.В.ЛАВРИНОВИЧ</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="ЛАВРИНОВИЧ О.В." ana="#chair" xml:id="ParlaMint-UA_2009-05-14-m0.u1">
+               <seg xml:id="ParlaMint-UA_2009-05-14-m0.u1.p1">Прошу реєструватись.</seg>
+               <seg xml:id="ParlaMint-UA_2009-05-14-m0.u1.p2">Відмініть реєстрацію, будь ласка, ще не встигли вставити карточки.</seg>
+               <seg xml:id="ParlaMint-UA_2009-05-14-m0.u1.p3">Включіть, будь ласка, систему „Рада”.</seg>
+               <note type="time"><time when="2009-05-14T10:23:45">10:23:45</time></note>
+               <seg xml:id="ParlaMint-UA_2009-05-14-m0.u1.p4">В залі зареєстровано 375 народних депутатів. Ранкове пленарне засідання оголошую відкритим.</seg>
+               <seg xml:id="ParlaMint-UA_2009-05-14-m0.u1.p5">Шановні колеги, я поінформую вас про пропозиції, які пролунали сьогодні на нараді керівників депутатських фракцій. У зв`язку із політичною ситуацією, яка виникла після подання заяви до Верховної Ради України міністра внутрішніх справ Юрія Віталійовича Луценка, виникло питання яким чином вона має бути розглянута. Були різні думки і пропозиції. Сьогодні вранці висловлена пропозиція, щоб ми сьогодні відкрили пленарне засідання і оголосили перерву для подальших політичних консультацій з метою розв’язання цієї проблеми, яка виникла в Верховній Раді України.</seg>
+               <seg xml:id="ParlaMint-UA_2009-05-14-m0.u1.p6">У зв’язку з цим, реалізуючи волю керівників депутатських фракцій, я оголошую перерву до 10 години ранку завтрашнього дня. На все добре.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

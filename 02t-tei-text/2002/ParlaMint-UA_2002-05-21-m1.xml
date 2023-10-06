@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA_2002-05-21-m1" xml:lang="uk">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- TODO -->
+            <meeting ana="#parla.term #parla.uni" n="4">4</meeting>
+            <meeting ana="#parla.session #parla.uni" n="1">1</meeting>
+            <!-- TODO: meeting type: regular -->
+            <!-- TODO -->
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <!-- TODO -->
+         </extent>
+         <publicationStmt>
+            <!-- TODO -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <!-- TODO -->
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/1473.html</idno>
+               <date when="2002-05-21">2002-05-21</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- TODO -->
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- TODO -->
+               <date when="2002-05-21">2002-05-21</date>
+            </setting>
+         </settingDesc>
+         <!-- TODO -->
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 21 травня 2002</note>
+            <note type="comment">ЗАСІДАННЯ ДЕВ'ЯТЕ</note>
+            <note type="comment">С е с і й н и й з а л В е р х о в н о ї Р а д и</note>
+            <note type="comment">У к р а ї н и. 21 т р а в н я 2002 р о к у.</note>
+            <note type="time">16 г о д и н а.</note>
+            <note type="narrative">Веде засідання член Президії першої сесії Верховної Ради України МАРТИНЮК А.І.</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="МАРТИНЮК А.І." ana="#chair" xml:id="ParlaMint-UA_2002-05-21-m1.u1">
+               <seg xml:id="ParlaMint-UA_2002-05-21-m1.u1.p1">Шановні колеги! Прошу підготуватися до реєстрації. Прошу зареєструватися.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-21-m1.u1.p2">У залі зареєстровано 369 народних депутатів. Вечірнє засідання оголошується відкритим.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-21-m1.u1.p3">Шановні колеги! Дозвольте вас поінформувати про консультації,</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-21-m1.u1.p4">які проводять керівники фракцій. Протягом того часу, на який ми оголосили перерву, по суті, не переривалися консультації в різному форматі. Найчастіше зустрічалися керівники всіх шести фракцій, які діють у нашому парламенті. Проводилися двосторонні, тристоронні та чотиристоронні зустрічі. Тобто формат зустрічей був різноманітний.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-21-m1.u1.p5">Буквально перед початком нашого вечірнього засідання відбулася ще одна зустріч керівників усіх шести фракцій. Керівники всіх шести фракцій просять зал дати можливість їм ще попрацювати,</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-21-m1.u1.p6">узгодити свої позиції (Шум у залі). Тому з вашого дозволу я оголошую перерву до 10 години ранку. Зараз керівники фракцій зустрічаються там, де проводили зустріч.</seg>
+               <seg xml:id="ParlaMint-UA_2002-05-21-m1.u1.p7">На цьому вечірнє засідання оголошується закритим.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

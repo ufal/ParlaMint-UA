@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA_2008-07-10-m0" xml:lang="uk">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- TODO -->
+            <meeting ana="#parla.term #parla.uni" n="6">6</meeting>
+            <meeting ana="#parla.session #parla.uni" n="2">2</meeting>
+            <!-- TODO: meeting type: regular -->
+            <!-- TODO -->
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <!-- TODO -->
+         </extent>
+         <publicationStmt>
+            <!-- TODO -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <!-- TODO -->
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/435.html</idno>
+               <date when="2008-07-10">2008-07-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- TODO -->
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- TODO -->
+               <date when="2008-07-10">2008-07-10</date>
+            </setting>
+         </settingDesc>
+         <!-- TODO -->
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 10 липня 2008</note>
+            <note type="comment">ЗАСІДАННЯ СОРОК СЬОМЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="time">10 липня 2008 року, 10:00 година</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України ЯЦЕНЮК А.П.</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="ЯЦЕНЮК А.П." ana="#chair" xml:id="ParlaMint-UA_2008-07-10-m0.u1">
+               <seg xml:id="ParlaMint-UA_2008-07-10-m0.u1.p1">Доброго ранку, реєструємся, шановні колеги. З тією метою реєструємось, щоб не переривати пленарні засідання Верховної Ради України, щоб раніше полоненого терміну не розпустили парламент.</seg>
+               <note type="time"><time when="2008-07-10T10:02:37">10:02:37</time></note>
+               <seg xml:id="ParlaMint-UA_2008-07-10-m0.u1.p2">В залі зареєструвалося 261 народний депутат України, ранкове пленарне засідання Верховної Ради України оголошую відкритим.</seg>
+               <seg xml:id="ParlaMint-UA_2008-07-10-m0.u1.p3">Шановні народні депутати, перше, що стосується питання Закону України „Про Державний бюджет”. Бюджетний комітет вчора засідав до ночі і на сьогодні призначено на 16.00 наступний раунд засідання бюджетного комітету. Таким чином внесеного бюджету і погодженого комітетом до парламенту бюджету поки що немає. З огляду на це я пропоную наступне. Я вам скажу відверто, мені дещо надоїло переливати з пустого в порожнє. Буде внесений бюджет, погодите порядок денний, будемо працювати. Я, вибачте, нянькою не буду. Домовитеся – я в робочому кабінеті, пленарне засідання не закриваю, очікую внесення проекту Закону України „Про Державний бюджет” до парламентської зали. Зразу доповім вам про те, що він готовий і будемо погоджувати черговість розгляду питань.</seg>
+               <seg xml:id="ParlaMint-UA_2008-07-10-m0.u1.p4">Я знаходжуся у кабінеті, далі проводжу переговори, буду вас тримати у курсі подій. Дякую.</seg>
+            </u>
+            <note type="comment">ПІСЛЯ ПЕРЕРВИ</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="ЯЦЕНЮК А.П." ana="#chair" xml:id="ParlaMint-UA_2008-07-10-m0.u2">
+               <seg xml:id="ParlaMint-UA_2008-07-10-m0.u2.p1">Шановні колеги, процедурні речі. Ранкове пленарне засідання закриваєм.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-UA_2005-02-03-m1" xml:lang="uk">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- TODO -->
+            <meeting ana="#parla.term #parla.uni" n="4">4</meeting>
+            <meeting ana="#parla.session #parla.uni" n="7">7</meeting>
+            <!-- TODO: meeting type: regular -->
+            <!-- TODO -->
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <!-- TODO -->
+         </extent>
+         <publicationStmt>
+            <!-- TODO -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <!-- TODO -->
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/1856.html</idno>
+               <date when="2005-02-03">2005-02-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- TODO -->
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- TODO -->
+               <date when="2005-02-03">2005-02-03</date>
+            </setting>
+         </settingDesc>
+         <!-- TODO -->
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 03 лютого 2005</note>
+            <note type="comment">ЗАСІДАННЯ П’ЯТЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="time">3 лютого 2005 року, 16.00 година</note>
+            <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради</note>
+            <note type="narrative">України МАРТИНЮК А.І.</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u who="МАРТИНЮК А.І." ana="#chair" xml:id="ParlaMint-UA_2005-02-03-m1.u1">
+               <seg xml:id="ParlaMint-UA_2005-02-03-m1.u1.p1">Шановні колеги!</seg>
+               <seg xml:id="ParlaMint-UA_2005-02-03-m1.u1.p2">Мені приємно бачити таку кількість народних депутатів в сесійній залі.</seg>
+               <seg xml:id="ParlaMint-UA_2005-02-03-m1.u1.p3">Прошу зареєструватися. Це рекордна цифра буде присутності.</seg>
+               <seg xml:id="ParlaMint-UA_2005-02-03-m1.u1.p4">Увімкніть систему "Рада".</seg>
+               <note type="time"><time when="2005-02-03T16:01:37">16:01:37</time></note>
+               <seg xml:id="ParlaMint-UA_2005-02-03-m1.u1.p5">В залі зареєстровано 426 народних депутатів, вечірнє засідання Верховної Ради оголошую відкритим.</seg>
+               <seg xml:id="ParlaMint-UA_2005-02-03-m1.u1.p6">Дозвольте зробити інформацію, повідомлення.</seg>
+               <seg xml:id="ParlaMint-UA_2005-02-03-m1.u1.p7">Шановні колеги!</seg>
+               <seg xml:id="ParlaMint-UA_2005-02-03-m1.u1.p8">У зв'язку з тим, що всі питання, які внесені сьогодні до порядку денного, ми з вами розв'язали, залишилося невирішеним перше і основне питання. Але Президент України не готовий до його вирішення на цю хвилину. Зараз продовжуються консультації жваві, темпераментні.</seg>
+               <seg xml:id="ParlaMint-UA_2005-02-03-m1.u1.p9">І тому ми на цьому вечірнє засідання. оголошую закритим. Завтра початок роботу о 10-й годині. Ранком ми будемо сподіватися, що завтра ми о 10-й годині ми почнемо з питання про дачу згоди на призначення уряду.</seg>
+               <seg xml:id="ParlaMint-UA_2005-02-03-m1.u1.p10">На все добре.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
