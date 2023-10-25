@@ -187,6 +187,12 @@
               </xsl:call-template>
             </xsl:if>
           </xsl:for-each>
+
+          <!-- inserting affiliations from google sheet: -->
+          <xsl:call-template name="insert-GS-affiliations">
+            <xsl:with-param name="id" select="$id"/>
+          </xsl:call-template>
+
         </xsl:element>
       </xsl:for-each>
       <!-- government(/manual) source -->
@@ -279,7 +285,19 @@
             </xsl:if>
 
           </xsl:for-each>
-          <xsl:for-each select="$gov-affiliation/table/row[./col[@name='PersonID'] = $id]">
+          <xsl:call-template name="insert-GS-affiliations">
+            <xsl:with-param name="id" select="$id"/>
+          </xsl:call-template>
+
+        </xsl:element>
+      </xsl:for-each>
+      <!-- call in text source -->
+    </xsl:element>
+  </xsl:variable>
+
+  <xsl:template name="insert-GS-affiliations">
+    <xsl:param name="id"/>
+    <xsl:for-each select="$gov-affiliation/table/row[./col[@name='PersonID'] = $id]">
             <xsl:variable name="aff" select="."/>
             <xsl:variable name="org" select="$aff/col[@name='OrgID']"/>
             <xsl:variable name="from" select="$aff/col[@name='From']"/>
@@ -335,11 +353,7 @@
               </xsl:otherwise>
             </xsl:choose>
           </xsl:for-each>
-        </xsl:element>
-      </xsl:for-each>
-      <!-- call in text source -->
-    </xsl:element>
-  </xsl:variable>
+  </xsl:template>
 
   <xsl:template match="/">
     <!-- xml result -->
