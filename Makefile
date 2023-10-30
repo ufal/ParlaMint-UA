@@ -89,6 +89,24 @@ $(tei-text-lang-RUN-ALL): tei-text-lang-%:
 	                           --lang "ru:en=russian,uk=російська" \
 	                           --speaker-lang-stats
 
+tei-text-sententize-RUN-ALL = $(addprefix tei-text-sententize-, $(TEI-TEXT_DATA_ALL))
+tei-text-sententize-RUN-LAST = $(addprefix tei-text-sententize-, $(TEI-TEXT_DATA_LAST))
+## tei-text-sententize ## tei-text-sententizes
+tei-text-sententize: tei-text-sententize-last
+tei-text-sententize-last: $(tei-text-sententize-RUN-LAST)
+tei-text-sententize-all: $(tei-text-sententize-RUN-ALL)
+
+## tei-text-sententize-RUN ##
+$(tei-text-sententize-RUN-ALL): tei-text-sententize-%:
+	mkdir -p $(DATADIR)/tsv-sentences/$*/
+	mkdir -p $(DATADIR)/tei-sentences/$*/
+	rm -rf $(DATADIR)/tsv-sentences/$*/*
+	rm -rf $(DATADIR)/tei-sentences/$*/*
+	./Scripts/sententizer.pl   --id $* \
+	                           --data-dir "$(DATADIR)" \
+	                           --config Scripts/config.sh \
+	                           --model "Scripts/models/ukrainian-iu-ud-2.5-191206.udpipe"
+
 
 
 

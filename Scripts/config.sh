@@ -14,6 +14,9 @@ speaker_calls=speaker-calls
 link_speakers=link-speakers
 mismatching_speakers=mismatching-speakers
 
+tsv_sentences=tsv-sentences
+tsv_sentences_lang=tsv-sentences-lang
+tei_sentences=tei-sentences
 
 url_meta() {
   echo "https://data.rada.gov.ua/ogd/zal/stenogram/skl$1/meta.xml"
