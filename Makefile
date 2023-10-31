@@ -89,6 +89,10 @@ $(tei-text-lang-RUN-ALL): tei-text-lang-%:
 	                           --lang "ru:en=russian,uk=російська" \
 	                           --speaker-lang-stats
 
+
+
+
+
 tei-text-sententize-RUN-ALL = $(addprefix tei-text-sententize-, $(TEI-TEXT_DATA_ALL))
 tei-text-sententize-RUN-LAST = $(addprefix tei-text-sententize-, $(TEI-TEXT_DATA_LAST))
 ## tei-text-sententize ## tei-text-sententizes
@@ -107,6 +111,47 @@ $(tei-text-sententize-RUN-ALL): tei-text-sententize-%:
 	                           --config Scripts/config.sh \
 	                           --model "Scripts/models/ukrainian-iu-ud-2.5-191206.udpipe"
 
+
+
+
+TSV-SENT_DATA_LAST := $(shell ls $(DATADIR)/tsv-sentences | grep -v '_' | sort -r | head -n1)
+TSV-SENT_DATA_ALL := $(shell ls $(DATADIR)/tsv-sentences )
+
+tsv-sent-lang-RUN-ALL = $(addprefix tsv-sent-lang-, $(TSV-SENT_DATA_ALL))
+tsv-sent-lang-RUN-LAST = $(addprefix tsv-sent-lang-, $(TSV-SENT_DATA_LAST))
+## tsv-sent-lang ## tsv-sent-langs
+tsv-sent-lang: tsv-sent-lang-last
+tsv-sent-lang-last: $(tsv-sent-lang-RUN-LAST)
+tsv-sent-lang-all: $(tsv-sent-lang-RUN-ALL)
+
+## tsv-sent-lang-RUN ## label sentences in tsv file with language
+$(tsv-sent-lang-RUN-ALL): tsv-sent-lang-%: lingua-py
+	mkdir -p $(DATADIR)/tsv-sent-lang/$*/
+	rm -rf $(DATADIR)/tsv-sent-lang/$*/*
+	echo "TEMPORARY LANGUAGE IDENTIFICATION"
+	#cp -r $(DATADIR)/tsv-sentences/$*/* $(DATADIR)/tsv-sent-lang/$*
+	python3 Scripts/lang-ident.py --indir "$(DATADIR)/tsv-sentences/$*" --outdir "$(DATADIR)/tsv-sent-lang/$*"
+	# find $(DATADIR)/tsv-sent-lang/$* -type f | xargs -I {} echo "TODO: {}"
+
+
+
+
+
+TSV-SENT-LANG_DATA_LAST := $(shell ls $(DATADIR)/tsv-sent-lang | grep -v '_' | sort -r | head -n1)
+TSV-SENT-LANG_DATA_ALL := $(shell ls $(DATADIR)/tsv-sent-lang )
+
+tei-text-span-lang-RUN-ALL = $(addprefix tei-text-span-lang-, $(TSV-SENT-LANG_DATA_ALL))
+tei-text-span-lang-RUN-LAST = $(addprefix tei-text-span-lang-, $(TSV-SENT-LANG_DATA_LAST))
+## tei-text-span-lang ## tei-text-span-langs
+tei-text-span-lang: tei-text-span-lang-last
+tei-text-span-lang-last: $(tei-text-span-lang-RUN-LAST)
+tei-text-span-lang-all: $(tei-text-span-lang-RUN-ALL)
+
+## tei-text-span-lang-RUN ## insert sentence language labels to tei file and merge adjected sentences with the same language
+$(tei-text-span-lang-RUN-ALL): tei-text-span-lang-%: lingua
+	mkdir -p $(DATADIR)/tei-text-span-lang/$*/
+	rm -rf $(DATADIR)/tei-text-span-lang/$*/*
+	echo "TEMPORARY MERGING SENTENCES TO SPANs with the same languege	"
 
 
 
@@ -606,6 +651,9 @@ nametag2:
 	svn checkout https://github.com/ufal/ParCzech/trunk/src/nametag2
 lib:
 	svn checkout https://github.com/ufal/ParCzech/trunk/src/lib
+
+lingua-py:
+	svn checkout https://github.com/pemistahl/lingua-py/trunk/lingua Scripts/lingua
 ######---------------
 
 _help-intro:
