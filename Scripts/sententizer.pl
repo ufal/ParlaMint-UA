@@ -17,13 +17,14 @@ use Data::Dumper;
 
 my $xmlNS = 'http://www.w3.org/XML/1998/namespace';
 
-my ($data_dir, $run_id, $config_path, $model_path);
+my ($data_dir, $run_id, $config_path, $model_path, $debug);
 
 GetOptions (
             'data-dir=s' => \$data_dir,
             'id=s' => \$run_id,
             'config=s' => \$config_path,
             'model=s' => \$model_path,
+            'debug' => \$debug,
         );
 my %config = map {m/^([^=]*)="(.*)"$/; $1 => $2} grep{m/^([^=]*)="(.*)"$/} split("\n",`./$config_path list`);
 
@@ -69,10 +70,6 @@ $output_tei_dir = "$data_dir/$output_tei_dir/$run_id";
 my $tsv = Text::CSV->new({binary => 1, auto_diag => 1, sep_char=> "\t", quote_char => undef, escape_char => undef});
 
 for my $file (@file_list){
-#unless($file =~ m/2010-02-11-m1/){
-#  print STDERR "SKIPPING $file\n";
-#  next
-#}
   my $tei = open_xml("$input_dir/$file");
   my $tei_filepath = "$output_tei_dir/$file";
   my $tsv_filepath = "$output_tsv_dir/$file";
@@ -81,16 +78,15 @@ for my $file (@file_list){
   File::Path::mkpath($tsvdir) unless -d $tsvdir;
   my $TSV;
   open $TSV, ">$tsv_filepath";
-  binmode $TSV;
+  binmode $TSV, ":encoding(UTF-8)";
   $tsv->say($TSV,[qw/id text/]);
   for my $node ($tei->findnodes('.//*[local-name() = "seg"]')){
     my $segId = $node->getAttributeNS($xmlNS,'id');
 
     my @childNodes = $node->childNodes();
     my $text = join('', grep {ref $_ eq 'XML::LibXML::Text'} @childNodes);
-print STDERR "SEG: ($segId)$text\n";
+    print STDERR "SEG: ($segId)$text\n" if $debug;
     my @sentences = split_to_sentences($text);
-print STDERR "\t",join("\t",@sentences),"<<<\n";
     $_->unbindNode for @childNodes;
     #my ($chIdx,$sIdx,$in_sIdx,$textIdx) = (0,0,0,0);
     my ($nodeIdx,$sentenceIdx,$sentencePos,$textPos) = (0,0,0,0);
@@ -98,17 +94,11 @@ print STDERR "\t",join("\t",@sentences),"<<<\n";
     my $curText;
     my @stack = ($node);
     while($nodeIdx < @childNodes or $sentenceIdx < @sentences){
-
-print STDERR "LOOP: ($nodeIdx)nodeIdx\t($sentenceIdx)sentenceIdx\t($sentencePos)sentencePos\n";
-print STDERR "SENTENCE: ",substr($sentences[$sentenceIdx],0,$sentencePos),"[[$sentencePos]]",substr($sentences[$sentenceIdx],$sentencePos),"\n";
-
-      #if (not($text) and ref $childNodes[$chIdx] eq 'XML::LibXML::Element') { # end of text node
-      #  print STDERR "### probably should be moved at the end and not check end of text but end of current text node\n";
-      #  $chIdx++
-      #} els
-      print STDERR "\tsentenceLen=",length($sentences[$sentenceIdx]),"\n";
+      print STDERR "LOOP: ($nodeIdx)nodeIdx\t($sentenceIdx)sentenceIdx\t($sentencePos)sentencePos\n" if $debug;
+      print STDERR "SENTENCE: ",substr($sentences[$sentenceIdx],0,$sentencePos),"[[$sentencePos]]",substr($sentences[$sentenceIdx],$sentencePos),"\n" if $debug;
+      print STDERR "\tsentenceLen=",length($sentences[$sentenceIdx]),"\n" if $debug;
       if ($nodeIdx <= $#childNodes and ref $childNodes[$nodeIdx] eq 'XML::LibXML::Element'){ # insert note
-        print STDERR "\tNOTE\n";
+        print STDERR "\tNOTE\n" if $debug;
         $stack[0] -> appendChild($childNodes[$nodeIdx]);
         $nodeIdx++;
       } elsif ($nodeIdx <= $#childNodes and ref $childNodes[$nodeIdx] eq 'XML::LibXML::Text') { # processing text
@@ -119,7 +109,7 @@ print STDERR "SENTENCE: ",substr($sentences[$sentenceIdx],0,$sentencePos),"[[$se
           $nodeIdx++;
         }
         if (length($sentences[$sentenceIdx]) <= $sentencePos) { # close sentence (in_sIdx point after sentence)
-          print STDERR "\tCLOSE SENTENCE sentenceLen=",length($sentences[$sentenceIdx]),"\n";
+          print STDERR "\tCLOSE SENTENCE sentenceLen=",length($sentences[$sentenceIdx]),"\n" if $debug;
           # close sentence if present
           $sentenceIdx++;
           shift @stack;
@@ -128,15 +118,14 @@ print STDERR "SENTENCE: ",substr($sentences[$sentenceIdx],0,$sentencePos),"[[$se
           $curText =~ s/^(\s)//;
           $stack[0]->appendText($1);
         } elsif(defined $curText) {
-print STDERR "\tINSIDE SENTENCE ($sentencePos)$sentences[$sentenceIdx]\n";
+          print STDERR "\tINSIDE SENTENCE ($sentencePos)$sentences[$sentenceIdx]\n" if $debug;
           if ($sentencePos == 0) { # start sentence
             # create new sentence node and unshift it in stack
-            #$sentNode = $node->addNewChild($node->namespaceURI(),'tmpSentence');
-            $sentNode = $node->addNewChild($node->namespaceURI(),'S'.$sentenceIdx);
+            $sentNode = $node->addNewChild($node->namespaceURI(),'tmpSentence');
             my $sID = sprintf("%s.sent%d",$segId,$sentenceIdx + 1);
-print STDERR "$nodeIdx\t$sID\t$sentences[$sentenceIdx]\n";
+            print STDERR "$nodeIdx\t$sID\t$sentences[$sentenceIdx]\n" if $debug;
             $tsv->say($TSV,[($sID,$sentences[$sentenceIdx])]);
-            ####TEMPORARY $sentNode->setAttributeNS($xmlNS,'id',$sID);
+            $sentNode->setAttributeNS($xmlNS,'id',$sID);
             unshift @stack, $sentNode;
           }
           # get longest common prefix of text and sentence
@@ -144,11 +133,11 @@ print STDERR "$nodeIdx\t$sID\t$sentences[$sentenceIdx]\n";
           my $common_prefix = substr($curText,0,$prefix_len);
           # remove common prefix from text
 
-print STDERR "($sentencePos)'$curText'\t$prefix_len\t";
+          print STDERR "($sentencePos)'$curText'\t$prefix_len\t" if $debug;
           $curText = substr($curText,$prefix_len);
           # move in_sIdx
           $sentencePos += $prefix_len;
-print STDERR "($sentencePos)'$curText'\n";
+          print STDERR "($sentencePos)'$curText'\n" if $debug;
           # append common prefix to sentNode
           $sentNode->appendText($common_prefix);
         }
@@ -157,6 +146,7 @@ print STDERR "($sentencePos)'$curText'\n";
       }
     }
   }
+  print STDERR "INFO: saving $tsv_filepath\n";
   close $TSV;
   save_xml($tei,"$output_tei_dir/$file");
 }
