@@ -11,7 +11,8 @@ def ensure_directory_exists(directory_path):
 
 def main(argv):
   def lang_ident(text):
-    return detector.detect_language_of(text).name
+    lang = detector.detect_language_of(text)
+    return lang.name if lang else 'UNKNOWN'
   languages = [Language.UKRAINIAN, Language.RUSSIAN]
   detector = LanguageDetectorBuilder.from_languages(*languages).build()
   indir = ''
@@ -31,10 +32,10 @@ def main(argv):
   os.chdir(indir)
   for file in glob.glob("**/*.tsv"):
     print("INFO: opening "+ file)
-    df = pd.read_csv(file, sep='\t')
+    df = pd.read_csv(file, sep='\t', quoting=csv.QUOTE_NONE)
     df['language'] = df['text'].apply(lang_ident)
     ensure_directory_exists(os.path.dirname(outdir + "/" + file))
-    df.to_csv(outdir + "/" + file, sep='\t', index=False, escapechar='', quotechar='',quoting=csv.QUOTE_NONE)
+    df.to_csv(outdir + "/" + file, sep='\t', index=False,quoting=csv.QUOTE_NONE,escapechar='\\')
     print("INFO: saving "+ file)
 
 
