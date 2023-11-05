@@ -148,10 +148,16 @@ tei-text-span-lang-last: $(tei-text-span-lang-RUN-LAST)
 tei-text-span-lang-all: $(tei-text-span-lang-RUN-ALL)
 
 ## tei-text-span-lang-RUN ## insert sentence language labels to tei file and merge adjected sentences with the same language
-$(tei-text-span-lang-RUN-ALL): tei-text-span-lang-%: lingua
+$(tei-text-span-lang-RUN-ALL): tei-text-span-lang-%:
 	mkdir -p $(DATADIR)/tei-text-span-lang/$*/
 	rm -rf $(DATADIR)/tei-text-span-lang/$*/*
 	echo "TEMPORARY MERGING SENTENCES TO SPANs with the same languege	"
+	$s -xsl:Scripts/lang-insert.xsl \
+	   -o:$(DATADIR)/tei-text-span-lang/$*/ParlaMint-UA.xml \
+	      in-tei-dir="$(DATADIR)/tei-sentences/$*/" \
+	      in-tsv-dir="$(DATADIR)/tsv-sent-lang/$*/" \
+	      out-dir="$(DATADIR)/tei-text-span-lang/$*/" \
+	      $(DATADIR)/tei-text/$*/ParlaMint-UA.xml
 
 
 
