@@ -71,17 +71,17 @@ $(html2tei-text-RUN-ALL): html2tei-text-%:
 	                           $(PROCESS_SUBSET)
 
 
-tei-text-lang-RUN-ALL = $(addprefix tei-text-lang-, $(TEI-TEXT_DATA_ALL))
-tei-text-lang-RUN-LAST = $(addprefix tei-text-lang-, $(TEI-TEXT_DATA_LAST))
-## tei-text-lang ## tei-text-langs
-tei-text-lang: tei-text-lang-last
-tei-text-lang-last: $(tei-text-lang-RUN-LAST)
-tei-text-lang-all: $(tei-text-lang-RUN-ALL)
+DEPRECATED-tei-text-lang-RUN-ALL = $(addprefix DEPRECATED-tei-text-lang-, $(TEI-TEXT_DATA_ALL))
+DEPRECATED-tei-text-lang-RUN-LAST = $(addprefix DEPRECATED-tei-text-lang-, $(TEI-TEXT_DATA_LAST))
+## DEPRECATED-tei-text-lang ## tei-text-langs
+DEPRECATED-tei-text-lang: DEPRECATED-tei-text-lang-last
+DEPRECATED-tei-text-lang-last: $(DEPRECATED-tei-text-lang-RUN-LAST)
+DEPRECATED-tei-text-lang-all: $(DEPRECATED-tei-text-lang-RUN-ALL)
 
-## tei-text-lang-RUN ##
-$(tei-text-lang-RUN-ALL): tei-text-lang-%:
-	mkdir -p $(DATADIR)/tei-text-lang/$*/
-	rm -rf $(DATADIR)/tei-text-lang/$*/*
+## DEPRECATED-tei-text-lang-RUN ##
+$(DEPRECATED-tei-text-lang-RUN-ALL): DEPRECATED-tei-text-lang-%:
+	mkdir -p $(DATADIR)/DEPRECATED-tei-text-lang/$*/
+	rm -rf $(DATADIR)/DEPRECATED-tei-text-lang/$*/*
 	./Scripts/lang-detect.pl   --id $* \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh \
@@ -158,27 +158,30 @@ $(tei-text-span-lang-RUN-ALL): tei-text-span-lang-%:
 	      in-tsv-dir="$(DATADIR)/tsv-sent-lang/$*/" \
 	      out-dir="$(DATADIR)/tei-text-span-lang/$*/" \
 	      $(DATADIR)/tei-text/$*/ParlaMint-UA.xml
+TEI-TEXT-SPAN-LANG_DATA_LAST := $(shell ls $(DATADIR)/tei-text-span-lang | grep -v '_' | sort -r | head -n1)
+TEI-TEXT-SPAN-LANG_DATA_ALL := $(shell ls $(DATADIR)/tei-text-span-lang )
 
 
 
-TEI-TEXT-LANG_DATA_LAST := $(shell ls $(DATADIR)/tei-text-lang | grep -v '_' | sort -r | head -n1)
-TEI-TEXT-LANG_DATA_ALL := $(shell ls $(DATADIR)/tei-text-lang )
 
-link-speakers2tei-text-RUN-ALL = $(addprefix link-speakers2tei-text-, $(TEI-TEXT-LANG_DATA_ALL))
-link-speakers2tei-text-RUN-LAST = $(addprefix link-speakers2tei-text-, $(TEI-TEXT-LANG_DATA_LAST))
-## link-speakers2tei-text ## link-speakers2tei-texts
+DEPRECATED-TEI-TEXT-LANG_DATA_LAST := $(shell ls $(DATADIR)/DEPRECATED-tei-text-lang | grep -v '_' | sort -r | head -n1)
+DEPRECATED-TEI-TEXT-LANG_DATA_ALL := $(shell ls $(DATADIR)/DEPRECATED-tei-text-lang )
+
+link-speakers2tei-text-RUN-ALL = $(addprefix link-speakers2tei-text-, $(TEI-TEXT_DATA_ALL))
+link-speakers2tei-text-RUN-LAST = $(addprefix link-speakers2tei-text-, $(TEI-TEXT_DATA_LAST))
+## link-speakers2tei-text ## link-speakers2tei-texts DEPRECATED???
 link-speakers2tei-text: link-speakers2tei-text-last
 link-speakers2tei-text-last: $(link-speakers2tei-text-RUN-LAST)
 link-speakers2tei-text-all: $(link-speakers2tei-text-RUN-ALL)
 
-## link-speakers2tei-text-RUN ##
+## link-speakers2tei-text-RUN ## DEPRECATED ???
 $(link-speakers2tei-text-RUN-ALL): link-speakers2tei-text-%:
 	mkdir -p $(DATADIR)/tei-text-speakers/$*/
 	rm -rf $(DATADIR)/tei-text-speakers/$*/*
 	$s -xsl:Scripts/link-speakers2tei-text.xsl \
 	   -o:$(DATADIR)/tei-text-speakers/$*/ParlaMint-UA.xml \
 	      speaker-links="$(DATADIR)/tei-particDesc-aliases/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
-	      in-dir="$(DATADIR)/tei-text-lang/$*/" \
+	      in-dir="$(DATADIR)/tei-text/$*/" \
 	      out-dir="$(DATADIR)/tei-text-speakers/$*/" \
 	      $(DATADIR)/tei-text/$*/ParlaMint-UA.xml
 
@@ -229,16 +232,16 @@ $(mismatching-speakers-RUN-ALL): mismatching-speakers-%:
 
 TEI-TEXT-SPEAKERS_DATA_LAST := $(shell ls $(DATADIR)/tei-text-speakers | grep -v '_' | sort -r | head -n1)
 TEI-TEXT-SPEAKERS_DATA_ALL := $(shell ls $(DATADIR)/tei-text-speakers )
-tei-UD-RUN-LAST = $(addprefix tei-UD-, $(TEI-TEXT-LANG_DATA_LAST))
-tei-UD-RUN-ALL = $(addprefix tei-UD-, $(TEI-TEXT-LANG_DATA_ALL))
-tei-UD: tei-UD-last
-tei-UD-last: $(tei-UD-RUN-LAST)
-tei-UD-all: $(tei-UD-RUN-ALL)
+DEPRECATED-tei-UD-RUN-LAST = $(addprefix DEPRECATED-tei-UD-, $(DEPRECATED-TEI-TEXT-LANG_DATA_LAST))
+DEPRECATED-tei-UD-RUN-ALL = $(addprefix DEPRECATED-tei-UD-, $(DEPRECATED-TEI-TEXT-LANG_DATA_ALL))
+DEPRECATED-tei-UD: DEPRECATED-tei-UD-last
+DEPRECATED-tei-UD-last: $(DEPRECATED-tei-UD-RUN-LAST)
+DEPRECATED-tei-UD-all: $(DEPRECATED-tei-UD-RUN-ALL)
 
-$(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
-	mkdir -p $(DATADIR)/tei-UD/$*/
-	find $(DATADIR)/tei-text-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > $(DATADIR)/tei-UD/$*.fl
-	cp $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml $(DATADIR)/tei-UD/$*/
+$(DEPRECATED-tei-UD-RUN-ALL): DEPRECATED-tei-UD-%: lib udpipe2
+	mkdir -p $(DATADIR)/DEPRECATED-tei-UD/$*/
+	find $(DATADIR)/DEPRECATED-tei-text-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > $(DATADIR)/DEPRECATED-tei-UD/$*.fl
+	cp $(DATADIR)/DEPRECATED-tei-text-lang/$*/ParlaMint-UA.xml $(DATADIR)/DEPRECATED-tei-UD/$*/
 	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
 	                             $(TOKEN) \
 	                             --model "uk:ukrainian-iu-ud-2.10-220711" \
@@ -247,8 +250,31 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	                             --debug \
 	                             --no-space-in-punct \
 	                             --try2continue-on-error \
+	                             --filelist $(DATADIR)/DEPRECATED-tei-UD/$*.fl \
+	                             --input-dir $(DATADIR)/DEPRECATED-tei-text-lang/$*/ \
+	                             --output-dir $(DATADIR)/DEPRECATED-tei-UD/$*/
+
+
+tei-UD-RUN-LAST = $(addprefix tei-UD-, $(TEI-TEXT--SPANLANG_DATA_LAST))
+tei-UD-RUN-ALL = $(addprefix tei-UD-, $(TEI-TEXT-SPAN-LANG_DATA_ALL))
+tei-UD: tei-UD-last
+tei-UD-last: $(tei-UD-RUN-LAST)
+tei-UD-all: $(tei-UD-RUN-ALL)
+
+$(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
+	mkdir -p $(DATADIR)/tei-UD/$*/
+	find $(DATADIR)/tei-text-span-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > $(DATADIR)/tei-UD/$*.fl
+	cp $(DATADIR)/tei-text-span-lang/$*/ParlaMint-UA.xml $(DATADIR)/tei-UD/$*/
+	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
+	                             $(TOKEN) \
+	                             --model "uk:ukrainian-iu-ud-2.10-220711" \
+	                             --model "ru:russian-syntagrus-ud-2.10-220711" \
+	                             --elements "tmpLangSeg" \
+	                             --debug \
+	                             --no-space-in-punct \
+	                             --try2continue-on-error \
 	                             --filelist $(DATADIR)/tei-UD/$*.fl \
-	                             --input-dir $(DATADIR)/tei-text-lang/$*/ \
+	                             --input-dir $(DATADIR)/tei-text-span-lang/$*/ \
 	                             --output-dir $(DATADIR)/tei-UD/$*/
 
 
@@ -542,6 +568,7 @@ TEI-all: $(TEI-RUN-ALL)
 $(TEI-RUN-ALL): TEI-%:
 	mkdir -p $(DATADIR)/release/$*
 	echo "TODO: add final speaker person linking param (utterance-who-ana.tsv)"
+	echo "TODO: add language from .ana.xml !!!"
 	$s -xsl:Scripts/ParlaMint-UA-finalize.xsl \
 	    outDir=$(DATADIR)/release/$* \
 	    inListPerson=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana/ParlaMint-UA-listPerson.xml  \
@@ -550,7 +577,7 @@ $(TEI-RUN-ALL): TEI-%:
 	    anaDir=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana \
 	    speakers=$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv \
 	    type=TEI \
-	    $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml
+	    $(DATADIR)/tei-text/$*/ParlaMint-UA.xml
 
 
 ###### other:
