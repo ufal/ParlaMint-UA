@@ -267,8 +267,8 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	cp $(DATADIR)/tei-text-span-lang/$*/ParlaMint-UA.xml $(DATADIR)/tei-UD/$*/
 	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
 	                             $(TOKEN) \
-	                             --model "uk:ukrainian-iu-ud-2.10-220711" \
-	                             --model "ru:russian-syntagrus-ud-2.10-220711" \
+	                             --model "uk:ukrainian-iu-ud-2.12-230717" \
+	                             --model "ru:russian-syntagrus-ud-2.12-230717" \
 	                             --elements "tmpLangSeg" \
 	                             --debug \
 	                             --no-space-in-punct \
