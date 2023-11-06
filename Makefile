@@ -5,7 +5,7 @@ xpath = xargs -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off
 
 
 ##$TERMS## Terms that are processed.
-TERMS = 7 8 9
+TERMS = 4 5 6 7 8 9
 TERMSMETA = 2 3 4 5 6 7 8 9
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATA := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA" || pwd')
