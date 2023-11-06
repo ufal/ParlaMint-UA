@@ -1188,13 +1188,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-30-m0.u168">
-               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u168.p1">Ставлю на голосування 234 правку.</seg>
-               <note>(Шум залі)</note>
-               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u168.p2">Не кричіть. 234 правка комітетом не підтримана. Прошу визначатись та голосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u168.p1">Ставлю на голосування 234 правку. <note>(Шум залі)</note> Не кричіть. 234 правка комітетом не підтримана. Прошу визначатись та голосувати.</seg>
                <note type="time"><time when="2021-06-30T12:00:21">12:00:21</time></note>
-               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u168.p3">За-180</seg>
-               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u168.p4">Рішення не прийнято. Правка не врахована.</seg>
-               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u168.p5">Шановні колеги, оголошується перерва до 12:30.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u168.p2">За-180</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u168.p3">Рішення не прийнято. Правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-30-m0.u168.p4">Шановні колеги, оголошується перерва до 12:30.</seg>
             </u>
             <note type="time"><time when="2021-06-30T12:30:09">12:30:09</time></note>
             <note type="comment">(Після перерви)</note>

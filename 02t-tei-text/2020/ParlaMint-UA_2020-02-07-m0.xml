@@ -266,11 +266,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-07-m0.u32">
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u32.p1">Прошу передати слово. Я не почув, кому, Вадиме Євгеновичу.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u32.p2">Прошу, пан Волинець.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u32.p1">Прошу передати слово. Я не почув, кому, Вадиме Євгеновичу. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Прошу, пан Волинець.</seg>
             </u>
             <note type="time"><time when="2020-02-07T10:37:31">10:37:31</time></note>
             <note type="speaker">ВОЛИНЕЦЬ М.Я.</note>
@@ -434,15 +430,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-07-m0.u57">
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u57.p1">Я вибачаюсь. Шановні колеги, ми домовлялися в час вкладатися, при всій повазі.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u57.p1">Я вибачаюсь. Шановні колеги, ми домовлялися в час вкладатися, при всій повазі. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Шановні колеги, я не можу дати, тому що знову буде – додати час для всіх. Ми домовлялися. Вибачте.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u57.p2">Шановні колеги, я не можу дати, тому що знову буде – додати час для всіх. Ми домовлялися. Вибачте.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u57.p3">Прем’єр-міністр зрозумів питання? Олексій Валерійович!</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u57.p2">Прем’єр-міністр зрозумів питання? Олексій Валерійович!</seg>
             </u>
             <note type="time"><time when="2020-02-07T10:56:37">10:56:37</time></note>
             <note type="speaker">ГОНЧАРУК О.В.</note>
@@ -1054,11 +1046,7 @@
             <note type="time"><time when="2020-02-07T12:01:54">12:01:54</time></note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-02-07-m0.u141">
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u141.p1">Шановні колеги, 12:00, оголошую перерву на 30 хвилин. (</seg>
-               <vocal type="noise">
-                  <desc>Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u141.p2">Вона не наполягає. Ви зараз.</seg>
+               <seg xml:id="ParlaMint-UA_2020-02-07-m0.u141.p1">Шановні колеги, 12:00, оголошую перерву на 30 хвилин. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Вона не наполягає. Ви зараз.</seg>
             </u>
             <note type="time"><time when="2020-02-07T12:30:04">12:30:04</time></note>
             <note type="comment">(Після перерви)</note>

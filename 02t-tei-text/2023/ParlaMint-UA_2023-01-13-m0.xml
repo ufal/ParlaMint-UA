@@ -915,8 +915,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-01-13-m0.u126">
-               <seg xml:id="ParlaMint-UA_2023-01-13-m0.u126.p1">Шановні колеги, да</seg>
-               <seg xml:id="ParlaMint-UA_2023-01-13-m0.u126.p2">будь ласка, сядьте.</seg>
+               <seg xml:id="ParlaMint-UA_2023-01-13-m0.u126.p1">Шановні колеги, да, будь ласка, сядьте.</seg>
             </u>
             <note type="time"><time when="2023-01-13T11:54:26">11:54:26</time></note>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>

@@ -1771,19 +1771,15 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-06-05-m0.u280">
-               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u280.p1">Колеги, я прошу порядку.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u280.p1">Колеги, я прошу порядку. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ми обговорюємо законопроект. Я прошу тиші для того, щоб депутати, які працюють над законопроектом, могли продовжити роботу.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u280.p2">Ми обговорюємо законопроект. Я прошу тиші для того, щоб депутати, які працюють над законопроектом, могли продовжити роботу.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u280.p2">Шановні колеги, не зривайте засідання Верховної Ради.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u280.p3">Шановні колеги, не зривайте засідання Верховної Ради.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u280.p4">Поправка номер 587.</seg>
+               <seg xml:id="ParlaMint-UA_2019-06-05-m0.u280.p3">Поправка номер 587.</seg>
             </u>
             <note type="time"><time when="2019-06-05T13:19:08">13:19:08</time></note>
             <note type="speaker">СОТНИК О.С.</note>

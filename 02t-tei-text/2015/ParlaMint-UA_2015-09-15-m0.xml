@@ -340,11 +340,7 @@
             </u>
             <note type="speaker">ПАРУБІЙ А.В.</note>
             <u who="ПАРУБІЙ А.В." ana="#regular" xml:id="ParlaMint-UA_2015-09-15-m0.u33">
-               <seg xml:id="ParlaMint-UA_2015-09-15-m0.u33.p1">Скільки часу треба, щоб завершити?</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2015-09-15-m0.u33.p2">Для чого хвилину, давайте 30 секунд.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-15-m0.u33.p1">Скільки часу треба, щоб завершити? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Для чого хвилину, давайте 30 секунд.</seg>
             </u>
             <note type="speaker">СОЛОВЕЙ Ю.І.</note>
             <u who="СОЛОВЕЙ Ю.І." ana="#regular" xml:id="ParlaMint-UA_2015-09-15-m0.u34">

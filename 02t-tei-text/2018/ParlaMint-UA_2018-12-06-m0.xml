@@ -675,12 +675,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2018-12-06-m0.u84">
-               <seg xml:id="ParlaMint-UA_2018-12-06-m0.u84.p1">Я перепрошую, ваша 12-а була, ви сказали, що ви не наполягаєте. А 18 поправка – це поправка не ваша.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2018-12-06-m0.u84.p2">Ні!</seg>
-               <seg xml:id="ParlaMint-UA_2018-12-06-m0.u84.p3">Будь ласка, мікрофон Кишкарю.</seg>
+               <seg xml:id="ParlaMint-UA_2018-12-06-m0.u84.p1">Я перепрошую, ваша 12-а була, ви сказали, що ви не наполягаєте. А 18 поправка – це поправка не ваша. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ні!</seg>
+               <seg xml:id="ParlaMint-UA_2018-12-06-m0.u84.p2">Будь ласка, мікрофон Кишкарю.</seg>
             </u>
             <note type="time"><time when="2018-12-06T11:18:28">11:18:28</time></note>
             <note type="speaker">КИШКАР П.М.</note>

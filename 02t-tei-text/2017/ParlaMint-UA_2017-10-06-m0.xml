@@ -150,12 +150,8 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-10-06-m0.u15">
-               <seg xml:id="ParlaMint-UA_2017-10-06-m0.u15.p1">Колеги, просить ще Чубаров слово. Почекайте хвилиночку! Хвилинку Батенко, потім Чубаров.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-10-06-m0.u15.p2">Дам! Дам! Чому ви кричите?</seg>
-               <seg xml:id="ParlaMint-UA_2017-10-06-m0.u15.p3">І, будь ласка, Батенко, одна хвилина.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-06-m0.u15.p1">Колеги, просить ще Чубаров слово. Почекайте хвилиночку! Хвилинку Батенко, потім Чубаров. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Дам! Дам! Чому ви кричите?</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-06-m0.u15.p2">І, будь ласка, Батенко, одна хвилина.</seg>
             </u>
             <note type="time"><time when="2017-10-06T10:18:40">10:18:40</time></note>
             <note type="speaker">БАТЕНКО Т.І.</note>

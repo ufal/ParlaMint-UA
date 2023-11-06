@@ -748,11 +748,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-01-16-m1.u106">
-               <seg xml:id="ParlaMint-UA_2020-01-16-m1.u106.p1">Кулініч Олег Іванович, з мотивів.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2020-01-16-m1.u106.p2">Ні! Ні! Два – за, два – проти, хто не записався з мотивів, Олег Іванович.</seg>
+               <seg xml:id="ParlaMint-UA_2020-01-16-m1.u106.p1">Кулініч Олег Іванович, з мотивів. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ні! Ні! Два – за, два – проти, хто не записався з мотивів, Олег Іванович.</seg>
             </u>
             <note type="time"><time when="2020-01-16T17:06:56">17:06:56</time></note>
             <note type="speaker">КУЛІНІЧ О.І.</note>

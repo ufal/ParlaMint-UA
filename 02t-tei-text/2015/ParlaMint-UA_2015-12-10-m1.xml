@@ -107,12 +107,8 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-12-10-m1.u9">
-               <seg xml:id="ParlaMint-UA_2015-12-10-m1.u9.p1">Шановні колеги.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2015-12-10-m1.u9.p2">Все, заспокоїлись, шановні колеги!</seg>
-               <seg xml:id="ParlaMint-UA_2015-12-10-m1.u9.p3">Будь ласка, ще раз, пропозиція Оксани Іванівни Сироїд, будь ласка. Підготуйтесь до голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-10-m1.u9.p1">Шановні колеги. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Все, заспокоїлись, шановні колеги!</seg>
+               <seg xml:id="ParlaMint-UA_2015-12-10-m1.u9.p2">Будь ласка, ще раз, пропозиція Оксани Іванівни Сироїд, будь ласка. Підготуйтесь до голосування.</seg>
             </u>
             <note type="time"><time when="2015-12-10T17:27:18">17:27:18</time></note>
             <note type="speaker">СИРОЇД О.І.</note>

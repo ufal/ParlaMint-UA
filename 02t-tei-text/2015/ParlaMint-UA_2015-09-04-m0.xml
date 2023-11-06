@@ -837,12 +837,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2015-09-04-m0.u97">
-               <seg xml:id="ParlaMint-UA_2015-09-04-m0.u97.p1">Попов? Попов.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2015-09-04-m0.u97.p2">Вони не йдуть підряд. Записуйтесь.</seg>
-               <seg xml:id="ParlaMint-UA_2015-09-04-m0.u97.p3">Прошу, народний депутат Артеменко передав слово народному депутату Галасюку.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-04-m0.u97.p1">Попов? Попов. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Вони не йдуть підряд. Записуйтесь.</seg>
+               <seg xml:id="ParlaMint-UA_2015-09-04-m0.u97.p2">Прошу, народний депутат Артеменко передав слово народному депутату Галасюку.</seg>
             </u>
             <note type="time"><time when="2015-09-04T12:54:21">12:54:21</time></note>
             <note type="speaker">ГАЛАСЮК В.В.</note>

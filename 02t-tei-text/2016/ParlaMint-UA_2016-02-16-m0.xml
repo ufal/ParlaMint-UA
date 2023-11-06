@@ -1421,18 +1421,14 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2016-02-16-m0.u212">
-               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u212.p1">Десь я раніше чув "почую кожного". Не пам'ятаєте, звідки це?</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u212.p1">Десь я раніше чув "почую кожного". Не пам'ятаєте, звідки це? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Не почув. Він просто був хворий на голову і в нього.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u212.p2">Не почув. Він просто був хворий на голову і в нього.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u212.p3">Заключне слово? Репліку? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Стоп, стоп, стоп. Стоп! Стоп. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ніхто нікого не ображав.</seg>
-               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u212.p4">Ладно, Олексій Мушак, хвилину. Репліка, будь ласка.</seg>
-               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u212.p5">Будь ласка, хвилина, і голосуєм.</seg>
-               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u212.p6">Будь ласка, хвилина і голосуємо. Займайте свої місця, шановні колеги народні депутати.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u212.p2">Заключне слово? Репліку? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Стоп, стоп, стоп. Стоп! Стоп. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ніхто нікого не ображав.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u212.p3">Ладно, Олексій Мушак, хвилину. Репліка, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u212.p4">Будь ласка, хвилина, і голосуєм.</seg>
+               <seg xml:id="ParlaMint-UA_2016-02-16-m0.u212.p5">Будь ласка, хвилина і голосуємо. Займайте свої місця, шановні колеги народні депутати.</seg>
             </u>
             <note type="time"><time when="2016-02-16T14:13:56">14:13:56</time></note>
             <note type="speaker">МУШАК О.П.</note>

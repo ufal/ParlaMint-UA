@@ -468,11 +468,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-05-m0.u60">
-               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u60.p1">Отже, колеги, прошу.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u60.p2">Одна хвилина, Ірина Геращенко.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u60.p1">Отже, колеги, прошу. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Одна хвилина, Ірина Геращенко.</seg>
             </u>
             <note type="time"><time when="2017-04-05T11:09:08">11:09:08</time></note>
             <note type="speaker">ГЕРАЩЕНКО І.В.</note>
@@ -1216,12 +1212,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-05-m0.u179">
-               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u179.p1">Отримали відповідь, колеги, відповідь отримана. Наступна, колеги.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u179.p2">Колеги!</seg>
-               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u179.p3">Будь ласка, пані Наталя.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u179.p1">Отримали відповідь, колеги, відповідь отримана. Наступна, колеги. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Колеги!</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u179.p2">Будь ласка, пані Наталя.</seg>
             </u>
             <note type="speaker">КОРЧАК Н.М.</note>
             <u who="КОРЧАК Н.М." ana="#regular" xml:id="ParlaMint-UA_2017-04-05-m0.u180">
@@ -1241,11 +1233,7 @@
             </u>
             <note type="speaker">КОРЧАК Н.М.</note>
             <u who="КОРЧАК Н.М." ana="#regular" xml:id="ParlaMint-UA_2017-04-05-m0.u184">
-               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u184.p1">Запущений механізм фінансування політичних партій, запущений процес електронного декларування. Це те, що ми не можем прикритися.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u184.p2">Здійснюється постійна робота, пов'язана з виявленням запобіганням корупції.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u184.p1">Запущений механізм фінансування політичних партій, запущений процес електронного декларування. Це те, що ми не можем прикритися. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Здійснюється постійна робота, пов'язана з виявленням запобіганням корупції.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-05-m0.u185">
@@ -1705,11 +1693,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-05-m0.u268">
-               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u268.p1">Колеги, Кириленко, одна хвилина. Крулько, дуже коротко, 1 хвилина і завершуємо обговорення.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u268.p2">Колеги.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-05-m0.u268.p1">Колеги, Кириленко, одна хвилина. Крулько, дуже коротко, 1 хвилина і завершуємо обговорення. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Колеги.</seg>
             </u>
             <note type="time"><time when="2017-04-05T13:53:21">13:53:21</time></note>
             <note type="speaker">КРУЛЬКО І.І.</note>

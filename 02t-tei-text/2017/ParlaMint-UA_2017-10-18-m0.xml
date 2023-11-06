@@ -1478,15 +1478,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-10-18-m0.u201">
-               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u201.p1">Дякую і прошу голосувати.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u201.p2">Це не є дебати, шановні народні депутати! Є коментар до правки і є відповідь комітету, і зал визначається.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u201.p1">Дякую і прошу голосувати. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Це не є дебати, шановні народні депутати! Є коментар до правки і є відповідь комітету, і зал визначається.</seg>
                <note type="time"><time when="2017-10-18T12:59:55">12:59:55</time></note>
-               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u201.p3">За-22</seg>
-               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u201.p4">Рішення не прийнято.</seg>
-               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u201.p5">Правка номер 592, народний депутат Семенуха, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u201.p2">За-22</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u201.p3">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2017-10-18-m0.u201.p4">Правка номер 592, народний депутат Семенуха, прошу.</seg>
             </u>
             <note type="time"><time when="2017-10-18T13:00:03">13:00:03</time></note>
             <note type="speaker">СЕМЕНУХА Р.С.</note>

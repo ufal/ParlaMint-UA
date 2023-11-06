@@ -1130,10 +1130,9 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-10-18-m0.u167">
-               <seg xml:id="ParlaMint-UA_2016-10-18-m0.u167.p1">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2016-10-18-m0.u167.p2">Дякуємо. Дякуємо.</seg>
-               <seg xml:id="ParlaMint-UA_2016-10-18-m0.u167.p3">Просимо провести запис: два – "за", два – "проти". Будь ласка.</seg>
-               <seg xml:id="ParlaMint-UA_2016-10-18-m0.u167.p4">Амельченко Василь Васильович, будь ласка. Передає Ляшку Олегу Валерійовичу.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-18-m0.u167.p1">Дякую. Дякуємо. Дякуємо.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-18-m0.u167.p2">Просимо провести запис: два – "за", два – "проти". Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2016-10-18-m0.u167.p3">Амельченко Василь Васильович, будь ласка. Передає Ляшку Олегу Валерійовичу.</seg>
             </u>
             <note type="time"><time when="2016-10-18T13:13:25">13:13:25</time></note>
             <note type="speaker">ЛЯШКО О.В.</note>

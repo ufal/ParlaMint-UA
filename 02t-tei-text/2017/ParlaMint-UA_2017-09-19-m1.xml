@@ -1379,16 +1379,12 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-19-m1.u174">
-               <seg xml:id="ParlaMint-UA_2017-09-19-m1.u174.p1">202-а, так, Руслан?</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-09-19-m1.u174.p2">Руслан, яка поправка? 201-а.</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-19-m1.u174.p3">201 поправка. Ставлю на голосування. Хто підтримує, прошу голосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-19-m1.u174.p1">202-а, так, Руслан? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Руслан, яка поправка? 201-а.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-19-m1.u174.p2">201 поправка. Ставлю на голосування. Хто підтримує, прошу голосувати.</seg>
                <note type="time"><time when="2017-09-19T17:59:26">17:59:26</time></note>
-               <seg xml:id="ParlaMint-UA_2017-09-19-m1.u174.p4">За-61</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-19-m1.u174.p5">Рішення не прийняте.</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-19-m1.u174.p6">200-а, Одарченко.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-19-m1.u174.p3">За-61</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-19-m1.u174.p4">Рішення не прийняте.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-19-m1.u174.p5">200-а, Одарченко.</seg>
             </u>
             <note type="time"><time when="2017-09-19T17:59:34">17:59:34</time></note>
             <note type="speaker">ОДАРЧЕНКО Ю.В.</note>

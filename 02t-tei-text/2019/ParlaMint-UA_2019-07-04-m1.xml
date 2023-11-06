@@ -847,15 +847,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-04-m1.u135">
-               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u135.p1">Так, 32. Відхилити. Будь ласка.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u135.p2">Перепрошую, прошу голосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u135.p1">Так, 32. Відхилити. Будь ласка. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Перепрошую, прошу голосувати.</seg>
                <note type="time"><time when="2019-07-04T16:21:57">16:21:57</time></note>
-               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u135.p3">За-1</seg>
-               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u135.p4">Рішення не прийнято.</seg>
-               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u135.p5">3333.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u135.p2">За-1</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u135.p3">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u135.p4">3333.</seg>
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-04-m1.u136">
@@ -3779,15 +3775,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2019-07-04-m1.u637">
-               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u637.p1">Прошу визначатися.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u637.p2">Смішна поправка, да?</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u637.p1">Прошу визначатися. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Смішна поправка, да?</seg>
                <note type="time"><time when="2019-07-04T17:33:50">17:33:50</time></note>
-               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u637.p3">За-18</seg>
-               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u637.p4">Рішення не прийнято.</seg>
-               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u637.p5">3552, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u637.p2">За-18</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u637.p3">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2019-07-04-m1.u637.p4">3552, будь ласка.</seg>
             </u>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
             <u who="СИДОРОВИЧ Р.М." ana="#regular" xml:id="ParlaMint-UA_2019-07-04-m1.u638">

@@ -1154,15 +1154,11 @@
             </vocal>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-05-25-m0.u136">
-               <seg xml:id="ParlaMint-UA_2017-05-25-m0.u136.p1">Колеги, будь ласка, приготуйтесь до голосування. Комітет просить підтримати 105 поправку. Прошу проголосувати за підтримку 105 поправки. Прошу проголосувати.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-05-25-m0.u136.p2">Добре.</seg>
+               <seg xml:id="ParlaMint-UA_2017-05-25-m0.u136.p1">Колеги, будь ласка, приготуйтесь до голосування. Комітет просить підтримати 105 поправку. Прошу проголосувати за підтримку 105 поправки. Прошу проголосувати. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Добре.</seg>
                <note type="time"><time when="2017-05-25T12:57:54">12:57:54</time></note>
-               <seg xml:id="ParlaMint-UA_2017-05-25-m0.u136.p3">За-78</seg>
-               <seg xml:id="ParlaMint-UA_2017-05-25-m0.u136.p4">Рішення не прийнято.</seg>
-               <seg xml:id="ParlaMint-UA_2017-05-25-m0.u136.p5">107-а, Рябчин. Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-05-25-m0.u136.p2">За-78</seg>
+               <seg xml:id="ParlaMint-UA_2017-05-25-m0.u136.p3">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2017-05-25-m0.u136.p4">107-а, Рябчин. Будь ласка.</seg>
             </u>
             <note type="time"><time when="2017-05-25T12:58:07">12:58:07</time></note>
             <note type="speaker">РЯБЧИН О.М.</note>

@@ -100,11 +100,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-01-29-m0.u3">
-               <seg xml:id="ParlaMint-UA_2016-01-29-m0.u3.p1">Пані Наталя, скільки ще часу? Приблизно.</seg>
-               <vocal type="noise">
-                  <desc>(Шум в залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2016-01-29-m0.u3.p2">Тоді, будь ласка, завершуйте.</seg>
+               <seg xml:id="ParlaMint-UA_2016-01-29-m0.u3.p1">Пані Наталя, скільки ще часу? Приблизно. <vocal type="noise"><desc>(Шум в залі)</desc></vocal> Тоді, будь ласка, завершуйте.</seg>
             </u>
             <note type="speaker">ЯРЕСЬКО Н.</note>
             <u who="ЯРЕСЬКО Н." ana="#regular" xml:id="ParlaMint-UA_2016-01-29-m0.u4">

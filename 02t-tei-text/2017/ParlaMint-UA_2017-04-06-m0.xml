@@ -368,11 +368,7 @@
             </u>
             <note type="speaker">БОГОМОЛЕЦЬ О.В.</note>
             <u who="БОГОМОЛЕЦЬ О.В." ana="#regular" xml:id="ParlaMint-UA_2017-04-06-m0.u53">
-               <seg xml:id="ParlaMint-UA_2017-04-06-m0.u53.p1">Шановні колеги, прошу повернути 12-у, 17-у і 25-у.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-04-06-m0.u53.p2">12-у, 13-у, 17-у і 25-у на підтвердження.</seg>
+               <seg xml:id="ParlaMint-UA_2017-04-06-m0.u53.p1">Шановні колеги, прошу повернути 12-у, 17-у і 25-у. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> 12-у, 13-у, 17-у і 25-у на підтвердження.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-04-06-m0.u54">

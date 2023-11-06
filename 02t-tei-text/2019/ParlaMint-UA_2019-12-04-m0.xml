@@ -218,11 +218,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-04-m0.u29">
-               <seg xml:id="ParlaMint-UA_2019-12-04-m0.u29.p1">Колеги, я назвав, ще 3 прізвища пройшло.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2019-12-04-m0.u29.p2">Ні, але, вибачте, Кісільов повинен був передати слово.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-04-m0.u29.p1">Колеги, я назвав, ще 3 прізвища пройшло. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ні, але, вибачте, Кісільов повинен був передати слово.</seg>
             </u>
             <note type="time"><time when="2019-12-04T10:30:38">10:30:38</time></note>
             <note type="speaker">БОБРОВСЬКА С.А.</note>

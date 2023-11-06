@@ -570,11 +570,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-16-m1.u82">
-               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u82.p1">Дякую, дякую.</seg>
-               <kinesic type="applause">
-                  <desc>(Оплески)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u82.p2">Є пропозиція, є пропозиція повернутися до голосування. Прошу, давайте Олександра Сергійовича послухаємо і проголосуємо за повернення.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u82.p1">Дякую, дякую. <kinesic type="applause"><desc>(Оплески)</desc></kinesic> Є пропозиція, є пропозиція повернутися до голосування. Прошу, давайте Олександра Сергійовича послухаємо і проголосуємо за повернення.</seg>
             </u>
             <note type="time"><time when="2013-04-16T17:10:25">17:10:25</time></note>
             <note type="speaker">ЄФРЕМОВ О.С.</note>
@@ -707,12 +703,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-16-m1.u102">
-               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u102.p1">Шановні депутати, а хто це свистів, назвіть прізвища, давайте проголосуємо і на троє суток його за двері відправимо. Назвіть прізвище, хто свистів!</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u102.p2">Хто це свистів?</seg>
-               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u102.p3">Партія регіонів, Ярослав Сухий, я прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u102.p1">Шановні депутати, а хто це свистів, назвіть прізвища, давайте проголосуємо і на троє суток його за двері відправимо. Назвіть прізвище, хто свистів! <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Хто це свистів?</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u102.p2">Партія регіонів, Ярослав Сухий, я прошу.</seg>
             </u>
             <note type="time"><time when="2013-04-16T17:27:56">17:27:56</time></note>
             <note type="speaker">СУХИЙ Я.М.</note>
@@ -798,12 +790,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-04-16-m1.u116">
-               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u116.p1">Є необхідність обговорювати? Немає.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u116.p2">Я не бачу. Прошу записатися від фракцій для обговорення.</seg>
-               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u116.p3">Куренной, фракція Віталія Кличка, народний депутат. Не бере слово.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u116.p1">Є необхідність обговорювати? Немає. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Я не бачу. Прошу записатися від фракцій для обговорення.</seg>
+               <seg xml:id="ParlaMint-UA_2013-04-16-m1.u116.p2">Куренной, фракція Віталія Кличка, народний депутат. Не бере слово.</seg>
             </u>
             <note type="time"><time when="2013-04-16T17:41:02">17:41:02</time></note>
             <note type="speaker">КУРЕННОЙ В.К.</note>

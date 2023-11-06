@@ -724,11 +724,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-30-m2.u98">
-               <seg xml:id="ParlaMint-UA_2021-03-30-m2.u98.p1">Всі бажаючі виступили?</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2021-03-30-m2.u98.p2">Власенко з мотивів. Після Шахов. Після цього переходимо до голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-30-m2.u98.p1">Всі бажаючі виступили? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Власенко з мотивів. Після Шахов. Після цього переходимо до голосування.</seg>
             </u>
             <note type="time"><time when="2021-03-30T18:37:57">18:37:57</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>

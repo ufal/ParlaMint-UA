@@ -495,7 +495,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m1.u72">
-               <seg xml:id="ParlaMint-UA_2013-03-19-m1.u72.p1">Володимир Яворівський</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m1.u72.p1">Володимир Яворівський.</seg>
             </u>
             <note type="time"><time when="2013-03-19T16:58:04">16:58:04</time></note>
             <note type="speaker">ЯВОРІВСЬКИЙ В.О.</note>
@@ -823,11 +823,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m1.u125">
-               <seg xml:id="ParlaMint-UA_2013-03-19-m1.u125.p1">Репліка, репліка "Свобода" – Кайда. Півхвилини.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2013-03-19-m1.u125.p2">Півхвилини.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m1.u125.p1">Репліка, репліка "Свобода" – Кайда. Півхвилини. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Півхвилини.</seg>
             </u>
             <note type="time"><time when="2013-03-19T17:42:45">17:42:45</time></note>
             <note type="speaker">КАЙДА О.П.</note>

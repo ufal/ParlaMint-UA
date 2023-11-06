@@ -448,12 +448,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-14-m1.u62">
-               <seg xml:id="ParlaMint-UA_2015-05-14-m1.u62.p1">Колеги, будь ласка, треба багато говорити про цей закон, я бачу</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2015-05-14-m1.u62.p2">Заспокойтесь, будь ласка! Прошу заспокоїтись.</seg>
-               <seg xml:id="ParlaMint-UA_2015-05-14-m1.u62.p3">Будь ласка, Єгор Соболєв. Єгор Соболєв, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-14-m1.u62.p1">Колеги, будь ласка, треба багато говорити про цей закон, я бачу. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Заспокойтесь, будь ласка! Прошу заспокоїтись.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-14-m1.u62.p2">Будь ласка, Єгор Соболєв. Єгор Соболєв, будь ласка.</seg>
             </u>
             <vocal type="shouting">
                <desc>ГОЛОС ІЗ ЗАЛУ.</desc>

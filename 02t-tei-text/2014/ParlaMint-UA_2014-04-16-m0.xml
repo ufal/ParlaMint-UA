@@ -349,12 +349,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-16-m0.u42">
-               <seg xml:id="ParlaMint-UA_2014-04-16-m0.u42.p1">Шановні колеги, єдине, я боюсь, що у нас і за основу не вистачить голосів. Тому давайте.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2014-04-16-m0.u42.p2">Сигналити будемо потім.</seg>
-               <seg xml:id="ParlaMint-UA_2014-04-16-m0.u42.p3">Будь ласка, народний депутат Яворівський.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-16-m0.u42.p1">Шановні колеги, єдине, я боюсь, що у нас і за основу не вистачить голосів. Тому давайте. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Сигналити будемо потім.</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-16-m0.u42.p2">Будь ласка, народний депутат Яворівський.</seg>
             </u>
             <note type="time"><time when="2014-04-16T13:02:54">13:02:54</time></note>
             <note type="speaker">ЯВОРІВСЬКИЙ В.О.</note>
@@ -554,11 +550,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ТУРЧИНОВ О.В." ana="#chair" xml:id="ParlaMint-UA_2014-04-16-m0.u74">
-               <seg xml:id="ParlaMint-UA_2014-04-16-m0.u74.p1">Народний депутат Павлов, і давайте риску підведемо.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2014-04-16-m0.u74.p2">Колеги, я прошу, не хуліганьте!</seg>
+               <seg xml:id="ParlaMint-UA_2014-04-16-m0.u74.p1">Народний депутат Павлов, і давайте риску підведемо. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Колеги, я прошу, не хуліганьте!</seg>
             </u>
             <note type="time"><time when="2014-04-16T13:28:20">13:28:20</time></note>
             <note type="speaker">ПАВЛОВ К.Ю.</note>

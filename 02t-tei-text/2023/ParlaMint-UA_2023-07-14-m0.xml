@@ -149,11 +149,7 @@
             </u>
             <note type="speaker">ЄВТУШОК С.М.</note>
             <u who="ЄВТУШОК С.М." ana="#regular" xml:id="ParlaMint-UA_2023-07-14-m0.u14">
-               <seg xml:id="ParlaMint-UA_2023-07-14-m0.u14.p1">Ні,.</seg>
-               <gap reason="inaudible">
-                  <desc>(Не чути)</desc>
-               </gap>
-               <seg xml:id="ParlaMint-UA_2023-07-14-m0.u14.p2">без обговорення.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-14-m0.u14.p1">Ні,. <gap reason="inaudible"><desc>(Не чути)</desc></gap> без обговорення.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2023-07-14-m0.u15">

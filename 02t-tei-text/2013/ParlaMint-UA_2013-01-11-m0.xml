@@ -450,11 +450,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-01-11-m0.u51">
-               <seg xml:id="ParlaMint-UA_2013-01-11-m0.u51.p1">Я прошу "Батьківщина", Катеринчук.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2013-01-11-m0.u51.p2">Арсеній Петрович Яценюк, будь ласка, по мотивам.</seg>
+               <seg xml:id="ParlaMint-UA_2013-01-11-m0.u51.p1">Я прошу "Батьківщина", Катеринчук. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Арсеній Петрович Яценюк, будь ласка, по мотивам.</seg>
             </u>
             <note type="time"><time when="2013-01-11T11:15:41">11:15:41</time></note>
             <note type="speaker">ЯЦЕНЮК А.П.</note>

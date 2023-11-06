@@ -1348,21 +1348,17 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-06-06-m0.u195">
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p1">Ви наполягаєте на голосуванні?</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p2">Це було конструктивно.</seg>
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p3">Отже, наступна -1751-а. Не наполягає.</seg>
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p4">1752-а. Не наполягає.</seg>
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p5">1753-я. Не наполягає.</seg>
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p6">1754-а. Не наполягає.</seg>
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p7">1755-а. Не наполягає.</seg>
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p8">1756-а. Не наполягає автор.</seg>
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p9">1757-а. Група авторів Не наполягають.</seg>
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p10">1758-а.</seg>
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p11">1759-а. Не наполягає.</seg>
-               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p12">1760-а, Сергій Власенко. Будь ласка, включіть мікрофон.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p1">Ви наполягаєте на голосуванні? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Це було конструктивно.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p2">Отже, наступна -1751-а. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p3">1752-а. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p4">1753-я. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p5">1754-а. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p6">1755-а. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p7">1756-а. Не наполягає автор.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p8">1757-а. Група авторів Не наполягають.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p9">1758-а.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p10">1759-а. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2018-06-06-m0.u195.p11">1760-а, Сергій Власенко. Будь ласка, включіть мікрофон.</seg>
             </u>
             <note type="time"><time when="2018-06-06T12:55:44">12:55:44</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>

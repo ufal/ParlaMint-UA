@@ -211,12 +211,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-07-13-m1.u25">
-               <seg xml:id="ParlaMint-UA_2020-07-13-m1.u25.p1">А можна дізнатися у Ради, чому у нас хвилина з мотивів перетворюється на півтори?</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2020-07-13-m1.u25.p2">Шановні колеги, у мене велике запитання.</seg>
-               <seg xml:id="ParlaMint-UA_2020-07-13-m1.u25.p3">Княжицький, ви наполягаєте на репліці?</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-13-m1.u25.p1">А можна дізнатися у Ради, чому у нас хвилина з мотивів перетворюється на півтори? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Шановні колеги, у мене велике запитання.</seg>
+               <seg xml:id="ParlaMint-UA_2020-07-13-m1.u25.p2">Княжицький, ви наполягаєте на репліці?</seg>
             </u>
             <note type="time"><time when="2020-07-13T17:10:36">17:10:36</time></note>
             <note type="speaker">КНЯЖИЦЬКИЙ М.Л.</note>

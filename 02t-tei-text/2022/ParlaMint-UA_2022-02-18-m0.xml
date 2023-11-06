@@ -433,12 +433,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СТЕФАНЧУК Р.О." ana="#chair" xml:id="ParlaMint-UA_2022-02-18-m0.u33">
-               <seg xml:id="ParlaMint-UA_2022-02-18-m0.u33.p1">Слово надається для запитання від депутатської групи "Партія "За майбутнє".</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2022-02-18-m0.u33.p2">Що-що?</seg>
-               <seg xml:id="ParlaMint-UA_2022-02-18-m0.u33.p3">Будь ласка, дайте відповідь до кінця.</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-18-m0.u33.p1">Слово надається для запитання від депутатської групи "Партія "За майбутнє". <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Що-що?</seg>
+               <seg xml:id="ParlaMint-UA_2022-02-18-m0.u33.p2">Будь ласка, дайте відповідь до кінця.</seg>
             </u>
             <note type="time"><time when="2022-02-18T11:25:20">11:25:20</time></note>
             <note type="speaker">ШМИГАЛЬ Д.А.</note>

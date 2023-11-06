@@ -310,12 +310,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-05-21-m1.u27">
-               <seg xml:id="ParlaMint-UA_2013-05-21-m1.u27.p1">Дякую. Бажаючі обговорювати є?</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2013-05-21-m1.u27.p2">при скороченій процедурі є виступаючі. Прошу записатися від фракцій на виступ: 2 – "за", 2 – "проти" від фракцій.</seg>
-               <seg xml:id="ParlaMint-UA_2013-05-21-m1.u27.p3">Швайка, об'єднання "Свобода", прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-21-m1.u27.p1">Дякую. Бажаючі обговорювати є? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> при скороченій процедурі є виступаючі. Прошу записатися від фракцій на виступ: 2 – "за", 2 – "проти" від фракцій.</seg>
+               <seg xml:id="ParlaMint-UA_2013-05-21-m1.u27.p2">Швайка, об'єднання "Свобода", прошу.</seg>
             </u>
             <note type="time"><time when="2013-05-21T16:47:19">16:47:19</time></note>
             <note type="speaker">ШВАЙКА І.О.</note>

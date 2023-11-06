@@ -766,11 +766,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-22-m0.u97">
-               <seg xml:id="ParlaMint-UA_2013-03-22-m0.u97.p1">Спасибі. Треба обговорювати?</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2013-03-22-m0.u97.p2">Не треба. Тоді прошу записатися для обговорення. Прошу, прошу Яценюк.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-22-m0.u97.p1">Спасибі. Треба обговорювати? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Не треба. Тоді прошу записатися для обговорення. Прошу, прошу Яценюк.</seg>
             </u>
             <note type="time"><time when="2013-03-22T12:52:03">12:52:03</time></note>
             <note type="speaker">ЯЦЕНЮК А.П.</note>
@@ -1264,11 +1260,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-22-m0.u167">
-               <seg xml:id="ParlaMint-UA_2013-03-22-m0.u167.p1">Дайте закінчити. Всі?</seg>
-               <kinesic type="applause">
-                  <desc>(Оплески)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-UA_2013-03-22-m0.u167.p2">Чорноволенко, фракція "Батьківщина", прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-22-m0.u167.p1">Дайте закінчити. Всі? <kinesic type="applause"><desc>(Оплески)</desc></kinesic> Чорноволенко, фракція "Батьківщина", прошу.</seg>
             </u>
             <note type="time"><time when="2013-03-22T14:10:17">14:10:17</time></note>
             <note type="speaker">ЧОРНОВОЛЕНКО О.В.</note>

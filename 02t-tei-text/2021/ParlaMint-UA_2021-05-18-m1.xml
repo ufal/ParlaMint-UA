@@ -588,16 +588,12 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-05-18-m1.u79">
-               <seg xml:id="ParlaMint-UA_2021-05-18-m1.u79.p1">Дякую, Денис Анатолійович.</seg>
+               <seg xml:id="ParlaMint-UA_2021-05-18-m1.u79.p1">Дякую, Денис Анатолійович. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Дві. Закінчились вже. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2021-05-18-m1.u79.p2">До слова запрошується міністр охорони здоров'я України Максим Володимирович Степанов.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2021-05-18-m1.u79.p2">Дві. Закінчились вже. Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2021-05-18-m1.u79.p3">До слова запрошується міністр охорони здоров'я України Максим Володимирович Степанов.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2021-05-18-m1.u79.p4">Комітет виступає після того, як. Обов'язково.</seg>
+               <seg xml:id="ParlaMint-UA_2021-05-18-m1.u79.p3">Комітет виступає після того, як. Обов'язково.</seg>
             </u>
             <note type="time"><time when="2021-05-18T17:21:00">17:21:00</time></note>
             <note type="speaker">СТЕПАНОВ М.В.</note>

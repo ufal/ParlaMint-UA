@@ -1189,8 +1189,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-16-m0.u160">
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u160.p1">Гнатенко.</seg>
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u160.p2">Після цього перейдемо до Лукашева.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u160.p1">Гнатенко. Після цього перейдемо до Лукашева.</seg>
             </u>
             <note type="speaker">ГНАТЕНКО В.С.</note>
             <u who="ГНАТЕНКО В.С." ana="#regular" xml:id="ParlaMint-UA_2021-06-16-m0.u161">
@@ -1849,16 +1848,12 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-06-16-m0.u255">
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u255.p1">Дякую.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u255.p2">Спікера не купити!</seg>
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u255.p3">Переходимо до голосування. Шановні колеги, ставиться на голосування правка номер 306 Кондратюк. Позицію комітету ви тільки що чули. Прошу голосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u255.p1">Дякую. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Спікера не купити!</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u255.p2">Переходимо до голосування. Шановні колеги, ставиться на голосування правка номер 306 Кондратюк. Позицію комітету ви тільки що чули. Прошу голосувати.</seg>
                <note type="time"><time when="2021-06-16T13:25:08">13:25:08</time></note>
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u255.p4">За-230</seg>
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u255.p5">Рішення прийнято.</seg>
-               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u255.p6">Наступна правка 375, Кондратюк.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u255.p3">За-230</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u255.p4">Рішення прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2021-06-16-m0.u255.p5">Наступна правка 375, Кондратюк.</seg>
             </u>
             <note type="time"><time when="2021-06-16T13:25:16">13:25:16</time></note>
             <note type="speaker">КОНДРАТЮК О.К.</note>

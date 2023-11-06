@@ -428,12 +428,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-10-06-m1.u59">
-               <seg xml:id="ParlaMint-UA_2015-10-06-m1.u59.p1">Бойко. Народний депутат Бойко.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2015-10-06-m1.u59.p2">Його немає в залі.</seg>
-               <seg xml:id="ParlaMint-UA_2015-10-06-m1.u59.p3">Народний депутат Сергій Соболєв, "Батьківщина".</seg>
+               <seg xml:id="ParlaMint-UA_2015-10-06-m1.u59.p1">Бойко. Народний депутат Бойко. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Його немає в залі.</seg>
+               <seg xml:id="ParlaMint-UA_2015-10-06-m1.u59.p2">Народний депутат Сергій Соболєв, "Батьківщина".</seg>
             </u>
             <note type="time"><time when="2015-10-06T17:03:29">17:03:29</time></note>
             <note type="speaker">СОБОЛЄВ С.В.</note>

@@ -1094,11 +1094,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2019-12-20-m0.u168">
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u168.p1">58-а не врахована. Ставимо на голосування?</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u168.p2">Поясніть, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2019-12-20-m0.u168.p1">58-а не врахована. Ставимо на голосування? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Поясніть, будь ласка.</seg>
             </u>
             <note type="time"><time when="2019-12-20T12:06:22">12:06:22</time></note>
             <note type="speaker">ДМИТРІЄВА О.О.</note>

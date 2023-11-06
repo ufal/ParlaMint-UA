@@ -638,20 +638,16 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-07-m0.u45">
-               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p1">Я ставлю на голосування поправку 44 групи народних депутатів.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p2">Ні, тримайте себе в руках, голово комітету.</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p3">Хто підтримує дану поправку, прошу проголосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p1">Я ставлю на голосування поправку 44 групи народних депутатів. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ні, тримайте себе в руках, голово комітету.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p2">Хто підтримує дану поправку, прошу проголосувати.</seg>
                <note type="time"><time when="2017-09-07T13:08:03">13:08:03</time></note>
-               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p4">За-67</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p5">Рішення не прийнято.</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p6">Наступна 45-а. Не наполягає.</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p7">46-а. Не наполягає.</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p8">47-а. Не наполягає.</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p9">48-а. Наполягає.</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p10">Будь ласка, Власенко, 1 хвилина.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p3">За-67</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p4">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p5">Наступна 45-а. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p6">46-а. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p7">47-а. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p8">48-а. Наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-07-m0.u45.p9">Будь ласка, Власенко, 1 хвилина.</seg>
             </u>
             <note type="time"><time when="2017-09-07T13:08:15">13:08:15</time></note>
             <note type="speaker">ВЛАСЕНКО С.В.</note>

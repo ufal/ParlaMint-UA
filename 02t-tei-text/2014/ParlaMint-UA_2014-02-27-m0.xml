@@ -1018,11 +1018,7 @@
             </u>
             <note type="speaker">СОБОЛЄВ С.В.</note>
             <u who="СОБОЛЄВ С.В." ana="#regular" xml:id="ParlaMint-UA_2014-02-27-m0.u134">
-               <seg xml:id="ParlaMint-UA_2014-02-27-m0.u134.p1">Прошу опустити. Хто проти? Утримався? Я вітаю коаліцію із затвердженням порядку денного.</seg>
-               <kinesic type="applause">
-                  <desc>(Оплески)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-UA_2014-02-27-m0.u134.p2">Рішення прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-27-m0.u134.p1">Прошу опустити. Хто проти? Утримався? Я вітаю коаліцію із затвердженням порядку денного. <kinesic type="applause"><desc>(Оплески)</desc></kinesic> Рішення прийнято.</seg>
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОШУЛИНСЬКИЙ Р.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-27-m0.u135">

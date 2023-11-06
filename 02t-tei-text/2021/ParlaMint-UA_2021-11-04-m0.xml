@@ -731,12 +731,8 @@
             <note type="narrative">КОРНІЄНКО О.С.</note>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="КОРНІЄНКО О.С." ana="#chair" xml:id="ParlaMint-UA_2021-11-04-m0.u99">
-               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u99.p1">Будь ласка, тоді я ставлю на голосування.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u99.p2">Це з цього питання чи з іншого?</seg>
-               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u99.p3">Будь ласка, Юлія Володимирівна Тимошенко, з процедури.</seg>
+               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u99.p1">Будь ласка, тоді я ставлю на голосування. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Це з цього питання чи з іншого?</seg>
+               <seg xml:id="ParlaMint-UA_2021-11-04-m0.u99.p2">Будь ласка, Юлія Володимирівна Тимошенко, з процедури.</seg>
             </u>
             <note type="time"><time when="2021-11-04T11:19:41">11:19:41</time></note>
             <note type="speaker">ТИМОШЕНКО Ю.В.</note>

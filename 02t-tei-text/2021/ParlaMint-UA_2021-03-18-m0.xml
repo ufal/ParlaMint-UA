@@ -886,16 +886,12 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2021-03-18-m0.u106">
-               <seg xml:id="ParlaMint-UA_2021-03-18-m0.u106.p1">Ставлю на голосування 484 правку Івченка.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2021-03-18-m0.u106.p2">. Не кричіть, будь ласка.</seg>
-               <seg xml:id="ParlaMint-UA_2021-03-18-m0.u106.p3">Ставлю на голосування. Прошу визначатися та голосувати.</seg>
-               <seg xml:id="ParlaMint-UA_2021-03-18-m0.u106.p4">Вона врахована, 483-я, можемо і її поставити на підтвердження.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-18-m0.u106.p1">Ставлю на голосування 484 правку Івченка. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Не кричіть, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-18-m0.u106.p2">Ставлю на голосування. Прошу визначатися та голосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-18-m0.u106.p3">Вона врахована, 483-я, можемо і її поставити на підтвердження.</seg>
                <note type="time"><time when="2021-03-18T11:19:23">11:19:23</time></note>
-               <seg xml:id="ParlaMint-UA_2021-03-18-m0.u106.p5">За-56</seg>
-               <seg xml:id="ParlaMint-UA_2021-03-18-m0.u106.p6">Дякую. 483-я врахована, Іване Григоровичу.</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-18-m0.u106.p4">За-56</seg>
+               <seg xml:id="ParlaMint-UA_2021-03-18-m0.u106.p5">Дякую. 483-я врахована, Іване Григоровичу.</seg>
             </u>
             <note type="speaker">КИРИЛЕНКО І.Г.</note>
             <u who="КИРИЛЕНКО І.Г." ana="#regular" xml:id="ParlaMint-UA_2021-03-18-m0.u107">

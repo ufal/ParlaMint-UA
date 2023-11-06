@@ -730,13 +730,9 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2018-07-04-m0.u89">
-               <seg xml:id="ParlaMint-UA_2018-07-04-m0.u89.p1">Ви наполягаєте на голосуванні?</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2018-07-04-m0.u89.p2">Добре, дякую вам.</seg>
-               <seg xml:id="ParlaMint-UA_2018-07-04-m0.u89.p3">Отже, наступна, 5-а. Продан. Не наполягає.</seg>
-               <seg xml:id="ParlaMint-UA_2018-07-04-m0.u89.p4">6-а, Острікова, будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2018-07-04-m0.u89.p1">Ви наполягаєте на голосуванні? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Добре, дякую вам.</seg>
+               <seg xml:id="ParlaMint-UA_2018-07-04-m0.u89.p2">Отже, наступна, 5-а. Продан. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2018-07-04-m0.u89.p3">6-а, Острікова, будь ласка.</seg>
             </u>
             <note type="time"><time when="2018-07-04T12:38:23">12:38:23</time></note>
             <note type="speaker">ОСТРІКОВА Т.Г.</note>

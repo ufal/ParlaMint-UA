@@ -637,12 +637,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-23-m0.u90">
-               <seg xml:id="ParlaMint-UA_2017-02-23-m0.u90.p1">Колеги, було відхилено дві правки.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-02-23-m0.u90.p2">Ще є. Прошу, мікрофон кому?</seg>
-               <seg xml:id="ParlaMint-UA_2017-02-23-m0.u90.p3">Березюк, хвилина.10 правка. Будь ласка, хвилину Березюк.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-23-m0.u90.p1">Колеги, було відхилено дві правки. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ще є. Прошу, мікрофон кому?</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-23-m0.u90.p2">Березюк, хвилина.10 правка. Будь ласка, хвилину Березюк.</seg>
             </u>
             <note type="time"><time when="2017-02-23T11:27:54">11:27:54</time></note>
             <note type="speaker">БЕРЕЗЮК О.Р.</note>
@@ -931,12 +927,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-23-m0.u131">
-               <seg xml:id="ParlaMint-UA_2017-02-23-m0.u131.p1">Отже, колеги.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-02-23-m0.u131.p2">Ні, нема іншого механізму. Зараз хвилина ще на відповідь Найджела Брауна.</seg>
-               <seg xml:id="ParlaMint-UA_2017-02-23-m0.u131.p3">Будь ласка, одну хвилину. Є необхідність? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Одна хвилина на відповідь. Найджел Браун. І переходимо до прийняття рішення.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-23-m0.u131.p1">Отже, колеги. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ні, нема іншого механізму. Зараз хвилина ще на відповідь Найджела Брауна.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-23-m0.u131.p2">Будь ласка, одну хвилину. Є необхідність? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Одна хвилина на відповідь. Найджел Браун. І переходимо до прийняття рішення.</seg>
             </u>
             <note type="time"><time when="2017-02-23T12:03:57">12:03:57</time></note>
             <note type="speaker">НАЙДЖЕЛ БРАУН</note>

@@ -663,11 +663,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-03-19-m0.u91">
-               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u91.p1">Всі по мотивам голосування?</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u91.p2">Я чую. Мірошниченко, прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2013-03-19-m0.u91.p1">Всі по мотивам голосування? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Я чую. Мірошниченко, прошу.</seg>
             </u>
             <note type="time"><time when="2013-03-19T12:25:09">12:25:09</time></note>
             <note type="speaker">МІРОШНИЧЕНКО Ю.Р.</note>

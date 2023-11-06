@@ -171,12 +171,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГЕРАЩЕНКО І.В." ana="#chair" xml:id="ParlaMint-UA_2017-02-22-m0.u17">
-               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u17.p1">Будь ласка, Вадим Івченко від "Батьківщини". Вадим Івченко.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u17.p2">У нас немає в парламенті людини з прізвищем "Скотиняка", тому немає кому давати репліку.</seg>
-               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u17.p3">Будь ласка.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u17.p1">Будь ласка, Вадим Івченко від "Батьківщини". Вадим Івченко. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> У нас немає в парламенті людини з прізвищем "Скотиняка", тому немає кому давати репліку.</seg>
+               <seg xml:id="ParlaMint-UA_2017-02-22-m0.u17.p2">Будь ласка.</seg>
             </u>
             <note type="time"><time when="2017-02-22T10:28:10">10:28:10</time></note>
             <note type="speaker">КИРИЛЕНКО І.Г.</note>

@@ -254,10 +254,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-10-m1.u36">
-               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u36.p1">Одну хвилину. Давайте привітаємо Володимира Кличка всі разом</seg>
-               <kinesic type="applause">
-                  <desc>(Оплески)</desc>
-               </kinesic>
+               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u36.p1">Одну хвилину. Давайте привітаємо Володимира Кличка всі разом <kinesic type="applause"><desc>(Оплески)</desc></kinesic>.</seg>
                <seg xml:id="ParlaMint-UA_2013-10-10-m1.u36.p2">Сідаємо, продовжуємо роботу. Прошу.</seg>
             </u>
             <note type="time"><time when="2013-10-10T16:24:47">16:24:47</time></note>
@@ -919,14 +916,10 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-10-m1.u137">
-               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u137.p1">Дякую.</seg>
-               <kinesic type="applause">
-                  <desc>(Оплески)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u137.p2">Дякую.</seg>
-               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u137.p3">Бажаючі є обговорювати?</seg>
-               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u137.p4">Прошу записатися, хто бажає від фракції.</seg>
-               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u137.p5">Прошу, фракція "УДАР Віталія Кличка", Куренной, народний депутат.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u137.p1">Дякую. <kinesic type="applause"><desc>(Оплески)</desc></kinesic> Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u137.p2">Бажаючі є обговорювати?</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u137.p3">Прошу записатися, хто бажає від фракції.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u137.p4">Прошу, фракція "УДАР Віталія Кличка", Куренной, народний депутат.</seg>
             </u>
             <note type="time"><time when="2013-10-10T17:48:11">17:48:11</time></note>
             <note type="speaker">КУРЕННОЙ В.К.</note>
@@ -1070,15 +1063,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-10-10-m1.u161">
-               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u161.p1">Обговорення завершено. Підготувалися до голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u161.p1">Обговорення завершено. Підготувалися до голосування. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Підготувалися до голосування. Регламент читайте, я вас прошу.</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u161.p2">Підготувалися до голосування. Регламент читайте, я вас прошу.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u161.p3">Ну так. хвилина. Чого ж ви сидите? Ви не записувалися. Називайте прізвище. Хвилина вам.</seg>
+               <seg xml:id="ParlaMint-UA_2013-10-10-m1.u161.p2">Ну так. хвилина. Чого ж ви сидите? Ви не записувалися. Називайте прізвище. Хвилина вам.</seg>
             </u>
             <note type="time"><time when="2013-10-10T18:01:53">18:01:53</time></note>
             <note type="speaker">КУБІВ С.І.</note>

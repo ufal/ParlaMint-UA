@@ -611,11 +611,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-19-m1.u86">
-               <seg xml:id="ParlaMint-UA_2013-09-19-m1.u86.p1">Зауважень немає. Ставлю на голосування.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2013-09-19-m1.u86.p2">Прошу, народний депутат Ксенія Ляпіна.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-19-m1.u86.p1">Зауважень немає. Ставлю на голосування. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Прошу, народний депутат Ксенія Ляпіна.</seg>
             </u>
             <note type="time"><time when="2013-09-19T17:23:44">17:23:44</time></note>
             <note type="speaker">ЛЯПІНА К.М.</note>

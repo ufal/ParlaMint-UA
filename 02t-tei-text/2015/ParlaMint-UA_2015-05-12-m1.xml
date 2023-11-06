@@ -633,11 +633,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ГРОЙСМАН В.Б." ana="#chair" xml:id="ParlaMint-UA_2015-05-12-m1.u77">
-               <seg xml:id="ParlaMint-UA_2015-05-12-m1.u77.p1">Хтось ще хоче пояснити, що індексація аліментів – це дуже важливо? Ніхто, ніхто?</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2015-05-12-m1.u77.p2">Автор, автор, хвилину. Слухайте, заспокойтесь, колеги.</seg>
+               <seg xml:id="ParlaMint-UA_2015-05-12-m1.u77.p1">Хтось ще хоче пояснити, що індексація аліментів – це дуже важливо? Ніхто, ніхто? <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Автор, автор, хвилину. Слухайте, заспокойтесь, колеги.</seg>
             </u>
             <note type="time"><time when="2015-05-12T17:31:30">17:31:30</time></note>
             <note type="speaker">ПОМАЗАНОВ А.В.</note>

@@ -376,13 +376,9 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-12-07-m0.u47">
-               <seg xml:id="ParlaMint-UA_2017-12-07-m0.u47.p1">Отже, колеги, давайте.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-12-07-m0.u47.p2">Я дам всім фракціям по хвилині, колеги. Всім фракціям дам.</seg>
-               <seg xml:id="ParlaMint-UA_2017-12-07-m0.u47.p3">"Батьківщина" вже виступила.</seg>
-               <seg xml:id="ParlaMint-UA_2017-12-07-m0.u47.p4">"Відродження". Будь ласка, називайте хто.</seg>
+               <seg xml:id="ParlaMint-UA_2017-12-07-m0.u47.p1">Отже, колеги, давайте. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Я дам всім фракціям по хвилині, колеги. Всім фракціям дам.</seg>
+               <seg xml:id="ParlaMint-UA_2017-12-07-m0.u47.p2">"Батьківщина" вже виступила.</seg>
+               <seg xml:id="ParlaMint-UA_2017-12-07-m0.u47.p3">"Відродження". Будь ласка, називайте хто.</seg>
             </u>
             <note type="time"><time when="2017-12-07T10:52:16">10:52:16</time></note>
             <note type="speaker">ГУЛЯЄВ В.О.</note>

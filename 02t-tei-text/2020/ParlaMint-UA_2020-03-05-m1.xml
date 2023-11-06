@@ -136,22 +136,18 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РАЗУМКОВ Д.О." ana="#chair" xml:id="ParlaMint-UA_2020-03-05-m1.u9">
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p1">Ставлю на. Михайло Миколайович!</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p2">Та ставимо на голосування!</seg>
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p3">2908. Прошу визначатися та голосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p1">Ставлю на. Михайло Миколайович! <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Та ставимо на голосування!</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p2">2908. Прошу визначатися та голосувати.</seg>
                <note type="time"><time when="2020-03-05T16:16:35">16:16:35</time></note>
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p4">За-55</seg>
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p5">Рішення не прийнято, правка не врахована.</seg>
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p6">2909.</seg>
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p7">Дивіться, завдяки тому, що Железняк тут, за вашу правку менше "проти" проголосувало. Не наполягаєте?</seg>
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p8">Далі - 2910. Ставлю 2910, ставлю на голосування. Прошу визначатися та голосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p3">За-55</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p4">Рішення не прийнято, правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p5">2909.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p6">Дивіться, завдяки тому, що Железняк тут, за вашу правку менше "проти" проголосувало. Не наполягаєте?</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p7">Далі - 2910. Ставлю 2910, ставлю на голосування. Прошу визначатися та голосувати.</seg>
                <note type="time"><time when="2020-03-05T16:17:13">16:17:13</time></note>
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p9">За-58</seg>
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p10">Рішення не прийнято, правка не врахована.</seg>
-               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p11">2911.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p8">За-58</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p9">Рішення не прийнято, правка не врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2020-03-05-m1.u9.p10">2911.</seg>
             </u>
             <note type="time"><time when="2020-03-05T16:17:20">16:17:20</time></note>
             <note type="speaker">ШУФРИЧ Н.І.</note>

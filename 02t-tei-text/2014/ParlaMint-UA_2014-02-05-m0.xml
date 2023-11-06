@@ -163,12 +163,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2014-02-05-m0.u19">
-               <seg xml:id="ParlaMint-UA_2014-02-05-m0.u19.p1">Фракція Кмопартії.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2014-02-05-m0.u19.p2">Ну, Регламент є чи нема в нас?</seg>
-               <seg xml:id="ParlaMint-UA_2014-02-05-m0.u19.p3">Фракція Компартії України, народний депутат Байдюк. Я прошу Регламент виконувати. Петро Цибенко виступає.</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-05-m0.u19.p1">Фракція Кмопартії. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Ну, Регламент є чи нема в нас?</seg>
+               <seg xml:id="ParlaMint-UA_2014-02-05-m0.u19.p2">Фракція Компартії України, народний депутат Байдюк. Я прошу Регламент виконувати. Петро Цибенко виступає.</seg>
             </u>
             <note type="time"><time when="2014-02-05T10:44:53">10:44:53</time></note>
             <note type="speaker">ЦИБЕНКО П.С.</note>

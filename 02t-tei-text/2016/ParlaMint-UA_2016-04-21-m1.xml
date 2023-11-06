@@ -366,11 +366,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2016-04-21-m1.u47">
-               <seg xml:id="ParlaMint-UA_2016-04-21-m1.u47.p1">Отже, ми почули.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2016-04-21-m1.u47.p2">Я ставлю на голосування восьму поправку, Безбах, на голосування. Хто підтримує дану поправку, прошу проголосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2016-04-21-m1.u47.p1">Отже, ми почули. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Я ставлю на голосування восьму поправку, Безбах, на голосування. Хто підтримує дану поправку, прошу проголосувати.</seg>
             </u>
             <note type="speaker">ГАЛАСЮК В.В.</note>
             <u who="ГАЛАСЮК В.В." ana="#regular" xml:id="ParlaMint-UA_2016-04-21-m1.u48">

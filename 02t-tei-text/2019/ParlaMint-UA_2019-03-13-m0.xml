@@ -1042,16 +1042,12 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2019-03-13-m0.u154">
-               <seg xml:id="ParlaMint-UA_2019-03-13-m0.u154.p1">158-а, вона врахована.</seg>
+               <seg xml:id="ParlaMint-UA_2019-03-13-m0.u154.p1">158-а, вона врахована. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Вона врахована!</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2019-03-13-m0.u154.p2">Вона врахована!</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2019-03-13-m0.u154.p3">Ніхто не. Автор не наполягає.</seg>
-               <seg xml:id="ParlaMint-UA_2019-03-13-m0.u154.p4">Прошу, 159-а. Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2019-03-13-m0.u154.p2">Ніхто не. Автор не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2019-03-13-m0.u154.p3">Прошу, 159-а. Прошу.</seg>
             </u>
             <note type="time"><time when="2019-03-13T11:45:45">11:45:45</time></note>
             <note type="speaker">ПИСАРЕНКО В.В.</note>

@@ -203,7 +203,7 @@
             </u>
             <note type="speaker">ГОЛОВА.</note>
             <u who="ЛИТВИН В.М." ana="#chair" xml:id="ParlaMint-UA_2003-11-04-m0.u28">
-               <seg xml:id="ParlaMint-UA_2003-11-04-m0.u28.p1">Ігор Плужников фракція Соціал-демократичної партії України (об'єднаної).</seg>
+               <seg xml:id="ParlaMint-UA_2003-11-04-m0.u28.p1">Ігор Плужников фракція Соціал-демократичної партії України <note>(об'єднаної)</note>.</seg>
             </u>
             <note type="time"><time when="2003-11-04T10:19:16">10:19:16</time></note>
             <note type="speaker">ПЛУЖНИКОВ І.О.</note>

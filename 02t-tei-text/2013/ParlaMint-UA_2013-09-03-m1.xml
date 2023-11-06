@@ -184,12 +184,8 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-03-m1.u26">
-               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u26.p1">Дякую. Питання є у депутатів? Немає.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u26.p2">Рано голосувати, виступати треба.</seg>
-               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u26.p3">Я прошу записатися на виступи від фракцій. Прошу, народний депутат Іллєнко.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u26.p1">Дякую. Питання є у депутатів? Немає. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Рано голосувати, виступати треба.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u26.p2">Я прошу записатися на виступи від фракцій. Прошу, народний депутат Іллєнко.</seg>
             </u>
             <note type="time"><time when="2013-09-03T16:16:44">16:16:44</time></note>
             <note type="speaker">ІЛЛЄНКО А.Ю.</note>
@@ -446,15 +442,11 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-09-03-m1.u67">
-               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u67.p1">Добре.</seg>
-               <kinesic type="applause">
-                  <desc>(Оплески)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u67.p2">Так, всі бажаючі виступили?</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u67.p1">Добре. <kinesic type="applause"><desc>(Оплески)</desc></kinesic> Так, всі бажаючі виступили?</seg>
                <vocal type="noise">
                   <desc>(Шум у залі)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u67.p3">Давайте хвилину, от, народний депутат Князевич. Прошу і будемо голосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2013-09-03-m1.u67.p2">Давайте хвилину, от, народний депутат Князевич. Прошу і будемо голосувати.</seg>
             </u>
             <note type="time"><time when="2013-09-03T16:53:34">16:53:34</time></note>
             <note type="speaker">КНЯЗЕВИЧ Р.П.</note>

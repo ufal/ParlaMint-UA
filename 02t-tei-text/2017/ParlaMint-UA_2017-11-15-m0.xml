@@ -190,11 +190,7 @@
             </u>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="СИРОЇД О.І." ana="#chair" xml:id="ParlaMint-UA_2017-11-15-m0.u22">
-               <seg xml:id="ParlaMint-UA_2017-11-15-m0.u22.p1">Одна хвилина українською мовою.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-11-15-m0.u22.p2">Одна хвилина українською мовою. Прошу.</seg>
+               <seg xml:id="ParlaMint-UA_2017-11-15-m0.u22.p1">Одна хвилина українською мовою. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Одна хвилина українською мовою. Прошу.</seg>
             </u>
             <note type="time"><time when="2017-11-15T10:23:08">10:23:08</time></note>
             <note type="speaker">КІССЕ А.І.</note>

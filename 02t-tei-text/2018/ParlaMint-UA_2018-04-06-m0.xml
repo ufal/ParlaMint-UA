@@ -359,11 +359,7 @@
             </u>
             <note type="speaker">ГРОЙСМНА В.Б.</note>
             <u who="ГРОЙСМНА В.Б." ana="#regular" xml:id="ParlaMint-UA_2018-04-06-m0.u49">
-               <seg xml:id="ParlaMint-UA_2018-04-06-m0.u49.p1">Колеги, там хто кричить на гальорке, в мене з горлом все нормально і можу.</seg>
-               <vocal type="noise">
-                  <desc>(Шум в залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2018-04-06-m0.u49.p2">Пане.</seg>
+               <seg xml:id="ParlaMint-UA_2018-04-06-m0.u49.p1">Колеги, там хто кричить на гальорке, в мене з горлом все нормально і можу. <vocal type="noise"><desc>(Шум в залі)</desc></vocal> Пане.</seg>
             </u>
             <vocal type="noise">
                <desc>(Шум в залі)</desc>

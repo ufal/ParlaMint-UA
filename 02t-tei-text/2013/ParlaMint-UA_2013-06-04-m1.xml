@@ -195,12 +195,8 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="РИБАК В.В." ana="#chair" xml:id="ParlaMint-UA_2013-06-04-m1.u23">
-               <seg xml:id="ParlaMint-UA_2013-06-04-m1.u23.p1">Дякую.</seg>
-               <vocal type="noise">
-                  <desc>(Шум у залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2013-06-04-m1.u23.p2">Дякую, сідайте.</seg>
-               <seg xml:id="ParlaMint-UA_2013-06-04-m1.u23.p3">Я прошу народного депутата Вячеслава Анатолійовича Кириленка. Прошу, доповідайте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-04-m1.u23.p1">Дякую. <vocal type="noise"><desc>(Шум у залі)</desc></vocal> Дякую, сідайте.</seg>
+               <seg xml:id="ParlaMint-UA_2013-06-04-m1.u23.p2">Я прошу народного депутата Вячеслава Анатолійовича Кириленка. Прошу, доповідайте.</seg>
             </u>
             <note type="time"><time when="2013-06-04T16:29:04">16:29:04</time></note>
             <note type="speaker">КИРИЛЕНКО В.А.</note>

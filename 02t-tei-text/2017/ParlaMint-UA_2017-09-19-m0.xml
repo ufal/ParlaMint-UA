@@ -2223,16 +2223,12 @@
             </kinesic>
             <note type="speaker">ГОЛОВУЮЧИЙ.</note>
             <u who="ПАРУБІЙ А.В." ana="#chair" xml:id="ParlaMint-UA_2017-09-19-m0.u294">
-               <seg xml:id="ParlaMint-UA_2017-09-19-m0.u294.p1">Цей законопроект був поданий згідно усіх норм Регламенту і розглядається згідно усіх норм.</seg>
-               <vocal type="noise">
-                  <desc>(Шум в залі)</desc>
-               </vocal>
-               <seg xml:id="ParlaMint-UA_2017-09-19-m0.u294.p2">І, колеги, треба було іти на комітет і там вести професійну дискусію.</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-19-m0.u294.p3">1086. Хто підтримує, прошу проголосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-19-m0.u294.p1">Цей законопроект був поданий згідно усіх норм Регламенту і розглядається згідно усіх норм. <vocal type="noise"><desc>(Шум в залі)</desc></vocal> І, колеги, треба було іти на комітет і там вести професійну дискусію.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-19-m0.u294.p2">1086. Хто підтримує, прошу проголосувати.</seg>
                <note type="time"><time when="2017-09-19T14:02:39">14:02:39</time></note>
-               <seg xml:id="ParlaMint-UA_2017-09-19-m0.u294.p4">За-53</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-19-m0.u294.p5">Рішення не прийнято.</seg>
-               <seg xml:id="ParlaMint-UA_2017-09-19-m0.u294.p6">1087. Сидорович.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-19-m0.u294.p3">За-53</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-19-m0.u294.p4">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2017-09-19-m0.u294.p5">1087. Сидорович.</seg>
             </u>
             <note type="time"><time when="2017-09-19T14:02:44">14:02:44</time></note>
             <note type="speaker">СИДОРОВИЧ Р.М.</note>
