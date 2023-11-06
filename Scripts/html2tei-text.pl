@@ -90,16 +90,16 @@ for my $fileIn (@file_list){
   my $id = sprintf("%s_%04d-%02d-%02d-m%d",$file_id,$dY,$dM,$dD,$suff);
   my $fileOut = sprintf("%s/%s/%s/%s%s.xml",$data_dir,$output_dir,$run_id,$subdir,$id);
   push @component_files, "$subdir$id.xml";
+  my $date = sprintf("%04d-%02d-%02d",$dY,$dM,$dD);
+  my ($term,$session,$meeting_type,$url) = @{$downloaded_files{$fileInName}//[]};
   my $htm = open_html($fileIn);
-  $htm = fix_html($htm);
+  $htm = fix_html($htm,$date,$term);
   my $tei = XML::LibXML::Document->new("1.0", "utf-8");
   my $root_node = XML::LibXML::Element->new('TEI');
   $tei->setDocumentElement($root_node);
   $root_node->setNamespace('http://www.tei-c.org/ns/1.0','',1);
   $root_node->setAttributeNS('http://www.w3.org/XML/1998/namespace','id',$id);
   $root_node->setAttributeNS('http://www.w3.org/XML/1998/namespace','lang','uk');
-  my $date = sprintf("%04d-%02d-%02d",$dY,$dM,$dD);
-  my ($term,$session,$meeting_type,$url) = @{$downloaded_files{$fileInName}//[]};
   print STDERR "TODO: $term and $url\n";
   my $teiHeader = $parser->parse_balanced_chunk(
 <<HEADER
@@ -292,7 +292,9 @@ HEADER
             $utterance->setAttribute('ana',$is_chair ? '#chair':'#regular');
             undef $empty_par_before;
             if($speech){
-              $seg = $utterance->appendTextChild('seg',$speech);
+              $seg = $utterance->addNewChild(undef,'seg');
+              $seg->appendText($speech);
+              # $seg = $utterance->appendTextChild('seg',$speech);
             }
             unless($is_chair){
               $prev_nonchair_alias = $speaker;
@@ -451,6 +453,7 @@ sub annotate_note {
   return qw/incident action/ if $text =~ m/Державний Гімн/i;
   return qw/incident action/ if $text =~ m/Лунає Гімн/i;
   return qw/gap inaudible reason/ if $text =~ m/^Не чути$/i;
+  return qw/gap inaudible reason/ if $text =~ m/^нерозбірливо$/i;
   return qw/note comment/ if $text =~ m/\bмовою$/i;
 
 
@@ -598,8 +601,11 @@ sub open_html {
 }
 
 sub fix_html {
-  my $html = shift;
+  my ($html,$date,$term) = @_;
   fix_html_replace_pre($_) for $html->findnodes('//pre');
+  if($term < 7){
+    fix_html_notes_in_p($_) for $html->findnodes('//p[not(*) and text()]');
+  }
   return $html
 }
 
@@ -646,6 +652,29 @@ sub fix_html_to_p {
     }
   }
   return @nodes;
+}
+
+sub fix_html_notes_in_p {
+  my $p = shift;
+  my $text = $p->textContent;
+  $_->unbindNode for $p->childNodes();;
+  fix_html_insert_into_p($p,$text,0);
+}
+
+sub fix_html_insert_into_p {
+  my ($p,$text,$DEBUG) = @_;
+  return unless $text;
+  if($text =~ s/^([^(]+)//){
+    $p->appendText($1);
+  } elsif ($text =~ s/^(\([^()]+\))//){
+    my $i = XML::LibXML::Element->new('i');
+    $i->appendText($1);
+    $p->appendChild($i);
+  } else {
+    $p->appendText($text);
+    $text = '';
+  }
+  fix_html_insert_into_p($p,$text,$DEBUG+1);
 }
 
 sub normalize_speaker {
