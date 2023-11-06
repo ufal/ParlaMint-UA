@@ -627,8 +627,10 @@ sub fix_html_to_p {
   my $type = shift//'';
   my @nodes = ();
   if(ref $node eq 'XML::LibXML::Text'){
-    for my $line (split /\n/,$node->textContent){
+    for my $line (split /\n\n/,$node->textContent){
       my ($spaces) = $line =~ s/^(\s*)//;
+      $line =~ s/\s\s*/ /g; # normelize spaces
+      $line =~ s/^\s*---*\s*$//; # remove divider ----
       if($line){
         my $p = XML::LibXML::Element->new('p');
         $p->appendText($line);
