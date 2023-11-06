@@ -48,7 +48,7 @@ my $speaker_name_re = qr/
   |
   (?:\b[\p{Lu}\p{Lt}'’]{2,}\b\s*)+ # full name
 )/x;
-my $chairman_re = qr/(?:\S?[Г\S]?[ГОЛ]?[ОЛO]?[ЛОB]?[OВУ]{1,3}[ВУЮ]?[УЮЧ]?[ЮЧ]?(?:[ИЙ]{1,2}|А))(?<=\S{7})\.?/; # some character can miss, but minimum is 7
+my $chairman_re = qr/(?:(?:\S?[Г\S]?[ГОЛ]?[ОЛO]?[ЛОB]?[OВУ]{1,3}[ВУЮ]?[УЮЧ]?[ЮЧ]?(?:[ИЙ]{1,2}|А))(?<=\S{7})\.?|ГОЛОВА\b\.?)/; # some character can miss, but minimum is 7
 
 
 my @file_list = glob "$data_dir/$input_dir/$run_id/*.htm";
@@ -86,12 +86,12 @@ for my $fileIn (@file_list){
   my ($fileInName) = $fileIn =~ m/([^\/]*)$/;
   # unless($fileInName =~ m/20181002.htm/){print STDERR "DEBUG: skipping $fileInName\n"; next;}
   $suff //= 0;
-  print STDERR "$fileIn\n\t$dY-$dM-$dD\t$suff\n";
+  print STDERR "INFO: processing $fileIn\t($dY-$dM-$dD\t$suff)\n";
   my $id = sprintf("%s_%04d-%02d-%02d-m%d",$file_id,$dY,$dM,$dD,$suff);
   my $fileOut = sprintf("%s/%s/%s/%s%s.xml",$data_dir,$output_dir,$run_id,$subdir,$id);
-  print STDERR "\t$fileOut\n";
   push @component_files, "$subdir$id.xml";
   my $htm = open_html($fileIn);
+  $htm = fix_html($htm);
   my $tei = XML::LibXML::Document->new("1.0", "utf-8");
   my $root_node = XML::LibXML::Element->new('TEI');
   $tei->setDocumentElement($root_node);
@@ -150,7 +150,9 @@ HEADER
   $div->setAttribute('type','debateSection');
   my ($chair,$sitting_date,$doc_proc_state);
   my @p = $htm->findnodes('/html/body/text() | /html/body/p | /html/body//div/p ');
-  print STDERR "number of paragraphs:",scalar @p,"\n";
+  my @unexpected_content = $htm->findnodes('/html/body/*[not(name()="p")][not(name()="div")] ');
+  print STDERR "INFO: number of paragraphs:",scalar @p,"\n";
+  print STDERR "ERROR: unexpected content: nodename=",join(' nodename=', map {$_->nodeName()} (@unexpected_content)),"\n" if @unexpected_content;
   # processing text header
   # date
   add_note($div,(shift @p)->textContent)->setAttribute('type','date');
@@ -251,7 +253,7 @@ HEADER
         my $content = $pchild->data;
         my $is_chair = $content =~ m/^\s*$chairman_re/;
         if($is_chair && ! $chair){
-          print STDERR "ERROR: missing chair person name\n";die;
+          print STDERR "ERROR: missing chair person name\n";
         }
         my ($speaker,$speech);
 
@@ -304,12 +306,14 @@ HEADER
           }
         } elsif($content !~ m/^\s*$/) {
           unless($utterance){
-            #print_xml($tei);
-            print  "NO ACTIVE UTTERANCE!!! appeared in: $fileIn\n";
-            print STDERR "Trying to add '$pchild'\n";
+            # print_xml($tei);
+            print STDERR "ERROR: NO ACTIVE UTTERANCE!!! appeared in: $fileIn\n";
+            print STDERR "WARN: adding '$pchild' as a none\n";
+            add_note($div,$pchild); # this shouldnt happen !!!
+          } else {
+            $seg = $utterance->addNewChild(undef,'seg') unless $seg;
+            $seg->appendText($pchild);
           }
-          $seg = $utterance->addNewChild(undef,'seg') unless $seg;
-          $seg->appendText($pchild);
         }
         undef $is_first;
       } else {
@@ -336,6 +340,7 @@ HEADER
   remove_empty($tei->documentElement(),'u');
   add_ids($tei->documentElement(),$id,['u','u'],['seg','p']);
   save_xml($tei,$fileOut);
+  print STDERR "INFO: saved to $fileOut\n";
 }
 
 print STDERR (scalar @file_list)," files processed\n";
@@ -520,7 +525,7 @@ sub get_p_category {
   return 'time_note' if $not_spaced_content =~  m/^\(?\s*\d+ година\.\s*\)?$/;
   return 'time_note' if $not_spaced_content =~  m/^\d\d:\d\d:\d\d$/;
   return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ \w+ \d\d\d\d року\s*$/;
-  return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ ?\w+(?: \d\d\d\d року)?,? \d+(?:[:\.]\s*\d\d)?(?:\s*година)?\s*$/;
+  return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ ?\w+(?: \d\d\d\d року)?,? \d+(?:[:\.]\s*\d\d)?(?:\s*год(?:ина|\.))?\s*$/;
   return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ ?\w+(?: \d\d\d\d року)?,? \d\d? година? \d\d? хвилин[аи]?\s*$/;
 
   return @{['change_chair',$1]} if $content =~ m/.* Верховної Ради України \s*([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
@@ -528,8 +533,8 @@ sub get_p_category {
   return @{['change_chair',$1]} if $content =~ m/^\s*Веде засідання \s*([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',$1]} if $content =~ m/^\s*Засідання веде\s+([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',$1]} if $content =~ m/^\s*Засідання веде (?:\w+ ){0,6}\s*([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
-  return @{['change_chair',$1]} if $chair_is_next && $content =~ m/^\s*([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
-  return @{['change_chair',$1]} if $chair_is_next && $content =~ m/^\s*Верховної Ради України ([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
+  return @{['change_chair',$1]} if $chair_is_next && $content =~ m/^\s*(?:(?:(?:Верховної )?Ради )?України )?([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
+  return @{['change_chair',uc $1]} if $content =~ m/.* Верховної Ради України \s*([\p{Lu}\p{Lt}'’][\p{L}'’]+ (?:[\p{Lu}\p{Lt}]\. ?){1,2})\s*$/;
 
   # return 'speech' if @childnodes > 1; # not working - other content appears even in notes
 
@@ -537,13 +542,12 @@ sub get_p_category {
   return 'process_note' if $content =~ m/^\s*ЗАСІДАННЯ /;
   return 'process_note' if $content =~ m/^\s*(?:Сесійна зала|Сесійний зал) Верховної Ради України\s*$/;
 
-  return @{['change_chair_next',$1]} if $content =~ m/^\s*Веде засідання ((?:\w+ ){0,3}[Гг]олов[аи]) Верховної Ради України\s*$/;
-  return @{['change_chair_next',$1]} if $content =~ m/^\s*Веде засідання ((?:\w+ ){0,3}[Гг]олов[аи])\s*$/;
+  return @{['change_chair_next',$1]} if $content =~ m/^\s*Веде засідання ((?:[\p{L}'’]+\s){0,3}[Гг]олов[аи])(?: Верховної(?: Ради(?: України)?)?)?\s*$/;
   return 'process_note' if $content =~ m/\d+\s+\w+\s+\d+\s+року,\s+\d+\s+година/;
 
   return 'process_note' if $not_spaced_content =~  m/Сесійний зал Верховної Ради$/;
-  return 'process_note' if $not_spaced_content =~  m/^України\. \d+ \w+ \d\d\d\d року\.$/;
-  return 'process_note' if $content =~  m/(?: .){5}/ && $content !~  m/\w{5}/; # spaced text detection (contains spaced word len>5 and donesnt contain nonspaced)
+  return 'process_note' if $not_spaced_content =~  m/^України\. \d+ \p{Lt}+ \d\d\d\d року\.$/;
+  return 'process_note' if $content =~  m/(?: .){5}/ && $content !~  m/[\p{L}'’]{5}/; # spaced text detection (contains spaced word len>5 and donesnt contain nonspaced)
 
   return 'process_note' if $not_spaced_content =~ m/(?:ПІСЛЯ )?ПЕРЕРВИ/; # (after )break
 
@@ -591,6 +595,55 @@ sub open_html {
     }
   }
   return $doc
+}
+
+sub fix_html {
+  my $html = shift;
+  fix_html_replace_pre($_) for $html->findnodes('//pre');
+  return $html
+}
+
+sub fix_html_replace_pre {
+  my $pre = shift;
+  my $nodePlaceholder = $pre;
+  for my $chNode ($pre->childNodes){
+    for my $node (fix_html_to_p($chNode)){
+      if( $nodePlaceholder->hasAttribute('align')
+          && $node->textContent =~ /^(України|скликання).*/
+          && $nodePlaceholder->textContent =~ /^Веде/){ # append to previous node
+        $nodePlaceholder->appendText(' '.$node->textContent);
+
+      } else {
+        $pre->parentNode->insertAfter($node,$nodePlaceholder);
+        $nodePlaceholder = $node;
+      }
+    }
+  }
+  $pre->unbindNode;
+}
+
+sub fix_html_to_p {
+  my $node = shift;
+  my $type = shift//'';
+  my @nodes = ();
+  if(ref $node eq 'XML::LibXML::Text'){
+    for my $line (split /\n/,$node->textContent){
+      my ($spaces) = $line =~ s/^(\s*)//;
+      if($line){
+        my $p = XML::LibXML::Element->new('p');
+        $p->appendText($line);
+        if(length($spaces) > 5 or $type =~ m/[bi]/){
+          $p->setAttribute('align','center');
+        }
+        push @nodes,$p;
+      }
+    }
+  } else {
+    for my $n ($node ->childNodes){
+      push @nodes, fix_html_to_p($n,$node->nodeName);
+    }
+  }
+  return @nodes;
 }
 
 sub normalize_speaker {
