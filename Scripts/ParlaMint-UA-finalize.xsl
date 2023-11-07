@@ -37,6 +37,8 @@
   <!-- The name of the corpus directory to output to, i.e. "ParlaMint-XX" -->
   <xsl:variable name="corpusDir" select="concat('ParlaMint-UA.',$type)"/>
 
+  <xsl:key name="language-cnt" match="tei:lang-item" use="@cnt" />
+
   <xsl:variable name="languages">
     <item xml:lang="uk">
       <language xml:lang="en">Ukrainian</language>
@@ -108,6 +110,9 @@
         <url-orig>
           <xsl:value-of select="concat($inDir, '/', @href)"/>
         </url-orig>
+        <doc>
+          <xsl:apply-templates select="document(concat($inDir, '/', @href))" mode="process-languages"/>
+        </doc>
         <url-new>
           <xsl:value-of select="concat($outDir, '/', $corpusDir, '/')"/>
           <xsl:choose>
@@ -135,8 +140,7 @@
         <xsl:choose>
           <!-- For .ana files, compute number of words -->
           <xsl:when test="$type = 'TEI.ana'">
-            <xsl:value-of select="document(tei:url-orig)/
-                                  count(//tei:w[not(parent::tei:w)])"/>
+            <xsl:value-of select="count(tei:doc//tei:w[not(parent::tei:w)])"/>
           </xsl:when>
           <!-- For plain files, take number of words from .ana files -->
           <xsl:when test="doc-available(tei:url-ana)">
@@ -156,7 +160,7 @@
   <!-- Numbers of tokens in component .ana files -->
   <xsl:variable name="tokens">
     <xsl:for-each select="$docs/tei:item">
-      <xsl:variable name="doc-url" select="./tei:url-orig"/>
+      <xsl:variable name="doc" select="./tei:doc"/>
       <item n="{tei:xi-orig}">
         <xsl:for-each select="$languages/tei:item">
           <xsl:variable name="lang" select="."/>
@@ -164,10 +168,10 @@
             <xsl:choose>
               <!-- For .ana files, compute number of tokens -->
               <xsl:when test="$type = 'TEI.ana'">
-                <xsl:value-of select="document($doc-url)/
+                <xsl:value-of select="$doc/
                                     count(
-                                           //tei:w[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang/@xml:lang][not(parent::tei:w)]
-                                           | //tei:pc[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang/@xml:lang]
+                                           .//tei:w[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang/@xml:lang][not(parent::tei:w)]
+                                           | .//tei:pc[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang/@xml:lang]
                                          )"/>
               </xsl:when>
             </xsl:choose>
@@ -194,7 +198,7 @@
   <xsl:variable name="terms">
     <xsl:for-each select="$docs/tei:item">
       <item n="{tei:xi-orig}">
-        <xsl:copy-of select="document(tei:url-orig)/tei:TEI/tei:teiHeader//tei:meeting[contains(@ana,'#parla.term')]"/>
+        <xsl:copy-of select="tei:doc/tei:TEI/tei:teiHeader//tei:meeting[contains(@ana,'#parla.term')]"/>
       </item>
     </xsl:for-each>
   </xsl:variable>
@@ -203,7 +207,7 @@
   <xsl:variable name="dates">
     <xsl:for-each select="$docs/tei:item">
       <item n="{tei:xi-orig}">
-        <xsl:value-of select="document(tei:url-orig)/tei:TEI/tei:teiHeader//tei:settingDesc/tei:setting/tei:date/@when"/>
+        <xsl:value-of select="tei:doc/tei:TEI/tei:teiHeader//tei:settingDesc/tei:setting/tei:date/@when"/>
       </item>
     </xsl:for-each>
   </xsl:variable>
@@ -215,7 +219,7 @@
   <xsl:variable name="speeches">
     <xsl:for-each select="$docs/tei:item">
       <item n="{tei:xi-orig}">
-        <xsl:value-of select="count(document(tei:url-orig)/tei:TEI/tei:text//tei:u)"/>
+        <xsl:value-of select="count(tei:doc/tei:TEI/tei:text//tei:u)"/>
       </item>
     </xsl:for-each>
   </xsl:variable>
@@ -225,17 +229,17 @@
     <xsl:for-each select="$docs/tei:item">
       <item n="{tei:xi-orig}">
         <xsl:variable name="context-node" select="."/>
-        <xsl:for-each select="document(tei:url-orig)/
+        <xsl:for-each select="tei:doc/
                             distinct-values(tei:TEI/tei:text/descendant-or-self::tei:*/name())">
           <xsl:sort select="."/>
           <xsl:variable name="elem-name" select="."/>
           <!--item n="{$elem-name}">
-              <xsl:value-of select="$context-node/document(tei:url-orig)/
+              <xsl:value-of select="$context-node/tei:doc/
                                     count(tei:TEI/tei:text/descendant-or-self::tei:*[name()=$elem-name])"/>
           </item-->
           <xsl:element name="tagUsage">
             <xsl:attribute name="gi" select="$elem-name"/>
-            <xsl:attribute name="occurs" select="$context-node/document(tei:url-orig)/
+            <xsl:attribute name="occurs" select="$context-node/tei:doc/
                                     count(tei:TEI/tei:text/descendant-or-self::tei:*[name()=$elem-name])"/>
           </xsl:element>
         </xsl:for-each>
@@ -250,11 +254,11 @@
       <xsl:variable name="this" select="tei:xi-orig"/>
       <xsl:message select="concat('INFO: Processing ', $this)"/>
       <xsl:result-document href="{tei:url-new}">
-        <xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI">
-        <xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
-        <xsl:with-param name="speeches" select="$speeches/tei:item[@n = $this]"/>
-        <xsl:with-param name="tagUsages" select="$tagUsages/tei:item[@n = $this]"/>
-        <xsl:with-param name="date" select="$dates/tei:item[@n = $this]/text()"/>
+        <xsl:apply-templates mode="comp" select="tei:doc/tei:TEI">
+          <xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
+          <xsl:with-param name="speeches" select="$speeches/tei:item[@n = $this]"/>
+          <xsl:with-param name="tagUsages" select="$tagUsages/tei:item[@n = $this]"/>
+          <xsl:with-param name="date" select="$dates/tei:item[@n = $this]/text()"/>
         </xsl:apply-templates>
       </xsl:result-document>
       <xsl:message select="concat('INFO: Saving to ', tei:xi-new)"/>
@@ -657,6 +661,44 @@
         </xsl:copy>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+
+
+  <xsl:template match="tei:seg" mode="process-languages">
+    <xsl:variable name="segment-content">
+      <xsl:apply-templates mode="process-languages"/>
+    </xsl:variable>
+    <xsl:variable name="languages">
+      <xsl:for-each-group select="$segment-content/tei:s" group-by="@xml:lang">
+        <lang-item cnt="{count(current-group()//tei:w[not(tei:w)] | current-group()//tei:pc)}">
+          <xsl:value-of select="current-group()[1]/@xml:lang"/>
+        </lang-item>
+      </xsl:for-each-group>
+    </xsl:variable>
+    <xsl:copy>
+      <xsl:apply-templates select="@*[not(local-name='lang')]"/>
+      <xsl:attribute name="xml:lang" select="$languages/key('language-cnt', xs:string(max(tei:lang-item/@cnt)))/text()"/>
+      <xsl:copy-of select="$segment-content"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="tei:tmpLangSeg" mode="process-languages">
+    <xsl:apply-templates mode="process-languages"/>
+  </xsl:template>
+
+  <xsl:template match="tei:s" mode="process-languages">
+    <xsl:copy>
+      <xsl:apply-templates select="@*[not(local-name='lang')]"/>
+      <xsl:apply-templates select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+      <xsl:apply-templates mode="process-languages"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="*" mode="process-languages">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="process-languages"/>
+    </xsl:copy>
   </xsl:template>
 
   <xsl:template name="add-bibl-title">
