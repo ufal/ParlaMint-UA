@@ -614,7 +614,7 @@
   </xsl:template>
 
   <xsl:template name="add-profileDesc">
-    <xsl:copy>
+    <profileDesc>
       <settingDesc>
         <xsl:call-template name="add-setting"/>
       </settingDesc>
@@ -634,7 +634,7 @@
         </xsl:call-template>
       </particDesc>
       <xsl:call-template name="add-langUsage"/><!-- TODO: change to call-template and name template -->
-    </xsl:copy>
+    </profileDesc>
   </xsl:template>
 
   <xsl:template name="add-langUsage">
