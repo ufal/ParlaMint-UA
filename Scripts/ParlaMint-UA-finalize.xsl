@@ -609,11 +609,11 @@
           </appInfo>
         </xsl:if>
       </encodingDesc>
-      <xsl:apply-templates select="tei:profileDesc"/>
+      <xsl:call-template name="add-profileDesc"/>
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="tei:profileDesc">
+  <xsl:template name="add-profileDesc">
     <xsl:copy>
       <settingDesc>
         <xsl:call-template name="add-setting"/>
@@ -633,17 +633,17 @@
           <xsl:with-param name="out" select="concat($outDir,'/',$corpusDir, '/ParlaMint-UA-listPerson.xml')"/>
         </xsl:call-template>
       </particDesc>
-      <xsl:apply-templates select="tei:langUsage"/>
+      <xsl:call-template name="add-langUsage"/><!-- TODO: change to call-template and name template -->
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="tei:langUsage">
+  <xsl:template name="add-langUsage">
     <xsl:choose>
       <xsl:when test="$type = 'TEI'">
         <xsl:copy-of select="document($url-corpus-ana)/tei:teiCorpus//tei:langUsage"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:copy>
+        <langUsage>
           <!--xsl:apply-templates select="tei:language[not(@idetn='en')]"/-->
           <xsl:message>TODO: langUsage </xsl:message>
           <xsl:for-each select="$languages/*">
@@ -658,7 +658,7 @@
           </xsl:for-each>
           <language xml:lang="en" ident="en" usage="0">English</language>
           <language xml:lang="uk" ident="en" usage="0">Aнглійська</language>
-        </xsl:copy>
+        </langUsage>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
