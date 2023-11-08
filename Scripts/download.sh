@@ -9,7 +9,7 @@ CONFIG_FILE="config.sh"
 TERM=
 ID=
 OUTPUT_DIR=
-
+STATIC_DATA_DIR=
 
 
 usage() {
@@ -17,13 +17,16 @@ usage() {
   exit 1
 }
 
-while getopts  ':t:d:c:O:'  opt; do
+while getopts  ':t:s:d:c:O:'  opt; do
   case "$opt" in
     'c')
       CONFIG_FILE=$OPTARG
       ;;
     't')
       TERM=$OPTARG
+      ;;
+    's')
+      STATIC_DATA_DIR=$OPTARG
       ;;
     'd')
       ID=$OPTARG
@@ -70,6 +73,18 @@ function add_file(){
   mv $steno_dir/$1 $out_dir/$1
 }
 
+function add_static_file(){
+  md5sum=`md5sum $STATIC_DATA_DIR/$TERM/$1 |cut -f1 -d' '`
+  date=`echo $1 | sed 's/-.*$//;s/.htm//'`
+  number=`echo $1 | sed 's/\.htm$//' |sed '/^[0-9]*$/s/$/-0/'|sed 's/^.*-//'`
+  line=`iconv -f ISO-8859-1 -t UTF-8//TRANSLIT $STATIC_DATA_DIR/static_meta.tsv|grep -P "$date\t$TERM\t[0-9]+\t$number\t"|sort -r|head -n1`
+  session=`echo -n "$line" |cut -f3`
+  meeting_type=`echo -n "$line" |cut -f5|sed 's/^b//'|sed 's/_yellow/ regular/;s/_orange/ extraordinary/;s/_[a-z]*//g'|sed 's/^ //'`
+  url_source_html=`echo -n "$line" |cut -f7`
+  echo -e "$ID\t$md5sum\t$TERM\t$session\t$meeting_type\t$1\t$url_source_html" >> $OUTPUT_DIR/$seen_file ; \
+  cp $STATIC_DATA_DIR/$TERM/$1 $out_dir/$1
+}
+
 log "STARTED: $pid"
 log "CONFIG FILE: $CONFIG_FILE"
 
@@ -88,7 +103,7 @@ META=`xpath $meta_xml_path '//item[./name/text() = "stenogram_txt"]/concat(../op
 
 if grep -q `echo "$META"|cut -f2` $OUTPUT_DIR/$checksum_file
 then
-  exit 1
+  echo "NO NEW DATA"
 else
   STENO_META=`xpath $meta_xml_path '//item[./name/text() = "stenogram_ses"]/concat(../opendata,./path,./name,".",./archived,"&#9;",./checksum,"&#9;",./pubDate,"&#9;",./size)'`
   log "NEW DATA IN TERM $TERM"; \
@@ -119,4 +134,20 @@ else
   done
 fi
 
+log "checking new static files"
+for file in `ls $STATIC_DATA_DIR/$TERM`
+do
+  if grep -q $file $OUTPUT_DIR/$seen_file
+  then
+    md5sum=`md5sum $STATIC_DATA_DIR/$TERM/$file |cut -f1 -d' '`
+    if ! grep -q "$md5sum.*$file" $OUTPUT_DIR/$seen_file
+    then
+      log "static file changed: $file"
+      add_static_file $file
+    fi
+  else
+    log "new static file: $file"
+    add_static_file $file
+  fi
+done
 

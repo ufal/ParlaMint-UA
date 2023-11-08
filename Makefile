@@ -11,6 +11,7 @@ TERMSMETA = 2 3 4 5 6 7 8 9
 DATA := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA" || pwd')
 DATADIR = ${DATA}/Data
 TAXONOMIES := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA/current/Taxonomies" || echo -n `pwd`"/Taxonomies"')
+STATICDATA := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA/current/DataStatic" || echo -n `pwd`"/DataStatic"')
 
 UPDATE =
 ISUPDATE := $(shell sh -c 'test "$(UPDATE)" = "" || echo -n "-update"')
@@ -38,7 +39,7 @@ download-NN = $(addprefix download-, $(TERMS))
 download: $(download-NN)
 ## download-NN ## Downloads new data from term NN
 $(download-NN): download-%:
-	./Scripts/download.sh -t $* -d $(DATE) -O $(DATADIR) -c Scripts/config.sh || echo "$@: NO NEW DATA"
+	./Scripts/download.sh -t $* -d $(DATE) -s $(STATICDATA) -O $(DATADIR) -c Scripts/config.sh || echo "$@: NO NEW DATA"
 
 
 
