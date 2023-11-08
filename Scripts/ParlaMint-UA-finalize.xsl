@@ -42,6 +42,8 @@
   <xsl:variable name="corpusDir" select="concat('ParlaMint-UA.',$type)"/>
 
   <xsl:key name="language-cnt" match="tei:lang-item" use="@cnt" />
+  <xsl:key name="seg-id-language" match="tei:item" use="@xml:id" />
+
 
   <xsl:variable name="languages">
     <item xml:lang="uk">
@@ -198,6 +200,33 @@
     </xsl:for-each>
   </xsl:variable>
 
+  <!-- seg - xml:lang in component .ana files -->
+  <xsl:variable name="segLangs">
+    <xsl:for-each select="$docs/tei:item">
+      <item n="{tei:xi-orig}">
+        <xsl:choose>
+          <!-- not used in .ana version -->
+          <xsl:when test="$type = 'TEI.ana'"></xsl:when>
+          <!-- For plain files, take languages from .ana files -->
+          <xsl:when test="doc-available(tei:url-ana)">
+
+
+            <xsl:for-each select="document(tei:url-ana)/tei:TEI//tei:seg">
+              <item>
+                <xsl:apply-templates select="@xml:id"/>
+                <xsl:apply-templates select="@xml:lang"/>
+              </item>
+            </xsl:for-each>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id,
+                                   ': cannot locate .ana file ', tei:url-ana)"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </item>
+    </xsl:for-each>
+  </xsl:variable>
+
   <!-- Terms in component files -->
   <xsl:variable name="terms">
     <xsl:for-each select="$docs/tei:item">
@@ -263,6 +292,7 @@
           <xsl:with-param name="speeches" select="$speeches/tei:item[@n = $this]"/>
           <xsl:with-param name="tagUsages" select="$tagUsages/tei:item[@n = $this]"/>
           <xsl:with-param name="date" select="$dates/tei:item[@n = $this]/text()"/>
+          <xsl:with-param name="segLangs" select="$segLangs/tei:item[@n = $this]"/>
         </xsl:apply-templates>
       </xsl:result-document>
       <xsl:message select="concat('INFO: Saving to ', tei:xi-new)"/>
@@ -280,6 +310,7 @@
     <xsl:param name="speeches"/>
     <xsl:param name="tagUsages"/>
     <xsl:param name="date"/>
+    <xsl:param name="segLangs"/>
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:apply-templates mode="comp">
@@ -287,6 +318,7 @@
         <xsl:with-param name="speeches" select="$speeches"/>
         <xsl:with-param name="tagUsages" select="$tagUsages"/>
         <xsl:with-param name="date" select="$date"/>
+        <xsl:with-param name="segLangs" select="$segLangs"/>
       </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
@@ -300,6 +332,7 @@
     <xsl:param name="speeches"/>
     <xsl:param name="tagUsages"/>
     <xsl:param name="date"/>
+    <xsl:param name="segLangs"/>
     <xsl:variable name="ana">
       <xsl:choose>
         <xsl:when test="name() = 'TEI'"><xsl:text>#parla.sitting</xsl:text></xsl:when>
@@ -324,6 +357,7 @@
         <xsl:with-param name="speeches" select="$speeches"/>
         <xsl:with-param name="tagUsages" select="$tagUsages"/>
         <xsl:with-param name="date" select="$date"/>
+        <xsl:with-param name="segLangs" select="$segLangs"/>
       </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
@@ -398,6 +432,7 @@
 
   <!-- link utterance with person -->
   <xsl:template mode="comp" match="tei:u">
+    <xsl:param name="segLangs"/>
     <xsl:variable name="id" select="@xml:id"/>
     <xsl:variable name="speaker" select="$speaker-person//*:item[@utterance = $id]"/>
     <xsl:copy copy-namespaces="no">
@@ -415,10 +450,21 @@
           <xsl:attribute name="ana">#guest</xsl:attribute>
         </xsl:otherwise>
       </xsl:choose>
-      <xsl:apply-templates mode="comp"/>
+      <xsl:apply-templates mode="comp">
+        <xsl:with-param name="segLangs" select="$segLangs"/>
+      </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template mode="comp" match="tei:seg[$type = 'TEI']">
+    <xsl:param name="segLangs"/>
+    <xsl:variable name="id" select="@xml:id"/>
+    <xsl:copy copy-namespaces="no">
+      <xsl:apply-templates select="@*[not(name()='xml:lang')]" mode="comp" />
+      <xsl:attribute name="xml:lang" select="$segLangs/key('seg-id-language', $id)/@xml:lang"/>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
+  </xsl:template>
   <!-- Take care of syntactic words -->
   <xsl:template mode="comp" match="tei:w[tei:w]">
     <xsl:choose>
