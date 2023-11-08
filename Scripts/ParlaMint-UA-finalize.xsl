@@ -29,6 +29,10 @@
   <xsl:param name="handle-txt">http://hdl.handle.net/11356/XXXX</xsl:param>
   <xsl:param name="handle-ana">http://hdl.handle.net/11356/XXXX</xsl:param>
 
+  <xsl:param name="model-udpipe-uk">ukrainian-iu-ud-2.12-220711</xsl:param>
+  <xsl:param name="model-udpipe-ru">russian-syntagrus-ud-2.12-220711</xsl:param>
+  <xsl:param name="model-nametag-uk">ukrainian-languk-230306</xsl:param>
+
   <xsl:output method="xml" indent="yes"/>
   <xsl:preserve-space elements="catDesc seg p"/>
 
@@ -599,12 +603,12 @@
           </listPrefixDef>
           <appInfo>
             <application ident="UDPipe" version="2">
-               <label>UDPipe 2 (ukrainian-iu-ud-2.10-220711 and russian-syntagrus-ud-2.10-220711 models)</label>
-               <desc xml:lang="en">POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with ukrainian-iu-ud-2.10-220711 and russian-syntagrus-ud-2.10-220711 models</desc>
+               <label>UDPipe 2 (<xsl:value-of select="$model-udpipe-uk"/> and <xsl:value-of select="$model-udpipe-ru"/> models)</label>
+               <desc xml:lang="en">POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with <xsl:value-of select="$model-udpipe-uk"/> and <xsl:value-of select="$model-udpipe-ru"/> models</desc>
             </application>
             <application ident="NameTag" version="2">
-               <label>NameTag 2 (ukrainian-languk-230306 model)</label>
-               <desc>Name entity recognition done with NameTag 2 (<ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>) with ukrainian-languk-230306 model.</desc>
+               <label>NameTag 2 (<xsl:value-of select="$model-nametag-uk"/> model)</label>
+               <desc>Name entity recognition done with NameTag 2 (<ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>) with <xsl:value-of select="$model-nametag-uk"/> model.</desc>
             </application>
           </appInfo>
         </xsl:if>
