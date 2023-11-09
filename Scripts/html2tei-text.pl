@@ -336,6 +336,7 @@ HEADER
   }
 
   normalize_elements_and_spaces($tei->documentElement());
+  normalize_characters_in_text($tei->documentElement());
   annotate_notes($tei->documentElement());
   move_inaudible_inside_utterance($tei->documentElement());
   remove_empty($tei->documentElement(),'seg');
@@ -835,6 +836,15 @@ sub normalize_elements_and_spaces {
         $chNodes[$ch]->replaceDataRegEx('\s*\s\)',')', 'sg');
       }
     }
+  }
+}
+
+sub normalize_characters_in_text {
+  my $node = shift;
+  my @textNodes = $node->findnodes('.//*[local-name() = "text"]//text()');
+  for my $t (@textNodes){
+    $t->replaceDataRegEx('&amp;(amp;)*','&','sg');
+    $t->replaceDataRegEx("['`]","’",'sg');
   }
 }
 
