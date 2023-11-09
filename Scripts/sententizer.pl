@@ -85,6 +85,7 @@ for my $file (@file_list){
 
     my @childNodes = $node->childNodes();
     my $text = join('', grep {ref $_ eq 'XML::LibXML::Text'} @childNodes);
+    $text=~ s/&amp;/&/g;
     print STDERR "SEG: ($segId)$text\n" if $debug;
     my @sentences = split_to_sentences($text);
     $_->unbindNode for @childNodes;
@@ -97,6 +98,10 @@ for my $file (@file_list){
       print STDERR "LOOP: ($nodeIdx)nodeIdx\t($sentenceIdx)sentenceIdx\t($sentencePos)sentencePos\n" if $debug;
       print STDERR "SENTENCE: ",substr($sentences[$sentenceIdx],0,$sentencePos),"[[$sentencePos]]",substr($sentences[$sentenceIdx],$sentencePos),"\n" if $debug;
       print STDERR "\tsentenceLen=",length($sentences[$sentenceIdx]),"\n" if $debug;
+      print STDERR "\tcurText='$curText'\n" if $debug;
+      print STDERR "\ttext='$text'\n" if $debug;
+      print STDERR "\tNEW-NODE='",to_string($node),"'\n\n" if $debug;
+
       if ($nodeIdx <= $#childNodes and ref $childNodes[$nodeIdx] eq 'XML::LibXML::Element'){ # insert note
         print STDERR "\tNOTE\n" if $debug;
         $stack[0] -> appendChild($childNodes[$nodeIdx]);
@@ -104,6 +109,7 @@ for my $file (@file_list){
       } elsif ($nodeIdx <= $#childNodes and ref $childNodes[$nodeIdx] eq 'XML::LibXML::Text') { # processing text
         if(not defined $curText){
           $curText = $childNodes[$nodeIdx]->textContent();
+          $curText=~ s/&amp;/&/g;
         } elsif ($curText eq '') {
           undef $curText;
           $nodeIdx++;
@@ -114,7 +120,7 @@ for my $file (@file_list){
           $sentenceIdx++;
           shift @stack;
           $sentencePos = 0;
-        } elsif (($curText//'') =~ m/^\s/ ) { # space before/inside of sentence
+        } elsif (($curText//'') =~ m/^\s/ and substr($sentences[$sentenceIdx],$sentencePos) =~ m/^\S/) { # space before/inside of text that is not inside sentence
           $curText =~ s/^(\s)//;
           $stack[0]->appendText($1);
         } elsif(defined $curText) {
