@@ -676,6 +676,32 @@ $(DEV-prepare-test-downdata): DEV-prepare-test-downdata-%:
 	cat FileLists/$*.fl|xargs -I {} cp -f $(DATADIR)/download/$(DOWNLOAD_DATA_LAST)/{} $(DATADIR)/download/_$*/
 
 
+
+
+TEST-SET-NAME = default-test-set-name
+TEST-SET-REG = default-test-set-reg
+
+
+## DEV-create-test-set-NAME
+DEV-create-test-set: DEV-create-test-set-$(TEST-SET-NAME)
+
+DEV-create-test-set-$(TEST-SET-NAME):
+	mkdir $(DATADIR)/download/_$(TEST-SET-NAME)
+	touch $(DATADIR)/download/_$(TEST-SET-NAME)/download-seen.txt
+	grep -P '^[^_].*(?:$(TEST-SET-REG))' $(DATADIR)/download-seen.txt > $(DATADIR)/download/_$(TEST-SET-NAME)/download-seen.txt || :
+	cut -f1,6 $(DATADIR)/download/_$(TEST-SET-NAME)/download-seen.txt|sed 's#^\(.*\)\t\(.*\)$$#cp $(DATADIR)/download/\1/\2 $(DATADIR)/download/_$(TEST-SET-NAME)/\2#'|sh
+	cat $(DATADIR)/download/_$(TEST-SET-NAME)/download-seen.txt |sed 's#^[^\t]*#_$(TEST-SET-NAME)#' >> $(DATADIR)/download-seen.txt
+
+# ISSUE 69:
+# make DEV-create-test-set TEST-SET-NAME=ISSUE-69 TEST-SET-REG='/(?:1192|11|1269|1394|1395|1402|1465|1534|1553|1734|1832|1982|2037|2041|545|680|785)\.html'
+
+## DEV-remove-test-set-NAME
+DEV-remove-test-set-$(TEST-SET-NAME):
+	rm -rf $(DATADIR)/download/_$(TEST-SET-NAME)
+	sed -i '/^_$(TEST-SET-NAME)\t/d' $(DATADIR)/download-seen.txt
+
+
+
 ######---------------
 prereq: udpipe2 nametag2 lib
 
