@@ -246,6 +246,10 @@ HEADER
       add_time_note($seg // $utterance // $div,trim($p->textContent), $date);
       next;
     }
+    if($p_category eq 'media_transcript'){
+      add_note($seg // $utterance // $div,trim($p->textContent));
+      next;
+    }
     print STDERR "ERROR: missing chair\n" unless $chair;
     # print STDERR "DEBUG: $p\n" if $empty_par_before;
     for my $pchild ($p->childNodes()){
@@ -269,6 +273,7 @@ HEADER
               ? qr/NEVER_MATCHING_CONTENT/
               : qr/[\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’`]{2,}\s*(?:\.|\([\p{Lu}\p{Lt}][-\p{Lu}\p{Lt}'’`]{2,}\))/x;
          if($is_first
+          && $p_category ne 'no_speaker_change'
           && $content !~ m/^\s*[ЄЯ]\.\.*\s*/
           && (($speaker,$speech) = $content =~ m/^\s*(
                              $speaker_re
@@ -557,6 +562,8 @@ sub get_p_category {
   return 'process_note' if $not_spaced_content =~ m/(?:ПІСЛЯ )?ПЕРЕРВИ/; # (after )break
 
   return 'process_note' if $node->hasAttribute('align') && $node->getAttribute('align') eq 'center';
+  return 'no_speaker_change' if $content =~ /^\s*ПЕРЕЧЕНЬ\b/;
+  return 'media_transcript' if $content =~ /^\s*«?(?:ЧОЛОВІЧИЙ|ЖІНОЧИЙ) ГОЛОС\b/;
   return 'unknown';
 }
 
