@@ -48,7 +48,7 @@ my $speaker_name_re = qr/
   |
   (?:\b[\p{Lu}\p{Lt}'’]{2,}\b\s*)+ # full name
 )/x;
-my $chairman_re = qr/(?:(?:\S?[Г\S]?[ГОЛ]?[ОЛO]?[ЛОB]?[OВУ]{1,3}[ВУЮ]?О?[УЮЧ]? ?[ЮЧ]?(?:[ИЙ]{1,2}|А))(?<=\S{7})\.?|ГОЛОВ[АУ]\b\.?|ГОЛОВУЮЧІЙ\b\.?)/; # some character can miss, but minimum is 7
+my $chairman_re = qr/(?:(?:\S?[Г\S]?[ГОЛ]?[ОЛO]?[ЛОB]?[OВУ]{1,3}[ВУЮ]?О?[УЮЧ]? ?[ЮЧ]?(?:[ИЙ]{1,2}|А))(?<=\S{7})\.?|ГОЛОВ[АУ]\b\.?|ГОЛОВУЮЧІЙ\b\.?|ГОЛОСУЮЩИЙ\.)/; # some character can miss, but minimum is 7
 
 
 my @file_list = glob "$data_dir/$input_dir/$run_id/*.htm";
@@ -532,13 +532,14 @@ sub get_p_category {
   return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ ?\w+(?: \d\d\d\d року)?,? \d+(?:[:\.]\s*\d\d)?(?:\s*год(?:ина|\.))?\s*$/;
   return 'time_note' if $not_spaced_content =~  m/^\s*(?:\d+-)?\d+ ?\w+(?: \d\d\d\d року)?,? \d\d? година? \d\d? хвилин[аи]?\s*$/;
 
-  return @{['change_chair',$1]} if $content =~ m/.* Верховної Ради України \s*([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
+  return @{['change_chair',$1]} if $content =~ m/.* Верховної *Ради України \s*([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',$1]} if $content =~ m/^\s*Веде засідання [Гг]олов[аи] [Пп]ідготовчої депутатської групи \s*([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',$1]} if $content =~ m/^\s*Веде засідання \s*([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',$1]} if $content =~ m/^\s*Засідання веде\s+([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',$1]} if $content =~ m/^\s*Засідання веде (?:\w+ ){0,6}\s*([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
-  return @{['change_chair',$1]} if $chair_is_next && $content =~ m/^\s*(?:(?:(?:Верховної )?Ради )?України )?([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
+  return @{['change_chair',$1]} if $chair_is_next && $content =~ m/^\s*(?:(?:(?:Верховної )?Ради )?(?:України )?)?([\p{Lu}\p{Lt}'’]+[\p{Lu}\p{Lt} \.]*?)\s*$/;
   return @{['change_chair',uc $1]} if $content =~ m/.* Верховної Ради України \s*([\p{Lu}\p{Lt}'’][\p{L}'’]+ (?:[\p{Lu}\p{Lt}]\. ?){1,2})\s*$/;
+  return @{['change_chair',$1]} if $content =~ m/Веде засідання Голова Верховної Ради України(?: третього| п’ятого)?\s*(?:скликання)?\s*([\p{Lu}\p{Lt}'’][\p{L}'’]+ (?:[\p{Lu}\p{Lt}]\. ?){1,2})\s*$/;
 
   # return 'speech' if @childnodes > 1; # not working - other content appears even in notes
 
@@ -546,7 +547,7 @@ sub get_p_category {
   return 'process_note' if $content =~ m/^\s*ЗАСІДАННЯ /;
   return 'process_note' if $content =~ m/^\s*(?:Сесійна зала|Сесійний зал) Верховної Ради України\s*$/;
 
-  return @{['change_chair_next',$1]} if $content =~ m/^\s*Веде засідання ((?:[\p{L}'’]+\s){0,3}[Гг]олов[аи])(?: Верховної(?: Ради(?: України)?)?)?\s*$/;
+  return @{['change_chair_next',$1]} if $content =~ m/^\s*Веде засідання ((?:Перший заступник )?(?:[\p{L}'’]+\s){0,3}[Гг]олов[аи])(?: Верховної(?: Ради(?: України)?)?)?\s*$/;
   return 'process_note' if $content =~ m/\d+\s+\w+\s+\d+\s+року,\s+\d+\s+година/;
 
   return 'process_note' if $not_spaced_content =~  m/Сесійний зал Верховної Ради$/;
