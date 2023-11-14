@@ -48,7 +48,7 @@ my $speaker_name_re = qr/
   |
   (?:\b[\p{Lu}\p{Lt}'’]{2,}\b\s*)+ # full name
 )/x;
-my $chairman_re = qr/(?:(?:\S?[Г\S]?[ГОЛ]?[ОЛO]?[ЛОB]?[OВУ]{1,3}[ВУЮ]?[УЮЧ]?[ЮЧ]?(?:[ИЙ]{1,2}|А))(?<=\S{7})\.?|ГОЛОВА\b\.?)/; # some character can miss, but minimum is 7
+my $chairman_re = qr/(?:(?:\S?[Г\S]?[ГОЛ]?[ОЛO]?[ЛОB]?[OВУ]{1,3}[ВУЮ]?О?[УЮЧ]? ?[ЮЧ]?(?:[ИЙ]{1,2}|А))(?<=\S{7})\.?|ГОЛОВ[АУ]\b\.?|ГОЛОВУЮЧІЙ\b\.?)/; # some character can miss, but minimum is 7
 
 
 my @file_list = glob "$data_dir/$input_dir/$run_id/*.htm";
