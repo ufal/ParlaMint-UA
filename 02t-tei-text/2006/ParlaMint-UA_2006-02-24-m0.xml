@@ -1125,7 +1125,7 @@
                <seg xml:id="ParlaMint-UA_2006-02-24-m0.u141.p6">Ми про інші політичні сили і їх дії не. Дякую.</seg>
             </u>
             <note type="speaker">ГОЛОВУОЮЧИЙ.</note>
-            <u who="ГОЛОВУОЮЧИЙ." ana="#regular" xml:id="ParlaMint-UA_2006-02-24-m0.u142">
+            <u who="МАРТИНЮК А.І." ana="#chair" xml:id="ParlaMint-UA_2006-02-24-m0.u142">
                <seg xml:id="ParlaMint-UA_2006-02-24-m0.u142.p1">Так, обговорення питання завершено, будемо визначатися. Доповідачу одна хвилина. Шибко, будь ласка.</seg>
             </u>
             <note type="time"><time when="2006-02-24T12:49:55">12:49:55</time></note>

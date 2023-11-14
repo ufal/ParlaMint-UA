@@ -831,7 +831,7 @@
                <seg xml:id="ParlaMint-UA_2005-11-03-m0.u115.p1">Прошу передати слово Борису Безпалому.</seg>
             </u>
             <note type="speaker">ГОЛОВУ.</note>
-            <u who="ГОЛОВУ." ana="#regular" xml:id="ParlaMint-UA_2005-11-03-m0.u116">
+            <u who="ЛИТВИН В.М." ana="#chair" xml:id="ParlaMint-UA_2005-11-03-m0.u116">
                <seg xml:id="ParlaMint-UA_2005-11-03-m0.u116.p1">Борис Безпалий, будь ласка.</seg>
             </u>
             <note type="time"><time when="2005-11-03T11:30:37">11:30:37</time></note>
