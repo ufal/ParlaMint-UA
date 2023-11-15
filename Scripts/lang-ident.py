@@ -12,7 +12,7 @@ def ensure_directory_exists(directory_path):
 def main(argv):
   def lang_ident(text):
     lang = detector.detect_language_of(text)
-    return lang.name if lang else 'UNKNOWN'
+    return lang.name if lang else 'UKRAINIAN'
   languages = [Language.UKRAINIAN, Language.RUSSIAN]
   detector = LanguageDetectorBuilder.from_languages(*languages).build()
   indir = ''
