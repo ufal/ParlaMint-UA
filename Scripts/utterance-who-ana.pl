@@ -187,7 +187,7 @@ sub get_fallback {
   my ($date,$speaker,$field) = @_;
   $speaker =~ s/\.*$//;
   return '' unless $fallback->{$date};
-  return '' unless $fallback->{$date}->{$speaker};
+  return '' unless defined $fallback->{$date}->{$speaker};
   return $fallback->{$date}->{$speaker}->{$field};
 }
 
