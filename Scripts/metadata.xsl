@@ -209,9 +209,11 @@
           <xsl:variable name="country" select="$person/col[@name='Country']"/>
           <xsl:element name="persName" xmlns="http://www.tei-c.org/ns/1.0">
             <xsl:if test="$forename">
-              <xsl:element name="forename" xmlns="http://www.tei-c.org/ns/1.0">
-                <xsl:value-of select="$forename"/>
-              </xsl:element>
+              <xsl:for-each select="tokenize($forename,' *; *')">
+                <xsl:element name="forename" xmlns="http://www.tei-c.org/ns/1.0">
+                  <xsl:value-of select="."/>
+                </xsl:element>
+              </xsl:for-each>
             </xsl:if>
             <xsl:if test="$patronymic">
               <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
@@ -220,9 +222,11 @@
               </xsl:element>
             </xsl:if>
             <xsl:if test="$surname">
-              <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
-                <xsl:value-of select="$surname"/>
-              </xsl:element>
+              <xsl:for-each select="tokenize($surname,' *; *')">
+                <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
+                  <xsl:value-of select="."/>
+                </xsl:element>
+              </xsl:for-each>
             </xsl:if>
           </xsl:element>
           <xsl:variable name="sex" select="$person/col[@name='Sex']"/>
@@ -424,9 +428,11 @@
               <xsl:attribute name="to" select="$to"/>
             </xsl:if>
             <xsl:if test="$forename">
-              <xsl:element name="forename" xmlns="http://www.tei-c.org/ns/1.0">
-                <xsl:value-of select="$forename"/>
-              </xsl:element>
+              <xsl:for-each select="tokenize($forename,' *; *')">
+                <xsl:element name="forename" xmlns="http://www.tei-c.org/ns/1.0">
+                  <xsl:value-of select="."/>
+                </xsl:element>
+              </xsl:for-each>
             </xsl:if>
             <xsl:if test="$patronymic">
               <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
@@ -435,9 +441,11 @@
               </xsl:element>
             </xsl:if>
             <xsl:if test="$surname">
-              <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
-                <xsl:value-of select="$surname"/>
-              </xsl:element>
+              <xsl:for-each select="tokenize($surname,' *; *')">
+                <xsl:element name="surname" xmlns="http://www.tei-c.org/ns/1.0">
+                  <xsl:value-of select="."/>
+                </xsl:element>
+              </xsl:for-each>
             </xsl:if>
           </xsl:element>
         </xsl:for-each>
