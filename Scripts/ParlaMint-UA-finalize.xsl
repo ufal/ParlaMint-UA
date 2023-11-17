@@ -24,8 +24,8 @@
   <xsl:param name="speakers"/>
 
 
-  <xsl:param name="version">3.0a</xsl:param>
-  <xsl:param name="covid-date" as="xs:date">2019-11-01</xsl:param>
+  <xsl:param name="version">4.0.1</xsl:param>
+  <xsl:param name="covid-date" as="xs:date">2020-01-31</xsl:param>
   <xsl:param name="handle-txt">http://hdl.handle.net/11356/XXXX</xsl:param>
   <xsl:param name="handle-ana">http://hdl.handle.net/11356/XXXX</xsl:param>
 
@@ -727,7 +727,15 @@
     </xsl:variable>
     <xsl:copy>
       <xsl:apply-templates select="@*[not(local-name='lang')]"/>
-      <xsl:attribute name="xml:lang" select="$languages/key('language-cnt', xs:string(max(tei:lang-item/@cnt)))/text()"/>
+      <xsl:variable name="segLang" select="$languages/key('language-cnt', xs:string(max(tei:lang-item/@cnt)))"/>
+      <xsl:attribute name="xml:lang">
+        <xsl:choose>
+          <xsl:when test="count($segLang) > 1">uk</xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$segLang/text()"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
       <xsl:copy-of select="$segment-content"/>
     </xsl:copy>
   </xsl:template>
