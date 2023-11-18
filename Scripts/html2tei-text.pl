@@ -574,6 +574,13 @@ sub get_p_category {
 
 ################################################
 
+sub fix_html_before_parsing {
+  my $text = shift;
+  # move parentheses: (<i...>...</i>) ==> <i...>(...)</i>
+  $text =~ s#\((<i[^>]*>)([^<>]*?)(</i>)\)#\1(\2)\3#gm;
+  return $text;
+}
+
 sub trim {
   my $text = shift;
   $text =~ s/^\s*|\s*$//g;
@@ -590,6 +597,7 @@ sub open_html {
   binmode ( FILE, ":encoding(WINDOWS-1251)" ); # encoding(WINDOWS-1251) windows1251 utf8
   my $rawxml = <FILE>;
   $rawxml = decode_entities($rawxml);
+  $rawxml = fix_html_before_parsing($rawxml);
   close FILE;
 
   if ((! defined($rawxml)) || $rawxml eq '' ) {
