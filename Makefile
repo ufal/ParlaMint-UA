@@ -464,7 +464,11 @@ $(check-tei-particDesc-gov-update-RUN-LAST): check-tei-particDesc-gov-update-%:
 		test "$$status" = 'ERROR' && echo "ERROR: updates or deletes was done in google sheet" && exit 1 || : \
 	)
 
-
+tei-particDesc-FASTupdate-RUN-LAST = $(addprefix tei-particDesc-FASTupdate-, $(DOWNLOAD_META_DATA_LAST))
+tei-particDesc-FASTupdate: $(tei-particDesc-FASTupdate-RUN-LAST)
+$(tei-particDesc-FASTupdate-RUN-LAST): tei-particDesc-FASTupdate-%:
+	mkdir -p $(DATADIR)/tei-particDesc-update/$*
+	rsync -a $(DATADIR)/tei-particDesc/$*/ $(DATADIR)/tei-particDesc-update/$*
 
 
 
@@ -477,6 +481,12 @@ $(listPerson-aliases-update-RUN-LAST): listPerson-aliases-update-%:
 	  org-list="GOV.UA ВРУ" \
 	  $(DATADIR)/tei-particDesc-update/$(DOWNLOAD_META_DATA_LAST)/ParlaMint-UA-listPerson.xml \
 	  > $(DATADIR)/listPerson-aliases-update/$*/mp-data-aliases.tsv
+
+listPerson-aliases-FASTupdate-RUN-LAST = $(addprefix listPerson-aliases-FASTupdate-, $(DOWNLOAD_META_DATA_LAST))
+listPerson-aliases-FASTupdate: $(listPerson-aliases-FASTupdate-RUN-LAST)
+$(listPerson-aliases-FASTupdate-RUN-LAST): listPerson-aliases-FASTupdate-%:
+	mkdir -p $(DATADIR)/listPerson-aliases-update/$*
+	rsync -a $(DATADIR)/tei-particDesc-aliases/$*/ $(DATADIR)/listPerson-aliases-update/$*
 
 
 link-speakers-update-RUN-ALL = $(addprefix link-speakers-update-, $(TEI-TEXT_DATA_ALL))
@@ -497,6 +507,18 @@ $(link-speakers-update-RUN-ALL): link-speakers-update-%:
 	                           --out-dir-name "link-speakers-update" \
 	                           --linking "$(DATADIR)/link-speakers/$*/speaker-person-links.tsv" \
 	                           --speaker-aliases "$(DATADIR)/listPerson-aliases-update/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv"
+
+link-speakers-FASTupdate-RUN-ALL = $(addprefix link-speakers-FASTupdate-, $(TEI-TEXT_DATA_ALL))
+link-speakers-FASTupdate-RUN-LAST = $(addprefix link-speakers-FASTupdate-, $(TEI-TEXT_DATA_LAST))
+## link-speakers-FASTupdate ## link-speakers-FASTupdates
+link-speakers-FASTupdate: link-speakers-FASTupdate-last
+link-speakers-FASTupdate-last: $(link-speakers-FASTupdate-RUN-LAST)
+link-speakers-FASTupdate-all: $(link-speakers-FASTupdate-RUN-ALL)
+
+## link-speakers-FASTupdate-RUN ##
+$(link-speakers-FASTupdate-RUN-ALL): link-speakers-FASTupdate-%:
+	mkdir -p $(DATADIR)/link-speakers-update/$*/
+	rsync -a $(DATADIR)/link-speakers/$*/ $(DATADIR)/link-speakers-update/$*
 
 
 utterance-who-ana-RUN-ALL = $(addprefix utterance-who-ana-, $(TEI-TEXT_DATA_ALL))
@@ -694,6 +716,12 @@ DEV-create-test-set-$(TEST-SET-NAME):
 
 # ISSUE 69:
 # make DEV-create-test-set TEST-SET-NAME=ISSUE-69 TEST-SET-REG='/(?:1192|11|1269|1394|1395|1402|1465|1534|1553|1734|1832|1982|2037|2041|545|680|785)\.html'
+# ParlaMint-SAMPLE-DATA:
+# make DEV-create-test-set TEST-SET-NAME=ParlaMint-SAMPLE-DATA TEST-SET-REG='(?:20020521|20030417|20031105|20051115-1|20060725-1|20070405-1|20080401|20090701|20100427|20111220-1|20120427|20131022-1|20140325-1|20150317|20160616-1|20171206-1|20180712-1|20191217|20200424|20210330|20221018|20230726)\.htm\t'
+# ISSUE 72:
+# make DEV-create-test-set TEST-SET-NAME=ISSUE-72 TEST-SET-REG='(?:20110113|20111006|20111020|20111116|20111117-1|20120412-1|20120413|20120524-1|20120619|20140617|20140701|20140731)\.htm\t'
+
+
 
 ## DEV-remove-test-set-NAME
 DEV-remove-test-set-$(TEST-SET-NAME):
@@ -713,7 +741,7 @@ lib:
 	svn checkout https://github.com/ufal/ParCzech/trunk/src/lib
 
 lingua-py:
-	svn checkout https://github.com/pemistahl/lingua-py/trunk/lingua Scripts/lingua
+	test -d Scripts/lingua || svn export --revision 206 https://github.com/pemistahl/lingua-py/trunk/lingua Scripts/lingua
 ######---------------
 
 _help-intro:
