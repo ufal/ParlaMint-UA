@@ -1,7 +1,10 @@
 .DEFAULT_GOAL := help
 
-s = java -jar /usr/share/java/saxon.jar
-xpath = xargs -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -s:% -qs:
+JAVA-MEMORY =
+JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
+
+s = java $(JM) -jar /usr/share/java/saxon.jar
+xpath = xargs -I % java $(JM) -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -s:% -qs:
 
 
 ##$TERMS## Terms that are processed.
