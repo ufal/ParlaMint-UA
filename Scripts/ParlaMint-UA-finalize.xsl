@@ -34,6 +34,23 @@
   <xsl:param name="model-udpipe-ru">russian-syntagrus-ud-2.12-220711</xsl:param>
   <xsl:param name="model-nametag-uk">ukrainian-languk-230306</xsl:param>
 
+  <xsl:variable name="publisher">
+    <!--
+      <publisher>
+        <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+        <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
+        <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+      </publisher>
+-->
+      <publisher>
+        <orgName xml:lang="en">CLARIN.SI research infrastructure</orgName>
+        <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN.SI</orgName>
+        <ref target="https://www.clarin.si/">www.clarin.si</ref>
+      </publisher>
+  </xsl:variable>
+
+
+
   <xsl:output method="xml" indent="yes"/>
   <xsl:preserve-space elements="catDesc seg p"/>
 
@@ -897,12 +914,15 @@
 
   <xsl:template name="add-publicationStmt">
     <publicationStmt>
-      <publisher>
-        <orgName xml:lang="en">CLARIN research infrastructure</orgName>
-        <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
-        <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
-      </publisher>
-      <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+      <xsl:copy-of select="$publisher"/>
+      <xsl:choose>
+        <xsl:when test="$type = 'TEI'">
+          <idno type="URI" subtype="handle"><xsl:value-of select="$handle-txt"/></idno>
+        </xsl:when>
+        <xsl:when test="$type = 'TEI.ana'">
+          <idno type="URI" subtype="handle"><xsl:value-of select="$handle-ana"/></idno>
+        </xsl:when>
+      </xsl:choose>
       <availability status="free">
         <licence>http://creativecommons.org/licenses/by/4.0/</licence>
         <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
