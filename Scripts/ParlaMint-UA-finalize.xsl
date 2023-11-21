@@ -26,8 +26,9 @@
 
   <xsl:param name="version">4.0.1</xsl:param>
   <xsl:param name="covid-date" as="xs:date">2020-01-31</xsl:param>
-  <xsl:param name="handle-txt">http://hdl.handle.net/11356/XXXX</xsl:param>
-  <xsl:param name="handle-ana">http://hdl.handle.net/11356/XXXX</xsl:param>
+  <xsl:param name="war-date" as="xs:date">2022-02-24</xsl:param>
+  <xsl:param name="handle-txt">http://hdl.handle.net/11356/1900</xsl:param>
+  <xsl:param name="handle-ana">http://hdl.handle.net/11356/1901</xsl:param>
 
   <xsl:param name="model-udpipe-uk">ukrainian-iu-ud-2.12-220711</xsl:param>
   <xsl:param name="model-udpipe-ru">russian-syntagrus-ud-2.12-220711</xsl:param>
@@ -339,7 +340,7 @@
         <xsl:otherwise><xsl:text/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:variable name="covidCat">
+    <xsl:variable name="subcorpCat">
       <xsl:choose>
         <xsl:when test="$covid-date &lt;= $date">
           <xsl:text>#covid</xsl:text>
@@ -348,10 +349,13 @@
           <xsl:text>#reference</xsl:text>
         </xsl:when>
       </xsl:choose>
+      <xsl:if test="$war-date &lt;= $date">
+        <xsl:text> #war</xsl:text>
+      </xsl:if>
     </xsl:variable>
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*[not(name() = 'ana')]"/>
-      <xsl:attribute name="ana" select="normalize-space(concat($ana,' ',$covidCat))"/>
+      <xsl:attribute name="ana" select="normalize-space(concat($ana,' ',$subcorpCat))"/>
       <xsl:apply-templates mode="comp">
         <xsl:with-param name="words" select="$words"/>
         <xsl:with-param name="speeches" select="$speeches"/>
@@ -831,7 +835,7 @@
       </xsl:if>
     </respStmt>
     <xsl:element name="respStmt">
-      <persName>
+      <persName ref="https://orcid.org/0000-0001-6414-7456">
         <xsl:if test="$context='teiCorpus'">
           <xsl:attribute name="xml:id">AnnaKryvenko</xsl:attribute>
         </xsl:if>
@@ -842,15 +846,30 @@
       <resp xml:lang="en">Translations</resp>
       <resp xml:lang="uk">Переклад</resp>
     </xsl:element>
+    <xsl:element name="respStmt">
+      <persName>
+        <xsl:if test="$context='teiCorpus'">
+          <xsl:attribute name="xml:id">AndrianaRii</xsl:attribute>
+        </xsl:if>
+        <xsl:text>Andriana Rii</xsl:text>
+      </persName>
+      <resp xml:lang="en">Manual metadata retrieval</resp>
+      <resp xml:lang="uk">Ручне збирання метаданих</resp>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template name="add-funder">
     <funder>
       <orgName xml:lang="en">CLARIN ERIC</orgName>
+      <orgName xml:lang="uk">Загальна дослідницька інфраструктура мовних ресурсів і технологій</orgName>
     </funder>
     <funder>
       <orgName xml:lang="en">Slovenian Research Agency</orgName>
       <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
+    </funder>
+    <funder>
+      <orgName xml:lang="en">CLARIN.SI</orgName>
+      <orgName xml:lang="uk">Словенська дослідницька інфраструктура мовних ресурсів і технологій</orgName>
     </funder>
   </xsl:template>
 
