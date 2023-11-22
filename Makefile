@@ -561,7 +561,7 @@ $(listPerson-affiliation-fix-RUN-LAST): listPerson-affiliation-fix-%:
 
 ######
 
-PARTICDESC_DATA_LAST := $(shell ls $(DATADIR)/tei-particDesc | grep -v '_' | sort -r | head -n1)
+PARTICDESC_DATA_LAST := $(shell ls $(DATADIR)/tei-particDesc-update | grep -v '_' | sort -r | head -n1)
 
 
 TEI.ana-RUN-ALL = $(addprefix TEI.ana-, $(TEI-NER_DATA_ALL))
