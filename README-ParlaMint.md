@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country UA (Ukraine)
+# Samples of the ParlaMint-UA corpus
 
+- Country: UA (Ukraine)
 - Languages: uk (Ukrainian), ru (Russian)
 
 ## Documentation
@@ -12,18 +13,18 @@ Parliamentary meetings during one term are grouped into several sessions. Each f
 
 Commonly there may be one or two parliamentary meetings per day (a morning and an evening sitting).
 
-Although the official working language of the Rada is Ukrainian, some speeches during the parliamentary proceedings on record were be held in other languages. All the speeches delivered by foreign guests in languages other than Ukrainian were recorded in their translation into Ukrainian in the source texts. However, utterances by Ukrainian MPs and government officials that were produced in Russian were recorded in Russian. With language identification done at the sentence level in the ParlaMint-UA 4.0.1 corpus, tokens in Ukrainian comprise 94% and tokens in Russian comprise 6% in the source texts. Instances of using Russian in the Verkhovna Rada occurred mostly before mid-2019, when the Law on Protecting the Functioning of the Ukrainian Language as the State Language came into effect. 
+Although the official working language of the Rada is Ukrainian, some speeches during the parliamentary proceedings on record were be held in other languages. All the speeches delivered by foreign guests in languages other than Ukrainian were recorded in their translation into Ukrainian in the source texts. However, utterances by Ukrainian MPs and government officials that were produced in Russian were recorded in Russian. With language identification done at the sentence level in the ParlaMint-UA 4.0.1 corpus, tokens in Ukrainian comprise 94% and tokens in Russian comprise 6% in the source texts. Instances of using Russian in the Verkhovna Rada occurred mostly before mid-2019, when the Law on Protecting the Functioning of the Ukrainian Language as the State Language came into effect.
 
-The political system in Ukraine is multi-party, with 349 political parties on record at the country's Single Registry as of 1 January 2020. Contemporary political parties in Ukraine tend not to have clear-cut ideologies and centre around civilizational and geostrategic orientations, individual politicians or business interests. Also, renaming and rebranding political parties ahead of elections is not unusual. Parties that break the 5% electoral threshold form factions in the parliament. MPs elected on party lists may be either members of the respective parties or be nominated by those parties without membership. Parliamentary groups may consist of MPs who left a parliamentary faction, members of different political parties or independent politicians. An MP may be a member of only one parliamentary faction or group at a time. However, crossing the floor, i.e. formally changing one's political affiliation to a parliamentary faction or group different from the one an MP initially joined, is not exceptional in the Rada.    
+The political system in Ukraine is multi-party, with 349 political parties on record at the country's Single Registry as of 1 January 2020. Contemporary political parties in Ukraine tend not to have clear-cut ideologies and centre around civilizational and geostrategic orientations, individual politicians or business interests. Also, renaming and rebranding political parties ahead of elections is not unusual. Parties that break the 5% electoral threshold form factions in the parliament. MPs elected on party lists may be either members of the respective parties or be nominated by those parties without membership. Parliamentary groups may consist of MPs who left a parliamentary faction, members of different political parties or independent politicians. An MP may be a member of only one parliamentary faction or group at a time. However, crossing the floor, i.e. formally changing one's political affiliation to a parliamentary faction or group different from the one an MP initially joined, is not exceptional in the Rada.
 
 
 ### Data source and acquisition
 
-The ParlaMint-UA 4.0.1 corpus contains proceedings for the 4th, 5th, 6th, 7th, 8th and 9th terms of the Rada between 14 May 2002 and 10 November 2023. Archived records of all plenary sittings are available through the open data portal at the Rada site in HTM format (https://data.rada.gov.ua/open/data/plenary/page5/sp?int) under the CC BY 4.0 licence. 
+The ParlaMint-UA 4.0.1 corpus contains proceedings for the 4th, 5th, 6th, 7th, 8th and 9th terms of the Rada between 14 May 2002 and 10 November 2023. Archived records of all plenary sittings are available through the open data portal at the Rada site in HTM format (https://data.rada.gov.ua/open/data/plenary/page5/sp?int) under the CC BY 4.0 licence.
 
-The metadata related to MPs were in part retrieved from the Rada website and in part gathered manually from official sources including the Central Election Commission of Ukraine, and Holos Ukrainy, which is the official periodical of the Rada, as well as from other open data sources. Metadata related to Cabinet members and guest speakers were gathered manually from the current sites of the Cabinet of Ministers of Ukraine and the Rada, archived copies of webpages from the sites of the Rada, the Cabinet of Ministers of Ukraine, and the President of Ukraine as well as various open data sources including NGOs’ websites, mass and social media, and Wikipedia. 
+The metadata related to MPs were in part retrieved from the Rada website and in part gathered manually from official sources including the Central Election Commission of Ukraine, and Holos Ukrainy, which is the official periodical of the Rada, as well as from other open data sources. Metadata related to Cabinet members and guest speakers were gathered manually from the current sites of the Cabinet of Ministers of Ukraine and the Rada, archived copies of webpages from the sites of the Rada, the Cabinet of Ministers of Ukraine, and the President of Ukraine as well as various open data sources including NGOs’ websites, mass and social media, and Wikipedia.
 
-Since Chapel Hill expert surveys do not include Ukraine, the metadata on political orientation of the Ukrainian parties was obtained from Wikipedia, if available, and other sources including party webpages as well as analytical reports and publications by Ukrainian think tanks and research institutes. 
+Since Chapel Hill expert surveys do not include Ukraine, the metadata on political orientation of the Ukrainian parties was obtained from Wikipedia, if available, and other sources including party webpages as well as analytical reports and publications by Ukrainian think tanks and research institutes.
 
 
 ### Data encoding process
@@ -31,11 +32,11 @@ Since Chapel Hill expert surveys do not include Ukraine, the metadata on politic
 No correction of source texts was performed. Spaces were normalized. Sequences of dots were replaced with a single dot. Adjected notes were joined. Opening and closing parentheses were moved into notes if missing. Regular apostrophes were replaced with soft apostrophes, which are used in the Ukrainian language. No end-of-line hyphens were present in the source. Quotation marks have been left in the text and are not explicitly marked up. The texts were segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).
 
 Language identification was done at the sentence level using the https://github.com/pemistahl/lingua-py library. The following language identification procedure was used:
-1)	paragraphs were segmented into sentences with UDPipe1 and ukrainian-iu-ud-2.5-191206.udpipe model (language distinction was irrelevant at this stage, as it was assumed that overall sentence segmentation was the same in Ukrainian and Russian); 
-2)	the language of sentences was identified; 
+1)	paragraphs were segmented into sentences with UDPipe1 and ukrainian-iu-ud-2.5-191206.udpipe model (language distinction was irrelevant at this stage, as it was assumed that overall sentence segmentation was the same in Ukrainian and Russian);
+2)	the language of sentences was identified;
 3)	adjected sentences were merged with the same language that was in the same paragraph to spans;
 4)	udpipe annotation was done with the respective span models ukrainian-iu-ud-2.12-230717 and russian-syntagrus-ud-2.12-230717;
-5)	paragraph language was set based on dominating token language (if equal, then Ukrainian). 
+5)	paragraph language was set based on dominating token language (if equal, then Ukrainian).
 
 
 ### Corpus-specific metadata
