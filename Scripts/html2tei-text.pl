@@ -147,7 +147,7 @@ HEADER
 
   $root_node->appendChild($teiHeader);
   my $div = $root_node->addNewChild(undef,'text')->addNewChild(undef,'body')->addNewChild(undef,'div');
-  $div->setAttribute('type','debateSection');
+  #$div->setAttribute('type','debateSection'); # added in finalization
   my ($chair,$sitting_date,$doc_proc_state);
   my @p = $htm->findnodes('/html/body/text() | /html/body/p | /html/body//div/p ');
   my @unexpected_content = $htm->findnodes('/html/body/*[not(name()="p")][not(name()="div")] ');

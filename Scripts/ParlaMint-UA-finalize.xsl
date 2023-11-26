@@ -388,6 +388,29 @@
     </xsl:attribute>
   </xsl:template>
 
+  <xsl:template mode="comp" match="tei:div">
+    <xsl:param name="words"/>
+    <xsl:param name="speeches"/>
+    <xsl:param name="tagUsages"/>
+    <xsl:param name="date"/>
+    <xsl:param name="segLangs"/>
+    <xsl:copy>
+      <xsl:attribute name="type">
+        <xsl:choose>
+          <xsl:when test="./tei:u">debateSection</xsl:when>
+          <xsl:otherwise>commentSection</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      <xsl:apply-templates mode="comp">
+        <xsl:with-param name="words" select="$words"/>
+        <xsl:with-param name="speeches" select="$speeches"/>
+        <xsl:with-param name="tagUsages" select="$tagUsages"/>
+        <xsl:with-param name="date" select="$date"/>
+        <xsl:with-param name="segLangs" select="$segLangs"/>
+      </xsl:apply-templates>
+    </xsl:copy>
+  </xsl:template>
+
   <xsl:template mode="comp" match="tei:titleStmt">
     <xsl:param name="date"/>
     <xsl:copy>
