@@ -24,10 +24,32 @@
   <xsl:param name="speakers"/>
 
 
-  <xsl:param name="version">3.0a</xsl:param>
-  <xsl:param name="covid-date" as="xs:date">2019-11-01</xsl:param>
-  <xsl:param name="handle-txt">http://hdl.handle.net/11356/XXXX</xsl:param>
-  <xsl:param name="handle-ana">http://hdl.handle.net/11356/XXXX</xsl:param>
+  <xsl:param name="version">4.0.1</xsl:param>
+  <xsl:param name="covid-date" as="xs:date">2020-01-31</xsl:param>
+  <xsl:param name="war-date" as="xs:date">2022-02-24</xsl:param>
+  <xsl:param name="handle-txt">http://hdl.handle.net/11356/1900</xsl:param>
+  <xsl:param name="handle-ana">http://hdl.handle.net/11356/1901</xsl:param>
+
+  <xsl:param name="model-udpipe-uk">ukrainian-iu-ud-2.12-220711</xsl:param>
+  <xsl:param name="model-udpipe-ru">russian-syntagrus-ud-2.12-220711</xsl:param>
+  <xsl:param name="model-nametag-uk">ukrainian-languk-230306</xsl:param>
+
+  <xsl:variable name="publisher">
+    <!--
+      <publisher>
+        <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+        <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
+        <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+      </publisher>
+-->
+      <publisher>
+        <orgName xml:lang="en">CLARIN.SI research infrastructure</orgName>
+        <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN.SI</orgName>
+        <ref target="https://www.clarin.si/">www.clarin.si</ref>
+      </publisher>
+  </xsl:variable>
+
+
 
   <xsl:output method="xml" indent="yes"/>
   <xsl:preserve-space elements="catDesc seg p"/>
@@ -36,6 +58,10 @@
   <xsl:variable name="inDir" select="replace(base-uri(), '(.*)/.*', '$1')"/>
   <!-- The name of the corpus directory to output to, i.e. "ParlaMint-XX" -->
   <xsl:variable name="corpusDir" select="concat('ParlaMint-UA.',$type)"/>
+
+  <xsl:key name="language-cnt" match="tei:lang-item" use="@cnt" />
+  <xsl:key name="seg-id-language" match="tei:item" use="@xml:id" />
+
 
   <xsl:variable name="languages">
     <item xml:lang="uk">
@@ -108,6 +134,9 @@
         <url-orig>
           <xsl:value-of select="concat($inDir, '/', @href)"/>
         </url-orig>
+        <doc>
+          <xsl:apply-templates select="document(concat($inDir, '/', @href))" mode="process-languages"/>
+        </doc>
         <url-new>
           <xsl:value-of select="concat($outDir, '/', $corpusDir, '/')"/>
           <xsl:choose>
@@ -135,8 +164,7 @@
         <xsl:choose>
           <!-- For .ana files, compute number of words -->
           <xsl:when test="$type = 'TEI.ana'">
-            <xsl:value-of select="document(tei:url-orig)/
-                                  count(//tei:w[not(parent::tei:w)])"/>
+            <xsl:value-of select="count(tei:doc//tei:w[not(parent::tei:w)])"/>
           </xsl:when>
           <!-- For plain files, take number of words from .ana files -->
           <xsl:when test="doc-available(tei:url-ana)">
@@ -156,7 +184,7 @@
   <!-- Numbers of tokens in component .ana files -->
   <xsl:variable name="tokens">
     <xsl:for-each select="$docs/tei:item">
-      <xsl:variable name="doc-url" select="./tei:url-orig"/>
+      <xsl:variable name="doc" select="./tei:doc"/>
       <item n="{tei:xi-orig}">
         <xsl:for-each select="$languages/tei:item">
           <xsl:variable name="lang" select="."/>
@@ -164,10 +192,10 @@
             <xsl:choose>
               <!-- For .ana files, compute number of tokens -->
               <xsl:when test="$type = 'TEI.ana'">
-                <xsl:value-of select="document($doc-url)/
+                <xsl:value-of select="$doc/
                                     count(
-                                           //tei:w[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang/@xml:lang][not(parent::tei:w)]
-                                           | //tei:pc[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang/@xml:lang]
+                                           .//tei:w[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang/@xml:lang][not(parent::tei:w)]
+                                           | .//tei:pc[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang/@xml:lang]
                                          )"/>
               </xsl:when>
             </xsl:choose>
@@ -190,11 +218,38 @@
     </xsl:for-each>
   </xsl:variable>
 
+  <!-- seg - xml:lang in component .ana files -->
+  <xsl:variable name="segLangs">
+    <xsl:for-each select="$docs/tei:item">
+      <item n="{tei:xi-orig}">
+        <xsl:choose>
+          <!-- not used in .ana version -->
+          <xsl:when test="$type = 'TEI.ana'"></xsl:when>
+          <!-- For plain files, take languages from .ana files -->
+          <xsl:when test="doc-available(tei:url-ana)">
+
+
+            <xsl:for-each select="document(tei:url-ana)/tei:TEI//tei:seg">
+              <item>
+                <xsl:apply-templates select="@xml:id"/>
+                <xsl:apply-templates select="@xml:lang"/>
+              </item>
+            </xsl:for-each>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id,
+                                   ': cannot locate .ana file ', tei:url-ana)"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </item>
+    </xsl:for-each>
+  </xsl:variable>
+
   <!-- Terms in component files -->
   <xsl:variable name="terms">
     <xsl:for-each select="$docs/tei:item">
       <item n="{tei:xi-orig}">
-        <xsl:copy-of select="document(tei:url-orig)/tei:TEI/tei:teiHeader//tei:meeting[contains(@ana,'#parla.term')]"/>
+        <xsl:copy-of select="tei:doc/tei:TEI/tei:teiHeader//tei:meeting[contains(@ana,'#parla.term')]"/>
       </item>
     </xsl:for-each>
   </xsl:variable>
@@ -203,7 +258,7 @@
   <xsl:variable name="dates">
     <xsl:for-each select="$docs/tei:item">
       <item n="{tei:xi-orig}">
-        <xsl:value-of select="document(tei:url-orig)/tei:TEI/tei:teiHeader//tei:settingDesc/tei:setting/tei:date/@when"/>
+        <xsl:value-of select="tei:doc/tei:TEI/tei:teiHeader//tei:settingDesc/tei:setting/tei:date/@when"/>
       </item>
     </xsl:for-each>
   </xsl:variable>
@@ -215,7 +270,7 @@
   <xsl:variable name="speeches">
     <xsl:for-each select="$docs/tei:item">
       <item n="{tei:xi-orig}">
-        <xsl:value-of select="count(document(tei:url-orig)/tei:TEI/tei:text//tei:u)"/>
+        <xsl:value-of select="count(tei:doc/tei:TEI/tei:text//tei:u)"/>
       </item>
     </xsl:for-each>
   </xsl:variable>
@@ -225,17 +280,17 @@
     <xsl:for-each select="$docs/tei:item">
       <item n="{tei:xi-orig}">
         <xsl:variable name="context-node" select="."/>
-        <xsl:for-each select="document(tei:url-orig)/
+        <xsl:for-each select="tei:doc/
                             distinct-values(tei:TEI/tei:text/descendant-or-self::tei:*/name())">
           <xsl:sort select="."/>
           <xsl:variable name="elem-name" select="."/>
           <!--item n="{$elem-name}">
-              <xsl:value-of select="$context-node/document(tei:url-orig)/
+              <xsl:value-of select="$context-node/tei:doc/
                                     count(tei:TEI/tei:text/descendant-or-self::tei:*[name()=$elem-name])"/>
           </item-->
           <xsl:element name="tagUsage">
             <xsl:attribute name="gi" select="$elem-name"/>
-            <xsl:attribute name="occurs" select="$context-node/document(tei:url-orig)/
+            <xsl:attribute name="occurs" select="$context-node/tei:doc/
                                     count(tei:TEI/tei:text/descendant-or-self::tei:*[name()=$elem-name])"/>
           </xsl:element>
         </xsl:for-each>
@@ -250,11 +305,12 @@
       <xsl:variable name="this" select="tei:xi-orig"/>
       <xsl:message select="concat('INFO: Processing ', $this)"/>
       <xsl:result-document href="{tei:url-new}">
-        <xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI">
-        <xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
-        <xsl:with-param name="speeches" select="$speeches/tei:item[@n = $this]"/>
-        <xsl:with-param name="tagUsages" select="$tagUsages/tei:item[@n = $this]"/>
-        <xsl:with-param name="date" select="$dates/tei:item[@n = $this]/text()"/>
+        <xsl:apply-templates mode="comp" select="tei:doc/tei:TEI">
+          <xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
+          <xsl:with-param name="speeches" select="$speeches/tei:item[@n = $this]"/>
+          <xsl:with-param name="tagUsages" select="$tagUsages/tei:item[@n = $this]"/>
+          <xsl:with-param name="date" select="$dates/tei:item[@n = $this]/text()"/>
+          <xsl:with-param name="segLangs" select="$segLangs/tei:item[@n = $this]"/>
         </xsl:apply-templates>
       </xsl:result-document>
       <xsl:message select="concat('INFO: Saving to ', tei:xi-new)"/>
@@ -272,6 +328,7 @@
     <xsl:param name="speeches"/>
     <xsl:param name="tagUsages"/>
     <xsl:param name="date"/>
+    <xsl:param name="segLangs"/>
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:apply-templates mode="comp">
@@ -279,6 +336,7 @@
         <xsl:with-param name="speeches" select="$speeches"/>
         <xsl:with-param name="tagUsages" select="$tagUsages"/>
         <xsl:with-param name="date" select="$date"/>
+        <xsl:with-param name="segLangs" select="$segLangs"/>
       </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
@@ -292,13 +350,14 @@
     <xsl:param name="speeches"/>
     <xsl:param name="tagUsages"/>
     <xsl:param name="date"/>
+    <xsl:param name="segLangs"/>
     <xsl:variable name="ana">
       <xsl:choose>
         <xsl:when test="name() = 'TEI'"><xsl:text>#parla.sitting</xsl:text></xsl:when>
         <xsl:otherwise><xsl:text/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:variable name="covidCat">
+    <xsl:variable name="subcorpCat">
       <xsl:choose>
         <xsl:when test="$covid-date &lt;= $date">
           <xsl:text>#covid</xsl:text>
@@ -307,15 +366,19 @@
           <xsl:text>#reference</xsl:text>
         </xsl:when>
       </xsl:choose>
+      <xsl:if test="$war-date &lt;= $date">
+        <xsl:text> #war</xsl:text>
+      </xsl:if>
     </xsl:variable>
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*[not(name() = 'ana')]"/>
-      <xsl:attribute name="ana" select="normalize-space(concat($ana,' ',$covidCat))"/>
+      <xsl:attribute name="ana" select="normalize-space(concat($ana,' ',$subcorpCat))"/>
       <xsl:apply-templates mode="comp">
         <xsl:with-param name="words" select="$words"/>
         <xsl:with-param name="speeches" select="$speeches"/>
         <xsl:with-param name="tagUsages" select="$tagUsages"/>
         <xsl:with-param name="date" select="$date"/>
+        <xsl:with-param name="segLangs" select="$segLangs"/>
       </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
@@ -323,6 +386,29 @@
     <xsl:attribute name="xml:id">
       <xsl:value-of select="concat(.,$suff)"/>
     </xsl:attribute>
+  </xsl:template>
+
+  <xsl:template mode="comp" match="tei:div">
+    <xsl:param name="words"/>
+    <xsl:param name="speeches"/>
+    <xsl:param name="tagUsages"/>
+    <xsl:param name="date"/>
+    <xsl:param name="segLangs"/>
+    <xsl:copy>
+      <xsl:attribute name="type">
+        <xsl:choose>
+          <xsl:when test="./tei:u">debateSection</xsl:when>
+          <xsl:otherwise>commentSection</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      <xsl:apply-templates mode="comp">
+        <xsl:with-param name="words" select="$words"/>
+        <xsl:with-param name="speeches" select="$speeches"/>
+        <xsl:with-param name="tagUsages" select="$tagUsages"/>
+        <xsl:with-param name="date" select="$date"/>
+        <xsl:with-param name="segLangs" select="$segLangs"/>
+      </xsl:apply-templates>
+    </xsl:copy>
   </xsl:template>
 
   <xsl:template mode="comp" match="tei:titleStmt">
@@ -390,6 +476,7 @@
 
   <!-- link utterance with person -->
   <xsl:template mode="comp" match="tei:u">
+    <xsl:param name="segLangs"/>
     <xsl:variable name="id" select="@xml:id"/>
     <xsl:variable name="speaker" select="$speaker-person//*:item[@utterance = $id]"/>
     <xsl:copy copy-namespaces="no">
@@ -407,10 +494,21 @@
           <xsl:attribute name="ana">#guest</xsl:attribute>
         </xsl:otherwise>
       </xsl:choose>
-      <xsl:apply-templates mode="comp"/>
+      <xsl:apply-templates mode="comp">
+        <xsl:with-param name="segLangs" select="$segLangs"/>
+      </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template mode="comp" match="tei:seg[$type = 'TEI']">
+    <xsl:param name="segLangs"/>
+    <xsl:variable name="id" select="@xml:id"/>
+    <xsl:copy copy-namespaces="no">
+      <xsl:apply-templates select="@*[not(name()='xml:lang')]" mode="comp" />
+      <xsl:attribute name="xml:lang" select="$segLangs/key('seg-id-language', $id)/@xml:lang"/>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
+  </xsl:template>
   <!-- Take care of syntactic words -->
   <xsl:template mode="comp" match="tei:w[tei:w]">
     <xsl:choose>
@@ -595,22 +693,22 @@
           </listPrefixDef>
           <appInfo>
             <application ident="UDPipe" version="2">
-               <label>UDPipe 2 (ukrainian-iu-ud-2.10-220711 and russian-syntagrus-ud-2.10-220711 models)</label>
-               <desc xml:lang="en">POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with ukrainian-iu-ud-2.10-220711 and russian-syntagrus-ud-2.10-220711 models</desc>
+               <label>UDPipe 2 (<xsl:value-of select="$model-udpipe-uk"/> and <xsl:value-of select="$model-udpipe-ru"/> models)</label>
+               <desc xml:lang="en">POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with <xsl:value-of select="$model-udpipe-uk"/> and <xsl:value-of select="$model-udpipe-ru"/> models</desc>
             </application>
             <application ident="NameTag" version="2">
-               <label>NameTag 2 (ukrainian-languk-230306 model)</label>
-               <desc>Name entity recognition done with NameTag 2 (<ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>) with ukrainian-languk-230306 model.</desc>
+               <label>NameTag 2 (<xsl:value-of select="$model-nametag-uk"/> model)</label>
+               <desc>Name entity recognition done with NameTag 2 (<ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>) with <xsl:value-of select="$model-nametag-uk"/> model.</desc>
             </application>
           </appInfo>
         </xsl:if>
       </encodingDesc>
-      <xsl:apply-templates select="tei:profileDesc"/>
+      <xsl:call-template name="add-profileDesc"/>
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="tei:profileDesc">
-    <xsl:copy>
+  <xsl:template name="add-profileDesc">
+    <profileDesc>
       <settingDesc>
         <xsl:call-template name="add-setting"/>
       </settingDesc>
@@ -629,17 +727,17 @@
           <xsl:with-param name="out" select="concat($outDir,'/',$corpusDir, '/ParlaMint-UA-listPerson.xml')"/>
         </xsl:call-template>
       </particDesc>
-      <xsl:apply-templates select="tei:langUsage"/>
-    </xsl:copy>
+      <xsl:call-template name="add-langUsage"/><!-- TODO: change to call-template and name template -->
+    </profileDesc>
   </xsl:template>
 
-  <xsl:template match="tei:langUsage">
+  <xsl:template name="add-langUsage">
     <xsl:choose>
       <xsl:when test="$type = 'TEI'">
         <xsl:copy-of select="document($url-corpus-ana)/tei:teiCorpus//tei:langUsage"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:copy>
+        <langUsage>
           <!--xsl:apply-templates select="tei:language[not(@idetn='en')]"/-->
           <xsl:message>TODO: langUsage </xsl:message>
           <xsl:for-each select="$languages/*">
@@ -654,9 +752,55 @@
           </xsl:for-each>
           <language xml:lang="en" ident="en" usage="0">English</language>
           <language xml:lang="uk" ident="en" usage="0">Aнглійська</language>
-        </xsl:copy>
+        </langUsage>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+
+
+  <xsl:template match="tei:seg" mode="process-languages">
+    <xsl:variable name="segment-content">
+      <xsl:apply-templates mode="process-languages"/>
+    </xsl:variable>
+    <xsl:variable name="languages">
+      <xsl:for-each-group select="$segment-content/tei:s" group-by="@xml:lang">
+        <lang-item cnt="{count(current-group()//tei:w[not(tei:w)] | current-group()//tei:pc)}">
+          <xsl:value-of select="current-group()[1]/@xml:lang"/>
+        </lang-item>
+      </xsl:for-each-group>
+    </xsl:variable>
+    <xsl:copy>
+      <xsl:apply-templates select="@*[not(local-name='lang')]"/>
+      <xsl:variable name="segLang" select="$languages/key('language-cnt', xs:string(max(tei:lang-item/@cnt)))"/>
+      <xsl:attribute name="xml:lang">
+        <xsl:choose>
+          <xsl:when test="count($segLang) > 1">uk</xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$segLang/text()"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      <xsl:copy-of select="$segment-content"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="tei:tmpLangSeg" mode="process-languages">
+    <xsl:apply-templates mode="process-languages"/>
+  </xsl:template>
+
+  <xsl:template match="tei:s" mode="process-languages">
+    <xsl:copy>
+      <xsl:apply-templates select="@*[not(local-name='lang')]"/>
+      <xsl:apply-templates select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+      <xsl:apply-templates mode="process-languages"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="*" mode="process-languages">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="process-languages"/>
+    </xsl:copy>
   </xsl:template>
 
   <xsl:template name="add-bibl-title">
@@ -731,7 +875,7 @@
       </xsl:if>
     </respStmt>
     <xsl:element name="respStmt">
-      <persName>
+      <persName ref="https://orcid.org/0000-0001-6414-7456">
         <xsl:if test="$context='teiCorpus'">
           <xsl:attribute name="xml:id">AnnaKryvenko</xsl:attribute>
         </xsl:if>
@@ -742,15 +886,30 @@
       <resp xml:lang="en">Translations</resp>
       <resp xml:lang="uk">Переклад</resp>
     </xsl:element>
+    <xsl:element name="respStmt">
+      <persName>
+        <xsl:if test="$context='teiCorpus'">
+          <xsl:attribute name="xml:id">AndrianaRii</xsl:attribute>
+        </xsl:if>
+        <xsl:text>Andriana Rii</xsl:text>
+      </persName>
+      <resp xml:lang="en">Manual metadata retrieval</resp>
+      <resp xml:lang="uk">Ручне збирання метаданих</resp>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template name="add-funder">
     <funder>
       <orgName xml:lang="en">CLARIN ERIC</orgName>
+      <orgName xml:lang="uk">Загальна дослідницька інфраструктура мовних ресурсів і технологій</orgName>
     </funder>
     <funder>
       <orgName xml:lang="en">Slovenian Research Agency</orgName>
       <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
+    </funder>
+    <funder>
+      <orgName xml:lang="en">CLARIN.SI</orgName>
+      <orgName xml:lang="uk">Словенська дослідницька інфраструктура мовних ресурсів і технологій</orgName>
     </funder>
   </xsl:template>
 
@@ -778,12 +937,15 @@
 
   <xsl:template name="add-publicationStmt">
     <publicationStmt>
-      <publisher>
-        <orgName xml:lang="en">CLARIN research infrastructure</orgName>
-        <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
-        <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
-      </publisher>
-      <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+      <xsl:copy-of select="$publisher"/>
+      <xsl:choose>
+        <xsl:when test="$type = 'TEI'">
+          <idno type="URI" subtype="handle"><xsl:value-of select="$handle-txt"/></idno>
+        </xsl:when>
+        <xsl:when test="$type = 'TEI.ana'">
+          <idno type="URI" subtype="handle"><xsl:value-of select="$handle-ana"/></idno>
+        </xsl:when>
+      </xsl:choose>
       <availability status="free">
         <licence>http://creativecommons.org/licenses/by/4.0/</licence>
         <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
@@ -795,8 +957,10 @@
 
   <xsl:template name="add-projectDesc">
     <projectDesc>
-      <p xml:lang="uk"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівняльних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
       <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+      <p xml:lang="en">The Ukrainian parliamentary corpus ParlaMint-UA 4.0.1 is an extended version of the ParlaMint-UA corpus covering the period between 2002 and late 2023 and providing language identification at the sentence level to facilitate research on code-switching.</p>
+      <p xml:lang="uk"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівняльних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
+      <p xml:lang="uk">Український парламентський корпус ParlaMint-UA 4.0.1 — це розширена версія корпусу ParlaMint-UA, яка охоплює період між 2002 і кінцем 2023 року та забезпечує ідентифікацію мови на рівні речень для сприяння дослідженям процесів перемикання мовних кодів.</p>
     </projectDesc>
   </xsl:template>
 </xsl:stylesheet>

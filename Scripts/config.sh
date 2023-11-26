@@ -7,13 +7,16 @@ download_dir=download
 checksum_file=download-checksum.txt
 seen_file=download-seen.txt
 html2tei_text=tei-text
-tei_lang=tei-text-lang
+tei_lang=DEPRECATED-tei-text-lang
 html2tei_text_speakers=tei-text-speakers
 tei_UD=tei-UD
 speaker_calls=speaker-calls
 link_speakers=link-speakers
 mismatching_speakers=mismatching-speakers
 
+tsv_sentences=tsv-sentences
+tsv_sentences_lang=tsv-sentences-lang
+tei_sentences=tei-sentences
 
 url_meta() {
   echo "https://data.rada.gov.ua/ogd/zal/stenogram/skl$1/meta.xml"

@@ -1,16 +1,20 @@
 .DEFAULT_GOAL := help
 
-s = java -jar /usr/share/java/saxon.jar
-xpath = xargs -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -s:% -qs:
+JAVA-MEMORY =
+JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
+
+s = java $(JM) -jar /usr/share/java/saxon.jar
+xpath = xargs -I % java $(JM) -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -s:% -qs:
 
 
 ##$TERMS## Terms that are processed.
-TERMS = 7 8 9
+TERMS = 4 5 6 7 8 9
 TERMSMETA = 2 3 4 5 6 7 8 9
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATA := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA" || pwd')
 DATADIR = ${DATA}/Data
 TAXONOMIES := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA/current/Taxonomies" || echo -n `pwd`"/Taxonomies"')
+STATICDATA := $(shell sh -c 'test `hostname` = "parczech" && echo -n "/opt/ParlaMint-UA/current/DataStatic" || echo -n `pwd`"/DataStatic"')
 
 UPDATE =
 ISUPDATE := $(shell sh -c 'test "$(UPDATE)" = "" || echo -n "-update"')
@@ -38,7 +42,7 @@ download-NN = $(addprefix download-, $(TERMS))
 download: $(download-NN)
 ## download-NN ## Downloads new data from term NN
 $(download-NN): download-%:
-	./Scripts/download.sh -t $* -d $(DATE) -O $(DATADIR) -c Scripts/config.sh || echo "$@: NO NEW DATA"
+	./Scripts/download.sh -t $* -d $(DATE) -s $(STATICDATA) -O $(DATADIR) -c Scripts/config.sh || echo "$@: NO NEW DATA"
 
 
 
@@ -71,17 +75,17 @@ $(html2tei-text-RUN-ALL): html2tei-text-%:
 	                           $(PROCESS_SUBSET)
 
 
-tei-text-lang-RUN-ALL = $(addprefix tei-text-lang-, $(TEI-TEXT_DATA_ALL))
-tei-text-lang-RUN-LAST = $(addprefix tei-text-lang-, $(TEI-TEXT_DATA_LAST))
-## tei-text-lang ## tei-text-langs
-tei-text-lang: tei-text-lang-last
-tei-text-lang-last: $(tei-text-lang-RUN-LAST)
-tei-text-lang-all: $(tei-text-lang-RUN-ALL)
+DEPRECATED-tei-text-lang-RUN-ALL = $(addprefix DEPRECATED-tei-text-lang-, $(TEI-TEXT_DATA_ALL))
+DEPRECATED-tei-text-lang-RUN-LAST = $(addprefix DEPRECATED-tei-text-lang-, $(TEI-TEXT_DATA_LAST))
+## DEPRECATED-tei-text-lang ## tei-text-langs
+DEPRECATED-tei-text-lang: DEPRECATED-tei-text-lang-last
+DEPRECATED-tei-text-lang-last: $(DEPRECATED-tei-text-lang-RUN-LAST)
+DEPRECATED-tei-text-lang-all: $(DEPRECATED-tei-text-lang-RUN-ALL)
 
-## tei-text-lang-RUN ##
-$(tei-text-lang-RUN-ALL): tei-text-lang-%:
-	mkdir -p $(DATADIR)/tei-text-lang/$*/
-	rm -rf $(DATADIR)/tei-text-lang/$*/*
+## DEPRECATED-tei-text-lang-RUN ##
+$(DEPRECATED-tei-text-lang-RUN-ALL): DEPRECATED-tei-text-lang-%:
+	mkdir -p $(DATADIR)/DEPRECATED-tei-text-lang/$*/
+	rm -rf $(DATADIR)/DEPRECATED-tei-text-lang/$*/*
 	./Scripts/lang-detect.pl   --id $* \
 	                           --data-dir "$(DATADIR)" \
 	                           --config Scripts/config.sh \
@@ -92,24 +96,96 @@ $(tei-text-lang-RUN-ALL): tei-text-lang-%:
 
 
 
-TEI-TEXT-LANG_DATA_LAST := $(shell ls $(DATADIR)/tei-text-lang | grep -v '_' | sort -r | head -n1)
-TEI-TEXT-LANG_DATA_ALL := $(shell ls $(DATADIR)/tei-text-lang )
 
-link-speakers2tei-text-RUN-ALL = $(addprefix link-speakers2tei-text-, $(TEI-TEXT-LANG_DATA_ALL))
-link-speakers2tei-text-RUN-LAST = $(addprefix link-speakers2tei-text-, $(TEI-TEXT-LANG_DATA_LAST))
-## link-speakers2tei-text ## link-speakers2tei-texts
+tei-text-sententize-RUN-ALL = $(addprefix tei-text-sententize-, $(TEI-TEXT_DATA_ALL))
+tei-text-sententize-RUN-LAST = $(addprefix tei-text-sententize-, $(TEI-TEXT_DATA_LAST))
+## tei-text-sententize ## tei-text-sententizes
+tei-text-sententize: tei-text-sententize-last
+tei-text-sententize-last: $(tei-text-sententize-RUN-LAST)
+tei-text-sententize-all: $(tei-text-sententize-RUN-ALL)
+
+## tei-text-sententize-RUN ##
+$(tei-text-sententize-RUN-ALL): tei-text-sententize-%:
+	mkdir -p $(DATADIR)/tsv-sentences/$*/
+	mkdir -p $(DATADIR)/tei-sentences/$*/
+	rm -rf $(DATADIR)/tsv-sentences/$*/*
+	rm -rf $(DATADIR)/tei-sentences/$*/*
+	./Scripts/sententizer.pl   --id $* \
+	                           --data-dir "$(DATADIR)" \
+	                           --config Scripts/config.sh \
+	                           --model "Scripts/models/ukrainian-iu-ud-2.5-191206.udpipe"
+
+
+
+
+TSV-SENT_DATA_LAST := $(shell ls $(DATADIR)/tsv-sentences | grep -v '_' | sort -r | head -n1)
+TSV-SENT_DATA_ALL := $(shell ls $(DATADIR)/tsv-sentences )
+
+tsv-sent-lang-RUN-ALL = $(addprefix tsv-sent-lang-, $(TSV-SENT_DATA_ALL))
+tsv-sent-lang-RUN-LAST = $(addprefix tsv-sent-lang-, $(TSV-SENT_DATA_LAST))
+## tsv-sent-lang ## tsv-sent-langs
+tsv-sent-lang: tsv-sent-lang-last
+tsv-sent-lang-last: $(tsv-sent-lang-RUN-LAST)
+tsv-sent-lang-all: $(tsv-sent-lang-RUN-ALL)
+
+## tsv-sent-lang-RUN ## label sentences in tsv file with language
+$(tsv-sent-lang-RUN-ALL): tsv-sent-lang-%: lingua-py
+	mkdir -p $(DATADIR)/tsv-sent-lang/$*/
+	rm -rf $(DATADIR)/tsv-sent-lang/$*/*
+	echo "TEMPORARY LANGUAGE IDENTIFICATION"
+	#cp -r $(DATADIR)/tsv-sentences/$*/* $(DATADIR)/tsv-sent-lang/$*
+	python3 Scripts/lang-ident.py --indir "$(DATADIR)/tsv-sentences/$*" --outdir "$(DATADIR)/tsv-sent-lang/$*"
+	# find $(DATADIR)/tsv-sent-lang/$* -type f | xargs -I {} echo "TODO: {}"
+
+
+
+
+
+TSV-SENT-LANG_DATA_LAST := $(shell ls $(DATADIR)/tsv-sent-lang | grep -v '_' | sort -r | head -n1)
+TSV-SENT-LANG_DATA_ALL := $(shell ls $(DATADIR)/tsv-sent-lang )
+
+tei-text-span-lang-RUN-ALL = $(addprefix tei-text-span-lang-, $(TSV-SENT-LANG_DATA_ALL))
+tei-text-span-lang-RUN-LAST = $(addprefix tei-text-span-lang-, $(TSV-SENT-LANG_DATA_LAST))
+## tei-text-span-lang ## tei-text-span-langs
+tei-text-span-lang: tei-text-span-lang-last
+tei-text-span-lang-last: $(tei-text-span-lang-RUN-LAST)
+tei-text-span-lang-all: $(tei-text-span-lang-RUN-ALL)
+
+## tei-text-span-lang-RUN ## insert sentence language labels to tei file and merge adjected sentences with the same language
+$(tei-text-span-lang-RUN-ALL): tei-text-span-lang-%:
+	mkdir -p $(DATADIR)/tei-text-span-lang/$*/
+	rm -rf $(DATADIR)/tei-text-span-lang/$*/*
+	echo "TEMPORARY MERGING SENTENCES TO SPANs with the same languege	"
+	$s -xsl:Scripts/lang-insert.xsl \
+	   -o:$(DATADIR)/tei-text-span-lang/$*/ParlaMint-UA.xml \
+	      in-tei-dir="$(DATADIR)/tei-sentences/$*/" \
+	      in-tsv-dir="$(DATADIR)/tsv-sent-lang/$*/" \
+	      out-dir="$(DATADIR)/tei-text-span-lang/$*/" \
+	      $(DATADIR)/tei-text/$*/ParlaMint-UA.xml
+TEI-TEXT-SPAN-LANG_DATA_LAST := $(shell ls $(DATADIR)/tei-text-span-lang | grep -v '_' | sort -r | head -n1)
+TEI-TEXT-SPAN-LANG_DATA_ALL := $(shell ls $(DATADIR)/tei-text-span-lang )
+
+
+
+
+DEPRECATED-TEI-TEXT-LANG_DATA_LAST := $(shell ls $(DATADIR)/DEPRECATED-tei-text-lang | grep -v '_' | sort -r | head -n1)
+DEPRECATED-TEI-TEXT-LANG_DATA_ALL := $(shell ls $(DATADIR)/DEPRECATED-tei-text-lang )
+
+link-speakers2tei-text-RUN-ALL = $(addprefix link-speakers2tei-text-, $(TEI-TEXT_DATA_ALL))
+link-speakers2tei-text-RUN-LAST = $(addprefix link-speakers2tei-text-, $(TEI-TEXT_DATA_LAST))
+## link-speakers2tei-text ## link-speakers2tei-texts DEPRECATED???
 link-speakers2tei-text: link-speakers2tei-text-last
 link-speakers2tei-text-last: $(link-speakers2tei-text-RUN-LAST)
 link-speakers2tei-text-all: $(link-speakers2tei-text-RUN-ALL)
 
-## link-speakers2tei-text-RUN ##
+## link-speakers2tei-text-RUN ## DEPRECATED ???
 $(link-speakers2tei-text-RUN-ALL): link-speakers2tei-text-%:
 	mkdir -p $(DATADIR)/tei-text-speakers/$*/
 	rm -rf $(DATADIR)/tei-text-speakers/$*/*
 	$s -xsl:Scripts/link-speakers2tei-text.xsl \
 	   -o:$(DATADIR)/tei-text-speakers/$*/ParlaMint-UA.xml \
 	      speaker-links="$(DATADIR)/tei-particDesc-aliases/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv" \
-	      in-dir="$(DATADIR)/tei-text-lang/$*/" \
+	      in-dir="$(DATADIR)/tei-text/$*/" \
 	      out-dir="$(DATADIR)/tei-text-speakers/$*/" \
 	      $(DATADIR)/tei-text/$*/ParlaMint-UA.xml
 
@@ -160,16 +236,16 @@ $(mismatching-speakers-RUN-ALL): mismatching-speakers-%:
 
 TEI-TEXT-SPEAKERS_DATA_LAST := $(shell ls $(DATADIR)/tei-text-speakers | grep -v '_' | sort -r | head -n1)
 TEI-TEXT-SPEAKERS_DATA_ALL := $(shell ls $(DATADIR)/tei-text-speakers )
-tei-UD-RUN-LAST = $(addprefix tei-UD-, $(TEI-TEXT-LANG_DATA_LAST))
-tei-UD-RUN-ALL = $(addprefix tei-UD-, $(TEI-TEXT-LANG_DATA_ALL))
-tei-UD: tei-UD-last
-tei-UD-last: $(tei-UD-RUN-LAST)
-tei-UD-all: $(tei-UD-RUN-ALL)
+DEPRECATED-tei-UD-RUN-LAST = $(addprefix DEPRECATED-tei-UD-, $(DEPRECATED-TEI-TEXT-LANG_DATA_LAST))
+DEPRECATED-tei-UD-RUN-ALL = $(addprefix DEPRECATED-tei-UD-, $(DEPRECATED-TEI-TEXT-LANG_DATA_ALL))
+DEPRECATED-tei-UD: DEPRECATED-tei-UD-last
+DEPRECATED-tei-UD-last: $(DEPRECATED-tei-UD-RUN-LAST)
+DEPRECATED-tei-UD-all: $(DEPRECATED-tei-UD-RUN-ALL)
 
-$(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
-	mkdir -p $(DATADIR)/tei-UD/$*/
-	find $(DATADIR)/tei-text-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > $(DATADIR)/tei-UD/$*.fl
-	cp $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml $(DATADIR)/tei-UD/$*/
+$(DEPRECATED-tei-UD-RUN-ALL): DEPRECATED-tei-UD-%: lib udpipe2
+	mkdir -p $(DATADIR)/DEPRECATED-tei-UD/$*/
+	find $(DATADIR)/DEPRECATED-tei-text-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > $(DATADIR)/DEPRECATED-tei-UD/$*.fl
+	cp $(DATADIR)/DEPRECATED-tei-text-lang/$*/ParlaMint-UA.xml $(DATADIR)/DEPRECATED-tei-UD/$*/
 	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
 	                             $(TOKEN) \
 	                             --model "uk:ukrainian-iu-ud-2.10-220711" \
@@ -178,8 +254,31 @@ $(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
 	                             --debug \
 	                             --no-space-in-punct \
 	                             --try2continue-on-error \
+	                             --filelist $(DATADIR)/DEPRECATED-tei-UD/$*.fl \
+	                             --input-dir $(DATADIR)/DEPRECATED-tei-text-lang/$*/ \
+	                             --output-dir $(DATADIR)/DEPRECATED-tei-UD/$*/
+
+
+tei-UD-RUN-LAST = $(addprefix tei-UD-, $(TEI-TEXT--SPANLANG_DATA_LAST))
+tei-UD-RUN-ALL = $(addprefix tei-UD-, $(TEI-TEXT-SPAN-LANG_DATA_ALL))
+tei-UD: tei-UD-last
+tei-UD-last: $(tei-UD-RUN-LAST)
+tei-UD-all: $(tei-UD-RUN-ALL)
+
+$(tei-UD-RUN-ALL): tei-UD-%: lib udpipe2
+	mkdir -p $(DATADIR)/tei-UD/$*/
+	find $(DATADIR)/tei-text-span-lang/$*/ -type f -printf "%P\n" |sort| grep 'ParlaMint-UA_' > $(DATADIR)/tei-UD/$*.fl
+	cp $(DATADIR)/tei-text-span-lang/$*/ParlaMint-UA.xml $(DATADIR)/tei-UD/$*/
+	perl -I lib udpipe2/udpipe2.pl --colon2underscore \
+	                             $(TOKEN) \
+	                             --model "uk:ukrainian-iu-ud-2.12-230717" \
+	                             --model "ru:russian-syntagrus-ud-2.12-230717" \
+	                             --elements "tmpLangSeg" \
+	                             --debug \
+	                             --no-space-in-punct \
+	                             --try2continue-on-error \
 	                             --filelist $(DATADIR)/tei-UD/$*.fl \
-	                             --input-dir $(DATADIR)/tei-text-lang/$*/ \
+	                             --input-dir $(DATADIR)/tei-text-span-lang/$*/ \
 	                             --output-dir $(DATADIR)/tei-UD/$*/
 
 
@@ -368,7 +467,11 @@ $(check-tei-particDesc-gov-update-RUN-LAST): check-tei-particDesc-gov-update-%:
 		test "$$status" = 'ERROR' && echo "ERROR: updates or deletes was done in google sheet" && exit 1 || : \
 	)
 
-
+tei-particDesc-FASTupdate-RUN-LAST = $(addprefix tei-particDesc-FASTupdate-, $(DOWNLOAD_META_DATA_LAST))
+tei-particDesc-FASTupdate: $(tei-particDesc-FASTupdate-RUN-LAST)
+$(tei-particDesc-FASTupdate-RUN-LAST): tei-particDesc-FASTupdate-%:
+	mkdir -p $(DATADIR)/tei-particDesc-update/$*
+	rsync -a $(DATADIR)/tei-particDesc/$*/ $(DATADIR)/tei-particDesc-update/$*
 
 
 
@@ -381,6 +484,12 @@ $(listPerson-aliases-update-RUN-LAST): listPerson-aliases-update-%:
 	  org-list="GOV.UA ВРУ" \
 	  $(DATADIR)/tei-particDesc-update/$(DOWNLOAD_META_DATA_LAST)/ParlaMint-UA-listPerson.xml \
 	  > $(DATADIR)/listPerson-aliases-update/$*/mp-data-aliases.tsv
+
+listPerson-aliases-FASTupdate-RUN-LAST = $(addprefix listPerson-aliases-FASTupdate-, $(DOWNLOAD_META_DATA_LAST))
+listPerson-aliases-FASTupdate: $(listPerson-aliases-FASTupdate-RUN-LAST)
+$(listPerson-aliases-FASTupdate-RUN-LAST): listPerson-aliases-FASTupdate-%:
+	mkdir -p $(DATADIR)/listPerson-aliases-update/$*
+	rsync -a $(DATADIR)/tei-particDesc-aliases/$*/ $(DATADIR)/listPerson-aliases-update/$*
 
 
 link-speakers-update-RUN-ALL = $(addprefix link-speakers-update-, $(TEI-TEXT_DATA_ALL))
@@ -401,6 +510,18 @@ $(link-speakers-update-RUN-ALL): link-speakers-update-%:
 	                           --out-dir-name "link-speakers-update" \
 	                           --linking "$(DATADIR)/link-speakers/$*/speaker-person-links.tsv" \
 	                           --speaker-aliases "$(DATADIR)/listPerson-aliases-update/$(DOWNLOAD_META_DATA_LAST)/mp-data-aliases.tsv"
+
+link-speakers-FASTupdate-RUN-ALL = $(addprefix link-speakers-FASTupdate-, $(TEI-TEXT_DATA_ALL))
+link-speakers-FASTupdate-RUN-LAST = $(addprefix link-speakers-FASTupdate-, $(TEI-TEXT_DATA_LAST))
+## link-speakers-FASTupdate ## link-speakers-FASTupdates
+link-speakers-FASTupdate: link-speakers-FASTupdate-last
+link-speakers-FASTupdate-last: $(link-speakers-FASTupdate-RUN-LAST)
+link-speakers-FASTupdate-all: $(link-speakers-FASTupdate-RUN-ALL)
+
+## link-speakers-FASTupdate-RUN ##
+$(link-speakers-FASTupdate-RUN-ALL): link-speakers-FASTupdate-%:
+	mkdir -p $(DATADIR)/link-speakers-update/$*/
+	rsync -a $(DATADIR)/link-speakers/$*/ $(DATADIR)/link-speakers-update/$*
 
 
 utterance-who-ana-RUN-ALL = $(addprefix utterance-who-ana-, $(TEI-TEXT_DATA_ALL))
@@ -440,7 +561,7 @@ $(listPerson-affiliation-fix-RUN-LAST): listPerson-affiliation-fix-%:
 
 ######
 
-PARTICDESC_DATA_LAST := $(shell ls $(DATADIR)/tei-particDesc | grep -v '_' | sort -r | head -n1)
+PARTICDESC_DATA_LAST := $(shell ls $(DATADIR)/tei-particDesc-update | grep -v '_' | sort -r | head -n1)
 
 
 TEI.ana-RUN-ALL = $(addprefix TEI.ana-, $(TEI-NER_DATA_ALL))
@@ -473,6 +594,7 @@ TEI-all: $(TEI-RUN-ALL)
 $(TEI-RUN-ALL): TEI-%:
 	mkdir -p $(DATADIR)/release/$*
 	echo "TODO: add final speaker person linking param (utterance-who-ana.tsv)"
+	echo "TODO: add language from .ana.xml !!!"
 	$s -xsl:Scripts/ParlaMint-UA-finalize.xsl \
 	    outDir=$(DATADIR)/release/$* \
 	    inListPerson=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana/ParlaMint-UA-listPerson.xml  \
@@ -481,7 +603,7 @@ $(TEI-RUN-ALL): TEI-%:
 	    anaDir=$(DATADIR)/release/$*/ParlaMint-UA.TEI.ana \
 	    speakers=$(DATADIR)/utterance-who-ana/$*/utterance-who-ana.tsv \
 	    type=TEI \
-	    $(DATADIR)/tei-text-lang/$*/ParlaMint-UA.xml
+	    $(DATADIR)/tei-text/$*/ParlaMint-UA.xml
 
 
 ###### other:
@@ -579,6 +701,40 @@ $(DEV-prepare-test-downdata): DEV-prepare-test-downdata-%:
 	cat FileLists/$*.fl|xargs -I {} cp -f $(DATADIR)/download/$(DOWNLOAD_DATA_LAST)/{} $(DATADIR)/download/_$*/
 
 
+
+
+TEST-SET-NAME = default-test-set-name
+TEST-SET-REG = default-test-set-reg
+
+
+## DEV-create-test-set-NAME
+DEV-create-test-set: DEV-create-test-set-$(TEST-SET-NAME)
+
+DEV-create-test-set-$(TEST-SET-NAME):
+	mkdir $(DATADIR)/download/_$(TEST-SET-NAME)
+	touch $(DATADIR)/download/_$(TEST-SET-NAME)/download-seen.txt
+	grep -P '^[^_].*(?:$(TEST-SET-REG))' $(DATADIR)/download-seen.txt > $(DATADIR)/download/_$(TEST-SET-NAME)/download-seen.txt || :
+	cut -f1,6 $(DATADIR)/download/_$(TEST-SET-NAME)/download-seen.txt|sed 's#^\(.*\)\t\(.*\)$$#cp $(DATADIR)/download/\1/\2 $(DATADIR)/download/_$(TEST-SET-NAME)/\2#'|sh
+	cat $(DATADIR)/download/_$(TEST-SET-NAME)/download-seen.txt |sed 's#^[^\t]*#_$(TEST-SET-NAME)#' >> $(DATADIR)/download-seen.txt
+
+# ISSUE 69:
+# make DEV-create-test-set TEST-SET-NAME=ISSUE-69 TEST-SET-REG='/(?:1192|11|1269|1394|1395|1402|1465|1534|1553|1734|1832|1982|2037|2041|545|680|785)\.html'
+# ParlaMint-SAMPLE-DATA:
+# make DEV-create-test-set TEST-SET-NAME=ParlaMint-SAMPLE-DATA TEST-SET-REG='(?:20020521|20030417|20031105|20051115-1|20060725-1|20070405-1|20080401|20090701|20100427|20111220-1|20120427|20131022-1|20140325-1|20150317|20160616-1|20171206-1|20180712-1|20191217|20200424|20210330|20221018|20230726)\.htm\t'
+# ISSUE 72:
+# make DEV-create-test-set TEST-SET-NAME=ISSUE-72 TEST-SET-REG='(?:20110113|20111006|20111020|20111116|20111117-1|20120412-1|20120413|20120524-1|20120619|20140617|20140701|20140731)\.htm\t'
+# ISSUE 74:
+# make DEV-create-test-set TEST-SET-NAME=ISSUE-74 TEST-SET-REG='(?:20100413-1)\.htm\t'
+
+
+
+## DEV-remove-test-set-NAME
+DEV-remove-test-set-$(TEST-SET-NAME):
+	rm -rf $(DATADIR)/download/_$(TEST-SET-NAME)
+	sed -i '/^_$(TEST-SET-NAME)\t/d' $(DATADIR)/download-seen.txt
+
+
+
 ######---------------
 prereq: udpipe2 nametag2 lib
 
@@ -588,6 +744,9 @@ nametag2:
 	svn checkout https://github.com/ufal/ParCzech/trunk/src/nametag2
 lib:
 	svn checkout https://github.com/ufal/ParCzech/trunk/src/lib
+
+lingua-py:
+	test -d Scripts/lingua || svn export --revision 206 https://github.com/pemistahl/lingua-py/trunk/lingua Scripts/lingua
 ######---------------
 
 _help-intro:
